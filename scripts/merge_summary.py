@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -29,6 +30,10 @@ def validate(item: dict) -> None:
             raise ValueError(f"{item['id']}: malformed chapter")
         if chapter["source"] not in {"creator", "generated"}:
             raise ValueError(f"{item['id']}: invalid chapter source")
+        description = str(chapter.get("description", "")).strip()
+        sentence_count = len(re.findall(r"[.!?](?:\s|$)", description))
+        if len(description) < 180 or sentence_count < 2:
+            raise ValueError(f"{item['id']}: chapter descriptions must be detailed 2+ sentence paragraphs")
 
 
 def merge(summary_path: Path, root: Path = ROOT) -> list[dict]:

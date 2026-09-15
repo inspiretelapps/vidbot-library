@@ -16,6 +16,9 @@ def render(root: Path = ROOT) -> dict:
     public = root / "public"
     public.mkdir(parents=True, exist_ok=True)
     shutil.copy2(root / "site/index.html", public / "index.html")
+    logo = root / "site/inspiretel-logo.png"
+    if logo.exists():
+        shutil.copy2(logo, public / "inspiretel-logo.png")
     payload = {
         "playlist": {"title": config["playlist_title"], "url": config["playlist_url"]},
         "schedule": config["scan_times"],

@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -29,7 +30,8 @@ class PipelineTests(unittest.TestCase):
     def test_merge_marks_seen_only_after_valid_summary(self):
         td, root = self.fixture()
         try:
-            summary = [{"id":"abcdefghijk","title":"A","summary":"S","why_valuable":"V","chapters":[{"start_seconds":0,"title":"Intro","description":"D","source":"generated"}]}]
+            detail = "This chapter explains the central idea with enough context to understand what the speaker is demonstrating. It also identifies the practical lesson and why that part of the discussion matters to the viewer."
+            summary = [{"id":"abcdefghijk","title":"A","summary":"S","why_valuable":"V","chapters":[{"start_seconds":0,"title":"Intro","description":detail,"source":"generated"}]}]
             source = root / "summary.json"; source.write_text(json.dumps(summary))
             merge_mod.merge(source, root)
             state = json.loads((root / "data/state.json").read_text())
@@ -52,5 +54,13 @@ class PipelineTests(unittest.TestCase):
             payload = json.loads((root / "public/videos.json").read_text())
             self.assertEqual("Test", payload["playlist"]["title"])
         finally: td.cleanup()
+
+    def test_library_chapters_are_detailed(self):
+        videos = json.loads((ROOT / "data/videos.json").read_text())
+        chapters = [chapter for video in videos for chapter in video["chapters"]]
+        self.assertGreater(len(chapters), 0)
+        for chapter in chapters:
+            self.assertGreaterEqual(len(chapter["description"]), 180)
+            self.assertGreaterEqual(len(re.findall(r"[.!?](?:\s|$)", chapter["description"])), 2)
 
 if __name__ == "__main__": unittest.main()
