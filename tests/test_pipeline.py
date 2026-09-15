@@ -55,6 +55,15 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual("Test", payload["playlist"]["title"])
         finally: td.cleanup()
 
+    def test_site_offers_local_archive_workflow(self):
+        html = (ROOT / "site/index.html").read_text()
+        self.assertIn("YouSummary", html)
+        self.assertNotIn("View Summary", html)
+        self.assertIn("yousummary-archived", html)
+        self.assertIn("data-view=\"archive\"", html)
+        self.assertIn("type=\"checkbox\"", html)
+        self.assertNotIn("Watch on YouTube", html)
+
     def test_library_chapters_are_detailed(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())
         chapters = [chapter for video in videos for chapter in video["chapters"]]
