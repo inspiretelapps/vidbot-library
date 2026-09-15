@@ -9,7 +9,10 @@ python3 scripts/scan_playlist.py
 python3 scripts/merge_summary.py /path/to/summaries.json
 python3 scripts/render_site.py
 python3 -m unittest discover -s tests -v
+./scripts/deploy_pages.sh
 ```
+
+The production site is `https://inspiretelapps.github.io/vidbot-library/`. After a successful summary merge and tests, `scripts/deploy_pages.sh` pushes `main` and publishes the clean `public/` subtree to `gh-pages`.
 
 `scan_playlist.py` writes `data/pending.json` but does **not** mark a video complete. A video is added to `data/state.json` only after a valid summary is merged, so failed transcript or model runs are retried.
 

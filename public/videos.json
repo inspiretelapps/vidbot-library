@@ -10,8 +10,93 @@
     "18:00"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-15T20:37:27+02:00",
+  "updated_at": "2026-09-15T20:40:35+02:00",
   "videos": [
+    {
+      "id": "mUAsaprJ66s",
+      "title": "Instinct AI: The AI Assistant for normal people",
+      "channel": "Greg Isenberg",
+      "upload_date": "2026-09-15",
+      "duration_seconds": 1650,
+      "thumbnail": "https://i.ytimg.com/vi/mUAsaprJ66s/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mUAsaprJ66s",
+      "summary": "Greg Isenberg and Remy Gaskell walk through Instinct, an invite-only personal agent designed around iMessage rather than a technical agent interface. Remy praises its concise replies, reactions, voice-note support, memory, fast hidden computer use and native Apple messaging touches. Onboarding requires only a phone number, while a simple web workspace manages contact methods, email and other connectors, saved addresses, credentials and payment cards. They position it as a mass-market personal assistant for errands—not as a replacement for coding or business agents.\n\nThe demonstration covers real tasks. Instinct researches Copenhagen salons, works around a Danish-phone-number requirement by emailing one and later confirms the haircut; it books a restaurant after Remy supplies a spend-limited virtual card and adds the reservation to his calendar. It also gathers the information needed for a Bali visa on arrival and arrival card, reconstructs recent travel from email and Airbnb receipts, and creates an Emirates Skywards account. The agent sometimes hits walls when a task requires an unsupported app or checkout flow, and its silence during background work initially causes uncertainty. More seriously, the hosts cite user reports and terms-of-service concerns suggesting email may remain indexed after Google is disconnected, so they treat privacy and data retention as unresolved risks rather than settled details.",
+      "why_valuable": "This is a concrete look at what a consumer agent can accomplish when technical complexity is hidden behind familiar messaging. It offers useful product lessons on onboarding, human-feeling interaction, bounded payment risk, agent-to-agent network effects and asynchronous status feedback, while showing that convenience must be weighed against access to email, credentials, cards, passport data and uncertain retention policies.",
+      "key_takeaways": [
+        "A phone-number-and-iMessage onboarding flow makes agent capabilities accessible without MCP, CLI or configuration knowledge.",
+        "Instinct completed multi-step personal errands across research, email, web forms, payments and calendar updates.",
+        "A separate virtual card with a spending limit can reduce—but not eliminate—the financial risk of agent purchases.",
+        "Unsupported apps, regional checkout requirements and sparse progress feedback still interrupt otherwise smooth workflows.",
+        "Email indexing and retention reports make privacy due diligence essential before connecting sensitive accounts."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Greg introduces the invite-only personal agent and promises a grounded look at its use cases, strengths and limitations.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 128,
+          "timestamp": "02:08",
+          "title": "Instinct Pros",
+          "description": "Remy highlights concise dialogue, native iMessage behavior, memory, proactive follow-up, fast computer use and the proposed trusted-person agent network.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 678,
+          "timestamp": "11:18",
+          "title": "Instinct Cons",
+          "description": "The discussion turns to privacy and security, including cited reports that indexed email remained available after users disconnected Google.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 796,
+          "timestamp": "13:16",
+          "title": "Simple Onboarding",
+          "description": "A phone-number sign-in opens directly into iMessage, with native effects and visual examples replacing technical setup concepts.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 919,
+          "timestamp": "15:19",
+          "title": "Tools and Connectors",
+          "description": "The companion workspace exposes messaging channels, email and productivity connectors, payment links, and a vault for credentials, cards and addresses.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1063,
+          "timestamp": "17:43",
+          "title": "Example 1: Booking a Haircut in Copenhagen",
+          "description": "Instinct researches salons and reviews, shares photos, works around a local-phone-number barrier by email and follows up with a confirmed appointment.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1224,
+          "timestamp": "20:24",
+          "title": "Example 2: Restaurant Booking and Calendar Entry",
+          "description": "The agent finds availability, requests a card for the no-show hold, books the table and adds it to the calendar; Remy limits risk with a capped virtual card.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1383,
+          "timestamp": "23:03",
+          "title": "Example 3: Bali Visa on Arrival and Emirates Skywards",
+          "description": "Instinct gathers passport and travel details, prepares the visa and arrival documentation, and opens a loyalty account for in-flight Wi-Fi.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1560,
+          "timestamp": "26:00",
+          "title": "Closing Thoughts",
+          "description": "The hosts argue that the familiar interface could provide nontechnical users with their first useful personal-agent experience.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-15T20:38:43+02:00",
+      "summarized_at": "2026-09-15T20:40:35+02:00"
+    },
     {
       "id": "O8cl4R5VEOI",
       "title": "How I'm Actually Using AI These Days",
