@@ -5,5 +5,5 @@ python3 scripts/render_site.py
 
 git push origin main
 sha="$(git subtree split --prefix public)"
-git push origin "${sha}:gh-pages"
+git push origin "${sha}:refs/heads/gh-pages"
 printf 'Published %s to GitHub Pages\n' "$sha"
