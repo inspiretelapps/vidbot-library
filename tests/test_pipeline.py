@@ -15,6 +15,7 @@ def module(name, path):
 
 merge_mod = module("merge_summary", ROOT / "scripts/merge_summary.py")
 render_mod = module("render_site", ROOT / "scripts/render_site.py")
+manual_refresh_mod = module("manual_refresh_server", ROOT / "scripts/manual_refresh_server.py")
 
 class PipelineTests(unittest.TestCase):
     def fixture(self):
@@ -63,6 +64,22 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("data-view=\"archive\"", html)
         self.assertIn("type=\"checkbox\"", html)
         self.assertNotIn("Watch on YouTube", html)
+
+    def test_site_offers_manual_playlist_refresh(self):
+        html = (ROOT / "site/index.html").read_text()
+        self.assertIn('id="refreshButton"', html)
+        self.assertIn("Run playlist scan now", html)
+        self.assertIn("/refresh/bf7abd0a6c618ad43854c54de8dd4a7700b51796edbd65e5", html)
+
+    def test_manual_refresh_rejects_wrong_origin_and_throttles(self):
+        gate = manual_refresh_mod.RefreshGate(
+            allowed_origin="https://inspiretelapps.github.io",
+            cooldown_seconds=900,
+        )
+        self.assertEqual((False, 403), gate.allow("https://example.com", now=1000))
+        self.assertEqual((True, 202), gate.allow("https://inspiretelapps.github.io", now=1000))
+        self.assertEqual((False, 429), gate.allow("https://inspiretelapps.github.io", now=1100))
+        self.assertEqual((True, 202), gate.allow("https://inspiretelapps.github.io", now=1901))
 
     def test_library_chapters_are_detailed(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())
