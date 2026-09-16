@@ -32,7 +32,7 @@ class PipelineTests(unittest.TestCase):
         td, root = self.fixture()
         try:
             detail = "This chapter explains the central idea with enough context to understand what the speaker is demonstrating. It also identifies the practical lesson and why that part of the discussion matters to the viewer."
-            summary = [{"id":"abcdefghijk","title":"A","summary":"S","why_valuable":"V","chapters":[{"start_seconds":0,"title":"Intro","description":detail,"source":"generated"}]}]
+            summary = [{"id":"abcdefghijk","title":"A","description":"Full creator description with https://example.test/resource","summary":"S","why_valuable":"V","chapters":[{"start_seconds":0,"title":"Intro","description":detail,"source":"generated"}]}]
             source = root / "summary.json"; source.write_text(json.dumps(summary))
             merge_mod.merge(source, root)
             state = json.loads((root / "data/state.json").read_text())
@@ -43,7 +43,7 @@ class PipelineTests(unittest.TestCase):
     def test_rejects_empty_chapters(self):
         td, root = self.fixture()
         try:
-            source = root / "summary.json"; source.write_text(json.dumps({"id":"abcdefghijk","title":"A","summary":"S","why_valuable":"V","chapters":[]}))
+            source = root / "summary.json"; source.write_text(json.dumps({"id":"abcdefghijk","title":"A","description":"Full creator description","summary":"S","why_valuable":"V","chapters":[]}))
             with self.assertRaises(ValueError): merge_mod.merge(source, root)
         finally: td.cleanup()
 
@@ -80,6 +80,35 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual((True, 202), gate.allow("https://inspiretelapps.github.io", now=1000))
         self.assertEqual((False, 429), gate.allow("https://inspiretelapps.github.io", now=1100))
         self.assertEqual((True, 202), gate.allow("https://inspiretelapps.github.io", now=1901))
+
+    def test_library_includes_full_descriptions_and_clickable_links(self):
+        videos = json.loads((ROOT / "data/videos.json").read_text())
+        self.assertTrue(videos)
+        self.assertTrue(all(str(video.get("description", "")).strip() for video in videos))
+        example = next(video for video in videos if video["id"] == "9a6oCFbs0O8")
+        self.assertIn("https://github.com/NVIDIA/SkillSpector", example["description"])
+        html = (ROOT / "site/index.html").read_text()
+        self.assertIn("Full video description", html)
+        self.assertIn("linkifyDescription", html)
+
+    def test_rejects_missing_full_description(self):
+        item = {
+            "id": "abcdefghijk",
+            "title": "A",
+            "summary": "S",
+            "why_valuable": "V",
+            "chapters": [{
+                "start_seconds": 0,
+                "title": "Intro",
+                "description": "This is a sufficiently detailed chapter sentence that explains the content and practical context clearly. This second sentence makes the chapter description complete and useful for testing.",
+                "source": "generated",
+            }],
+        }
+        with self.assertRaisesRegex(ValueError, "description"):
+            merge_mod.validate(item)
+        item["description"] = ""
+        with self.assertRaisesRegex(ValueError, "description"):
+            merge_mod.validate(item)
 
     def test_library_chapters_are_detailed(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())

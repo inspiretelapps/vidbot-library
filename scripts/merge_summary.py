@@ -9,7 +9,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = {"id", "title", "summary", "why_valuable", "chapters"}
+REQUIRED = {"id", "title", "description", "summary", "why_valuable", "chapters"}
 
 
 def load(path: Path, default):
@@ -23,6 +23,8 @@ def validate(item: dict) -> None:
     missing = REQUIRED - set(item)
     if missing:
         raise ValueError(f"{item.get('id', 'video')}: missing {sorted(missing)}")
+    if not str(item.get("description", "")).strip():
+        raise ValueError(f"{item['id']}: description must contain the full creator description")
     if not isinstance(item["chapters"], list) or not item["chapters"]:
         raise ValueError(f"{item['id']}: chapters must be a non-empty list")
     for chapter in item["chapters"]:
