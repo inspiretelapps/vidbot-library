@@ -78,6 +78,7 @@ def make_handler(token: str, gate: RefreshGate):
             self._cors()
             self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
             self.send_header("Access-Control-Allow-Headers", "Content-Type")
+            self.send_header("Access-Control-Allow-Private-Network", "true")
             self.send_header("Access-Control-Max-Age", "3600")
             self.end_headers()
 
