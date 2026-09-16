@@ -62,7 +62,12 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn("View Summary", html)
         self.assertIn("yousummary-archived", html)
         self.assertIn("data-view=\"archive\"", html)
-        self.assertIn("type=\"checkbox\"", html)
+        self.assertIn('class="archive-icon"', html)
+        self.assertIn("Archive this video", html)
+        self.assertIn('class="video-expand-toggle"', html)
+        self.assertIn('aria-expanded="false"', html)
+        self.assertIn('class="video-content" hidden', html)
+        self.assertNotIn("Archive after reading", html)
         self.assertNotIn("Watch on YouTube", html)
 
     def test_site_offers_manual_playlist_refresh(self):
