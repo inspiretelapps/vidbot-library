@@ -1,5 +1,126 @@
 [
   {
+    "id": "ehab5PtgRo8",
+    "title": "Why is everyone using these?",
+    "channel": "The Next New Thing",
+    "upload_date": "2026-09-16",
+    "duration_seconds": 750,
+    "thumbnail": "https://i.ytimg.com/vi/ehab5PtgRo8/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=ehab5PtgRo8",
+    "description": "Resources: https://thenextnewthing.ai/l/top-skills-sep16\nPresented by Zapier: https://zapier.com/\nAndrew Warner and Robbie Abed break down the 10 most-installed AI skills from GitHub, including skills that help agents find other skills, improve software design, browse the web, follow engineering best practices, and become better tutors.\n\nAndrew and Robbie start with Find Skills, a Vercel skill that works like an app store for AI skills, helping agents discover and install the right capabilities for a task. They then explore Matt Pocock’s Grill Me and Grilling skills, which push AI to ask better questions and stress-test ideas before work begins. Anthropic’s Frontend Design skill is next, helping agents create more distinctive interfaces instead of falling into the familiar “AI-generated” design patterns. They also look at Vercel’s Agent Browser, which gives agents headless control of a web browser, and Matt Pocock’s setup skill for bringing engineering workflows and best practices into a repository.\n\nThe list also includes Vercel’s React Best Practices skill, which helps agents follow performance recommendations for React and Next.js, Lark Doc for interacting with ByteDance’s workplace platform, and Matt Pocock’s Teach skill, which turns an AI agent into a persistent tutor that builds lessons over time and remembers what you've already learned. Finally, they explore Vercel’s Web Design Guidelines, covering accessibility, forms, typography, animation, and other practical web standards. Throughout the episode, Andrew and Robbie show what these skills actually do, how they work together, and why packaging repeatable workflows into skills can make AI agents more capable.\n\nLinks featured:\n\n- **find-skills** — vercel-labs/skills — (https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md)\n- **grill-me** —  mattpocock/skills — (https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md)\n- **frontend-design** —  anthropics/skills — (https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)\n- **agent-browser** — vercel-labs/agent-browser — (https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)\n- **setup-matt-pocock-skills** — mattpocock/skills — (https://github.com/mattpocock/skills/blob/main/skills/engineering/setup-matt-pocock-skills/SKILL.md)\n- **vercel-react-best-practices** — vercel-labs/agent-skills — (https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md)\n- **grilling** — mattpocock/skills — (https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md)\n- **lark-doc** — (https://github.com/larksuite/cli/blob/main/skills/lark-doc/SKILL.md)\n- **teach** — mattpocock/skills — (https://github.com/mattpocock/skills/blob/main/skills/productivity/teach/SKILL.md)\n- **web-design-guidelines** —  vercel-labs/agent-skills — (https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)\n\n00:00 - Top 10 AI Skills\n00:27 - Find Skills\n01:03 - Grill Me\n02:15 - Frontend Design\n03:02 - Robbie Abed & NoMiddle\n03:54 - Agent Browser\n05:33 - Setup Matt Pocock Skills\n06:27 - Vercel React Best Practices\n07:39 - Grilling\n08:42 - Lark Doc\n09:36 - Teach\n10:48 - Web Design Guidelines\n11:24 - Why AI Skills Are Easy to Use\n12:18 - Deep Dive With Matt Pocock\n\n👉 Send us your AI builds: hi@thenextnewthing.ai\n\nMedia/Sponsorship Inquiries: https://thenextnewthing.ai/l/sponsor\n\n👉 Join us: https://thenextnewthing.ai/",
+    "summary": "Andrew Warner and Robbie Abed review the ten most-installed AI-agent skills reported through Vercel’s skill-installation ecosystem. The list spans skill discovery, requirements questioning, frontend design, browser automation, repository setup, React performance practices, reusable interview workflows, Lark document integration, persistent tutoring, and web-interface review. Their examples show skills as readable instruction packages that give an agent a repeatable method, rather than opaque software features.\n\nThe most practical demonstrations include Find Skills locating capabilities on demand; Grill Me forcing clarity before work begins; Anthropic’s Frontend Design changing a generic AI-looking site into a more intentional design; and Agent Browser testing or capturing web pages headlessly. Engineering-focused entries package Matt Pocock’s repository conventions and Vercel’s React/Next.js performance guidance, while Teach builds sequential HTML lessons and remembers a learner’s progress. The closing example combines Web Design Guidelines with Frontend Design, illustrating that multiple skills can contribute competing priorities—visual ambition versus accessibility—that the agent must reconcile.\n\nA short aside explains Robbie’s commercial use of skills at NoMiddle: one agent maintains a high-quality ideal-customer prospect list over time instead of losing context whenever teams change outreach tools. Across the episode, the larger message is that small, plain-English skill files can preserve specialist knowledge, compose into richer workflows, and make agent behavior more consistent without requiring users to write a new application.",
+    "why_valuable": "This is a useful shortlist for anyone deciding which reusable instructions to add to a coding or general-purpose agent. It goes beyond naming repositories by showing concrete jobs—finding other skills, interrogating a brief, automating browser checks, enforcing framework practices, and creating cumulative lessons—while also demonstrating that skills can be combined and may need explicit priority-setting when their recommendations conflict.",
+    "key_takeaways": [
+      "Find Skills acts as a discovery layer: an agent can search for and suggest installable capabilities suited to the task at hand.",
+      "Grill Me and its reusable Grilling engine improve work before execution by making the user clarify intent, assumptions, and desired outcomes.",
+      "Frontend Design can counter generic AI-generated visual patterns, while Web Design Guidelines audits accessibility, forms, typography, focus states, and animation.",
+      "Agent Browser gives an agent headless browser control for tasks such as testing a staging signup flow or capturing a dashboard screenshot.",
+      "Repository setup, React best-practice, and Teach skills package expert workflows so an agent can apply them consistently and retain progress across sessions."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Top 10 AI Skills",
+        "description": "Warner previews skills that can improve an agent’s designs, software-development behavior, and ability to tutor, then defines the ranking as the ten most-installed GitHub skills reported by Vercel’s installation CLI. The opening matters because it frames the list around observed adoption rather than a purely personal ranking, while still presenting the hosts’ demonstrations and judgments as commentary.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 27,
+        "timestamp": "00:27",
+        "title": "Find Skills",
+        "description": "Find Skills is presented as the agent ecosystem’s equivalent of an app-store search layer: a user asks for a capability, such as writing tests, and the agent locates suitable skills and offers installation choices. The skill does not perform the requested job itself; its value is reducing discovery friction as repositories multiply and helping users extend an agent without already knowing the package name.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 63,
+        "timestamp": "01:03",
+        "title": "Grill Me",
+        "description": "Matt Pocock’s Grill Me skill invokes a separate Grilling workflow that questions the user before work begins, forcing clearer intent and better-considered requirements. Warner recounts using it for podcast preparation, where it immediately asked what he wanted listeners to believe, exposing the real objective behind the task. The example shows why even a tiny orchestration skill can improve outcomes by delaying execution until the purpose is explicit.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 135,
+        "timestamp": "02:15",
+        "title": "Frontend Design",
+        "description": "Anthropic’s Frontend Design skill is shown addressing the recognizable cream-colored, generic look that often appears in AI-generated interfaces. Warner compares the same website before and after applying it: the revised version uses a different background, stronger navigation treatment, and a design that Robbie says feels aligned with a purpose rather than merely made prettier. This matters because the skill packages aesthetic direction that can push an agent beyond its common visual defaults.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 182,
+        "timestamp": "03:02",
+        "title": "Robbie Abed & NoMiddle",
+        "description": "Robbie explains that NoMiddle creates client-specific skills, including a “golden prospect list” agent that continuously maintains and refines a high-quality ideal-customer list. Instead of losing targeting knowledge whenever information moves into a new outreach tool, the workflow preserves and improves the list over months or years. The case demonstrates that skills are not limited to coding; they can encode durable operational memory around a recurring business process.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 234,
+        "timestamp": "03:54",
+        "title": "Agent Browser",
+        "description": "Vercel’s Agent Browser gives an agent headless, command-line control over a web browser, manipulating pages without visibly moving a mouse or opening a conventional browser window. The hosts cite practical instructions such as logging into a dashboard and screenshotting billing, or opening staging, registering a test account, and reporting whether the flow works. This turns browser interaction into an automatable verification step rather than a manual handoff to the user.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 333,
+        "timestamp": "05:33",
+        "title": "Setup Matt Pocock Skills",
+        "description": "The setup skill performs a one-time installation of Matt Pocock’s engineering conventions inside a repository, approximating knowledge he might otherwise spend weeks introducing as a consultant. The hosts mention scaffolding repository configuration, issue-tracker locations, canonical triage-role labels, domain documents, context files, architectural decision records, and rules for consuming them. Its value is establishing a shared operating structure that agents can follow from the start instead of rediscovering team practices on every task.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 387,
+        "timestamp": "06:27",
+        "title": "Vercel React Best Practices",
+        "description": "Vercel’s React Best Practices skill translates roughly seventy React and Next.js performance recommendations into instructions an agent applies while writing code. Robbie emphasizes the source’s credibility: users may not understand every rule, but they can still direct an agent to follow a trusted body of framework guidance and avoid known mistakes. The broader lesson is that a skill can operationalize expert standards at generation time rather than relying only on review after code is produced.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 459,
+        "timestamp": "07:39",
+        "title": "Grilling",
+        "description": "Grilling is the reusable questioning engine behind the earlier Grill Me command, specifying how the agent should structure questions, inspect answers, and continue probing. Pocock separated the general engine from its first application so the same method could support contexts beyond pre-build interviews, and Robbie likens this to an engine with Grill Me as one application. The design is a concrete example of composable skills: isolate a general capability once, then invoke it from multiple specialized workflows.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 522,
+        "timestamp": "08:42",
+        "title": "Lark Doc",
+        "description": "The Lark Doc skill connects agents to ByteDance’s workplace ecosystem, which the hosts describe as including messaging, contacts, spreadsheets, calendars, wikis, and video conferencing. They note that its audience is concentrated among users of ByteDance’s Lark or related Feishu platform, making it less relevant to most viewers than the general coding skills. Its inclusion still shows how adoption rankings can surface region- or platform-specific integrations alongside broadly applicable workflows.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 576,
+        "timestamp": "09:36",
+        "title": "Teach",
+        "description": "Pocock’s Teach skill turns an agent into a persistent tutor that creates numbered HTML lessons and builds on prior sessions. In the demonstrated Rubik’s Cube example, the first lesson covers only the immediately necessary anatomy, notation, and white-cross concepts; later lessons remember previous progress and reinforce points where the learner struggled. Using interactive HTML instead of plain Markdown enables richer instruction, while saved lesson history supports a cumulative learning path rather than isolated answers.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 648,
+        "timestamp": "10:48",
+        "title": "Web Design Guidelines",
+        "description": "Vercel’s Web Design Guidelines skill points an agent to practical rules covering accessibility, focus states, forms, autocomplete, meaningful input names, animation, and typography. Warner shows it auditing an app checkout page and identifying concrete defects such as an icon-only button without an ARIA label and inputs missing autocomplete. This makes the skill useful as a repeatable interface-review checklist, especially for requirements that a visually plausible generated design can easily overlook.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 684,
+        "timestamp": "11:24",
+        "title": "Why AI Skills Are Easy to Use",
+        "description": "The hosts stress that skills are readable because their core guidance is written in ordinary language, allowing users to inspect what an agent has been told to do. They also explain how combining Frontend Design with Web Design Guidelines can expose productive tension: an attractive animation may conflict with accessibility needs in a healthcare setting. The important operational insight is that skill composition is powerful but not automatically harmonious, so users must decide which constraints take priority.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 738,
+        "timestamp": "12:18",
+        "title": "Deep Dive With Matt Pocock",
+        "description": "Warner closes by pointing viewers to a longer interview with Matt Pocock, whose skills appeared repeatedly throughout the adoption list. That companion discussion focuses on how Pocock thinks about creating and using skills, offering a deeper route for viewers who want design principles rather than only installation suggestions. The ending reinforces that the episode is a practical survey, while the linked interview is the next step for understanding the craft behind reusable agent workflows.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-17T06:00:34+02:00",
+    "summarized_at": "2026-09-17T06:02:47+02:00"
+  },
+  {
     "id": "IM_lLx7NeGk",
     "title": "Am I paranoid - you decide",
     "channel": "Dr. John Campbell",
