@@ -9,8 +9,80 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-17T12:04:43+02:00",
+  "updated_at": "2026-09-17T20:32:27+02:00",
   "videos": [
+    {
+      "id": "lrsW8k-dHSk",
+      "title": "Anthropic Just Dropped Claude 2.0 (Full Breakdown)",
+      "channel": "Brock Mesarich | AI for Non Techies",
+      "upload_date": "2026-09-17",
+      "duration_seconds": 528,
+      "thumbnail": "https://i.ytimg.com/vi/lrsW8k-dHSk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lrsW8k-dHSk",
+      "description": "✅ Connect Claude to 9,000+ Apps: https://bit.ly/4xzUk2H\n✅ Claude Cowork: http://clau.de/BrockMesarich\n📚 Join my Skool Community for all of my resources: https://bit.ly/4t2yNgG\n\nAnthropic just dropped Claude Design 2.0, and Claude chat and Cowork are finally becoming one interface. In this video I break down the new Docs, Slides, and Design outputs, turn a CSV into an editable document and a slideshow, and show the one connector workaround for apps Claude doesn't have yet. By the end you'll know what changed and how to start using it today.",
+      "summary": "Brock Mesarich demonstrates a new Claude interface that brings Chat and Cowork closer together and adds an Outputs area for Docs, Slides, and Claude Design. He says the fully unified Chat/Cowork experience had not yet reached his own account, so that rollout claim is presented as an expected change rather than something he personally verifies. In the interface he can access, Cowork supports project selection, configurable approval modes, and output types that create editable artifacts within Claude.\n\nUsing a demo client CSV, Mesarich asks Claude to build an editable document containing a summary, table, client details, statuses, checklists, and multiple tabs. He then turns the same CSV into a slide deck using a design system previously configured in Claude Design. The generated slides remain editable, support images and speaker notes, can be presented or shared by link, and can be exported to tools such as Canva, Gamma, and Miro or downloaded as HTML, PDF, or PowerPoint.\n\nThe final demonstration connects an email-marketing app that is not available in Claude's native connector marketplace. Mesarich adds Drip through Zapier MCP, authorizes the connection in Claude, and asks Cowork to analyze his campaigns into a document. The resulting artifact reports subscriber and unsubscribe figures, lists campaigns, and identifies what appears to be working, illustrating how connected business data can be transformed into a document that a team can edit and share.",
+      "why_valuable": "This is a practical feature tour for anyone evaluating Claude as a workspace rather than only a chatbot. It shows an end-to-end path from raw CSV or connected app data to editable documents and presentations, while also exposing two useful caveats: the merged Chat/Cowork interface was not yet visible in the creator's account, and generated slides may still need manual visual refinement before use.",
+      "key_takeaways": [
+        "Claude's Outputs area can create editable Docs and Slides artifacts inside the same workspace used for Chat and Cowork.",
+        "A CSV can be converted into an editable document with tables, statuses, checklists, and multiple tabs rather than only summarized as plain chat text.",
+        "Claude Slides can apply a previously configured Claude Design style, then export the result as HTML, PDF, or PowerPoint or send it to other design platforms.",
+        "Zapier MCP can bridge apps missing from Claude's native connector marketplace; the video demonstrates connecting Drip and analyzing email-campaign data.",
+        "The creator had not yet received the promised unified Chat/Cowork interface, so its rollout timing and exact behavior were not directly demonstrated."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Unified Chat and Cowork overview",
+          "description": "Mesarich introduces Claude Design 2.0 and explains that Anthropic is bringing Chat and Cowork into one interface, which should let Claude route a request without making users choose a mode. He carefully notes that his account still shows the old toggle, so the expected reduction in decision fatigue is a rollout expectation rather than a feature he can fully verify on screen.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 74,
+          "timestamp": "01:14",
+          "title": "Creating an editable Claude Doc from CSV",
+          "description": "The walkthrough moves to the Outputs section, where Docs, Slides, and Claude Design are available alongside Cowork project and approval settings. Mesarich uploads a demo-client CSV and receives a Notion-like editable artifact with a summary, table, client contact fields, changeable statuses, checklists, and extra tabs, showing that Claude can produce a working document rather than static prose.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 199,
+          "timestamp": "03:19",
+          "title": "Generating and editing slides with Claude Design",
+          "description": "Using the same CSV, Mesarich selects Slides and applies a preconfigured Bramble design style from Claude Design to generate a presentation that visualizes the client data. He finds the result useful but visibly AI-generated, then demonstrates direct editing of text, colors, and images; the important point is that the draft stays editable inside Claude instead of becoming a fixed image.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 290,
+          "timestamp": "04:50",
+          "title": "Presenting, sharing, and exporting artifacts",
+          "description": "Once the deck is adjusted, Claude can open it in presentation mode and retain speaker notes for a live talk. Mesarich also shows link sharing and exports to Canva, Gamma, Miro, HTML, PDF, and PowerPoint, then downloads a PDF; these options make the generated artifact portable for team review or further refinement in existing tools.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 340,
+          "timestamp": "05:40",
+          "title": "Extending Claude with Zapier MCP",
+          "description": "Mesarich explains that native connectors can pull data from everyday services such as email and calendars, but discovers that his Drip email-marketing platform is absent from Claude's marketplace. He uses Zapier MCP as the workaround, adding Drip tools to an MCP server and authorizing that server in Claude; this provides a repeatable route to thousands of apps that Claude does not support directly.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 450,
+          "timestamp": "07:30",
+          "title": "Building a Drip campaign report",
+          "description": "In a fresh chat, Mesarich selects Docs and asks Cowork to use the Zapier MCP connection to analyze his Drip campaigns and surface the statistics that matter. Claude produces an editable report with the big picture, subscriber and unsubscribe counts, campaign listings, and an assessment of what is and is not working, demonstrating a concrete connected-data workflow that can be shared with a team.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 508,
+          "timestamp": "08:28",
+          "title": "Rollout caveat and closing",
+          "description": "The creator closes by reiterating that the combined Chat and Cowork mode is expected to appear over the following week or so but is not yet reflected in his own account. That caveat matters because the video directly verifies Docs, Slides, editing, export, and MCP workflows, while the headline interface merger remains based on Anthropic's launch material and anticipated rollout.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-09-17T20:30:41+02:00",
+      "summarized_at": "2026-09-17T20:32:26+02:00"
+    },
     {
       "id": "OhOmLqR5nN4",
       "title": "AI Emergency: The AI Labs Are Lying To Everyone, He Says 99% Chance Of Extinction | Roman Yampolskiy",
