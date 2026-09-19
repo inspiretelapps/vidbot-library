@@ -9,8 +9,447 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-18T20:38:40+02:00",
+  "updated_at": "2026-09-19T17:41:58+02:00",
   "videos": [
+    {
+      "id": "4mTLpuQpB80",
+      "title": "Jev is HERE. How to use it",
+      "channel": "Greg Isenberg",
+      "upload_date": "2026-09-18",
+      "duration_seconds": 1704,
+      "thumbnail": "https://i.ytimg.com/vi/4mTLpuQpB80/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4mTLpuQpB80",
+      "description": "In this episode, I talk with Ryan Vogel about Jev, a new type of AI built for classification. Ryan shows how Jev takes an input plus an output schema and returns a probability for each choice in about 200 milliseconds. He demos Jev sorting 1,700 emails for 18 cents total, then covers lead scoring, support routing, video clipping, and browser control. I push him on the startup angle: find a business with an expensive queue of incoming information and put Jev at the front of it. You leave with a clear mental model, real use cases, and a simple way to try it today.\n\nLinks Mentioned: \n\nJev/Typeface AI: https://typesafe.ai\nAI Gateway: https://vercel.com/ai-gateway\n\nTimestamps\n00:00 – Intro\n02:27 – What Jev Is and Why It Matters\n04:32 – Email Triage Demo\n07:19 – Jev as an AI Decision Maker\n15:46 – How to Use Jev in a Business\n20:48 – Startup Idea: Local Services Matching and Instant Quotes\n22:51 – Use Case 1: Bitcoin Signal Test and Limits\n24:03 – Use Case 2: Auto-Clipping Long Videos\n25:27 – Use Case 3: Browser Control: Flight Pick in 7.1 Seconds\n26:18 – How to Get Access\n27:25 – Closing Thoughts\n\nKey Points\n\n• Jev is a classifier: an input and an output schema go in, and a probability for each choice comes out.\n• Ryan's demo scores 1,700 emails for 18 cents total.\n• Each Jev query takes about 200 milliseconds, whatever the input and output structure.\n• Use Jev at any point where a business makes fast, repeatable decisions on incoming data.\n• Keep Jev in an advisory role, and save frontier models for high-intelligence tasks like trading.\n• Instant access runs through the Vercel Gateway, and a waitlist covers direct access.\n\nNumbered Section Summaries\n\n1. What Jev Actually Is\n\nRyan explains Jev as a classifier. You define an input and an output schema, and Jev returns a probability for each option, for example 80% orange, 10% red, and 10% blue for the color of an iPhone.\n\n2. The 18-Cent Email Demo\n\nRyan runs Jev on 1,700 of his own emails and scores each one for category, priority, spam score, and reply likelihood. The run uses 4.2 million input tokens and 500,000 output tokens and costs 18 cents total.\n\n3. A Decision Model, Distinct From a Chat Model\n\nJev returns only structured output, meaning the numbers and categories from your schema, with zero visible reasoning. Developers can drop that type-safe output straight into code. Ryan also tests Jev as a letter-by-letter text generator to show how a decision model differs from a chat model.\n\n4. Cheap Enough to Experiment\n\nA $5 intro credit lasts Ryan's team two days of heavy use, and he estimates $10 could last about three months. His girlfriend's graphic design agency uses Jev to score contact-form leads on a scale from 0 to 1, so high-value leads get a fast reply.\n\n5. The AI Traffic Cop\n\nI frame Jev as a traffic cop: information comes in, and Jev decides what it is, how important it is, and what happens next. A high-confidence lead goes to a human, a lower score goes to automation or an LLM, and the lowest scores get ignored. Ryan adds support routing, where 200-millisecond answers replace slow streaming responses.\n\n6. Put Jev at the Front of the Queue\n\nI ask how to find a business with an expensive queue of incoming information and put Jev at the front of it. Ryan describes a local services platform that matches a request like \"I need my driveway power washed\" to the best nearby business and turns \"instant quote\" forms into truly instant quotes.\n\n7. Where Jev Struggles\n\nRyan's Bitcoin test, which asks Jev to buy, hold, or sell every minute, performs poorly. OpenAI's latest frontier model does a little better because it cross-references news. Ryan's advice: use Jev for routing-style decisions and keep it away from your portfolio.\n\n8. Clips, Browser Control, and Getting Started\n\nRyan's video clipper scores 17 moments in about three seconds, and he builds it in about 10 minutes. A Browser Use demo shows Jev picking a flight from Zurich to London in 7.1 seconds. To start, use the Vercel Gateway and ask your AI agent which of your daily workflows could use a decision maker like Jev.\n\nThe #1 tool to find startup ideas/trends - https://www.ideabrowser.com\n\nLCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/\n\nFIND ME ON SOCIAL\n\nX/Twitter: https://twitter.com/gregisenberg\nInstagram: https://instagram.com/gregisenberg/\nLinkedIn: https://www.linkedin.com/in/gisenberg/\n\nFIND RYAN ON SOCIAL\n\nX: https://x.com/ryanvogel\nYoutube: https://www.youtube.com/@vogeldev/videos",
+      "summary": "Greg Isenberg interviews Ryan Vogel about Jev, a specialized AI decision model that takes an input plus a predefined output schema and returns choices or confidence scores rather than prose. The central demonstration classifies 1,700 emails by category, priority, spam likelihood, and need for a reply; Vogel reports that 4.2 million input tokens and 500,000 output tokens cost 18 cents and finished almost immediately. They emphasize that Jev’s structured, type-safe outputs can flow directly into software without parsing a conversational response.\n\nThe discussion turns that mechanism into a practical design pattern: put Jev at the front of a high-volume queue, let it route or score each item in roughly 200 milliseconds, then send high-confidence cases to a person, automation, or a more capable LLM. Examples include lead qualification, support routing, instant local-service matching, finding clips in long videos, and browser control. A failed Bitcoin signal experiment supplies the important limit: this is an inexpensive routing and classification tool, not a substitute for frontier reasoning on consequential, intelligence-heavy decisions.",
+      "why_valuable": "This is the most concrete of the Jev explainers in this batch because it pairs a clear schema-and-confidence mental model with working demonstrations, reported cost, latency, and failure cases. It helps builders identify where a fast classifier can remove queue bottlenecks while preserving stronger models and human judgment for tasks that actually require reasoning.",
+      "key_takeaways": [
+        "Jev accepts raw input and a predefined schema, then returns structured choices and confidence scores instead of generating explanatory text.",
+        "The email demo classified 1,700 messages across four dimensions for a reported total cost of 18 cents.",
+        "Good fits are repetitive, high-volume decisions such as lead scoring, support routing, moderation, matching, and content clipping.",
+        "A useful architecture is to let Jev act as a traffic cop, escalating high-value cases and routing uncertain cases to humans or stronger models.",
+        "The weak Bitcoin test shows why Jev should not be trusted for consequential tasks that depend on deep reasoning or external context."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Isenberg frames Jev as a different category of AI and asks Vogel to explain it in plain language, show useful applications, and uncover startup opportunities. Vogel contrasts its speed, price, and decision-oriented output with streaming LLMs, setting up the episode’s focus on classification rather than conversation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 147,
+          "timestamp": "02:27",
+          "title": "What Jev Is and Why It Matters",
+          "description": "Vogel defines Jev as a classifier: developers provide an input and an output schema, and the model assigns probabilities across the allowed choices. His simple color example—such as 80% orange, 10% red, and 10% blue—shows that the output is a confidence distribution rather than an unsupported absolute answer.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 272,
+          "timestamp": "04:32",
+          "title": "Email Triage Demo",
+          "description": "A real inbox becomes the test case, with each complete email scored for category, priority, spam likelihood, and whether it deserves a reply. Jev processes 1,700 messages representing 4.2 million input tokens and 500,000 output tokens for a reported 18 cents, illustrating the economics of high-volume classification.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 439,
+          "timestamp": "07:19",
+          "title": "Jev as an AI Decision Maker",
+          "description": "The hosts refine the mental model from an assistant that is ‘asked’ a question to an API that receives data and a strict schema. Because Jev returns typed numbers and categories without visible prose or chain-of-thought, applications can consume its output directly, but users do not get an explanation to inspect.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 946,
+          "timestamp": "15:46",
+          "title": "How to Use Jev in a Business",
+          "description": "Vogel recommends looking for any repeated moment where a person examines incoming data and makes a quick decision. He describes a graphic-design agency scoring contact-form leads, then expands the pattern to support routing and a traffic-cop architecture that sends high-value cases to people, middling cases to automation, and low-value cases nowhere.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1248,
+          "timestamp": "20:48",
+          "title": "Startup Idea: Local Services Matching and Instant Quotes",
+          "description": "Isenberg proposes finding businesses with expensive queues of incoming information and placing Jev at the front. Vogel applies the idea to local services, where a driveway-cleaning request could be matched to nearby providers and an ‘instant quote’ form could finally return an immediate, relevant response instead of promising a later email.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1371,
+          "timestamp": "22:51",
+          "title": "Use Case 1: Bitcoin Signal Test and Limits",
+          "description": "Vogel shows a minute-by-minute buy, hold, or sell experiment that performs poorly and explicitly warns against putting Jev in charge of a portfolio. A frontier model did somewhat better by consulting news, reinforcing that Jev’s strength is fast routing-style classification rather than decisions requiring broad context and deep reasoning.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1443,
+          "timestamp": "24:03",
+          "title": "Use Case 2: Auto-Clipping Long Videos",
+          "description": "A prototype transcribes a long video and asks Jev to score candidate moments, identifying 17 potentially useful clips in roughly three seconds. Vogel says he assembled the demo in about ten minutes and suggests that combining the classifier with other agents could become a focused product for creators who need highlights without reviewing an entire recording.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1527,
+          "timestamp": "25:27",
+          "title": "Use Case 3: Browser Control: Flight Pick in 7.1 Seconds",
+          "description": "A Browser Use demonstration lets Jev select among available browser actions while searching for a Zurich-to-London flight. It reaches a result in 7.1 seconds, which the speakers contrast with slower generative browser agents; the example matters because browser automation often consists of many small choices rather than long prose responses.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1578,
+          "timestamp": "26:18",
+          "title": "How to Get Access",
+          "description": "Vogel says direct access was waitlisted at recording time but Jev could be tried through Vercel’s AI Gateway and AI tooling. He recommends giving an AI agent the Typesafe link and a description of your business, then asking it to identify daily workflows that contain repeated classification or routing decisions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1645,
+          "timestamp": "27:25",
+          "title": "Closing Thoughts",
+          "description": "The closing encouragement is to test Jev on an existing classification problem, such as email, so its speed and pricing become tangible rather than theoretical. Vogel cautions that the experience can prompt a flood of ideas, while Isenberg reiterates that the practical next step is to experiment with a narrow workflow instead of treating it like another chatbot.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
+    {
+      "id": "6mUScq-6U3U",
+      "title": "How to Build a $1M YouTube Channel in 1 Hour a Day",
+      "channel": "Sunny Lenarduzzi",
+      "upload_date": "2026-07-21",
+      "duration_seconds": 1368,
+      "thumbnail": "https://i.ytimg.com/vi/6mUScq-6U3U/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6mUScq-6U3U",
+      "description": "Are you spending hours creating YouTube videos… but not seeing business results? Think you need to post every day or go viral to build a million-dollar business? 🚀 Get the FREE Monetize From Day One playbook here: https://www.authoritydotio.com/monetized1?utm_source=YouTube&utm_medium=video&utm_campaign=Sunny+Lenarduzzi+Channel&utm_content=How+to+Build+a+%241M+YouTube+Channel+in+1+Hour+a+Day\n \nFor years, I believed growing a successful YouTube business meant creating more content, chasing more views, and hoping the algorithm would reward me.\n\nI was wrong.\n\nIn this video, I'm breaking down the exact 5-hour-per-week YouTube system we've used to generate an average of $76,000 per video—not from AdSense, sponsorships, or millions of views, but by using YouTube as a tool to grow a real business. You'll learn how to create content that attracts ideal clients, builds authority, and works for you long after you hit publish.\n\nIf you're an expert, coach, consultant, or service provider who wants to stop trading time for money and build a scalable online education business, this is the roadmap you've been looking for.\n\nIn this video you'll learn:\n\n✅ The 5-hour weekly YouTube framework that builds a real business\n✅ How to find high-converting video ideas in under an hour\n✅ Why you don't need expensive equipment or daily uploads\n✅ The scripting structure that saves hours every week\n✅ How to optimize your videos so the right people actually click\n✅ The biggest mistake keeping business owners stuck on the content hamster wheel\n✅ How to turn YouTube videos into evergreen business assets\n\n⏱️ Timestamps\n\n00:00 – The surprising revenue behind our YouTube videos\n01:05 – The 5-hour weekly YouTube business framework\n01:56 – Hour #1: Find content ideas that attract clients\n05:52 – Hour #2: Script faster without sacrificing quality\n07:46 – Hour #3 & #4: Simple filming and editing setup\n08:46 – Hour #5: Optimize your title, thumbnail & description\n09:33 – Why publishing one video a week is enough\n10:25 – The business model that makes YouTube profitable\n11:09 – Creator vs. business owner: Which game are you playing?\n\n------------\n\n👉 FREE TRAINING (hosted by Sunny Lenarduzzi) - 4 SIMPLE STEPS TO TURN YOUR EXISTING SKILL SET INTO A 6-FIGURE BUSINESS (without Paid Ads!): https://www.authoritydotio.com/masterclass  \n\n👉 READY TO APPLY? If you have an expertise to share and you're ready to make a big impact by creating your highly scalable online course, click the link below to schedule a time to see if we're a fit to work together inside of Ascent:\nhttps://www.authoritydotio.com/now\n\n------------\n\n👀 WATCH OUR NEW CHANNEL: https://www.youtube.com/@authority-io?sub_confirmation=1\n\n🤝 SEE OUR SUCCESS STORIES: https://www.youtube.com/@TheAuthorityioSuccess?sub_confirmation=1\n\n👋 SAY HI:\n▪ https://sunnylenarduzzi.com/\n▪ https://authority.io/ \n▪ https://www.linkedin.com/in/sunnylenarduzzi/ \n▪ https://www.facebook.com/SunnyLenarduzzi/ \n▪ https://www.instagram.com/sunnylenarduzzi/ \n▪ https://www.youtube.com/c/SunnyLenarduzzi \n▪ https://www.youtube.com/@authority-io \n\nThanks for watching and see you in the next one! 💛 - Sunny\n\n------------\n\nhttps://youtu.be/6mUScq-6U3U\n\nHow I Built an Online Course that Makes $5M/Yr - https://www.youtube.com/watch?v=UgWwnTrvm2w\nHow I Made $30M On YouTube Without Millions Of Views - https://www.youtube.com/watch?v=NWcQ63xHFmo\nHow I Make $500K/Month Without Social Media - https://www.youtube.com/watch?v=jQAxjKuJcBA \nHere’s How I would make 100k in 6 Months - https://www.youtube.com/watch?v=6aKiQUrIGuk \n\n#OnlineCoaching #CoachingBusiness #CourseCreation #OnlineBusiness #YouTubeStrategy #authority #Authorityio",
+      "summary": "Sunny Lenarduzzi presents YouTube not as an advertising business but as an evergreen lead-generation channel for an existing offer. She says roughly 50 videos produced an average of $76,000 each through her business, versus about $681 per video from AdSense, and organizes production into a five-hour weekly system: one hour each for ideation and scripting, two for filming and editing, and one for packaging. Topic research starts with customer FAQs, proven ‘gateway’ topics on adjacent channels, and the audience’s most urgent pain points.\n\nThe second half explains why the system depends on business fundamentals more than content volume. Lenarduzzi recommends defining a market-of-one client, a specific transformation and offer, searchable authority keywords, and a conversion path from video to lead magnet, email list, and sale. She tracks retention, click-through rate, and dollars per view rather than vanity metrics, arguing that one useful weekly video can compound into a library of durable sales assets—but only after the offer has produced real client results.",
+      "why_valuable": "This is a practical operating model for experts, coaches, and service businesses that need qualified leads rather than broad creator fame. The strongest lesson is the ordering: validate a focused offer and client transformation first, then use a lean weekly workflow and business metrics to turn searchable videos into compounding assets.",
+      "key_takeaways": [
+        "Treat YouTube as an amplifier for a validated business offer, not as the business itself.",
+        "Build topics from real FAQs, proven demand on adjacent channels, and the ideal client’s most urgent pain points.",
+        "A repeatable structure, simple equipment, and one focused upload per week can matter more than elaborate production or daily posting.",
+        "Measure retention, click-through rate, lead quality, and dollars per view instead of optimizing primarily for subscribers and AdSense.",
+        "Create a clear path from each video to a lead magnet, email relationship, and specific paid transformation."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "The surprising revenue behind our YouTube videos",
+          "description": "Lenarduzzi contrasts the business revenue she attributes to about 50 annual videos—an average of $76,000 each—with roughly $681 per video from AdSense. Her claim is that targeted videos can produce more value through clients than through mass reach, so the goal is a channel that supports a business rather than replacing one.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 65,
+          "timestamp": "01:05",
+          "title": "The 5-hour weekly YouTube business framework",
+          "description": "The framework assumes one upload per week and allocates five focused hours rather than a large production schedule. Lenarduzzi says extra posting did not materially improve results for her team, making repeatability and intentional use of time more important than volume.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 116,
+          "timestamp": "01:56",
+          "title": "Hour #1: Find content ideas that attract clients",
+          "description": "Ideation begins with customer FAQs, high-performing ‘gateway’ topics from channels serving a similar audience, and the painful problems prospects actively want solved. The point is not to copy competitors but to validate demand, then filter each topic through your own expertise and a sharply defined ideal client.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 352,
+          "timestamp": "05:52",
+          "title": "Hour #2: Script faster without sacrificing quality",
+          "description": "Lenarduzzi rejects six-to-ten-hour scripts as an expensive hobby and recommends a proven repeatable structure that can be drafted in an hour. Experts can use section-level bullet points rather than memorized prose, combining their existing knowledge with a conversion-aware framework so quality does not depend on reinventing every video.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 466,
+          "timestamp": "07:46",
+          "title": "Hour #3 & #4: Simple filming and editing setup",
+          "description": "Her original setup was an iPhone, a lapel microphone, and window light, and she argues that clear positioning beats a polished studio with a weak message. Editing should remain tight and on-topic rather than cinematic, preserving two production hours for a useful expert-led video.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 526,
+          "timestamp": "08:46",
+          "title": "Hour #5: Optimize your title, thumbnail & description",
+          "description": "The final hour goes to packaging because the title, thumbnail, and description determine whether the intended viewer clicks. Lenarduzzi recommends publishing weekly for eight weeks, then using click-through rate, retention, and generated leads to learn what works and inform the next ideation cycle.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 573,
+          "timestamp": "09:33",
+          "title": "Why publishing one video a week is enough",
+          "description": "One focused weekly upload is presented as sufficient when the channel has a clear audience and monetization purpose. The lactation-consultant example shows the intended outcome: a targeted content system supporting an approximately $800,000 business while fitting into a 20-to-25-hour workweek, rather than a constant publishing grind.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 625,
+          "timestamp": "10:25",
+          "title": "The business model that makes YouTube profitable",
+          "description": "Lenarduzzi says the five-hour workflow fails without decisions about whom the business serves, what it sells, and what each video is designed to do. The channel must point toward a real product, service, or program; otherwise efficiency merely creates more content without a commercial destination.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 669,
+          "timestamp": "11:09",
+          "title": "Creator vs. business owner: Which game are you playing?",
+          "description": "The creator game optimizes reach and advertising, while the business-owner game optimizes for the right viewers, retention above roughly 40%, click-through rates around 5–10%, and dollars per view. Lenarduzzi then builds the full system: a market-of-one client, authority keywords, a video-to-lead-magnet-to-offer path, consistent direction, and a validated offer whose client results give the content credibility.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
+    {
+      "id": "_rBsOP658YA",
+      "title": "You're only 6 months away from living your dream life",
+      "channel": "Dan Martell",
+      "upload_date": "2026-09-16",
+      "duration_seconds": 1810,
+      "thumbnail": "https://i.ytimg.com/vi/_rBsOP658YA/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_rBsOP658YA",
+      "description": "✅ Get your FREE Pre-Loaded Year Template here: https://go.danmartell.com/4h6MDdV\n\nMost successful people are quietly falling apart everywhere that isn't work.\n\nThe business grows, the bank account grows, and everything else slowly rots in the background.\n\nI know that trap because I lived in it for years, and it almost cost me the things I can never get back.\n\nIn this video I break down how I keep every part of my life growing at the same time, so I never end up rich and miserable.\n\n▸▸ Subscribe to The Martell Method Newsletter: https://bit.ly/3XEBXez\n\n▸▸ Get My New Book (Buy Back Your Time): https://bit.ly/3pCTG78\n\nIG: @danmartell",
+      "summary": "Dan Martell argues that relentless work becomes a ‘modern life disease’ when a temporary season of effort turns into the permanent norm. He proposes seven pillars—mission, health, love, friends, hobbies, spirituality, and finances—and uses personal stories to show how success can coexist with poor health, absent family time, shallow relationships, or chronic stress. His systems include a purpose ‘WHO’ test, daily sweat and simplified meals, a preloaded annual calendar that schedules loved ones before work, and deliberate pruning and cultivation of friendships.\n\nThe method ends with a weekly review: score every pillar from one to five, circle the two lowest, and schedule two corrective actions for the coming week. Martell treats money as a tool that should fund time, mission, and relationships, not as the first or only scoreboard. The six-month promise is therefore less a rapid makeover than a feedback loop designed to stop any important domain from quietly collapsing while business remains strong.",
+      "why_valuable": "The video translates a broad work-life-balance message into observable routines: calendar loved ones first, automate healthy defaults, audit relationships, schedule fun, practice gratitude, inspect cash daily, and review all seven pillars weekly. The value is the feedback system—small corrections every week can prevent years of drift without requiring people to abandon ambitious work.",
+      "key_takeaways": [
+        "Define a mission around whom you want to help, the wound you can share, and the outcome you want to create.",
+        "Protect health with daily movement, low-friction meals, sufficient sleep, and the rule never to miss two days in a row.",
+        "Preload birthdays, anniversaries, trips, and time with loved ones into the calendar before work consumes the year.",
+        "Treat friends, hobbies, and spiritual practice as performance-supporting investments rather than rewards postponed until later.",
+        "Score all seven life pillars weekly and schedule actions for the two lowest so no area remains neglected for long."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "The seven-pillar alternative to endless grind",
+          "description": "Martell distinguishes a legitimate season of hard work from a decade-long default that lets every nonfinancial part of life decay. He introduces seven mutually reinforcing pillars and argues that broader growth can improve business performance, making the aim a rich life rather than merely a larger bank account.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 88,
+          "timestamp": "01:28",
+          "title": "Mission: turn your wound into useful work",
+          "description": "After a painful exit and a reflective trip to Peru, Martell chose helping at-risk young people as the mission behind his commercial goals. His ‘WHO’ test asks for the wound you can share, the human you want to help, and the outcome you want to create, turning abstract purpose into a concrete sentence that sustains effort.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 370,
+          "timestamp": "06:10",
+          "title": "Health: engineer energy with simple defaults",
+          "description": "Martell describes feeling like a fraud while successful but unfit, then gradually building an identity that included Ironman races and consistent training. His system is daily sweat, simplified meals that remove bad choices, and protected sleep; the ‘never miss twice’ rule prevents an unavoidable skipped day from becoming a trend.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 655,
+          "timestamp": "10:55",
+          "title": "Love: put people on the calendar before work",
+          "description": "A private-plane story exposes the gap between providing expensive experiences and giving a child undivided attention, leading to the maxim that love is spelled T-I-M-E. The preloaded-year system places birthdays, anniversaries, couple trips, and family commitments on a one-page calendar first, forcing work to fit around irreplaceable relationships.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 854,
+          "timestamp": "14:14",
+          "title": "Friends: create space for people who pull you forward",
+          "description": "Drawing on a transition plan from rehab, Martell says people become a byproduct of those around them and should distinguish true friends from long-standing acquaintances. He recommends spending less time with chronically negative influences without dramatic breakups, then deliberately scheduling two or three people who model the qualities you want to strengthen.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1050,
+          "timestamp": "17:30",
+          "title": "Hobbies: schedule fun before stress schedules you",
+          "description": "Martell links a shingles episode to a period of relentless stress and says hobbies made him healthier, more interesting, and less transactional. His three-F test asks whether an activity is fun, frequent, and shared with friends; a weekly open hike demonstrates how recurring recreation can combine movement, novelty, and relationship-building.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1300,
+          "timestamp": "21:40",
+          "title": "Spirituality: trade constant doing for presence",
+          "description": "The sixth pillar addresses Martell’s former inability to be present despite extreme productivity and careful scheduling. He uses faith, brief moments of awareness, and a morning gratitude practice—including one deliberately ordinary item—to reduce anxiety and reconnect work with a larger source of meaning.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1475,
+          "timestamp": "24:35",
+          "title": "Finances and the weekly seven-pillar review",
+          "description": "Martell puts money last because he believes opportunity follows character, skills, habits, energy, and relationships rather than rescuing neglected foundations. He reads a daily cash report to understand the financial heartbeat, then every Sunday scores all seven pillars from one to five and commits calendar time to improve the two lowest during the next week.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
+    {
+      "id": "UyhrTDYhTuo",
+      "title": "Stop Using ChatGPT for Everything—Jev Is Here",
+      "channel": "Eric Tech",
+      "upload_date": "2026-09-19",
+      "duration_seconds": 522,
+      "thumbnail": "https://i.ytimg.com/vi/UyhrTDYhTuo/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UyhrTDYhTuo",
+      "description": "JEV is a new AI model that makes decisions instead of writing text. I'm an ex-Amazon and Microsoft AI engineer. Here is what it costs and what it cannot do.\n\n🔗 This video is sponsored by Co-Invest. Trade inside ChatGPT: https://app.liquid.trade/coinvest/affiliate?utm_source=youtube&utm_medium=erictech\n\nKey takeaways:\n\n- JEV scores your options and picks one in milliseconds\n- Output tokens are free, hallucination near 0%\n- It cannot write code or reason step by step\n- Free on Vercel AI Gateway\n\n📚 Resources:\nTypeSafe AI: https://typesafe.ai/\nAgent skill: https://github.com/typesafe-ai/skills\n40+ JEV apps: https://github.com/cobanov/awesome-jev\n\n🔗 Join our Skool community: https://www.skool.com/erictech/about\n\n🔗 Check out bookzero.ai — AI-powered bookkeeping built entirely with Claude Code\n\nTimestamps:\n0:00 Intro\n0:28 How It Works\n1:17 Cost & Benchmarks\n2:04 Uses & Limits\n3:35 40+ Projects\n4:27 Sponsor\n6:07 Browser Use\n7:17 Vercel & Skills\n\n#claudecode #aitools #softwaredevelopment",
+      "summary": "Eric Tech explains Jev as a Typesafe AI model designed to choose among supplied options rather than generate text token by token. The model scores candidate actions, classifications, or values and can make repeated decisions quickly enough for game control and browser automation. He highlights launch materials claiming low cost, strong benchmark performance, and near-zero hallucination, while clearly noting that Jev cannot write sentences or code, explain itself, or reason step by step.\n\nThe video surveys possible uses including model and skill routing, games, simulations, trading experiments, and a browser agent that selects actions to find a flight in under ten seconds. A sponsored portfolio segment demonstrates Co-Invest rather than Jev and should be treated separately. For builders, the actionable access routes are Vercel’s AI Gateway and a Typesafe agent skill, with the main design lesson being to reserve Jev for bounded micro-decisions inside a larger workflow.",
+      "why_valuable": "This concise overview makes the boundary between decision models and generative models explicit. It is useful for deciding where Jev belongs in an agent stack—fast classification and action selection—while avoiding the category error of expecting prose, code, explanations, or frontier-level reasoning from it.",
+      "key_takeaways": [
+        "Jev scores predefined choices instead of composing an open-ended text response token by token.",
+        "Its intended jobs include classification, action selection, model or skill routing, and other frequent bounded decisions.",
+        "The trade-off is fundamental: Jev cannot write prose or code, explain its choice, or perform visible step-by-step reasoning.",
+        "Browser automation can use Jev to choose among available actions while another model or system supplies the options and context.",
+        "At publication, Jev could be tried through Vercel’s AI Gateway and integrated through a Typesafe agent skill."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Eric introduces Jev as a Typesafe AI release that differs from ordinary text-generating language models. Instead of streaming a sentence token by token, it receives possible actions, scores them, and returns the leading decision, which explains why bounded responses can arrive much faster.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 28,
+          "timestamp": "00:28",
+          "title": "How It Works",
+          "description": "A normal LLM needs time to construct a long answer, while Jev chooses among options already supplied by the application. A Doom demonstration reportedly reaches ten decisions per second, making the architecture easier to understand as a fast controller or classifier rather than a conversational assistant.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 77,
+          "timestamp": "01:17",
+          "title": "Cost & Benchmarks",
+          "description": "Eric reviews vendor benchmark material claiming lower cost than several generative models, competitive intelligence scores, and nearly zero hallucination. These figures are presented from official launch materials rather than independent testing, so they are most useful as hypotheses to validate on a real workload.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 124,
+          "timestamp": "02:04",
+          "title": "Uses & Limits",
+          "description": "Jev can pick actions, classify or score items, and quickly return bounded results, but it cannot write a sentence or code, explain itself, or reason step by step. Eric therefore positions it below deep frontier models for complex thinking while suggesting fast games and trading-style decisions as experiments rather than universal replacements.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 215,
+          "timestamp": "03:35",
+          "title": "40+ Projects",
+          "description": "A curated repository supplies examples across agent routing, game simulations, drones, Pokémon, and financial experiments. The practical pattern is to let Jev select the next skill, model, or action so a larger agent can save tokens and latency, while recognizing that suitability and risk differ sharply between games and real financial decisions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 267,
+          "timestamp": "04:27",
+          "title": "Sponsor",
+          "description": "The video pauses for a sponsored Co-Invest workflow that connects a trading account to ChatGPT, analyzes holdings against market news, and drafts orders for review. This is a separate product demonstration rather than evidence of Jev’s performance, and the user remains responsible for reviewing any proposed trade before execution.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 367,
+          "timestamp": "06:07",
+          "title": "Browser Use",
+          "description": "Eric shows a Browser Use integration where available page operations are fed to Jev and it chooses where to click or what to do next. The demonstration searches for a flight in under ten seconds, illustrating how repeated low-latency action selection can accelerate browser agents even though another model still supplies context and options.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 437,
+          "timestamp": "07:17",
+          "title": "Vercel & Skills",
+          "description": "Vercel’s AI Gateway is presented as the immediate route to call Jev through its AI SDK, while Typesafe also offers an agent skill for adding small decisions to applications and automations. Eric closes by encouraging viewers to test bounded workflows and request follow-up demos rather than treating Jev as a wholesale ChatGPT replacement.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
+    {
+      "id": "GwjtVdSNbQs",
+      "title": "Apple Watch Ceramic Series 2 vs Series 12 + Unboxing!",
+      "channel": "iJustine",
+      "upload_date": "2026-09-19",
+      "duration_seconds": 190,
+      "thumbnail": "https://i.ytimg.com/vi/GwjtVdSNbQs/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GwjtVdSNbQs",
+      "description": "Watch iPhone 18 Pro Review: https://youtu.be/z5nLJkR3jfs?si=Ypz-9VQ0MghOk2Rp\nWatch Apple Watch Series 12 Overview: https://youtu.be/dSUdGBhrO5k?si=L-q36zIty5ITZ9Yv\n💕 PINK iJUSTINE CABLES HERE: https://geni.us/wnIN\n🎥 iJUSTINE EDITING PLUGIN:  https://mvfx.co/mKeynote-with-iJustine\n🎶 MUSIC I USE - http://share.epidemicsound.com/NNNGs\n\n+: \n\nhttp://instagram.com/ijustine\nhttps://tiktok.com/@ijustine\nhttp://twitter.com/ijustine\nhttp://facebook.com/ijustine\nhttps://snapchat.com/add/ijustine\nhttp://youtube.com/samebrain\n\nBECOME A CHANNEL MEMBER: https://www.youtube.com/channel/UCey_c7U86mJGz1VJWH5CYPA/join",
+      "summary": "iJustine unboxes the new Apple Watch lineup, beginning with the revived ceramic model and placing it beside her white ceramic Series 2. The old watch looks crisper white and has visibly fewer rear sensors. She then tours titanium gold, dark bronze with matching silicone and Milanese Loop bands, and the Apple Watch Ultra 4, focusing primarily on finishes, visual comparisons, and first impressions.\n\nThe Ultra looks similar to the prior generation but adds rear sensors, and iJustine highlights longer optional bands for fitting over a thick scuba wetsuit. She has not yet completed the seven nights of sleep needed to test the new recovery score, so this is an unboxing and design overview rather than a performance review. Her closing point is that the breadth of attractive colors and finishes makes this year’s choice unusually difficult.",
+      "why_valuable": "This is a quick visual buyer’s preview for viewers choosing among new Apple Watch materials and colors. It usefully compares the ceramic revival with an original Series 2, calls out sensor and diving-band details, and clearly separates what can be judged now—appearance and fit—from the recovery feature that still needs real sleep data.",
+      "key_takeaways": [
+        "The new ceramic watch is shown beside the Series 2 ceramic, whose white finish appears slightly crisper and whose back has visibly fewer sensors.",
+        "The lineup includes titanium gold and dark bronze finishes, with the bronze receiving color-matched silicone and Milanese Loop options.",
+        "Apple Watch Ultra 4 looks similar to its predecessor but adds rear sensors and supports longer bands for thick scuba wetsuits.",
+        "The recovery score requires seven nights of sleep tracking, so the video does not yet evaluate that feature.",
+        "This is a finish-focused unboxing and first look, not a detailed long-term hardware review."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Ceramic revival versus the Series 2",
+          "description": "iJustine opens the new ceramic Apple Watch and retrieves her original white ceramic Series 2 for a side-by-side comparison. The older model appears a slightly crisper white and carries far fewer sensors on the back, making the decade-spanning change visible even before software testing.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 46,
+          "timestamp": "00:46",
+          "title": "Gold, dark bronze, and matching bands",
+          "description": "The titanium gold finish reminds her of Apple’s original luxury gold watch, but at a far more conventional price, while dark bronze shifts between brown and gold at close range. She likes the matching silicone band and later adds the perfectly color-matched Milanese Loop, giving buyers a clearer sense of how the finishes work as complete combinations.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 94,
+          "timestamp": "01:34",
+          "title": "Ultra 4, diving fit, and features still to test",
+          "description": "Apple Watch Ultra 4 looks much like the prior generation but has additional rear sensors, and optional extended bands can fit around a thick scuba wetsuit. iJustine has not yet worn the watch for the seven nights required to unlock its recovery score, so she postpones that assessment and closes with an appearance-based overview of the unusually broad lineup.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
+    {
+      "id": "oerDvezz_jk",
+      "title": "If They Keep This Up.. Holy ****!",
+      "channel": "Solving The Money Problem",
+      "upload_date": "2026-09-19",
+      "duration_seconds": 756,
+      "thumbnail": "https://i.ytimg.com/vi/oerDvezz_jk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oerDvezz_jk",
+      "description": "► NEW 20-year Tesla & SpaceX Valuation: https://www.patreon.com/solvingthemoneyproblem\n► AG1 https://drinkAG1.com/SMR (FREE Welcome Kit: Vitamin D3+K2 & Travel Packs) \n► Join Patreon: https://www.patreon.com/solvingthemoneyproblem \n► Subscribe on X (early access): https://x.com/stevenmarkryan/creator-subscriptions/subscribe\n► UNLOCK 350+ Exclusive Videos: https://www.patreon.com/solvingthemoneyproblem \n► Merch: https://solving-the-money-problem.creator-spring.com/\n\nWant More Content? Early Access? My 20-year Tesla & SpaceX Valuation Model? Check the pinned comment!\n\nAFFILIATE DISCLOSURE: I earn a commission on every purchase made through my links.\n\n🚀 SUPPORT THE CHANNEL ON PATREON\n◆ Patreon https://www.patreon.com/solvingthemoneyproblem\n\nBECOME A MEMBER OF THE CHANNEL\n◆ Join https://www.youtube.com/channel/UCagiBBx1prefrlsDzDxuA9A/join\n\nCHANNEL MERCH \n◆ Merch store https://solving-the-money-problem.creator-spring.com/\n\nAFFILIATES - Health/Wellness/Peak Performance\n◆ AG1 (Comprehensive and Convenient Daily Nutrition) FREE Welcome Kit including Vitamin D3+K2 and AG1 Travel Packs https://drinkAG1.com/SMR\n\nAFFILIATE DISCLOSURE: I earn a commission on every purchase made through my links.\n\nSOCIAL\n◆ X https://x.com/stevenmarkryan\n◆ Subscribe on X (early access to daily videos): https://x.com/stevenmarkryan/creator-subscriptions/subscribe\n◆ Instagram https://www.instagram.com/stevenmarkryan/\n\nSOURCE:\n◆ https://x.com/bot\n\n\n\nIn this video:\n\nTIMESTAMPS\n\n\n0:00 Starship Flight 14 HYPE\n1:21 Grok Bot Is INSANE. Rate Of Progress Is WILD. If They Keep This Up..\n11:44 Ways To Support (Want More Content? Early Access? Tesla & SpaceX Valuation Model?)\n12:00 Drink AG1\n\n\n\nTags: #SpaceXAI #Grok #GrokBot\n\n👕 Merch: https://solving-the-money-problem.creator-spring.com/ 👕\n\nAs always, in this video I'm just sharing my thinking process and my reasoning. Keep using your own brain. Don't be a sheep.  🐑\n\nI love you all,\nSteven\n\np.s. Share your thoughts below. I love to read the comments!\n\n➡ SEND BITCOIN: 0xe555118Cf69F26A301DEaa6c0a9ac14901DC88Bc \n➡ DONATE https://paypal.me/stevenmarkryan",
+      "summary": "Steven Mark Ryan opens with anticipation for Starship Flight 14 and its planned deployment of operational Starlink V3 satellites, then pivots to xAI’s Grokbot. He walks chronologically through roughly a month of product updates: grouped mobile notifications, broader subscriber access, shareable bot templates, approved purchases using single-use cards, X and Microsoft integrations, Android availability, marketplace templates, password-manager support, draft approvals, sales tools, Teams access, and voice interactions. His argument rests less on any one feature than on the pace at which integrations and capabilities are shipping.\n\nRyan believes that an approachable, chat-like interface could let xAI compete for the much larger market of affordable AI ‘grunt workers,’ even if the most expensive frontier model retains a reasoning advantage. He bases the conclusion on his own heavy Grokbot use and the public update stream, so the market forecast is commentary rather than independently established fact. The concrete value is the feature timeline and the distinction between premium frontier intelligence and cheap agents that can execute common business and personal workflows.",
+      "why_valuable": "The video is useful as a rapid product-history snapshot of Grokbot’s first month and as a strategic thesis about where mass-market agent demand may develop. The practical question it raises is whether common workflows need the smartest available model or an inexpensive, easy-to-use agent with broad integrations, approval controls, and fast iteration.",
+      "key_takeaways": [
+        "Ryan’s core evidence is Grokbot’s rapid first-month release cadence across mobile, commerce, Microsoft, sales, password, template, and voice features.",
+        "Shared templates lower the setup barrier by packaging existing agents such as procurement and bot-building specialists for reuse.",
+        "Purchases use user approval and a secure single-use card, while password-manager integrations are designed to keep secrets out of the bot’s direct view.",
+        "The video argues that low-cost, capable worker agents may serve a larger market than premium frontier reasoning models.",
+        "Claims that xAI could dominate the market are the creator’s investment and product thesis, not a verified outcome."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Starship Flight 14 HYPE",
+          "description": "Ryan briefly previews Starship Flight 14, emphasizing that it is expected to deploy operational Starlink V3 satellites and therefore combine testing with commercial service. The launch serves as a bridge to his broader claim that the SpaceX–xAI organization is advancing quickly across both aerospace and AI.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 81,
+          "timestamp": "01:21",
+          "title": "Grok Bot Is INSANE. Rate Of Progress Is WILD. If They Keep This Up..",
+          "description": "Ryan reconstructs Grokbot’s first month through public product posts, covering notifications, expanded access, reusable templates, approved shopping, Microsoft and X integrations, Android, password managers, sales tools, Teams, and voice notes. He argues that this shipping cadence plus a familiar chat-style interface positions inexpensive worker agents for mass adoption, while acknowledging through the format that this is his product and investment thesis.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 704,
+          "timestamp": "11:44",
+          "title": "Ways To Support (Want More Content? Early Access? Tesla & SpaceX Valuation Model?)",
+          "description": "The substantive Grokbot analysis ends and Ryan directs viewers to channel-support options, early-access material, and his Tesla and SpaceX valuation work. This brief creator-marked section contains promotion rather than additional evidence about the product, so it should not be read as extending the market argument.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 720,
+          "timestamp": "12:00",
+          "title": "Drink AG1",
+          "description": "The closing advertisement describes AG1 as part of Ryan’s health routine and lists claimed support for nutrition, energy, digestion, immunity, and gut health. He points viewers to an affiliate offer with vitamin supplements and travel packs; this sponsored material is unrelated to the preceding Grokbot feature timeline and competitive thesis.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-19T17:37:53+02:00",
+      "summarized_at": "2026-09-19T17:41:58+02:00"
+    },
     {
       "id": "WWoyWNhx2XU",
       "title": "Anthropic co-founder: AGI predictions, leaving OpenAI, what keeps him up at night | Ben Mann",
