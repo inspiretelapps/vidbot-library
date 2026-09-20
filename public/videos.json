@@ -9,8 +9,101 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-19T17:41:58+02:00",
+  "updated_at": "2026-09-20T20:34:43+02:00",
   "videos": [
+    {
+      "id": "Wod_A8xIy4E",
+      "title": "Meta Muse is an INCREDIBLE AI agent",
+      "channel": "Alex Finn",
+      "upload_date": "2026-09-19",
+      "duration_seconds": 1449,
+      "thumbnail": "https://i.ytimg.com/vi/Wod_A8xIy4E/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Wod_A8xIy4E",
+      "description": "Try out AssemblyAI's incredible new voice agent API: https://www.assemblyai.com/dashboard/signup?utm_source=YouTube&utm_medium=influencer&utm_campaign=Alex_Finn&utm_content=realtime_voice_agents\n\nSign up for my free newsletter: https://www.shipitweekly.com/\nFULL local AI bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\nTimestamps:\n0:00 Intro\n0:29 Meta Muse Features\n1:07 The god thread\n6:10 Feeds, ideas, goals\n8:43 Proactive artifacts\n11:00 Instagram and facebook integration\n13:42 Cloud vs local computer use\n15:35 Strengths and weaknesses\n18:24 Who Meta Muse is for\n22:21 My current agent stack",
+      "summary": "Alex Finn reviews Meta Muse as a fast, cloud-based personal agent organized around one persistent “god thread” rather than multiple named agents or separate work threads. He praises its activity feed, approvals, optional customization, curated feeds, suggested ideas, and goal-setting flow, which asks structured questions and proposes work from the resulting context. The strongest product behavior in his hands is proactivity: it creates HTML research pages, personal-profile sites, visuals, and other artifacts without an explicit request, then saves them to a library.\n\nFinn considers Meta Muse particularly compelling for low-friction personal tasks and users who live in Meta’s ecosystem. He demonstrates finding an Instagram Reel, searching Facebook Marketplace, and using its cloud VM to buy a movie ticket; he also says its free usage allowance and speed are unusually strong. His qualification is substantial: the agent has no local-computer control, relies on Meta’s own models rather than the frontier models he prefers for deep technical work, and has a narrower ecosystem than competitors. His conclusion is therefore targeted rather than universal—an attractive assistant for casual users, cost-sensitive users, and Instagram/e-commerce workflows, but not his own choice for local infrastructure or advanced building tasks.",
+      "why_valuable": "This is a useful evaluation because it separates interface and workflow strengths from platform constraints. Finn grounds the recommendation in concrete workflows—briefs, reverse-prompted goals, automatic artifacts, Instagram/Facebook retrieval, reservations, and cloud browser use—while explaining why a technically demanding user may still need local control, a broader ecosystem, or stronger models. The result is a practical fit assessment rather than a title-driven endorsement.",
+      "key_takeaways": [
+        "Meta Muse centers work in one persistent “god thread,” with side chats available as exceptions, which Finn sees as well suited to simple personal-assistant tasks.",
+        "Its activity feed, customizable brief feed, recommended ideas, and guided goals are designed to reduce blank-canvas friction and make completed work visible.",
+        "Finn’s standout observation is its proactivity: it automatically creates and stores research pages, profile sites, visuals, and other artifacts from conversations.",
+        "Meta integrations can surface Instagram content and Facebook Marketplace listings, making the product especially relevant to users in the Instagram and e-commerce ecosystem.",
+        "The trade-off is cloud-only computer use and a limited ecosystem, so it cannot control a user’s local machines or fulfill Finn’s local-model and network-administration workflows."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Finn opens by calling Meta Muse potentially the best AI agent while immediately qualifying that it is not the right tool for every user. He promises a feature tour, a comparison with Hermes, OpenClaw, Grokbot, and ChatGPT, plus a fit assessment and his own current stack, which frames the review as a practical selection guide rather than a blanket recommendation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 29,
+          "timestamp": "00:29",
+          "title": "Meta Muse Features",
+          "description": "The initial tour highlights an activity feed that records completed work by day and time, along with approval prompts, upcoming tasks, and an identity area for configuration. Finn likes the middle ground between fully exposed customization and no customization at all: advanced settings such as memories and personalization exist but are not forced on a casual user, while voice functionality is described as forthcoming.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 67,
+          "timestamp": "01:07",
+          "title": "The god thread",
+          "description": "Finn coins “god thread agent” for Meta Muse’s design: one large primary conversation for nearly everything, with side chats only as exceptions. He contrasts it with multiple named agents and a single agent split into many threads, arguing that people who want a reservation, bill negotiation, or other quick delegation may benefit more from one easy-to-open assistant than from a complex multi-agent workspace.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 370,
+          "timestamp": "06:10",
+          "title": "Feeds, ideas, goals",
+          "description": "Meta Muse separates recurring briefs into a configurable feed, so daily AI and technology updates do not have to clutter a chat with scheduled-task messages. Finn also highlights recommended ideas and the goals workflow: choosing a goal such as growing a creator business prompts multiple-choice questions, draws out context, and returns possible actions—an implementation of his “brain dump to reverse prompt” approach for overcoming blank-canvas paralysis.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 523,
+          "timestamp": "08:43",
+          "title": "Proactive artifacts",
+          "description": "Finn says Meta Muse’s most distinctive behavior is automatically producing artifacts, not merely answering a request. When he asked it to research him, it created a website containing what it knew about his career; when he asked about Muse use cases, it generated an HTML page and saved it to the library. He sees these unsolicited research pages, visuals, sites, podcasts, and videos as useful evidence of a highly proactive agent, provided users want that initiative.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 660,
+          "timestamp": "11:00",
+          "title": "Instagram and facebook integration",
+          "description": "The review demonstrates Meta Muse finding a Casey Neistat Instagram Reel about Muse and opening it quickly, then searching Facebook Marketplace for Mac minis. Finn calls these deep integrations the product’s moat and says they could be particularly valuable for e-commerce users who research Instagram ads or people who regularly buy and sell through Marketplace. He also notes that privacy reactions in Instagram comments were polarized, and personally does not consider more Instagram consumption a general benefit.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 822,
+          "timestamp": "13:42",
+          "title": "Cloud vs local computer use",
+          "description": "Finn says Meta Muse has strong computer use inside its own cloud VM but no local component and therefore cannot operate the user’s actual computers. He demonstrates its suitability for a cloud task by having it secure a movie ticket quickly, but contrasts that with his own need for an agent to traverse his Tailscale network, manage machines, and load local models. That distinction is central: cloud browser automation is sufficient for a reservation-oriented assistant but not for local infrastructure work.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 935,
+          "timestamp": "15:35",
+          "title": "Strengths and weaknesses",
+          "description": "Finn’s strengths list is low or free cost, generous usage, speed, proactive artifact creation, strong Meta social integrations, optional customization, and a capable mobile app. His three main concerns are a narrow Instagram-and-Facebook ecosystem, no access to the frontier models he prefers for difficult builds, and cloud-only operation. He stresses that Meta Spark is capable enough for ordinary work, but says those gaps matter for users who expect broad integrations, local control, or one-shot high-complexity results.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1104,
+          "timestamp": "18:24",
+          "title": "Who Meta Muse is for",
+          "description": "Finn recommends Meta Muse to people who want a cloud agent to book restaurants or tickets, check email and calendar, or complete other straightforward assistant jobs. He also identifies Instagram-heavy e-commerce users and cost-sensitive users as strong fits, citing his own extensive use without paying. By contrast, he says it does not address the needs of people who build intensive AI workflows, run local models, or want an agent to inspect hardware, install a newly released model, test it, and report back.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1341,
+          "timestamp": "22:21",
+          "title": "My current agent stack",
+          "description": "Finn closes by assigning roles across his preferred tools: ChatGPT Work for deep technical tasks because he considers its model strongest, Grokbot for contextual general-knowledge work, and Hermes for local network-administration and experimentation workflows. He argues that software features such as proactivity can be copied quickly, whereas platform ecosystems are harder moats—Meta’s Instagram/Facebook access is not interchangeable with X or local-machine capabilities. This is why he finds Meta Muse interesting but does not plan to switch his own stack.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-20T20:30:46+02:00",
+      "summarized_at": "2026-09-20T20:34:43+02:00"
+    },
     {
       "id": "4mTLpuQpB80",
       "title": "Jev is HERE. How to use it",
