@@ -1,5 +1,91 @@
 [
   {
+    "id": "F3YXg7AaKWE",
+    "title": "Jev is incredible",
+    "channel": "Theo - t3․gg",
+    "upload_date": "2026-09-21",
+    "duration_seconds": 1829,
+    "thumbnail": "https://i.ytimg.com/vi/F3YXg7AaKWE/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=F3YXg7AaKWE",
+    "description": "Jev is a brand new Typesafe model that's a fast classifier with tons of perks and safety, but it doesn't replace reasoning models like Astra/Fable.\n\nThank you Depot for sponsoring! Check them out at: https://soydev.link/depot\n\nSources:\n\nhttps://typesafe.ai/blog/introducing-system-one-models-and-jev\nhttps://flaviocopes.com/jev/\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#jev #ai #programming #coding",
+    "summary": "Theo Browne explains Jev as a specialized “System 1” model from Typesafe AI: it accepts structured state or text plus a required JSON shape, then returns a fast typed classification or decision rather than generating prose, code, or a reasoning trace. His core mental model is a smart if/switch statement or a callable intelligence function embedded in software. He demonstrates its immediate response time in a checkers game, but deliberately losing that game underscores the distinction: speed and formatting reliability do not make it a reasoning model.\n\nThe video argues that Jev is compelling where high-volume, repeatable decisions need low latency, consistent output structure, and calibrated confidence—such as email and video organization, moderation, routing, ranking, UI updates, guardrails, and processing a large archive. Browne cites Typesafe’s published comparisons and demos as claims from the company, including major speed/cost advantages and zero structured-output errors; he also shows an independent-looking email batch demo reporting roughly 200 ms average per email.\n\nThe most useful part is the boundary-setting. Browne says Jev should not replace general-purpose frontier models for coding, complex evaluation, agent-output judging, or context compaction: it has a 32k-token context window, operates on the provided state, and does not do the deliberate multi-step reasoning those tasks need. Used as a cheap, rapid classification layer that escalates harder work elsewhere, he considers it a powerful new building block; used as a substitute for an LLM, he considers it a category error.",
+    "why_valuable": "This is a strong implementation-oriented explainer because it pairs concrete demos with repeated warnings against treating a classifier as a cheaper universal agent. Builders can use its rule of thumb—if the decision is essentially immediate once the input is perceived, it may fit Jev—to identify useful routing, filtering, ranking, and safety work while retaining reasoning models for decisions that require investigation, long context, or synthesis.",
+    "key_takeaways": [
+      "Jev is presented as a System 1 classifier: structured state goes in and a typed JSON decision, including confidence, comes out; it is not intended for text generation or code writing.",
+      "Its value is as an embedded software function for fast, repeatable decisions such as moderation, email triage, routing, ranking, validation, and large-scale data categorization.",
+      "Browne distinguishes deterministic output shape from deterministic content: Jev is designed to honor the supplied schema, but its classifications remain probabilistic decisions.",
+      "The video cites a batch-email demonstration with about 200 ms average latency per email and 38 emails per second, suggesting a useful first-pass filter before expensive LLM work.",
+      "Do not use it as a replacement for reasoning models, an LLM judge, or context compaction; its supplied state, 32k context window, and non-reasoning design make those poor fits."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "A classifier, not another LLM",
+        "description": "Browne introduces Jev as a Typesafe AI model built to organize and classify data while returning type-safe JSON, rather than writing text or code. He shows a checkers integration that responds almost instantly from board-state data, then easily beats it himself to make the central point: fast processing is not the same as strategic reasoning. The opening also includes a Depot sponsorship segment about faster CI, Docker builds, caching, and agent-friendly diagnostics.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 182,
+        "timestamp": "03:02",
+        "title": "System 1 tasks and the product framing",
+        "description": "Browne connects Jev to the “System 1” versus “System 2” distinction: the former is quick, intuitive classification, while the latter is slow and deliberate reasoning. He describes the intended applications as categorizing videos or email, moderation, and safety decisions, and says the economics could make formerly impractical classification workloads viable. He also explains the company’s name through Jevons paradox: cheaper capability can increase use rather than simply reduce cost.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 360,
+        "timestamp": "06:00",
+        "title": "Embed it as a typed software function",
+        "description": "The video stresses that Jev is useful when application code calls it with data and consumes its JSON response, not when a person opens a chat and asks it to reason. Browne describes it as an intelligence function: unstructured state enters, typed probabilistic decisions return, and software can directly select the next path. His comparison with BAML illustrates why format guarantees matter: general LLM output may need repair before ordinary typed code can safely use it.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 570,
+        "timestamp": "09:30",
+        "title": "Schema reliability, latency, and confidence",
+        "description": "Browne separates deterministic schema shape from the probabilistic content of a classification, arguing that the former lets developers call Jev more like regular code. He cites reported pricing of roughly four cents per million input tokens, free output tokens, and 70–500 ms classification latency, while noting these are model/company claims rather than a universal benchmark. The practical design insight is calibrated confidence: software can route uncertain answers differently instead of assuming an LLM knows when it is wrong.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 720,
+        "timestamp": "12:00",
+        "title": "Real-time interfaces and the hard limits",
+        "description": "The video proposes real-time uses such as rapid search-like interaction, state-driven game decisions, color-palette selection, and scoring or guardrailing outputs. Browne then pushes back on a common misuse: asking a non-reasoning classifier to judge several LLM implementations or choose among complex agent results. He says the model’s 32k-token context and shallow decision role make it a poor substitute for the long-context investigation and reasoning that general models perform.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 900,
+        "timestamp": "15:00",
+        "title": "Published comparisons and structured-output safety",
+        "description": "Browne walks through Typesafe’s benchmark claims, including large speed and cost gains, while noting that the company did not publish the underlying benchmark and uses other frontier models as reference answers. He agrees with the narrower type-safety argument: a model honoring a tool or JSON contract matters when an output is buried in a latency-sensitive dependency chain. He carefully distinguishes that guarantee from the broader meaning of hallucination, which cannot be reduced to whether a field name has the right shape.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1080,
+        "timestamp": "18:00",
+        "title": "State-driven demos and high-volume triage",
+        "description": "Doom, Wiki racing, and a JSON-render UI demo show how a fast state-to-decision loop can look responsive, but Browne explains the quirks of an agent that receives a fresh state every frame and lacks persistent reasoning. An email example classifies 100 messages with an average near 200 ms and 38 messages per second, which he sees as a practical first-pass filter for cheap or frequent work. He also suggests future image support could make PII detection in video frames and computer-use tasks more useful, while noting current navigation is based on HTML rather than vision.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1320,
+        "timestamp": "22:00",
+        "title": "Why judging and context compaction are poor fits",
+        "description": "Browne criticizes proposals to use Jev as an LLM judge in agent observability, arguing that replacing a reasoning evaluator with a quick classifier discards the capability needed for a difficult comparison. He gives a detailed critique of classifier-driven context compaction: compaction synthesizes history rather than merely filtering it, model reasoning traces are often unavailable, the 32k context is limited, and editing history can invalidate expensive caches. His recommendation is to rely on the compaction behavior built into the agent/model harness rather than invent a shallow replacement.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1609,
+        "timestamp": "26:49",
+        "title": "Archive analysis and the practical rule of thumb",
+        "description": "Browne demonstrates classifying 32,311 messages from 1,118 coding threads for a reported cost of $37, then uses confidence thresholds to show how the same archive can yield more or fewer accepted labels. A failed attempt to identify content-worthy threads demonstrates the limit of the approach when the decision requires nuanced judgment. He closes with a simple test: if a person can answer immediately after perceiving the input, Jev may fit; if the task requires thought, use a reasoning model and treat Jev as a library function inside the system.",
+        "source": "generated"
+      }
+    ],
+    "first_detected_at": "2026-09-21T12:00:47+02:00",
+    "summarized_at": "2026-09-21T12:04:01+02:00"
+  },
+  {
     "id": "Wod_A8xIy4E",
     "title": "Meta Muse is an INCREDIBLE AI agent",
     "channel": "Alex Finn",
