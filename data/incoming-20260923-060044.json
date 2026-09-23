@@ -1,0 +1,115 @@
+[
+  {
+    "id": "p3_Ql5nq4t4",
+    "title": "Hermes Bot Mode Is A Cheat Code. Here's How I Use It",
+    "channel": "Sharbel A.",
+    "upload_date": "2026-09-22",
+    "duration_seconds": 1100,
+    "thumbnail": "https://i.ytimg.com/vi/p3_Ql5nq4t4/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=p3_Ql5nq4t4",
+    "description": "Get my exact Hermes Bot team setup, prompts, and copy-paste instructions here: https://sharbel.com/s/hykjy\n\nA few months ago, I ran one AI agent. Now I run a team of specialized Hermes bots that handle my inbox, clients, content, and recurring business workflows together.\n\nIn this video, I explain exactly how Hermes Bot Mode works and show you how to build your own multi-agent team from scratch. Each bot gets its own role, model, tools, MCP connections, memory, permissions, and personality. They can work individually, message each other directly, or coordinate inside a shared group chat.\n\nYou’ll also see me build a real content team with an orchestrator, researcher, and creator. The bots research ideas, hand work between each other, create the finished content, check it for accuracy, and return one final result to me.\n\nI also cover the setup decisions that matter most, including how to reduce token costs, choose models, prune unnecessary tools, configure memory and timeouts, and prevent bots from spending money, deleting files, or contacting clients without approval.\n\nWhat’s covered:\n• How Hermes Bot Mode works\n• Building specialized AI employees\n• Bot-to-bot communication and group chats\n• Choosing models, tools, skills, and MCPs\n• Memory, warm bots, and timeout settings\n• Approval gates and safety guardrails\n• Building a real multi-agent content team\n• Making your bot team improve over time\n\nChapters:\n0:00 My AI Agents Run the Business\n0:40 What Hermes Bot Mode Actually Is\n1:35 Three Ways Hermes Bots Communicate\n2:09 Build Your First Bot Team\n2:21 Create the Bot\n2:52 Write Its Soul\n3:26 Prune Its Tools and MCPs\n5:30 Pick the Right Model\n6:18 Memory, Warm Bots, and Timeouts\n7:17 Set Guardrails That Actually Work\n9:16 Build a Real Content Team\n16:21 Make the Team Improve Itself\n16:51 When Bot Teams Are Worth It",
+    "summary": "Sharbel A. presents Hermes Bot Mode as a way to coordinate specialized Hermes profiles rather than manually carrying work between separate agents. He explains that each bot has its own persona, model, tools, MCP connections, memory, and permissions, while Bot Mode adds direct bot-to-bot messages and bounded group chats. The practical setup advice is to start with one narrowly defined bot, give it a precise role description, and use a stronger model for the orchestrator while assigning routine work to cheaper or local worker models.\n\nThe video emphasizes operational discipline: remove unused tools and MCPs because their context can add significant token cost, centralize shared-memory writes in the orchestrator, and use hard capability limits plus approval settings for consequential actions. The worked example builds a three-bot Instagram content workflow: an orchestrator gathers requirements and coordinates, a researcher surfaces evidence-backed angles, and a creator turns the handoff into a carousel draft; the researcher then checks the output before the orchestrator returns it. Sharbel closes by arguing that teams are most useful for recurring workflows, especially when they retain learned formats, style, and trusted sources after completed jobs.",
+    "why_valuable": "This is a grounded, end-to-end example of turning multi-agent enthusiasm into an implementable operating model: narrow roles, deliberate routing, minimal permissions, tiered model spend, and review gates. Its content-team walkthrough makes the abstractions concrete while also showing a real provider timeout, and the distinction between hard tool restrictions and softer prompt rules is particularly useful for anyone delegating work that can affect customers, data, or spend.",
+    "key_takeaways": [
+      "Bot Mode’s key benefit is coordination: profiles can delegate directly and collaborate in bounded group chats rather than relying on the user as the handoff layer.",
+      "Start with one tightly scoped bot; a concise, explicit role description becomes the basis for its personality and operating rules.",
+      "Enable only the tools and MCPs required for each role, since unnecessary integrations increase per-run context, cost, and attack surface.",
+      "Put complex routing and reasoning on the orchestrator’s stronger model, while using cheaper or local models for straightforward worker tasks.",
+      "Use layered guardrails: do not grant dangerous tools where possible, configure approval prompts, and reinforce constraints in the bot’s soul instructions.",
+      "Bot teams fit recurring, multi-step work better than one-off tasks, and post-job learning can reduce future briefing overhead."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "My AI Agents Run the Business",
+        "description": "Sharbel frames the video around moving from one AI agent to a team that handles inbox, client, and content work through handoffs. He previews both an explanation of Bot Mode and a live build, which establishes that the value claimed is coordinated recurring work rather than a single autonomous assistant.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 40,
+        "timestamp": "0:40",
+        "title": "What Hermes Bot Mode Actually Is",
+        "description": "A bot is described as a Hermes profile with its own persona, model, tools, access, and memory. Bot Mode makes these profiles easier to coordinate: one can split a job and pass pieces to others in a shared room, removing the user as the manual relay between agents.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 95,
+        "timestamp": "1:35",
+        "title": "Three Ways Hermes Bots Communicate",
+        "description": "The video distinguishes one-on-one user-to-bot interaction, direct messages between bots, and multi-bot group chats. It notes that group chats can cap back-and-forth turns, an important practical control intended to prevent endless loops and unexpected token consumption.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 129,
+        "timestamp": "2:09",
+        "title": "Build Your First Bot Team",
+        "description": "Before expanding into a team, Sharbel recommends creating and understanding one bot first. The point is to learn the mechanism of role definition, model choice, tools, and boundaries before increasing coordination complexity or delegating a larger workflow.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 141,
+        "timestamp": "2:21",
+        "title": "Create the Bot",
+        "description": "Creating a bot begins with a name, a display title, and a short description of its job; Hermes can generate an initial personality from that prompt. The name supports @-mentioning, while cloning the default setup and choosing a model provide a fast starting configuration to refine later.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 172,
+        "timestamp": "2:52",
+        "title": "Write Its Soul",
+        "description": "Sharbel calls the role description the bot’s soul because it supplies its personality and behavioral rules. His sales-agent example adds explicit limits on pricing and a reporting path back through the main Hermes instance, illustrating why a narrower job definition produces more predictable behavior.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 206,
+        "timestamp": "3:26",
+        "title": "Prune Its Tools and MCPs",
+        "description": "This section separates on-demand skills from live tools and MCP integrations, then argues that tools and MCPs should be minimized per bot. Unneeded integrations load context every run—he cites some tools as exceeding 50,000 tokens—while a sales bot’s CRM access shows the benefit of giving a role only its specialist capability.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 330,
+        "timestamp": "5:30",
+        "title": "Pick the Right Model",
+        "description": "The orchestrator should use a strong model because it makes calls and handles complex reasoning, while worker bots can use less expensive or local models for simple tasks. This division is presented as the central cost-control pattern: pay for high capability only where the workflow actually requires it.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 378,
+        "timestamp": "6:18",
+        "title": "Memory, Warm Bots, and Timeouts",
+        "description": "Sharbel recommends allowing only the orchestrator to write to shared memory, with other bots using built-in memory, so the team does not duplicate saved context. He also suggests keeping more bots warm for faster switching and extending the default ten-minute timeout to roughly 20–30 minutes when longer workflows risk stopping midway.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 437,
+        "timestamp": "7:17",
+        "title": "Set Guardrails That Actually Work",
+        "description": "The guardrail exercise starts by identifying actions the owner would regret, such as spending money, contacting clients, or deleting data. Three layers follow: withhold the risky tool entirely, use Hermes approval controls for individual actions, and add a soul.md instruction; the last is explicitly a reinforcement rather than a hard security boundary.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 556,
+        "timestamp": "9:16",
+        "title": "Build a Real Content Team",
+        "description": "Sharbel builds a three-role Instagram workflow: the main Hermes instance serves as orchestrator, a researcher tracks effective evidence-backed angles, and a creator turns findings into posts. After onboarding questions, the orchestrator creates the bots and group chat; the demo also shows a GPT provider session timeout, then the researcher-to-creator handoff and a final research quality check on the carousel draft.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 981,
+        "timestamp": "16:21",
+        "title": "Make the Team Improve Itself",
+        "description": "After a completed job, Sharbel suggests instructing the team to save what it learned about formats, style, and trusted sources. That retained operating context is intended to reduce repeated questions and briefing effort, shifting the team from a fresh set of prompts into a workflow that improves across similar assignments.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1011,
+        "timestamp": "16:51",
+        "title": "When Bot Teams Are Worth It",
+        "description": "The closing recommendation is not to build a team for a one-off or simple task, since one capable agent may be sufficient. Teams are positioned for repeated workflows such as content or business operations, where specialized roles can check one another’s output and continue working with less direct user involvement over time.",
+        "source": "creator"
+      }
+    ]
+  }
+]
