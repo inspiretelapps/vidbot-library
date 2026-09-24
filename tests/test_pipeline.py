@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import re
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -55,6 +56,18 @@ class PipelineTests(unittest.TestCase):
             payload = json.loads((root / "public/videos.json").read_text())
             self.assertEqual("Test", payload["playlist"]["title"])
         finally: td.cleanup()
+
+    def test_site_formats_every_library_upload_date(self):
+        html = (ROOT / "site/index.html").read_text()
+        match = re.search(r"const fmtDate=.*?;(?=\n)", html)
+        self.assertIsNotNone(match)
+        fmt = match.group(0) if match else ""
+        dates = [video.get("upload_date") for video in json.loads((ROOT / "data/videos.json").read_text())]
+        script = fmt + "\nconsole.log(JSON.stringify(" + json.dumps(dates) + ".map(fmtDate)))"
+        result = subprocess.run(["node", "-e", script], capture_output=True, text=True, check=True)
+        formatted = json.loads(result.stdout)
+        self.assertEqual(len(dates), len(formatted))
+        self.assertTrue(all("Invalid" not in date for date in formatted))
 
     def test_site_offers_local_archive_workflow(self):
         html = (ROOT / "site/index.html").read_text()
