@@ -4733,7 +4733,7 @@
         "start_seconds": 27,
         "timestamp": "00:27",
         "title": "Find Skills",
-        "description": "Find Skills is presented as the agent ecosystem’s equivalent of an app-store search layer: a user asks for a capability, such as writing tests, and the agent locates suitable skills and offers installation choices. The skill does not perform the requested job itself; its value is reducing discovery friction as repositories multiply and helping users extend an agent without already knowing the package name.",
+        "description": "The discovery command is presented as the agent ecosystem’s equivalent of an app-store search layer: a user asks for a capability, such as writing tests, and the agent locates suitable skills and offers installation choices. The skill does not perform the requested job itself; its value is reducing discovery friction as repositories multiply and helping users extend an agent without already knowing the package name.",
         "source": "creator"
       },
       {
@@ -4782,7 +4782,7 @@
         "start_seconds": 459,
         "timestamp": "07:39",
         "title": "Grilling",
-        "description": "Grilling is the reusable questioning engine behind the earlier Grill Me command, specifying how the agent should structure questions, inspect answers, and continue probing. Pocock separated the general engine from its first application so the same method could support contexts beyond pre-build interviews, and Robbie likens this to an engine with Grill Me as one application. The design is a concrete example of composable skills: isolate a general capability once, then invoke it from multiple specialized workflows.",
+        "description": "A reusable questioning engine is the reusable questioning engine behind the earlier Grill Me command, specifying how the agent should structure questions, inspect answers, and continue probing. Pocock separated the general engine from its first application so the same method could support contexts beyond pre-build interviews, and Robbie likens this to an engine with Grill Me as one application. The design is a concrete example of composable skills: isolate a general capability once, then invoke it from multiple specialized workflows.",
         "source": "creator"
       },
       {
@@ -6084,49 +6084,49 @@
         "start_seconds": 524,
         "timestamp": "08:44",
         "title": "Behind the Growth",
-        "description": "Behind the Growth monitors visits to Peter's website, paid conversion through its funnel, traffic sources, and the performance of headline A/B tests using hosting and internal analytics data. Its reports and charts turn scattered operational metrics into a recurring view of acquisition and conversion, helping a site owner notice changes and judge experiments without manually assembling the numbers.",
+        "description": "An analytics assistant monitors visits to Peter's website, paid conversion through its funnel, traffic sources, and the performance of headline A/B tests using hosting and internal analytics data. Its reports and charts turn scattered operational metrics into a recurring view of acquisition and conversion, helping a site owner notice changes and judge experiments without manually assembling the numbers.",
         "source": "creator"
       },
       {
         "start_seconds": 594,
         "timestamp": "09:54",
         "title": "X Scout",
-        "description": "X Scout uses a cloud browser rather than the paid X API to gather relevant AI discussion, summarize posts from industry figures, and resurface items Peter bookmarked but never read. A morning digest lets him keep up with a fast-moving network without personally doom-scrolling, illustrating how scheduled agents can convert an attention-heavy feed into a bounded briefing.",
+        "description": "A research assistant uses a cloud browser rather than the paid X API to gather relevant AI discussion, summarize posts from industry figures, and resurface items Peter bookmarked but never read. A morning digest lets him keep up with a fast-moving network without personally doom-scrolling, illustrating how scheduled agents can convert an attention-heavy feed into a bounded briefing.",
         "source": "creator"
       },
       {
         "start_seconds": 665,
         "timestamp": "11:05",
         "title": "Frugal Dad",
-        "description": "Frugal Dad monitors Japan airfares, advises Peter when prices appear to be falling, and handles Facebook Marketplace listings by operating the sites through a cloud computer. It can renew listings and negotiate with interested buyers within Peter's pricing guidance—the featured headphones sold shortly before filming—showing the value of delegating repetitive money-saving tasks while retaining human limits for consequential choices.",
+        "description": "A household shopping assistant monitors Japan airfares, advises Peter when prices appear to be falling, and handles Facebook Marketplace listings by operating the sites through a cloud computer. It can renew listings and negotiate with interested buyers within Peter's pricing guidance—the featured headphones sold shortly before filming—showing the value of delegating repetitive money-saving tasks while retaining human limits for consequential choices.",
         "source": "creator"
       },
       {
         "start_seconds": 801,
         "timestamp": "13:21",
         "title": "Weekend Planner",
-        "description": "Weekend Planner emails a Wednesday brief with local Saturday and Sunday activities for Peter's family plus movie and television recommendations. Its suggestions use a living taste-profile file derived from his IMDb ratings, preferred genres and storytelling qualities, and new ratings he adds after watching something, demonstrating how explicit personal history makes recommendations more relevant and prevents repeated suggestions.",
+        "description": "A weekly planning assistant emails a Wednesday brief with local Saturday and Sunday activities for Peter's family plus movie and television recommendations. Its suggestions use a living taste-profile file derived from his IMDb ratings, preferred genres and storytelling qualities, and new ratings he adds after watching something, demonstrating how explicit personal history makes recommendations more relevant and prevents repeated suggestions.",
         "source": "creator"
       },
       {
         "start_seconds": 918,
         "timestamp": "15:18",
         "title": "Health Coach",
-        "description": "Health Coach combines weight and body-fat readings from Peter's smart scale with workout history from a custom fitness app, then sends a scheduled accountability report. By comparing his weekly sessions and lifting volume with a 16-percent body-fat goal and offering concrete training or nutrition suggestions, it shows why coaching becomes more useful when an agent can reason over multiple longitudinal data sources.",
+        "description": "An accountability assistant combines weight and body-fat readings from Peter's smart scale with workout history from a custom fitness app, then sends a scheduled accountability report. By comparing his weekly sessions and lifting volume with a 16-percent body-fat goal and offering concrete training or nutrition suggestions, it shows why coaching becomes more useful when an agent can reason over multiple longitudinal data sources.",
         "source": "creator"
       },
       {
         "start_seconds": 988,
         "timestamp": "16:28",
         "title": "Marie Kondo",
-        "description": "Marie Kondo reviews subscriptions, email, and Google Drive content to identify expenses and digital clutter that may no longer be useful, such as a service Peter no longer uses. Crucially, it asks before moving or deleting files, making the bot an example of pairing proactive cleanup recommendations with approval gates for destructive actions.",
+        "description": "A digital decluttering assistant reviews subscriptions, email, and Google Drive content to identify expenses and digital clutter that may no longer be useful, such as a service Peter no longer uses. Crucially, it asks before moving or deleting files, making the bot an example of pairing proactive cleanup recommendations with approval gates for destructive actions.",
         "source": "creator"
       },
       {
         "start_seconds": 1035,
         "timestamp": "17:15",
         "title": "Loving Husband",
-        "description": "Loving Husband reads lengthy school emails and extracts the dates, decisions, and family actions Peter actually needs, such as whether to RSVP for a back-to-school barbecue. It can also help organize errands requested by his wife, reducing the chance that important household commitments disappear inside verbose messages even though physical errands still remain beyond the bot's reach.",
+        "description": "A family-email assistant reads lengthy school emails and extracts the dates, decisions, and family actions Peter actually needs, such as whether to RSVP for a back-to-school barbecue. It can also help organize errands requested by his wife, reducing the chance that important household commitments disappear inside verbose messages even though physical errands still remain beyond the bot's reach.",
         "source": "creator"
       },
       {
@@ -6169,35 +6169,35 @@
         "start_seconds": 22,
         "timestamp": "00:22",
         "title": "God's Eye View",
-        "description": "God's Eye View combines public feeds for civilian and military aircraft, ships, satellites, earthquakes and cameras in an interactive globe, with a chat interface for navigating the data. Jack demonstrates asking it to fly to the Pentagon, select nearby air traffic, enter a cockpit view and play local radio. The practical value is seeing multiple live data sources in one spatial view for exploration, demonstrations and visual storytelling rather than checking each feed separately.",
+        "description": "An interactive globe combines public feeds for civilian and military aircraft, ships, satellites, earthquakes and cameras in an interactive globe, with a chat interface for navigating the data. Jack demonstrates asking it to fly to the Pentagon, select nearby air traffic, enter a cockpit view and play local radio. The practical value is seeing multiple live data sources in one spatial view for exploration, demonstrations and visual storytelling rather than checking each feed separately.",
         "source": "creator"
       },
       {
         "start_seconds": 146,
         "timestamp": "02:26",
         "title": "NVIDIA SkillSpector",
-        "description": "NVIDIA SkillSpector scans agent skills for hidden or suspicious instructions, unsafe access requests and possible data flows or leaks, then assigns a risk assessment. Jack shows the intended workflow: give the repository to the agent and ask it to inspect the existing skill inventory before new software is trusted. This matters because skills can carry permissions and instructions that are not obvious from their descriptions, so pre-installation review adds a security layer to an agent setup.",
+        "description": "A security scanner scans agent skills for hidden or suspicious instructions, unsafe access requests and possible data flows or leaks, then assigns a risk assessment. Jack shows the intended workflow: give the repository to the agent and ask it to inspect the existing skill inventory before new software is trusted. This matters because skills can carry permissions and instructions that are not obvious from their descriptions, so pre-installation review adds a security layer to an agent setup.",
         "source": "creator"
       },
       {
         "start_seconds": 218,
         "timestamp": "03:38",
         "title": "Floot",
-        "description": "Floot takes an interface created with ChatGPT or Claude and turns it into a hosted application while handling authentication, forms, databases, email and other backend concerns. Jack demonstrates moving a questionnaire-style page into Floot, connecting it through an approval flow and ending with a shareable app whose submissions can be stored. The useful insight is that the service targets the difficult gap between generating a design and operating a real product, although Jack explicitly notes that Floot is not itself a GitHub repository.",
+        "description": "A hosting service takes an interface created with ChatGPT or Claude and turns it into a hosted application while handling authentication, forms, databases, email and other backend concerns. Jack demonstrates moving a questionnaire-style page into Floot, connecting it through an approval flow and ending with a shareable app whose submissions can be stored. The useful insight is that the service targets the difficult gap between generating a design and operating a real product, although Jack explicitly notes that Floot is not itself a GitHub repository.",
         "source": "creator"
       },
       {
         "start_seconds": 384,
         "timestamp": "06:24",
         "title": "SlopMonster",
-        "description": "SlopMonster evaluates text for generic AI signals such as stock vocabulary, repetitive constructions, punctuation and rule-of-three rhythms, then rewrites it with greater specificity. Its marketing checks turn claims like “trusted, reliable, and built to last” into concrete details such as “six nails per shingle, every shingle,” grounding copy in the trade, customer fears and verifiable practice. This matters because removing AI mannerisms is not enough; useful copy must also tell a reader something precise about the offer.",
+        "description": "A text editor evaluates text for generic AI signals such as stock vocabulary, repetitive constructions, punctuation and rule-of-three rhythms, then rewrites it with greater specificity. Its marketing checks turn claims like “trusted, reliable, and built to last” into concrete details such as “six nails per shingle, every shingle,” grounding copy in the trade, customer fears and verifiable practice. This matters because removing AI mannerisms is not enough; useful copy must also tell a reader something precise about the offer.",
         "source": "creator"
       },
       {
         "start_seconds": 560,
         "timestamp": "09:20",
         "title": "Claudex Loop",
-        "description": "Claudex Loop has Claude and Codex cross-review a plan, allowing one model to identify weak spots or mistakes the other missed before implementation begins. Jack says he reserves this workflow for roughly ten percent of his AI work—complex builds and consequential decisions where model diversity is worth the extra effort. The lesson is not to duplicate every routine task, but to use independent critique selectively when blind spots would be costly.",
+        "description": "A cross-review workflow has Claude and Codex cross-review a plan, allowing one model to identify weak spots or mistakes the other missed before implementation begins. Jack says he reserves this workflow for roughly ten percent of his AI work—complex builds and consequential decisions where model diversity is worth the extra effort. The lesson is not to duplicate every routine task, but to use independent critique selectively when blind spots would be costly.",
         "source": "creator"
       },
       {
@@ -6211,7 +6211,7 @@
         "start_seconds": 762,
         "timestamp": "12:42",
         "title": "Archify",
-        "description": "Archify converts either code or a plain-English process into an interactive architecture map that can be explored, themed, exported and shared. Jack demonstrates mapping a sales system and explains how users can inspect upstream and downstream connections, trace requests, document large workflows or orient people to an unfamiliar codebase. The value is reducing the time spent manually diagramming complex systems while giving teams a concrete artifact for onboarding, handoffs, reviews and process discussions.",
+        "description": "An architecture-mapping tool converts either code or a plain-English process into an interactive architecture map that can be explored, themed, exported and shared. Jack demonstrates mapping a sales system and explains how users can inspect upstream and downstream connections, trace requests, document large workflows or orient people to an unfamiliar codebase. The value is reducing the time spent manually diagramming complex systems while giving teams a concrete artifact for onboarding, handoffs, reviews and process discussions.",
         "source": "creator"
       }
     ],
@@ -6374,7 +6374,7 @@
         "start_seconds": 595,
         "timestamp": "09:55",
         "title": "Usage Bot",
-        "description": "Usage Bot signs into the relevant account, checks the remaining allowance on a routine and reports quota status to FirstMate so the team can throttle work. The demonstration shows it refreshing the usage page, reporting 85 percent consumed, the reset date and the remaining headroom; its anti-jobs forbid inventing numbers, buying or changing plans, or doing another bot's work. This is important on constrained subscriptions because deliberate routing prevents a vague request from spawning many agents and exhausting the weekly quota blindly.",
+        "description": "An allowance monitor signs into the relevant account, checks the remaining allowance on a routine and reports quota status to FirstMate so the team can throttle work. The demonstration shows it refreshing the usage page, reporting 85 percent consumed, the reset date and the remaining headroom; its anti-jobs forbid inventing numbers, buying or changing plans, or doing another bot's work. This is important on constrained subscriptions because deliberate routing prevents a vague request from spawning many agents and exhausting the weekly quota blindly.",
         "source": "creator"
       },
       {
@@ -6388,7 +6388,7 @@
         "start_seconds": 915,
         "timestamp": "15:15",
         "title": "Box Inspector",
-        "description": "Box Inspector evaluates an unfamiliar bot template before it is added, reporting its visible claim, hidden components, third-party risk and a recommendation without installing it automatically. This safeguard is necessary because all bots on the account share one computer rather than isolated sandboxes, making a template equivalent to untrusted software on the same machine. In the example it recommends skipping a human-copywriter template unless needed and supervised, reinforcing the rule: one computer, untrusted software, always inspect before adding.",
+        "description": "A template inspector evaluates an unfamiliar bot template before it is added, reporting its visible claim, hidden components, third-party risk and a recommendation without installing it automatically. This safeguard is necessary because all bots on the account share one computer rather than isolated sandboxes, making a template equivalent to untrusted software on the same machine. In the example it recommends skipping a human-copywriter template unless needed and supervised, reinforcing the rule: one computer, untrusted software, always inspect before adding.",
         "source": "creator"
       },
       {
@@ -6636,7 +6636,7 @@
         "start_seconds": 3090,
         "timestamp": "51:30",
         "title": "Going salesless",
-        "description": "Going salesless starts by defining the people the coach can help, enjoys serving and wants more of, including clarifying undesirable traits by inversion. Clear standards make positioning sharper and attract high performers who value being in a selective room. Taki presents sales as a spectrum rather than a dogma: founders who dislike calls or sales teams can move the work upstream so marketing creates demand and prospects arrive largely convinced.",
+        "description": "The salesless approach starts by defining the people the coach can help, enjoys serving and wants more of, including clarifying undesirable traits by inversion. Clear standards make positioning sharper and attract high performers who value being in a selective room. Taki presents sales as a spectrum rather than a dogma: founders who dislike calls or sales teams can move the work upstream so marketing creates demand and prospects arrive largely convinced.",
         "source": "creator"
       },
       {

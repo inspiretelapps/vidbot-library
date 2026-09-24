@@ -164,6 +164,12 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "caption template"):
             merge_mod.validate(item)
 
+    def test_all_published_chapters_pass_summary_validation(self):
+        videos = json.loads((ROOT / "data/videos.json").read_text())
+        for video in videos:
+            with self.subTest(video=video["id"]):
+                merge_mod.validate(video)
+
     def test_library_chapters_are_detailed(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())
         chapters = [chapter for video in videos for chapter in video["chapters"]]
