@@ -115,6 +115,42 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "description"):
             merge_mod.validate(item)
 
+    def test_rejects_title_and_caption_template_chapter(self):
+        item = {
+            "id": "abcdefghijk", "title": "A", "description": "Creator description", "summary": "S", "why_valuable": "V",
+            "chapters": [{
+                "start_seconds": 0, "title": "Intro", "source": "generated",
+                "description": "This section is titled ‘Intro’ and develops that topic through the speaker’s example or explanation. Caption excerpt: The transcript begins here and has enough extra words to exceed the required length without actually summarising the chapter in a useful way.",
+            }],
+        }
+        with self.assertRaisesRegex(ValueError, "title/caption template"):
+            merge_mod.validate(item)
+
+    def test_rejects_placeholder_generated_titles(self):
+        item = {
+            "id": "abcdefghijk", "title": "A", "description": "Creator description", "summary": "S", "why_valuable": "V",
+            "chapters": [{
+                "start_seconds": 548, "title": "Discussion at 9:08", "source": "generated",
+                "description": "The speaker compares two models on cost and coding ability, citing a concrete pricing change. They then explain why the lower price does not offset the quality gap for demanding work, and how that affects model selection.",
+            }],
+        }
+        with self.assertRaisesRegex(ValueError, "placeholder title"):
+            merge_mod.validate(item)
+        item["chapters"][0]["title"] = "Part 1"
+        with self.assertRaisesRegex(ValueError, "placeholder title"):
+            merge_mod.validate(item)
+
+    def test_rejects_caption_filler_even_without_old_opening(self):
+        item = {
+            "id": "abcdefghijk", "title": "A", "description": "Creator description", "summary": "S", "why_valuable": "V",
+            "chapters": [{
+                "start_seconds": 0, "title": "Smart Home Demo", "source": "creator",
+                "description": "Here the discussion focuses on the speaker's opening words about switching the lights. The middle of the segment adds another caption sentence without explaining the demo or its outcome, and the final sentence makes a generic claim.",
+            }],
+        }
+        with self.assertRaisesRegex(ValueError, "caption template"):
+            merge_mod.validate(item)
+
     def test_library_chapters_are_detailed(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())
         chapters = [chapter for video in videos for chapter in video["chapters"]]

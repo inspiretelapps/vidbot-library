@@ -32,10 +32,30 @@ def validate(item: dict) -> None:
             raise ValueError(f"{item['id']}: malformed chapter")
         if chapter["source"] not in {"creator", "generated"}:
             raise ValueError(f"{item['id']}: invalid chapter source")
+        title = str(chapter.get("title", "")).strip()
+        if chapter["source"] == "generated" and re.fullmatch(
+            r"(?:discussion(?: at)?\s+\d{1,2}:\d{2}(?::\d{2})?|part\s+\d+)", title, re.IGNORECASE
+        ):
+            raise ValueError(f"{item['id']}: generated chapter has a placeholder title")
         description = str(chapter.get("description", "")).strip()
         sentence_count = len(re.findall(r"[.!?](?:\s|$)", description))
         if len(description) < 180 or sentence_count < 2:
             raise ValueError(f"{item['id']}: chapter descriptions must be detailed 2+ sentence paragraphs")
+        normalized = re.sub(r"\s+", " ", description).lower()
+        title_normalized = re.sub(r"\s+", " ", title).lower()
+        prohibited = (
+            "this section is titled",
+            "caption excerpt:",
+            "this chapter is titled",
+            "develops that topic through",
+            "here the discussion focuses on",
+            "the middle of the segment adds",
+            "taken together, those details establish the practical claim",
+        )
+        if any(phrase in normalized for phrase in prohibited):
+            raise ValueError(f"{item['id']}: chapter description is a title/caption template, not a summary")
+        if title_normalized and normalized.startswith(title_normalized):
+            raise ValueError(f"{item['id']}: chapter description must not repeat its title")
 
 
 def merge(summary_path: Path, root: Path = ROOT) -> list[dict]:
