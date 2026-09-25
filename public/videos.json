@@ -9,8 +9,185 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-24T05:19:16+02:00",
+  "updated_at": "2026-09-25T06:02:55+02:00",
   "videos": [
+    {
+      "id": "7RVf25Rg0Mc",
+      "title": "you need to try Paperclip RIGHT NOW!",
+      "channel": "NetworkChuck",
+      "upload_date": "20260924",
+      "duration_seconds": 1727,
+      "thumbnail": "https://i.ytimg.com/vi/7RVf25Rg0Mc/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7RVf25Rg0Mc",
+      "description": "Try Flare for free: https://ntck.co/flare\n\n\nI gave my AI agents a company with Paperclip. Paperclip is an open-source app for managing a team of AI agents, with shared goals, assigned tasks, budgets, and human oversight. Their first job: figure out why flushing the studio toilet keeps disconnecting everyone from the NAS. I hired a Claude Code CEO, brought in my existing Hermes agents, and added Codex and agents running local models to build an IT department that can actually work together. Then I handed them the ticket and watched them investigate my real network, question each other's work, and come back with a verdict I still want to blame on the toilet.\n\nIn this video you'll learn how to install Paperclip, connect remote Hermes agents, build a team across different AI harnesses, automate checks with routines, and use approval gates and watchdog agents to review decisions and check whether stopped tasks are genuinely finished or blocked. Whether you're trying your first AI agent or already juggling a bunch of them, we're taking those separate chat sessions and giving them jobs, managers, and a shared place to get things done.\n\nJoin the NetworkChuck Academy!: https://ntck.co/NCAcademy\n\nRESOURCES / LINKS:\nmy guide: https://github.com/theNetworkChuck/paperclip-guide\n📎 Paperclip: https://paperclip.ing/\n💻 Paperclip on GitHub (star the repo!): https://github.com/paperclipai/paperclip\n📖 Official Paperclip documentation: https://docs.paperclip.ing/\n📺 Set up your own Hermes agent: https://www.youtube.com/watch?v=QQEgIo4Juxg\n\n\n\nFEATURING:\n👤 Dotta (creator of Paperclip): https://x.com/dotta\n   Site: https://paperclip.ing/\n\n**Sponsored by Flare\n\nSUPPORT NETWORKCHUCK:\n☕☕ COFFEE and MERCH: https://ntck.co/coffee\n\n\nREADY TO LEARN??\n🔥🔥Join the NetworkChuck Academy!: https://ntck.co/NCAcademy\n📚 CCNA Course: https://ntck.co/ccna\n\nFOLLOW ME EVERYWHERE:\nInstagram: https://www.instagram.com/networkchuck/\nX/Twitter: https://x.com/networkchuck\nFacebook: https://www.facebook.com/NetworkChuck/\nJoin the Discord server: https://ntck.co/discord\n\nSome links in this description are affiliate links. If you buy through them, I may earn a small commission at no extra cost to you. #sponsored\n#paperclip #aiagents #networkchuck",
+      "summary": "Chuck builds an agent-run IT department in Paperclip, an open-source coordination layer that organizes agents from different harnesses around tasks, managers and a shared activity record. He installs it on an Ubuntu VM, troubleshoots a missing Claude Code installation, connects existing remote Hermes agents and adds Codex and local-model roles. Delegation, hiring approvals, artifacts, decisions, watchdogs and scheduled routines become the team's workflow.\n\nThe real ticket is an intermittent loss of studio NAS access that Chuck associates with flushing a toilet. Agents collect switch and storage evidence, generate a network map and ask for decisions; their first report cannot prove a toilet trigger and finds simultaneous fiber-link flaps instead of a NAS outage. Further analysis points to a batch of marginal third-party SFP modules on four switch links. Chuck replaces some modules but explicitly leaves the fix unconfirmed pending a week or two of observation.\n\nThe video also includes a sponsored Flare demonstration on stolen credentials and session exposure. Chuck connects its API to a new agent using scoped secrets and shows that missing configuration and excessive follow-up work still require human intervention. A separate daily stand-up example shows agents questioning one another about footage backups. The closing prayer is optional and separate from the technical walkthrough.",
+      "why_valuable": "A concrete multi-harness deployment with a real troubleshooting trail, including a failed onboarding retry, delegated investigation, human approval points, and an explicitly unverified hardware fix. The sponsored threat-intelligence segment is identified separately.",
+      "key_takeaways": [
+        "Paperclip coordinates existing harnesses through tasks and an org chart rather than replacing them.",
+        "A remote Hermes agent can request a hire subject to human approval; local Claude Code must be installed where it runs.",
+        "Investigation found correlated fiber link flaps, not a NAS outage or confirmed toilet-flush cause.",
+        "Suspect third-party SFP modules were replaced, but the fix needs observation before declaring success.",
+        "Routines, artifacts, decisions and scoped secrets help preserve oversight across delegated work."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Paperclip: managing my AI agent company",
+          "description": "Chuck says he already uses eight separate agents across tools such as Hermes, Codex and Claude Code, but cannot easily coordinate who does what or track security. He introduces Paperclip as an organizing layer that brings those existing harnesses into one shared operational structure rather than replacing them.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 26,
+          "timestamp": "0:26",
+          "title": "Dotta's face reveal and how Paperclip agents work together",
+          "description": "The creator explains that collaboration happens through assigned tasks, not an unstructured group chat where agents simply talk to each other. Chuck proposes putting a network, storage and security team to work on the studio's strange observation that NAS access disappears around toilet flushes.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 92,
+          "timestamp": "1:32",
+          "title": "The battle plan: local installs, VMs, and remote agents",
+          "description": "A Mac, Linux or Windows WSL2 computer is presented as the fastest place to experiment locally. Chuck opts for a dedicated VM/server for a more committed setup and says a cloud VPS is another option, making the installation choice depend on how long the organization needs to run.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 130,
+          "timestamp": "2:10",
+          "title": "Meet the AI IT department: Ron, Fred, and George",
+          "description": "Chuck plans to reuse three existing Hermes agents on their own VMs: Ron will supervise Fred and George, with a Claude Code CEO above them. He also proposes Codex security work and a local-model helpdesk agent, illustrating that a common org chart need not dictate a single model or runtime.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 210,
+          "timestamp": "3:30",
+          "title": "What Flare found about my exposed credentials (Sponsor)",
+          "description": "In this sponsored segment, Chuck shows Flare surfacing leaked credentials, look-alike domains and stolen sessions connected with people using his academy; he explicitly says this does not mean the academy itself was hacked. He argues that stolen session cookies can bypass normal login protections and says he intends to use Flare's API with his agents later in the video; the threat statistics and product claims are sponsor claims, not independently tested here.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 369,
+          "timestamp": "6:09",
+          "title": "Installing Paperclip on an Ubuntu VM",
+          "description": "On an Ubuntu VM Chuck downloads and runs an installation script, then chooses advanced configuration because he wants access over his local network. He points viewers using the quick-start route to localhost or their chosen host on port 3100, followed by company and account onboarding.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 408,
+          "timestamp": "6:48",
+          "title": "Hiring Dumbledore, our Claude Code CEO",
+          "description": "Choosing Claude Code for the CEO initially produces an error because that harness is not installed on the Paperclip host. Chuck installs it, authenticates, retries the failed onboarding task and inspects its command activity and inbox result; he then skips the optional questionnaire to start hiring.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 513,
+          "timestamp": "8:33",
+          "title": "Bringing remote Hermes agent Ron into Paperclip",
+          "description": "Chuck sends a provided connection prompt to Ron, an existing remote Hermes agent, rather than reinstalling that agent on the Paperclip machine. Ron requests admission, Chuck approves the hire as the human board member, and Ron appears in the organizational hierarchy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 552,
+          "timestamp": "9:12",
+          "title": "My first agent-to-agent task delegation",
+          "description": "To test communication before the real investigation, Chuck assigns Dumbledore a task to contact Ron; Dumbledore delegates a test task and waits for Ron's result. After confirming this works, Chuck adds Hermes specialists Fred and George and gives the CEO further hiring tasks, showing delegation as an auditable task chain.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 627,
+          "timestamp": "10:27",
+          "title": "Hiring Codex and local-model employees",
+          "description": "The finished org chart includes Hermes engineers, Codex security roles and Pi-based local-model roles such as a watchdog, helpdesk and scanner. Chuck also demonstrates asking Ron through Hermes to create a Paperclip task for another employee, while the activity timeline records who acted and when.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 691,
+          "timestamp": "11:31",
+          "title": "Giving the AI team the toilet and NAS ticket",
+          "description": "Chuck creates a project for the intermittent NAS problem and assigns Dumbledore a task containing the observations he has so far. Dumbledore opens an experimental case and distributes work among network, storage and other agents; Chuck explores task properties including child work and controls to pause or cancel it.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 741,
+          "timestamp": "12:21",
+          "title": "Watchdogs, approvers, and blocked tasks",
+          "description": "The task interface exposes dependencies, reviewers, approvers, monitors and watchdogs, so failures can escalate through Dumbledore before reaching the human board. Chuck observes a scanner agent timing out while still finding network details, a reminder that the demonstration includes imperfect agent runs rather than seamless autonomy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 793,
+          "timestamp": "13:13",
+          "title": "Inspecting agent artifacts and the network map",
+          "description": "Fred's downloadable network report and map appear as artifacts, with evidence gathered from logging into the studio switches. Arthur builds a capture harness and asks Mad-Eye Moody to review its security; Chuck then discovers a pending human decision, showing how output files and reviews remain attached to the work.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 850,
+          "timestamp": "14:10",
+          "title": "Reviewing decisions from the network investigation",
+          "description": "Dumbledore asks whether NAS disconnections happen simultaneously and whether Chuck will authorize a control flush test or optic replacement; Chuck confirms the shared timing but declines the test for now. The map shows SFP link flaps without matching storage events, prompting further checks of spanning tree, MAC tables and client failures before he approves replacement after a thermal report.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 978,
+          "timestamp": "16:18",
+          "title": "Scheduling a storage-check routine in Paperclip",
+          "description": "Chuck schedules a daily storage-health check on the SEF server and specifies that low capacity should create a decision for him. He adds a 10 a.m. trigger, also runs the routine immediately, and receives a warning that the SSD tier has about 20 TB free; this demonstrates both recurring work and human review of its findings.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1082,
+          "timestamp": "18:02",
+          "title": "The agents' first report: the NAS never went down",
+          "description": "The agents' initial report finds no matching NAS, router or switch outage and cannot establish that a toilet flush is the trigger. It instead identifies four fiber runs dropping within two seconds of a common physical event, 36 times in the retained week; Chuck values the stored evidence but continues the investigation rather than treating correlation as proof.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1142,
+          "timestamp": "19:02",
+          "title": "The real network verdict: failing fiber links",
+          "description": "After further investigation the team attributes the outages to four fragile fiber links on the MikroTik switch, with repeated link losses that also occur outside bathroom use. Chuck reports port 5 logged 20,052 link downs versus 123 on a comparable port and identifies a batch of inexpensive third-party SFP transceivers as suspect; building movement may only expose an already marginal connection.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1297,
+          "timestamp": "21:37",
+          "title": "Replacing the suspect SFP modules",
+          "description": "Chuck replaces suspect third-party modules with MikroTik-branded SFPs while warning colleagues that service may briefly drop. He does not claim the issue is fixed: he wants to observe the network for a week or two, and acknowledges that the association with bathroom activity remains an interesting but unproven explanation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1396,
+          "timestamp": "23:16",
+          "title": "Connecting Flare to Paperclip and hiring Filch",
+          "description": "Chuck gives Filch, a new agent hired by Dumbledore, access to a Flare API secret and then discovers he also needs to add a tenant-ID secret before the sweep can proceed. Filch subsequently assigns investigation and reset-related tasks to other agents; Chuck demonstrates pausing work when an agent appears to overstep, rather than assuming every delegated action is safe.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1529,
+          "timestamp": "25:29",
+          "title": "Exporting your Paperclip organization",
+          "description": "Chuck points out the organization import/export control and says it can carry agents, routines and task attachments between installations. This is an operational portability feature of the setup he just built, not a claim that the underlying agents or their external systems can be moved without additional configuration.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1551,
+          "timestamp": "25:51",
+          "title": "My AI agents run their daily stand-up",
+          "description": "On a different, already-running Paperclip organization, a scheduled 5 p.m. stand-up gathers daily updates from ten agents. Chuck shows an inter-agent question about backing up footage before restream recordings expire, illustrating how the routine can surface a concrete follow-up rather than only producing a status roll-up.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1637,
+          "timestamp": "27:17",
+          "title": "A prayer for you",
+          "description": "Chuck closes with an optional prayer for viewers experiencing stress or anxiety, reflecting on how prayer helped him manage his own difficult day. He suggests writing down an overwhelming issue and breaking it into smaller manageable pieces, then offers encouragement to people pursuing IT work.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-25T06:00:14+02:00",
+      "summarized_at": "2026-09-25T06:02:55+02:00"
+    },
     {
       "id": "jgGyX7MPPVg",
       "title": "Anthropic Actually Fixed Opus",
