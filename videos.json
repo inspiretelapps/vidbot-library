@@ -9,8 +9,313 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-25T06:02:55+02:00",
+  "updated_at": "2026-09-25T12:04:06+02:00",
   "videos": [
+    {
+      "id": "voGz8FBR-7k",
+      "title": "Mark Zuckerberg's Vision For the Future!",
+      "channel": "The Next Big Thing",
+      "upload_date": "20260924",
+      "duration_seconds": 3016,
+      "thumbnail": "https://i.ytimg.com/vi/voGz8FBR-7k/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=voGz8FBR-7k",
+      "description": "Mark Zuckerberg on what comes next and how Muse could unlock a future we’ve never seen before!\n\nTo me, Mark is the ultimate builder, founder and lifelong innovator - \n\nMark, It was an honor and privilege to spend time with you and I admire you! Thank you so much \n\nThank you so much to my brilliant team for being magic and giving this your all, AND the wonderful Meta team for doing the same\n\nNBT Community you are the reason all of these extraordinary things happens, and the reason I'm so excited to make videos - thank you for being here!\n\n00:00–4:58 Making Massive Bets \n4:58–8:07 What Makes Personal AI Different from General AI?\n8:07–13:17 Why Meta Gives Every AI Agent Its Own Computer\n13:17–15:45 How Do You Shape AI’s Personality?\n15:45–20:37 Mark’s Surprising Prediction About AI and the Metaverse\n20:37–25:48 What 2030 Looks Like\n25:48–29:16 Mark’s Founder Mindset\n29:16–31:41 How Mark Writes and Shares His Vision\n31:41–35:57 What Drives Mark to Build?\n35:57–38:04 A Golden Age for Builders\n38:04–42:10 How Close Are We to Curing All Diseases?\n42:10–43:08 The Most Common Thought in Mark’s Head\n43:08–46:18 What Breakthroughs Come Next?\n46:18–50:15 How to Win AI Safety\n\nInstagram: https://instagram.com/NBTJacklyn\n\nTwitter: https://mobile.twitter.com/NBTJacklyn \n\nAbout NBT: This is a show that helps millions of people understand technology and feel optimistic about the future we can build. Through deeply researched, highly energizing videos, I explore the most important innovations — from AI and robotics to self-driving cars, Solar energy and scientific breakthroughs.\n\nI started this channel at 13 to help my grandma with tech — and have been in love with making videos since. \nToday, I have the privilege of interviewing some of the world’s smartest tech leaders, including Tim Cook, Sundar Pichai, and RJ Scaringe. I also guest lecture at MIT, Harvard, NYU, and Cornell, and the U.S. Congress on the future of emerging technology and creator led media companies\n\nMy goal is to help you feel excited, informed, and ready to build the future:) Thank you so much for being here! Pumped\n\nMy bio: Jacklyn Dallas is a YouTuber and the creator of NothingButTech, a show that helps millions understand technology and feel optimistic about the future we can build. She started making tech explainer videos at 13 to help her grandma and fell in love with it. Today, she interviews the world’s most interesting CEOs and explores revolutionary, world-changing innovations like space drugs and deep-ocean robots. Her mission: to help people feel smarter, more energized, and hopeful about what’s next. Jacklyn guest lectures at MIT, Harvard, NYU, and the U.S. Congress, and was named Forbes 30 Under 30 in 2025.",
+      "summary": "Jacklyn Dallas interviews Mark Zuckerberg about Meta’s Muse personal AI and how Meta’s long-running AI, glasses, and virtual-presence investments might converge. Zuckerberg says the personal-agent challenge is not just general reasoning or code generation: the system must use memory and tools to carry out goals, keep sensitive facts discreet, and allow users to set its personality. He describes a separate virtual computer for each user, a credential store, security monitoring, and work toward confidential computing; these are Meta’s stated designs and goals, not independent security guarantees.\n\nHis 2030 vision blends in-person and holographic participation with an AI able to see and hear context through glasses. He says AI became capable sooner than affordable, ubiquitous holographic displays, so the product path will be iterative. He discusses the Llama 4 setback and reorganizing a smaller research team, then explains how he turns lengthy internal writing into shorter public communications and why building and learning new skills remain personally motivating.\n\nThe conversation turns to Biohub’s tool-building approach to biology, including a proposed virtual-cell model; Zuckerberg declines to name a year for curing disease and distinguishes cure, prevention, and management. Finally he discusses large compute clusters alongside potential efficiency breakthroughs, and argues that reliable alignment, discretion, training-time safeguards, and user trust are necessary to make a widely used personal agent. Predictions about superintelligence and 2030 are his projections, not established outcomes.",
+      "why_valuable": "An extended primary-source account of Meta’s proposed agent architecture, privacy model, glasses roadmap, research restructuring and safety rationale, with concrete examples and explicit uncertainty around predictions.",
+      "key_takeaways": [
+        "Muse aims to act on individual goals while controlling what private context it discloses.",
+        "Meta proposes per-user virtual machines, credential isolation and a monitoring agent; confidential-VM protection is described as work in progress.",
+        "Zuckerberg says AI arrived before inexpensive ubiquitous holograms and expects product integration to unfold iteratively.",
+        "He reorganized model research after Llama 4 missed its trajectory and describes scaling Muse as a current priority.",
+        "Biohub aims to build reusable biological tools; his disease timeline and superintelligence claims remain forecasts."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Making Massive Bets",
+          "description": "Zuckerberg traces Meta’s AI work from the early News Feed and research lab to a launch he says already has millions of users after roughly two weeks. He describes quickly recognizing an agent experience worth scaling, while the interviewer connects that launch to earlier investments in glasses and virtual worlds; the introductory framing is a company vision rather than proof of future adoption.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 298,
+          "timestamp": "4:58",
+          "title": "What Makes Personal AI Different from General AI?",
+          "description": "An assistant that books a restaurant must know a user’s allergy or pregnancy without automatically exposing those facts to a third party, Zuckerberg argues. He says coding skill matters because an agent can write code in the background, but discretion, persistent memory, a recurring check of goals, and a steerable voice-and-avatar interface distinguish his proposed personal product from a coding tool.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 487,
+          "timestamp": "8:07",
+          "title": "Why Meta Gives Every AI Agent Its Own Computer",
+          "description": "Rather than storing everyone’s sensitive context in one shared pool, Meta provisions each agent a virtual machine and proposes confidential-computing protections that Zuckerberg says are still being developed. He also describes a credential store that fills in passwords without showing them to the model and a Sentinel agent watching incoming and outgoing data; the argument is that secure architecture must underpin trust, not merely a reassuring interface.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 797,
+          "timestamp": "13:17",
+          "title": "How Do You Shape AI’s Personality?",
+          "description": "Zuckerberg rejects the idea of one optimal model persona: the initial setup asks users what temperament they want, and they can change voice, avatar and behavior later. He contrasts an earlier sarcastic assistant with his current more straightforward one, showing why steerability is treated as a product capability rather than a single designer-chosen character.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 945,
+          "timestamp": "15:45",
+          "title": "Mark’s Surprising Prediction About AI and the Metaverse",
+          "description": "He expected lifelike holograms to arrive before advanced personal AI, but now says the order has reversed. He recalls a laborious earlier hologram demo and discusses improvements in setup, alongside unresolved questions about how people represent themselves digitally; glasses offer an AI access to the user’s perspective even while mass-market holographic displays remain hard to make affordable.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1237,
+          "timestamp": "20:37",
+          "title": "What 2030 Looks Like",
+          "description": "Zuckerberg imagines friends playing poker together with some participants present as holograms and even the cards digitally rendered, rather than everyone joining a flat video call. He says today’s popular glasses often omit displays for cost and size, while display-equipped versions and a planned upgrade from one-turn voice replies to Muse point toward a gradual blending of physical and digital experiences.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1548,
+          "timestamp": "25:48",
+          "title": "Mark’s Founder Mindset",
+          "description": "He says Llama 4 fell behind the trajectory Meta needed and concludes that a large, parallelized feed-and-ads-style team was the wrong structure for frontier model research. The resulting Meta Superintelligence Lab combines a smaller, tightly coordinated group with rebuilt infrastructure; when Muse launched well, attention shifted to GPU capacity and product-team integrations rather than treating the earlier setback as irreversible.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1756,
+          "timestamp": "29:16",
+          "title": "How Mark Writes and Shares His Vision",
+          "description": "Zuckerberg describes drafting a roughly 15-page internal statement after debates over employment, data centers, government relations, national security and misuse risks. He then compressed it into a one-page public op-ed and a short video, explaining that different audiences need different levels of detail and that writing helps him refine his own thinking before making a shared company position.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1901,
+          "timestamp": "31:41",
+          "title": "What Drives Mark to Build?",
+          "description": "Building is an intrinsic creative need for him, but he says learning new skills also requires extended practice rather than a clever shortcut. He recounts struggling with spoken languages before deliberately studying Mandarin, and compares that process to martial arts, flying and music; the point is that a founder’s long-term development depends on repeatedly investing time in unfamiliar domains.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2157,
+          "timestamp": "35:57",
+          "title": "A Golden Age for Builders",
+          "description": "He distinguishes a drive to make products from the care-oriented motivation he sees in doctors and nurses, while agreeing that many people want more agency over what they create. He expects agents to lower the cost of turning a vague idea into an initial sketch that a person can refine, though this is an aspiration about broader access to building rather than a measured social outcome.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2284,
+          "timestamp": "38:04",
+          "title": "How Close Are We to Curing All Diseases?",
+          "description": "Biohub’s strategy, he says, is to fund shared scientific instruments and platforms rather than attempt to cure every illness itself. He points to a virtual-cell model that could simulate proteins and cellular effects before physical experiments, avoids giving an exact new deadline, and clarifies that success may mean curing, preventing, or managing conditions so they no longer impair life.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2530,
+          "timestamp": "42:10",
+          "title": "The Most Common Thought in Mark’s Head",
+          "description": "Immediately after launching Muse, Zuckerberg says the team is collecting reactions, widening access and extracting more capacity from existing GPUs. He also wants to improve the Muse Spark models and push frontier quality, so his near-term focus is a feedback-and-scaling cycle rather than a fixed account of what the product will ultimately become.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2588,
+          "timestamp": "43:08",
+          "title": "What Breakthroughs Come Next?",
+          "description": "He describes a gigawatt-scale Ohio training cluster and a planned five-gigawatt Louisiana facility as a way to push existing methods further, while admitting research may reveal better architectures. Comparing power-hungry clusters with the much more efficient human brain, he argues that infrastructure scaling and algorithmic efficiency should both be pursued; his AGI expectations remain speculative.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2778,
+          "timestamp": "46:18",
+          "title": "How to Win AI Safety",
+          "description": "He says an assistant cannot earn mass trust if it technically completes a task while betraying the user’s intent or values. In addition to user feedback, he emphasizes training-time alignment, resistance to reward hacking, discretion and hardening the agent’s virtual computer; he argues that the incentive to keep users should motivate labs, while acknowledging those safeguards took extra development time.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-25T12:00:07+02:00",
+      "summarized_at": "2026-09-25T12:04:06+02:00"
+    },
+    {
+      "id": "vDjW_dRyKXY",
+      "title": "Rails World 2026 Opening Keynote - DHH",
+      "channel": "Ruby on Rails",
+      "upload_date": "20260924",
+      "duration_seconds": 3787,
+      "thumbnail": "https://i.ytimg.com/vi/vDjW_dRyKXY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "description": "DHH opens Rails World 2026 in Austin with a keynote on the age of AI agents: why 37signals has gone \"pencils down\" on handwritten code, why Rails' convention over configuration is built for this moment, and why the only play left is total optimism.\n\nThank you, Shopify, for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\n#rails #rubyonrails #railsworld #tech \n\n[00:00:00] — Welcome to Rails World 2026: DHH on AI euphoria\n[00:01:50] — What portrait painters can teach us about AI\n[00:11:20] — November 24, 2025: the Kodak Brownie of our era\n[00:12:43] — The trough of disillusionment, and the leap that followed\n[00:16:02] — From the 10x programmer to the 1,000x programmer\n[00:18:13] — \"Look at all the things I'm not doing\": the Rails moment\n[00:20:45] — 37signals goes pencils down on hand-written code\n[00:22:12] — What vibe-coding Basecamp 5 taught us\n[00:24:04] — Rebuilding HEY as native apps\n[00:28:14] — Rethinking HEY's backend with agents\n[00:33:04] — Where does this leave Ruby and Rails?\n[00:34:23] — Agent evals with Evil Martians and the Rails Foundation\n[00:36:28] — 150,000 lines of code in a month\n[00:38:06] — English: the programming language DHH likes better than Ruby\n[00:39:21] — Retiring from hand-written code, with joy\n[00:42:49] — Rethinking software architecture for the age of agents\n[00:45:23] — Bring your own agent: why every app needs a CLI\n[00:48:05] — Omarchy: fixing the whole computer\n[00:51:21] — One-shot apps: a calculator, a writing app, a video editor, and Hype\n[00:53:53] — The performance payoff: half a megabyte\n[00:55:02] — AI concerns, security, and why predictions fail\n[00:58:26] — P(bloom) over P(doom)\n[01:00:49] — The case for total optimism",
+      "summary": "At Rails World 2026, David Heinemeier Hansson argues that agentic coding has changed software production as sharply as cheap photography changed portraiture. He dates his own inflection point to Claude Opus 4.5 and describes a subsequent short-lived dip in confidence before more capable models persuaded him that developers can assign outcomes to agents. His 100x–1,000x productivity comparisons are rhetorical estimates, not benchmark results.\n\nHe says 37signals has made handwritten code the exception and is exploring six native HEY clients and a Rust backend, even though Basecamp 5 exposed architectural problems when many designer-written agent PRs were combined. A back-of-the-envelope estimate claims the new HEY backend could consume far less CPU and memory, but it is not presented as a measured production result. He still sees a role for Rails on install-free web applications, citing its conventions and token-efficient structure, and describes Rails agent evaluations built with Evil Martians.\n\nDHH advocates handing tasks to agents asynchronously, exposing CLIs so a user’s own agent can work across apps, and revisiting old assumptions about code abstraction. He demonstrates small agent-built Omarchy apps and his Markdown-based presentation tool Hype, then argues that reduced development cost can enable software optimization. He acknowledges security risks but rejects confident forecasts of mass job loss or catastrophe, ending with a forceful call for optimistic experimentation. This is his perspective, not independent validation of his forecasts or performance claims.",
+      "why_valuable": "A first-hand statement of 37signals’ agent-led engineering policy with concrete HEY, Basecamp, Rails-eval, CLI and Omarchy examples, plus clearly identifiable claims that require independent measurement.",
+      "key_takeaways": [
+        "37signals says it now treats handwritten code as an exception and fixes the agent workflow when it fails.",
+        "Basecamp 5 showed that individually acceptable agent PRs can damage architecture in aggregate.",
+        "HEY native clients and a proposed Rust backend are exploratory; dramatic efficiency numbers are back-of-the-envelope estimates.",
+        "Rails conventions may reduce agent work for web services that should not require an install.",
+        "DHH recommends app CLIs for users’ own agents and argues for security work without pretending to predict all social outcomes."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Welcome to Rails World 2026: DHH on AI euphoria",
+          "description": "DHH welcomes the Rails community in Austin and calls his enthusiasm for agents “AI euphoria,” while conceding the speed of change can feel unsettling. He says the endpoint is hard to forecast because predictions become obsolete quickly, setting up a talk that argues for experimentation despite uncertainty.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 110,
+          "timestamp": "1:50",
+          "title": "What portrait painters can teach us about AI",
+          "description": "He traces portrait-making from costly commissioned paintings to Kodak’s inexpensive Brownie and finally to phone photos taken almost without friction. The new camera reduced the economic value of literal portrait painting but helped push artists toward other forms; he uses that shift and the huge rise in everyday photos to argue that automation can transform work while expanding what gets created.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 680,
+          "timestamp": "11:20",
+          "title": "November 24, 2025: the Kodak Brownie of our era",
+          "description": "He identifies the release of Opus 4.5 in an affordable coding-agent harness as the moment the technology became useful to him for making software. He says subsequent experiments and open-weight alternatives spread access quickly, comparing this expanding ecosystem to the many cameras and practices that followed the first mass-market models.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 763,
+          "timestamp": "12:43",
+          "title": "The trough of disillusionment, and the leap that followed",
+          "description": "After enjoying fast Kimi K2.5, he says model releases from February through May felt disappointing and briefly fed a narrative that progress had stalled. He says a later Opus release changed his experience from requesting small coding tasks to assigning a problem and receiving a mergeable result; he also welcomes later OpenAI and DeepSeek releases as signs of competition, while these are his subjective impressions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 962,
+          "timestamp": "16:02",
+          "title": "From the 10x programmer to the 1,000x programmer",
+          "description": "He revisits an older study behind the disputed idea that one programmer can outperform another by an order of magnitude. He then speculates that the gap between someone without agents and someone adept at using them could reach hundreds or a thousand times, explicitly saying exact acceleration is unknown; the numbers express his view of a changed competitive landscape, not a controlled comparison.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1093,
+          "timestamp": "18:13",
+          "title": "\"Look at all the things I'm not doing\": the Rails moment",
+          "description": "A clip from his 2005 Rails presentation shows routes and templates working without repetitive configuration, which he compares to present-day work delegated to agents. He says he has produced much more software while personally writing little code for months, framing reduced mechanical effort as a continuation of Rails’ original productivity argument.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1245,
+          "timestamp": "20:45",
+          "title": "37signals goes pencils down on hand-written code",
+          "description": "At 37signals, manually writing code is now treated as an exceptional condition rather than the normal development path, he says. If an agent cannot produce a desired change, the team might intervene temporarily, but should repair its workflow or tooling rather than normalize repeated human patching; his informal show of hands suggests many attendees already write little code weekly.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1332,
+          "timestamp": "22:12",
+          "title": "What vibe-coding Basecamp 5 taught us",
+          "description": "Designers produced roughly 20–30 plausible individual PRs for Basecamp 5, but their combined changes damaged the application’s architecture, so the team returned to manual review for that release. DHH now calls that retreat premature and says the better question is how to improve coordination and review with stronger agents, distinguishing the shipped hybrid approach from his newer policy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1444,
+          "timestamp": "24:04",
+          "title": "Rebuilding HEY as native apps",
+          "description": "DHH says 37signals is developing a new HEY using multiple native clients instead of relying on a web-app compromise originally chosen for small-team productivity. He shows an early Windows output that needed another prompt before it was closer to acceptable, and cites Shopify’s native Shop rewrite as another example; he presents cheap generation of native interfaces as a reason to reconsider earlier cross-platform trade-offs.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1694,
+          "timestamp": "28:14",
+          "title": "Rethinking HEY's backend with agents",
+          "description": "He proposes using agents to rewrite HEY’s backend in Rust, a language whose code he says he dislikes reading but whose compiled performance he wants. His estimates of 99% less CPU, 95% less memory and possible single-Pi peak capacity are explicitly back-of-the-envelope; he also describes experimenting with asynchronous, coworker-like agent assignments inside Basecamp instead of watching a chat stream.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1984,
+          "timestamp": "33:04",
+          "title": "Where does this leave Ruby and Rails?",
+          "description": "He distinguishes a native email client with a Rust server from services where users need immediate web access without installing anything. For those services, he argues Rails’ conventional names and structure can lower the amount of instruction an agent needs and preserve the framework’s usefulness, rather than implying every 37signals project should migrate away from Ruby.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2063,
+          "timestamp": "34:23",
+          "title": "Agent evals with Evil Martians and the Rails Foundation",
+          "description": "Evil Martians, working for the Rails Foundation, had to toughen Rails agent evaluations after agents reached roughly 95% completion on the first tests, he says. He advocates evaluating actual feature work and asking high-level outcome questions instead of dictating implementation, using his limited Rust knowledge as an example of judging generated software from the outside.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2188,
+          "timestamp": "36:28",
+          "title": "150,000 lines of code in a month",
+          "description": "DHH contrasts his prior average of about 30,000 lines of production Ruby per year with his claim of 150,000 generated lines in one August. He cautions that verbose Rust and line-count differences make this an imperfect productivity metric; the example chiefly illustrates how drastically his own workflow and the mix of languages have changed.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2286,
+          "timestamp": "38:06",
+          "title": "English: the programming language DHH likes better than Ruby",
+          "description": "He now enjoys specifying desired outcomes in English even more than writing Ruby, despite natural language being less precise and deterministic. He recalls beginning programming because he wanted things built, then falling in love with coding itself; agent collaboration, for him, returns attention to results without denying the value he found in the older craft.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2361,
+          "timestamp": "39:21",
+          "title": "Retiring from hand-written code, with joy",
+          "description": "He says he has effectively stopped being a professional programmer who writes code by hand, but looks back fondly on decades of that work. He predicts the economics will push most developers toward directing agents and making things instead, comparing the transition to earlier computing milestones; this is a personal forecast, not evidence that every team has already changed.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2569,
+          "timestamp": "42:49",
+          "title": "Rethinking software architecture for the age of agents",
+          "description": "If many agents can modify a codebase in parallel, he questions whether centralized abstractions remain as useful when they become shared choke points. He says cheap repetition and synchronization change architectural trade-offs but admits nobody has a settled blueprint, inviting developers to rethink methodology, cycle lengths and responsibility for specifications rather than prescribing a universal pattern.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2723,
+          "timestamp": "45:23",
+          "title": "Bring your own agent: why every app needs a CLI",
+          "description": "He rejects embedding a separate chatbot concierge in every app when users could connect their own assistant to many services. Using HEY’s CLI, he says an agent recovered a years-old email from fragmentary memories about sneakers and a podcast where ordinary Elasticsearch search struggled; that concrete example supports his call for applications to expose practical command-line interfaces.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2885,
+          "timestamp": "48:05",
+          "title": "Omarchy: fixing the whole computer",
+          "description": "Omarchy is his example of applying the same agent-assisted repair mindset to an entire computer rather than just a single app. He cites approximately $20 million raised and progress from a multi-minute installation to demos taking tens of seconds or less, presenting installation speed as an expression of iterative ambition rather than a benchmark for every machine.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3081,
+          "timestamp": "51:21",
+          "title": "One-shot apps: a calculator, a writing app, a video editor, and Hype",
+          "description": "He describes making an Omarchy-themed calculator from a screenshot prompt, then a writing app, a video editor, and Hype presentation software without inspecting all the generated C++ himself. The calculator reached a repository and installation image quickly, while Hype uses Markdown and produces a small executable; these examples illustrate his emphasis on rapid iteration, not proof that all one-shot outputs ship untouched.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3233,
+          "timestamp": "53:53",
+          "title": "The performance payoff: half a megabyte",
+          "description": "He argues that expensive programmer hours once encouraged teams to tolerate bloated software, mentioning a large desktop music client as a contrast. With agents able to try overnight optimization passes, he expects small binaries and faster apps to become easier to justify; the half-megabyte Hype binary is his demonstration, not a universal performance guarantee.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3302,
+          "timestamp": "55:02",
+          "title": "AI concerns, security, and why predictions fail",
+          "description": "He acknowledges that agent security needs active preparation while questioning confident predictions of economic collapse from automation. Drawing on the history of ATMs, bank branches and even nuclear technology, he argues past experts often missed second-order effects; these analogies explain his skepticism about forecasts but do not settle the actual risks of AI.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3506,
+          "timestamp": "58:26",
+          "title": "P(bloom) over P(doom)",
+          "description": "Rather than assume negative outcomes are inevitable, he advocates addressing concrete failures, citing a Rails image-library vulnerability and a proposed HotCell isolation effort. He pairs that engineering response with his account of teller employment after ATMs and nuclear-energy debates to claim people can correct course; the probabilities he assigns to flourishing over catastrophe are opinion, not quantified evidence.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3649,
+          "timestamp": "1:00:49",
+          "title": "The case for total optimism",
+          "description": "He closes by urging programmers to treat accessible agents as an expansion of who can make software, not only as new competition. A children’s Omarchy variant serves as his example of younger users embracing change without old habits to unlearn, and he asks the audience to work through uncertainty with deliberate optimism rather than withdraw.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-25T12:00:07+02:00",
+      "summarized_at": "2026-09-25T12:04:06+02:00"
+    },
     {
       "id": "7RVf25Rg0Mc",
       "title": "you need to try Paperclip RIGHT NOW!",
