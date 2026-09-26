@@ -9,8 +9,123 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-09-25T12:04:06+02:00",
+  "updated_at": "2026-09-26T06:02:16+02:00",
   "videos": [
+    {
+      "id": "iI9uVDF0R4s",
+      "title": "How I'm Preparing For The Ai Revolution",
+      "channel": "Chamath Palihapitiya",
+      "upload_date": "20260925",
+      "duration_seconds": 661,
+      "thumbnail": "https://i.ytimg.com/vi/iI9uVDF0R4s/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iI9uVDF0R4s",
+      "description": "We break down the forces shaping AI, from where value accrues across the stack to neoclouds, robotics, the open vs. closed model race, and more.\n\nRead our AI Deep Dives here: https://research.socialcapital.com/deep-dives\n\nLegal Disclaimer:\nAny information on this channel is provided for educational purposes only. None of the above is investment advice, a recommendation or an offer to sell, or a solicitation of an offer to buy, any securities or investment products.",
+      "summary": "Chamath Palihapitiya argues that AI will change the mix of work, though his expectation that it creates more jobs than it removes is a forecast, not a measured result. His personal response is to cultivate taste and judgment while using models to gather and organize information. He gives examples of agents he maintains for multi-party negotiations, psychological blind spots, household finances and health, emphasizing that their usefulness depends on continual curation and checking their output.\n\nHe advises people to build small tools for their own lives and professions rather than treating AI as infallible. A loan officer, for example, might automate processing yet still make the consequential approval decision. Asked what children should study, he tentatively suggests engineering and physics for an understanding of constraints, and philosophy, politics and economics for incentives and human behavior, while saying he does not know the definitive answer.\n\nHe distinguishes demonstrated model capability from uncertain effects on jobs and prosperity. Because social media amplifies fear and misinformation, he argues that AI companies should collectively invest in public infrastructure and credible transition plans, drawing an analogy to libraries and schools funded during industrialization. His conclusion is that people must be able to see a place for themselves in the transition; this is an argument about how to manage change, not evidence that its eventual benefits are guaranteed.",
+      "why_valuable": "A first-person account of specific AI-assisted decision workflows alongside a candid distinction between current model capabilities and uncertain social outcomes; useful for deciding what to prototype and what human judgment to preserve.",
+      "key_takeaways": [
+        "AI can support decisions, but the speaker treats taste and judgment as enduring human responsibilities.",
+        "His personal agents cover negotiations, psychological framing, portfolio spending and health; each requires maintenance and output review.",
+        "Start with a practical tool in your own domain and discover its limitations through use.",
+        "He says employment and abundance outcomes remain uncertain despite his optimism.",
+        "He calls on AI leaders to build trust and transition support rather than relying on optimistic messaging alone."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Work disruption and the role of judgment",
+          "description": "Palihapitiya predicts some jobs will disappear and different work will emerge, but frames the total employment gain as his expectation rather than a settled fact. With knowledge easier to retrieve, he says the differentiating skill is choosing how to interpret and apply it; his negotiation agent is introduced as a way to model trade-offs, hidden parties and incentives in high-stakes deals.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 104,
+          "timestamp": "1:44",
+          "title": "Personal agents for decisions and optionality",
+          "description": "He layers business and psychology books into a second filter to check for weaknesses in his own negotiation thinking. He then describes an agent that tracks household spending and tests low-risk income scenarios with Monte Carlo simulations so he can avoid debt, plus a health workflow that compares blood tests, eating habits and research rather than offering a one-off answer.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 221,
+          "timestamp": "3:41",
+          "title": "Curation rather than autopilot",
+          "description": "A foundation model becomes more useful to him after he has built and repeatedly updated small services for negotiations, finances, health and sometimes parenting. He warns that an uncurated system can recycle fashionable advice such as saunas and cold plunges, so he edits instructions, inspects the answers and decides what fits his own goals instead of outsourcing his judgment.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 307,
+          "timestamp": "5:07",
+          "title": "Building tools at work and learning their limits",
+          "description": "For a loan officer, automated paperwork could free time to inspect patterns while the decision to approve a loan remains a human responsibility. He recommends making a tool for a real problem and testing what it cannot do; when asked about education, he offers physics and engineering for understanding constraints and philosophy, politics and economics for studying incentives, explicitly without claiming a definitive curriculum.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 426,
+          "timestamp": "7:06",
+          "title": "What is known and what is amplified",
+          "description": "He separates the observation that current models are capable from speculation about job losses or universal abundance, saying both outcomes remain uncertain. Social platforms reward attention, he argues, so inaccurate claims about either future can spread quickly; his industrialization analogy is meant to explain why managing public understanding matters during a disruptive transition.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 502,
+          "timestamp": "8:22",
+          "title": "Collective investment and public trust",
+          "description": "He invokes industrial-era libraries and schools as examples of infrastructure that helped people adapt when work moved from farms and small makers to factories. He wants AI-company leaders to pool effort behind similarly credible transition support, because without it people may not trust claims of later benefits while experiencing immediate losses; he closes by arguing that everyone needs a way to participate rather than merely hear reassuring predictions.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-09-26T06:00:04+02:00",
+      "summarized_at": "2026-09-26T06:02:16+02:00"
+    },
+    {
+      "id": "B05NtWuyEZw",
+      "title": "Astra 6 vs Opus 5.5 : Real Ai Build Challenge",
+      "channel": "Marcin AI",
+      "upload_date": "20260925",
+      "duration_seconds": 601,
+      "thumbnail": "https://i.ytimg.com/vi/B05NtWuyEZw/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=B05NtWuyEZw",
+      "description": "Join \"Ai Builders SKOOL\" 👉 https://skool.com/aibuilders\nLive Website 👉 https://aibuilders.vip/new\nFull Prompt 👉 https://docs.google.com/document/d/1Jt2LqEUj-hGx6VbCFLCQvvUEpnPd2XuL4giB7eQHMB0/edit?usp=sharing\n\nI am rebuilding my Ai Builders Skool community website using Astra 6 vs Ops 5.5 to achieve a modern 3D-style design. See how the layout comes together.\n\nIn this walkthrough, I focus on upgrading a basic landing page into a visually engaging platform. By leveraging the latest features in Opus 5.5, I demonstrate how to enhance user interaction and improve the overall aesthetic of the interface. This process is ideal for anyone looking to modernize a site without starting from scratch.\n\nWe look at the specific steps required to integrate 3D website design elements effectively. You will see how AI web development tools handle complex styling logic and where manual refinement is still necessary to get the final look polished. This approach helps create a more immersive experience for school users.\n\nSubscribe for more AI project breakdowns and comment below with which feature you want to test next.\nMy Favorite Ai Tools to start and grow your business. ❤️ Lovable: https://lovablelabs.pxf.io/c/3302128/3903956/49205?subId1=yt\n🤖 Ai SuperAgent: https://base44.pxf.io/c/3302128/3820726/25619?subId1=yt&trafcat=agent\n📲 Base44: https://base44.pxf.io/c/3302128/2477538/25619?subId1=yt&trafcat=hp\n🚀 FastLane 👉 https://usefastlane.ai?atp=marcin&sub1=yt-may8\n📺 Blotato 👉 https://blotato.com/?ref=marcinGot question or want to collab?Tiktok: https://tiktok.com/@marcinteodoruX : https://x.com/MarcinAI81IG : https://www.instagram.com/marcinteodoruDISCLAIMER:This video may contain affiliate links, meaning I may earn a small commission if you make a purchase through these links at no extra cost to you. This helps support the channel and allows me to continue creating content. Thank you for your support!All copyrighted material used in this video is for educational and informational purposes only under the principles of fair use. These videos are not intended to replicate, replace, or compete with the original content but rather to provide commentary, critique, and creative inspiration. If you are the copyright owner and have any concerns, please contact me directly.\n\n0:00 Rebuilding a Website with AI Models\n1:12 Designing the 3D Concept\n2:33 The Tech Stack Behind the Build\n4:13 Comparing the Final Results",
+      "summary": "Marcin gives two AI coding models the same detailed prompt and saved assets from his existing AI Builders community landing page. He wants a scroll-driven 3D journey that starts in a white room, passes through a laptop and moves through the stages of building and launching a product. The prototype uses Next.js and React Three Fiber; he deliberately tests a single large prompt even though he says his usual method is to iterate in smaller steps.\n\nHe tours both resulting sites without initially naming the models. The first has basic scroll transitions, screenshots and testimonials but repeats imagery, feels chaotic and loses much of the source site's context. The second preserves branding and community details, moves through an animated laptop and idea/launch sequence, and includes testimonials, launch statistics and pricing. He flags elements he would still change, such as a transition and text sizing.\n\nAt the reveal, he identifies the first as the Astra 6 build and the second as the Opus 5.5 / Claude Code build and strongly prefers the latter, saying he plans to keep refining it. This is one creator's single-prompt, single-site qualitative comparison, not a controlled benchmark of cost, speed or general model performance; the promised prompt and live-site links are in his description.",
+      "why_valuable": "Shows the actual site-rebuild setup, stack and side-by-side inspection, making it useful for seeing where one-shot AI-generated design captures business context and where human refinement remains necessary.",
+      "key_takeaways": [
+        "Both models received the same prompt and a copy of the existing site assets.",
+        "The target was a scroll-driven 3D landing page built with Next.js and React Three Fiber.",
+        "Marcin prefers the Opus 5.5 result for carrying through branding, funnel content, testimonials, launch metrics and pricing.",
+        "He would still iterate on transitions and typography; a single qualitative run cannot establish overall model superiority."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Rebuilding a Website with AI Models",
+          "description": "Marcin chooses his existing AI Builders landing page as a practical business use case rather than a toy game, then saves the page and its assets locally for both model runs. He sets both model sessions to their highest available effort settings and proposes the same input so the comparison centers on what each produces from the site's existing material, although the video does not measure repeatability.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 72,
+          "timestamp": "1:12",
+          "title": "Designing the 3D Concept",
+          "description": "The desired journey starts with a laptop in a white room and advances through the screen into a sequence about choosing, building and launching an idea. He refines a detailed prompt with a model, shares it for reuse and supplies both runs with the saved asset location; the design goal is an immersive narrative that still communicates the community's actual offer.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 153,
+          "timestamp": "2:33",
+          "title": "The Tech Stack Behind the Build",
+          "description": "He specifies Next.js with React Three Fiber to render 3D scenes on top of React and acknowledges that his normal workflow would preview and refine each animation incrementally. Instead he deliberately submits a single comprehensive prompt to test what the tools can accomplish in one pass on a real business site; around 26 minutes in, one browser preview is still showing errors before the final review.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 253,
+          "timestamp": "4:13",
+          "title": "Comparing the Final Results",
+          "description": "The first tour shows an idea-to-launch narrative but repeats imagery, feels cluttered and misses content from the source page. The second uses a laptop entry, more coherent idea/build/launch transitions, community stats, testimonials and a pricing section, although Marcin still wants to remove one transition and resize text. He reveals that Astra 6 made the first and Opus 5.5 the second, calls Opus the winner and says he will continue refining it; this visible preference is not a measured speed or price result.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-09-26T06:00:04+02:00",
+      "summarized_at": "2026-09-26T06:02:16+02:00"
+    },
     {
       "id": "voGz8FBR-7k",
       "title": "Mark Zuckerberg's Vision For the Future!",
