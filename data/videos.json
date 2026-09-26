@@ -1,5 +1,194 @@
 [
   {
+    "id": "cvP_1jmnkmM",
+    "title": "Anthropic IPO at Risk, Meta’s Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
+    "channel": "All-In Podcast",
+    "upload_date": "20260926",
+    "thumbnail": "https://i.ytimg.com/vi/cvP_1jmnkmM/maxresdefault.jpg",
+    "description": "(0:00) Bestie Intros: Favorite All-In Summit moments\n(3:54) Reacting to AI chaos: Liability, competition, and rebranding frontier \"labs\"\n(20:03) Non-frontier performance and cost: What this means for frontier companies\n(29:22) Anthropic and OpenAI postpone IPOs: liquidity risk and open source pressure\n(53:11) Political reactions to \"Pacing the Frontier\": Bernie's AI ban, Trump, Bessent, Obama\n(1:07:58) Meta launches Muse, AI \"alignment,\" Oracle's Force Majeure\n(1:27:13) Anthropic’s bio research and \"wet lab\" in SF\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\nReferenced in the show:\nhttps://www.deepseek.com/en/news/deepseek-v4-1-flash\nhttps://x.com/XiaomiMiMo/status/2102138559952290106\nhttps://x.com/0x0SojalSec/status/2101738277049131358\nhttps://prismml.com\nhttps://x.com/SenSanders/status/2102827319123693689\nhttps://x.com/yipitdata/status/2102781268974793023\nhttps://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/\nhttps://www.wsj.com/tech/ai/anthropic-shifts-planned-ipo-to-november-8874dffc\nhttps://polymarket.com/event/ipos-before-2027\nhttps://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo\nhttps://x.com/rauchg/status/2101186741042663579\nhttps://www.anthropic.com/constitution\nhttps://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd\nhttps://x.com/mustafasuleyman/status/2100223594534150428\nhttps://freebeacon.com/america/suicidal-compassion-meet-the-anthropic-officials-who-think-ai-might-be-justified-in-going-rogue-against-the-humans-enslaving-it\nhttps://www.anthropic.com/news/claude-discovers-novel-enzyme-system\n\n\n#allin #tech #news",
+    "duration_seconds": 5663,
+    "url": "https://www.youtube.com/watch?v=cvP_1jmnkmM",
+    "summary": "00:00–20:03 | The hosts open by recalling the All-In Summit, including Jensen Huang receiving an unscheduled call from President Trump on stage. Chamath and Sacks then argue that frontier AI developers are companies, not liability-exempt research labs: in their view executives should test products and bear responsibility for unsafe releases rather than seek global governance or legal shields. Their claims about lobbying for immunity are explicitly described as second-hand, not confirmed policy.\n\n20:03–53:11 | Friedberg lists a rapid succession of cheaper open-weight model releases, including his account of a 27-billion-parameter Bonsai 2 that fits in about 5.9 GB; the hosts interpret narrowing model differences as a shift in advantage toward agent harnesses and specialized applications. Discussing reported IPO delays at Anthropic and OpenAI, they disagree about how much open models erode premium pricing: Friedberg expects routine workloads to migrate to cheap or self-hosted models, while Sacks argues frontier models can still command a premium in high-stakes technical work. Chamath says IPO buyers would demand more risk disclosure and a lower clearing valuation; the market-share charts and valuations discussed are hosts’ interpretations or cited reports, not independently established here.\n\n53:11–1:07:58 | The panel debates Bernie Sanders’s proposed superintelligence restrictions, Trump’s rejection of global AI controls, Bessent’s insistence on human accountability, and Obama’s criticism of commercially driven agents. Sacks predicts a broadly worded ban and severe penalties would drive development offshore; other hosts frame cheap open models as widely available productivity tools. This is an explicitly political argument, not a neutral forecast or proof of those policies’ effects.\n\n1:07:58–1:34:23 | The hosts praise Meta’s Muse as an accessible personal agent; Chamath says he used an early version for inbox triage and travel booking, while Jason recounts an agent finding a direct-purchase discount on a hub. They speculate that agents could weaken app-store commissions and opaque shopping practices, then discuss Oracle’s single data-center force-majeure issue and dispute whether alignment should prioritize user instructions. Friedberg closes by correcting the insinuation that Anthropic’s San Francisco wet lab is a pathogen facility: he describes low-biosafety-level protein and enzyme validation, including testing a proposed gene-editing-related enzyme, as a practical way to verify model predictions.",
+    "why_valuable": "Helps AI buyers and investors decide where to pay for frontier models versus cheaper open-weight alternatives, and which IPO, agent-security and policy claims need independent checking before acting.",
+    "key_takeaways": [
+      "03:54 | Chamath and Sacks argue product makers should retain liability for unpredictable AI; Sacks says his knowledge of alleged immunity lobbying is second-hand, not direct evidence.",
+      "20:03 | Friedberg cites fast open-weight releases, including a claimed 27B-parameter, 5.9 GB Bonsai 2; Chamath says model choice alone is insufficient because harness quality and cost vary widely.",
+      "29:22 | Chamath expects Anthropic IPO risk disclosures and pricing concessions; Friedberg sees premium life-sciences work coexisting with commodity self-hosted workflows, while Sacks remains bullish on frontier premiums.",
+      "53:11 | The hosts argue that a sweeping US AI ban could drive work offshore; their discussion of Sanders, Trump, Bessent and Obama is advocacy and political interpretation.",
+      "1:07:58 | Chamath reports testing Muse for inbox triage and bookings; Jason’s shopping example motivates the panel’s hypothesis that agent-mediated purchases pressure app stores and retailers.",
+      "1:27:13 | Friedberg distinguishes Anthropic’s proposed low-biosafety-level protein testing from pathogen research and explains why wet-lab validation matters for computational enzyme discovery."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00:00",
+        "title": "Bestie Intros: Favorite All-In Summit moments",
+        "description": "Friedberg thanks the summit production team and recalls the event alongside the other hosts’ lighter personal highlights. Sacks emphasizes Jensen Huang’s onstage phone call with President Trump, which Friedberg says arose spontaneously after backstage contact rather than from a scripted segment; the anecdote sets up their later discussion of AI politics.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 234,
+        "timestamp": "0:03:54",
+        "title": "Reacting to AI chaos: Liability, competition, and rebranding frontier \"labs\"",
+        "description": "Chamath argues that calling AI makers ‘labs’ obscures their corporate obligations, citing Meta’s decision to delay Muse while testing it; Sacks favors product liability and internal release decisions over international governance. Jason floats a rumored equity-for-liability arrangement, but Sacks distinguishes second-hand Washington talk from direct knowledge and says administration officials have publicly rejected waivers. The argument hinges on who should bear the cost when an agent behaves unpredictably, not on verified evidence of an enacted immunity deal.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1203,
+        "timestamp": "0:20:03",
+        "title": "Non-frontier performance and cost: What this means for frontier companies",
+        "description": "Friedberg surveys open-weight releases from DeepSeek, Alibaba, Xiaomi and Prism ML and argues cheaper local options now cover many formerly premium tasks. Chamath cautions that similar model scores do not imply identical outcomes because agent harnesses differ greatly in cost and quality; he predicts closed-model providers will have to sell applications rather than only tokens. The examples frame a purchasing question: which workflows truly need frontier intelligence and which can move to lower-cost deployments?",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1762,
+        "timestamp": "0:29:22",
+        "title": "Anthropic and OpenAI postpone IPOs: liquidity risk and open source pressure",
+        "description": "Jason cites reports of Anthropic and OpenAI IPO timing changes and falling token prices; Chamath expects investors to price leadership, safety and liquidity risks into a lower IPO valuation rather than remove the CEO. Friedberg says Anthropic’s premium life-sciences capability may justify high prices even as routine code and operations migrate to cheaper open weights; Sacks counters that frontier convenience and compute scale sustain a premium, though losing the frontier for months is a material risk. Their token-share and valuation figures are presented as charts, reports or scenarios, not demonstrated audited market data.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3191,
+        "timestamp": "0:53:11",
+        "title": "Political reactions to \"Pacing the Frontier\": Bernie's AI ban, Trump, Bessent, Obama",
+        "description": "The hosts contrast Sanders’s proposed restrictions with Trump’s rejection of global AI control, Bessent’s emphasis on developer liability and Obama’s concern about commercial incentives for agentic systems. Sacks predicts that loose capability thresholds and developer penalties would chill domestic development, while Friedberg argues open models and productivity gains make a simple shutdown impractical. Several panelists attach partisan motives to these positions; those claims are their interpretations and do not establish what a ban would actually accomplish.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 4078,
+        "timestamp": "1:07:58",
+        "title": "Meta launches Muse, AI \"alignment,\" Oracle's Force Majeure",
+        "description": "Chamath reports using an early Muse build to triage email and arrange travel; Jason describes an agent finding a lower direct price for a hardware purchase. They extrapolate that agent-mediated commerce could expose price opacity and bypass app-store commissions, but Friedberg flags the privacy cost of giving third parties email access. The discussion then moves through one Oracle data-center force-majeure dispute and Sacks’s criticism of Anthropic’s alignment philosophy, where he argues reliable service to users should be the priority rather than anthropomorphizing a model.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 5233,
+        "timestamp": "1:27:13",
+        "title": "Anthropic’s bio research and \"wet lab\" in SF",
+        "description": "Friedberg explains that the reported Anthropic facility would test proteins predicted from DNA analysis, including a possible gene-editing-related enzyme, rather than manufacture dangerous pathogens. He describes BSL-1/2 benchtop work as a way to make proteins and verify whether computational predictions actually have the proposed function, drawing an analogy to experimental checks of AlphaFold-style predictions. This correction matters because the preceding discussion had treated the phrase ‘wet lab’ as intrinsically alarming; the episode ends with sponsor acknowledgments and sign-off.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-26T12:00:58+02:00",
+    "summarized_at": "2026-09-26T12:04:41+02:00"
+  },
+  {
+    "id": "eF3yeJuifoQ",
+    "title": "I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
+    "channel": "Nate Herk | AI Automation",
+    "upload_date": "20260923",
+    "thumbnail": "https://i.ytimg.com/vi/eF3yeJuifoQ/maxresdefault.jpg",
+    "description": "FREE Scrollcraft website skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=opus-vs-sol-real-use-cases&sl=yt_opus-vs-sol-real-use-cases\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=higgsfield-api&hcategory=youtube-videos&utm_campaign=free-group\nOctober AIS Live: https://app.aiautomationsociety.ai/ais-live/10-26-extended/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI put Claude Opus 5.5 and GPT-6 Sol through 10 real-world tasks, from building websites and editing videos to creating 3D worlds, fixing code, and using the browser. \n\nI walk through the outputs, how long they took, and what they cost, including two tests I had to throw out because the models worked on the same files. You'll see where I preferred Opus, where Sol won, and how I'd think about using them together.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro & Model Pricing\n1:09 Meeting Transcripts & Knowledge Retrieval\n2:56 Website Design\n5:02 Event Sizzle Reel\n8:02 Instagram Reel Editing\n10:34 Sheets, Slides & Dashboards\n16:02 Museum Escape Game\n18:48 3D AI Learning World\n22:59 Interactive Trip Planning\n26:24 Code Review & Repair\n28:07 Building a Course in Skool\n30:13 Drawing in Canva\n31:42 Results & Final Thoughts",
+    "duration_seconds": 2061,
+    "url": "https://www.youtube.com/watch?v=eF3yeJuifoQ",
+    "summary": "00:00–05:02 | Nate Herk compares Opus 5.5 and GPT-6 Sol using the same prompts in his own workflow, with stated token prices of $4/$20 versus $2/$10 per million input/output tokens. An initial Fireflies retrieval test finds Sol faster early on but wrong about the latest relevant Q&A (August 17 versus Opus’s September 14); on a scroll-driven coffee-and-protein website he prefers Opus’s product imagery and layered animation, despite a roughly threefold higher task cost. These are his hands-on judgments, not general benchmark rankings.\n\n05:02–16:02 | In a 30-second promo assembled from roughly 100 GB of event footage, he finds Opus’s music, pacing and layering more persuasive; its Instagram edit also beats Sol’s hum-affected, sparse version, though neither reel is ready for his feed without more work. His sheets/deck/dashboard comparison cannot be scored: both agents edited the same repository, and a later audit revises the Sol run to about $3.60 and nine minutes. The same shared-file contamination invalidates the museum game comparison, where a mouse-lock bug makes the observed game hard to play.\n\n16:02–28:07 | In isolated 3D learning-world builds based on 100 prior videos, Nate prefers Opus’s interactive token/context-window activities to Sol’s cluttered interface, despite about $60 versus $8.55 and 1h45 versus 50 minutes. Opus also produces the better October trip-planning globe and includes San Francisco Tech Week, whereas Sol’s itinerary supplies links but misses the intended event emphasis. A separate code-repair test reverses the result: Nate reports Sol scoring 100/100 against Opus’s 97/100 for roughly $1 and around one-twentieth the spend, with a cybersecurity interruption and a revised prompt complicating comparison.\n\n28:07–34:21 | For a Skool course assembled through the browser, both models upload material and Opus is faster and cheaper despite duplicate links; for a Canva drawing from a reference image, Nate strongly favors Opus after Sol first substitutes a generated image and then produces poor drawings. His final score is seven Opus wins, one Sol win and two discarded tests; reported totals are about 8h40/$213 for Opus and 5h51/$74.46 for Sol, with his earlier cost correction worth remembering. His verdict is to favor Opus for creative work and judgment, use cheaper Sol for defined worker tasks or code repair, and isolate each agent’s files before treating side-by-side results as evidence.",
+    "why_valuable": "Helps choose between a premium creative/orchestration model and a cheaper coding worker for specific tasks, while showing why shared workspaces and corrected costs can invalidate a model comparison.",
+    "key_takeaways": [
+      "00:21 | Nate quotes Opus pricing at $4 input/$20 output per million tokens, twice Sol’s $2/$10, and evaluates output quality against spend rather than price alone.",
+      "01:09 | In his Fireflies search over roughly four hours of calls, Sol returns August 17 while Opus identifies September 14 as the latest relevant Q&A; speed did not equal retrieval accuracy.",
+      "05:02–10:34 | Nate prefers Opus’s event sizzle reel and Instagram edit for pacing and sound, but says even Opus’s reel would need iteration before publishing.",
+      "10:34–18:48 | Sheets/deck and museum-game tests are unscored because the models edited shared files; an edited-in correction places the Sol sheets run at about $3.60 and nine minutes.",
+      "18:48 | Opus’s interactive 3D lesson world wins Nate’s subjective comparison, but took about 1h45/$60 versus Sol’s 50 minutes/$8.55.",
+      "26:24 | Nate reports Sol winning code repair 100/100 to 97/100 for around $1 and about one-twentieth the Opus cost, after a safety interruption forced a revised prompt.",
+      "31:42 | His final count is 7–1 with two invalid tests; he reports $213/8h40 for Opus against $74.46/5h51 for Sol and proposes Opus orchestrating narrow Sol worker tasks."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00:00",
+        "title": "Intro & Model Pricing",
+        "description": "Nate compares the models on the cost of solving the same tasks, not just on whether one token is cheaper than another. He quotes Opus 5.5 at $4 per million input tokens and $20 output, versus $2 and $10 for GPT-6 Sol, and asks which output would be worth a fixed $100 budget before running his examples.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 69,
+        "timestamp": "0:01:09",
+        "title": "Meeting Transcripts & Knowledge Retrieval",
+        "description": "Nate asks both desktop agents to ingest two Fireflies calls totaling roughly four hours and locate his most recent Q&A mentioning a term that transcripts spell inconsistently. Sol starts quickly and works in parallel, but reports August 17; Opus identifies September 14 as the correct date, so Nate values the slower-looking agent’s retrieval accuracy over early progress.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 176,
+        "timestamp": "0:02:56",
+        "title": "Website Design",
+        "description": "Using identical prompts for a coffee-plus-protein product page, Nate prefers Opus’s realistic can imagery, layered parallax and animated scroll narrative to Sol’s flatter page and packaging-style graphics. Both take about 35 minutes, but he awards the design to Opus despite saying its approximately $18.32 run costs about three times Sol’s $5.89.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 302,
+        "timestamp": "0:05:02",
+        "title": "Event Sizzle Reel",
+        "description": "Both agents receive a Frame.io collection of about 100 GB of AIS event footage and a request for a 30-second promotional edit. Nate judges Opus’s sound effects, music, layered shots and faster pacing more effective at selling the next event; he says it finishes roughly five minutes sooner while costing about twice as much, a premium he would pay for this output.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 482,
+        "timestamp": "0:08:02",
+        "title": "Instagram Reel Editing",
+        "description": "Nate plays edits made from the same Instagram footage and prompt and hears an unwanted hum and little music or animation in Sol’s version. Opus adds typing effects and stronger sound design, winning his preference even though it takes about twice as long and costs about four times as much; he still would iterate further before actually posting it.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 634,
+        "timestamp": "0:10:34",
+        "title": "Sheets, Slides & Dashboards",
+        "description": "Opus produces a spreadsheet, deck, dashboard and local landing page, but Nate recognizes that Sol’s apparently similar files may be the very same deliverables. A log review indicates Sol began modifying files after Opus had already worked in the shared repository, so he refuses to declare a winner and later corrects Sol’s cost and runtime to about $3.60 and nine minutes. The case shows that simultaneous agents need isolated workspaces before their outputs can be compared.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 962,
+        "timestamp": "0:16:02",
+        "title": "Museum Escape Game",
+        "description": "Sol’s miniature-museum story initially looks promising but its mouse is not locked to the game frame, making turning and play difficult. Nate then discovers the agents also edited each other’s files on this task, so he explicitly discards the result rather than crediting one model for the observed game; he notes the large time and cost differences only as contaminated observations.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1128,
+        "timestamp": "0:18:48",
+        "title": "3D AI Learning World",
+        "description": "With separate deliverables this time, Nate explores Opus’s playable lessons about tokens, context windows and skills, noticing small flaws such as balls sticking in a next-word demonstration. Sol’s alternative has crowded overlays and weaker navigation, so Nate prefers Opus’s teaching experience despite roughly $60 and one hour 45 minutes versus $8.55 and 50 minutes for Sol.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1379,
+        "timestamp": "0:22:59",
+        "title": "Interactive Trip Planning",
+        "description": "Nate asks each agent to turn a vague October itinerary into an explorable globe with event, nature and booking links. Sol asks clarifying questions and supplies clickable travel stops, but Opus’s globe is more immersive and includes San Francisco Tech Week and other relevant events that Nate wanted; with similar runtimes and about triple the cost, Opus wins his subjective test.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1584,
+        "timestamp": "0:26:24",
+        "title": "Code Review & Repair",
+        "description": "Nate uses an externally designed codebase challenge to test analysis and repair rather than visual design, and reports Sol at 100/100 versus Opus at 97/100. Sol costs roughly $1 and about one-twentieth as much as Opus, but a cybersecurity refusal pauses its run and requires a modified prompt for both, so this is a useful first-hand result rather than a controlled universal ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1687,
+        "timestamp": "0:28:07",
+        "title": "Building a Course in Skool",
+        "description": "Both agents populate a Skool course from Nate’s supplied lesson videos and descriptions; he finds the uploaded material and supporting links broadly comparable. Opus duplicates some links but makes only the overall course a draft instead of every lesson, and wins this browser task because Nate says it was faster and cheaper despite that small defect.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1813,
+        "timestamp": "0:30:13",
+        "title": "Drawing in Canva",
+        "description": "Asked to redraw a reference image in Canva using drawing tools, Opus produces a likeness Nate likes much more than his past tests. Sol first generates an image instead of drawing it and, after further attempts, delivers drawings Nate considers very poor; he awards the visual browser task to Opus despite roughly 30 extra minutes and fourfold cost.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1902,
+        "timestamp": "0:31:42",
+        "title": "Results & Final Thoughts",
+        "description": "Nate counts seven Opus wins and one Sol win, with the shared-file spreadsheet and museum tests excluded from scoring. He reports total runs of about 8h40/$213 for Opus and 5h51/$74.46 for Sol, while warning through the earlier correction that costs need auditing; his practical preference is Opus for creative judgment and orchestration, with cheaper Sol assigned precise worker or repair tasks.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-26T12:00:58+02:00",
+    "summarized_at": "2026-09-26T12:04:41+02:00"
+  },
+  {
     "id": "iI9uVDF0R4s",
     "title": "How I'm Preparing For The Ai Revolution",
     "channel": "Chamath Palihapitiya",
