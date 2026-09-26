@@ -33,7 +33,7 @@ class PipelineTests(unittest.TestCase):
         td, root = self.fixture()
         try:
             detail = "This chapter explains the central idea with enough context to understand what the speaker is demonstrating. It also identifies the practical lesson and why that part of the discussion matters to the viewer."
-            summary = [{"id":"abcdefghijk","title":"A","description":"Full creator description with https://example.test/resource","summary":"S","why_valuable":"V","chapters":[{"start_seconds":0,"title":"Intro","description":detail,"source":"generated"}]}]
+            summary = [{"id":"abcdefghijk","title":"A","description":"Full creator description with https://example.test/resource","summary":"A useful account of the workflow and its practical limits.","why_valuable":"The comparison exposes a concrete tradeoff between speed and reliability.","key_takeaways":["The demonstrated workflow is fast but needs verification."],"chapters":[{"start_seconds":0,"title":"Intro","description":detail,"source":"generated"}]}]
             source = root / "summary.json"; source.write_text(json.dumps(summary))
             merge_mod.merge(source, root)
             state = json.loads((root / "data/state.json").read_text())
@@ -163,6 +163,29 @@ class PipelineTests(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, "caption template"):
             merge_mod.validate(item)
+
+    def test_rejects_caption_stitching_as_executive_summary(self):
+        item = {"id":"abcdefghijk", "title":"A", "description":"Creator description",
+                "summary":"The video explains a sentence copied from captions. It later expands the case with another caption sentence, connecting the example to the presenter’s broader conclusion.",
+                "why_valuable":"A concrete comparison of two approaches with practical tradeoffs.",
+                "key_takeaways":["The second approach costs less but needs more time."],
+                "chapters":[{"start_seconds":0,"title":"Specific chapter","source":"generated",
+                             "description":"The presenter tests both approaches on a real project and identifies a concrete failure in the first. The second succeeds, although it takes longer and is less suitable for a quick iteration."}]}
+        with self.assertRaisesRegex(ValueError, "executive summary"):
+            merge_mod.validate(item, quality=True)
+
+    def test_rejects_generic_value_and_chapter_titles_as_takeaways(self):
+        item = {"id":"abcdefghijk", "title":"A", "description":"Creator description",
+                "summary":"The presenter compares approaches on a real project, finding that the second produces a stronger result despite a longer runtime. The comparison is limited to one trial and should not be treated as a universal ranking.",
+                "why_valuable":"It provides a caption-grounded walkthrough of A, with the creator’s full description and navigable intervals retained for verification.",
+                "key_takeaways":["Part 1","Part 2"],
+                "chapters":[{"start_seconds":0,"title":"Specific chapter","source":"generated",
+                             "description":"The presenter tests both approaches on a real project and identifies a concrete failure in the first. The second succeeds, although it takes longer and is less suitable for a quick iteration."}]}
+        with self.assertRaisesRegex(ValueError, "value statement"):
+            merge_mod.validate(item, quality=True)
+        item["why_valuable"] = "A useful comparison of actual project results and the tradeoff between output quality and runtime."
+        with self.assertRaisesRegex(ValueError, "takeaways"):
+            merge_mod.validate(item, quality=True)
 
     def test_all_published_chapters_pass_summary_validation(self):
         videos = json.loads((ROOT / "data/videos.json").read_text())

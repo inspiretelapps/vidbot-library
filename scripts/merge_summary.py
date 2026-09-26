@@ -19,12 +19,27 @@ def load(path: Path, default):
         return default
 
 
-def validate(item: dict) -> None:
+def validate(item: dict, *, quality: bool = False) -> None:
     missing = REQUIRED - set(item)
     if missing:
         raise ValueError(f"{item.get('id', 'video')}: missing {sorted(missing)}")
     if not str(item.get("description", "")).strip():
         raise ValueError(f"{item['id']}: description must contain the full creator description")
+    if quality:
+        summary = re.sub(r"\s+", " ", str(item["summary"])).strip().lower()
+        value = re.sub(r"\s+", " ", str(item["why_valuable"])).strip().lower()
+        takeaways = item.get("key_takeaways", [])
+        if (not summary or "the video explains" in summary or
+                "it later expands the case with" in summary or
+                "connecting the example to the presenter" in summary):
+            raise ValueError(f"{item['id']}: executive summary is caption stitching, not synthesis")
+        if not value or "caption-grounded walkthrough" in value:
+            raise ValueError(f"{item['id']}: value statement is generic")
+        if (not isinstance(takeaways, list) or not takeaways or
+                any(not isinstance(t, str) or not t.strip() or
+                    re.fullmatch(r"part\s+\d+", t.strip(), re.IGNORECASE)
+                    for t in takeaways)):
+            raise ValueError(f"{item['id']}: takeaways must be substantive, not chapter labels")
     if not isinstance(item["chapters"], list) or not item["chapters"]:
         raise ValueError(f"{item['id']}: chapters must be a non-empty list")
     for chapter in item["chapters"]:
@@ -71,7 +86,7 @@ def merge(summary_path: Path, root: Path = ROOT) -> list[dict]:
     state = load(root / "data/state.json", {"seen": {}})
     state.setdefault("seen", {})
     for item in incoming:
-        validate(item)
+        validate(item, quality=True)
         video_id = item["id"]
         previous = by_id.get(video_id, {})
         item["url"] = item.get("url") or f"https://www.youtube.com/watch?v={video_id}"
