@@ -1,5 +1,484 @@
 [
   {
+    "id": "ejjBbaq9RmY",
+    "title": "Getting the most out of Opus 5.5",
+    "channel": "Theo - t3․gg",
+    "upload_date": "20260925",
+    "duration_seconds": 1721,
+    "thumbnail": "https://i.ytimg.com/vi/ejjBbaq9RmY/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=ejjBbaq9RmY",
+    "description": "Anthropic put out a blog post with some tips and tricks that they have for the Opus 5.5 release, so lets break them down\n\nThank you Browserbase for sponsoring! Check them out at: https://soydev.link/browserbase\n\nSources:\nhttps://claude.dev/blog/getting-the-most-out-of-opus-5-5/\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#ai #anthropic #coding",
+    "summary": "02:28–10:40 | Define completion and permission boundaries. Theo reads Anthropic's Opus 5.5 usage guide and demonstrates a remote-agent migration: specify the machine, cloned repo, environment variables, thread visibility, and what the agent must not do on the laptop. The setup took him about 17 minutes, but the implementation agent then stopped after phase zero of a seven-phase plan; he had to explicitly tell it not to ask until the work and testable link were complete. His firsthand lesson is to give a finish line and permission to ask when genuinely blocked, not assume the model will infer either.\n\n10:40–14:54 | Avoid maximum reasoning by default. He argues that ordinary reasoning settings cap effort while Max forces extended thinking, drawing on his own Skatebench runs: X-high averaged 338 tokens and six seconds per response against about 5,000 tokens and 50 seconds on Max. Correct answers moved only from 78% to 79%, while he reports about 13× cost; this is his small benchmark, not a universal measure of model quality. He favors High or X-high for most work, and says merely writing “think carefully” adds little.\n\n14:54–21:09 | Steer and constrain long work. Theo says a mid-run correction now tends to be incorporated without dropping the original task. In design work he found Fable 5.1 looked better with no direction, while Opus 5.5 followed specific visual inclusions and exclusions better; he adds a Claude.md rule to continue past routine status updates but stop before destructive work. He explicitly requests subagents for broad audits because the model does not always delegate on its own.\n\n21:09–28:38 | Verify the output, then decide. He asks an agent what remains blocked, what it changed, what risks a same-day merge poses, and which concerns it could not independently check. His own T3 Code review experiment found Astra and Grok 4.7 each surfaced eight supported issues, while Opus 5.5 improved over Opus 5; he prefers cross-family review but treats this as project-specific evidence. Anthropic's bio/cyber safeguards may silently move flagged chats to an older model, so check the picker; his final advice is to grant autonomy only together with real verification and to avoid Max mode.",
+    "why_valuable": "Helps choose Opus 5.5 reasoning settings and write agent instructions that finish, verify, and safely hand off a coding task rather than stopping at a status update.",
+    "key_takeaways": [
+      "03:08–03:32: Define done with observable artifacts such as a screenshot, passing tests and a PR; “start working” leaves completion ambiguous.",
+      "04:23–10:25: Theo’s remote-machine setup finished in about 17 minutes, but the implementation stopped at phase zero; explicit stop rules still mattered.",
+      "12:57–13:47: In Theo’s Skatebench test, Max increased mean tokens from 338 to about 5,000 and accuracy only from 78% to 79%, at roughly 13× cost.",
+      "16:19–18:17: Unconstrained Opus designs looked worse to him than Fable 5.1; precise patterns to avoid and annotated screenshots improved steering.",
+      "18:19–21:05: Put continue-versus-stop rules in Claude.md and explicitly request parallel subagents for large audits or migrations.",
+      "21:57–25:17: Ask for merge risk and unverifiable findings, run tests/browser checks, and consider review by another model family.",
+      "25:55–27:16: Safeguard flags can move a Claude chat to an older model; check the model picker before comparing results."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Why completion criteria matter",
+        "description": "Theo frames the release as a model that stays on task longer and reports its work more plainly, then briefly pauses for a sponsored Browserbase explanation about giving agents usable web access. The actionable portion starts when he turns to Anthropic’s guide and asks what users must specify to get autonomous work instead of merely longer conversations.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 148,
+        "timestamp": "02:28",
+        "title": "Hand over the whole task",
+        "description": "The recommended opening prompt gives the agent the whole feature and an observable finish, such as a screenshot and filed PR, rather than asking it merely to start. Theo also argues that “think carefully” is redundant and that the agent’s end-of-run request for human input deserves attention.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 254,
+        "timestamp": "04:14",
+        "title": "Remote-agent migration and the phase-zero failure",
+        "description": "He lets an agent find connection instructions in his fleet repo, clone a project onto Leftbook, copy authorized environment variables and expose the remote thread without controlling his active laptop. After about 17 minutes the setup is visible, but the new implementation run stops after phase zero; he clarifies that it must complete all seven phases and return a clickable test link.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 640,
+        "timestamp": "10:40",
+        "title": "A finish line with a real escape hatch",
+        "description": "Anthropic’s payment-endpoint example defines done as migrating every endpoint, removing the old client and passing the suite, with a question only for an unexplained failure. Theo connects this to his earlier stalled task: specificity helps the model continue, but the permission to ask prevents it from improvising around genuine blockers.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 703,
+        "timestamp": "11:43",
+        "title": "Max reasoning costs versus his small benchmark",
+        "description": "Theo distinguishes reasoning caps from Max, which he says forces excess deliberation even for easy replies. On his Skatebench runs, X-high averaged 338 tokens and six seconds, while Max averaged about 5,000 tokens and 50 seconds for only a 78%-to-79% improvement; he personally uses High or X-high.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 894,
+        "timestamp": "14:54",
+        "title": "Mid-run steering and visual design constraints",
+        "description": "Follow-ups sent while the agent works can now add forgotten requirements without making it drop the earlier ones, reducing the cost of restarting a long thread. Theo’s side-by-side design look favored Fable 5.1 without guidance, but he says Opus responds better when given concrete banned styles, preferred details and annotated screenshots.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1099,
+        "timestamp": "18:19",
+        "title": "When to continue, stop and delegate",
+        "description": "He adds a Claude.md rule to keep acting after routine updates and pause for destructive or out-of-repository changes, rather than asking permission at every stage. For large audits and migrations, he advises explicitly authorizing subagents because Opus may otherwise avoid parallel exploration; he still reserves human checks for irreversible actions.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1269,
+        "timestamp": "21:09",
+        "title": "Audit the finish and cross-check reviewers",
+        "description": "Theo reads final reports for unresolved decisions and asks what could go wrong if a PR merged today, then requests evidence for claims the agent cannot test itself. In his own T3 Code review setup, Astra and Grok 4.7 each found eight supported improvements; Opus 5.5 outperformed Opus 5, but cross-family review remains his preference.",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 1540,
+        "timestamp": "25:40",
+        "title": "Safeguards, model switching and final checklist",
+        "description": "He notes that bio/cyber safeguards can move a flagged Claude conversation to an older model, so users should inspect the picker and adjust settings if switches obstruct legitimate work. His final checklist combines explicit done conditions, screenshots, reasonable autonomy and verification; he closes by warning again against Max reasoning.",
+        "source": "generated"
+      }
+    ],
+    "first_detected_at": "2026-09-27T12:00:31+02:00",
+    "summarized_at": "2026-09-27T12:05:03+02:00"
+  },
+  {
+    "id": "K6G5fp8LB6w",
+    "title": "The newest Hermes agent update is unbelievable",
+    "channel": "Alex Finn",
+    "upload_date": "20260925",
+    "duration_seconds": 786,
+    "thumbnail": "https://i.ytimg.com/vi/K6G5fp8LB6w/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=K6G5fp8LB6w",
+    "description": "Get your Hubspot AI agent cheat sheet here: https://clickhubspot.com/4c2313\n\nThe new Hermes agent update is incredible.\n\nSign up for my free newsletter: https://www.shipitweekly.com/\nFULL Hermes bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\nTimestamps:\n0:00 Intro\n0:32 Bot mode\n2:52 Advanced local models\n5:12 Hermes HUD\n6:45 ChatGPT Voice mode\n8:00 Hey Hermes\n8:40 Subagents UI\n10:01 Improved crons\n11:06 Which agents to use",
+    "summary": "00:00–02:52 | Alex Finn’s model-based bot setup. Instead of creating Hermes personalities for job titles, he configures separate desktop bot profiles around model strengths: GPT-6 Astra for building, Claude for frontend, and a local Qwen bot on a DGX Spark for simple jobs. This is his personal configuration, not a controlled comparison; he says bot mode is desktop-only in the interface he shows.\n\n02:52–06:45 | Local inference and screen-aware access. The settings flow he demonstrates checks the machine’s hardware, recommends and downloads a local model, tests it and places it in a bot; he cautions that smaller computers deliver less capability even if local tasks avoid per-request API fees. The Hermes HUD stays above a game or application and can use visible screen context: his example is asking for help with a World of Warcraft quest, with a Mac shortcut of Command-Shift-H and Windows Control-Shift-H.\n\n06:45–10:01 | Voice delegation and inspectable subagents. With an OpenAI API key he demonstrates realtime voice querying other agents and says the approximate cost is five cents a minute, an estimate rather than a verified tariff. He uses the “Hey Hermes” wake phrase to assign Claude a Three.js shooter and shows three subagents producing concept posters, with separate task windows and configurable models and skills.\n\n10:01–13:05 | Recurring research and which agent to pick. He shows two stock-research cron reports where the later report labels previously covered companies rather than recycling the same names; this is an example, not proof that all repeat research disappears. His verdict is Hermes for cross-machine, local-model, multi-model and scheduled personal work; he prefers ChatGPT Work for demanding computer-use tasks and Grokbot for quick mobile access, noting Hermes lacks a mobile app in his setup.",
+    "why_valuable": "Helps decide whether to configure Hermes around model-specific bots, local inference, HUD/voice access and recurring research, or use a different agent for deep computer use and phone workflows.",
+    "key_takeaways": [
+      "00:32–02:26: Finn organizes Hermes desktop bots by model rather than role, choosing Astra for building, Claude for frontend and local Qwen for simple work.",
+      "03:02–04:07: His local-model setup chooses for available hardware and automatically downloads, loads and tests a model; a small machine still limits quality.",
+      "05:12–06:44: The movable HUD can use on-screen context; he cites Command-Shift-H on Mac and Control-Shift-H on Windows.",
+      "06:45–08:40: An OpenAI API key enables the voice demo; he estimates about $0.05/minute and uses a wake phrase to delegate a Three.js task.",
+      "08:42–10:01: Three design subagents appear in separate inspectable windows and can be assigned different models or skills.",
+      "10:01–11:06: His stock-research cron example identifies companies covered previously instead of simply repeating yesterday’s list.",
+      "11:06–12:38: Hermes remains his choice for managing computers and custom agents; he chooses ChatGPT Work for complex computer use and Grokbot for mobile."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Finn previews Hermes’s newer interaction modes and promises a tour of his actual stack rather than only an abstract feature list. He frames the question as which tool should handle which class of work, setting up his later distinction between Hermes, ChatGPT Work and Grokbot.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 32,
+        "timestamp": "00:32",
+        "title": "Bot mode",
+        "description": "He argues that model choice is a more useful organizing principle than job-title personas: his Astra, Claude and locally powered Qwen bots are selected by task complexity and cost. He demonstrates asking Hermes to create a new bot and notes that the bot-mode UI he uses lives in the desktop application.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 172,
+        "timestamp": "02:52",
+        "title": "Advanced local models",
+        "description": "In the provider settings he shows a hardware-aware flow that suggests a local model, then downloads, loads and tests it before making it available as a bot. He acknowledges that a smaller Mac will run weaker intelligence, so the economic win is best reserved for simple tasks rather than assuming local quality matches cloud models.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 312,
+        "timestamp": "05:12",
+        "title": "Hermes HUD",
+        "description": "A floating overlay stays above games and apps and can use what is visible on screen, illustrated by asking for the location of a World of Warcraft quest target. He supplies Mac and Windows keyboard shortcuts and treats the overlay as a way to keep the agent available without repeatedly switching windows.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 405,
+        "timestamp": "06:45",
+        "title": "ChatGPT Voice mode",
+        "description": "He speaks to a realtime voice interface that can query or dispatch other agents and says it requires an OpenAI API key, with an approximate per-minute cost he has not audited here. The attraction for him is delegating work while continuing to talk, rather than transcribing a separate typed prompt for every task.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 480,
+        "timestamp": "08:00",
+        "title": "Hey Hermes",
+        "description": "His wake-word demo sends Claude a request to build a 3D shooter with Three.js, directly from a spoken command. He views this as a lightweight way to capture tasks while multitasking, though the clip shows delegation rather than a completed or evaluated game.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 520,
+        "timestamp": "08:40",
+        "title": "Subagents UI",
+        "description": "For a three-poster game-art request, the interface exposes separate subagent windows, their current actions and which models they use. Finn proposes mixing model families and skills on parallel visual tasks so the user can compare outputs instead of treating all subtasks as one opaque run.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 601,
+        "timestamp": "10:01",
+        "title": "Improved crons",
+        "description": "He compares two daily AI-stock research reports: the newer one notes previously covered companies and moves on to different names. That example motivates his recommendation for recurring Hermes research, though it does not establish a general guarantee against all repetition.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 666,
+        "timestamp": "11:06",
+        "title": "Which agents to use",
+        "description": "His final allocation keeps Hermes for local models, machine administration, multi-model personal work, cron jobs and iMessage access. For complex desktop computer use he prefers ChatGPT Work’s harness, while Grokbot’s mobile app wins his quick phone tasks because he says Hermes lacks that interface.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-27T12:00:31+02:00",
+    "summarized_at": "2026-09-27T12:05:03+02:00"
+  },
+  {
+    "id": "_NRuT_d1PZE",
+    "title": "Claude Opus 5.5 Is Insane… But Muse is EVEN Bigger",
+    "channel": "Riley Brown",
+    "upload_date": "20260925",
+    "duration_seconds": 1521,
+    "thumbnail": "https://i.ytimg.com/vi/_NRuT_d1PZE/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_NRuT_d1PZE",
+    "description": "This is an Agent Native Episode.\n\nThanks to HubSpot for sponsoring this video. \nGrab HubSpot's free AI Agents Unleashed playbook to figure out exactly what work to hand off to agents: https://clickhubspot.com/f48898\n\nAnthropic and OpenAI dropped new models on the same day, and Opus 5.5 won round two by a mile.\n-I spent $3,000 in tokens over two weeks putting Opus 5.5 and GPT-6 Sol/Luna to work in my business.\n-Opus 5.5 writes like the smartest model I've ever talked to, and it builds entire animated videos out of a single JavaScript file.\n-ChatGPT's real-time voice can now use all 27 of my plugins. I ran Slack, Notion, and DMs hands-free while it worked in the background.\n\nAnd then the biggest update of the week: Muse by Meta just passed ChatGPT as the #1 app on the App Store, and Zuck announced Muse glasses AND a Tamagotchi-style Muse pendant at Meta Connect. This might be his ChatGPT moment. Plus, OpenAI, Anthropic, and Cognition are all about to release their own personal agents.\n\nFor Agent Native Resources: agentnative.inc/resources\n\nChapters\n00:00 Intro\n00:52 1: Opus 5.5 & GPT-6 Sol/Luna\n08:50 2. GPT Voice can use all your tools\n12:56 3. Meta's Muse Takeover & Meta Connect\n22:16 4. OpenAI, Anthropic & Cognition personal agents\n23:24 Every company is building the same agent",
+    "summary": "00:00–08:50 | Riley Brown’s model experiments. He says he spent $3,000 on tokens over two weeks trying new models in his business and personally prefers Opus 5.5 to the same-day GPT-6 Sol/Luna releases for its concise writing and visual design. His examples include an animated clip assembled through JavaScript and HTML, a mobile landing-page redesign and a slide deck; these are demonstrations and subjective impressions, not an independent benchmark. He credits the previous GPT-6 Astra launch as his earlier favorite and treats Opus 5.5 as the bigger improvement this round.\n\n08:50–12:56 | A live tool-using voice workflow. Brown shows ChatGPT realtime voice searching Slack, sending a colleague a DM, locating a Notion weekly-update document, then changing a table into tabs on request. He says his account has 27 connected plugins; the visible sequence illustrates tool calls and follow-up edits rather than a blanket guarantee that every plugin and action is reliable.\n\n12:56–22:16 | Meta Muse as his biggest strategic bet. He shows Muse above ChatGPT in an App Store chart and cites Grokbot at position 196, then describes Muse as a proactive, fast desktop/web/iOS agent with a reported free allowance of 100 million tokens monthly. From Meta Connect he discusses voice and live video, camera-equipped and camera-free glasses, and a prototype fingerprint-operated pendant targeted for December; prototype and future release claims are not shipping confirmations. He cites 2,000 connector submissions and argues hardware plus distribution may matter more than raw model strength, while acknowledging he rates Muse’s models below OpenAI’s and Anthropic’s.\n\n22:16–25:20 | Competition remains speculative. Brown relays rumors that OpenAI, Anthropic and Cognition are developing competing personal agents, including an alleged OpenAI codename Aeon; he does not present released products or verified dates. His closing forecast is convergence on memory, tools, browser/computer use, background tasks, voice and ambient context, with speed, cost, safety and work-versus-personal focus as the meaningful trade-offs.",
+    "why_valuable": "Helps decide whether to trial Opus for writing/design, connect voice to work apps, or test a free personal agent like Muse while separating hands-on demos from product rumors and unreleased hardware.",
+    "key_takeaways": [
+      "00:38–02:17: Brown reports spending $3,000 in tokens over two weeks and personally ranks Opus 5.5 over GPT-6 Sol/Luna; this is his experience, not a standardized benchmark.",
+      "03:49–07:39: He shows an animated JavaScript/HTML output, landing-page iterations and a slide deck as concrete Opus visual-design examples.",
+      "09:23–12:39: His realtime-voice demo uses Slack DMs and Notion editing; he says 27 plugins are connected to his own account.",
+      "13:27–15:03: Brown shows Muse above ChatGPT on an App Store chart and reports 100 million free tokens monthly; rankings and offers may change.",
+      "15:39–19:14: Meta Connect announcements include voice/video, two kinds of glasses and a prototype pendant with a December shipping target—not an available device yet.",
+      "21:20–22:07: He cites 2,000 connector submissions and recommends Muse for light personal work, while judging its model weaker than rival frontier models.",
+      "22:16–24:50: Aeon and rival-agent release timing are explicitly rumors; Brown expects shared features but different speed, safety, pricing and work focus."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Brown introduces simultaneous model launches, his reported $3,000 token spend and the larger question of which agent tools change actual business workflows. He cautions implicitly through the rest of the episode that a model comparison and a personal-agent platform are different choices, even though both arrived in the same news cycle.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 52,
+        "timestamp": "00:52",
+        "title": "1: Opus 5.5 & GPT-6 Sol/Luna",
+        "description": "He gives Opus 5.5 his subjective win over the newly released Sol/Luna models, especially for concise answers, code-generated animation and visual artifacts. His own animated HTML and JavaScript example is less polished than another creator’s, while his landing-page and slide-deck iterations persuade him that design collaboration is the model’s practical strength.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 530,
+        "timestamp": "08:50",
+        "title": "2. GPT Voice can use all your tools",
+        "description": "He demonstrates spoken requests against connected Slack and Notion: reading messages, DMing Emily, locating a weekly document and changing its structure into tabs. He shows intermediate tool calls and corrections in a live sequence, making the case for hands-free work while leaving reliability beyond this single example untested.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 776,
+        "timestamp": "12:56",
+        "title": "3. Meta's Muse Takeover & Meta Connect",
+        "description": "The speaker points to an App Store ranking where Muse is above ChatGPT and says his own use of its fast, proactive personal agent has been free under a large token allowance. He then covers Meta Connect’s voice/video and glasses announcements, a still-prototype pendant targeted for December and a connector ecosystem; he considers distribution and ambient access the major opportunity, despite weaker models.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1336,
+        "timestamp": "22:16",
+        "title": "4. OpenAI, Anthropic & Cognition personal agents",
+        "description": "Brown reports online claims that OpenAI, Anthropic and Cognition are preparing competing personal agents, and gives Aeon as an alleged OpenAI codename. These are leaks and rumored timing rather than products he has demonstrated, so they should inform watchlists rather than immediate purchasing decisions.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1404,
+        "timestamp": "23:24",
+        "title": "Every company is building the same agent",
+        "description": "He quotes a shared product pattern—persistent memory, connected messages and calendars, computer/browser access, background action, voice and proactive notifications. His own conclusion is that each vendor must trade off speed, token expense, safety and suitability for work versus personal tasks; he promises future tutorials as real products appear.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-27T12:00:31+02:00",
+    "summarized_at": "2026-09-27T12:05:03+02:00"
+  },
+  {
+    "id": "sNJYFuUOXOQ",
+    "title": "I Asked DHH If Omarchy Is Actually Safe (He Didn't Hold Back)",
+    "channel": "Mischa van den Burg",
+    "upload_date": "20260923",
+    "duration_seconds": 4143,
+    "thumbnail": "https://i.ytimg.com/vi/sNJYFuUOXOQ/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=sNJYFuUOXOQ",
+    "description": "Learn Linux for free here: https://kubecraft.click/linux-cgv168\n\nDownload your free DevOps Career Roadmap here: https://kubecraft.click/roadmap-cgv168\n\nA conversation with David Heinemeier Hansson, also known as DHH. David has been working very hard on Omarchy over the past year or so, and recently Omarchy has been gaining lots of popularity and there's so much happening there.\n\nI made fairly critical videos about Omarchy in the past, but I'm a man who has strong opinions weakly held, and Omarchy is getting to a stage where it becomes impossible to ignore. They raised over $20 million in funding. They are setting up a security team. And I think in the history of desktop Linux, something truly unique is happening here.\n\nSo I invited David because I wanted to know more about what is actually driving him to do all of this. Why is he building Omarchy and what is happening right now in the project? We also discuss security and much more. So yes, I have changed my tune on Omarchy, and in this podcast you can find out why.\n\n📍 CHAPTERS:\n00:00 - Why I changed my tune on Omarchy\n01:00 - What is happening in Omarchy right now\n06:30 - Why DHH puts 16 hours a day into a Linux distro\n08:00 - 20 years on the Mac and the final straw\n11:00 - Ubuntu was Duplo, Arch and Hyprland were Lego\n13:20 - AI agents changed everything\n16:00 - Linux is the perfect fit for an agentic OS\n17:40 - The beginner's mind\n20:00 - Why share it: Linux on Rails\n21:45 - Why now: Hyprland, hardware and agents\n25:40 - Escape velocity\n27:45 - Kids, the iPad and an acquired taste\n29:50 - Beating the Mac on market share\n32:05 - Marketing and transferring enthusiasm\n35:00 - We can fix everything\n37:00 - Raising money, and why more\n39:40 - Plugins in the core and perfect hardware compatibility\n43:10 - Voice mode and a generation of makers\n46:05 - Security: what is happening right now\n48:30 - The security team and the kernel hire\n50:00 - Responsible disclosure and the Cloudflare intern\n52:45 - The AUR is not vetted\n53:45 - Omarchy does not use the AUR in the box\n55:50 - Agents as defenders\n57:00 - How the AUR works in Omarchy today\n1:00:00 - Warning pop-ups: attempts versus results\n1:01:30 - Full package sovereignty, a foundational distro\n1:02:50 - Omarchy for kids: no sudo\n1:04:55 - Adults get the Wild West, kids get a sheriff\n1:07:05 - Why podcasts beat X for security talk\n\n🔗 DAVID'S LINKS:\n→ Omarchy: https://omarchy.org\n→ Omarchy security page and responsible disclosure: https://omarchy.org/security\n→ DHH's website: https://dhh.dk\n→ Ruby on Rails: https://rubyonrails.org\n→ Basecamp: https://basecamp.com\n→ Hey: https://hey.com\n\n📱 CONNECT WITH ME:\n→ Website: https://kubecraft.click/yt-apply-2\n→ X / Twitter: https://x.com/mischavdburg\n→ Personal blog: https://mischavandenburg.substack.com/\n→ LinkedIn: https://www.linkedin.com/in/mischavandenburg/\n→ Instagram: https://www.instagram.com/mischavandenburg/\n→ TikTok: https://www.tiktok.com/@mischavandenburg\n\nℹ️ ABOUT KUBECRAFT: I help you land six figure tech jobs through Kubernetes, Linux, home labs, self hosting and production-ready skills. Over 1000 people mentored into succesful DevOps careers.\n\nThis podcast is brought to you by KubeCraft. Apply to join and land your DevOps job: https://kubecraft.click/cgv168\n\nDownload your free DevOps Career Roadmap here: https://kubecraft.click/roadmap-cgv168\n\n#Linux #Omarchy #DHH",
+    "summary": "00:00–17:40 | Why Omarchy exists. Interviewer Mischa van den Burg says he has softened earlier criticism after seeing the project raise more than $20 million and set up a security team. DHH describes combining visual design with engineering, saying roughly 3,000 plugins appeared in about three weeks after Omarchy Quattro; these are his figures. After 20 years on the Mac and dissatisfaction with Apple’s control of distribution, he moved from Ubuntu to Arch/Hyprland to get more malleable building blocks. He says better coding agents let him build and debug a CLI/config-file-based desktop much faster; this is his experience, not proof that agents eliminate Linux failures.\n\n17:40–32:05 | An approachable but deliberately opinionated desktop. DHH argues his beginner’s perspective exposes adoption hurdles veteran Linux users overlook and likens sharing Omarchy to making Ruby on Rails accessible. He says Hyprland, Quickshell, improved laptop hardware and agents have converged at the right time. He seeks a sustainable community, not universal adoption: he mentions 10,000–100,000 users as meaningful scale and speculates about Linux gaining 20–30% market share, explicitly recognizing how ambitious that is. He wants children to encounter a computer they can modify instead of only consuming through an iPad.\n\n32:05–46:05 | Growth and engineering roadmap. DHH defends enthusiastic marketing as a way to bring people to technically valuable software and says the approximately $20 million raised funds staff, partner discussions and continuity beyond a personal dotfiles repository. He wants popular plugins absorbed into core, hardware problems solved in software rather than left in wiki workarounds, starting with vintage Intel Macs, and future voice-driven customization. These compatibility and voice claims are aspirations, not accomplished support guarantees.\n\n46:05–1:07:05 | Security and package supply chain. DHH calls security the top priority, describes a volunteer team, kernel-hardening expertise and responsible-disclosure credits, but acknowledges Omarchy is young and not fully hardened. Mischa presses him on the unvetted Arch User Repository. DHH clarifies current in-box packages and updates do not depend on the AUR, while users can explicitly choose to browse/install from it; older releases did depend on it, and the project moved toward its own mirror and package repository. Mischa suggests an AUR warning; DHH doubts pop-ups change behavior and prefers reviewed packages and eventually independent builds. Their compromise is differentiated risk: adults retain optional AUR access, while a planned child setup would remove sudo and restrict web access—DHH explicitly says it is not ready yet.\n\n1:07:05–1:09:01 | Final verdict. The host says the longer exchange changed his impression because security is being staffed and the children’s variant is being designed with restrictions, not shipped as-is. DHH argues short posts distort security discussions and points to the project’s security and disclosure page; neither asserts the distro is risk-free today.",
+    "why_valuable": "Helps assess whether Omarchy is mature enough for a personal or child’s computer: its package defaults, AUR exposure, current security effort and still-unshipped safeguards are discussed directly with DHH.",
+    "key_takeaways": [
+      "03:17–04:03: DHH claims around 3,000 community plugins were created in roughly three weeks, mixing nonprogrammers’ agent-assisted work with curated defaults.",
+      "11:03–16:44: His move from Ubuntu to Arch/Hyprland prioritized malleability; he sees CLI and config files as easier for agents to change and debug than locked-down interfaces.",
+      "25:41–31:08: He wants sustainable scale, cites 10,000–100,000 users as meaningful and speculates about 20–30% Linux desktop share, not a current adoption figure.",
+      "37:03–41:29: DHH says Omarchy raised about $20 million and plans staff, integrated plugins and broad hardware support; perfect compatibility remains a target.",
+      "46:45–52:20: He calls security the top priority, describes volunteer specialists, kernel expertise and responsible disclosure, while admitting the young project is not fully there.",
+      "53:37–58:16: DHH says the present in-box install uses no AUR dependencies; optional AUR packages are unvetted and can still be chosen by users.",
+      "1:00:11–1:02:39: Mischa proposes an AUR warning, but DHH doubts pop-ups work and favors reviewed builds and eventual package independence.",
+      "1:02:56–1:06:45: A children’s variant without sudo and with restricted DNS/time options is planned, not ready; DHH says adults may continue to choose the riskier frontier."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Why I changed my tune on Omarchy",
+        "description": "The host explains that prior critical coverage has softened as Omarchy gained funding and began assembling a security effort. Rather than certifying the distribution as safe, he invites DHH to explain the project’s motivation and then subjects its claims to direct questions later in the interview.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 60,
+        "timestamp": "01:00",
+        "title": "What is happening in Omarchy right now",
+        "description": "DHH says art and system engineering have converged: themes and design work sit alongside kernel, performance and security work, with around 3,000 plugins claimed after Quattro’s launch. He wants attractive defaults without excluding newcomers from reshaping the machine, and argues that a welcoming community matters alongside the code.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 390,
+        "timestamp": "06:30",
+        "title": "Why DHH puts 16 hours a day into a Linux distro",
+        "description": "He traces his intense hours back to childhood computers and a lasting fascination with making things on them, rather than a need for personal income. That emotional investment explains why he is treating a desktop distribution as a serious long-term product instead of a small configuration side project.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 480,
+        "timestamp": "08:00",
+        "title": "20 years on the Mac and the final straw",
+        "description": "After roughly two decades using Macs, DHH says Apple’s distribution control and conflict over HEY left him wanting another path, although he still admires Apple’s visual taste. Linux had long served him on servers, but its desktop reputation for poor defaults and dismissive support initially kept him away.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 660,
+        "timestamp": "11:00",
+        "title": "Ubuntu was Duplo, Arch and Hyprland were Lego",
+        "description": "His first Ubuntu customization could be replicated but did not give him the small components he wanted to shape freely. Moving to Arch and Hyprland felt like exchanging large Duplo blocks for Lego: harder at first, but a more flexible foundation for his curated operating system.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 800,
+        "timestamp": "13:20",
+        "title": "AI agents changed everything",
+        "description": "DHH says his coding agents now do much of his production work and can critique each other on implementation, citing his own recent workflow rather than a general performance study. He also credits agents with diagnosing Linux problems that would previously have sent him into fragmented support forums, making customization less intimidating.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 960,
+        "timestamp": "16:00",
+        "title": "Linux is the perfect fit for an agentic OS",
+        "description": "Linux exposes command-line tools, configuration and scripts that an agent can inspect, change and debug; DHH contrasts this with his view of macOS and Windows as harder to alter programmatically. He argues this makes the OS itself an agent-friendly development surface, not merely a place to run chat apps.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1060,
+        "timestamp": "17:40",
+        "title": "The beginner's mind",
+        "description": "He credits a novice’s eye with noticing installation and usability problems veterans have accepted as normal, comparing the opportunity to his first experience designing Rails around Ruby. That perspective gives him urgency to fix adoption friction before he too grows accustomed to it.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1200,
+        "timestamp": "20:00",
+        "title": "Why share it: Linux on Rails",
+        "description": "DHH says sharing a well-curated Linux setup follows the same impulse that led him to share Ruby on Rails: he wants others to experience a better way to make things. He is not presenting one immutable ideal for everybody; users should start with good defaults and then reshape the system.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1305,
+        "timestamp": "21:45",
+        "title": "Why now: Hyprland, hardware and agents",
+        "description": "His timing argument combines Hyprland’s visual polish, Quickshell’s extensibility, competitive laptop hardware and coding agents that can customize and troubleshoot systems. Stock Ubuntu alone would not have displaced his Mac, he says, so the combination of software, hardware and easier creation matters more than any one announcement.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1540,
+        "timestamp": "25:40",
+        "title": "Escape velocity",
+        "description": "DHH is after a community large enough to sustain the project, naming thousands and eventually hundreds of thousands as a kind of escape velocity rather than claiming every computer user will switch. He explicitly expects keyboard shortcuts and a tiling window manager to require learning, making this an acquired taste for many adults.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1665,
+        "timestamp": "27:45",
+        "title": "Kids, the iPad and an acquired taste",
+        "description": "He contrasts childhood computers that invited programming with tablets optimized for consuming apps, games and video, while saying he is not opposed to entertainment itself. His educational goal is for children to understand files and programmable systems; he does not yet claim a ready-made child-safe Omarchy edition.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1790,
+        "timestamp": "29:50",
+        "title": "Beating the Mac on market share",
+        "description": "He speculates that Linux could one day challenge macOS in desktop share, even floating 20–30% while acknowledging how unlikely that sounds against decades of incumbency. He cites conflicting present-day Linux share estimates, so these percentages are ambition and uncertainty, not a measured current market position.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1925,
+        "timestamp": "32:05",
+        "title": "Marketing and transferring enthusiasm",
+        "description": "DHH rejects the idea that attractive presentation automatically means shallow technology, arguing that honest enthusiasm can carry a useful Linux product to new audiences. He spends significant time answering users directly and feeding their problems back into the work, rather than treating distribution and design as afterthoughts.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2100,
+        "timestamp": "35:00",
+        "title": "We can fix everything",
+        "description": "He treats user-reported paper cuts and hardware incompatibilities as fixable engineering tasks in an open system with agents and contributors. This is a statement of direction rather than evidence that every dependency or driver issue is currently resolved.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2220,
+        "timestamp": "37:00",
+        "title": "Raising money, and why more",
+        "description": "The approximately $20 million already raised is, in DHH’s telling, an accelerant for employees, partnerships and credibility with hardware vendors, not a sum he has already allocated to a detailed spending plan. He even discusses seeking more funding to show that Omarchy will persist beyond his personal dotfiles.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2380,
+        "timestamp": "39:40",
+        "title": "Plugins in the core and perfect hardware compatibility",
+        "description": "With thousands of plugins, he wants to select useful community work for inclusion in the default system and replace wiki workarounds with actual software fixes. His target of broad hardware coverage begins with vintage Intel Macs whose wireless and graphics parts vary; he describes perfect support as a goal, not a delivered result.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2590,
+        "timestamp": "43:10",
+        "title": "Voice mode and a generation of makers",
+        "description": "Future voice control could let a person request a custom score-tracking widget and have an agent build it from available data, bringing operating-system modification closer to ordinary speech. DHH links this to teaching children to make things, while also naming unfinished language-input and other platform tasks.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2765,
+        "timestamp": "46:05",
+        "title": "Security: what is happening right now",
+        "description": "Mischa pivots from adoption to responsibility: a more open computer for more people also creates security obligations. The funding and proposed security team raise expectations, so he asks DHH what is actually being done rather than inferring safety from popularity.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2910,
+        "timestamp": "48:30",
+        "title": "The security team and the kernel hire",
+        "description": "DHH says a volunteer security group was formed early and describes hiring a Linux kernel maintainer with hardening experience as well as a Quickshell developer. He acknowledges the project is young and not fully hardened, despite relying on established upstream Linux components.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3000,
+        "timestamp": "50:00",
+        "title": "Responsible disclosure and the Cloudflare intern",
+        "description": "He says the project credits researchers who report vulnerabilities responsibly, including a Cloudflare intern, and also fixes publicly reported defects when possible. Some findings may lie upstream, but DHH argues attention still helps; his claims describe a disclosure and response process, not proof of comprehensive security.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3165,
+        "timestamp": "52:45",
+        "title": "The AUR is not vetted",
+        "description": "Mischa points out that the Arch User Repository is community-submitted and not uniformly vetted, a fact that surprised even experienced users in his audience. This shifts the risk discussion from kernel pedigree to what unreviewed third-party install scripts can do on a real desktop.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3225,
+        "timestamp": "53:45",
+        "title": "Omarchy does not use the AUR in the box",
+        "description": "DHH clarifies that today’s default Omarchy packages and updates do not require the AUR; users may choose it separately when software is unavailable through Arch or Omarchy repositories. He admits earlier Omarchy versions did rely on AUR packages and says outages helped drive creation of a dedicated mirror and package repository.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3350,
+        "timestamp": "55:50",
+        "title": "Agents as defenders",
+        "description": "He argues automated agents might someday help inspect third-party packages defensively, although he offers no completed universal scanning system here. The trade-off is keeping a path for individuals to publish software while recognizing that running another person’s code still carries risk.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3420,
+        "timestamp": "57:00",
+        "title": "How the AUR works in Omarchy today",
+        "description": "The default install flow shows Arch and Omarchy repositories, while a separate AUR choice exposes community package builds users can review before installing. DHH says he rarely uses AUR himself and wants to move commonly needed software into the project’s own repository rather than depend on it at runtime.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3600,
+        "timestamp": "1:00:00",
+        "title": "Warning pop-ups: attempts versus results",
+        "description": "Mischa proposes a first-use notice spelling out that AUR packages are unreviewed; DHH replies that habitual dismissal makes warnings less effective than verified builds. He does not rule the idea out entirely, but prioritizes measuring whether a guardrail actually protects people rather than merely signaling effort.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3690,
+        "timestamp": "1:01:30",
+        "title": "Full package sovereignty, a foundational distro",
+        "description": "The long-term plan is an independently managed package and build pipeline, although Omarchy currently bootstraps on Arch and still permits optional AUR installs. DHH frames foundational-distro status as an ambition requiring resources and time, not a description of today’s supply chain.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3770,
+        "timestamp": "1:02:50",
+        "title": "Omarchy for kids: no sudo",
+        "description": "When Mischa asks specifically about children, DHH says a planned version would withhold sudo and therefore ordinary package installation privileges. That changes the threat model from an adult who knowingly opts into a risky repository, but he explicitly says the child-oriented setup is still being built.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3895,
+        "timestamp": "1:04:55",
+        "title": "Adults get the Wild West, kids get a sheriff",
+        "description": "He proposes parental restrictions such as a DNS allowlist and time controls for kids while insisting adults should retain broad control over their own machines. DHH calls today’s Omarchy a pioneer or early-adopter system and says he would not hand the present unrestricted version to a child without guidance.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 4025,
+        "timestamp": "1:07:05",
+        "title": "Why podcasts beat X for security talk",
+        "description": "The host says an extended discussion clarified points that short social posts had obscured, especially security investment and the proposed child restrictions. DHH points listeners to the project security page and responsible-disclosure procedure, reiterating that security needs continued attention rather than claiming the present distro is risk-free.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-27T12:00:31+02:00",
+    "summarized_at": "2026-09-27T12:05:03+02:00"
+  },
+  {
     "id": "cvP_1jmnkmM",
     "title": "Anthropic IPO at Risk, Meta’s Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
     "channel": "All-In Podcast",
