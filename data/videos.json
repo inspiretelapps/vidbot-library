@@ -1,5 +1,155 @@
 [
   {
+    "id": "3ogITvjOh30",
+    "title": "I Tested Opus 5.5 vs Fable 5.1 on 7 Real Use Cases (Not Even Close)",
+    "channel": "Ben AI",
+    "upload_date": "20260924",
+    "duration_seconds": 1032,
+    "thumbnail": "https://i.ytimg.com/vi/3ogITvjOh30/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=3ogITvjOh30",
+    "description": "➡️ Join my AI Accelerator to get all my courses, skills & tech help: https://c.benai.co/ito5v-accelerator\n➡️ Work with my AI Agency: https://c.benai.co/ito5v-agency\n➡️ We're hiring. Join my team: https://c.benai.co/ito5v-join-ben-ai\n\n🔗 My Linkedin: https://linkedin.com/in/benvansprundel/\n\n💻 Softwares I use (some of these are affiliate-links, thanks!):\nWispr Flow: https://ref.wisprflow.ai/ben-van-sprundel\nn8n: https://n8n.partnerlinks.io/zr6ttnlrb8dw\nRelevance AI: https://relevanceai.com/?via=ben\nMake.com: https://www.make.com/en/register?pc=benai\nApify: https://www.apify.com?fpr=benai\n\nChapters:\n00:00 – Intro\n00:29 – Use Case #1\n02:10 – Use Case #2\n04:22 – Use Case #3\n05:44 – Use Case #4\n08:09 – Use Case #5\n10:08 – Use Case #6\n13:24 – Use Case #7\n\n👋🏼 About me:\nI'm Ben. I built two $1M ARR AI businesses, and now I help professionals and business owners use AI better than 99% of people in their industry. And I (try to) show you exactly how.\n\nI believe anyone with domain expertise can use AI to transform the way they work and grow their business. You don't need to be technical.\n\nI make videos that cover:\n\n1. How to stop feeling overwhelmed by AI and actually start implementing\n2. AI automation tutorials you can follow along with, even if you're not technical\n3. The strategies and systems that actually move the needle with AI",
+    "summary": "00:00–04:22 | Design and presentation: Ben says vendor benchmarks are not enough to select a model, so he compares the same prompts across seven tasks from his own workflow. In a monthly marketing slide deck, Opus produced clearer copy and more legible charts than Fable, although both had formatting flaws; the runs took 22 versus 21 minutes, and he says Opus cost about half as much. On a redesign of his Balda landing page with a reference site, liquid-glass effect and scroll animations, he preferred Opus's closer style match and smoother interactions, despite its 17-minute run versus Fable's 14 minutes.\n\n04:22–08:09 | Research: In a scan for YouTube titles and thumbnails over the prior seven days, Ben reports Opus examined 168 videos, including 59 non-English ones, versus Fable's 50; Opus cost slightly more for that task but he judges the extra coverage worthwhile. For an AI-adoption outline derived from Claude customer case studies, both supplied linked evidence: Fable found 13 strategies, Opus grouped 15 into four themes. He favors Opus there on comparable quality, 13 versus 20 minutes and about half the cost, attributing some efficiency to its use of Sonnet subagents.\n\n08:09–13:24 | Document creation versus customer intelligence: Converting his prompting video into a branded Google Doc with annotated screenshots favored Opus for alignment and concise writing; he reports 14 versus 19 minutes and about $5 for Opus, roughly half Fable's charge. The exception was a demanding customer-intelligence report from support calls, Q&As and tickets: Fable examined more than 500 calls while Opus examined 248, and Fable's suggested video topics and product changes carried more direct quotations and stronger analysis. Ben preferred Fable's deeper report even though he says it took 75 versus 40 minutes and cost about $100 versus $62.\n\n13:24–17:12 | Large-context verdict: In a yearlong business retrospective using his second brain, Ben says Fable read roughly four times as many documents as Opus's approximately 50 and produced more complete conclusions on decisions and what moved the needle. Opus finished in 5 minutes at about $2 versus Fable's 17 minutes at about $17; he recommends Opus for most everyday work but would pay for Fable when exhaustive context review is the priority. His closing speculation that newly released models may later receive less compute is explicitly a theory and personal impression, not a measured result of these seven tests.",
+    "why_valuable": "Helps choose which model to pay for: use Opus for typical design, research and document work, but compare source coverage and citations before trusting a cheaper, faster result on a large internal-data audit.",
+    "key_takeaways": [
+      "01:50–02:08: Ben preferred Opus's marketing slides despite a small formatting error; reported generation times were 22 versus 21 minutes, with Opus about half the cost.",
+      "03:24–04:20: The Balda redesign from the same prompt followed the reference site more closely under Opus; its 17-minute runtime was slower than Fable's 14 minutes, but Ben says it cost almost half as much.",
+      "04:47–05:43: Ben reports 168 videos surveyed by Opus, including 59 non-English videos, versus 50 by Fable; the broader title/thumbnail research cost Opus slightly more.",
+      "06:11–07:23: Both case-study outlines linked evidence, but Opus organized 15 strategies into four buckets in 13 minutes; Fable supplied 13 strategies in 20 minutes.",
+      "09:13–10:07: Opus's branded lesson document was better formatted with clearer annotated screenshots, according to Ben, and cost around $5 versus roughly twice that for Fable.",
+      "10:42–13:22: In the support-data report Fable reviewed over 500 calls to Opus's 248 and supplied direct supporting quotes; Ben judged the $100, 75-minute Fable run worth considering over Opus's $62, 40-minute run.",
+      "14:20–15:48: For a second-brain retrospective, Opus inspected around 50 documents and omitted 'what moved the needle' conclusions; Ben favors Fable's broader read when depth matters, despite its roughly $17 versus $2 cost.",
+      "15:51–16:32: Ben's prediction that Opus quality might decline after launch is speculation based on his impressions of earlier releases, not a demonstrated change in this test."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Ben sets out to compare the same prompts on seven of his own business tasks rather than rely on published model benchmarks. He says he will judge output quality alongside elapsed time and cost, making the choice task-specific rather than treating benchmark leadership as decisive.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 29,
+        "timestamp": "00:29",
+        "title": "Use Case #1",
+        "description": "Both models make a monthly marketing performance deck from connected data and reference images; Ben says Fable copies the style but leaves several charts and tables hard to read. He prefers Opus's clearer charts and more concise copy despite a minor formatting issue, and reports 22 versus 21 minutes with Opus costing about half as much.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 130,
+        "timestamp": "02:10",
+        "title": "Use Case #2",
+        "description": "Ben asks both models to redesign the Balda second-brain app landing page using a reference website, a liquid-glass repository and scroll effects. Fable includes the requested features, but he finds Opus closer to the reference with smoother animation, a comparison table and FAQ; Opus takes 17 versus 14 minutes, yet he reports it costs almost half as much.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 262,
+        "timestamp": "04:22",
+        "title": "Use Case #3",
+        "description": "For video title and thumbnail research over the preceding week, Fable ranks 50 relevant YouTube videos and identifies thumbnail outliers. Ben says Opus surveys 168, including 59 non-English videos, for a similar format but broader coverage; although it costs slightly more and takes 15 rather than 14 minutes, he selects it for depth.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 344,
+        "timestamp": "05:44",
+        "title": "Use Case #4",
+        "description": "Both models mine Claude customer case studies for concrete ways businesses improved AI adoption and include links to supporting evidence. Fable offers 13 strategies with quotations, while Opus groups 15 into four useful buckets; Ben considers quality comparable but favors Opus's 13-minute completion versus 20 minutes and roughly half the cost, partly crediting Sonnet subagents.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 489,
+        "timestamp": "08:09",
+        "title": "Use Case #5",
+        "description": "A single prompt turns Ben's prompting tutorial into a branded Google Doc with screenshots and highlights drawn from the source video. He finds both outputs useful but Opus's layout, annotation arrows and prose more polished; the reported 14-minute, roughly $5 Opus run beats Fable's 19-minute run on both speed and price.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 608,
+        "timestamp": "10:08",
+        "title": "Use Case #6",
+        "description": "Ben requests video ideas, product improvements and a customer profile from two months of support calls, Q&As and tickets. Fable reviews over 500 calls and provides direct quotes behind 14 video ideas and prioritized improvements, whereas Opus reviews 248 calls and often supplies transcript links without direct quotations; he prefers Fable's richer evidence despite its 75-minute, roughly $100 run versus Opus's 40 minutes and $62.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 804,
+        "timestamp": "13:24",
+        "title": "Use Case #7",
+        "description": "A retrospective over Ben's second-brain documents exposes a second large-context exception: he says Fable reads about four times Opus's approximately 50 documents and reports what actually moved the business forward, which Opus omits. His overall recommendation remains Opus for most tasks because it is faster and cheaper here—5 minutes and about $2 versus 17 minutes and $17—but he would pay for Fable on exhaustive analysis; a possible future drop in new-model effort is presented as conjecture.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-28T12:00:54+02:00",
+    "summarized_at": "2026-09-28T12:04:41+02:00"
+  },
+  {
+    "id": "020ZvO0FbMM",
+    "title": "AI Realist vs 20 AI Optimists (ft. Andrew Yang) | Surrounded",
+    "channel": "Jubilee",
+    "upload_date": "20260927",
+    "duration_seconds": 6373,
+    "thumbnail": "https://i.ytimg.com/vi/020ZvO0FbMM/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=020ZvO0FbMM",
+    "description": "Build credit fast and get your first month for just a dollar at https://getkikoff.com/SURROUNDED today. Thanks to Kikoff for sponsoring us!\n\nHey you 👈 Wanna be in a Jubilee video? https://bit.ly/be-in-a-video\n\nLET’S BE FRIENDS\nInstagram: https://www.instagram.com/jubileemedia/\nTikTok: https://www.tiktok.com/@jubilee?lang=en\nWebsite: https://www.jubileemedia.com\n\nOUR LOVE + DATING CHANNEL 🍑\nYouTube: https://www.youtube.com/@lovecommanectar\nInstagram: https://www.instagram.com/lovecommanectar  \nNectar app: https://lovecommanectar.co/m/download-nectar\n\nARE YOU A BRAND? WANNA WORK WITH US?\nEmail partnerships@jubileemedia.com\n\nFEATURING \nDamian - https://linktr.ee/damianmoore628/\nDonnie - https://www.instagram.com/donnie_bravo911/\nDrago - https://www.x.com/dragodimitrov/\nEsi - https://www.youtube.com/@Esimagic/\nJames - https://www.jamesczerniawski.com/\nJammie - https://www.tiktok.com/@thedesperateboss/\nJason - http://www.jasonwisdom.com/\nJeremiah - https://www.instagram.com/jer_blank/\nKristina - https://www.instagram.com/heykristinavoss/\nMeghna - https://www.instagram.com/meghna.natraj/\nSean - https://www.instagram.com/_Ariappa/\nSkip - https://www.linkedin.com/in/skiprizzovr/\nSofia - https://www.instagram.com/s0hfia/\nSophia - https://www.x.com/sophiadew/\nTheo - https://www.x.com/theojaffee/\nValerie - https://www.instagram.com/valcalbear/\nVer - https://www.instagram.com/verstarr/\n\nTIMECODES\n00:00 Intro\n01:32 AI will not democratize opportunity - it will accelerate inequality on a scale we have never seen before.\n24:33 AI is going to eliminate millions of jobs faster than new ones can be created\n47:38 Universal Basic Income will become necessary as AI reduces the need for human labor\n01:11:15 The market will optimize for productivity and profit, not human dignity\n01:35:04 Being an AI optimist is necessary to get through this next period of immense technological transformation",
+    "summary": "00:00–24:33 | Opportunity versus ownership: In Jubilee's round-robin debate, Andrew Yang argues that making coding, tutoring and business services cheap does not mean the gains will reach workers or founders evenly. Optimists cite a five-person startup competing with large firms, cheaper legal and accounting help, niche creators and self-hosted models; Yang concedes these benefits but contrasts them with scarce customer attention, dominant model/data owners and his own decision not to fill junior engineer and analyst roles. He proposes paying people for their data, while an engineer advocates easier access to model training and open source; Yang's cited wealth and data-market figures are debate claims, not independently tested here.\n\n24:33–47:38 | Jobs and the speed of transition: Yang predicts losses in call centers, transport, insurance and white-collar roles, using a hypothetical 100-person department where automating 60% of tasks permits a 60-person cut even though remaining tasks still need humans. Opponents argue jobs are bundles of tasks, invoke radiologists and the historical rise of new industries, and cite a World Economic Forum projection of 90 million lost versus 170 million created by 2030. Yang disputes the fit between new roles and displaced workers, stressing unfilled entry-level openings and underemployment rather than headline unemployment; the participants contest both the magnitude and timing, and these figures should be read as speakers' assertions, not established forecasts.\n\n47:38–1:11:15 | Income floor and funding choices: Debaters propose AI-company dividends, sovereign or public wealth funds, wage insurance and universal basic services instead of—or alongside—UBI. One participant estimates $1,000 a month for 200 million Americans at about $2 trillion annually and worries about existing spending; Yang answers that AI-generated growth, value-added taxation, overlapping benefits and improved outcomes could help finance payments, and argues cash reaches households more directly than often-dysfunctional institutions. A former insurance worker says UBI was needed before AI; others demand better evidence attributing layoffs to AI. Yang himself distinguishes genuine displacement from companies using AI as cover for unrelated layoffs and calls UBI a transition floor, not a complete solution.\n\n1:11:15–1:35:04 | Markets, care and dignity: A policy advocate says consumer choice can reward responsible companies and cites Etsy and AI easing nurses' paperwork; Yang counters with Walmart's effect on small retailers and argues access to a subscription is not the same as sharing the value of data and models. He welcomes AI-enabled discoveries in biology while insisting private incentives still reward doing more with fewer workers. His alternative would explicitly reward health, arts, education and care; a therapist argues displaced workers could fill understaffed helping professions, prompting Yang to note that excellent teaching and unpaid family care already create value the market fails to pay for.\n\n1:35:04–1:46:14 | Optimism with distribution: In the final extended exchange, Sophia says optimism preserves agency and emphasizes disease research, clean energy and opportunity outside the United States. Yang agrees AI can bring breakthroughs and does not advocate shutting it down, but says practical optimism must include those likely to lose work and must not presume the gains distribute themselves. He ends by asking the winners to share value so ordinary people can participate in abundance rather than retreat into fear; the post-debate reactions describe a more nuanced, friendly exchange than a simple pro/anti-AI split.",
+    "why_valuable": "Helps evaluate which AI-transition policies address workers' lost bargaining power and missing income—not just model access—while comparing UBI, dividends, wage insurance and services against concrete objections about funding and measurement.",
+    "key_takeaways": [
+      "02:03–04:56: Yang grants that AI lets people build apps, but argues cheap creation does not solve discovery; he compares an app-store glut with winner-take-most e-commerce.",
+      "11:36–14:18: Yang says his own company withdrew junior engineer and analyst postings; he cautions that rising business registrations need not translate into non-founder jobs.",
+      "21:35–23:30: Yang calls for payments for personal data, citing a claimed $300 billion-plus annual resale market; an engineer proposes lowering barriers to training open models instead.",
+      "26:36–29:46: Opponents say automation historically creates other jobs; Yang replies that partially automated departments can still cut headcount and that past manufacturing transitions harmed local communities.",
+      "37:36–40:18: A participant cites a World Economic Forum projection of 90 million jobs lost and 170 million created by 2030; Yang argues net totals can conceal hollowed-out mid-tier jobs and mismatched skills.",
+      "41:23–46:22: Yang says headline unemployment misses people who stop looking or take work below their qualifications, and that hiring freezes are less visible than layoffs; the magnitudes he cites are contested in the debate.",
+      "55:18–1:01:20: Against a participant's roughly $2 trillion annual UBI cost estimate, Yang argues for combining cash with a tax on value creation and possible savings elsewhere, while the participant prefers universal services.",
+      "1:24:37–1:26:14 and 1:42:58–1:44:12: Yang says UBI is a floor, not a source of purpose by itself, and closes pro-innovation but insistent that AI's winners share the gains rather than assume markets will distribute them."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Jubilee introduces Andrew Yang to a rotating room of AI optimists and frames the confrontation around inequality, work, basic income and dignity. The opening montage previews both Yang's worry about unpaid data and participants' disagreement over whether a technological transition must be feared or embraced.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 92,
+        "timestamp": "01:32",
+        "title": "AI will not democratize opportunity - it will accelerate inequality on a scale we have never seen before.",
+        "description": "Participants describe AI as a tutor, business-builder, source of inexpensive professional advice, niche-audience enabler and self-hostable open technology; Yang agrees individuals can benefit but argues owners of capital, data and distribution will capture disproportionate value. He contrasts new business registrations with actual hiring, cites his decision not to fill two junior posts, and ends this round calling for payment for personal data while an engineer argues for more open model training.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1473,
+        "timestamp": "24:33",
+        "title": "AI is going to eliminate millions of jobs faster than new ones can be created",
+        "description": "Yang predicts rapid reductions across call centers, transport, insurance and office work, while debaters counter that automating tasks is not automating entire jobs and cite radiology and historical job creation. He argues a department can cut headcount without eliminating every human task, challenges a projection of net new jobs with the problem of skill and wage mismatch, and says hiring freezes and underemployment hide damage not visible in the headline jobless rate; his forecasts remain disputed by the other speakers.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2858,
+        "timestamp": "47:38",
+        "title": "Universal Basic Income will become necessary as AI reduces the need for human labor",
+        "description": "A participant raises sovereign and public wealth funds, AI dividends and wage insurance; another objects that a $1,000 monthly payment to 200 million people would cost roughly $2 trillion annually and prefers universal basic services. Yang says cash can be more direct than ineffective institutions, proposes capturing AI-driven value through taxation and stresses that some need already predates AI; later challengers demand proof of AI-caused job losses, which leads him to distinguish genuine substitution from 'AI washing' and describe UBI as a foundation for transition rather than a cure-all.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 4275,
+        "timestamp": "01:11:15",
+        "title": "The market will optimize for productivity and profit, not human dignity",
+        "description": "Debaters argue consumer choice, open tools, nurses' administrative relief, academic drug research and new care roles can make AI beneficial without overriding markets. Yang accepts many of those applications but distinguishes useful products from how their proceeds are distributed; he invokes Walmart's displacement of small stores, unpaid family care and underpaid teaching to argue for rewards tied to health, art, education and human connection, with UBI only the floor beneath that larger project.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 5704,
+        "timestamp": "01:35:04",
+        "title": "Being an AI optimist is necessary to get through this next period of immense technological transformation",
+        "description": "Sophia treats optimism as a way to exercise agency and points to global access, medical advances and clean energy; Yang accepts innovation's potential while rejecting confidence that markets alone will protect displaced people. They converge on practical solutions rather than a shutdown: share AI-generated gains with ordinary households and take the fears of those outside the tech economy seriously; in the closing reactions, participants describe the conversation as unusually constructive.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-09-28T12:00:54+02:00",
+    "summarized_at": "2026-09-28T12:04:41+02:00"
+  },
+  {
     "id": "vCFiwCiXFTA",
     "title": "Starting YouTube at 56 Changed My Life in 3 Months",
     "channel": "Jeff Wade ",
