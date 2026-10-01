@@ -1,5 +1,170 @@
 [
   {
+    "id": "RMTWayrwYkQ",
+    "title": "Gemini 4 Argon Is Google’s Most Powerful AI Model + Early Tests!",
+    "channel": "WorldofAI",
+    "upload_date": "20260930",
+    "thumbnail": "https://i.ytimg.com/vi/RMTWayrwYkQ/maxresdefault.jpg",
+    "description": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/\n\nGemini 4 Argon IS Google’s Most Powerful AI Model + Early Tests!\n\nGoogle just unveiled Gemini 4 Argon, its new frontier AI model, and this could be one of Google DeepMind’s biggest releases yet.\n\nJoin the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training.\n👉 Join Today! https://www.skool.com/worldofai\n\n🔗 My Links:\nSponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com\n🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi\n🧠 Follow me on Twitter: https://twitter.com/intheworldofai \n🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ \n👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)\n🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/\n👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD\n\n[Must Watch]:\nGPT-6.1 Sol IS INSANE! + OpenAI's DevDay: Dots, Pro 500, Ultrafast, Codex & More! AI NEWS: https://youtu.be/uJNP_FdlR3I\nMYSTERIOUS Stealth AI Model BEATS GPT-6 Astra & It’s COMPLETELY FREE!: https://youtu.be/TyhlQ0ufH3Y\nHUGE Fable 5.5 LEAK, Sonnet 5.5 IS INSANE, GPT 6.1, Qwen 4.0, Kimi K3.1 & More! AI NEWS: https://youtu.be/WzoDOZnHbCk\n\n📌 LINKS & RESOURCES\nWorld of AI Skool: https://www.skool.com/worldofai\nWorld of AI Benchmark: https://www.woaibench.ai/\nAI NEWS: https://x.com/intheworldofai\nBlog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=tw&utm_medium=social&utm_campaign=og\nhttps://x.com/AiBattle_/status/2105402134313242980?s=20\nhttps://x.com/AI_Screening/status/2103730716853117183\nhttps://x.com/YouWareAI/status/2100838090210431302\nhttps://x.com/abhinavflac/status/2105157825194590477\nhttps://x.com/thtbee_/status/2105320019920080921/video/1\nhttps://x.com/LuminaBench/status/2104951294842544206?s=20\nhttps://x.com/SPAC89/status/2105393654504272096\nhttps://x.com/abhinavflac/status/2105300298483019839\n\nIn this video, we break down everything you need to know about Gemini 4 Argon, including its 1 MILLION output-token limit, introductory $2/M input and $10/M output pricing, long-horizon reasoning, coding and agentic capabilities, and some of the first early tests of Gemini 4 Pro appearing in Arena.\n\nWe also look at Argon’s performance against models like GPT-6 Astra, GPT-6.1 Sol, Claude Opus 5.5, and Sonnet 5.5, its impressive cost efficiency, low hallucination rate, and Google’s rapidly accelerating pace of AI development.\n\nArgon is currently rolling out to selected trusted testers, with broader access expected to begin with paid API customers and Google AI Ultra subscribers.\n\n[Time Stamps]:\n0:00 - Intro\n0:39 - INSANE Pricing\n1:05 - 1M Token Output\n1:37 - Benchmarks\n2:08 - DeepSwee v1.1\n3:17 - Best Price:Performance?\n3:44 - AA Index\n4:30 - Lowest Hallucination\n5:14 - Argon over Pro\n5:39 - How To Use\n6:09 - First Look At Argon\n6:46 - SVG Demo\n7:24 - Gemini 4 vs Opus 5.5\n8:04 - 3D Tests\n8:38 - Insane Level of Detail\n9:16 - Rome Colosseum\n10:02 - Great Interactivity\n10:36 - Not The Best WebDev Model\n11:18 - GPT-6 Astra vs Gemini 4\n12:15 - RSI Achieved?\n\nTopics covered:\nGemini 4 Argon, Gemini 4 Pro, Google DeepMind, Gemini 4 early tests, Gemini 4 Arena, GPT-6.1 Sol, GPT-6 Astra, Claude Opus 5.5, Claude Sonnet 5.5, Gemini 4 benchmarks, Gemini 4 pricing, Gemini 4 API, Google AI Ultra, AI agents, AI coding, Artificial Analysis, recursive self-improvement, RSI, frontier AI models, LLM benchmarks, AI news\n\n#Gemini4 #Gemini4Argon #GoogleDeepMind #GeminiAI #GPT6 #Claude #ArtificialIntelligence #AI #AINews",
+    "duration_seconds": 851,
+    "url": "https://www.youtube.com/watch?v=RMTWayrwYkQ",
+    "summary": "[00:00–01:37 | Attractive economics, but restricted access] WorldofAI presents Gemini 4 Argon as a potential daily driver for knowledge work and multimodal tasks, rather than an automatic replacement for the strongest coding models. He reports introductory API pricing of $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper, and a maximum output increase from 64K to one million tokens. That is an output allowance, not a stated input context window or demonstrated successful million-token run. Access is described as limited to cybersecurity partners and trusted testers; his predictions of access within days, weeks or mid-October are explicitly guesses, not confirmed rollout dates.\n\n[01:37–05:14 | Strong reported scores, with an internal inconsistency] The host reports 77.9% on the benchmark labeled DeepSwee v1.1 in the creator chapters and 91.7% on a long-video benchmark he calls LVB. He gives Argon 53 on the Artificial Analysis intelligence index, equal to GPT-6 Astra and one point below GPT-6.1 Sol, and says its introductory per-task cost is about 60% of Astra's. He also reports a 15% hallucination rate, compared with 51% for Astra and 54% for Sol; this is a benchmark-specific claim, not a guarantee that only 15% of everyday answers will be wrong. Importantly, he calls Automation Bench 51.3% at 02:30–02:40 and later 77.5% at 04:16–04:26, without explaining whether these are different evaluations. These are relayed scores, not independently reproduced tests; the claimed post-promotion prices are $4/M input and $20/M output.\n\n[05:14–08:38 | Third-party previews are not confirmed Argon comparisons] The host attributes a larger model size to Reuters, but his suggestion of six trillion parameters is speculation. At 06:09 he says a Discord contact supplied some showcased tests, including a Sakura pagoda voxel scene with adjustable time of day; he also praises a PS5-controller SVG while noting texture and gradient imperfections. The floatplane comparison with Claude Opus 5.5 and the Halloween 3D scene come from an earlier Gemini 4 Pro checkpoint, which he explicitly cannot confirm is Argon. He judges the floatplane stronger in visuals, physics and execution, but the checkpoint uncertainty and third-party provenance prevent treating this as a controlled first-hand Argon-versus-Opus benchmark.\n\n[08:38–12:15 | Visual polish does not establish overall coding superiority] A mechanical bee, a Colosseum scene with day/night cycles, and a same-prompt 3D-world comparison with GPT-6 illustrate the host's enthusiasm for detailed, interactive outputs. He again identifies earlier checkpoints in this material and acknowledges that prompting contributes to the results. His practical verdict is narrower than the title's superlative: Argon looks promising for multimodal use and basic daily tasks, but he does not expect it to be the best coding or web-development model against GPT, Sonnet or Opus. He also prefers Sol for computer use earlier in the video; attractive introductory pricing is a reason to test one's own workload, not evidence of universal superiority.\n\n[12:15–14:11 | AI-assisted research is not proof of recursive self-improvement] The presenter speculates that AI helping researchers code, evaluate and optimize successor systems could accelerate releases, while explicitly saying there is no evidence to claim RSI has been achieved. He relays Google's claim that Argon assists internal algorithmic and engineering work, then closes by calling the release a major text and multimodal upgrade and promising a full test video once access opens. Despite the creator description saying he benchmarked everything with his own tool, the spoken account includes supplied demos, uncertain checkpoint identities and future first-hand testing. Treat this as an enthusiastic early report with useful task-selection clues, not a completed independent evaluation.",
+    "why_valuable": "Argon is a candidate to trial for lower-cost multimodal and everyday knowledge work, not yet a justified replacement for a proven coding agent. The host reports $2/M input and $10/M output introductory pricing but still favors established rivals for demanding coding; restricted access, conflicting Automation Bench figures and unconfirmed demo checkpoints mean a workload-specific test should precede any switch.",
+    "key_takeaways": [
+      "[00:54–01:25; 04:03–04:14] The host reports $2/M input and $10/M output introductory pricing, rising to $4/M and $20/M after the promotion. The one-million-token allowance is maximum output, not an input context-window claim or a demonstrated long-run success.",
+      "[03:43–04:26] Argon reportedly scores 53 on the Artificial Analysis intelligence index, matching Astra and trailing Sol by one point, at about 60% of Astra's per-task cost during introductory pricing. This supports considering a trial, not assuming it wins every workload.",
+      "[02:30–02:40; 04:16–04:26] Automation Bench is described first as 51.3% and later as 77.5%, with no reconciliation. Do not reuse either number as a settled comparison until the evaluation source and configuration are checked.",
+      "[04:30–05:14] The claimed 15% hallucination rate versus Astra's 51% and Sol's 54% is a relayed benchmark result. It does not remove the need to verify answers or establish an error rate for your own business tasks.",
+      "[05:39–06:16; 07:24–08:04] Access remains restricted, and rollout dates are guesses. Some demos were supplied by a Discord contact, while the floatplane comparison uses an earlier Gemini 4 Pro checkpoint whose identity as Argon is explicitly uncertain.",
+      "[08:38–11:51] Detailed mechanical-bee, Colosseum and 3D-world outputs impress the host, yet he does not rank Argon best for coding or web development. Separate visual-demo quality from reliable agentic implementation when choosing a model.",
+      "[12:25–13:41] The presenter explicitly says RSI is unproven and promises a full test after release. AI-assisted internal research and rapid releases are not, on their own, evidence of autonomous recursive self-improvement."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "The host announces a new Google model while immediately qualifying who can actually access it: selected cybersecurity partners and trusted testers through the program he names. He expects paid API customers and AI Ultra subscribers to follow, but his hope for access within days or the following week is a prediction rather than a confirmed date.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 39,
+        "timestamp": "00:39",
+        "title": "INSANE Pricing",
+        "description": "The presenter pitches low cost as a reason to consider switching daily models, reporting an introductory $2 per million input tokens and $10 per million output tokens. He adds that cached input is 95% cheaper, so the appeal depends on both the temporary tariff and the way a workload reuses inputs, rather than headline model quality alone.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 65,
+        "timestamp": "01:05",
+        "title": "1M Token Output",
+        "description": "The host says maximum output has increased from 64K to one million tokens and connects that allowance to long-running coding and agentic work. He also anticipates fewer hallucinations, but does not demonstrate a successful run at that length; after a brief subscription appeal, he moves into reported benchmark evidence.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 97,
+        "timestamp": "01:37",
+        "title": "Benchmarks",
+        "description": "The presenter distinguishes claimed knowledge-work and text-arena strength from being the strongest agentic coding model. He says the model surpasses Astra, Fable 5.1 and Opus 5.5 in that domain and links its large output allowance to extended reasoning, without showing a controlled reproduction of those comparisons in this interval.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 128,
+        "timestamp": "02:08",
+        "title": "DeepSwee v1.1",
+        "description": "The host reports 77.9% on the long-horizon engineering evaluation named in the chapter and 51.3% on Automation Bench for end-to-end business workflows, alongside 91.7% on a long-video benchmark he calls LVB. He praises finance, legal and multimodal coverage but still prefers Sol for computer use, making his endorsement task-specific rather than a clean sweep across all categories.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 197,
+        "timestamp": "03:17",
+        "title": "Best Price:Performance?",
+        "description": "The presenter cites roughly $1.99 per intelligence-index task for Argon and compares the cost with Sol, Astra, Opus and Fable. Some competitor prices lose decimal clarity in the automatic captions, so their exact amounts should not be reconstructed from this transcript; the useful argument is that benchmark completion cost can matter as much as token tariffs.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 224,
+        "timestamp": "03:44",
+        "title": "AA Index",
+        "description": "The host gives Argon an intelligence-index score of 53, equal to Astra and one point below Sol, at about 60% of Astra's task cost during the introductory offer. He says regular pricing will be $4/M input and $20/M output, then cites 77.5% on Automation Bench versus Sonnet's 71.3%; he does not explain the earlier 51.3% figure for the same named benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 270,
+        "timestamp": "04:30",
+        "title": "Lowest Hallucination",
+        "description": "The presenter reports a 15% hallucination rate, calling it the lowest Artificial Analysis has measured among models scoring at least 45 on its intelligence index. He contrasts Astra at 51% and Sol at 54%, then argues that reliability, output length, agentic performance and cost together may justify making Argon his daily driver, even though it is neither the absolute cheapest nor universally best model.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 314,
+        "timestamp": "05:14",
+        "title": "Argon over Pro",
+        "description": "The host attributes a larger model than earlier Gemini 4 releases to a Reuters report and interprets that as scaling alongside improved reasoning and agentic ability. His suggestion of six trillion parameters or more is explicitly uncertain, so this interval supplies no verified parameter count on which to base a deployment decision.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 339,
+        "timestamp": "05:39",
+        "title": "How To Use",
+        "description": "The presenter repeats that only selected cyber defenders and trusted testers have access, with paid API users and AI Ultra subscribers expected before the broader public. He floats days, weeks and mid-October as possibilities, then admits he is guessing; viewers should not treat any of these windows as an announced availability commitment.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 369,
+        "timestamp": "06:09",
+        "title": "First Look At Argon",
+        "description": "The host says someone from an AI-leaks Discord supplied several tests, establishing third-party provenance for at least some of the material he is showing. He praises a Sakura pagoda voxel scene's camera angles, atmosphere and adjustable time of day, using the lighting changes as evidence of polished output rather than showing a reproducible benchmark protocol.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 406,
+        "timestamp": "06:46",
+        "title": "SVG Demo",
+        "description": "The presenter judges a generated PS5-controller SVG close to a real image, citing lighting, hue and recognizable controller geometry. He also notices texture and gradient flaws near its sides and compares the result favorably with an Opus example, so the praise includes visible shortcomings rather than demonstrating perfect reconstruction.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 444,
+        "timestamp": "07:24",
+        "title": "Gemini 4 vs Opus 5.5",
+        "description": "The host describes a floatplane with physics simulation produced by an earlier Gemini 4 Pro checkpoint and says it beats Claude Opus 5.5 in appearance, physics and execution. He explicitly does not know whether that checkpoint is Argon, making this an encouraging preview of possible capability rather than a verified Argon-versus-Opus result.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 484,
+        "timestamp": "08:04",
+        "title": "3D Tests",
+        "description": "The presenter shows another output from the earlier checkpoint: a 3D simulation of Halloween characters whose visual detail and depth impress him. He treats the richer scene as evidence of progress in generated simulations, but supplies neither numerical evaluation nor confirmation that the demonstrated checkpoint is the released model.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 518,
+        "timestamp": "08:38",
+        "title": "Insane Level of Detail",
+        "description": "A generated mechanical bee leads the host to praise the model's design taste and renewed strength in frontend-style visual work after Claude had overtaken earlier Gemini offerings. He acknowledges the contribution of the prompt to the result, so the detailed output is best understood as a promising example rather than proof of a general design ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 556,
+        "timestamp": "09:16",
+        "title": "Rome Colosseum",
+        "description": "The presenter admires a generated Colosseum scene with simulated day and night, saying the polish looks more refined than previous Gemini Pro output. He again identifies these examples as earlier checkpoints and only conditionally connects them to Argon, which matters when deciding whether a preview represents the model a customer will actually receive.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 602,
+        "timestamp": "10:02",
+        "title": "Great Interactivity",
+        "description": "The host says interactive demos appear more intuitive and fast, with outputs using approaches he has not noticed in competing examples. He ties the appeal back to whether the introductory pricing lasts, so the claimed value combines subjective interaction quality with a temporary economic advantage rather than a measured speed comparison.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 636,
+        "timestamp": "10:36",
+        "title": "Not The Best WebDev Model",
+        "description": "The presenter explicitly says Argon will not be the best coding or web-development model, despite finding it attractive for basic tasks and multimodal everyday use. He credits GPT, Sonnet and Opus with stronger established capabilities in demanding domains and hopes Gemini improves, narrowing the practical recommendation well below the strongest wording in the video title.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 678,
+        "timestamp": "11:18",
+        "title": "GPT-6 Astra vs Gemini 4",
+        "description": "The host shows an earlier Gemini checkpoint and GPT-6 responding to the same prompt for a 3D world, praising Gemini's train tracks, dynamic scene, colors and textures. He says the example fits the reported benchmark story but gives no controlled score or confirmed Argon identity, then shifts into channel-support and community promotions.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 735,
+        "timestamp": "12:15",
+        "title": "RSI Achieved?",
+        "description": "The presenter wonders whether rapid releases suggest recursive self-improvement, then explicitly says there is no evidence to make that claim and instead points to AI assisting internal research, coding and evaluation. He closes by calling Argon a substantial text and multimodal upgrade while promising a full test after release, so the final verdict remains enthusiastic but preliminary before the closing promotional remarks.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-01T12:00:04+02:00",
+    "summarized_at": "2026-10-01T12:04:11+02:00"
+  },
+  {
     "id": "4Na_49oFbKY",
     "title": "Steven Bartlett REVEALS the Secret Behind the World’s Fastest Growing Podcast | PBD Podcast #861",
     "channel": "PBD Podcast",
