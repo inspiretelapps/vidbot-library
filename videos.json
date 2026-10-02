@@ -9,8 +9,512 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-01T12:04:11+02:00",
+  "updated_at": "2026-10-02T08:20:41+02:00",
   "videos": [
+    {
+      "id": "kMPyFWFqX5I",
+      "title": "9 shocking repos that make money",
+      "channel": "The Next New Thing",
+      "upload_date": "20260929",
+      "duration_seconds": 1669,
+      "thumbnail": "https://i.ytimg.com/vi/kMPyFWFqX5I/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kMPyFWFqX5I",
+      "description": "Link to Resources: https://thenextnewthing.ai/l/github-repos-sep29\nPresented by Zapier: https://zapier.com/\nAndrew Warner breaks down nine open-source business tools you can customize, self-host, and use to grow revenue.\n\nAndrew Warner walks through nine GitHub repos that can replace expensive business software while giving you more control over your data, workflows, and customization. He covers analytics, SEO, invoicing, scheduling, billing, forms, CRM, marketing automation, and customer support, while also showing how each tool can be used directly inside a business or turned into a consulting offer.\n\nLinks featured:\n\nPostHog — https://github.com/PostHog/posthog\nOpenSEO — https://github.com/every-app/open-seo\nInvoice Ninja — https://github.com/invoiceninja/invoiceninja\nCal.diy — https://github.com/calcom/cal.diy\nAutumn — https://github.com/useautumn/autumn\nTypebot — https://github.com/baptisteArno/typebot.io\nFrappe CRM — https://github.com/frappe/crm\nMautic — https://github.com/mautic/mautic\nChatwoot — https://github.com/chatwoot/chatwoot\n\n00:00 - Open-Source Business Tools: Nine GitHub repos you can customize, self-host, and use to make or save money.\n00:18 - PostHog: Track funnels, retention, session replays, and experiments with self-hosted product analytics.\n02:51 - OpenSEO: Run keyword research, rank tracking, and customizable SEO workflows without expensive software.\n06:09 - Invoice Ninja: Send quotes, invoices, subscriptions, and automated billing without paying per seat.\n09:45 - Zapier Next-Gen Zaps: Use code for repetitive automations and save AI for the tasks that actually need reasoning.\n11:15 - Cal.diy: Self-host your booking page, avoid double-bookings, and charge people before they schedule.\n14:15 - Autumn: Add subscriptions, usage-based billing, token pricing, free trials, and metered plans to your software.\n16:57 - Typebot: Build self-hosted conversational forms, branching flows, lead qualification, and WhatsApp experiences.\n20:15 - Frappe CRM: Manage leads and deals with a customizable open-source CRM you can extend however you want.\n22:21 - Mautic: Run email marketing, landing pages, lead scoring, SMS, and automated campaigns on your own stack.\n24:45 - Chatwoot: Give your team a self-hosted support inbox with AI, automation, and no per-seat pricing.\n\n👉 Media/Sponsorship Inquiries: https://thenextnewthing.ai/l/sponsor\n\n👉 Join us: https://thenextnewthing.ai/",
+      "summary": "[00:00–06:09 | Sell a business outcome, not a GitHub installation] Andrew Warner recommends nine repositories as customizable business infrastructure and possible consulting foundations, rather than demonstrating nine proven money-making businesses. PostHog combines funnels, retention, session replay and experiments so a consultant can find checkout leaks, implement fixes and measure conversion. OpenSEO supplies keyword research and ranking workflows that can be integrated into custom dashboards or a CRM. Warner quotes $10/month for its hosted option and tentatively suggests Cloudflare's free plan could host it; that hosting claim is explicitly his assessment, not a deployment verified in this video. The stronger offer is conversion or acquisition improvement, with repository installation as the means.\n\n[06:09–14:15 | Improve collections and bookings before buying more seats] Invoice Ninja handles quotes, invoices, payment collection and recurring retainers. Warner's concrete examples are an awkward unpaid speaking engagement and home-service subscriptions that exchange recurring payments for priority response and maintenance. He compares this with FreshBooks at $70/month plus $11 for each additional team member, as quoted during the recording. Cal.diy adds a booking page on your own domain, calendar conflict checks, meeting links and payment before scheduling; he suggests paid consultations or refundable deposits to reduce unserious bookings. His broader creator-business advice is to ask paying callers what problem they want solved before committing to a product.\n\n[09:45–11:15; 14:15–16:57 | Keep AI costs and customer billing aligned] In a clearly sponsored Zapier segment, Warner says his expected $140/month bot bill incurred a $265 overage in two days. His proposed remedy is deterministic code for repeated checks and routine automation, reserving model reasoning for work that needs it; this is a design argument, not a controlled Zapier savings test. Autumn then supplies subscriptions and metered pricing by token, request or minute, so AI-powered software need not subsidize unlimited usage. He recommends experimenting with charging, placing new customers on higher-priced plans while grandfathering existing ones, and interviewing prospective migration clients rather than blasting generic sales messages.\n\n[16:57–24:45 | Turn captured leads into a working revenue pipeline] Typebot offers branching conversational forms, integrations and WhatsApp experiences; Warner proposes product finders and useful qualification questions instead of collecting an email address and treating everyone identically. Frappe CRM provides deal stages, custom fields, communications and lead capture, positioned as a Pipedrive-style tool rather than a full Salesforce replacement. Mautic adds follow-up campaigns, lead scoring, landing pages and a choice of email provider. Warner acknowledges that it does not match GoHighLevel feature for feature, despite citing his own $497/month GoHighLevel bill. For a managed Mautic service he floats $2,500 setup and $300/month, which are suggested consulting prices, not demonstrated earnings.\n\n[24:45–27:49 | Shared support and the limits of the free-software pitch] Chatwoot is pitched as a shared support inbox that lets occasional colleagues participate without the seat economics Warner dislikes, and lets a business connect its own OpenAI key or a custom order-status bot with human handoff. He closes by recommending migrations and customization as a consulting offer, with all repository links supplied below the video. His uncertainty about an Intercom acquisition is explicit and should not be repeated as a fact. These are enthusiastic feature comparisons and anecdotes, not audited benchmarks or guaranteed savings: the episode does not price hosting, maintenance, API usage, payment processing or implementation work, so 'free' should not be interpreted as zero total operating cost.",
+      "why_valuable": "For an IT-services business, the clearest opportunities are managed CRM/support migrations, better invoice collection and lead-to-sale automation—not simply reselling a free repository. Warner supplies specific tools and consulting angles, including a proposed $2,500 Mautic setup plus $300/month support; use these to choose a pilot and define its business result, then check licensing, hosting and maintenance costs before quoting a saving.",
+      "key_takeaways": [
+        "[00:18–02:48] PostHog is useful when analytics leads to action: inspect session replays, locate purchase drop-offs and test improvements. Warner proposes conversion consulting for existing stores, not income generated automatically by the repository.",
+        "[02:51–06:09] Warner quotes OpenSEO hosting at $10/month and describes CRM/dashboard customization. His Cloudflare free-plan suggestion is tentative; do not promise that deployment configuration without testing it.",
+        "[06:09–09:45] Invoice Ninja can turn ad hoc service work into billed, recurring relationships. Warner uses priority plumbing service and automated invoice follow-up as examples of improved collections and retention.",
+        "[09:45–11:15] The sponsored automation lesson is to use code for repetitive checks and AI for reasoning. Warner reports a $265 two-day bot overage against an expected $140/month bill, but does not demonstrate a measured saving from Zapier.",
+        "[11:15–14:15] Paid consultations or refundable booking deposits can qualify demand before a creator builds software. Warner recommends asking customers what problem and outcome they are paying for, instead of inventing a broad consulting offer in advance.",
+        "[14:15–16:57] Autumn can meter tokens, requests or minutes as well as subscriptions. This aligns an AI app's customer charges with usage costs; grandfathering old customers is Warner's suggested way to test higher new-customer prices.",
+        "[16:57–24:45] Branching forms, a deal pipeline and segmented follow-up are a connected sales workflow. Warner suggests $2,500 setup plus $300/month for Mautic services, and concedes it is not a feature-for-feature GoHighLevel substitute.",
+        "[24:45–27:49] Chatwoot is pitched for shared support and custom AI with human handoff. Warner's self-hosted savings claims omit a complete operating-cost calculation, and his Intercom acquisition comment is expressly uncertain."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Open-Source Business Tools: Nine GitHub repos you can customize, self-host, and use to make or save money.",
+          "description": "Warner promises a roundup of nine tools whose code can be obtained from GitHub and adapted with an AI agent. He emphasizes customization as well as price, introduces Zapier as the sponsor and directs viewers to the supplied links and timestamps; the opening establishes a shortlist, not evidence of earnings.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 18,
+          "timestamp": "00:18",
+          "title": "PostHog: Track funnels, retention, session replays, and experiments with self-hosted product analytics.",
+          "description": "The host connects session replay, funnels and A/B experiments to finding where shoppers abandon a purchase, then asks how an agent could use owned analytics data to propose fixes. He suggests targeting existing stores through services such as Store Leads or identifying competing analytics installations with BuiltWith and Wappalyzer, selling implementation and conversion improvement rather than merely installing software.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 171,
+          "timestamp": "02:51",
+          "title": "OpenSEO: Run keyword research, rank tracking, and customizable SEO workflows without expensive software.",
+          "description": "Warner describes keyword discovery, rank monitoring and agent-assisted SEO, highlighting custom dashboards and CRM integration as the benefit of access to the code. He quotes a $10 monthly hosted option, tentatively discusses Cloudflare's free plan, and proposes an SEO consulting offer for solo practitioners; the anecdote about a therapist's success is not a quantified case study.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 369,
+          "timestamp": "06:09",
+          "title": "Invoice Ninja: Send quotes, invoices, subscriptions, and automated billing without paying per seat.",
+          "description": "The presenter argues that straightforward quoting, invoice follow-up and recurring retainers need not require an expensive accounting subscription. His examples include collecting payment from an online friend after a speaking engagement and a plumbing membership with priority response, making the commercial opportunity improved collections and recurring service revenue rather than a claim to replace every QuickBooks function.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 585,
+          "timestamp": "09:45",
+          "title": "Zapier Next-Gen Zaps: Use code for repetitive automations and save AI for the tasks that actually need reasoning.",
+          "description": "In this paid sponsor segment, Warner blames excessive AI-driven routine checks for a $265 overage in two days on a bot he expected to cost $140 per month. He proposes letting code handle repetitive calendar and email checks while using model reasoning only when needed; Zapier Next-Gen Zaps is the advertised implementation, with no controlled cost comparison shown.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 675,
+          "timestamp": "11:15",
+          "title": "Cal.diy: Self-host your booking page, avoid double-bookings, and charge people before they schedule.",
+          "description": "The host describes a booking page on your own domain with calendar conflict checking, meeting links and Stripe or PayPal payments before a call. He recommends paid initial consultations or refundable deposits, then explains how creators can use those calls to learn which problems an audience will pay to solve before developing a larger service or product.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 855,
+          "timestamp": "14:15",
+          "title": "Autumn: Add subscriptions, usage-based billing, token pricing, free trials, and metered plans to your software.",
+          "description": "Warner introduces usage-based charging by token, request or minute alongside normal subscriptions, free trials and monthly limits. He suggests experimenting with paid plans, grandfathering existing customers when prices rise and selling billing migrations to small software companies; the proposed consulting outreach starts with learning why a prospect uses its current provider.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1017,
+          "timestamp": "16:57",
+          "title": "Typebot: Build self-hosted conversational forms, branching flows, lead qualification, and WhatsApp experiences.",
+          "description": "The presenter demonstrates the logic of branching questions for previous versus new customers and describes drag-and-drop form blocks, Sheets or Zapier connections and WhatsApp delivery. He recommends product-finder flows and useful lead-qualification questions, citing his own experience of improved conversion after better questions were added without even changing the final offer.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1215,
+          "timestamp": "20:15",
+          "title": "Frappe CRM: Manage leads and deals with a customizable open-source CRM you can extend however you want.",
+          "description": "The host positions a customizable deal board, per-deal notes, tasks and communication integrations as a practical alternative for a smaller sales operation. He explicitly likens it more to Pipedrive than Salesforce or HubSpot, then proposes CRM setup plus ongoing maintenance as a consulting business that avoids paying a software seat fee for every added salesperson.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1341,
+          "timestamp": "22:21",
+          "title": "Mautic: Run email marketing, landing pages, lead scoring, SMS, and automated campaigns on your own stack.",
+          "description": "Warner describes visual follow-up campaigns, email-provider choice, landing pages, lead scoring and messaging as a way to turn subscribers into customers. He cites his own $497 monthly GoHighLevel expense but admits the alternative is not identical feature for feature, and suggests a managed-service price of $2,500 setup plus $300 per month rather than reporting actual revenue from that offer.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1485,
+          "timestamp": "24:45",
+          "title": "Chatwoot: Give your team a self-hosted support inbox with AI, automation, and no per-seat pricing.",
+          "description": "The presenter argues that per-seat support pricing discourages occasional team members from helping, then proposes a shared inbox with a business's own AI key, automated order-status replies and human escalation. He closes with a migration-and-customization consulting pitch, while explicitly expressing uncertainty about his Intercom acquisition aside; the segment does not establish complete infrastructure or AI operating costs.",
+          "source": "creator"
+        }
+      ],
+      "caption_language": "en",
+      "transcript_path": "data/transcripts/kMPyFWFqX5I.captions.json",
+      "creator_chapters": [
+        {
+          "start_time": 0.0,
+          "title": "Open-Source Business Tools: Nine GitHub repos you can customize, self-host, and use to make or save money.",
+          "end_time": 18.0
+        },
+        {
+          "start_time": 18.0,
+          "title": "PostHog: Track funnels, retention, session replays, and experiments with self-hosted product analytics.",
+          "end_time": 171.0
+        },
+        {
+          "start_time": 171.0,
+          "title": "OpenSEO: Run keyword research, rank tracking, and customizable SEO workflows without expensive software.",
+          "end_time": 369.0
+        },
+        {
+          "start_time": 369.0,
+          "title": "Invoice Ninja: Send quotes, invoices, subscriptions, and automated billing without paying per seat.",
+          "end_time": 585.0
+        },
+        {
+          "start_time": 585.0,
+          "title": "Zapier Next-Gen Zaps: Use code for repetitive automations and save AI for the tasks that actually need reasoning.",
+          "end_time": 675.0
+        },
+        {
+          "start_time": 675.0,
+          "title": "Cal.diy: Self-host your booking page, avoid double-bookings, and charge people before they schedule.",
+          "end_time": 855.0
+        },
+        {
+          "start_time": 855.0,
+          "title": "Autumn: Add subscriptions, usage-based billing, token pricing, free trials, and metered plans to your software.",
+          "end_time": 1017.0
+        },
+        {
+          "start_time": 1017.0,
+          "title": "Typebot: Build self-hosted conversational forms, branching flows, lead qualification, and WhatsApp experiences.",
+          "end_time": 1215.0
+        },
+        {
+          "start_time": 1215.0,
+          "title": "Frappe CRM: Manage leads and deals with a customizable open-source CRM you can extend however you want.",
+          "end_time": 1341.0
+        },
+        {
+          "start_time": 1341.0,
+          "title": "Mautic: Run email marketing, landing pages, lead scoring, SMS, and automated campaigns on your own stack.",
+          "end_time": 1485.0
+        },
+        {
+          "start_time": 1485.0,
+          "title": "Chatwoot: Give your team a self-hosted support inbox with AI, automation, and no per-seat pricing.",
+          "end_time": 1669
+        }
+      ],
+      "first_detected_at": "2026-10-02T08:08:31+02:00",
+      "summarized_at": "2026-10-02T08:20:41+02:00"
+    },
+    {
+      "id": "qy8Gr27yLMk",
+      "title": "OpenAI Co-Founder: Start Building With AI Before You Feel Ready | Greg Brockman",
+      "channel": "Silicon Valley Girl",
+      "upload_date": "20260930",
+      "duration_seconds": 1814,
+      "thumbnail": "https://i.ytimg.com/vi/qy8Gr27yLMk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qy8Gr27yLMk",
+      "description": "Keep customer conversations, notes, and next steps together with HubSpot Smart CRM:\nTry HubSpot - https://clickhubspot.com/9b86a2 \n\nGreg Brockman co-founded OpenAI and previously served as CTO of Stripe. He says AI could bring a “massive renaissance of entrepreneurship” over the next year or two. But what should you actually ask AI to do—and what’s worth building when the models keep getting better? \nIn this episode, I show Greg the AI app I built to prepare for our interview and ask how to make it more ambitious. We talk about why he no longer writes software himself, what AI could do for a small watch store, why knowing your customers still matters, and how his own AI agent helps him work. Greg also shares where to start if you have just one hour.\n\n*Timestamps:*\n00:00 — Why aren’t we using more of what AI can do?\n00:59 — What a proactive AI assistant could do for you\n02:16 — Why Greg no longer writes software himself\n04:15 — I show Greg the AI app I built for this interview\n06:00 — How the app could help produce the final episode\n07:10 — What small-business owners should focus on\n08:39 — The watch store and the world’s best programmer\n09:18 — Raising the ceiling of ambition\n10:01 — What makes an AI app worth paying for?\n11:16 — The coming renaissance of entrepreneurship\n12:56 — HubSpot Smart CRM\n13:50 — How to build something better models won’t make obsolete\n15:48 — Why domain expertise is an AI advantage\n17:38 — Greg’s AI briefing agent\n19:48 — How OpenAI measures AI’s effect on productivity\n20:59 — Greg’s AI chief of staff\n21:54 — When is more AI compute worth it?\n23:51 — Where to start with agents—and when to automate\n25:29 — What should stay under human control?\n26:18 — What to try with AI if you have one hour\n27:48 — What work with AI could look like in five years\n\n*Links:* \n📩 Follow my Newsletter (Future Proof): https://siliconvalleygirl.beehiiv.com/subscribe?utm_source=youtube&utm_medium=video&utm_campaign=futureproof-sub&utm_content=Greg-Brockman\n\n🔗 Instagram: https://www.instagram.com/siliconvalleygirl/\n\n⁠⁠⁠𝕏 : ⁠⁠https://x.com/siliconvalleymm⁠\n\n📌 My Companies & Products: https://Marinamogilko.co",
+      "summary": "[00:00–05:05 | Expand the job you delegate, not just the prompt] Greg Brockman argues that people use only a small part of what AI can do, reporting that discovering three useful applications is associated with becoming a retained power user. He describes an assistant that researched an unanswered email and prepared a response for his approval, and says he now directs AI-written software with feedback rather than writing it himself. His examples extend beyond chat into games, 3D modeling, a friend's guesthouse CAD plans and voice-driven calendar work; these are personal accounts and capability claims, not comparative benchmarks. Language caveat: the complete French auto-caption track was read because English retrieval failed. Timestamps here follow that track and may not align with the English audio or creator chapter labels.\n\n[05:05–10:48 | Build around a bottleneck and raise ambition after each success] Marina shows an interview-preparation app that researches a guest and produces topics, questions and title/thumbnail ideas. Brockman suggests extending it through post-production, using the same contextual knowledge to reduce the mechanics around making an episode. Marina says an episode takes at least 40 hours; no 40-hour saving is demonstrated. A vintage-watch-store example connects a website with the owner's stories about each watch, illustrating why ordinary business knowledge can be valuable input. Brockman's ambition advice is to ask what you would assign the best programmer on your team, while keeping the customer's real problem in view.\n\n[10:48–18:29 | Durable products compound with better models] Brockman locates paid software's value in understanding users, stakeholders, guardrails and relationships, not in the programming language used to implement it. Education and healthcare examples show why a generic model alone does not resolve the needs of teachers, parents, students, patients, clinicians and administrators. He warns that handcrafted workarounds for a model's current weaknesses can lose their purpose as capability improves; a stronger business should become better when the underlying model improves. His entrepreneurship renaissance over the next year or two is a forecast, not a proven market outcome. The intervening HubSpot Smart CRM segment is sponsorship, separate from his product advice.\n\n[18:29–24:38 | Connected context beats a shallow briefing; compute needs a purpose] Brockman distinguishes a notification digest from prioritizing unanswered messages and from researching a pending strategic decision across internal documents. He says his agent can find material in email and Slack and query business metrics, augmenting rather than replacing his human chief of staff. OpenAI's token-use correlations with code, commits and PRs are explicitly imperfect productivity proxies; an outage is offered as an anecdotal sign of dependence, not a rigorous effect size. He recommends more compute for valuable problems, not token consumption as an end in itself. In this track he also claims a Navier–Stokes result using roughly 10,000 agents over days; the episode supplies no proof or independent validation, so it must not be treated as an established mathematical result.\n\n[24:38–30:14 | Learn manually, automate repetition, keep human accountability] His starting method is to choose a small painful task, such as an email you dread answering, supply the context manually and iterate before connecting it to tools. After doing a process around five times and understanding it, consider automating it. He insists that business owners remain responsible for outcomes and that humans set goals, with trust, guardrails and oversight built into systems. For a one-hour experiment he suggests trying a connected assistant on a small recurring or research task; later he predicts more autonomous, collaborative agents and scientific applications, without promising a particular five-year interface. His final position is to increase ambition through actual experiments while building reliable, observable infrastructure.",
+      "why_valuable": "Start with one recurring administrative bottleneck, prove the workflow manually about five times, then automate it with connected context and human approval. For a durable AI product, Brockman argues for customer knowledge and stakeholder trust that become more useful as models improve—not a temporary patch for today's model weakness. This helps choose a pilot and decide what stays under human control; the summary uses the complete French caption track because English retrieval failed.",
+      "key_takeaways": [
+        "[01:10–03:07, French caption times] Brockman reports that finding three useful applications is associated with sustained power use. His proactive-email example still ends with a request for approval: assistance does not imply automatic permission to act.",
+        "[03:13–05:05, French caption times] He says he now directs AI-written software through feedback, and recommends testing more ambitious work rather than staying with chat. The guesthouse CAD example is an anecdote, not evidence that engineering review can be skipped.",
+        "[06:46–07:56, French caption times] Marina says producing one episode takes at least 40 hours. Brockman proposes using the interview app's accumulated context through post-production; he does not demonstrate eliminating those hours.",
+        "[10:48–11:59; 14:36–16:27, French caption times] A paid app needs deep user understanding, appropriate guardrails and stakeholder trust. Brockman warns that fixes for current model limitations may become obsolete, whereas customer-grounded workflows can improve with stronger models.",
+        "[18:49–20:34, French caption times] A valuable briefing prioritizes obligations and researches decisions, not merely repeats notifications. Brockman distinguishes this from the still-emerging vision of an agent coordinating with other people and returning only for approval.",
+        "[20:42–24:38, French caption times] Token use, code output, commits and PRs are imperfect proxies, not a productivity target. Brockman's claim about roughly 10,000 agents and Navier–Stokes is not proven in the episode and should not be repeated as a verified scientific result.",
+        "[24:45–26:14, French caption times] Begin with a small pain point and manual context transfer; after roughly five repetitions, automate a process you understand. The business owner still owns whether customers sign up and pay.",
+        "[26:25–30:14, French caption times] Human goals, oversight and controllability remain central even as agents become more autonomous. His five-year outlook stresses reliable, observable, collaborative systems; it is a prediction, not an implementation roadmap."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Preview and the practical application gap",
+          "description": "The opening previews Brockman's prediction of more entrepreneurship, his shift from writing software to directing AI and the question of durable applications. The host then asks why powerful models still lack enough practical use cases; this establishes an opportunity-to-application gap, not a demonstrated productivity result.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 70,
+          "timestamp": "01:10",
+          "title": "Discovering useful jobs and proactive email assistance",
+          "description": "Brockman reports that users who discover three distinct useful applications tend to retain and become power users, making capability discovery a product problem. He argues for an assistant that proposes further useful work and describes a personally experienced case of research and an email draft awaiting approval, rather than an assistant acting without the user.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 193,
+          "timestamp": "03:13",
+          "title": "Delegated coding, 3D work and connected voice",
+          "description": "The guest says he now guides AI-written software and suggests testing small games, more demanding coding and 3D work to discover capabilities. He recounts a friend using AI-produced guesthouse CAD plans with a contractor and discusses voice access to email and calendar context; these anecdotes encourage experimentation but do not remove the need for professional checks.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 305,
+          "timestamp": "05:05",
+          "title": "Extending the interview app into production",
+          "description": "Marina shows an application that researches an interview guest and creates topics, questions and title/thumbnail ideas, then asks how it could learn from prior episodes. Brockman suggests extending its accumulated context into editing and post-production; when she says each episode takes at least 40 hours, he asks what she could do with that time if the mechanical work were reduced.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 477,
+          "timestamp": "07:57",
+          "title": "Small-business bottlenecks and ambitious experiments",
+          "description": "Brockman describes business expertise and execution capacity becoming more accessible, including tasks small owners previously never attempted. His vintage-watch-store example links a new website with the owner's product stories, and his ambition argument also includes accessibility for blind users; the useful input is a real problem and specific knowledge, not simply asking for more output.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 648,
+          "timestamp": "10:48",
+          "title": "What customers will pay for in an AI application",
+          "description": "The guest argues that software worth paying for depends on differentiated value, deep user knowledge and the needs of multiple stakeholders. His education example includes teachers, parents, students and administrators, showing that good implementation requires appropriate information and guardrails rather than a choice between programming languages.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 739,
+          "timestamp": "12:19",
+          "title": "Entrepreneurship forecast and sponsored CRM pitch",
+          "description": "Brockman forecasts a major expansion of entrepreneurship and suggests AI could make relationship-intensive service viable for more consumer businesses. The conversation then moves to the sponsor's Smart CRM pitch, which describes collecting conversations, recording calls, drafting follow-ups and suggesting updates for approval; the advertisement is not an independent product comparison.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 867,
+          "timestamp": "14:27",
+          "title": "Products that improve with stronger models",
+          "description": "The guest contrasts businesses that improve with smarter models against handcrafted patches for temporary model limits. He connects changing capabilities to new interfaces and uses healthcare stakeholders to explain why trust, relationships and domain understanding can strengthen a product as its underlying model improves.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 988,
+          "timestamp": "16:28",
+          "title": "Domain knowledge and cross-industry opportunities",
+          "description": "Brockman argues that narrowly specialized industries contain many inefficient processes that general technology companies cannot fully identify from the outside. The exchange proposes combining expertise across fields, using education and technology as an example, so a founder's advantage can be knowing which previously uneconomic problem is now practical to solve.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1109,
+          "timestamp": "18:29",
+          "title": "From notification digest to decision research",
+          "description": "The guest distinguishes a shallow news or notification digest from prioritizing pending replies and researching a decision across internal presentations. He describes more proactive coordination with colleagues and external partners as the next stage rather than an already completed workflow, stressing that the familiar label \"briefing agent\" hides very different levels of useful work.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1235,
+          "timestamp": "20:35",
+          "title": "Productivity proxies and a connected chief of staff",
+          "description": "Brockman says OpenAI examines relationships between token use and code, commits or pull requests, while acknowledging these are imperfect indicators. He offers colleagues' inability to work during an internal model outage as an anecdote, then explains how his connected agent finds documents, queries retention or growth metrics and reduces basic demands on his human chief of staff.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1354,
+          "timestamp": "22:34",
+          "title": "Compute budgets and unverified scientific claims",
+          "description": "The guest rejects blindly maximizing tokens while arguing that well-chosen compute can support finance and communications workflows, including closing books and event planning. He also makes an unsupported-in-this-episode claim about roughly 10,000 agents working on Navier–Stokes; the practical lesson is to allocate resources to valuable problems, not to accept a claimed mathematical breakthrough without proof.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1478,
+          "timestamp": "24:38",
+          "title": "Manual repetitions before automation",
+          "description": "Brockman recommends overcoming the blank page by trying a small painful task, such as an unanswered email, and initially copying context manually if necessary. After repeating a process about five times and understanding it, he suggests automation, while emphasizing that owners still remain responsible for the actual customer and business outcome.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1575,
+          "timestamp": "26:15",
+          "title": "Human responsibility, oversight and a small first step",
+          "description": "The host asks how to decide what should not be automated or built, and Brockman says humans must set goals and retain control and responsibility. He describes empowerment rather than replacement as the purpose of the technology, with guardrails, trust, oversight and controllability central to product design.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1625,
+          "timestamp": "27:05",
+          "title": "Connected experiments and the longer-term outlook",
+          "description": "Brockman proposes a small research or recurring task with relevant connectors and a usable communication channel, contrasting a persistent cloud assistant with a laptop-bound task agent. He then predicts more accessible and autonomous systems, scientific applications and agents representing people or companies, closing on the need for reliable, observable infrastructure rather than a certain five-year interface.",
+          "source": "generated"
+        }
+      ],
+      "caption_language": "fr",
+      "transcript_path": "data/transcripts/qy8Gr27yLMk.captions.json",
+      "creator_chapters": [
+        {
+          "start_time": 0.0,
+          "title": "Why aren’t we using more of what AI can do?",
+          "end_time": 59.0
+        },
+        {
+          "start_time": 59.0,
+          "title": "What a proactive AI assistant could do for you",
+          "end_time": 136.0
+        },
+        {
+          "start_time": 136.0,
+          "title": "Why Greg no longer writes software himself",
+          "end_time": 255.0
+        },
+        {
+          "start_time": 255.0,
+          "title": "I show Greg the AI app I built for this interview",
+          "end_time": 360.0
+        },
+        {
+          "start_time": 360.0,
+          "title": "How the app could help produce the final episode",
+          "end_time": 430.0
+        },
+        {
+          "start_time": 430.0,
+          "title": "What small-business owners should focus on",
+          "end_time": 519.0
+        },
+        {
+          "start_time": 519.0,
+          "title": "The watch store and the world’s best programmer",
+          "end_time": 558.0
+        },
+        {
+          "start_time": 558.0,
+          "title": "Raising the ceiling of ambition",
+          "end_time": 601.0
+        },
+        {
+          "start_time": 601.0,
+          "title": "What makes an AI app worth paying for?",
+          "end_time": 676.0
+        },
+        {
+          "start_time": 676.0,
+          "title": "The coming renaissance of entrepreneurship",
+          "end_time": 776.0
+        },
+        {
+          "start_time": 776.0,
+          "title": "HubSpot Smart CRM",
+          "end_time": 830.0
+        },
+        {
+          "start_time": 830.0,
+          "title": "How to build something better models won’t make obsolete",
+          "end_time": 948.0
+        },
+        {
+          "start_time": 948.0,
+          "title": "Why domain expertise is an AI advantage",
+          "end_time": 1058.0
+        },
+        {
+          "start_time": 1058.0,
+          "title": "Greg’s AI briefing agent",
+          "end_time": 1188.0
+        },
+        {
+          "start_time": 1188.0,
+          "title": "How OpenAI measures AI’s effect on productivity",
+          "end_time": 1259.0
+        },
+        {
+          "start_time": 1259.0,
+          "title": "Greg’s AI chief of staff",
+          "end_time": 1314.0
+        },
+        {
+          "start_time": 1314.0,
+          "title": "When is more AI compute worth it?",
+          "end_time": 1431.0
+        },
+        {
+          "start_time": 1431.0,
+          "title": "Where to start with agents—and when to automate",
+          "end_time": 1529.0
+        },
+        {
+          "start_time": 1529.0,
+          "title": "What should stay under human control?",
+          "end_time": 1578.0
+        },
+        {
+          "start_time": 1578.0,
+          "title": "What to try with AI if you have one hour",
+          "end_time": 1668.0
+        },
+        {
+          "start_time": 1668.0,
+          "title": "What work with AI could look like in five years",
+          "end_time": 1814
+        }
+      ],
+      "caption_notes": "The English caption track could not be retrieved: English-language retries and translated-track requests failed, including HTTP 429. Complete creator-provided French auto-captions were downloaded and read instead, then summarized in English. This appears to be the French dubbed track: its discussion is displaced relative to the English creator chapters, so the displayed generated chapter times follow the fetched French captions, not verified English-audio synchronization. Original creator chapters are preserved separately in creator_chapters. Claims and translation-sensitive wording are attributed, not independently verified.",
+      "first_detected_at": "2026-10-02T08:08:31+02:00",
+      "summarized_at": "2026-10-02T08:20:41+02:00"
+    },
+    {
+      "id": "G7tpkEss3F8",
+      "title": "Is GPT-6 Astra Going To Change Marketing Forever?",
+      "channel": "Neil Patel",
+      "upload_date": "20261001",
+      "duration_seconds": 544,
+      "thumbnail": "https://i.ytimg.com/vi/G7tpkEss3F8/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=G7tpkEss3F8",
+      "description": "OpenAI just released GPT-6 Astra, and marketers everywhere are asking the same question: is this going to change marketing forever?  \n\nIn this video, I break down what OpenAI actually released, why your customers changed how they search before Astra even shipped, and why easier content creation for everyone is a bigger problem than it sounds. I also share what my team found when we surveyed over 2,000 people who use AI to search. Most marketers will either panic or ignore this model, and both are wrong. If you want the middle path, this is where to start.\n\nYou will learn: \n—  What GPT-6 Astra actually is and why its computer use feature matters for marketers \n—  Why 61% of people research further when AI recommends three companies instead of one \n—  Why generic content gets buried when about 74% of new web pages already contain AI-generated content \n—  The 4 moves to make right now: use AI for speed, answer full questions, publish proof, and put a face on it\n\nChapters:\n00:00 — Introduction\n00:23 — Chapter 1: What Actually Happened\n01:57 — Chapter 2: People Already Stopped Searching the Old Way\n03:51 — Chapter 3: Content Creation Just Got Easier\n05:30 — Chapter 4: Generic Content Is About to Get Buried\n06:59 — Chapter 5: Here's What to Actually Do Right Now\n\nWe work with brands navigating exactly this shift. Learn more about what we do at npdigital.com.",
+      "summary": "[00:00–01:57 | Treat the model launch as leverage, not a strategy reset] Neil Patel presents GPT-6 Astra as a professional-work model with computer use, claiming it can click, type, navigate and complete multi-step marketing work. He attributes a September 3, 2026 release and AGI-era language to OpenAI, but this episode contains no hands-on model benchmark or independent verification of those claims. His practical point is narrower: pay attention to new execution capability without panicking or rebuilding a company around one launch.\n\n[01:57–03:51 | Buying research starts with full questions and comparisons] Patel says his team surveyed more than 2,000 people who use AI to search. For a single company recommendation he reports 49% doing nothing and 14% taking action; when three companies appear, he reports 61% researching them further. The captions around the separate 35% figure are internally unclear ('action drops to 35%'), so that number should not be turned into a clean response-category comparison. These are speaker-reported survey results without a methodology presented here, not observed conversion rates for your business. His recommendation is to answer real customer questions directly and be visible when AI compares options in your category.\n\n[03:51–05:30 | Faster production is shared; original experience is not] The host says AI can help with research, drafts and repurposing, while computer use could extend into formatting, CMS publishing and reporting. His week-to-day productivity example is illustrative, not a timed experiment. Because competitors have the same tools, he argues that competent content at scale no longer provides a durable advantage. The differentiator becomes what the model cannot know without your input: the campaign you actually ran, the failures, customer stories and your own numbers.\n\n[05:30–06:59 | Proof becomes scarcer as generic copy multiplies] Patel cites an Ahrefs survey of 879 marketers in which 87% already use AI to help create content, and says roughly 74% of new web pages contain AI-generated content. These are relayed statistics, not tests he reproduces in the episode. He predicts that interchangeable advice will be less useful to readers and to AI systems selecting sources, whereas original data, real case studies and named experts will stand out. Treat his citation argument as a strategic hypothesis, not a guaranteed ranking rule.\n\n[06:59–09:04 | Four moves, with human judgment at the finish] Patel recommends using AI for speed while retaining a human on the final version; rebuilding pages around questions drawn from sales calls, support tickets and comments; publishing first-hand proof at least monthly; and attaching a recognizable person and a clear position to the work. He explicitly rejects needing a new tool stack, abandoning SEO or betting the company on a newly shipped model. His closing verdict is that a universal speed increase gives no one a unique advantage by itself: trust, proof and a distinctive voice remain the strategy.",
+      "why_valuable": "Use AI to lower the cost of drafts and repetitive marketing work, but prioritize customer-question pages and a monthly first-hand case study over publishing more generic copy. Patel's decision framework helps an IT-services business turn sales calls, support tickets and measured client outcomes into differentiated content without replacing its tool stack or abandoning SEO.",
+      "key_takeaways": [
+        "[00:23–01:57] Patel describes computer use as the ability to operate a computer across a multi-step task. The launch and AGI claims are attributed to him and OpenAI; the episode provides no hands-on benchmark establishing marketing performance.",
+        "[02:40–03:10] His team's reported survey covers over 2,000 AI-search users, with 61% researching further after three company recommendations. These are survey claims, not your funnel's conversion rate, and the caption wording around a separate 35% result is unclear.",
+        "[03:17–03:42; 07:31–07:44] Build one direct answer per page around questions customers actually ask in sales calls, support tickets and comments. Patel argues that category comparisons, not just isolated keyword rankings, are now an important point of discovery.",
+        "[03:54–05:19] Shared AI speed does not create a unique competitive moat. Patel recommends supplying campaign results, failures and customer stories that a competitor cannot produce simply by using the same model.",
+        "[05:46–06:30] Patel relays an Ahrefs survey of 879 marketers, with 87% using AI for content, and a claim that about 74% of new web pages include AI-generated material. These statistics motivate his proof-first strategy but are not independently tested in the video.",
+        "[07:15–08:05] Keep a human on the final output, publish your own numbers or case studies at least once a month, and put a named person behind the work. AI handles drafting and repurposing; people retain the voice and evidence.",
+        "[08:08–08:50] The final recommendation is neither to ban SEO nor replace the whole tool stack. Patel says the durable advantage remains trust, verifiable experience and a voice recognizable even without the logo."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Introduction",
+          "description": "Patel introduces the new-model discussion through the question marketers are asking about lasting change, citing OpenAI's AGI-era rhetoric as the backdrop. He frames the episode around what the release means for business decisions, rather than offering a hands-on test or accepting the launch language as a complete marketing strategy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 23,
+          "timestamp": "00:23",
+          "title": "Chapter 1: What Actually Happened",
+          "description": "The host attributes a September 3, 2026 release and staged access to OpenAI, then describes computer use as clicking, typing and navigating through professional tasks. He separates the AGI debate from practical marketing work and warns that paying attention does not require panic, before arguing that customer behavior had already shifted before the release.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 117,
+          "timestamp": "01:57",
+          "title": "Chapter 2: People Already Stopped Searching the Old Way",
+          "description": "Patel contrasts short keyword searches and a list of links with full-language questions answered inside a chat window. He reports his team's survey of over 2,000 AI-search users, including 61% researching further when three companies are recommended, and advises creating direct answers plus category-comparison visibility; the caption wording around the separate 35% response figure is ambiguous.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 231,
+          "timestamp": "03:51",
+          "title": "Chapter 3: Content Creation Just Got Easier",
+          "description": "The presenter describes gains in research, drafting, repurposing and potentially CMS publishing, then points out that rivals receive the same upgrade. His argument moves from production volume to differentiated inputs: a real campaign's performance, what failed, customer stories and experience earned doing the work, so speed is an efficiency tool rather than a complete strategy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 330,
+          "timestamp": "05:30",
+          "title": "Chapter 4: Generic Content Is About to Get Buried",
+          "description": "Patel cites an Ahrefs survey of 879 marketers with 87% using AI for content and says around 74% of new pages already contain AI-generated material. He argues that readers and source-selecting systems have little reason to prefer interchangeable advice, making original data, a concrete case study and a named expert's position more valuable; these are relayed figures and a prediction, not reproduced tests.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 419,
+          "timestamp": "06:59",
+          "title": "Chapter 5: Here's What to Actually Do Right Now",
+          "description": "The host gives four actions: use AI with human final review, answer real customer questions directly, publish first-hand proof at least monthly and put a recognizable person behind a clear position. He rules out a wholesale tool-stack replacement or abandoning SEO, and closes by saying that universally available speed changes no one's unique advantage while trust and evidence remain decisive.",
+          "source": "creator"
+        }
+      ],
+      "caption_language": "en",
+      "transcript_path": "data/transcripts/G7tpkEss3F8.captions.json",
+      "creator_chapters": [
+        {
+          "start_time": 0.0,
+          "title": "Introduction",
+          "end_time": 23.0
+        },
+        {
+          "start_time": 23.0,
+          "title": "Chapter 1: What Actually Happened",
+          "end_time": 117.0
+        },
+        {
+          "start_time": 117.0,
+          "title": "Chapter 2: People Already Stopped Searching the Old Way",
+          "end_time": 231.0
+        },
+        {
+          "start_time": 231.0,
+          "title": "Chapter 3: Content Creation Just Got Easier",
+          "end_time": 330.0
+        },
+        {
+          "start_time": 330.0,
+          "title": "Chapter 4: Generic Content Is About to Get Buried",
+          "end_time": 419.0
+        },
+        {
+          "start_time": 419.0,
+          "title": "Chapter 5: Here's What to Actually Do Right Now",
+          "end_time": 544
+        }
+      ],
+      "first_detected_at": "2026-10-02T08:08:31+02:00",
+      "summarized_at": "2026-10-02T08:20:41+02:00"
+    },
     {
       "id": "RMTWayrwYkQ",
       "title": "Gemini 4 Argon Is Google’s Most Powerful AI Model + Early Tests!",
