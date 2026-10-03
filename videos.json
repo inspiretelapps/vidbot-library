@@ -9,8 +9,101 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-03T06:03:33+02:00",
+  "updated_at": "2026-10-03T12:05:30+02:00",
   "videos": [
+    {
+      "id": "bjIL9qoRHds",
+      "title": "The NEW Way to Make YouTube Videos FAST (Start to Finish)",
+      "channel": "Wes McDowell",
+      "upload_date": "20260929",
+      "duration_seconds": 1172,
+      "thumbnail": "https://i.ytimg.com/vi/bjIL9qoRHds/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bjIL9qoRHds",
+      "description": "🎬 Register for the FREE On-demand video masterclass training, \"How to Attract Unlimited Clients From YouTube\" Just go to: https://wesmcdowell.com/utm/290920261\n\nMaking a great YouTube video doesn’t need to take your entire week.\n\nIn this video, I’m showing you the new start-to-finish process I use to make weekly videos much faster, while focusing more of my time on the things that actually help a video perform and bring the right people into my business.\n\nIf lack of time has been keeping you from starting or staying consistent on YouTube, this will show you a much simpler way to get it done.\n\n👉 Get VidIQ for just $1: https://wesmcdowell.com/utm/290920262",
+      "summary": "[00:00–06:21 | Validate customer demand and packaging before production] Wes McDowell proposes one business-building video a week, made in one hour each weekday rather than consuming the whole week. He reports that a video made with this system exceeded 31,000 views in its first three days, ranked first among his last ten and achieved nearly double the next-best result; these are his own reported channel outcomes, not a controlled comparison. Monday starts with Claude interpreting VidIQ search and competitor data around the specific customer problem the business solves. His estate-planning student reportedly reached about 1,000 views after a month, seven times her normal performance, with a trustee-versus-beneficiary topic. He then generates thumbnail concepts with Claude and finished options with ChatGPT using photos of his face, recommending that the title and thumbnail be settled before committing to the remaining production work. His assertion that the idea determines about 80% of success is advice, not an established benchmark.\n\n[06:21–09:45 | Use research to find a defensible angle, not borrowed opinions] Tuesday uses the research notebook tool he calls Gemini notebook, formerly NotebookLM, to gather relevant articles, threads and YouTube videos and create an audio overview. The key prompt asks what everyone already says, what nobody addresses and which contrarian positions exist; the expert must accept or reject those positions rather than manufacture disagreement. McDowell listens while exercising to arrive at his desk immersed in the topic. He cites a student teaching Upwork freelancers whose angle was to remove the money conversation from the proposal instead of debating whether to bid higher or lower, calling it her biggest hit and main lead source without providing figures. The practical objective is to serve established search demand with a genuinely different expert contribution, not merely summarize competing videos.\n\n[09:45–14:15 | Capture personal expertise, then separate writing from delivery] Wednesday begins with an unstructured voice-mode brain dump to Claude, including opinions, client stories and the proposed angle. McDowell then asks it to interview him until the material becomes distinctive, and keeps reusable structure rules and examples of his speaking style inside a Claude project. He recommends reading the resulting draft aloud and rewriting anything that would sound unnatural in a conversation. Thursday is a teleprompter recording session: a complete conversational script reduces rambling, repetition and forgotten points compared with bullet notes or improvisation. His illustration contrasts a ten-minute intended video with thirty minutes of wandering footage, and he warns that natural delivery may take ten to twenty videos to learn; these are practical estimates, not measured time savings.\n\n[14:15–18:06 | Generate useful visual assets, outsource the assembly] Friday adds a few visuals that clarify the argument, such as the central point in text or a list shown as it is discussed, rather than entertainment-style effects designed only to hold attention. McDowell describes an AI design tool, auto-captioned as Cloud Design, deriving a reusable color, font and style system from a website and turning the script into matching animated slides. He says every animation shown in this episode was made this way and that generation consumes his AI usage limits. He then recommends hiring an editor only to align those assets with the talking-head footage and remove mistakes and dead air. He quotes roughly $30–$40 per video on Fiverr or Upwork versus a few hundred to a few thousand dollars for more elaborate editing; those are his estimates, not verified quotes, and the one-hour-per-day workflow excludes the outsourced editor's labor and presumes reusable tool setup.\n\n[18:06–19:32 | Batch the repeatable work and protect the business purpose] Once the workflow is established, McDowell suggests planning, scripting, recording and creating graphics for four videos together, covering a month's weekly releases in roughly two workdays or one weekend. He does not present a timed end-to-end batch test or a total budget including subscriptions, preparation and editor turnaround. His final verdict is that business owners can make room for YouTube by prioritizing demand, distinctive expertise and a repeatable process rather than elaborate production, and he closes with a promotion for his client-attraction masterclass. Treat the schedule as a workflow to pilot against your own capacity and client results, not a guaranteed growth rate or a promise that all production labor fits into five hours.",
+      "why_valuable": "Validate the customer problem, title and thumbnail before filming, then automate the graphics and pay an editor only for assembly. McDowell's concrete proposal is one weekly video in an hour each weekday, with a claimed $30–$40 editing handoff. This helps a service business decide which production tasks to keep, automate or outsource, while accounting for subscriptions, initial setup, a ten-to-twenty-video delivery learning curve and unverified performance claims.",
+      "key_takeaways": [
+        "[00:23–01:16] McDowell reports more than 31,000 views in three days, first place among his last ten videos and nearly double the next best. This is an encouraging channel anecdote, not evidence that the workflow alone caused the improvement or will reproduce it elsewhere.",
+        "[01:30–04:28] Give Claude a specific customer and problem, then use VidIQ data to choose a searched-for topic. The estate-planning example reportedly reached about 1,000 views after a month, seven times the student's norm; customer relevance is the business objective, not raw entertainment reach.",
+        "[04:28–06:21] Develop the title and thumbnail before the script: Claude supplies competitor-informed concepts and ChatGPT generates images from those concepts and face photos. If the idea cannot be packaged convincingly, change it before spending the remaining four weekday hours.",
+        "[06:21–09:45] Ask the research audio overview for common claims, omissions and contrarian positions, then choose only an angle you actually believe. The Upwork example removes the money conversation from proposals rather than joining the higher-versus-lower-bid debate.",
+        "[09:45–12:30] Voice brainstorming followed by an AI interview extracts personal stories and opinions that generic AI drafting lacks. Save structure and voice examples in a Claude project, but read the draft aloud and rewrite unnatural phrasing before recording.",
+        "[12:30–14:15] A teleprompter shifts attention from remembering the argument to delivering it. McDowell says natural scripted delivery may take ten to twenty videos to develop, so the proposed one-hour recording slot is a target rather than an immediate guarantee.",
+        "[14:15–18:06] Use on-screen text and lists to improve comprehension, generate consistent animated assets, and outsource only synchronization and cleanup. The quoted $30–$40 editing price excludes subscriptions and the owner's asset work; no actual freelancer quote or delivery test is supplied.",
+        "[18:06–19:32] Batch four videos to cover a month of weekly releases; McDowell estimates roughly two workdays or a weekend. Pilot that cadence against your own preparation time, editor turnaround and client outcomes rather than treating it as a verified end-to-end time budget."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "A weekly business video without a week of production",
+          "description": "McDowell reports that a faster-produced video exceeded 31,000 views in three days, ranked first among his last ten and nearly doubled the next-best result. He also cites a student signing five clients in four months, using these anecdotes to introduce one hour of work each weekday for a weekly video aimed at prospective customers. The intended gain is focus on the few decisions that attract buyers, although the anecdotes do not establish a causal productivity or growth benchmark.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 90,
+          "timestamp": "01:30",
+          "title": "Monday: choose a searched-for customer problem",
+          "description": "The presenter replaces instinct-led topic selection with Claude interpreting VidIQ channel, competitor and search data after being told who the business helps and what problems it solves. An estate-planning student's trustee-versus-beneficiary topic reportedly reached about 1,000 views after a month, seven times her normal performance, illustrating why relevant searchers matter more than a broad audience. His estimate that topic choice determines about 80% of success and his claim that search is a new channel's only initial discovery route are assertions, not independently established rules.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 268,
+          "timestamp": "04:28",
+          "title": "Package the idea before investing in a script",
+          "description": "McDowell asks Claude to inspect high-performing thumbnails through VidIQ, then transfers the suggested concepts and words to ChatGPT along with photos of his face. He says this yields five to ten concepts in minutes instead of the half-day he previously spent, but provides no timed comparison of alternatives. Settling the topic, title and thumbnail first exposes an unclickable idea before the remaining production effort is committed; he then argues that competing with existing ranked videos requires something genuinely new to say.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 381,
+          "timestamp": "06:21",
+          "title": "Tuesday: research gaps and choose an honest angle",
+          "description": "Using the notebook research tool he calls Gemini notebook, formerly NotebookLM, the speaker gathers articles, threads and relevant videos into an audio overview that contrasts common advice with omissions and contrarian views. Listening during a workout helps him prepare, but he stresses that the expert must reject positions they do not believe rather than adopt disagreement for its own sake. His Upwork student example removes the money conversation from proposals instead of debating bid levels, reportedly producing her biggest hit and most leads, showing how a distinctive position can serve the same underlying customer problem.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 585,
+          "timestamp": "09:45",
+          "title": "Wednesday: turn spoken expertise into a reusable script workflow",
+          "description": "The speaker first dictates opinions, stories and examples to Claude without trying to structure them, then asks it to interview him until a unique angle emerges. A reusable Claude project holds video structure, rules and samples of his natural voice, reducing repeated setup; he also promotes a project provided in his own academy. Reading the draft aloud and replacing anything that would sound unnatural over coffee remains the human quality check, so the AI organizes personal expertise rather than replacing it with generic advice.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 750,
+          "timestamp": "12:30",
+          "title": "Thursday: record from a conversational teleprompter script",
+          "description": "McDowell contrasts reading a finished script with bullet-note or improvised recording, which can produce repetition, missed points and thirty minutes of footage for an intended ten-minute video. He describes his own switch from a note card to a teleprompter as freeing attention for delivery rather than deciding what to say next. Writing as you speak and speaking as though you are not reading is the target, but he says comfort may take ten to twenty videos, making practice an important caveat to the proposed one-hour recording slot.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 855,
+          "timestamp": "14:15",
+          "title": "Friday: build branded visuals that explain rather than distract",
+          "description": "The presenter favors a few well-chosen text treatments and lists that reinforce spoken ideas, arguing that entertainment-style visual distractions can attract the wrong audience for a business channel. He describes an AI design tool, auto-captioned as Cloud Design, extracting a reusable color, font and style system from a website and generating animated slides from the script. He says all animations in this episode were made that way and consume his AI usage limits, so the claimed saving depends on an initial design-system setup rather than eliminating preparation or tool costs.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1015,
+          "timestamp": "16:55",
+          "title": "Hand off footage cleanup and asset synchronization",
+          "description": "Once the animated assets exist, McDowell recommends delegating the remaining job of lining them up with the talking-head recording and removing mistakes and dead air. He contrasts a few hundred to a few thousand dollars for a full-service editor with an estimated $30–$40 on Fiverr or Upwork for this narrower scope, arguing that the expensive motion-graphics work has already been done. These are his price and quality claims rather than tested contractor quotes, and the editor's labor remains outside the owner's one-hour-per-day schedule.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1086,
+          "timestamp": "18:06",
+          "title": "Batch four releases and keep the channel tied to client acquisition",
+          "description": "The speaker proposes grouping planning, scripting, recording and graphics for four videos into roughly two workdays or a weekend, giving the business a month's weekly releases. He concludes that a repeatable plan and willingness to prioritize the channel remove the time objection, then promotes his free masterclass on attracting clients and selling offers. No timed batch trial or total cost accounting is supplied, so the useful takeaway is a batching strategy to test against real capacity rather than a guaranteed schedule or business return.",
+          "source": "generated"
+        }
+      ],
+      "creator_chapters": [],
+      "caption_language": "en-orig",
+      "transcript_path": "data/transcripts/bjIL9qoRHds.captions.json",
+      "caption_notes": "Canonical metadata and the complete verbatim creator description were retrieved with yt-dlp; no creator chapters were supplied, so all chapters are generated from topic transitions. The full English original auto-caption transcript was retrieved and read through its final segment at 1169.88 seconds; the timestamped text contains 562 non-empty segments and 24,497 characters. The skill helper lacked youtube-transcript-api, and unattended package installation was blocked by incomplete package-security checks, so the successful yt-dlp en-orig track was used instead. Early captions render the data tool as TubeBuddy Q, while later captions and the creator description explicitly name VidIQ; that supported name is used here. The design tool is captioned Cloud Design and its canonical product name is not independently verified. Platform/algorithm claims, tool capabilities, performance figures and price estimates are attributed to McDowell rather than independently validated.",
+      "first_detected_at": "2026-10-03T12:00:29+02:00",
+      "summarized_at": "2026-10-03T12:05:30+02:00"
+    },
     {
       "id": "Rn4nmFRPe0s",
       "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
