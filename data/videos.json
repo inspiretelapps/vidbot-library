@@ -1,5 +1,71 @@
 [
   {
+    "id": "Rn4nmFRPe0s",
+    "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
+    "channel": "Chase AI",
+    "upload_date": "20261002",
+    "duration_seconds": 551,
+    "thumbnail": "https://i.ytimg.com/vi/Rn4nmFRPe0s/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
+    "description": "⚡Master Claude Code + Codex: https://www.skool.com/chase-ai\n🔥FREE community: https://www.skool.com/chase-ai-community\n💻Get 1:1 help: https://chaseai.io\n\nClaude mods are the biggest upgrade to claude code since skills. \n\nIn this video I breakdown how they work and which you should use.\n\n⏰TIMESTAMPS:\n\n0:00 - Claude Mods\n4:25 - Mod Examples\n8:38 - Final Thoughts\n\nRESOURCES FROM THIS VIDEO:\n➡️ Master Claude Code + Codex: https://www.skool.com/chase-ai\n➡️ My Website: https://www.chaseai.io\n\n#claude",
+    "summary": "[00:00–01:36 | Customize the harness, not just the task instructions] Chase presents Claude Mods as the released successor to an earlier function-hooks experiment, claiming that plugins can now change Claude Code's events, interface and features. He contrasts this with working around restrictions through existing hooks and skills, and points to a multiplayer Doom waiting-room mod and project progress bars as illustrations of the range. These are the presenter's release and capability claims, not independently verified Anthropic documentation or a comparative benchmark. The useful distinction is between giving an agent another instruction and changing the environment in which it acts.\n\n[01:36–04:25 | Put repeatable controls around risky actions] Using deletion of a build folder as a hypothetical example, Chase describes four interception patterns: pause beforehand to preview 41 affected files, replace permanent deletion with a recycle-bin operation, report a receipt afterward, or wrap the action with a backup that enables undo. The examples explain where a control would run, but he explicitly says this is an illustrative framework rather than the concrete mod being demonstrated. After promoting his own training community, he says installed mods are accessible through the plugin system. For practical adoption, this makes recurring safeguards a better starting point than novelty UI features, without proving that any supplied mod already guarantees recovery.\n\n[04:25–05:38 | Turn repeated follow-up prompts into interface actions] The first showcased mod adds a custom pane after Claude builds a simple habit tracker. It offers three next-step choices, with committing the work and polishing the design given as examples, instead of requiring the user to ask what to do next. Chase presents it as an extension of the single preloaded prompt: several clickable options expose different paths and reduce the need to formulate another prompt. The benefit demonstrated is interaction convenience; no measured time saving or improvement in the resulting application is supplied.\n\n[05:38–07:03 | Make context-cost decisions visible] A second interface addition shows a cache countdown and a compaction button. Chase cites a 160K-token context, 43 minutes remaining before the cache goes cold, an approximately 95% warm-cache discount and a one-hour lifetime, then proposes compacting before stepping away from a nearly full conversation. Those figures and the subscription-plan cost explanation are his claims, not a verified pricing rule or a measured savings experiment. The practical idea is to expose timing and context state so the user can make an informed compaction decision, rather than assume a status display itself reduces usage.\n\n[07:03–09:11 | Choose a mod from your own recurring friction] Chase's recommended prompt asks Claude to audit the last 30 sessions, identify repeated requests and suggest five fixes. His returned suggestions concern demo rehearsals, project tracking, a mod doctor/cache-clock/undo grouping and dictation cleanup; he then describes asking Claude to implement a chosen option as a plugin, installing it and reloading plugins. He says these modifications run automatically like hooks until removed, unlike a skill that must be invoked. His final verdict is that a broader GitHub ecosystem will emerge, but the highest-value mod is one tailored to the user's own workflow; this is a forecast and recommendation, not evidence that every suggested plugin was implemented and tested in the episode.",
+    "why_valuable": "Audit recurring Claude Code friction before installing a collection of novelty plugins: Chase's concrete starting point is the last 30 sessions and five proposed fixes. The strongest candidates are repeatable safeguards, next-action choices and visible context/cache state. This helps decide which workflow intervention to pilot, while keeping the hypothetical deletion protections and unverified cache-pricing claims separate from the interface examples actually showcased.",
+    "key_takeaways": [
+      "[01:36–03:39] Treat a recurring safeguard as an interception problem: act before, replace the action, report afterward, or wrap it with backup and undo. Chase's 41-file deletion example is hypothetical, not a tested recovery guarantee.",
+      "[04:25–05:38] A three-option next-step pane can replace repeated requests for follow-up suggestions. The habit-tracker example offers paths such as committing or polishing the design, demonstrating a UI shortcut rather than measured coding productivity.",
+      "[05:38–06:53] A cache countdown plus compaction control makes a timing decision visible. Chase cites 160K tokens, 43 minutes remaining, roughly 95% discount and a one-hour lifetime; the episode does not independently validate these pricing and cache-policy claims.",
+      "[07:03–07:40] Start with evidence from your own usage: ask Claude to read the last 30 sessions, find repeated requests and suggest five mods. This ties customization to an observed bottleneck rather than a generic plugin shopping list.",
+      "[07:40–08:07] The audit returns ideas for demo rehearsals, project tracking, mod diagnostics/cache/undo and dictation repair. Suggestions are candidate interventions, not proof that all were built or that they solve the underlying issues.",
+      "[08:07–08:38] Chase describes selecting an idea, generating and installing a plugin, then reloading plugins. He emphasizes automatic, hook-like behavior until removal; persistent changes therefore need review before applying them to consequential work.",
+      "[08:38–09:11] The speaker predicts a skills-like GitHub ecosystem, but prioritizes a mod specific to your workflow. His closing recommendation is to run the audit, not to adopt every available modification."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Claude Mods",
+        "description": "Chase claims a successor to function hooks can alter Claude Code's interface and execution behavior, illustrating the range with a Doom waiting room and progress bars. He then uses a hypothetical 41-file folder deletion to distinguish pre-action previews, replacement with recycling, post-action receipts and backup/undo wrappers; these are proposed control patterns, not a demonstrated recovery test. After a self-sponsored training pitch, he locates installed modifications in the plugin system, framing adoption around repeatable workflow changes rather than another prompt.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 265,
+        "timestamp": "04:25",
+        "title": "Mod Examples",
+        "description": "The presenter showcases a habit-tracker follow-up pane with three choices and a separate cache countdown/compaction control, citing a 160K-token context and 43 minutes remaining. His approximately 95% discount and one-hour cache explanation are unverified cost claims, not measured savings. He then asks for an audit of the last 30 sessions and five mod ideas, receiving suggestions for demos, project tracking, diagnostics/cache/undo and dictation; the proposed implementation path is plugin creation, installation and reload. He distinguishes automatic, persistent behavior from an invoked skill, so the practical choice is a specific recurring bottleneck whose intervention can be reviewed and tested.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 518,
+        "timestamp": "08:38",
+        "title": "Final Thoughts",
+        "description": "Chase predicts that modifications will develop a GitHub ecosystem similar to skills over the coming months, but says the best use case will be unique to the user's own workflow. He closes by strongly recommending the session audit and promoting his training offering, making the actionable conclusion to identify personal friction before pursuing a broad plugin collection rather than claiming a proven universal upgrade.",
+        "source": "creator"
+      }
+    ],
+    "caption_language": "en-orig",
+    "transcript_path": "data/transcripts/Rn4nmFRPe0s.captions.json",
+    "creator_chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Claude Mods",
+        "end_time": 265.0
+      },
+      {
+        "start_time": 265.0,
+        "title": "Mod Examples",
+        "end_time": 518.0
+      },
+      {
+        "start_time": 518.0,
+        "title": "Final Thoughts",
+        "end_time": 551
+      }
+    ],
+    "caption_notes": "Complete English original auto-captions were retrieved with yt-dlp and read through the final segment at 549.839 seconds. The transcript helper's dependency was unavailable and unattended installation was blocked; the successful en-orig track was used instead. A subsequent en-track request returned HTTP 429. Auto-caption recognition errors are not treated as verbatim quotations; release, pricing and capability claims are attributed to the presenter, not independently verified.",
+    "first_detected_at": "2026-10-03T06:00:29+02:00",
+    "summarized_at": "2026-10-03T06:03:33+02:00"
+  },
+  {
     "id": "kMPyFWFqX5I",
     "title": "9 shocking repos that make money",
     "channel": "The Next New Thing",
