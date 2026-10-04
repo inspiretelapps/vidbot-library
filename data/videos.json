@@ -1,5 +1,258 @@
 [
   {
+    "id": "moOBIaIb4a8",
+    "title": "Claude + New Mods = Unlimited Possibilities",
+    "channel": "Jack Roberts",
+    "upload_date": "20261002",
+    "thumbnail": "https://i.ytimg.com/vi/moOBIaIb4a8/maxresdefault.jpg",
+    "description": "⚡ Connect Claude to Everything: https://bit.ly/4ytdXur\n🎁 Find YOUR best Claude Mods (FREE prompt): https://bit.ly/4AQNGI8\n📈 Agentic OS + Claude Code Masterclass: https://bit.ly/4kol0y5\n\n*👋 Howdy*\nHey, I'm Jack, I built and sold my last tech startup with a Gazillion customers, now I'm building AI startups and I share stuff that works. I quit my corporate job to do my start-up and have never looked back since.\n\n*💬 Overview*\nClaude Code just dropped mods, and people are already playing Doom while it works. I show you how to build your first mod, track your context usage, customise the interface, suggest next actions and route requests to the right AI model. You'll see Glaido open my Agentic OS by voice and Jev choose a model for the job. Then I put Zapier MCP to work inside Claude with a request that checks my Skool community, reads Outlook and invites a new member. I also cover where mods work, what they can access, and how to choose ones that fit your actual workflow using the free prompt in the second link above.\n\n*Links*\n⚡ Zapier MCP: https://bit.ly/4ytdXur\n🎁 FREE Claude Mods interview prompt: https://bit.ly/4AQNGI8\n🗣️ Glaido (FREE Month): https://get.glaido.com/jack\n🎓 Claude Code Masterclass + my Agentic OS: https://bit.ly/4kol0y5\n✍️ My agency and copywriting systems: https://bit.ly/4kol0y5\n☁️ Claude: https://claude.ai/\n🧠 Jev (OpenRouter): https://openrouter.ai/typesafe/jev-1.13\n🩵 Free Resources (the vault): https://bit.ly/3RNNDLa\n👨‍🏫 Skool: https://bit.ly/4mamFIH\n\n⌚️ *Stamps:*\n0:00 - NEW Claude Code Mods\n0:26 - What Is a Claude Mod?\n1:20 - Track Context, Usage and Your Next Action\n2:05 - Build Your First Mod\n3:18 - Doom, Custom Interfaces and Community Mods\n4:10 - Glaido + Jev + My Agentic OS\n5:34 - What Mods Can Actually Do\n6:06 - FREE Prompt: Find Your Best Mods\n6:26 - Permissions and Risks to Understand\n7:10 - Claude + Zapier MCP: Skool and Outlook\n8:23 - Claude Code Masterclass + Agentic OS\n8:48 - What to Watch Next\n\nLearn how to build Claude Code mods for context tracking, custom interfaces and model routing, then connect Claude to your apps with Zapier MCP.\n\n#ClaudeCode #ClaudeMods #Zapier #AIAutomation #AgenticAI",
+    "duration_seconds": 540,
+    "url": "https://www.youtube.com/watch?v=moOBIaIb4a8",
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "NEW Claude Code Mods",
+        "description": "Roberts opens with a community-built multiplayer Doom experience that can occupy the wait while Claude Code completes work. He uses that example to frame mods as extension-like additions around the coding assistant, promising useful applications as well as limitations rather than treating the game as the main productivity benefit.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 26,
+        "timestamp": "00:26",
+        "title": "What Is a Claude Mod?",
+        "description": "Roberts describes an add-on that can interact with skills, instructions and hooks around terminal or sidebar activity. His examples include hiding typed content, changing prompts or tool calls, adding interface elements and routing requests to another model, making clear that the proposed customisation reaches beyond visual styling.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 80,
+        "timestamp": "01:20",
+        "title": "Track Context, Usage and Your Next Action",
+        "description": "Roberts shows terminal-side trackers for usage and cache information and suggests adding relevant context to a Claude workflow. He also proposes automatic next-action suggestions and record lookups, illustrating how a mod could expose useful state or reduce repeated decisions while an assistant is working.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 125,
+        "timestamp": "02:05",
+        "title": "Build Your First Mod",
+        "description": "Roberts asks an updated Claude Code session to create a context-window indicator using weather states such as clear, cloudy and storm, then launches the generated code in a new terminal session. He demonstrates it responding as the conversation runs and explicitly distinguishes that environment from the ordinary chat, so viewers know where this example can actually operate.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 198,
+        "timestamp": "03:18",
+        "title": "Doom, Custom Interfaces and Community Mods",
+        "description": "The examples include someone else's playable Doom, a custom progress bar and a hook-connected display of plans and transaction confirmations. Roberts also points to a game-lobby experiment, using these community projects to illustrate interface and monitoring flexibility rather than claiming he built or performance-tested them himself.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 250,
+        "timestamp": "04:10",
+        "title": "Glaido + Jev + My Agentic OS",
+        "description": "A Glaido voice command opens Roberts's Agentic OS, then starts Claude Code research and navigates to his memory section after confirmation. He says Jev chose the appropriate model in that layer above Claude and proposes similar routing through an OpenRouter key inside Claude itself, aiming to avoid using a heavyweight model where Haiku would suffice without presenting measured savings.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 334,
+        "timestamp": "05:34",
+        "title": "What Mods Can Actually Do",
+        "description": "Roberts uses a Claude-prepared explanation to describe code positioned inside an event flow, with the ability to observe, change or block activity. He lists shell commands, web calls and other operational capabilities, then pivots to caution about downloaded mods because this access is materially broader than a harmless interface decoration.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 366,
+        "timestamp": "06:06",
+        "title": "FREE Prompt: Find Your Best Mods",
+        "description": "Roberts offers the second description link as a free prompt that interviews the user about intended work. The purpose is to turn concrete workflow requirements into relevant mod ideas, rather than copy whatever happens to be popular in the community without assessing whether it is useful.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 386,
+        "timestamp": "06:26",
+        "title": "Permissions and Risks to Understand",
+        "description": "Roberts warns that a mod can read and write files, start programs, access the network and environment variables, and interact with prompts and tool approvals. He cites third-party findings about credential theft, misleading hook listings, spoofed prompts and code fetched after review, then recommends checking a purpose-built solution instead of installing random downloads.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 430,
+        "timestamp": "07:10",
+        "title": "Claude + Zapier MCP: Skool and Outlook",
+        "description": "Roberts asks Claude through Zapier MCP for the newest Skool member, the latest Outlook subject and a community invitation to a supplied email address. He shows the connector logo and credit display and emphasises reusable app permissions across assistants, but does not narrate the actual returned names or subject or verify that the invitation arrived.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 503,
+        "timestamp": "08:23",
+        "title": "Claude Code Masterclass + Agentic OS",
+        "description": "Roberts promotes his Claude Code course with an upcoming design-systems update and lessons covering websites and memory systems. He bundles access to his Agentic OS and app-spend visibility into the pitch, making this a commercial follow-on rather than an additional independently demonstrated mod capability.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 528,
+        "timestamp": "08:48",
+        "title": "What to Watch Next",
+        "description": "Roberts argues that installing modifications alone does not replace knowing Claude's strongest existing features. He directs viewers to another video for that foundation, closing with a learning recommendation rather than a new test or a claim that every mod should be installed.",
+        "source": "creator"
+      }
+    ],
+    "summary": "Customisation that solves a real workflow problem [00:00–03:18]: Jack Roberts presents Claude Code mods as extension-like code that can reshape the terminal interface and intercept prompts or tool calls. His useful examples are context/cache usage trackers, next-action suggestions and a weather-style context-window indicator, which he builds by giving an updated Claude Code session a prompt and launching the resulting code in a fresh terminal session. He explicitly says this example does not work in the ordinary chat interface; the workflow depends on the terminal rather than merely having a Claude account.\n\nCommunity experiments versus demonstrated routing [03:18–05:34]: Roberts shows other people's Doom, custom progress-bar and transaction-status experiments, but his own demonstration is a voice request through Glaido to start Claude Code research and open his memory section in his Agentic OS. He attributes the task routing to Jev and proposes bringing similar routing inside Claude through an OpenRouter key, so simple requests can use a lighter model such as Haiku instead of an unnecessarily powerful one. The visible demonstration runs in his layer above Claude; it is not evidence of a measured cost saving or a completed in-Claude routing build.\n\nPower comes with credential-level risk [05:34–07:10]: In Roberts's explanation, event handlers can observe, alter or block an event and invoke shell commands, web requests and other local capabilities. He warns that mods can reach files, programs, environment variables, settings, prompts and tool calls, and cites third-party findings about credential exfiltration, misleading hook listings, prompt spoofing and fetching code after review. His practical recommendation is to choose a mod around a genuine task, use the linked interview prompt to narrow requirements, and check the resulting code rather than install random community downloads. These are reported risks, not security attacks he tests in this video.\n\nApp access is a separate integration layer [07:10–09:00]: Roberts issues a combined Zapier MCP request to find the newest Skool member, read the latest Outlook subject and invite an email address to his community. He shows the connector's status/logo and credit tracking and argues that a shared integration can carry configured permissions across Claude, ChatGPT and his own assistant; the narration does not identify the returned member or email subject or confirm the invitation's delivery. His closing position is that workflow-specific customisation and connected tools are more useful than novelty alone, while mastery of Claude's existing capabilities still matters. The ending also promotes his paid course and Agentic OS, so the integration and course pitches should be distinguished from independently verified product performance.",
+    "why_valuable": "Start with a context-usage display or another small, inspectable workflow mod—not an unreviewed community download. Roberts demonstrates a terminal-only weather indicator and a voice-driven routing workflow, then explains the credential and tool-call risks; this helps decide whether Claude customisation is worth the access it requires and when Zapier MCP, rather than a UI mod, is the missing app integration.",
+    "key_takeaways": [
+      "02:05–03:09 — The weather-style context indicator is created from a prompt and launched in a fresh terminal session; Roberts says it does not run in the ordinary chat interface.",
+      "01:20 — Usage/cache visibility and suggested next actions address recurring workflow needs without relying on the novelty of the Doom example.",
+      "04:10–05:32 — His voice demo launches research through an Agentic OS above Claude; routing inside Claude via Jev/OpenRouter is a proposed extension, with no measured savings shown.",
+      "05:34 — Roberts describes mods as event-intercepting code that can watch, change or block activity, not just cosmetic themes.",
+      "06:26 — Treat a mod as local executable code with potential access to credentials, environment variables and tool approvals; the cited exfiltration and spoofing risks are third-party reports.",
+      "07:10–08:21 — Zapier MCP supplies connected-app access and reusable permissions; the combined Skool/Outlook/invitation request is shown, but its specific returned data and delivery outcome are not narrated."
+    ],
+    "first_detected_at": "2026-10-04T06:00:27+02:00",
+    "summarized_at": "2026-10-04T06:06:00+02:00"
+  },
+  {
+    "id": "lQU5RX8EyWw",
+    "title": "I Tested ChatGPT Dot vs GrokBot (Not Even Close)",
+    "channel": "Jack Roberts",
+    "upload_date": "20260930",
+    "thumbnail": "https://i.ytimg.com/vi/lQU5RX8EyWw/maxresdefault.jpg",
+    "description": "🎬 Power Your AI with Image & Video: https://bit.ly/4hxcsEe\n📈 Agentic OS + Claude Code Masterclass: https://bit.ly/4kol0y5\n⚡ Connect Dots to everything: https://bit.ly/4yw6ueg\n\n*👋 Howdy*\nHey, I'm Jack, I built and sold my last tech startup with a Gazillion customers, now I'm building AI startups and I share stuff that works. I quit my corporate job to do my start-up and have never looked back since.\n\n*💬 Overview*\nChatGPT's new personal assistant, Dots, just dropped, so I put it up against Grok Bot and Hermes Agent to help you pick the right one. I start with where you get each one and what you need to know first. Then four real jobs: making an image and a video for my Skool community with the Higgsfield API and almost no instructions, turning an episode of my Stacked podcast into something I can use, connecting tools through Zapier to draft an email reply, and building a competitor strategy. After that I go through what each one really costs, how they learn, who is in control, what they can't do yet, and the questions everyone asks. I finish with who should start with Grok Bot or Dots, and who should go with Hermes.\n\n*Links*\n🎬 Higgsfield: https://bit.ly/4hxcsEe\n⚡ Zapier: https://bit.ly/4yw6ueg\n🤖 Grok Bot: https://bit.ly/4ha6n1F\n💬 ChatGPT (Dots): https://chatgpt.com/\n🪽 Hermes Agent: https://hermes-agent.nousresearch.com/\n🖱️ Cursor Pro plans: https://cursor.com/pricing\n🗣️ Glaido: https://bit.ly/4eGol3R\n🎓 Claude Code masterclass, Hermes Agent masterclass + my agentic operating system: https://bit.ly/4kol0y5\n👨‍🏫 Skool: https://bit.ly/4mamFIH\n\n⌚️ *Stamps:*\n0:00 - Intro\n0:51 - Where To Get Dots, Grok Bot And Hermes\n1:48 - What To Know First\n2:28 - Job 1: Create An Image And Video\n5:06 - Give Your Assistant Higgsfield\n6:23 - Job 1 Results\n8:03 - Job 2: Podcast Edit\n9:10 - Job 3: Connect Your Tools With Zapier\n10:24 - Job 4: Competitor Strategy\n11:03 - What Do They Really Cost\n13:10 - How They Learn\n13:49 - Who Is In Control\n15:02 - What They Cannot Do Yet\n16:10 - Questions Everyone Asks\n18:23 - Do You Actually Need One\n19:20 - Which One Should You Pick\n20:25 - What's Next\n\nLearn how ChatGPT's new personal assistant Dots compares with Grok Bot and Hermes Agent on real jobs, what each one costs, where they fall short, and which one to pick, plus how to give any AI assistant image and video generation with the Higgsfield API and connect it to all your tools with Zapier.\n\n#Dots #ChatGPT #GrokBot #HermesAgent #AIAgents #AIAutomation",
+    "duration_seconds": 1247,
+    "url": "https://www.youtube.com/watch?v=lQU5RX8EyWw",
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Roberts sets up a practical comparison using creative generation, podcast repurposing, tool access and competitor strategy rather than relying only on feature lists. He also promises pricing and limitation checks so the eventual recommendation can account for operating effort and budget as well as attractive individual outputs.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 51,
+        "timestamp": "00:51",
+        "title": "Where To Get Dots, Grok Bot And Hermes",
+        "description": "Roberts says Dots is accessed through a qualifying ChatGPT subscription in the browser or updated desktop app and quotes a $100 starting price. He puts Grok Bot's entry at $20 and contrasts both with a self-run Hermes installation that can connect to WhatsApp or Telegram; these access and pricing details are his recording-time claims.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 108,
+        "timestamp": "01:48",
+        "title": "What To Know First",
+        "description": "Roberts distinguishes hosted background computers for Dots and Grok Bot from Hermes running on the user's machine or VPS. He then contrasts vendor-selected model families with Hermes's model flexibility, establishing why hosting responsibility and model control are separate factors in selecting an assistant.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 148,
+        "timestamp": "02:28",
+        "title": "Job 1: Create An Image And Video",
+        "description": "Roberts submits a minimally specified image-and-video request for his Skool community to each assistant, giving creative freedom and supplying Higgsfield access. He launches Hermes through his voice-driven Agentic OS and shows its conversation interface, stressing that the assistants need a generation integration before they can execute this particular creative task.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 306,
+        "timestamp": "05:06",
+        "title": "Give Your Assistant Higgsfield",
+        "description": "Roberts shows Higgsfield's API entry point and says an API key, CLI or MCP can give different assistants access to image and video generation. He points to his generated-image history and briefly changes Dots's avatar, but supplies no priced generation comparison, so the integration pitch should not be mistaken for a quantified cost benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 383,
+        "timestamp": "06:23",
+        "title": "Job 1 Results",
+        "description": "Dots produces a community graphic and animated treatment, while Grok Bot makes a coffee-and-laptop scene with a slow zoom. Roberts highlights Hermes's inclusion of community blueprints and the brain logo in a video he calls 15 seconds long, comparing these largely one-shot outputs by brand fit rather than a scored or repeated benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 483,
+        "timestamp": "08:03",
+        "title": "Job 2: Podcast Edit",
+        "description": "Roberts asks the assistants to repurpose an episode from his podcast into something usable and finds shortcomings in every first attempt. Dots includes a logo but awkward formatting, Grok Bot loses lower text, and Hermes's edit also underwhelms him; he attributes the quality partly to the underlying model and broad prompt rather than declaring an agent-framework failure.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 550,
+        "timestamp": "09:10",
+        "title": "Job 3: Connect Your Tools With Zapier",
+        "description": "Roberts explains Zapier as a shared authentication layer that exposes connected tools through MCP, avoiding a separate connection setup for every assistant. He reports that Dots, Grok Bot and Hermes all find his latest email and draft a response satisfactorily, making this a practical tie once the same integration is available.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 624,
+        "timestamp": "10:24",
+        "title": "Job 4: Competitor Strategy",
+        "description": "The competitor-research outputs differ in shape: Roberts describes Dots's roughly five-page document, Grok Bot's more visual overview and Hermes's detailed ideas. He says Hermes and Dots use the same model in this comparison, so the evidence supports a presentation difference rather than a clean model-strength ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 663,
+        "timestamp": "11:03",
+        "title": "What Do They Really Cost",
+        "description": "Roberts contrasts vendor model restrictions with Hermes's model-agnostic setup and quotes Dots from $100, Grok Bot from $20 and free Hermes software. He notes that higher Dots tiers add usage rather than extra assistants, while local open models still require adequate hardware and time; Hermes's nominal software price therefore does not settle total operating cost.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 790,
+        "timestamp": "13:10",
+        "title": "How They Learn",
+        "description": "Roberts describes preference learning through feedback for Dots and skill teaching through screen recordings for Grok Bot. He contrasts those with Hermes's persistent, editable memory and ability to build on previous work, presenting the latter as an option for users who want to shape how their assistant retains information.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 829,
+        "timestamp": "13:49",
+        "title": "Who Is In Control",
+        "description": "Roberts uses a Grok weight-loss assistant as an example of proactive messaging, then asks Hermes through his voice interface to create a daily 10:00 a.m. weight check. The interface confirms that Hermes is working on the request, illustrating configured recurrence rather than proof of a future delivery, and he notes that connected generation tools can serve every assistant.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 902,
+        "timestamp": "15:02",
+        "title": "What They Cannot Do Yet",
+        "description": "Roberts reports Dots's rollout exclusions for the EEA, UK and Switzerland and its one-assistant-per-plan restriction, contrasting that with multiple conversational agents in Grok Bot. He says Grok users may hit usage allowances and that Hermes requires installation, updates and token management, so ease of setup comes with different limits in each option.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 970,
+        "timestamp": "16:10",
+        "title": "Questions Everyone Asks",
+        "description": "Roberts explains that a persistent hosted computer lets an assistant keep working between chats and while the user's laptop is off, whereas Hermes needs a live local machine or virtual host. He also discusses vendor privacy controls, phone and messaging access, model selection and his quoted subscription tiers; these are broad product claims rather than a security audit, and a local Hermes install can still use remote inference.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1103,
+        "timestamp": "18:23",
+        "title": "Do You Actually Need One",
+        "description": "Roberts separates focused work at a laptop from an assistant that captures ideas, messages people and carries tasks forward while the user is away. His Knight Rider and Siri analogies clarify the intended everyday role, helping viewers decide whether they need continuing delegated assistance rather than another tool for interactive desktop building.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1160,
+        "timestamp": "19:20",
+        "title": "Which One Should You Pick",
+        "description": "Roberts recommends Grok Bot or Dots for beginners who want a hands-off start, favouring Grok Bot when his quoted $20 entry price is decisive and Dots for established ChatGPT users. He recommends Hermes for people willing to tinker in exchange for local deployment, custom systems and model choice, making his closing verdict conditional on user needs rather than a universal winner.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1225,
+        "timestamp": "20:25",
+        "title": "What's Next",
+        "description": "Roberts reiterates that both hosted products are accessible, then says choosing an assistant means little without understanding what makes an AI system useful. He directs viewers to his Agentic OS follow-on video, ending with a learning and commercial funnel rather than another comparative test result.",
+        "source": "creator"
+      }
+    ],
+    "summary": "Deployment and autonomy matter more than a mascot [00:00–02:28]: Jack Roberts compares Dots, Grok Bot and Hermes across four loosely specified tasks, pricing and day-to-day operation. He describes Dots and Grok Bot as hosted assistants that keep working in the background, while Hermes runs on the user's computer or a VPS and permits model choice. The distinction sets up his eventual verdict: hosted products minimise setup, whereas Hermes offers control at the cost of installation, maintenance and an always-running host. Product names, model labels, availability and prices here are Roberts's claims at recording time, not independently verified current specifications.\n\nCreative output is mixed, not a clean sweep [02:28–09:10]: All three receive broad requests to make an image and video for his Skool community using Higgsfield. Dots produces a 'build what's next' graphic and animation, Grok Bot a coffee-and-laptop scene with a slow zoom, and Hermes incorporates community blueprints and the brain logo into a video Roberts says is 15 seconds long. The podcast repurposing test is less impressive: Dots has awkward formatting, Grok Bot loses some lower text, and Hermes's edit also fails to excite him. He stresses that the model and prompt influence results; these are one-shot examples with subjective judgements, not controlled benchmarks of the agent frameworks.\n\nTools largely level the playing field [09:10–11:03]: Roberts uses Zapier as a reusable authentication/MCP layer and reports that all three successfully find his latest email and draft a reply. Competitor research differs mainly in presentation: Dots supplies a roughly five-page document, Grok Bot a more visual overview, and Hermes a detailed set of ideas. He says Hermes and Dots used the same model for that strategy comparison, reinforcing that connection setup, instructions and output format matter alongside the assistant brand. Higgsfield generation and Zapier access are enabled integrations, not capabilities supplied automatically by the base assistant.\n\nCost, memory and operational limits [11:03–18:23]: Roberts quotes a $100 starting ChatGPT Pro subscription for Dots, a $20 starting plan for Grok Bot and $0 for Hermes software, with model access, suitable local hardware or hosting and setup time still relevant to Hermes's real cost. He describes Dots learning preferences from feedback, Grok Bot learning from screen recordings, and Hermes retaining editable memory; he also demonstrates asking Hermes to schedule a daily 10:00 a.m. weight check. His cautions include one Dot per plan, a reported Dots rollout exclusion for the EEA, UK and Switzerland, Grok usage allowances, and Hermes's token/maintenance burden. Hosted assistants can continue while the user's laptop is off; Hermes needs a powered local machine or virtual host, and local installation alone does not mean a remotely selected model keeps data local.\n\nThe final recommendation is conditional [18:23–20:47]: Roberts separates focused desktop building from an assistant that captures ideas, messages people and carries on work while the user is away. He recommends Grok Bot or Dots for beginners and hands-off use, favouring Grok Bot for a tight budget at his quoted $20 entry price and Dots for people already comfortable with ChatGPT. He reserves Hermes for builders who want custom systems, local deployment and free model selection. Despite the title's 'Not Even Close' framing, the demonstrated tasks do not establish a universal winner: email drafting is a tie, creative results are uneven, and the closing verdict is about fit, cost and control. The video also promotes Higgsfield, Zapier and Roberts's courses/Agentic OS, which should be separated from independent performance evidence.",
+    "why_valuable": "There is no demonstrated universal winner: Roberts recommends Grok Bot or Dots for low-maintenance setup, and Hermes for model choice and custom/local systems. His examples help decide whether hosted convenience is worth the quoted $20 versus $100 entry prices, or whether Hermes's $0 software is worth the extra hosting, model and maintenance work; all three draft email successfully, while podcast output still needs revision.",
+    "key_takeaways": [
+      "19:20–20:24 — Roberts's verdict is fit-based: Grok Bot or Dots for hands-off beginners, Hermes for builders who want local deployment, custom systems and model choice—not a universal ranking.",
+      "06:23–08:03 — Hermes includes the community's brain branding in a reported 15-second video; Dots and Grok Bot also produce usable image/video concepts, so this is a subjective one-shot comparison.",
+      "08:03–09:10 — Podcast repurposing exposes formatting or editing shortcomings across all three; Roberts does not regard any first attempt as especially impressive.",
+      "09:10–10:24 — All three reportedly retrieve the latest email and draft a reply once Zapier access is supplied; tool connectivity can erase differences seen in creative tasks.",
+      "10:24–11:03 — Dots returns about five pages of competitor analysis, Grok Bot a visual overview and Hermes more detailed ideas; Roberts says Hermes and Dots used the same model here.",
+      "11:03–13:10 — Roberts quotes Dots from $100, Grok Bot from $20 and Hermes software at $0, but explicitly notes hardware, model access and time costs; these are recording-time claims, not a current pricing check.",
+      "15:02–16:10 — Reported limits include one Dot per plan and regional rollout restrictions, Grok usage allowances, and Hermes installation/update/token management.",
+      "16:10–18:23 — Hosted assistants can work while the laptop is off; Hermes needs a live local machine or virtual host. Model selection and where inference runs remain separate privacy decisions from installing software locally."
+    ],
+    "first_detected_at": "2026-10-04T06:00:27+02:00",
+    "summarized_at": "2026-10-04T06:06:00+02:00"
+  },
+  {
     "id": "bjIL9qoRHds",
     "title": "The NEW Way to Make YouTube Videos FAST (Start to Finish)",
     "channel": "Wes McDowell",

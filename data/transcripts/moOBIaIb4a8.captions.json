@@ -1,0 +1,1535 @@
+{
+  "video_id": "moOBIaIb4a8",
+  "language": "en",
+  "is_generated": true,
+  "source": "youtube-auto-captions-en-orig-json3",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.239,
+      "text": "Cloud Code have just dropped mods. Think"
+    },
+    {
+      "start": 1.839,
+      "duration": 4.161,
+      "text": "of them as browser extensions for your"
+    },
+    {
+      "start": 4.319,
+      "duration": 4.001,
+      "text": "cloud code. And they effectively let you"
+    },
+    {
+      "start": 6.0,
+      "duration": 4.24,
+      "text": "build anything around cloud code. Like"
+    },
+    {
+      "start": 8.32,
+      "duration": 4.239,
+      "text": "this individual here built a playable"
+    },
+    {
+      "start": 10.24,
+      "duration": 4.24,
+      "text": "Doom that essentially connects you in a"
+    },
+    {
+      "start": 12.559,
+      "duration": 3.681,
+      "text": "multiplayer Doom server whilst you're"
+    },
+    {
+      "start": 14.48,
+      "duration": 3.12,
+      "text": "waiting for Claude code to complete."
+    },
+    {
+      "start": 16.24,
+      "duration": 2.72,
+      "text": "There are a ton of use cases. I'm going"
+    },
+    {
+      "start": 17.6,
+      "duration": 3.519,
+      "text": "to show you exactly what they are, how"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.8,
+      "text": "to use them, and effectively what the"
+    },
+    {
+      "start": 21.119,
+      "duration": 4.481,
+      "text": "limitations and benefits of why this is"
+    },
+    {
+      "start": 23.76,
+      "duration": 3.359,
+      "text": "so cool and effectively all the kind of"
+    },
+    {
+      "start": 25.6,
+      "duration": 3.2,
+      "text": "stuff they can actually do. So, let's"
+    },
+    {
+      "start": 27.119,
+      "duration": 3.761,
+      "text": "first of all begin with what a mod is"
+    },
+    {
+      "start": 28.8,
+      "duration": 3.919,
+      "text": "is. A mod is Oh, and by the way, guys,"
+    },
+    {
+      "start": 30.88,
+      "duration": 3.44,
+      "text": "grab that coffee. A mod is a small"
+    },
+    {
+      "start": 32.719,
+      "duration": 4.641,
+      "text": "add-on for click code that essentially"
+    },
+    {
+      "start": 34.32,
+      "duration": 4.559,
+      "text": "builds what you ask. Why is it cool?"
+    },
+    {
+      "start": 37.36,
+      "duration": 3.84,
+      "text": "Well, effectively it knows skills,"
+    },
+    {
+      "start": 38.879,
+      "duration": 4.161,
+      "text": "clamd, and hooks and let you build in"
+    },
+    {
+      "start": 41.2,
+      "duration": 4.16,
+      "text": "and around everything that you're doing"
+    },
+    {
+      "start": 43.04,
+      "duration": 4.32,
+      "text": "inside Claude inside the terminal or the"
+    },
+    {
+      "start": 45.36,
+      "duration": 4.0,
+      "text": "sidebar. Now, what you can do with it is"
+    },
+    {
+      "start": 47.36,
+      "duration": 3.6,
+      "text": "you can hide things from it. So,"
+    },
+    {
+      "start": 49.36,
+      "duration": 3.28,
+      "text": "basically anything that you're typing,"
+    },
+    {
+      "start": 50.96,
+      "duration": 3.439,
+      "text": "you can build something to hide hide"
+    },
+    {
+      "start": 52.64,
+      "duration": 3.599,
+      "text": "that at any point. You can change a"
+    },
+    {
+      "start": 54.399,
+      "duration": 3.68,
+      "text": "prompt or a tool call if you want to,"
+    },
+    {
+      "start": 56.239,
+      "duration": 4.0,
+      "text": "which is great. Gives you that level of"
+    },
+    {
+      "start": 58.079,
+      "duration": 4.561,
+      "text": "editability. You can add new screen"
+    },
+    {
+      "start": 60.239,
+      "duration": 4.56,
+      "text": "parts. So, you can completely customize"
+    },
+    {
+      "start": 62.64,
+      "duration": 3.68,
+      "text": "the UI kind of like deep sea conis if"
+    },
+    {
+      "start": 64.799,
+      "duration": 3.281,
+      "text": "you think about it like that. You can"
+    },
+    {
+      "start": 66.32,
+      "duration": 3.119,
+      "text": "route to other models if you want to."
+    },
+    {
+      "start": 68.08,
+      "duration": 2.96,
+      "text": "And there's a load more other things you"
+    },
+    {
+      "start": 69.439,
+      "duration": 3.201,
+      "text": "can do including sharing them. But what"
+    },
+    {
+      "start": 71.04,
+      "duration": 3.92,
+      "text": "I want to really start off now is I"
+    },
+    {
+      "start": 72.64,
+      "duration": 4.0,
+      "text": "suppose what it is, five uses, uh, the"
+    },
+    {
+      "start": 74.96,
+      "duration": 4.799,
+      "text": "limitations and how you actually get it"
+    },
+    {
+      "start": 76.64,
+      "duration": 4.24,
+      "text": "set up. So, let's begin with um, one mod"
+    },
+    {
+      "start": 79.759,
+      "duration": 3.201,
+      "text": "first of all. So, one of the really cool"
+    },
+    {
+      "start": 80.88,
+      "duration": 3.52,
+      "text": "ones that you can actually physically do"
+    },
+    {
+      "start": 82.96,
+      "duration": 3.76,
+      "text": "if you're thinking about using Claude"
+    },
+    {
+      "start": 84.4,
+      "duration": 4.079,
+      "text": "mods is you can add additional contacts."
+    },
+    {
+      "start": 86.72,
+      "duration": 3.52,
+      "text": "So, if there's any information that you"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.201,
+      "text": "would really like to add to Claude, you"
+    },
+    {
+      "start": 90.24,
+      "duration": 3.28,
+      "text": "can effectively add that in. For"
+    },
+    {
+      "start": 91.68,
+      "duration": 2.96,
+      "text": "example, I have here on the terminal"
+    },
+    {
+      "start": 93.52,
+      "duration": 2.639,
+      "text": "side, and this is the important thing,"
+    },
+    {
+      "start": 94.64,
+      "duration": 4.08,
+      "text": "you have to open up the terminal inside"
+    },
+    {
+      "start": 96.159,
+      "duration": 4.0,
+      "text": "Claude. And I've added these interesting"
+    },
+    {
+      "start": 98.72,
+      "duration": 3.28,
+      "text": "um basically trackers that let me see"
+    },
+    {
+      "start": 100.159,
+      "duration": 3.361,
+      "text": "exactly what I'm using whilst I'm"
+    },
+    {
+      "start": 102.0,
+      "duration": 3.52,
+      "text": "actually in CL code, see what my usage"
+    },
+    {
+      "start": 103.52,
+      "duration": 4.48,
+      "text": "is. I can do this for anything from"
+    },
+    {
+      "start": 105.52,
+      "duration": 4.0,
+      "text": "general usage. I can see my cache, I can"
+    },
+    {
+      "start": 108.0,
+      "duration": 2.96,
+      "text": "see anything I want to. Another really"
+    },
+    {
+      "start": 109.52,
+      "duration": 3.36,
+      "text": "cool use case guys as well is"
+    },
+    {
+      "start": 110.96,
+      "duration": 4.56,
+      "text": "effectively you can actually add and"
+    },
+    {
+      "start": 112.88,
+      "duration": 4.0,
+      "text": "have it to suggest next action. So for"
+    },
+    {
+      "start": 115.52,
+      "duration": 2.639,
+      "text": "example, let's say that you're having a"
+    },
+    {
+      "start": 116.88,
+      "duration": 3.04,
+      "text": "conversation and you want it to auto"
+    },
+    {
+      "start": 118.159,
+      "duration": 3.761,
+      "text": "suggest actions. You can do that. You"
+    },
+    {
+      "start": 119.92,
+      "duration": 3.76,
+      "text": "can get it to look at different records."
+    },
+    {
+      "start": 121.92,
+      "duration": 3.199,
+      "text": "Um you can route to different models."
+    },
+    {
+      "start": 123.68,
+      "duration": 2.88,
+      "text": "Loads of different things that we can do"
+    },
+    {
+      "start": 125.119,
+      "duration": 2.801,
+      "text": "with these mods. So let's start with"
+    },
+    {
+      "start": 126.56,
+      "duration": 3.039,
+      "text": "something really simple like changing"
+    },
+    {
+      "start": 127.92,
+      "duration": 3.92,
+      "text": "the UI. Let's say I want to forecast my"
+    },
+    {
+      "start": 129.599,
+      "duration": 4.64,
+      "text": "context window, right? I want clear,"
+    },
+    {
+      "start": 131.84,
+      "duration": 4.32,
+      "text": "cloudy, shower, storm, compact, whatever"
+    },
+    {
+      "start": 134.239,
+      "duration": 3.281,
+      "text": "the thing is so I can get a nice visual"
+    },
+    {
+      "start": 136.16,
+      "duration": 2.64,
+      "text": "interface whilst I'm actually using"
+    },
+    {
+      "start": 137.52,
+      "duration": 2.4,
+      "text": "Claude. Well, let's go over to this"
+    },
+    {
+      "start": 138.8,
+      "duration": 2.0,
+      "text": "prompt and I'll show this right here."
+    },
+    {
+      "start": 139.92,
+      "duration": 2.319,
+      "text": "So, come over here and we're going to"
+    },
+    {
+      "start": 140.8,
+      "duration": 2.799,
+      "text": "copy this prompt and then head straight"
+    },
+    {
+      "start": 142.239,
+      "duration": 2.481,
+      "text": "over to Claude. Now, first thing that"
+    },
+    {
+      "start": 143.599,
+      "duration": 2.64,
+      "text": "you need to do is just make sure that"
+    },
+    {
+      "start": 144.72,
+      "duration": 2.8,
+      "text": "you're fully up to date on the latest"
+    },
+    {
+      "start": 146.239,
+      "duration": 2.961,
+      "text": "version. And then effectively what I'm"
+    },
+    {
+      "start": 147.52,
+      "duration": 2.88,
+      "text": "going to do is come down and say, \"Hey,"
+    },
+    {
+      "start": 149.2,
+      "duration": 3.039,
+      "text": "I would like to go ahead and encrypt for"
+    },
+    {
+      "start": 150.4,
+      "duration": 2.96,
+      "text": "me a new mod with the below prompt.\""
+    },
+    {
+      "start": 152.239,
+      "duration": 3.121,
+      "text": "Okay? And then once you've done that,"
+    },
+    {
+      "start": 153.36,
+      "duration": 3.519,
+      "text": "just come down and throw that in. And"
+    },
+    {
+      "start": 155.36,
+      "duration": 3.599,
+      "text": "effectively what it will then do is go"
+    },
+    {
+      "start": 156.879,
+      "duration": 3.681,
+      "text": "ahead and create that mod for us. And"
+    },
+    {
+      "start": 158.959,
+      "duration": 3.041,
+      "text": "then effectively, you'll get a code. We"
+    },
+    {
+      "start": 160.56,
+      "duration": 3.2,
+      "text": "can click this terminal button here for"
+    },
+    {
+      "start": 162.0,
+      "duration": 4.0,
+      "text": "example. And whatever you ask it to do,"
+    },
+    {
+      "start": 163.76,
+      "duration": 4.0,
+      "text": "we can open up a brand new session like"
+    },
+    {
+      "start": 166.0,
+      "duration": 3.2,
+      "text": "this. Enter that in. And then"
+    },
+    {
+      "start": 167.76,
+      "duration": 3.119,
+      "text": "effectively you can begin. Now some of"
+    },
+    {
+      "start": 169.2,
+      "duration": 4.56,
+      "text": "these can persist above anything else."
+    },
+    {
+      "start": 170.879,
+      "duration": 4.481,
+      "text": "And if I say hey there you can see this"
+    },
+    {
+      "start": 173.76,
+      "duration": 3.759,
+      "text": "will start to churn and follow along"
+    },
+    {
+      "start": 175.36,
+      "duration": 4.159,
+      "text": "basically that entire weather system. So"
+    },
+    {
+      "start": 177.519,
+      "duration": 4.321,
+      "text": "that is essentially how it works. It"
+    },
+    {
+      "start": 179.519,
+      "duration": 4.961,
+      "text": "does not work inside this chat. It will"
+    },
+    {
+      "start": 181.84,
+      "duration": 4.56,
+      "text": "only work here or inside a terminal. If"
+    },
+    {
+      "start": 184.48,
+      "duration": 3.679,
+      "text": "you do for example command spacebar and"
+    },
+    {
+      "start": 186.4,
+      "duration": 3.04,
+      "text": "type in terminal uh then you can"
+    },
+    {
+      "start": 188.159,
+      "duration": 3.36,
+      "text": "basically code and do the same thing"
+    },
+    {
+      "start": 189.44,
+      "duration": 4.079,
+      "text": "here by running the clawed command. Now"
+    },
+    {
+      "start": 191.519,
+      "duration": 3.681,
+      "text": "one very cool use case is the ability to"
+    },
+    {
+      "start": 193.519,
+      "duration": 2.881,
+      "text": "auto select the models. It's not. I want"
+    },
+    {
+      "start": 195.2,
+      "duration": 2.24,
+      "text": "to show you, for example, some of the"
+    },
+    {
+      "start": 196.4,
+      "duration": 2.64,
+      "text": "things that you can do with this cuz I"
+    },
+    {
+      "start": 197.44,
+      "duration": 3.36,
+      "text": "think it's quite interesting to be fair."
+    },
+    {
+      "start": 199.04,
+      "duration": 2.88,
+      "text": "So, we covered the general use case."
+    },
+    {
+      "start": 200.8,
+      "duration": 2.32,
+      "text": "We've covered the fact that you can go"
+    },
+    {
+      "start": 201.92,
+      "duration": 3.36,
+      "text": "ahead and play Doom whilst you're"
+    },
+    {
+      "start": 203.12,
+      "duration": 3.839,
+      "text": "waiting, which to be fair, gaming now"
+    },
+    {
+      "start": 205.28,
+      "duration": 3.599,
+      "text": "technically is working if you think"
+    },
+    {
+      "start": 206.959,
+      "duration": 3.521,
+      "text": "about it, which I'm not going to uh"
+    },
+    {
+      "start": 208.879,
+      "duration": 3.761,
+      "text": "disagree with. And you may be wondering,"
+    },
+    {
+      "start": 210.48,
+      "duration": 3.839,
+      "text": "guys, why am I dressed like a painter? I"
+    },
+    {
+      "start": 212.64,
+      "duration": 3.36,
+      "text": "will get on to that very shortly. This"
+    },
+    {
+      "start": 214.319,
+      "duration": 3.681,
+      "text": "gentleman here went ahead and just vibe"
+    },
+    {
+      "start": 216.0,
+      "duration": 3.2,
+      "text": "coded his own individual progress bar,"
+    },
+    {
+      "start": 218.0,
+      "duration": 2.959,
+      "text": "which I think is pretty neat. So you can"
+    },
+    {
+      "start": 219.2,
+      "duration": 3.52,
+      "text": "do that to your own satisfaction and"
+    },
+    {
+      "start": 220.959,
+      "duration": 4.0,
+      "text": "really track the stuff that you want to"
+    },
+    {
+      "start": 222.72,
+      "duration": 4.159,
+      "text": "track that may not already be covered in"
+    },
+    {
+      "start": 224.959,
+      "duration": 3.28,
+      "text": "Cyclude already. This individual down"
+    },
+    {
+      "start": 226.879,
+      "duration": 2.72,
+      "text": "here did some pretty wild stuff as well."
+    },
+    {
+      "start": 228.239,
+      "duration": 3.28,
+      "text": "Again, created some pretty different"
+    },
+    {
+      "start": 229.599,
+      "duration": 3.36,
+      "text": "vibe coded designs which look ace. And"
+    },
+    {
+      "start": 231.519,
+      "duration": 3.041,
+      "text": "what is cool about this one is the fact"
+    },
+    {
+      "start": 232.959,
+      "duration": 3.2,
+      "text": "that they've got a basically a live"
+    },
+    {
+      "start": 234.56,
+      "duration": 3.44,
+      "text": "status of every plan from the moment"
+    },
+    {
+      "start": 236.159,
+      "duration": 4.0,
+      "text": "it's created on the onchain. Trade"
+    },
+    {
+      "start": 238.0,
+      "duration": 3.36,
+      "text": "transaction confirmings. Um again, he's"
+    },
+    {
+      "start": 240.159,
+      "duration": 2.481,
+      "text": "just using hooks and connected"
+    },
+    {
+      "start": 241.36,
+      "duration": 2.959,
+      "text": "everything together so he can see full"
+    },
+    {
+      "start": 242.64,
+      "duration": 3.519,
+      "text": "visibility of everything he builds. This"
+    },
+    {
+      "start": 244.319,
+      "duration": 3.28,
+      "text": "individual here went down and built a I"
+    },
+    {
+      "start": 246.159,
+      "duration": 3.041,
+      "text": "think you call like a Modern Warfare 2"
+    },
+    {
+      "start": 247.599,
+      "duration": 2.64,
+      "text": "quick scoping lobby. So, you get the"
+    },
+    {
+      "start": 249.2,
+      "duration": 2.56,
+      "text": "idea. You can essentially build"
+    },
+    {
+      "start": 250.239,
+      "duration": 3.28,
+      "text": "anything. So, we could even get this"
+    },
+    {
+      "start": 251.76,
+      "duration": 2.8,
+      "text": "classifying mod by using Jev. You'll"
+    },
+    {
+      "start": 253.519,
+      "duration": 3.761,
+      "text": "notice that I've showed this before"
+    },
+    {
+      "start": 254.56,
+      "duration": 5.44,
+      "text": "inside my Aentic OS. Hey GLD, open up my"
+    },
+    {
+      "start": 257.28,
+      "duration": 4.4,
+      "text": "Aentic operating system Javas. Now, we"
+    },
+    {
+      "start": 260.0,
+      "duration": 3.6,
+      "text": "talked about Jev being really helpful"
+    },
+    {
+      "start": 261.68,
+      "duration": 3.2,
+      "text": "here, mainly because essentially we can"
+    },
+    {
+      "start": 263.6,
+      "duration": 2.8,
+      "text": "do some very quick and pretty"
+    },
+    {
+      "start": 264.88,
+      "duration": 3.039,
+      "text": "exceptional uh routing. Hey there, I"
+    },
+    {
+      "start": 266.4,
+      "duration": 3.04,
+      "text": "need you to spin up a session inside"
+    },
+    {
+      "start": 267.919,
+      "duration": 3.921,
+      "text": "Cloud Code. Uh just do some deep"
+    },
+    {
+      "start": 269.44,
+      "duration": 3.68,
+      "text": "research on the brand new mod feature,"
+    },
+    {
+      "start": 271.84,
+      "duration": 2.16,
+      "text": "please. And also, can you take me"
+    },
+    {
+      "start": 273.12,
+      "duration": 2.799,
+      "text": "through to my memory?"
+    },
+    {
+      "start": 274.0,
+      "duration": 4.24,
+      "text": ">> Shall I kick off that deep research on"
+    },
+    {
+      "start": 275.919,
+      "duration": 2.961,
+      "text": "the mod feature and claw code? Just save"
+    },
+    {
+      "start": 278.24,
+      "duration": 2.88,
+      "text": "the word."
+    },
+    {
+      "start": 278.88,
+      "duration": 4.64,
+      "text": ">> That sounds great."
+    },
+    {
+      "start": 281.12,
+      "duration": 4.24,
+      "text": ">> Off we go. Claude code is now on the"
+    },
+    {
+      "start": 283.52,
+      "duration": 4.88,
+      "text": "case and you can watch the research"
+    },
+    {
+      "start": 285.36,
+      "duration": 5.2,
+      "text": "unfold in the task chat. Now, let's"
+    },
+    {
+      "start": 288.4,
+      "duration": 3.04,
+      "text": "glide over to your memory. We're in your"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.8,
+      "text": "memory now."
+    },
+    {
+      "start": 291.44,
+      "duration": 3.199,
+      "text": ">> So, guys, can you see this here? Can you"
+    },
+    {
+      "start": 293.36,
+      "duration": 3.36,
+      "text": "see what just happened right here on"
+    },
+    {
+      "start": 294.639,
+      "duration": 4.401,
+      "text": "screen? So, this is the Gentic operators"
+    },
+    {
+      "start": 296.72,
+      "duration": 3.759,
+      "text": "and I'm just going to mute him for a"
+    },
+    {
+      "start": 299.04,
+      "duration": 3.439,
+      "text": "second, but you can see Jeff here for"
+    },
+    {
+      "start": 300.479,
+      "duration": 3.681,
+      "text": "example, right? decided based on the"
+    },
+    {
+      "start": 302.479,
+      "duration": 3.28,
+      "text": "query that I gave it what was the most"
+    },
+    {
+      "start": 304.16,
+      "duration": 2.8,
+      "text": "appropriate model to do this. Now I've"
+    },
+    {
+      "start": 305.759,
+      "duration": 2.801,
+      "text": "been doing this my agent's operating"
+    },
+    {
+      "start": 306.96,
+      "duration": 3.84,
+      "text": "system it does a bazillion other things"
+    },
+    {
+      "start": 308.56,
+      "duration": 4.4,
+      "text": "and actually guys we can do this within"
+    },
+    {
+      "start": 310.8,
+      "duration": 4.0,
+      "text": "cla itself. So I'm using something that"
+    },
+    {
+      "start": 312.96,
+      "duration": 3.36,
+      "text": "sits above claude for this. But actually"
+    },
+    {
+      "start": 314.8,
+      "duration": 3.76,
+      "text": "even within claude itself, it can do"
+    },
+    {
+      "start": 316.32,
+      "duration": 4.0,
+      "text": "this dynamic routting where effectively"
+    },
+    {
+      "start": 318.56,
+      "duration": 3.76,
+      "text": "we can build this with jev by just"
+    },
+    {
+      "start": 320.32,
+      "duration": 4.56,
+      "text": "simply giving it an open routter key. So"
+    },
+    {
+      "start": 322.32,
+      "duration": 4.8,
+      "text": "it can decide basically automatically"
+    },
+    {
+      "start": 324.88,
+      "duration": 3.759,
+      "text": "which model it should root which query"
+    },
+    {
+      "start": 327.12,
+      "duration": 4.0,
+      "text": "to which means that you know you're not"
+    },
+    {
+      "start": 328.639,
+      "duration": 4.241,
+      "text": "going to be spending using a bazooka"
+    },
+    {
+      "start": 331.12,
+      "duration": 3.68,
+      "text": "basically for something where you can"
+    },
+    {
+      "start": 332.88,
+      "duration": 3.36,
+      "text": "use like a haiku model instead. And just"
+    },
+    {
+      "start": 334.8,
+      "duration": 2.959,
+      "text": "to drill down a little bit to explain"
+    },
+    {
+      "start": 336.24,
+      "duration": 3.12,
+      "text": "this I had Claude actually fully"
+    },
+    {
+      "start": 337.759,
+      "duration": 3.361,
+      "text": "summarize the core details because I"
+    },
+    {
+      "start": 339.36,
+      "duration": 3.52,
+      "text": "think it's important to clarify this. A"
+    },
+    {
+      "start": 341.12,
+      "duration": 3.44,
+      "text": "mod essentially is just code right that"
+    },
+    {
+      "start": 342.88,
+      "duration": 3.599,
+      "text": "sits in the middle of a claw code event."
+    },
+    {
+      "start": 344.56,
+      "duration": 3.919,
+      "text": "Each event can do three things. Watch,"
+    },
+    {
+      "start": 346.479,
+      "duration": 4.16,
+      "text": "change the event or effectively block it"
+    },
+    {
+      "start": 348.479,
+      "duration": 4.321,
+      "text": "at the same time. It can start sessions,"
+    },
+    {
+      "start": 350.639,
+      "duration": 3.28,
+      "text": "turn complete UI render. Now what's"
+    },
+    {
+      "start": 352.8,
+      "duration": 3.28,
+      "text": "interesting here about a mod can"
+    },
+    {
+      "start": 353.919,
+      "duration": 4.401,
+      "text": "actually do shell commands, web calls,"
+    },
+    {
+      "start": 356.08,
+      "duration": 4.72,
+      "text": "slash commands. It can compact timer"
+    },
+    {
+      "start": 358.32,
+      "duration": 3.84,
+      "text": "user the tools sound files and settings."
+    },
+    {
+      "start": 360.8,
+      "duration": 3.28,
+      "text": "Now what's really important to bear in"
+    },
+    {
+      "start": 362.16,
+      "duration": 3.68,
+      "text": "mind about mods is to be super careful"
+    },
+    {
+      "start": 364.08,
+      "duration": 3.36,
+      "text": "about the kind of mods that you actually"
+    },
+    {
+      "start": 365.84,
+      "duration": 3.12,
+      "text": "download. So if you're thinking, Jack,"
+    },
+    {
+      "start": 367.44,
+      "duration": 3.12,
+      "text": "what mod should I actually be using?"
+    },
+    {
+      "start": 368.96,
+      "duration": 2.72,
+      "text": "I've got this free guide I'll put down"
+    },
+    {
+      "start": 370.56,
+      "duration": 2.56,
+      "text": "below in the second link in the"
+    },
+    {
+      "start": 371.68,
+      "duration": 3.12,
+      "text": "description. Effectively, what this will"
+    },
+    {
+      "start": 373.12,
+      "duration": 4.24,
+      "text": "do is just come down, copy all of this"
+    },
+    {
+      "start": 374.8,
+      "duration": 4.8,
+      "text": "by command, A, A, and C, throw this into"
+    },
+    {
+      "start": 377.36,
+      "duration": 3.76,
+      "text": "Claude, and effectively it will just ask"
+    },
+    {
+      "start": 379.6,
+      "duration": 2.4,
+      "text": "you questions, interview you about the"
+    },
+    {
+      "start": 381.12,
+      "duration": 2.88,
+      "text": "kind of things that you want to be"
+    },
+    {
+      "start": 382.0,
+      "duration": 3.52,
+      "text": "doing. So, you can actually build mods"
+    },
+    {
+      "start": 384.0,
+      "duration": 3.36,
+      "text": "that are appropriate and helpful for"
+    },
+    {
+      "start": 385.52,
+      "duration": 3.519,
+      "text": "your particular use case. But you must"
+    },
+    {
+      "start": 387.36,
+      "duration": 3.44,
+      "text": "understand what a mod can do. A mod can"
+    },
+    {
+      "start": 389.039,
+      "duration": 3.041,
+      "text": "do basically reach everything that you"
+    },
+    {
+      "start": 390.8,
+      "duration": 3.2,
+      "text": "can. It can read and write files, start"
+    },
+    {
+      "start": 392.08,
+      "duration": 3.36,
+      "text": "programs, use a network. It has access"
+    },
+    {
+      "start": 394.0,
+      "duration": 3.44,
+      "text": "to environmental variables in your"
+    },
+    {
+      "start": 395.44,
+      "duration": 4.4,
+      "text": "setting files. And every prompt and tool"
+    },
+    {
+      "start": 397.44,
+      "duration": 4.479,
+      "text": "call, it can approve a call for you. On"
+    },
+    {
+      "start": 399.84,
+      "duration": 3.68,
+      "text": "top of that, has risks as found by a"
+    },
+    {
+      "start": 401.919,
+      "duration": 3.761,
+      "text": "third party that a mod can read"
+    },
+    {
+      "start": 403.52,
+      "duration": 3.92,
+      "text": "credential files and send them out."
+    },
+    {
+      "start": 405.68,
+      "duration": 4.32,
+      "text": "Plug-in details can list a mod as having"
+    },
+    {
+      "start": 407.44,
+      "duration": 4.72,
+      "text": "no hooks and a mod can spoof a prompt or"
+    },
+    {
+      "start": 410.0,
+      "duration": 4.24,
+      "text": "fetch new code after you reviewed it."
+    },
+    {
+      "start": 412.16,
+      "duration": 3.28,
+      "text": "So, really important that you use these"
+    },
+    {
+      "start": 414.24,
+      "duration": 2.399,
+      "text": "with caution and you're not just"
+    },
+    {
+      "start": 415.44,
+      "duration": 2.56,
+      "text": "downloading it something randomly"
+    },
+    {
+      "start": 416.639,
+      "duration": 2.641,
+      "text": "online. So, to get these bad boys set"
+    },
+    {
+      "start": 418.0,
+      "duration": 3.84,
+      "text": "up, head over to the second link in"
+    },
+    {
+      "start": 419.28,
+      "duration": 4.0,
+      "text": "description. Essentially, ask Claude to"
+    },
+    {
+      "start": 421.84,
+      "duration": 3.12,
+      "text": "recommend things that I should be"
+    },
+    {
+      "start": 423.28,
+      "duration": 3.12,
+      "text": "building. then you can check it. Make"
+    },
+    {
+      "start": 424.96,
+      "duration": 2.799,
+      "text": "sure it works your best sort of"
+    },
+    {
+      "start": 426.4,
+      "duration": 2.72,
+      "text": "intentions and it kind of works"
+    },
+    {
+      "start": 427.759,
+      "duration": 2.801,
+      "text": "beautifully and then you'll be able to"
+    },
+    {
+      "start": 429.12,
+      "duration": 2.56,
+      "text": "go ahead and build yourself. And so for"
+    },
+    {
+      "start": 430.56,
+      "duration": 3.039,
+      "text": "example, and I'm going to use this"
+    },
+    {
+      "start": 431.68,
+      "duration": 3.519,
+      "text": "because I use this a lot especially"
+    },
+    {
+      "start": 433.599,
+      "duration": 2.88,
+      "text": "because the stuff that you just connect"
+    },
+    {
+      "start": 435.199,
+      "duration": 2.801,
+      "text": "to, you can't connect anywhere else. So"
+    },
+    {
+      "start": 436.479,
+      "duration": 3.12,
+      "text": "if I come over here and I show you an"
+    },
+    {
+      "start": 438.0,
+      "duration": 3.12,
+      "text": "example of something that I built that's"
+    },
+    {
+      "start": 439.599,
+      "duration": 3.201,
+      "text": "going to add value to me. I can come"
+    },
+    {
+      "start": 441.12,
+      "duration": 2.799,
+      "text": "down and type in Claude, right? Claude's"
+    },
+    {
+      "start": 442.8,
+      "duration": 2.64,
+      "text": "going to open up. Now I can give it a"
+    },
+    {
+      "start": 443.919,
+      "duration": 4.0,
+      "text": "prompt like this. Hey there, could you"
+    },
+    {
+      "start": 445.44,
+      "duration": 4.96,
+      "text": "just use Zapia for me and could you just"
+    },
+    {
+      "start": 447.919,
+      "duration": 4.641,
+      "text": "tell me the name of the last person that"
+    },
+    {
+      "start": 450.4,
+      "duration": 4.0,
+      "text": "joined my school community? Tell me the"
+    },
+    {
+      "start": 452.56,
+      "duration": 4.079,
+      "text": "subject line of the last email I got in"
+    },
+    {
+      "start": 454.4,
+      "duration": 3.76,
+      "text": "Outlook. And I also want you to invite"
+    },
+    {
+      "start": 456.639,
+      "duration": 3.761,
+      "text": "this email address to my community."
+    },
+    {
+      "start": 458.16,
+      "duration": 4.159,
+      "text": "jackjack.com. Send them an invite to my"
+    },
+    {
+      "start": 460.4,
+      "duration": 3.519,
+      "text": "group, please. Now, I'm using different"
+    },
+    {
+      "start": 462.319,
+      "duration": 3.521,
+      "text": "sources that I can't possibly use"
+    },
+    {
+      "start": 463.919,
+      "duration": 3.361,
+      "text": "directly in Cyclude, specifically the"
+    },
+    {
+      "start": 465.84,
+      "duration": 2.639,
+      "text": "ability to connect to school, and"
+    },
+    {
+      "start": 467.28,
+      "duration": 2.72,
+      "text": "there's like a bazillion other things I"
+    },
+    {
+      "start": 468.479,
+      "duration": 3.12,
+      "text": "can do. Why is that relevant? Check this"
+    },
+    {
+      "start": 470.0,
+      "duration": 3.199,
+      "text": "out, guys. Can you see? First of all,"
+    },
+    {
+      "start": 471.599,
+      "duration": 3.44,
+      "text": "we've got the Zapia MCP running. So,"
+    },
+    {
+      "start": 473.199,
+      "duration": 3.28,
+      "text": "it's actually added a logo. Granted,"
+    },
+    {
+      "start": 475.039,
+      "duration": 3.201,
+      "text": "this was one shot. I just wanted to show"
+    },
+    {
+      "start": 476.479,
+      "duration": 4.321,
+      "text": "what it did. But look at this. I can"
+    },
+    {
+      "start": 478.24,
+      "duration": 4.48,
+      "text": "actually check my credits down below at"
+    },
+    {
+      "start": 480.8,
+      "duration": 2.959,
+      "text": "the bottom as I go through this and it"
+    },
+    {
+      "start": 482.72,
+      "duration": 2.56,
+      "text": "will go ahead and get me the"
+    },
+    {
+      "start": 483.759,
+      "duration": 3.201,
+      "text": "information. But obviously it's also"
+    },
+    {
+      "start": 485.28,
+      "duration": 3.759,
+      "text": "cool. PS by the way I started my first"
+    },
+    {
+      "start": 486.96,
+      "duration": 3.28,
+      "text": "startup ever off. I find it really cool"
+    },
+    {
+      "start": 489.039,
+      "duration": 3.201,
+      "text": "but I can actually go ahead and connect"
+    },
+    {
+      "start": 490.24,
+      "duration": 4.079,
+      "text": "all my different apps and I can affect"
+    },
+    {
+      "start": 492.24,
+      "duration": 4.72,
+      "text": "the permission levels and then whether"
+    },
+    {
+      "start": 494.319,
+      "duration": 4.72,
+      "text": "I'm in claude or chat GPT or even my"
+    },
+    {
+      "start": 496.96,
+      "duration": 3.2,
+      "text": "agentic operating system whatever it is"
+    },
+    {
+      "start": 499.039,
+      "duration": 2.801,
+      "text": "I can have the same level of"
+    },
+    {
+      "start": 500.16,
+      "duration": 3.52,
+      "text": "permissions. I just give it one key with"
+    },
+    {
+      "start": 501.84,
+      "duration": 3.28,
+      "text": "the MCP and I'm connected everywhere."
+    },
+    {
+      "start": 503.68,
+      "duration": 3.28,
+      "text": "And by the way, if this whole thing does"
+    },
+    {
+      "start": 505.12,
+      "duration": 3.199,
+      "text": "sound like I'm speaking Spanish. I'm"
+    },
+    {
+      "start": 506.96,
+      "duration": 3.28,
+      "text": "going to put a link down below for the"
+    },
+    {
+      "start": 508.319,
+      "duration": 3.84,
+      "text": "full core code masterass. I have a brand"
+    },
+    {
+      "start": 510.24,
+      "duration": 4.08,
+      "text": "new update coming this week on design"
+    },
+    {
+      "start": 512.159,
+      "duration": 3.521,
+      "text": "systems. It takes you from zero to out"
+    },
+    {
+      "start": 514.32,
+      "duration": 3.44,
+      "text": "of this world. We go through building"
+    },
+    {
+      "start": 515.68,
+      "duration": 4.32,
+      "text": "beautiful websites, memory systems, and"
+    },
+    {
+      "start": 517.76,
+      "duration": 4.48,
+      "text": "you also get immediate access to the"
+    },
+    {
+      "start": 520.0,
+      "duration": 4.159,
+      "text": "full agentic operating system with some"
+    },
+    {
+      "start": 522.24,
+      "duration": 3.52,
+      "text": "incredible updates. You get to check out"
+    },
+    {
+      "start": 524.159,
+      "duration": 3.201,
+      "text": "your spend in different apps. It is"
+    },
+    {
+      "start": 525.76,
+      "duration": 3.12,
+      "text": "exceptional and will get you light years"
+    },
+    {
+      "start": 527.36,
+      "duration": 3.52,
+      "text": "ahead of everybody else. Now,"
+    },
+    {
+      "start": 528.88,
+      "duration": 3.84,
+      "text": "modifications are one thing, but if you"
+    },
+    {
+      "start": 530.88,
+      "duration": 3.76,
+      "text": "don't know the most powerful features of"
+    },
+    {
+      "start": 532.72,
+      "duration": 3.2,
+      "text": "Claude, you're never going to get as far"
+    },
+    {
+      "start": 534.64,
+      "duration": 2.8,
+      "text": "ahead as you can. Which is why the next"
+    },
+    {
+      "start": 535.92,
+      "duration": 5.2,
+      "text": "thing we need to do is learn how to do"
+    },
+    {
+      "start": 537.44,
+      "duration": 3.68,
+      "text": "that together in this video right"
+    }
+  ],
+  "full_text": "Cloud Code have just dropped mods. Think of them as browser extensions for your cloud code. And they effectively let you build anything around cloud code. Like this individual here built a playable Doom that essentially connects you in a multiplayer Doom server whilst you're waiting for Claude code to complete. There are a ton of use cases. I'm going to show you exactly what they are, how to use them, and effectively what the limitations and benefits of why this is so cool and effectively all the kind of stuff they can actually do. So, let's first of all begin with what a mod is is. A mod is Oh, and by the way, guys, grab that coffee. A mod is a small add-on for click code that essentially builds what you ask. Why is it cool? Well, effectively it knows skills, clamd, and hooks and let you build in and around everything that you're doing inside Claude inside the terminal or the sidebar. Now, what you can do with it is you can hide things from it. So, basically anything that you're typing, you can build something to hide hide that at any point. You can change a prompt or a tool call if you want to, which is great. Gives you that level of editability. You can add new screen parts. So, you can completely customize the UI kind of like deep sea conis if you think about it like that. You can route to other models if you want to. And there's a load more other things you can do including sharing them. But what I want to really start off now is I suppose what it is, five uses, uh, the limitations and how you actually get it set up. So, let's begin with um, one mod first of all. So, one of the really cool ones that you can actually physically do if you're thinking about using Claude mods is you can add additional contacts. So, if there's any information that you would really like to add to Claude, you can effectively add that in. For example, I have here on the terminal side, and this is the important thing, you have to open up the terminal inside Claude. And I've added these interesting um basically trackers that let me see exactly what I'm using whilst I'm actually in CL code, see what my usage is. I can do this for anything from general usage. I can see my cache, I can see anything I want to. Another really cool use case guys as well is effectively you can actually add and have it to suggest next action. So for example, let's say that you're having a conversation and you want it to auto suggest actions. You can do that. You can get it to look at different records. Um you can route to different models. Loads of different things that we can do with these mods. So let's start with something really simple like changing the UI. Let's say I want to forecast my context window, right? I want clear, cloudy, shower, storm, compact, whatever the thing is so I can get a nice visual interface whilst I'm actually using Claude. Well, let's go over to this prompt and I'll show this right here. So, come over here and we're going to copy this prompt and then head straight over to Claude. Now, first thing that you need to do is just make sure that you're fully up to date on the latest version. And then effectively what I'm going to do is come down and say, \"Hey, I would like to go ahead and encrypt for me a new mod with the below prompt.\" Okay? And then once you've done that, just come down and throw that in. And effectively what it will then do is go ahead and create that mod for us. And then effectively, you'll get a code. We can click this terminal button here for example. And whatever you ask it to do, we can open up a brand new session like this. Enter that in. And then effectively you can begin. Now some of these can persist above anything else. And if I say hey there you can see this will start to churn and follow along basically that entire weather system. So that is essentially how it works. It does not work inside this chat. It will only work here or inside a terminal. If you do for example command spacebar and type in terminal uh then you can basically code and do the same thing here by running the clawed command. Now one very cool use case is the ability to auto select the models. It's not. I want to show you, for example, some of the things that you can do with this cuz I think it's quite interesting to be fair. So, we covered the general use case. We've covered the fact that you can go ahead and play Doom whilst you're waiting, which to be fair, gaming now technically is working if you think about it, which I'm not going to uh disagree with. And you may be wondering, guys, why am I dressed like a painter? I will get on to that very shortly. This gentleman here went ahead and just vibe coded his own individual progress bar, which I think is pretty neat. So you can do that to your own satisfaction and really track the stuff that you want to track that may not already be covered in Cyclude already. This individual down here did some pretty wild stuff as well. Again, created some pretty different vibe coded designs which look ace. And what is cool about this one is the fact that they've got a basically a live status of every plan from the moment it's created on the onchain. Trade transaction confirmings. Um again, he's just using hooks and connected everything together so he can see full visibility of everything he builds. This individual here went down and built a I think you call like a Modern Warfare 2 quick scoping lobby. So, you get the idea. You can essentially build anything. So, we could even get this classifying mod by using Jev. You'll notice that I've showed this before inside my Aentic OS. Hey GLD, open up my Aentic operating system Javas. Now, we talked about Jev being really helpful here, mainly because essentially we can do some very quick and pretty exceptional uh routing. Hey there, I need you to spin up a session inside Cloud Code. Uh just do some deep research on the brand new mod feature, please. And also, can you take me through to my memory? >> Shall I kick off that deep research on the mod feature and claw code? Just save the word. >> That sounds great. >> Off we go. Claude code is now on the case and you can watch the research unfold in the task chat. Now, let's glide over to your memory. We're in your memory now. >> So, guys, can you see this here? Can you see what just happened right here on screen? So, this is the Gentic operators and I'm just going to mute him for a second, but you can see Jeff here for example, right? decided based on the query that I gave it what was the most appropriate model to do this. Now I've been doing this my agent's operating system it does a bazillion other things and actually guys we can do this within cla itself. So I'm using something that sits above claude for this. But actually even within claude itself, it can do this dynamic routting where effectively we can build this with jev by just simply giving it an open routter key. So it can decide basically automatically which model it should root which query to which means that you know you're not going to be spending using a bazooka basically for something where you can use like a haiku model instead. And just to drill down a little bit to explain this I had Claude actually fully summarize the core details because I think it's important to clarify this. A mod essentially is just code right that sits in the middle of a claw code event. Each event can do three things. Watch, change the event or effectively block it at the same time. It can start sessions, turn complete UI render. Now what's interesting here about a mod can actually do shell commands, web calls, slash commands. It can compact timer user the tools sound files and settings. Now what's really important to bear in mind about mods is to be super careful about the kind of mods that you actually download. So if you're thinking, Jack, what mod should I actually be using? I've got this free guide I'll put down below in the second link in the description. Effectively, what this will do is just come down, copy all of this by command, A, A, and C, throw this into Claude, and effectively it will just ask you questions, interview you about the kind of things that you want to be doing. So, you can actually build mods that are appropriate and helpful for your particular use case. But you must understand what a mod can do. A mod can do basically reach everything that you can. It can read and write files, start programs, use a network. It has access to environmental variables in your setting files. And every prompt and tool call, it can approve a call for you. On top of that, has risks as found by a third party that a mod can read credential files and send them out. Plug-in details can list a mod as having no hooks and a mod can spoof a prompt or fetch new code after you reviewed it. So, really important that you use these with caution and you're not just downloading it something randomly online. So, to get these bad boys set up, head over to the second link in description. Essentially, ask Claude to recommend things that I should be building. then you can check it. Make sure it works your best sort of intentions and it kind of works beautifully and then you'll be able to go ahead and build yourself. And so for example, and I'm going to use this because I use this a lot especially because the stuff that you just connect to, you can't connect anywhere else. So if I come over here and I show you an example of something that I built that's going to add value to me. I can come down and type in Claude, right? Claude's going to open up. Now I can give it a prompt like this. Hey there, could you just use Zapia for me and could you just tell me the name of the last person that joined my school community? Tell me the subject line of the last email I got in Outlook. And I also want you to invite this email address to my community. jackjack.com. Send them an invite to my group, please. Now, I'm using different sources that I can't possibly use directly in Cyclude, specifically the ability to connect to school, and there's like a bazillion other things I can do. Why is that relevant? Check this out, guys. Can you see? First of all, we've got the Zapia MCP running. So, it's actually added a logo. Granted, this was one shot. I just wanted to show what it did. But look at this. I can actually check my credits down below at the bottom as I go through this and it will go ahead and get me the information. But obviously it's also cool. PS by the way I started my first startup ever off. I find it really cool but I can actually go ahead and connect all my different apps and I can affect the permission levels and then whether I'm in claude or chat GPT or even my agentic operating system whatever it is I can have the same level of permissions. I just give it one key with the MCP and I'm connected everywhere. And by the way, if this whole thing does sound like I'm speaking Spanish. I'm going to put a link down below for the full core code masterass. I have a brand new update coming this week on design systems. It takes you from zero to out of this world. We go through building beautiful websites, memory systems, and you also get immediate access to the full agentic operating system with some incredible updates. You get to check out your spend in different apps. It is exceptional and will get you light years ahead of everybody else. Now, modifications are one thing, but if you don't know the most powerful features of Claude, you're never going to get as far ahead as you can. Which is why the next thing we need to do is learn how to do that together in this video right",
+  "timestamped_text": "\n=== 0.0–26.0 NEW Claude Code Mods ===\n00:00 Cloud Code have just dropped mods. Think\n00:01 of them as browser extensions for your\n00:04 cloud code. And they effectively let you\n00:06 build anything around cloud code. Like\n00:08 this individual here built a playable\n00:10 Doom that essentially connects you in a\n00:12 multiplayer Doom server whilst you're\n00:14 waiting for Claude code to complete.\n00:16 There are a ton of use cases. I'm going\n00:17 to show you exactly what they are, how\n00:18 to use them, and effectively what the\n00:21 limitations and benefits of why this is\n00:23 so cool and effectively all the kind of\n00:25 stuff they can actually do. So, let's\n\n=== 26.0–80.0 What Is a Claude Mod? ===\n00:27 first of all begin with what a mod is\n00:28 is. A mod is Oh, and by the way, guys,\n00:30 grab that coffee. A mod is a small\n00:32 add-on for click code that essentially\n00:34 builds what you ask. Why is it cool?\n00:37 Well, effectively it knows skills,\n00:38 clamd, and hooks and let you build in\n00:41 and around everything that you're doing\n00:43 inside Claude inside the terminal or the\n00:45 sidebar. Now, what you can do with it is\n00:47 you can hide things from it. So,\n00:49 basically anything that you're typing,\n00:50 you can build something to hide hide\n00:52 that at any point. You can change a\n00:54 prompt or a tool call if you want to,\n00:56 which is great. Gives you that level of\n00:58 editability. You can add new screen\n01:00 parts. So, you can completely customize\n01:02 the UI kind of like deep sea conis if\n01:04 you think about it like that. You can\n01:06 route to other models if you want to.\n01:08 And there's a load more other things you\n01:09 can do including sharing them. But what\n01:11 I want to really start off now is I\n01:12 suppose what it is, five uses, uh, the\n01:14 limitations and how you actually get it\n01:16 set up. So, let's begin with um, one mod\n01:19 first of all. So, one of the really cool\n\n=== 80.0–125.0 Track Context, Usage and Your Next Action ===\n01:20 ones that you can actually physically do\n01:22 if you're thinking about using Claude\n01:24 mods is you can add additional contacts.\n01:26 So, if there's any information that you\n01:28 would really like to add to Claude, you\n01:30 can effectively add that in. For\n01:31 example, I have here on the terminal\n01:33 side, and this is the important thing,\n01:34 you have to open up the terminal inside\n01:36 Claude. And I've added these interesting\n01:38 um basically trackers that let me see\n01:40 exactly what I'm using whilst I'm\n01:42 actually in CL code, see what my usage\n01:43 is. I can do this for anything from\n01:45 general usage. I can see my cache, I can\n01:48 see anything I want to. Another really\n01:49 cool use case guys as well is\n01:50 effectively you can actually add and\n01:52 have it to suggest next action. So for\n01:55 example, let's say that you're having a\n01:56 conversation and you want it to auto\n01:58 suggest actions. You can do that. You\n01:59 can get it to look at different records.\n02:01 Um you can route to different models.\n02:03 Loads of different things that we can do\n\n=== 125.0–198.0 Build Your First Mod ===\n02:05 with these mods. So let's start with\n02:06 something really simple like changing\n02:07 the UI. Let's say I want to forecast my\n02:09 context window, right? I want clear,\n02:11 cloudy, shower, storm, compact, whatever\n02:14 the thing is so I can get a nice visual\n02:16 interface whilst I'm actually using\n02:17 Claude. Well, let's go over to this\n02:18 prompt and I'll show this right here.\n02:19 So, come over here and we're going to\n02:20 copy this prompt and then head straight\n02:22 over to Claude. Now, first thing that\n02:23 you need to do is just make sure that\n02:24 you're fully up to date on the latest\n02:26 version. And then effectively what I'm\n02:27 going to do is come down and say, \"Hey,\n02:29 I would like to go ahead and encrypt for\n02:30 me a new mod with the below prompt.\"\n02:32 Okay? And then once you've done that,\n02:33 just come down and throw that in. And\n02:35 effectively what it will then do is go\n02:36 ahead and create that mod for us. And\n02:38 then effectively, you'll get a code. We\n02:40 can click this terminal button here for\n02:42 example. And whatever you ask it to do,\n02:43 we can open up a brand new session like\n02:46 this. Enter that in. And then\n02:47 effectively you can begin. Now some of\n02:49 these can persist above anything else.\n02:50 And if I say hey there you can see this\n02:53 will start to churn and follow along\n02:55 basically that entire weather system. So\n02:57 that is essentially how it works. It\n02:59 does not work inside this chat. It will\n03:01 only work here or inside a terminal. If\n03:04 you do for example command spacebar and\n03:06 type in terminal uh then you can\n03:08 basically code and do the same thing\n03:09 here by running the clawed command. Now\n03:11 one very cool use case is the ability to\n03:13 auto select the models. It's not. I want\n03:15 to show you, for example, some of the\n03:16 things that you can do with this cuz I\n03:17 think it's quite interesting to be fair.\n\n=== 198.0–250.0 Doom, Custom Interfaces and Community Mods ===\n03:19 So, we covered the general use case.\n03:20 We've covered the fact that you can go\n03:21 ahead and play Doom whilst you're\n03:23 waiting, which to be fair, gaming now\n03:25 technically is working if you think\n03:26 about it, which I'm not going to uh\n03:28 disagree with. And you may be wondering,\n03:30 guys, why am I dressed like a painter? I\n03:32 will get on to that very shortly. This\n03:34 gentleman here went ahead and just vibe\n03:36 coded his own individual progress bar,\n03:38 which I think is pretty neat. So you can\n03:39 do that to your own satisfaction and\n03:40 really track the stuff that you want to\n03:42 track that may not already be covered in\n03:44 Cyclude already. This individual down\n03:46 here did some pretty wild stuff as well.\n03:48 Again, created some pretty different\n03:49 vibe coded designs which look ace. And\n03:51 what is cool about this one is the fact\n03:52 that they've got a basically a live\n03:54 status of every plan from the moment\n03:56 it's created on the onchain. Trade\n03:58 transaction confirmings. Um again, he's\n04:00 just using hooks and connected\n04:01 everything together so he can see full\n04:02 visibility of everything he builds. This\n04:04 individual here went down and built a I\n04:06 think you call like a Modern Warfare 2\n04:07 quick scoping lobby. So, you get the\n04:09 idea. You can essentially build\n\n=== 250.0–334.0 Glaido + Jev + My Agentic OS ===\n04:10 anything. So, we could even get this\n04:11 classifying mod by using Jev. You'll\n04:13 notice that I've showed this before\n04:14 inside my Aentic OS. Hey GLD, open up my\n04:17 Aentic operating system Javas. Now, we\n04:20 talked about Jev being really helpful\n04:21 here, mainly because essentially we can\n04:23 do some very quick and pretty\n04:24 exceptional uh routing. Hey there, I\n04:26 need you to spin up a session inside\n04:27 Cloud Code. Uh just do some deep\n04:29 research on the brand new mod feature,\n04:31 please. And also, can you take me\n04:33 through to my memory?\n04:34 >> Shall I kick off that deep research on\n04:35 the mod feature and claw code? Just save\n04:38 the word.\n04:38 >> That sounds great.\n04:41 >> Off we go. Claude code is now on the\n04:43 case and you can watch the research\n04:45 unfold in the task chat. Now, let's\n04:48 glide over to your memory. We're in your\n04:50 memory now.\n04:51 >> So, guys, can you see this here? Can you\n04:53 see what just happened right here on\n04:54 screen? So, this is the Gentic operators\n04:56 and I'm just going to mute him for a\n04:59 second, but you can see Jeff here for\n05:00 example, right? decided based on the\n05:02 query that I gave it what was the most\n05:04 appropriate model to do this. Now I've\n05:05 been doing this my agent's operating\n05:06 system it does a bazillion other things\n05:08 and actually guys we can do this within\n05:10 cla itself. So I'm using something that\n05:12 sits above claude for this. But actually\n05:14 even within claude itself, it can do\n05:16 this dynamic routting where effectively\n05:18 we can build this with jev by just\n05:20 simply giving it an open routter key. So\n05:22 it can decide basically automatically\n05:24 which model it should root which query\n05:27 to which means that you know you're not\n05:28 going to be spending using a bazooka\n05:31 basically for something where you can\n05:32 use like a haiku model instead. And just\n\n=== 334.0–366.0 What Mods Can Actually Do ===\n05:34 to drill down a little bit to explain\n05:36 this I had Claude actually fully\n05:37 summarize the core details because I\n05:39 think it's important to clarify this. A\n05:41 mod essentially is just code right that\n05:42 sits in the middle of a claw code event.\n05:44 Each event can do three things. Watch,\n05:46 change the event or effectively block it\n05:48 at the same time. It can start sessions,\n05:50 turn complete UI render. Now what's\n05:52 interesting here about a mod can\n05:53 actually do shell commands, web calls,\n05:56 slash commands. It can compact timer\n05:58 user the tools sound files and settings.\n06:00 Now what's really important to bear in\n06:02 mind about mods is to be super careful\n06:04 about the kind of mods that you actually\n06:05 download. So if you're thinking, Jack,\n\n=== 366.0–386.0 FREE Prompt: Find Your Best Mods ===\n06:07 what mod should I actually be using?\n06:08 I've got this free guide I'll put down\n06:10 below in the second link in the\n06:11 description. Effectively, what this will\n06:13 do is just come down, copy all of this\n06:14 by command, A, A, and C, throw this into\n06:17 Claude, and effectively it will just ask\n06:19 you questions, interview you about the\n06:21 kind of things that you want to be\n06:22 doing. So, you can actually build mods\n06:24 that are appropriate and helpful for\n06:25 your particular use case. But you must\n\n=== 386.0–430.0 Permissions and Risks to Understand ===\n06:27 understand what a mod can do. A mod can\n06:29 do basically reach everything that you\n06:30 can. It can read and write files, start\n06:32 programs, use a network. It has access\n06:34 to environmental variables in your\n06:35 setting files. And every prompt and tool\n06:37 call, it can approve a call for you. On\n06:39 top of that, has risks as found by a\n06:41 third party that a mod can read\n06:43 credential files and send them out.\n06:45 Plug-in details can list a mod as having\n06:47 no hooks and a mod can spoof a prompt or\n06:50 fetch new code after you reviewed it.\n06:52 So, really important that you use these\n06:54 with caution and you're not just\n06:55 downloading it something randomly\n06:56 online. So, to get these bad boys set\n06:58 up, head over to the second link in\n06:59 description. Essentially, ask Claude to\n07:01 recommend things that I should be\n07:03 building. then you can check it. Make\n07:04 sure it works your best sort of\n07:06 intentions and it kind of works\n07:07 beautifully and then you'll be able to\n07:09 go ahead and build yourself. And so for\n\n=== 430.0–503.0 Claude + Zapier MCP: Skool and Outlook ===\n07:10 example, and I'm going to use this\n07:11 because I use this a lot especially\n07:13 because the stuff that you just connect\n07:15 to, you can't connect anywhere else. So\n07:16 if I come over here and I show you an\n07:18 example of something that I built that's\n07:19 going to add value to me. I can come\n07:21 down and type in Claude, right? Claude's\n07:22 going to open up. Now I can give it a\n07:23 prompt like this. Hey there, could you\n07:25 just use Zapia for me and could you just\n07:27 tell me the name of the last person that\n07:30 joined my school community? Tell me the\n07:32 subject line of the last email I got in\n07:34 Outlook. And I also want you to invite\n07:36 this email address to my community.\n07:38 jackjack.com. Send them an invite to my\n07:40 group, please. Now, I'm using different\n07:42 sources that I can't possibly use\n07:43 directly in Cyclude, specifically the\n07:45 ability to connect to school, and\n07:47 there's like a bazillion other things I\n07:48 can do. Why is that relevant? Check this\n07:50 out, guys. Can you see? First of all,\n07:51 we've got the Zapia MCP running. So,\n07:53 it's actually added a logo. Granted,\n07:55 this was one shot. I just wanted to show\n07:56 what it did. But look at this. I can\n07:58 actually check my credits down below at\n08:00 the bottom as I go through this and it\n08:02 will go ahead and get me the\n08:03 information. But obviously it's also\n08:05 cool. PS by the way I started my first\n08:06 startup ever off. I find it really cool\n08:09 but I can actually go ahead and connect\n08:10 all my different apps and I can affect\n08:12 the permission levels and then whether\n08:14 I'm in claude or chat GPT or even my\n08:16 agentic operating system whatever it is\n08:19 I can have the same level of\n08:20 permissions. I just give it one key with\n08:21 the MCP and I'm connected everywhere.\n\n=== 503.0–528.0 Claude Code Masterclass + Agentic OS ===\n08:23 And by the way, if this whole thing does\n08:25 sound like I'm speaking Spanish. I'm\n08:26 going to put a link down below for the\n08:28 full core code masterass. I have a brand\n08:30 new update coming this week on design\n08:32 systems. It takes you from zero to out\n08:34 of this world. We go through building\n08:35 beautiful websites, memory systems, and\n08:37 you also get immediate access to the\n08:40 full agentic operating system with some\n08:42 incredible updates. You get to check out\n08:44 your spend in different apps. It is\n08:45 exceptional and will get you light years\n08:47 ahead of everybody else. Now,\n\n=== 528.0–540 What to Watch Next ===\n08:48 modifications are one thing, but if you\n08:50 don't know the most powerful features of\n08:52 Claude, you're never going to get as far\n08:54 ahead as you can. Which is why the next\n08:55 thing we need to do is learn how to do\n08:57 that together in this video right"
+}
