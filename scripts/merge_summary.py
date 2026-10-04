@@ -25,6 +25,16 @@ def validate(item: dict, *, quality: bool = False) -> None:
         raise ValueError(f"{item.get('id', 'video')}: missing {sorted(missing)}")
     if not str(item.get("description", "")).strip():
         raise ValueError(f"{item['id']}: description must contain the full creator description")
+    if "quick_takeaways" in item:
+        points = item["quick_takeaways"]
+        if (not isinstance(points, list) or not 1 <= len(points) <= 6 or
+                any(not isinstance(point, str) or not point.strip() for point in points)):
+            raise ValueError(f"{item['id']}: quick takeaways must contain 1–6 non-empty points")
+        if sum(len(point.split()) for point in points) > 200:
+            raise ValueError(f"{item['id']}: quick takeaways must fit within 200 words for a one-minute read")
+        normalized_points = [re.sub(r"\s+", " ", point).strip().casefold() for point in points]
+        if len(set(normalized_points)) != len(normalized_points):
+            raise ValueError(f"{item['id']}: quick takeaways must not repeat the same point")
     if quality:
         summary = re.sub(r"\s+", " ", str(item["summary"])).strip().lower()
         value = re.sub(r"\s+", " ", str(item["why_valuable"])).strip().lower()

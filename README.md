@@ -18,4 +18,10 @@ Automated scans run at 06:00, 12:00, and 20:30 Africa/Johannesburg time. The hea
 
 `scan_playlist.py` writes `data/pending.json` but does **not** mark a video complete. A video is added to `data/state.json` only after a valid summary is merged, so failed transcript or model runs are retried.
 
+## One-minute summaries
+
+Summary generation happens outside this repository; the importer validates the supplied JSON. Include `quick_takeaways` in new summaries: up to six distinct, transcript-grounded points totaling at most 200 words. The site displays these directly on the video card instead of the "Why this is valuable" pitch. Older entries without this field retain their existing introduction.
+
+Write the useful information itself: the recommendation, steps, results, specific tools, costs and material limits. Lead with the most consequential points. Each point should make sense without watching the video; omit teasers, statements about why to watch, promotional filler and repeated caveats. Attribute reported prices and claims when needed, and distinguish a demonstrated result from a proposal. Keep the longer `summary`, `key_takeaways` and `chapters` for depth and verification.
+
 The site deliberately includes `noindex,nofollow` because the source playlist is unlisted. “First detected” is used instead of claiming YouTube's exact playlist-addition timestamp, which is not available through the page/yt-dlp scan.
