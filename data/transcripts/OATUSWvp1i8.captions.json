@@ -1,0 +1,1923 @@
+{
+  "video_id": "OATUSWvp1i8",
+  "language": "en-orig",
+  "source": "YouTube automatic captions via yt-dlp",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 6.079,
+      "text": "I was paying over $1,300 a year just to"
+    },
+    {
+      "start": 3.439,
+      "duration": 4.881,
+      "text": "keep my websites online. [music] Now I"
+    },
+    {
+      "start": 6.319,
+      "duration": 4.821,
+      "text": "run eight websites and the hosting cost"
+    },
+    {
+      "start": 8.32,
+      "duration": 5.12,
+      "text": "me about the price of one coffee a"
+    },
+    {
+      "start": 11.14,
+      "duration": 4.539,
+      "text": "[music] month. I didn't hire web guy and"
+    },
+    {
+      "start": 13.44,
+      "duration": 5.28,
+      "text": "learn to code. Claude moved everything"
+    },
+    {
+      "start": 15.679,
+      "duration": 6.001,
+      "text": "and Claude AI is now the [music] site"
+    },
+    {
+      "start": 18.72,
+      "duration": 5.52,
+      "text": "manager slashdeveloper slashmarketer"
+    },
+    {
+      "start": 21.68,
+      "duration": 4.24,
+      "text": "slash everything needed for all eight of"
+    },
+    {
+      "start": 24.24,
+      "duration": 3.92,
+      "text": "those sites. [music] So, here's how I"
+    },
+    {
+      "start": 25.92,
+      "duration": 4.64,
+      "text": "did it and how you can do it easily,"
+    },
+    {
+      "start": 28.16,
+      "duration": 3.919,
+      "text": "plus some things you must absolutely not"
+    },
+    {
+      "start": 30.56,
+      "duration": 3.839,
+      "text": "do to make sure the cost [music] stays"
+    },
+    {
+      "start": 32.079,
+      "duration": 4.241,
+      "text": "low and the sites are absolutely"
+    },
+    {
+      "start": 34.399,
+      "duration": 3.761,
+      "text": "optimized. If you're new here, my name"
+    },
+    {
+      "start": 36.32,
+      "duration": 3.28,
+      "text": "is Rob. I'm not an AI researcher or tech"
+    },
+    {
+      "start": 38.16,
+      "duration": 3.76,
+      "text": "guy. I'm just a multiple business owner"
+    },
+    {
+      "start": 39.6,
+      "duration": 4.56,
+      "text": "that uses AI to help run each and every"
+    },
+    {
+      "start": 41.92,
+      "duration": 4.159,
+      "text": "one of them. On Dane, we talk about AI"
+    },
+    {
+      "start": 44.16,
+      "duration": 3.6,
+      "text": "for business, everyday use, and of"
+    },
+    {
+      "start": 46.079,
+      "duration": 3.921,
+      "text": "course, investments. All right, and know"
+    },
+    {
+      "start": 47.76,
+      "duration": 4.319,
+      "text": "that. Let's get right into it. Quick"
+    },
+    {
+      "start": 50.0,
+      "duration": 4.559,
+      "text": "note, nobody's paying me to say any of"
+    },
+    {
+      "start": 52.079,
+      "duration": 4.241,
+      "text": "this. These hosting companies do work."
+    },
+    {
+      "start": 54.559,
+      "duration": 4.0,
+      "text": "You're just paying for a lot you"
+    },
+    {
+      "start": 56.32,
+      "duration": 4.399,
+      "text": "absolutely do not need. Let me show you"
+    },
+    {
+      "start": 58.559,
+      "duration": 4.401,
+      "text": "the receipts. And yes, Claude found"
+    },
+    {
+      "start": 60.719,
+      "duration": 4.16,
+      "text": "these from me same way I showed you in"
+    },
+    {
+      "start": 62.96,
+      "duration": 5.36,
+      "text": "the last episode as I got audited for"
+    },
+    {
+      "start": 64.879,
+      "duration": 6.401,
+      "text": "taxes. Number one, site ground. One plan"
+    },
+    {
+      "start": 68.32,
+      "duration": 5.119,
+      "text": "for one website. $540 a year plus 60"
+    },
+    {
+      "start": 71.28,
+      "duration": 5.6,
+      "text": "bucks a year for something called a site"
+    },
+    {
+      "start": 73.439,
+      "duration": 6.72,
+      "text": "scanner. $139 with tax. That's just for"
+    },
+    {
+      "start": 76.88,
+      "duration": 5.36,
+      "text": "one site. Now, GoDaddy, the domain name,"
+    },
+    {
+      "start": 80.159,
+      "duration": 4.721,
+      "text": "18 bucks. Fine. But then website"
+    },
+    {
+      "start": 82.24,
+      "duration": 6.0,
+      "text": "security express $300. A three-year"
+    },
+    {
+      "start": 84.88,
+      "duration": 7.68,
+      "text": "backup plan $108. Ultimate domain"
+    },
+    {
+      "start": 88.24,
+      "duration": 7.6,
+      "text": "protection security 15. Manage WordPress"
+    },
+    {
+      "start": 92.56,
+      "duration": 5.519,
+      "text": "$216. Now, every one of those got added"
+    },
+    {
+      "start": 95.84,
+      "duration": 4.319,
+      "text": "at checkout or an autorenew. Those sound"
+    },
+    {
+      "start": 98.079,
+      "duration": 4.641,
+      "text": "good until you realize that Claude can"
+    },
+    {
+      "start": 100.159,
+      "duration": 5.361,
+      "text": "do most of what those are absolutely"
+    },
+    {
+      "start": 102.72,
+      "duration": 4.8,
+      "text": "offering. And here's the crazy part."
+    },
+    {
+      "start": 105.52,
+      "duration": 3.68,
+      "text": "While I was writing this script, I had"
+    },
+    {
+      "start": 107.52,
+      "duration": 3.76,
+      "text": "Claude go through my credit card"
+    },
+    {
+      "start": 109.2,
+      "duration": 7.12,
+      "text": "statements to get the real numbers and"
+    },
+    {
+      "start": 111.28,
+      "duration": 7.439,
+      "text": "found a GoDaddy charge for $720"
+    },
+    {
+      "start": 116.32,
+      "duration": 4.24,
+      "text": "from this May of this year. Now, I had"
+    },
+    {
+      "start": 118.719,
+      "duration": 4.801,
+      "text": "no idea that charge was absolutely"
+    },
+    {
+      "start": 120.56,
+      "duration": 7.28,
+      "text": "there. And this is not a domain name."
+    },
+    {
+      "start": 123.52,
+      "duration": 6.4,
+      "text": "Those are 10 or $13. This was $720. And"
+    },
+    {
+      "start": 127.84,
+      "duration": 4.32,
+      "text": "I never even noticed it until we went"
+    },
+    {
+      "start": 129.92,
+      "duration": 3.92,
+      "text": "through it. So, if it happened to me,"
+    },
+    {
+      "start": 132.16,
+      "duration": 3.6,
+      "text": "it's probably happening to you in some"
+    },
+    {
+      "start": 133.84,
+      "duration": 3.84,
+      "text": "way, shape, or form. And that's exactly"
+    },
+    {
+      "start": 135.76,
+      "duration": 4.64,
+      "text": "why I'm going to do a whole video on"
+    },
+    {
+      "start": 137.68,
+      "duration": 5.199,
+      "text": "using Claude to find the hidden charges"
+    },
+    {
+      "start": 140.4,
+      "duration": 4.88,
+      "text": "you're paying for and don't know about."
+    },
+    {
+      "start": 142.879,
+      "duration": 3.681,
+      "text": "That's coming up uh soon. So, make sure"
+    },
+    {
+      "start": 145.28,
+      "duration": 3.039,
+      "text": "you're subscribed and turn on the bell"
+    },
+    {
+      "start": 146.56,
+      "duration": 4.399,
+      "text": "so you can be notified of when that"
+    },
+    {
+      "start": 148.319,
+      "duration": 5.441,
+      "text": "video gets pushed out."
+    },
+    {
+      "start": 150.959,
+      "duration": 6.64,
+      "text": "So, last year hosting of domains in my"
+    },
+    {
+      "start": 153.76,
+      "duration": 5.52,
+      "text": "books came out to 1350 bucks. And don't"
+    },
+    {
+      "start": 157.599,
+      "duration": 4.241,
+      "text": "get me started on email marketing. I was"
+    },
+    {
+      "start": 159.28,
+      "duration": 6.48,
+      "text": "paying Aweber close to 2,000 bucks a"
+    },
+    {
+      "start": 161.84,
+      "duration": 6.16,
+      "text": "year. Now, I pay roughly $10 a month for"
+    },
+    {
+      "start": 165.76,
+      "duration": 4.479,
+      "text": "three different email lists, but that's"
+    },
+    {
+      "start": 168.0,
+      "duration": 4.959,
+      "text": "for the next video. Today, we're going"
+    },
+    {
+      "start": 170.239,
+      "duration": 5.041,
+      "text": "to talk about why it's so cheap or free"
+    },
+    {
+      "start": 172.959,
+      "duration": 4.321,
+      "text": "in some instances. So, most small"
+    },
+    {
+      "start": 175.28,
+      "duration": 4.239,
+      "text": "business websites are a few pages of"
+    },
+    {
+      "start": 177.28,
+      "duration": 4.239,
+      "text": "words and pictures. Putting that on the"
+    },
+    {
+      "start": 179.519,
+      "duration": 4.08,
+      "text": "internet cost almost nothing. Companies"
+    },
+    {
+      "start": 181.519,
+      "duration": 4.64,
+      "text": "like Cloudflare and Google's Firebase"
+    },
+    {
+      "start": 183.599,
+      "duration": 4.161,
+      "text": "will host it for you for free or close"
+    },
+    {
+      "start": 186.159,
+      "duration": 3.681,
+      "text": "to it. Now, you're probably thinking,"
+    },
+    {
+      "start": 187.76,
+      "duration": 6.24,
+      "text": "\"All right, Rob, why would anybody host"
+    },
+    {
+      "start": 189.84,
+      "duration": 7.679,
+      "text": "my website for free?\" Simple. It costs"
+    },
+    {
+      "start": 194.0,
+      "duration": 5.04,
+      "text": "them almost nothing to host it. These"
+    },
+    {
+      "start": 197.519,
+      "duration": 3.921,
+      "text": "are some of the biggest tech companies"
+    },
+    {
+      "start": 199.04,
+      "duration": 4.24,
+      "text": "in the world. They already have giant"
+    },
+    {
+      "start": 201.44,
+      "duration": 3.92,
+      "text": "networks of computers all over the"
+    },
+    {
+      "start": 203.28,
+      "duration": 3.679,
+      "text": "planet. So, your little website, which"
+    },
+    {
+      "start": 205.36,
+      "duration": 4.08,
+      "text": "is a few pages and some pictures, just"
+    },
+    {
+      "start": 206.959,
+      "duration": 4.801,
+      "text": "like mine, is like a drop of water in"
+    },
+    {
+      "start": 209.44,
+      "duration": 4.56,
+      "text": "the ocean to them. So, the free part is"
+    },
+    {
+      "start": 211.76,
+      "duration": 4.24,
+      "text": "the hook. It's like the free sample at"
+    },
+    {
+      "start": 214.0,
+      "duration": 3.84,
+      "text": "Costco. They bring you in, but they're"
+    },
+    {
+      "start": 216.0,
+      "duration": 4.4,
+      "text": "betting that some of you absolutely"
+    },
+    {
+      "start": 217.84,
+      "duration": 5.2,
+      "text": "grow. You add bookings, payments, login,"
+    },
+    {
+      "start": 220.4,
+      "duration": 4.479,
+      "text": "AI, and that's when they start charging."
+    },
+    {
+      "start": 223.04,
+      "duration": 3.199,
+      "text": "And even then, for a small business,"
+    },
+    {
+      "start": 224.879,
+      "duration": 3.121,
+      "text": "we're talking about pennies to a few"
+    },
+    {
+      "start": 226.239,
+      "duration": 4.56,
+      "text": "bucks a month. So, it's not too"
+    },
+    {
+      "start": 228.0,
+      "duration": 4.56,
+      "text": "extravagant. And Cloudflare gets"
+    },
+    {
+      "start": 230.799,
+      "duration": 3.921,
+      "text": "something else out of it, too. The more"
+    },
+    {
+      "start": 232.56,
+      "duration": 4.64,
+      "text": "websites that run through their network,"
+    },
+    {
+      "start": 234.72,
+      "duration": 4.56,
+      "text": "the better they get at spotting hackers"
+    },
+    {
+      "start": 237.2,
+      "duration": 3.84,
+      "text": "and blocking attacks. And that's what"
+    },
+    {
+      "start": 239.28,
+      "duration": 3.599,
+      "text": "their big paying customers, the huge"
+    },
+    {
+      "start": 241.04,
+      "duration": 4.16,
+      "text": "companies, are actually paying for."
+    },
+    {
+      "start": 242.879,
+      "duration": 3.761,
+      "text": "They're using you to make them better."
+    },
+    {
+      "start": 245.2,
+      "duration": 3.119,
+      "text": "So, you're not you're not getting a"
+    },
+    {
+      "start": 246.64,
+      "duration": 4.239,
+      "text": "handout. You're using the free level of"
+    },
+    {
+      "start": 248.319,
+      "duration": 5.28,
+      "text": "a business that makes its money on the"
+    },
+    {
+      "start": 250.879,
+      "duration": 4.481,
+      "text": "big guys. So, if you have a website that"
+    },
+    {
+      "start": 253.599,
+      "duration": 3.521,
+      "text": "is a little more advanced than just a"
+    },
+    {
+      "start": 255.36,
+      "duration": 4.08,
+      "text": "couple of pages, you can also check out"
+    },
+    {
+      "start": 257.12,
+      "duration": 4.799,
+      "text": "computebportal.io."
+    },
+    {
+      "start": 259.44,
+      "duration": 4.479,
+      "text": "It's always best to compare prices and"
+    },
+    {
+      "start": 261.919,
+      "duration": 4.081,
+      "text": "needs. So, we try to give you many"
+    },
+    {
+      "start": 263.919,
+      "duration": 4.481,
+      "text": "options. Links to this are in the"
+    },
+    {
+      "start": 266.0,
+      "duration": 6.08,
+      "text": "description. So, why GoDaddy is"
+    },
+    {
+      "start": 268.4,
+      "duration": 5.28,
+      "text": "absolutely overpriced. The padlock in"
+    },
+    {
+      "start": 272.08,
+      "duration": 4.559,
+      "text": "the address bar, the security"
+    },
+    {
+      "start": 273.68,
+      "duration": 4.88,
+      "text": "certificate, free and automatic backups,"
+    },
+    {
+      "start": 276.639,
+      "duration": 4.801,
+      "text": "every version you ever put up gets"
+    },
+    {
+      "start": 278.56,
+      "duration": 5.44,
+      "text": "saved. Sounds good. So, what were you"
+    },
+    {
+      "start": 281.44,
+      "duration": 3.92,
+      "text": "paying GoDaddy for? The dashboard, the"
+    },
+    {
+      "start": 284.0,
+      "duration": 3.12,
+      "text": "upsells, and the fact that doing"
+    },
+    {
+      "start": 285.36,
+      "duration": 4.24,
+      "text": "yourself was just way too hard and you"
+    },
+    {
+      "start": 287.12,
+      "duration": 4.56,
+      "text": "couldn't do it. That last part is what"
+    },
+    {
+      "start": 289.6,
+      "duration": 5.2,
+      "text": "changed recently. Claude now does the"
+    },
+    {
+      "start": 291.68,
+      "duration": 4.88,
+      "text": "hard part for me and you now. So, here's"
+    },
+    {
+      "start": 294.8,
+      "duration": 4.48,
+      "text": "step one. I want you to do this. List"
+    },
+    {
+      "start": 296.56,
+      "duration": 4.56,
+      "text": "every bill you got. You can't prove you"
+    },
+    {
+      "start": 299.28,
+      "duration": 3.76,
+      "text": "saved money if you don't know what"
+    },
+    {
+      "start": 301.12,
+      "duration": 3.76,
+      "text": "you're absolutely paying for. So, here's"
+    },
+    {
+      "start": 303.04,
+      "duration": 3.36,
+      "text": "the prompt. I want you to steal it. It's"
+    },
+    {
+      "start": 304.88,
+      "duration": 3.52,
+      "text": "in the description below, so you don't"
+    },
+    {
+      "start": 306.4,
+      "duration": 4.48,
+      "text": "have to go through it. Just copy and"
+    },
+    {
+      "start": 308.4,
+      "duration": 4.639,
+      "text": "paste. Look through my email and my"
+    },
+    {
+      "start": 310.88,
+      "duration": 4.24,
+      "text": "credit card statements and list every"
+    },
+    {
+      "start": 313.039,
+      "duration": 4.241,
+      "text": "website, hosting, domain, and plug-in"
+    },
+    {
+      "start": 315.12,
+      "duration": 4.32,
+      "text": "bill that I pay. Tell me what each one"
+    },
+    {
+      "start": 317.28,
+      "duration": 4.24,
+      "text": "is for, how much it costs, and how"
+    },
+    {
+      "start": 319.44,
+      "duration": 3.92,
+      "text": "often. Then, tell me which ones I"
+    },
+    {
+      "start": 321.52,
+      "duration": 4.16,
+      "text": "actually need. That's your before"
+    },
+    {
+      "start": 323.36,
+      "duration": 5.44,
+      "text": "number. Write it down so you actually"
+    },
+    {
+      "start": 325.68,
+      "duration": 5.359,
+      "text": "have it. Here's step two. Let's pick the"
+    },
+    {
+      "start": 328.8,
+      "duration": 3.76,
+      "text": "cheap one that we can actually get into."
+    },
+    {
+      "start": 331.039,
+      "duration": 3.361,
+      "text": "Two choices and Cloud will tell you"
+    },
+    {
+      "start": 332.56,
+      "duration": 4.16,
+      "text": "which one fits for you and your best"
+    },
+    {
+      "start": 334.4,
+      "duration": 5.04,
+      "text": "offer. If your site is just pages, no"
+    },
+    {
+      "start": 336.72,
+      "duration": 4.16,
+      "text": "login, no payments, use Cloudflare. It"
+    },
+    {
+      "start": 339.44,
+      "duration": 3.44,
+      "text": "won't cost you anything. It's pretty"
+    },
+    {
+      "start": 340.88,
+      "duration": 3.52,
+      "text": "much free. But if you're have if you"
+    },
+    {
+      "start": 342.88,
+      "duration": 3.52,
+      "text": "have your site that has to do something"
+    },
+    {
+      "start": 344.4,
+      "duration": 4.799,
+      "text": "like take bookings, take payments, let"
+    },
+    {
+      "start": 346.4,
+      "duration": 4.48,
+      "text": "people log in, use Firebase. It'll cost"
+    },
+    {
+      "start": 349.199,
+      "duration": 3.44,
+      "text": "you pennies to a couple bucks, but not"
+    },
+    {
+      "start": 350.88,
+      "duration": 3.2,
+      "text": "too much at all. So, here's step three."
+    },
+    {
+      "start": 352.639,
+      "duration": 3.28,
+      "text": "Lot is going to move everything over"
+    },
+    {
+      "start": 354.08,
+      "duration": 3.52,
+      "text": "from what you do now to the new stuff."
+    },
+    {
+      "start": 355.919,
+      "duration": 3.441,
+      "text": "Here's the prompt to get that ball"
+    },
+    {
+      "start": 357.6,
+      "duration": 3.36,
+      "text": "going. Steal this one, too. The full"
+    },
+    {
+      "start": 359.36,
+      "duration": 3.6,
+      "text": "version is in the description. So, just"
+    },
+    {
+      "start": 360.96,
+      "duration": 5.76,
+      "text": "copy and paste it. Here's what you want"
+    },
+    {
+      "start": 362.96,
+      "duration": 6.0,
+      "text": "it to say. I want to move my website off"
+    },
+    {
+      "start": 366.72,
+      "duration": 4.88,
+      "text": "my current host to something cheaper"
+    },
+    {
+      "start": 368.96,
+      "duration": 4.959,
+      "text": "like Cloudflare Pages or Firebase or"
+    },
+    {
+      "start": 371.6,
+      "duration": 4.24,
+      "text": "Compute Portal. My website is fill in"
+    },
+    {
+      "start": 373.919,
+      "duration": 4.481,
+      "text": "the blank your website and it's hosted"
+    },
+    {
+      "start": 375.84,
+      "duration": 4.479,
+      "text": "at whatever it is, GoDaddy, Wix, Site"
+    },
+    {
+      "start": 378.4,
+      "duration": 4.079,
+      "text": "Ground, whatever. Look at my site. Tell"
+    },
+    {
+      "start": 380.319,
+      "duration": 4.961,
+      "text": "me which one fits and what it will cost"
+    },
+    {
+      "start": 382.479,
+      "duration": 4.881,
+      "text": "me each month. give me a preview link"
+    },
+    {
+      "start": 385.28,
+      "duration": 4.479,
+      "text": "before anything goes live and do not"
+    },
+    {
+      "start": 387.36,
+      "duration": 5.44,
+      "text": "touch my email or my domain settings"
+    },
+    {
+      "start": 389.759,
+      "duration": 4.641,
+      "text": "without my explicit approval and then"
+    },
+    {
+      "start": 392.8,
+      "duration": 3.839,
+      "text": "add my favorite line at the very end"
+    },
+    {
+      "start": 394.4,
+      "duration": 4.639,
+      "text": "which is ask questions until you're 95%"
+    },
+    {
+      "start": 396.639,
+      "duration": 4.081,
+      "text": "sure of what I want to give me push back"
+    },
+    {
+      "start": 399.039,
+      "duration": 3.28,
+      "text": "if you have better ideas for me to"
+    },
+    {
+      "start": 400.72,
+      "duration": 3.12,
+      "text": "consider again all linked in the"
+    },
+    {
+      "start": 402.319,
+      "duration": 3.44,
+      "text": "description so both of these prompts"
+    },
+    {
+      "start": 403.84,
+      "duration": 3.52,
+      "text": "will be in the description below so you"
+    },
+    {
+      "start": 405.759,
+      "duration": 3.121,
+      "text": "can copy and paste them instead of"
+    },
+    {
+      "start": 407.36,
+      "duration": 4.32,
+      "text": "trying to type it manually try to make"
+    },
+    {
+      "start": 408.88,
+      "duration": 4.96,
+      "text": "it easy here for you so from there"
+    },
+    {
+      "start": 411.68,
+      "duration": 4.639,
+      "text": "claude rebuilds the site puts it up and"
+    },
+    {
+      "start": 413.84,
+      "duration": 4.96,
+      "text": "gives me a preview link first. I click"
+    },
+    {
+      "start": 416.319,
+      "duration": 5.521,
+      "text": "around. I check it on my phone. Nothing"
+    },
+    {
+      "start": 418.8,
+      "duration": 5.6,
+      "text": "goes live until I say so. That's the"
+    },
+    {
+      "start": 421.84,
+      "duration": 4.96,
+      "text": "rule. Claude builds. I approve. That"
+    },
+    {
+      "start": 424.4,
+      "duration": 4.799,
+      "text": "should be the rule for you as well. Step"
+    },
+    {
+      "start": 426.8,
+      "duration": 5.36,
+      "text": "four. Here's the scary part, but not"
+    },
+    {
+      "start": 429.199,
+      "duration": 4.801,
+      "text": "anymore. Your domain. This is the part"
+    },
+    {
+      "start": 432.16,
+      "duration": 3.599,
+      "text": "that scares people and it shuts them"
+    },
+    {
+      "start": 434.0,
+      "duration": 4.24,
+      "text": "down, but it's really easy. So, let me"
+    },
+    {
+      "start": 435.759,
+      "duration": 4.641,
+      "text": "make it extremely simple for you. Your"
+    },
+    {
+      "start": 438.24,
+      "duration": 3.76,
+      "text": "domain settings are basically an address"
+    },
+    {
+      "start": 440.4,
+      "duration": 4.4,
+      "text": "book. It tells the internet where your"
+    },
+    {
+      "start": 442.0,
+      "duration": 5.599,
+      "text": "website lives and where emails are"
+    },
+    {
+      "start": 444.8,
+      "duration": 5.04,
+      "text": "supposed to go. You want to change the"
+    },
+    {
+      "start": 447.599,
+      "duration": 5.361,
+      "text": "website's address. You do not want to"
+    },
+    {
+      "start": 449.84,
+      "duration": 6.079,
+      "text": "touch the email itself. The animal"
+    },
+    {
+      "start": 452.96,
+      "duration": 5.04,
+      "text": "shelter, Migosalis, had two domains"
+    },
+    {
+      "start": 455.919,
+      "duration": 3.84,
+      "text": "sitting at GoDaddy. Claude told me"
+    },
+    {
+      "start": 458.0,
+      "duration": 4.0,
+      "text": "exactly which lines to change and which"
+    },
+    {
+      "start": 459.759,
+      "duration": 4.321,
+      "text": "ones to leave alone. The shelter's email"
+    },
+    {
+      "start": 462.0,
+      "duration": 4.96,
+      "text": "never went down for one second. The new"
+    },
+    {
+      "start": 464.08,
+      "duration": 5.519,
+      "text": "site was live in about six minutes. And"
+    },
+    {
+      "start": 466.96,
+      "duration": 3.84,
+      "text": "Claude can do all the clinking clicking"
+    },
+    {
+      "start": 469.599,
+      "duration": 2.32,
+      "text": "for you if you don't really feel"
+    },
+    {
+      "start": 470.8,
+      "duration": 4.0,
+      "text": "comfortable with it. If you connect"
+    },
+    {
+      "start": 471.919,
+      "duration": 4.801,
+      "text": "Claude to your web browser, it can go"
+    },
+    {
+      "start": 474.8,
+      "duration": 4.399,
+      "text": "into your domain dashboard and make"
+    },
+    {
+      "start": 476.72,
+      "duration": 5.039,
+      "text": "those changes itself. You log in, Claude"
+    },
+    {
+      "start": 479.199,
+      "duration": 4.881,
+      "text": "does all the clinking very easy. But on"
+    },
+    {
+      "start": 481.759,
+      "duration": 4.961,
+      "text": "this part, I watch every single change"
+    },
+    {
+      "start": 484.08,
+      "duration": 4.559,
+      "text": "before it saves. One click here and your"
+    },
+    {
+      "start": 486.72,
+      "duration": 3.44,
+      "text": "email goes down. So with Claude, I just"
+    },
+    {
+      "start": 488.639,
+      "duration": 3.201,
+      "text": "make sure I watch it. But so far, it's"
+    },
+    {
+      "start": 490.16,
+      "duration": 4.319,
+      "text": "been perfect. If you want to know how to"
+    },
+    {
+      "start": 491.84,
+      "duration": 4.639,
+      "text": "connect your browser, just ask Claude or"
+    },
+    {
+      "start": 494.479,
+      "duration": 4.081,
+      "text": "watch my video, Supercharge Claw with"
+    },
+    {
+      "start": 496.479,
+      "duration": 4.16,
+      "text": "memory and connectors. It's linked in"
+    },
+    {
+      "start": 498.56,
+      "duration": 3.759,
+      "text": "the description below as well. And also,"
+    },
+    {
+      "start": 500.639,
+      "duration": 4.161,
+      "text": "here's one I didn't expect. While we"
+    },
+    {
+      "start": 502.319,
+      "duration": 5.28,
+      "text": "were moving my crypto site, Claude found"
+    },
+    {
+      "start": 504.8,
+      "duration": 4.239,
+      "text": "an old email sitting in with an old"
+    },
+    {
+      "start": 507.599,
+      "duration": 2.961,
+      "text": "letter typo in it. It pointed to a"
+    },
+    {
+      "start": 509.039,
+      "duration": 4.0,
+      "text": "website name that didn't exist for"
+    },
+    {
+      "start": 510.56,
+      "duration": 4.8,
+      "text": "years, but somebody went and registered"
+    },
+    {
+      "start": 513.039,
+      "duration": 3.761,
+      "text": "this in January. That meant a stranger"
+    },
+    {
+      "start": 515.36,
+      "duration": 3.76,
+      "text": "could send email that looked like it"
+    },
+    {
+      "start": 516.8,
+      "duration": 3.919,
+      "text": "came from my website. No web guy caught"
+    },
+    {
+      "start": 519.12,
+      "duration": 3.839,
+      "text": "it. had a couple that went through it"
+    },
+    {
+      "start": 520.719,
+      "duration": 5.201,
+      "text": "with me. Claude caught it in the middle"
+    },
+    {
+      "start": 522.959,
+      "duration": 5.841,
+      "text": "of a move and that saved me. And here's"
+    },
+    {
+      "start": 525.92,
+      "duration": 5.919,
+      "text": "what I pay now. So, this is the after"
+    },
+    {
+      "start": 528.8,
+      "duration": 6.08,
+      "text": "part sight by sight. Dan teaches crypto."
+    },
+    {
+      "start": 531.839,
+      "duration": 6.481,
+      "text": "Uh, that was the $639 a year at Site"
+    },
+    {
+      "start": 534.88,
+      "duration": 6.399,
+      "text": "Ground. Now, it's on Cloudflare. Uh, $0."
+    },
+    {
+      "start": 538.32,
+      "duration": 6.079,
+      "text": "Price profits. That's on Cloudflare and"
+    },
+    {
+      "start": 541.279,
+      "duration": 4.881,
+      "text": "it cost me $0. I have a Spanish learning"
+    },
+    {
+      "start": 544.399,
+      "duration": 4.481,
+      "text": "app I created. Put that through"
+    },
+    {
+      "start": 546.16,
+      "duration": 4.799,
+      "text": "Cloudflare. Couple of pennies. Now, the"
+    },
+    {
+      "start": 548.88,
+      "duration": 4.56,
+      "text": "ones that actually do stuff, the other"
+    },
+    {
+      "start": 550.959,
+      "duration": 4.721,
+      "text": "ones were just pages. I have a beach"
+    },
+    {
+      "start": 553.44,
+      "duration": 4.8,
+      "text": "rental site for our short-term rentals,"
+    },
+    {
+      "start": 555.68,
+      "duration": 4.08,
+      "text": "bookings, payments, text to guests, uh,"
+    },
+    {
+      "start": 558.24,
+      "duration": 4.8,
+      "text": "that was running about 40 bucks a month"
+    },
+    {
+      "start": 559.76,
+      "duration": 5.68,
+      "text": "on the old setup, and now pennies, the"
+    },
+    {
+      "start": 563.04,
+      "duration": 5.28,
+      "text": "animal shelter site, plus the dashboard"
+    },
+    {
+      "start": 565.44,
+      "duration": 5.12,
+      "text": "where I'll volunteers upload dog photos,"
+    },
+    {
+      "start": 568.32,
+      "duration": 6.4,
+      "text": "the rent tracker for my apartments uh,"
+    },
+    {
+      "start": 570.56,
+      "duration": 7.6,
+      "text": "in El Paso, and my Bitcoin cycle charts."
+    },
+    {
+      "start": 574.72,
+      "duration": 6.559,
+      "text": "All of those run on Google's Firebase."
+    },
+    {
+      "start": 578.16,
+      "duration": 6.239,
+      "text": "And here's my entire bill for all of"
+    },
+    {
+      "start": 581.279,
+      "duration": 8.721,
+      "text": "them. Putting them all together. 49."
+    },
+    {
+      "start": 584.399,
+      "duration": 7.921,
+      "text": "That's in July. August 84. October. $11."
+    },
+    {
+      "start": 590.0,
+      "duration": 4.32,
+      "text": "Getting kind of pricey. Eight websites"
+    },
+    {
+      "start": 592.32,
+      "duration": 3.36,
+      "text": "about a buck a month. That's pretty much"
+    },
+    {
+      "start": 594.32,
+      "duration": 3.36,
+      "text": "what I'm paying. Now, you'll still pay"
+    },
+    {
+      "start": 595.68,
+      "duration": 4.32,
+      "text": "for your domain names every year. That's"
+    },
+    {
+      "start": 597.68,
+      "duration": 4.32,
+      "text": "just owning the name. Everything else is"
+    },
+    {
+      "start": 600.0,
+      "duration": 3.839,
+      "text": "basically gone. all that different"
+    },
+    {
+      "start": 602.0,
+      "duration": 4.399,
+      "text": "problems and all those different uh"
+    },
+    {
+      "start": 603.839,
+      "duration": 4.081,
+      "text": "payments. So, here's part two. Claude is"
+    },
+    {
+      "start": 606.399,
+      "duration": 3.761,
+      "text": "going to be your new site manager, your"
+    },
+    {
+      "start": 607.92,
+      "duration": 4.24,
+      "text": "developer. So, moving the site is half"
+    },
+    {
+      "start": 610.16,
+      "duration": 4.4,
+      "text": "of it. The real question is who fixes it"
+    },
+    {
+      "start": 612.16,
+      "duration": 4.32,
+      "text": "when it breaks because usually support."
+    },
+    {
+      "start": 614.56,
+      "duration": 3.44,
+      "text": "Now, I got Claude for each website."
+    },
+    {
+      "start": 616.48,
+      "duration": 3.28,
+      "text": "Claude is what's called a skill. Think"
+    },
+    {
+      "start": 618.0,
+      "duration": 3.519,
+      "text": "of it as an instruction manual for that"
+    },
+    {
+      "start": 619.76,
+      "duration": 4.079,
+      "text": "one site. This is where all the files"
+    },
+    {
+      "start": 621.519,
+      "duration": 4.481,
+      "text": "live and then how to update it and the"
+    },
+    {
+      "start": 623.839,
+      "duration": 5.12,
+      "text": "rules. What Claude can do on its own and"
+    },
+    {
+      "start": 626.0,
+      "duration": 4.56,
+      "text": "what needs my okay first. Okay. money,"
+    },
+    {
+      "start": 628.959,
+      "duration": 4.081,
+      "text": "customer data, the domain settings,"
+    },
+    {
+      "start": 630.56,
+      "duration": 4.64,
+      "text": "those need my yes, a typo or a color"
+    },
+    {
+      "start": 633.04,
+      "duration": 4.799,
+      "text": "change. It just does it and tells me"
+    },
+    {
+      "start": 635.2,
+      "duration": 4.4,
+      "text": "after. So, I just say, for example, fix"
+    },
+    {
+      "start": 637.839,
+      "duration": 3.601,
+      "text": "the rent tracker website, and it already"
+    },
+    {
+      "start": 639.6,
+      "duration": 4.32,
+      "text": "knows everything. And uh here's what"
+    },
+    {
+      "start": 641.44,
+      "duration": 4.48,
+      "text": "that looks like in real life. People"
+    },
+    {
+      "start": 643.92,
+      "duration": 4.08,
+      "text": "told me pages on price profits would go"
+    },
+    {
+      "start": 645.92,
+      "duration": 4.24,
+      "text": "blank until you hit refresh. Claude"
+    },
+    {
+      "start": 648.0,
+      "duration": 4.079,
+      "text": "found the bug, fixed it, and added a"
+    },
+    {
+      "start": 650.16,
+      "duration": 4.08,
+      "text": "tracker that logs it even if it ever"
+    },
+    {
+      "start": 652.079,
+      "duration": 4.641,
+      "text": "happens again. I pushed an update once,"
+    },
+    {
+      "start": 654.24,
+      "duration": 3.92,
+      "text": "and some vid visitors were still seeing"
+    },
+    {
+      "start": 656.72,
+      "duration": 3.04,
+      "text": "the old version. and Claude found the"
+    },
+    {
+      "start": 658.16,
+      "duration": 4.0,
+      "text": "setting that caused it and fixed it on"
+    },
+    {
+      "start": 659.76,
+      "duration": 4.8,
+      "text": "my websites the exact same day. And uh"
+    },
+    {
+      "start": 662.16,
+      "duration": 3.76,
+      "text": "my assistant needed to move a tenant to"
+    },
+    {
+      "start": 664.56,
+      "duration": 3.36,
+      "text": "a different apartment without losing"
+    },
+    {
+      "start": 665.92,
+      "duration": 4.24,
+      "text": "their payment history. Claude built that"
+    },
+    {
+      "start": 667.92,
+      "duration": 4.4,
+      "text": "out, tested it, shipped it, and now it"
+    },
+    {
+      "start": 670.16,
+      "duration": 4.4,
+      "text": "works just fine. And also Claude is my"
+    },
+    {
+      "start": 672.32,
+      "duration": 3.68,
+      "text": "marketer, too. Claude set up tracking so"
+    },
+    {
+      "start": 674.56,
+      "duration": 3.76,
+      "text": "I can see exactly how many people"
+    },
+    {
+      "start": 676.0,
+      "duration": 3.519,
+      "text": "started booking on my rental site for"
+    },
+    {
+      "start": 678.32,
+      "duration": 3.68,
+      "text": "the short terms and how many people"
+    },
+    {
+      "start": 679.519,
+      "duration": 5.121,
+      "text": "actually pay. It sets the site up so"
+    },
+    {
+      "start": 682.0,
+      "duration": 5.279,
+      "text": "apps like Chad GPT can find it and"
+    },
+    {
+      "start": 684.64,
+      "duration": 4.48,
+      "text": "recommend it. And on the first of every"
+    },
+    {
+      "start": 687.279,
+      "duration": 3.841,
+      "text": "month, Claude runs a security check. Is"
+    },
+    {
+      "start": 689.12,
+      "duration": 3.6,
+      "text": "the padlock about to expire? Did Google"
+    },
+    {
+      "start": 691.12,
+      "duration": 3.839,
+      "text": "flag the site? Did a password or key"
+    },
+    {
+      "start": 692.72,
+      "duration": 3.92,
+      "text": "leak? If everything's fine, I never hear"
+    },
+    {
+      "start": 694.959,
+      "duration": 3.44,
+      "text": "about it. If something fails, I get a"
+    },
+    {
+      "start": 696.64,
+      "duration": 4.4,
+      "text": "notification from Claude saying, \"We fix"
+    },
+    {
+      "start": 698.399,
+      "duration": 5.68,
+      "text": "this.\" Again, Claude is just that, an"
+    },
+    {
+      "start": 701.04,
+      "duration": 6.16,
+      "text": "employee that I direct. Now, here's the"
+    },
+    {
+      "start": 704.079,
+      "duration": 5.521,
+      "text": "don'ts. Here's how you keep it cheap,"
+    },
+    {
+      "start": 707.2,
+      "duration": 3.92,
+      "text": "because free can turn into a bill real"
+    },
+    {
+      "start": 709.6,
+      "duration": 3.44,
+      "text": "fast if you're not careful. And this"
+    },
+    {
+      "start": 711.12,
+      "duration": 4.24,
+      "text": "actually happened to me. So, don't let"
+    },
+    {
+      "start": 713.04,
+      "duration": 4.4,
+      "text": "anything run every few minutes. If"
+    },
+    {
+      "start": 715.36,
+      "duration": 4.0,
+      "text": "Claude sets up something like automatic,"
+    },
+    {
+      "start": 717.44,
+      "duration": 4.32,
+      "text": "like sending reminders or checking for"
+    },
+    {
+      "start": 719.36,
+      "duration": 4.32,
+      "text": "updates every 10 seconds, make it run"
+    },
+    {
+      "start": 721.76,
+      "duration": 4.72,
+      "text": "once an hour, not every five minutes or"
+    },
+    {
+      "start": 723.68,
+      "duration": 5.12,
+      "text": "a few seconds. Every run costs money and"
+    },
+    {
+      "start": 726.48,
+      "duration": 4.159,
+      "text": "every five minutes adds up quietly until"
+    },
+    {
+      "start": 728.8,
+      "duration": 3.44,
+      "text": "you get the actual bill. Second one,"
+    },
+    {
+      "start": 730.639,
+      "duration": 3.361,
+      "text": "don't leave your keys laying around. The"
+    },
+    {
+      "start": 732.24,
+      "duration": 3.76,
+      "text": "animal shelter site had an AI feature"
+    },
+    {
+      "start": 734.0,
+      "duration": 4.24,
+      "text": "that was left wide open and somebody"
+    },
+    {
+      "start": 736.0,
+      "duration": 4.639,
+      "text": "found it and used it to make AI videos"
+    },
+    {
+      "start": 738.24,
+      "duration": 4.48,
+      "text": "on our bill about 50 bucks before we"
+    },
+    {
+      "start": 740.639,
+      "duration": 4.32,
+      "text": "caught it. Claude locked that down. So"
+    },
+    {
+      "start": 742.72,
+      "duration": 4.72,
+      "text": "the lesson is your passwords and keys"
+    },
+    {
+      "start": 744.959,
+      "duration": 4.961,
+      "text": "never go inside the website itself. And"
+    },
+    {
+      "start": 747.44,
+      "duration": 4.88,
+      "text": "also set a billing alert. Five bucks, 20"
+    },
+    {
+      "start": 749.92,
+      "duration": 4.4,
+      "text": "bucks, whatever. One email is a lot"
+    },
+    {
+      "start": 752.32,
+      "duration": 4.48,
+      "text": "cheaper than a big surprise bill. And"
+    },
+    {
+      "start": 754.32,
+      "duration": 4.639,
+      "text": "here's what else can go wrong. So let me"
+    },
+    {
+      "start": 756.8,
+      "duration": 4.08,
+      "text": "be straight. It's not all perfect."
+    },
+    {
+      "start": 758.959,
+      "duration": 5.201,
+      "text": "That's just pretty much par for the"
+    },
+    {
+      "start": 760.88,
+      "duration": 5.199,
+      "text": "course. These free hosts use robots to"
+    },
+    {
+      "start": 764.16,
+      "duration": 4.239,
+      "text": "to police their sites. My crypto site"
+    },
+    {
+      "start": 766.079,
+      "duration": 3.841,
+      "text": "got flagged by Google's automated system"
+    },
+    {
+      "start": 768.399,
+      "duration": 4.0,
+      "text": "and the whole thing got shut off with no"
+    },
+    {
+      "start": 769.92,
+      "duration": 5.44,
+      "text": "warning. I appealed. weeks went by,"
+    },
+    {
+      "start": 772.399,
+      "duration": 5.761,
+      "text": "absolutely nothing. So Claude moved it"
+    },
+    {
+      "start": 775.36,
+      "duration": 4.8,
+      "text": "to Cloudflare instead and it was a"
+    },
+    {
+      "start": 778.16,
+      "duration": 4.0,
+      "text": "backup on my real domain in just a few"
+    },
+    {
+      "start": 780.16,
+      "duration": 4.239,
+      "text": "days. So the lesson here is if you're in"
+    },
+    {
+      "start": 782.16,
+      "duration": 4.08,
+      "text": "finance or crypto, be careful how you"
+    },
+    {
+      "start": 784.399,
+      "duration": 4.481,
+      "text": "word things and always have a plan B"
+    },
+    {
+      "start": 786.24,
+      "duration": 4.08,
+      "text": "because things can get shut down. Also,"
+    },
+    {
+      "start": 788.88,
+      "duration": 3.519,
+      "text": "back up your files. If your computer"
+    },
+    {
+      "start": 790.32,
+      "duration": 4.48,
+      "text": "dies, the website stays up, but you lose"
+    },
+    {
+      "start": 792.399,
+      "duration": 5.601,
+      "text": "the ability to ever change it moving"
+    },
+    {
+      "start": 794.8,
+      "duration": 6.32,
+      "text": "forward. So let's recap. We got five"
+    },
+    {
+      "start": 798.0,
+      "duration": 5.279,
+      "text": "steps here. Make it simple. One, I want"
+    },
+    {
+      "start": 801.12,
+      "duration": 4.8,
+      "text": "you to list every bill so you know your"
+    },
+    {
+      "start": 803.279,
+      "duration": 4.481,
+      "text": "before number. Number two, pick the"
+    },
+    {
+      "start": 805.92,
+      "duration": 4.479,
+      "text": "cheap one. Cloudflare if it's just"
+    },
+    {
+      "start": 807.76,
+      "duration": 4.079,
+      "text": "pages, Firebase if it has to do some"
+    },
+    {
+      "start": 810.399,
+      "duration": 4.081,
+      "text": "things like what I do with my short-term"
+    },
+    {
+      "start": 811.839,
+      "duration": 4.8,
+      "text": "rental site. Three, quad moves it and"
+    },
+    {
+      "start": 814.48,
+      "duration": 4.159,
+      "text": "you approve the preview. You get to"
+    },
+    {
+      "start": 816.639,
+      "duration": 3.921,
+      "text": "check take a look before it goes live."
+    },
+    {
+      "start": 818.639,
+      "duration": 3.521,
+      "text": "Four, you can change the website's"
+    },
+    {
+      "start": 820.56,
+      "duration": 4.56,
+      "text": "address, but leave [music] the email"
+    },
+    {
+      "start": 822.16,
+      "duration": 6.0,
+      "text": "alone. And five, give every site its own"
+    },
+    {
+      "start": 825.12,
+      "duration": 4.959,
+      "text": "skill and let Claude be your [music]"
+    },
+    {
+      "start": 828.16,
+      "duration": 3.919,
+      "text": "site manager. Remember the don'ts that"
+    },
+    {
+      "start": 830.079,
+      "duration": 4.0,
+      "text": "we talked about, nothing running every"
+    },
+    {
+      "start": 832.079,
+      "duration": 4.0,
+      "text": "five minutes, no keys inside your"
+    },
+    {
+      "start": 834.079,
+      "duration": 4.33,
+      "text": "website, and set an absolute billing"
+    },
+    {
+      "start": 836.079,
+      "duration": 4.241,
+      "text": "alert so you don't get a surprise email."
+    },
+    {
+      "start": 838.409,
+      "duration": 3.43,
+      "text": "[music] And the great point is you can"
+    },
+    {
+      "start": 840.32,
+      "duration": 3.36,
+      "text": "start the day with just that first"
+    },
+    {
+      "start": 841.839,
+      "duration": 4.961,
+      "text": "prompt. Just see what you're actually"
+    },
+    {
+      "start": 843.68,
+      "duration": 6.0,
+      "text": "paying. Again, the more we use AI, the"
+    },
+    {
+      "start": 846.8,
+      "duration": 4.8,
+      "text": "better we become at mastering it. So"
+    },
+    {
+      "start": 849.68,
+      "duration": 3.76,
+      "text": "that's how I was able to use Claude to"
+    },
+    {
+      "start": 851.6,
+      "duration": 4.96,
+      "text": "get off overpriced hosting and have it"
+    },
+    {
+      "start": 853.44,
+      "duration": 5.44,
+      "text": "manage all eight of my websites for a"
+    },
+    {
+      "start": 856.56,
+      "duration": 4.24,
+      "text": "fraction of the cost. If you like this"
+    },
+    {
+      "start": 858.88,
+      "duration": 3.92,
+      "text": "video, hit the like and subscribe. And"
+    },
+    {
+      "start": 860.8,
+      "duration": 4.08,
+      "text": "if you want to see more videos on all"
+    },
+    {
+      "start": 862.8,
+      "duration": 4.64,
+      "text": "the things AI, including investments and"
+    },
+    {
+      "start": 864.88,
+      "duration": 7.319,
+      "text": "daily use, check out these videos which"
+    },
+    {
+      "start": 867.44,
+      "duration": 4.759,
+      "text": "are popping up on your screen right now."
+    }
+  ],
+  "full_text": "I was paying over $1,300 a year just to keep my websites online. [music] Now I run eight websites and the hosting cost me about the price of one coffee a [music] month. I didn't hire web guy and learn to code. Claude moved everything and Claude AI is now the [music] site manager slashdeveloper slashmarketer slash everything needed for all eight of those sites. [music] So, here's how I did it and how you can do it easily, plus some things you must absolutely not do to make sure the cost [music] stays low and the sites are absolutely optimized. If you're new here, my name is Rob. I'm not an AI researcher or tech guy. I'm just a multiple business owner that uses AI to help run each and every one of them. On Dane, we talk about AI for business, everyday use, and of course, investments. All right, and know that. Let's get right into it. Quick note, nobody's paying me to say any of this. These hosting companies do work. You're just paying for a lot you absolutely do not need. Let me show you the receipts. And yes, Claude found these from me same way I showed you in the last episode as I got audited for taxes. Number one, site ground. One plan for one website. $540 a year plus 60 bucks a year for something called a site scanner. $139 with tax. That's just for one site. Now, GoDaddy, the domain name, 18 bucks. Fine. But then website security express $300. A three-year backup plan $108. Ultimate domain protection security 15. Manage WordPress $216. Now, every one of those got added at checkout or an autorenew. Those sound good until you realize that Claude can do most of what those are absolutely offering. And here's the crazy part. While I was writing this script, I had Claude go through my credit card statements to get the real numbers and found a GoDaddy charge for $720 from this May of this year. Now, I had no idea that charge was absolutely there. And this is not a domain name. Those are 10 or $13. This was $720. And I never even noticed it until we went through it. So, if it happened to me, it's probably happening to you in some way, shape, or form. And that's exactly why I'm going to do a whole video on using Claude to find the hidden charges you're paying for and don't know about. That's coming up uh soon. So, make sure you're subscribed and turn on the bell so you can be notified of when that video gets pushed out. So, last year hosting of domains in my books came out to 1350 bucks. And don't get me started on email marketing. I was paying Aweber close to 2,000 bucks a year. Now, I pay roughly $10 a month for three different email lists, but that's for the next video. Today, we're going to talk about why it's so cheap or free in some instances. So, most small business websites are a few pages of words and pictures. Putting that on the internet cost almost nothing. Companies like Cloudflare and Google's Firebase will host it for you for free or close to it. Now, you're probably thinking, \"All right, Rob, why would anybody host my website for free?\" Simple. It costs them almost nothing to host it. These are some of the biggest tech companies in the world. They already have giant networks of computers all over the planet. So, your little website, which is a few pages and some pictures, just like mine, is like a drop of water in the ocean to them. So, the free part is the hook. It's like the free sample at Costco. They bring you in, but they're betting that some of you absolutely grow. You add bookings, payments, login, AI, and that's when they start charging. And even then, for a small business, we're talking about pennies to a few bucks a month. So, it's not too extravagant. And Cloudflare gets something else out of it, too. The more websites that run through their network, the better they get at spotting hackers and blocking attacks. And that's what their big paying customers, the huge companies, are actually paying for. They're using you to make them better. So, you're not you're not getting a handout. You're using the free level of a business that makes its money on the big guys. So, if you have a website that is a little more advanced than just a couple of pages, you can also check out computebportal.io. It's always best to compare prices and needs. So, we try to give you many options. Links to this are in the description. So, why GoDaddy is absolutely overpriced. The padlock in the address bar, the security certificate, free and automatic backups, every version you ever put up gets saved. Sounds good. So, what were you paying GoDaddy for? The dashboard, the upsells, and the fact that doing yourself was just way too hard and you couldn't do it. That last part is what changed recently. Claude now does the hard part for me and you now. So, here's step one. I want you to do this. List every bill you got. You can't prove you saved money if you don't know what you're absolutely paying for. So, here's the prompt. I want you to steal it. It's in the description below, so you don't have to go through it. Just copy and paste. Look through my email and my credit card statements and list every website, hosting, domain, and plug-in bill that I pay. Tell me what each one is for, how much it costs, and how often. Then, tell me which ones I actually need. That's your before number. Write it down so you actually have it. Here's step two. Let's pick the cheap one that we can actually get into. Two choices and Cloud will tell you which one fits for you and your best offer. If your site is just pages, no login, no payments, use Cloudflare. It won't cost you anything. It's pretty much free. But if you're have if you have your site that has to do something like take bookings, take payments, let people log in, use Firebase. It'll cost you pennies to a couple bucks, but not too much at all. So, here's step three. Lot is going to move everything over from what you do now to the new stuff. Here's the prompt to get that ball going. Steal this one, too. The full version is in the description. So, just copy and paste it. Here's what you want it to say. I want to move my website off my current host to something cheaper like Cloudflare Pages or Firebase or Compute Portal. My website is fill in the blank your website and it's hosted at whatever it is, GoDaddy, Wix, Site Ground, whatever. Look at my site. Tell me which one fits and what it will cost me each month. give me a preview link before anything goes live and do not touch my email or my domain settings without my explicit approval and then add my favorite line at the very end which is ask questions until you're 95% sure of what I want to give me push back if you have better ideas for me to consider again all linked in the description so both of these prompts will be in the description below so you can copy and paste them instead of trying to type it manually try to make it easy here for you so from there claude rebuilds the site puts it up and gives me a preview link first. I click around. I check it on my phone. Nothing goes live until I say so. That's the rule. Claude builds. I approve. That should be the rule for you as well. Step four. Here's the scary part, but not anymore. Your domain. This is the part that scares people and it shuts them down, but it's really easy. So, let me make it extremely simple for you. Your domain settings are basically an address book. It tells the internet where your website lives and where emails are supposed to go. You want to change the website's address. You do not want to touch the email itself. The animal shelter, Migosalis, had two domains sitting at GoDaddy. Claude told me exactly which lines to change and which ones to leave alone. The shelter's email never went down for one second. The new site was live in about six minutes. And Claude can do all the clinking clicking for you if you don't really feel comfortable with it. If you connect Claude to your web browser, it can go into your domain dashboard and make those changes itself. You log in, Claude does all the clinking very easy. But on this part, I watch every single change before it saves. One click here and your email goes down. So with Claude, I just make sure I watch it. But so far, it's been perfect. If you want to know how to connect your browser, just ask Claude or watch my video, Supercharge Claw with memory and connectors. It's linked in the description below as well. And also, here's one I didn't expect. While we were moving my crypto site, Claude found an old email sitting in with an old letter typo in it. It pointed to a website name that didn't exist for years, but somebody went and registered this in January. That meant a stranger could send email that looked like it came from my website. No web guy caught it. had a couple that went through it with me. Claude caught it in the middle of a move and that saved me. And here's what I pay now. So, this is the after part sight by sight. Dan teaches crypto. Uh, that was the $639 a year at Site Ground. Now, it's on Cloudflare. Uh, $0. Price profits. That's on Cloudflare and it cost me $0. I have a Spanish learning app I created. Put that through Cloudflare. Couple of pennies. Now, the ones that actually do stuff, the other ones were just pages. I have a beach rental site for our short-term rentals, bookings, payments, text to guests, uh, that was running about 40 bucks a month on the old setup, and now pennies, the animal shelter site, plus the dashboard where I'll volunteers upload dog photos, the rent tracker for my apartments uh, in El Paso, and my Bitcoin cycle charts. All of those run on Google's Firebase. And here's my entire bill for all of them. Putting them all together. 49. That's in July. August 84. October. $11. Getting kind of pricey. Eight websites about a buck a month. That's pretty much what I'm paying. Now, you'll still pay for your domain names every year. That's just owning the name. Everything else is basically gone. all that different problems and all those different uh payments. So, here's part two. Claude is going to be your new site manager, your developer. So, moving the site is half of it. The real question is who fixes it when it breaks because usually support. Now, I got Claude for each website. Claude is what's called a skill. Think of it as an instruction manual for that one site. This is where all the files live and then how to update it and the rules. What Claude can do on its own and what needs my okay first. Okay. money, customer data, the domain settings, those need my yes, a typo or a color change. It just does it and tells me after. So, I just say, for example, fix the rent tracker website, and it already knows everything. And uh here's what that looks like in real life. People told me pages on price profits would go blank until you hit refresh. Claude found the bug, fixed it, and added a tracker that logs it even if it ever happens again. I pushed an update once, and some vid visitors were still seeing the old version. and Claude found the setting that caused it and fixed it on my websites the exact same day. And uh my assistant needed to move a tenant to a different apartment without losing their payment history. Claude built that out, tested it, shipped it, and now it works just fine. And also Claude is my marketer, too. Claude set up tracking so I can see exactly how many people started booking on my rental site for the short terms and how many people actually pay. It sets the site up so apps like Chad GPT can find it and recommend it. And on the first of every month, Claude runs a security check. Is the padlock about to expire? Did Google flag the site? Did a password or key leak? If everything's fine, I never hear about it. If something fails, I get a notification from Claude saying, \"We fix this.\" Again, Claude is just that, an employee that I direct. Now, here's the don'ts. Here's how you keep it cheap, because free can turn into a bill real fast if you're not careful. And this actually happened to me. So, don't let anything run every few minutes. If Claude sets up something like automatic, like sending reminders or checking for updates every 10 seconds, make it run once an hour, not every five minutes or a few seconds. Every run costs money and every five minutes adds up quietly until you get the actual bill. Second one, don't leave your keys laying around. The animal shelter site had an AI feature that was left wide open and somebody found it and used it to make AI videos on our bill about 50 bucks before we caught it. Claude locked that down. So the lesson is your passwords and keys never go inside the website itself. And also set a billing alert. Five bucks, 20 bucks, whatever. One email is a lot cheaper than a big surprise bill. And here's what else can go wrong. So let me be straight. It's not all perfect. That's just pretty much par for the course. These free hosts use robots to to police their sites. My crypto site got flagged by Google's automated system and the whole thing got shut off with no warning. I appealed. weeks went by, absolutely nothing. So Claude moved it to Cloudflare instead and it was a backup on my real domain in just a few days. So the lesson here is if you're in finance or crypto, be careful how you word things and always have a plan B because things can get shut down. Also, back up your files. If your computer dies, the website stays up, but you lose the ability to ever change it moving forward. So let's recap. We got five steps here. Make it simple. One, I want you to list every bill so you know your before number. Number two, pick the cheap one. Cloudflare if it's just pages, Firebase if it has to do some things like what I do with my short-term rental site. Three, quad moves it and you approve the preview. You get to check take a look before it goes live. Four, you can change the website's address, but leave [music] the email alone. And five, give every site its own skill and let Claude be your [music] site manager. Remember the don'ts that we talked about, nothing running every five minutes, no keys inside your website, and set an absolute billing alert so you don't get a surprise email. [music] And the great point is you can start the day with just that first prompt. Just see what you're actually paying. Again, the more we use AI, the better we become at mastering it. So that's how I was able to use Claude to get off overpriced hosting and have it manage all eight of my websites for a fraction of the cost. If you like this video, hit the like and subscribe. And if you want to see more videos on all the things AI, including investments and daily use, check out these videos which are popping up on your screen right now."
+}
