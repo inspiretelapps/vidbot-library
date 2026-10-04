@@ -9,8 +9,146 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-04T10:48:55+02:00",
+  "updated_at": "2026-10-04T12:05:53+02:00",
   "videos": [
+    {
+      "id": "OATUSWvp1i8",
+      "title": "I Fired GoDaddy. Claude Runs My 8 Sites for $1/Month",
+      "channel": "DAIN - Digital Artificial Intelligence Navigator",
+      "upload_date": "20261003",
+      "duration_seconds": 878,
+      "thumbnail": "https://i.ytimg.com/vi/OATUSWvp1i8/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OATUSWvp1i8",
+      "description": "I was paying over $1,300 a year just to keep my websites online. Now I run 8 websites and apps, and my entire Google bill for all of them is about $1 a month. I didn't hire a web guy and I didn't learn to code. Claude moved everything over, and now Claude is my site manager, developer and marketer.\nIn this video:\n\n• What I was really paying SiteGround and GoDaddy (plus a $720 charge I never noticed)\n• Why Cloudflare and Firebase will host your website for free or close to it\n• The 4 steps to move your site off GoDaddy, Wix or SiteGround with Claude\n• How to change your domain without breaking your email\n• How Claude runs all 8 sites as my site manager\n• The don'ts that keep \"free\" from turning into a surprise bill\n\n📋 PROMPT 1: FIND EVERY BILL (copy and paste):\nLook through my email and my credit card statements and list every website, hosting, domain and plugin bill I pay. Tell me what each one is for, how much it costs and how often. Then tell me which ones I actually need.\n\n📋 PROMPT 2: MOVE YOUR WEBSITE (copy and paste, fill in the brackets):\nI want to move my website off my current host to something cheaper like Cloudflare Pages or Firebase. My website is [YOUR WEBSITE] and it's hosted at [GoDaddy / Wix / SiteGround / wherever]. \nBefore you change anything:\n\n1) List what my site does today (pages, forms, payments, logins, email signups) and tell me whether Cloudflare Pages or Firebase fits, and what it will cost me each month.\n\n2) Rebuild it and give me a PREVIEW link to approve before anything goes live.\n\n3) Do NOT touch my email or domain settings without my approval. When it's time, show me exactly which records to change and which to leave alone (MX, SPF, DKIM, DMARC).\n\n4) Keep costs low: nothing that runs every few minutes, no passwords or API keys inside the website code, and help me set a billing alert.\nAsk questions until you are 95% sure of what I want and give me push back if you have better ideas for me to consider.\n\n--------------\n\n🔗 Connect Claude to your browser so it can do the clicking (jump to 12:50):\nhttps://youtu.be/r6u81Zrt9mM?t=770\n\n💻 Need more than a few pages? Compare prices at Compute Portal:\nhttps://computeportal.io\n\n🎓 New to Claude? Start with the A.I. Bootcamp playlist:\nhttps://www.youtube.com/playlist?list=PLKvHKkHySwCiN4k9K3IXswshJw-uHHSeL\n\nLINKS TO HOSTING SITES\n\nCloudflare Pages (free hosting): https://pages.cloudflare.com\nCloudflare dashboard (DNS): https://dash.cloudflare.com\nFirebase (hosting for sites that DO stuff): https://firebase.google.com\nClaude: https://claude.ai\n\n\n⏱️ CHAPTERS\n0:00 8 websites for about $1 a month\n0:35 Who I am\n0:57 What I was paying\n1:43 The $720 charge I never noticed\n2:49 Why is website hosting so cheap (or free)?\n4:26 Why GoDaddy is overpriced\n4:53 Step 1: List every bill\n5:26 Step 2: Pick the cheap home\n5:51 Step 3: Claude moves it\n7:06 Step 4: Your domain (without breaking email)\n8:45 What I pay now, site by site\n10:04 Claude as your site manager\n11:42 The don'ts\n12:34 What can go wrong\n13:15 Recap\n🔔 Subscribe: new A.I. for business videos every Wednesday + Sunday\n👍 Like this video if it saved you money, and share it with a business owner still paying GoDaddy\nDAIN: Rob Wolff shows you exactly how he uses AI to run four real businesses. Real workflows. Real results. Steal them.\nPrices shown are from my own bills. Your costs depend on your site and usage.",
+      "summary": "Audit the old bill before buying a migration [00:57–02:49]: Rob Wolff reports $1,350 in last year's hosting-and-domain costs and a previously unnoticed $720 GoDaddy charge found by having Claude review his statements. His examples include a $540-a-year SiteGround plan plus a $60 scanner, and separate GoDaddy security, backup and managed-WordPress charges. The practical opportunity is to identify recurring add-ons and the functions they actually deliver before deciding what to cancel; his receipts and outcomes are personal reports, not a controlled hosting benchmark.\n\nChoose by functionality, then approve the rebuild [02:49–07:06]: Wolff recommends Cloudflare for a few static pages and Firebase for bookings, payments or logins, arguing that small workloads can fit free or low-cost infrastructure instead of a bundled managed-hosting plan. His migration prompt asks Claude to inspect current functionality, estimate cost, rebuild the site and provide a preview, with explicit permission required for email or domain changes. He checks the preview on his phone and makes the division of responsibility clear: Claude builds, the owner approves. This is a described workflow with reusable prompts, not a complete live migration tutorial.\n\nProtect email and separate the headline from total cost [07:06–10:04]: Wolff says his shelter website switched in about six minutes with no email interruption because Claude identified which domain records to change and which to preserve; he still watches every browser change before it saves. He reports his crypto site's move from $639 a year to $0 hosting on Cloudflare and a rental site's move from an approximately $40-a-month setup to pennies, with the combined Google bill for his Firebase workloads around $1 a month. Annual domain renewals remain, and the headline does not itemise Claude, payment, messaging or other service costs. The automatic captions garble the individual monthly Google invoice amounts, so only his explicit approximate-$1 statement is retained, not reconstructed invoice values.\n\nTurn a rebuild into an operated system [10:04–11:42]: Wolff gives each site a skill documenting its files, deployment procedure and approval boundaries: money, customer data and domain settings need permission, while minor typo or colour edits can proceed. He reports Claude fixing blank-page and stale-version problems, implementing a tenant transfer without losing payment history, and adding booking-conversion tracking. Monthly security checks examine certificate expiry, Google flags and leaked credentials, with exceptions sent to him; these are his reported operational examples, not evidence that AI replaces all human oversight or professional security review.\n\nLow-cost hosting still needs cost and continuity controls [11:42–14:27]: Wolff warns that frequent jobs generate usage charges and reports roughly $50 of unauthorised AI-video use through an exposed shelter feature. He recommends less frequent scheduling, no passwords or API keys in website code, and billing alerts, suggesting $5 or $20 thresholds as examples. His crypto site was also reportedly shut down by Google's automated moderation, with an unanswered appeal for weeks before relocation to Cloudflare, so he advises a fallback and source backups. His final verdict is to audit bills first, select hosting by requirements, approve the preview, leave email intact and maintain a per-site skill: the saving is plausible for his small workloads, not a universal $1 operating-cost promise.",
+      "why_valuable": "Small sites may not need a bundled managed-hosting plan: Wolff reports moving a $639-a-year crypto site to $0 Cloudflare hosting and running his Firebase workloads for about $1 a month. This helps decide which hosting add-ons to remove, whether a site needs static hosting or backend services, and how to migrate without breaking email; domain renewals and unitemised AI or other service costs mean the headline is not a complete operating budget.",
+      "key_takeaways": [
+        "01:43–02:49 — Wolff reports an unnoticed $720 GoDaddy charge and $1,350 in annual hosting-and-domain spend; audit amounts, renewal frequency and actual purpose before cancelling services.",
+        "05:26–05:51 — His rule of thumb is Cloudflare for pages without logins or payments, Firebase for bookings, payments or accounts; the claimed low price depends on functionality and usage.",
+        "05:51–07:06 — Require a cost estimate and a phone-tested preview; Claude may rebuild, but publication and email/domain changes need the owner’s explicit approval.",
+        "07:06–08:45 — Wolff reports a six-minute shelter cutover without email downtime and still supervises every saved DNS change; moving the website must not redirect its email.",
+        "08:45–10:04 — The reported $639-a-year site becomes $0 hosting, while annual domain renewals remain. About $1 refers to his combined Google bill, not a fully itemised cost for hosting, AI and all business services.",
+        "10:04–11:42 — A site-specific skill stores file paths, update steps and approval limits; Wolff reports bug fixes, tenant-history preservation, conversion tracking and monthly security checks.",
+        "11:42–12:34 — He reports about $50 of unauthorised AI-video use through an exposed feature: protect credentials, reduce frequent automated jobs and add billing alerts rather than assuming free hosting prevents charges.",
+        "12:34–14:27 — His crypto site was reportedly suspended by Google with an appeal unanswered for weeks; keep source backups and an alternative deployment path, especially for finance-related sites."
+      ],
+      "quick_takeaways": [
+        "Audit hosting, domain and plugin renewals first; Wolff found a $720 GoDaddy charge he had missed.",
+        "Choose around site behaviour: he uses Cloudflare for static pages and Firebase for sites needing bookings, payments or logins.",
+        "Approve a phone-tested preview before launch and supervise DNS changes so website migration does not break email.",
+        "His roughly $1 Google hosting bill is personal usage, not a complete budget; domain renewals and other services remain separate.",
+        "Give each site documented instructions and approval boundaries; keep secrets private, schedule jobs sparingly, set billing alerts and retain backups plus a fallback host."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "8 websites for about $1 a month",
+          "description": "Rob Wolff says Claude migrated his websites and now handles development, maintenance and marketing across eight sites. He frames the saving against more than $1,300 a year in previous hosting costs, while promising guardrails that stop inexpensive hosting from becoming an unexpected bill.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 35,
+          "timestamp": "00:35",
+          "title": "Who I am",
+          "description": "Wolff introduces himself as a multiple-business owner applying AI to daily operations rather than an AI researcher or technical specialist. He says the hosting companies work and that nobody is paying him for this recommendation, positioning the criticism around unnecessary services rather than claiming the providers cannot host a website.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 57,
+          "timestamp": "00:57",
+          "title": "What I was paying",
+          "description": "Wolff reads out a SiteGround plan at $540 a year plus a $60 site scanner, followed by GoDaddy charges including an $18 domain, $300 security product, $108 three-year backup plan and $216 managed WordPress. He attributes the extra services to checkout additions and renewals, arguing that an owner should identify which functions still justify payment rather than accept reassuring product names.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 103,
+          "timestamp": "01:43",
+          "title": "The $720 charge I never noticed",
+          "description": "An AI-assisted review of credit-card statements uncovers a $720 GoDaddy charge that Wolff says he had not noticed, illustrating why recurring-bill discovery comes before migration. He puts last year's hosting-and-domain total at $1,350 and separately mentions nearly $2,000 a year for AWeber, but reserves his email-marketing replacement for another video.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 169,
+          "timestamp": "02:49",
+          "title": "Why is website hosting so cheap (or free)?",
+          "description": "Wolff argues that a few pages of text and pictures consume little infrastructure on Cloudflare or Firebase, whose free tiers can attract customers who later need paid capabilities. Bookings, payments, logins and AI introduce additional services and possible charges, so he recommends comparing the site's actual requirements and points more advanced projects toward Compute Portal as another pricing comparison.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 266,
+          "timestamp": "04:26",
+          "title": "Why GoDaddy is overpriced",
+          "description": "Wolff contrasts paid hosting add-ons with the free certificate and saved deployment versions he says are available in his replacement setup. His explanation for the old premium is the dashboard, upsells and difficulty of doing the work independently; he argues Claude removes much of that difficulty, not that every backup or security need disappears.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 293,
+          "timestamp": "04:53",
+          "title": "Step 1: List every bill",
+          "description": "The suggested prompt asks Claude to review emails and credit-card statements, identify website, hosting, domain and plugin bills, and record their purpose, amount and frequency. Wolff wants a written baseline and a judgement about which services are necessary, because savings cannot be demonstrated without knowing the current spend.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 326,
+          "timestamp": "05:26",
+          "title": "Step 2: Pick the cheap home",
+          "description": "Wolff recommends Cloudflare for sites consisting of pages without logins or payments, and Firebase for projects that need bookings, payments or user accounts. He describes the former as effectively free and the latter as pennies to a few dollars for his use cases, making functionality rather than the old provider's brand the basis for the choice.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 351,
+          "timestamp": "05:51",
+          "title": "Step 3: Claude moves it",
+          "description": "The migration prompt asks Claude to inspect the existing site, propose a suitable cheaper host and monthly cost, and supply a preview before publication. Wolff checks that preview on his phone and insists that email or domain settings require explicit approval, with questions and pushback encouraged before the agent proceeds.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 426,
+          "timestamp": "07:06",
+          "title": "Step 4: Your domain (without breaking email)",
+          "description": "Wolff separates the domain's website destination from its email destination and says his shelter's move went live in about six minutes without interrupting email. Even when Claude operates the browser, he watches every change before saving; he also reports that the migration exposed an old typo-linked email configuration pointing at a domain a stranger had registered, a potential impersonation risk he had previously missed.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 525,
+          "timestamp": "08:45",
+          "title": "What I pay now, site by site",
+          "description": "Wolff says the crypto site moved from $639 a year at SiteGround to $0 on Cloudflare, while a rental site's old setup cost about $40 a month. He lists shelter operations, apartment rent tracking and Bitcoin charts among his Firebase workloads and characterises the combined Google bill as about $1 a month, but explicitly retains annual domain costs; the captions garble the individual monthly invoice amounts, so they cannot support precise invoice figures.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 604,
+          "timestamp": "10:04",
+          "title": "Claude as your site manager",
+          "description": "Each website has a skill containing file locations, update instructions and approval rules, allowing routine typo or colour changes while reserving money, customer data and domain settings for Wolff's consent. He reports fixes for blank pages and stale versions, a tenant-transfer feature that preserves payment history, booking-conversion tracking and monthly security checks, illustrating an ongoing maintenance workflow rather than a one-off rebuild.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 702,
+          "timestamp": "11:42",
+          "title": "The don'ts",
+          "description": "Wolff warns that frequent automated checks accumulate usage charges and suggests less frequent runs, such as hourly instead of every few minutes or seconds. He also reports about $50 of unauthorised AI-video use through an exposed shelter feature, then recommends keeping passwords and keys out of website code and configuring a billing alert, with $5 or $20 as example thresholds.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 754,
+          "timestamp": "12:34",
+          "title": "What can go wrong",
+          "description": "Google's automated system reportedly shut down Wolff's crypto site without warning, and an appeal produced no result for weeks before he moved it to Cloudflare. He advises caution with finance-related wording, a fallback host and backed-up source files, because a surviving deployed website does not restore the owner's ability to maintain it after losing the local project.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 795,
+          "timestamp": "13:15",
+          "title": "Recap",
+          "description": "Wolff closes with five actions: establish the bill baseline, choose hosting around functionality, approve a rebuilt preview, redirect the website without disturbing email, and give every site its own maintenance skill. He repeats the scheduling, secret-handling and billing-alert guardrails and recommends starting with the bill-audit prompt today, presenting his eight-site setup as an achievable workflow rather than a guarantee that every business will pay the same amount.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-04T12:00:27+02:00",
+      "summarized_at": "2026-10-04T12:05:53+02:00"
+    },
     {
       "id": "moOBIaIb4a8",
       "title": "Claude + New Mods = Unlimited Possibilities",
