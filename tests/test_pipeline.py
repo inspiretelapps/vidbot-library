@@ -93,6 +93,37 @@ class PipelineTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "quick takeaways"):
                     merge_mod.validate(item)
 
+    def test_merge_removes_video_timestamps_only_from_executive_summary(self):
+        td, root = self.fixture()
+        try:
+            item = json.loads((ROOT / "data/videos.json").read_text())[0]
+            item["summary"] = "Recommendation [00:00–03:18]: Review permissions.\n\n[03:18–05:34 | Keep control] Schedule a 10:00 a.m. check; John 3:16 is a scripture citation."
+            chapters = item["chapters"]
+            source = root / "summary.json"
+            source.write_text(json.dumps(item))
+            merge_mod.merge(source, root)
+            render_mod.render(root)
+            published = json.loads((root / "public/videos.json").read_text())["videos"][0]
+            self.assertEqual("Recommendation: Review permissions.\n\nKeep control: Schedule a 10:00 a.m. check; John 3:16 is a scripture citation.", published["summary"])
+            self.assertEqual(chapters, published["chapters"])
+        finally: td.cleanup()
+
+    def test_summary_cleanup_handles_existing_annotation_formats(self):
+        examples = {
+            "**00:00–06:30 | Demand first.** Validate the product.": "**Demand first.** Validate the product.",
+            "00:00–04:22 | Design: Compare the results.": "Design: Compare the results.",
+            "[09:45–11:15; 14:15–16:57 | Billing] Charge for usage.": "Billing: Charge for usage.",
+            "(36:51–end) The final verdict.": "The final verdict.",
+            "[00:40–03:50] Review the model. (WorkOS sponsor segment: ~02:00–03:20.)": "Review the model. (WorkOS sponsor segment.)",
+            "He reports 51.3% at 02:30–02:40 and 77.5% at 04:16–04:26.": "He reports 51.3% and 77.5%.",
+            "At 06:09 he explains. A promotion at 07:31 is sponsorship.": "He explains. A promotion is sponsorship.",
+            "Meet at 10:00 a.m. and discuss John 3:16.": "Meet at 10:00 a.m. and discuss John 3:16.",
+        }
+        for original, expected in examples.items():
+            with self.subTest(original=original):
+                self.assertEqual(expected, merge_mod.clean_executive_summary(original))
+                self.assertEqual(expected, merge_mod.clean_executive_summary(expected))
+
     def test_site_formats_every_library_upload_date(self):
         html = (ROOT / "site/index.html").read_text()
         match = re.search(r"const fmtDate=.*?;(?=\n)", html)
