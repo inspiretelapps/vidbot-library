@@ -57,6 +57,42 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual("Test", payload["playlist"]["title"])
         finally: td.cleanup()
 
+    def test_merge_keeps_quick_points_and_long_summary(self):
+        td, root = self.fixture()
+        try:
+            item = json.loads((ROOT / "data/videos.json").read_text())[0]
+            item["quick_takeaways"] = [
+                "Use a context display to track remaining capacity and choose when to compact.",
+                "Review a mod's file and network access before installing it.",
+            ]
+            source = root / "summary.json"
+            source.write_text(json.dumps(item))
+            merge_mod.merge(source, root)
+            render_mod.render(root)
+            published = json.loads((root / "public/videos.json").read_text())["videos"][0]
+            self.assertEqual(item["quick_takeaways"], published["quick_takeaways"])
+            self.assertEqual(item["summary"], published["summary"])
+            self.assertEqual(item["key_takeaways"], published["key_takeaways"])
+            self.assertEqual(item["chapters"], published["chapters"])
+        finally: td.cleanup()
+
+    def test_rejects_unusable_one_minute_points(self):
+        item = json.loads((ROOT / "data/videos.json").read_text())[0]
+        invalid_points = [
+            "A single string instead of a list",
+            [],
+            [None],
+            ["   "],
+            ["Review the mod.", " review  the MOD. "],
+            ["word " * 201],
+            [f"Distinct point {i}." for i in range(7)],
+        ]
+        for points in invalid_points:
+            with self.subTest(points=points):
+                item["quick_takeaways"] = points
+                with self.assertRaisesRegex(ValueError, "quick takeaways"):
+                    merge_mod.validate(item)
+
     def test_site_formats_every_library_upload_date(self):
         html = (ROOT / "site/index.html").read_text()
         match = re.search(r"const fmtDate=.*?;(?=\n)", html)
