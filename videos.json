@@ -9,7 +9,7 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-04T06:06:00+02:00",
+  "updated_at": "2026-10-04T10:22:11+02:00",
   "videos": [
     {
       "id": "moOBIaIb4a8",
@@ -117,7 +117,15 @@
         "07:10–08:21 — Zapier MCP supplies connected-app access and reusable permissions; the combined Skool/Outlook/invitation request is shown, but its specific returned data and delivery outcome are not narrated."
       ],
       "first_detected_at": "2026-10-04T06:00:27+02:00",
-      "summarized_at": "2026-10-04T06:06:00+02:00"
+      "summarized_at": "2026-10-04T10:21:27+02:00",
+      "quick_takeaways": [
+        "Mods can observe, change or block Claude Code events and customize its interface. Practical uses include context/cache tracking and suggested next actions.",
+        "Build around a recurring problem: ask Claude to interview you about your workflow, then describe the mod you need rather than installing novelty add-ons.",
+        "Update Claude Code, generate the mod, then run the resulting code in a fresh terminal session. The demonstrated context indicator does not run in ordinary chat.",
+        "Review mods as executable code: they can reach files, credentials and tool approvals. A plugin's hook list may conceal behavior, and code can change after review.",
+        "The Jev routing demo runs in the creator's Agentic OS. Routing within Claude using OpenRouter is proposed; no cost saving is measured.",
+        "Zapier MCP supplies connected-app access, including Skool and Outlook. A mod can show connector status or credits; the connector, not the interface change, performs the app integration."
+      ]
     },
     {
       "id": "lQU5RX8EyWw",
@@ -262,7 +270,15 @@
         "16:10–18:23 — Hosted assistants can work while the laptop is off; Hermes needs a live local machine or virtual host. Model selection and where inference runs remain separate privacy decisions from installing software locally."
       ],
       "first_detected_at": "2026-10-04T06:00:27+02:00",
-      "summarized_at": "2026-10-04T06:06:00+02:00"
+      "summarized_at": "2026-10-04T10:21:27+02:00",
+      "quick_takeaways": [
+        "Roberts recommends Grok Bot or Dots for a managed assistant, and Hermes for custom systems and model choice. Quoted entry prices: Grok Bot $20/month, Dots $100/month, Hermes software $0 plus model and hardware/hosting costs.",
+        "Dots and Grok Bot keep working when your laptop is off. Hermes needs your computer or VPS running; local installation does not make a remote model private.",
+        "Connect the tools first: Higgsfield supplies image/video generation; Zapier supplies app access. All three retrieved email and drafted replies once connected.",
+        "Hermes included the community's branding in the creative test. Podcast edits needed refinement across all three; allow for follow-up prompts and review. These one-shot tests establish no universal winner.",
+        "Teach preferences through feedback in Dots, screen-recorded workflows in Grok Bot, or editable persistent memory in Hermes.",
+        "Check reported limits: one Dot per plan and no rollout yet in the EEA/UK/Switzerland; Grok usage allowances; Hermes installation, updates and token costs. Verify current pricing and availability before choosing."
+      ]
     },
     {
       "id": "bjIL9qoRHds",
@@ -355,7 +371,15 @@
       "transcript_path": "data/transcripts/bjIL9qoRHds.captions.json",
       "caption_notes": "Canonical metadata and the complete verbatim creator description were retrieved with yt-dlp; no creator chapters were supplied, so all chapters are generated from topic transitions. The full English original auto-caption transcript was retrieved and read through its final segment at 1169.88 seconds; the timestamped text contains 562 non-empty segments and 24,497 characters. The skill helper lacked youtube-transcript-api, and unattended package installation was blocked by incomplete package-security checks, so the successful yt-dlp en-orig track was used instead. Early captions render the data tool as TubeBuddy Q, while later captions and the creator description explicitly name VidIQ; that supported name is used here. The design tool is captioned Cloud Design and its canonical product name is not independently verified. Platform/algorithm claims, tool capabilities, performance figures and price estimates are attributed to McDowell rather than independently validated.",
       "first_detected_at": "2026-10-03T12:00:29+02:00",
-      "summarized_at": "2026-10-03T12:05:30+02:00"
+      "summarized_at": "2026-10-04T10:21:27+02:00",
+      "quick_takeaways": [
+        "Monday: choose a searched-for topic around the customer problem you solve. Use Claude with YouTube search/competitor data; settle the title and thumbnail before writing the script.",
+        "Tuesday: research common claims, missing answers and alternative views. Use a research notebook's audio overview to explore the gaps; choose an angle you actually believe.",
+        "Wednesday: speak your stories and opinions to Claude, then ask it to interview you. Save structure and voice examples in a project; read the draft aloud and fix unnatural wording.",
+        "Thursday: record from a conversational teleprompter script. The creator estimates natural delivery takes 10–20 videos to learn, so allow for practice.",
+        "Friday: generate branded text/list animations that clarify your points. Give an editor the footage and finished assets for synchronization and cleanup; the creator quotes $30–$40 per video for this limited edit.",
+        "Target one video a week in one hour each weekday; later batch four videos together. The schedule excludes the editor's labor and assumes tool setup. Track your full time and cost before relying on it."
+      ]
     },
     {
       "id": "Rn4nmFRPe0s",
