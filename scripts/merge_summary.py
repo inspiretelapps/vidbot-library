@@ -10,6 +10,9 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {"id", "title", "description", "summary", "why_valuable", "chapters"}
+VIDEO_TIME = r"\d{1,2}:[0-5]\d(?::[0-5]\d)?"
+VIDEO_RANGE = rf"~?{VIDEO_TIME}\s*[–—-]\s*(?:{VIDEO_TIME}|end)"
+VIDEO_CUES = rf"(?:{VIDEO_RANGE}|{VIDEO_TIME})(?:\s*;\s*{VIDEO_RANGE})*"
 
 
 def load(path: Path, default):
@@ -17,6 +20,35 @@ def load(path: Path, default):
         return json.loads(path.read_text(encoding="utf-8"))
     except FileNotFoundError:
         return default
+
+
+def clean_executive_summary(summary: str) -> str:
+    """Remove video-position annotations while retaining headings and actual times."""
+    summary = re.sub(
+        rf"\[{VIDEO_CUES}\s*\|\s*([^\]\n]+)\]", r"\1:", summary,
+        flags=re.IGNORECASE,
+    )
+    summary = re.sub(
+        rf"(?m)^(\*\*)?{VIDEO_CUES}\s*\|\s*", r"\1", summary,
+        flags=re.IGNORECASE,
+    )
+    summary = re.sub(
+        rf"[ \t]*[\[(]{VIDEO_CUES}[\])]", "", summary,
+        flags=re.IGNORECASE,
+    )
+    summary = re.sub(
+        rf"\(([^()\n]+?):\s*{VIDEO_CUES}\.?\)", r"(\1.)", summary,
+        flags=re.IGNORECASE,
+    )
+    summary = re.sub(
+        rf"\bAt\s+{VIDEO_CUES}(?![\d:]|\s*(?:[aApP]\.?[mM]\.?))\s+([a-z])",
+        lambda match: match[1].upper(), summary,
+    )
+    summary = re.sub(
+        rf"[ \t]+at\s+{VIDEO_CUES}(?![\d:]|\s*(?:a\.?m\.?|p\.?m\.?))(?=[ ,.;]|$)",
+        "", summary, flags=re.IGNORECASE,
+    )
+    return re.sub(r"(?m)^[ \t]+", "", summary)
 
 
 def validate(item: dict, *, quality: bool = False) -> None:
@@ -97,6 +129,7 @@ def merge(summary_path: Path, root: Path = ROOT) -> list[dict]:
     state.setdefault("seen", {})
     for item in incoming:
         validate(item, quality=True)
+        item["summary"] = clean_executive_summary(str(item["summary"]))
         video_id = item["id"]
         previous = by_id.get(video_id, {})
         item["url"] = item.get("url") or f"https://www.youtube.com/watch?v={video_id}"
