@@ -1,0 +1,2670 @@
+{
+  "language": "en-orig",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.359,
+      "text": "If you want to use AI agents in your"
+    },
+    {
+      "start": 1.839,
+      "duration": 2.881,
+      "text": "business to be more productive, then"
+    },
+    {
+      "start": 3.439,
+      "duration": 4.001,
+      "text": "you're in the right place because"
+    },
+    {
+      "start": 4.72,
+      "duration": 5.2,
+      "text": "Grockbot just launched four huge updates"
+    },
+    {
+      "start": 7.44,
+      "duration": 4.4,
+      "text": "that make it the easiest way to run a"
+    },
+    {
+      "start": 9.92,
+      "duration": 4.56,
+      "text": "whole team of agents for marketing,"
+    },
+    {
+      "start": 11.84,
+      "duration": 4.32,
+      "text": "coding, or any type of task. And the"
+    },
+    {
+      "start": 14.48,
+      "duration": 4.48,
+      "text": "last update that I'm talking about today"
+    },
+    {
+      "start": 16.16,
+      "duration": 5.039,
+      "text": "fixes the biggest reason agents get"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.88,
+      "text": "blocked on the internet. So, the first"
+    },
+    {
+      "start": 21.199,
+      "duration": 6.641,
+      "text": "and biggest update to Grockbot is the"
+    },
+    {
+      "start": 23.84,
+      "duration": 6.96,
+      "text": "addition of a primary bot. Okay, so here"
+    },
+    {
+      "start": 27.84,
+      "duration": 5.52,
+      "text": "we are in the Grockbot desktop app. I'm"
+    },
+    {
+      "start": 30.8,
+      "duration": 5.759,
+      "text": "running this on a MacBook Pro and here"
+    },
+    {
+      "start": 33.36,
+      "duration": 4.879,
+      "text": "is a normal Grockbot. Grockbot was the"
+    },
+    {
+      "start": 36.559,
+      "duration": 3.921,
+      "text": "first agent platform that allowed you to"
+    },
+    {
+      "start": 38.239,
+      "duration": 5.041,
+      "text": "kind of create a team of agents in a"
+    },
+    {
+      "start": 40.48,
+      "duration": 5.52,
+      "text": "simple interface for knowledge work."
+    },
+    {
+      "start": 43.28,
+      "duration": 4.959,
+      "text": "Now, they've made some changes recently"
+    },
+    {
+      "start": 46.0,
+      "duration": 4.879,
+      "text": "which creates a hierarchy and you can"
+    },
+    {
+      "start": 48.239,
+      "duration": 5.121,
+      "text": "see the hierarchy by this little star"
+    },
+    {
+      "start": 50.879,
+      "duration": 6.081,
+      "text": "that shows up right here. So, if I click"
+    },
+    {
+      "start": 53.36,
+      "duration": 6.08,
+      "text": "on this bot right here called Grockbot,"
+    },
+    {
+      "start": 56.96,
+      "duration": 4.32,
+      "text": "this is my team leader. Before this"
+    },
+    {
+      "start": 59.44,
+      "duration": 3.36,
+      "text": "update, you would just have a bunch of"
+    },
+    {
+      "start": 61.28,
+      "duration": 2.959,
+      "text": "different bots in charge of different"
+    },
+    {
+      "start": 62.8,
+      "duration": 4.639,
+      "text": "things. Like, you would have a content"
+    },
+    {
+      "start": 64.239,
+      "duration": 5.92,
+      "text": "researcher bot, a developer bot, or you"
+    },
+    {
+      "start": 67.439,
+      "duration": 4.801,
+      "text": "may have multiple dev bots depending on"
+    },
+    {
+      "start": 70.159,
+      "duration": 4.081,
+      "text": "what project they're working on. And you"
+    },
+    {
+      "start": 72.24,
+      "duration": 4.16,
+      "text": "might have a researcher bot, however you"
+    },
+    {
+      "start": 74.24,
+      "duration": 4.72,
+      "text": "want to do it. But after this update,"
+    },
+    {
+      "start": 76.4,
+      "duration": 5.759,
+      "text": "they've introduced a hierarchy. you know"
+    },
+    {
+      "start": 78.96,
+      "duration": 6.799,
+      "text": "have a primary bot whose job it is to"
+    },
+    {
+      "start": 82.159,
+      "duration": 5.921,
+      "text": "delegate to the other bots. Let me show"
+    },
+    {
+      "start": 85.759,
+      "duration": 4.4,
+      "text": "you an example. So this is my internal"
+    },
+    {
+      "start": 88.08,
+      "duration": 3.999,
+      "text": "tool where I basically have all of the"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.761,
+      "text": "different apps we use internally. I just"
+    },
+    {
+      "start": 92.079,
+      "duration": 3.36,
+      "text": "call it native note. What I want to do"
+    },
+    {
+      "start": 93.92,
+      "duration": 3.6,
+      "text": "is I'm going to go to this my mind."
+    },
+    {
+      "start": 95.439,
+      "duration": 4.0,
+      "text": "Normally it looks like this. And I think"
+    },
+    {
+      "start": 97.52,
+      "duration": 4.0,
+      "text": "this view looks really good except this"
+    },
+    {
+      "start": 99.439,
+      "duration": 4.481,
+      "text": "list view doesn't look that great. So"
+    },
+    {
+      "start": 101.52,
+      "duration": 5.12,
+      "text": "I'm going to ask Grockbot to make a"
+    },
+    {
+      "start": 103.92,
+      "duration": 5.28,
+      "text": "change here. make the page that has the"
+    },
+    {
+      "start": 106.64,
+      "duration": 4.799,
+      "text": "My Mind page, but the list view for My"
+    },
+    {
+      "start": 109.2,
+      "duration": 5.04,
+      "text": "Mind look a lot better. Please use Opus"
+    },
+    {
+      "start": 111.439,
+      "duration": 4.881,
+      "text": "5.5 for this. Make the change. And so"
+    },
+    {
+      "start": 114.24,
+      "duration": 4.239,
+      "text": "I'm going to fire this off to my main"
+    },
+    {
+      "start": 116.32,
+      "duration": 4.72,
+      "text": "agent. And notice what the agent is"
+    },
+    {
+      "start": 118.479,
+      "duration": 5.441,
+      "text": "going to do. Look at this. I'll have"
+    },
+    {
+      "start": 121.04,
+      "duration": 6.16,
+      "text": "Native Note redo the My Mind list view"
+    },
+    {
+      "start": 123.92,
+      "duration": 6.72,
+      "text": "in Opus. So here he's delegating it to"
+    },
+    {
+      "start": 127.2,
+      "duration": 6.24,
+      "text": "the native notev. And you can see native"
+    },
+    {
+      "start": 130.64,
+      "duration": 5.04,
+      "text": "note dev is now working. And so you"
+    },
+    {
+      "start": 133.44,
+      "duration": 4.24,
+      "text": "notice here that it immediately"
+    },
+    {
+      "start": 135.68,
+      "duration": 4.24,
+      "text": "delegated the task. I didn't ask it to"
+    },
+    {
+      "start": 137.68,
+      "duration": 4.8,
+      "text": "delegate the task. It immediately"
+    },
+    {
+      "start": 139.92,
+      "duration": 4.8,
+      "text": "delegated it to the native note dev. Now"
+    },
+    {
+      "start": 142.48,
+      "duration": 4.16,
+      "text": "the native note dev, you can see it"
+    },
+    {
+      "start": 144.72,
+      "duration": 4.08,
+      "text": "here. And here it's actually using"
+    },
+    {
+      "start": 146.64,
+      "duration": 5.2,
+      "text": "cursor. It's going to choose the model"
+    },
+    {
+      "start": 148.8,
+      "duration": 6.24,
+      "text": "opus 5.5. I'll send you the poll request"
+    },
+    {
+      "start": 151.84,
+      "duration": 4.64,
+      "text": "when it lands. And so I can just say"
+    },
+    {
+      "start": 155.04,
+      "duration": 4.72,
+      "text": "okay. Yeah. And make sure he pushes"
+    },
+    {
+      "start": 156.48,
+      "duration": 5.2,
+      "text": "directly to prod. I trust him. and he's"
+    },
+    {
+      "start": 159.76,
+      "duration": 4.88,
+      "text": "going to push the changes as soon as"
+    },
+    {
+      "start": 161.68,
+      "duration": 5.199,
+      "text": "it's done so that it is live directly on"
+    },
+    {
+      "start": 164.64,
+      "duration": 3.84,
+      "text": "the internet. And while he works, I want"
+    },
+    {
+      "start": 166.879,
+      "duration": 3.201,
+      "text": "to talk a little bit about this. So,"
+    },
+    {
+      "start": 168.48,
+      "duration": 5.44,
+      "text": "what I normally do is I'm going to"
+    },
+    {
+      "start": 170.08,
+      "duration": 6.4,
+      "text": "rightclick on my main bot or my primary"
+    },
+    {
+      "start": 173.92,
+      "duration": 5.039,
+      "text": "bot and I'm going to pin him to the top"
+    },
+    {
+      "start": 176.48,
+      "duration": 5.039,
+      "text": "so that when I close the sidebar, I see"
+    },
+    {
+      "start": 178.959,
+      "duration": 6.161,
+      "text": "my pinned bot, which is my team leader,"
+    },
+    {
+      "start": 181.519,
+      "duration": 5.841,
+      "text": "my four bots on my team. I have a a"
+    },
+    {
+      "start": 185.12,
+      "duration": 4.16,
+      "text": "developer bot working on native note. I"
+    },
+    {
+      "start": 187.36,
+      "duration": 4.56,
+      "text": "have Grockbot which is kind of a general"
+    },
+    {
+      "start": 189.28,
+      "duration": 4.8,
+      "text": "bot. We have another bot who works on my"
+    },
+    {
+      "start": 191.92,
+      "duration": 4.56,
+      "text": "agent native website. And then we have"
+    },
+    {
+      "start": 194.08,
+      "duration": 4.72,
+      "text": "my content bot. That's basically my team"
+    },
+    {
+      "start": 196.48,
+      "duration": 4.24,
+      "text": "right now. And I have another type of"
+    },
+    {
+      "start": 198.8,
+      "duration": 3.519,
+      "text": "bot which I'll get to in just a second."
+    },
+    {
+      "start": 200.72,
+      "duration": 3.2,
+      "text": "And so it's still working. But one thing"
+    },
+    {
+      "start": 202.319,
+      "duration": 4.0,
+      "text": "that's really cool about Grockbot is"
+    },
+    {
+      "start": 203.92,
+      "duration": 4.64,
+      "text": "they're making the cursor integration"
+    },
+    {
+      "start": 206.319,
+      "duration": 4.56,
+      "text": "much more seamless. So if you go up here"
+    },
+    {
+      "start": 208.56,
+      "duration": 4.64,
+      "text": "and click on your native note dev, you"
+    },
+    {
+      "start": 210.879,
+      "duration": 4.241,
+      "text": "can actually see this little coding tab"
+    },
+    {
+      "start": 213.2,
+      "duration": 5.52,
+      "text": "in the details. And if you click on"
+    },
+    {
+      "start": 215.12,
+      "duration": 5.44,
+      "text": "this, it actually opens up cursor. So it"
+    },
+    {
+      "start": 218.72,
+      "duration": 4.0,
+      "text": "literally opened up cursor and we can"
+    },
+    {
+      "start": 220.56,
+      "duration": 4.08,
+      "text": "see the work that it's doing. And so you"
+    },
+    {
+      "start": 222.72,
+      "duration": 3.84,
+      "text": "can see here that it said Riley wants"
+    },
+    {
+      "start": 224.64,
+      "duration": 5.44,
+      "text": "this shipped straight to production,"
+    },
+    {
+      "start": 226.56,
+      "duration": 6.72,
+      "text": "etc., etc. And so it's using cursor and"
+    },
+    {
+      "start": 230.08,
+      "duration": 5.2,
+      "text": "it's just so simple inside Grockbot. I"
+    },
+    {
+      "start": 233.28,
+      "duration": 4.56,
+      "text": "don't need to be aware of any of it. I"
+    },
+    {
+      "start": 235.28,
+      "duration": 5.2,
+      "text": "just talk to my main bot. He delegates"
+    },
+    {
+      "start": 237.84,
+      "duration": 4.72,
+      "text": "to the developer bot who has all of the"
+    },
+    {
+      "start": 240.48,
+      "duration": 3.759,
+      "text": "context about what we're building and he"
+    },
+    {
+      "start": 242.56,
+      "duration": 3.52,
+      "text": "sends it to cursor. And if I want to"
+    },
+    {
+      "start": 244.239,
+      "duration": 4.0,
+      "text": "open it, I can click on it right here."
+    },
+    {
+      "start": 246.08,
+      "duration": 4.48,
+      "text": "And we can see here the native note dev"
+    },
+    {
+      "start": 248.239,
+      "duration": 4.72,
+      "text": "finished his task. And if we navigate"
+    },
+    {
+      "start": 250.56,
+      "duration": 4.959,
+      "text": "back to our website, let's go ahead and"
+    },
+    {
+      "start": 252.959,
+      "duration": 4.4,
+      "text": "refresh this. There we go. It is a"
+    },
+    {
+      "start": 255.519,
+      "duration": 4.481,
+      "text": "completely different view. This looks a"
+    },
+    {
+      "start": 257.359,
+      "duration": 5.361,
+      "text": "lot better. A very simple list of all of"
+    },
+    {
+      "start": 260.0,
+      "duration": 5.04,
+      "text": "my Twitter bookmarks. So in summary, the"
+    },
+    {
+      "start": 262.72,
+      "duration": 5.44,
+      "text": "primary bot, you talk directly to this"
+    },
+    {
+      "start": 265.04,
+      "duration": 4.96,
+      "text": "bot and then it routes the task to the"
+    },
+    {
+      "start": 268.16,
+      "duration": 4.479,
+      "text": "correct bot and so it can hand off"
+    },
+    {
+      "start": 270.0,
+      "duration": 4.32,
+      "text": "things to other bots. So it allows for"
+    },
+    {
+      "start": 272.639,
+      "duration": 4.401,
+      "text": "you to just kind of communicate with the"
+    },
+    {
+      "start": 274.32,
+      "duration": 4.8,
+      "text": "same bot. I think people got overwhelmed"
+    },
+    {
+      "start": 277.04,
+      "duration": 4.24,
+      "text": "when they had an entire team of"
+    },
+    {
+      "start": 279.12,
+      "duration": 4.079,
+      "text": "different bots. I know I did. And so"
+    },
+    {
+      "start": 281.28,
+      "duration": 4.16,
+      "text": "it's I just basically just talk to this"
+    },
+    {
+      "start": 283.199,
+      "duration": 4.401,
+      "text": "bot and it'll just route to the correct"
+    },
+    {
+      "start": 285.44,
+      "duration": 4.24,
+      "text": "one. One thing to note is that any bot"
+    },
+    {
+      "start": 287.6,
+      "duration": 3.52,
+      "text": "you create can become the primary bot."
+    },
+    {
+      "start": 289.68,
+      "duration": 3.92,
+      "text": "All you have to do is ask it and say,"
+    },
+    {
+      "start": 291.12,
+      "duration": 4.16,
+      "text": "\"Hey, can you now become the primary"
+    },
+    {
+      "start": 293.6,
+      "duration": 4.8,
+      "text": "bot?\" And it will actually switch the"
+    },
+    {
+      "start": 295.28,
+      "duration": 5.919,
+      "text": "primary bot. So, I used this for about 3"
+    },
+    {
+      "start": 298.4,
+      "duration": 5.359,
+      "text": "days straight since it came out. And I"
+    },
+    {
+      "start": 301.199,
+      "duration": 4.641,
+      "text": "have one useful tip that I think people"
+    },
+    {
+      "start": 303.759,
+      "duration": 4.081,
+      "text": "would benefit from a lot. And so, what I"
+    },
+    {
+      "start": 305.84,
+      "duration": 4.0,
+      "text": "want you to do is I want you to try this"
+    },
+    {
+      "start": 307.84,
+      "duration": 4.4,
+      "text": "with voice. And I want you to do this"
+    },
+    {
+      "start": 309.84,
+      "duration": 4.88,
+      "text": "outside while on a walk. You'll think"
+    },
+    {
+      "start": 312.24,
+      "duration": 4.799,
+      "text": "more clearly outside. Go on a walk, talk"
+    },
+    {
+      "start": 314.72,
+      "duration": 3.759,
+      "text": "to your main agent. And the more you"
+    },
+    {
+      "start": 317.039,
+      "duration": 3.681,
+      "text": "talk to your main agent and have it"
+    },
+    {
+      "start": 318.479,
+      "duration": 5.041,
+      "text": "delegate certain tasks, the more you'll"
+    },
+    {
+      "start": 320.72,
+      "duration": 5.28,
+      "text": "get used to the process of working with"
+    },
+    {
+      "start": 323.52,
+      "duration": 4.48,
+      "text": "a team of agents. And to do this on the"
+    },
+    {
+      "start": 326.0,
+      "duration": 3.68,
+      "text": "Grobot iOS app, you can press this"
+    },
+    {
+      "start": 328.0,
+      "duration": 3.36,
+      "text": "little voice button right here. Hey"
+    },
+    {
+      "start": 329.68,
+      "duration": 3.28,
+      "text": "buddy, old pal."
+    },
+    {
+      "start": 331.36,
+      "duration": 3.279,
+      "text": ">> Hey, what's on your mind?"
+    },
+    {
+      "start": 332.96,
+      "duration": 3.6,
+      "text": ">> Hey, I need you to do some content"
+    },
+    {
+      "start": 334.639,
+      "duration": 4.081,
+      "text": "research for me and come up with five"
+    },
+    {
+      "start": 336.56,
+      "duration": 3.359,
+      "text": "YouTube ideas. Yeah, have the content"
+    },
+    {
+      "start": 338.72,
+      "duration": 3.12,
+      "text": "bot do that."
+    },
+    {
+      "start": 339.919,
+      "duration": 2.801,
+      "text": ">> Routing five YouTube ideas to the"
+    },
+    {
+      "start": 341.84,
+      "duration": 3.199,
+      "text": "content bot."
+    },
+    {
+      "start": 342.72,
+      "duration": 3.919,
+      "text": ">> Very cool. And then what what"
+    },
+    {
+      "start": 345.039,
+      "duration": 2.801,
+      "text": "improvements could we make to the agent"
+    },
+    {
+      "start": 346.639,
+      "duration": 3.12,
+      "text": "native landing page?"
+    },
+    {
+      "start": 347.84,
+      "duration": 4.56,
+      "text": ">> Taking the landing page improvements to"
+    },
+    {
+      "start": 349.759,
+      "duration": 4.88,
+      "text": "the right bot. That's moving. Anything"
+    },
+    {
+      "start": 352.4,
+      "duration": 3.84,
+      "text": "else you want cued while those two run?"
+    },
+    {
+      "start": 354.639,
+      "duration": 3.921,
+      "text": ">> No. Thanks. Good job."
+    },
+    {
+      "start": 356.24,
+      "duration": 5.04,
+      "text": ">> Glad to hear it. Talk soon."
+    },
+    {
+      "start": 358.56,
+      "duration": 5.84,
+      "text": ">> And so look at this. Here you can see"
+    },
+    {
+      "start": 361.28,
+      "duration": 6.24,
+      "text": "that we just had a phone call and it"
+    },
+    {
+      "start": 364.4,
+      "duration": 5.04,
+      "text": "names the phone call and it has landing"
+    },
+    {
+      "start": 367.52,
+      "duration": 4.48,
+      "text": "page improvements. And I can click on"
+    },
+    {
+      "start": 369.44,
+      "duration": 4.96,
+      "text": "this and see our entire voice chat. So,"
+    },
+    {
+      "start": 372.0,
+      "duration": 4.56,
+      "text": "it's really good at seeing what you talk"
+    },
+    {
+      "start": 374.4,
+      "duration": 4.48,
+      "text": "about with your voice. And then you can"
+    },
+    {
+      "start": 376.56,
+      "duration": 5.759,
+      "text": "see that it messaged the content bot."
+    },
+    {
+      "start": 378.88,
+      "duration": 5.84,
+      "text": "And now the content bot responded back"
+    },
+    {
+      "start": 382.319,
+      "duration": 4.72,
+      "text": "to Grockbot and said, \"Here are the five"
+    },
+    {
+      "start": 384.72,
+      "duration": 4.0,
+      "text": "YouTube ideas from the call. I'm still"
+    },
+    {
+      "start": 387.039,
+      "duration": 3.841,
+      "text": "going to have the agent native landing"
+    },
+    {
+      "start": 388.72,
+      "duration": 3.759,
+      "text": "page blah blah blah blah blah.\" So, he's"
+    },
+    {
+      "start": 390.88,
+      "duration": 3.439,
+      "text": "actually delegating to the other agent,"
+    },
+    {
+      "start": 392.479,
+      "duration": 3.681,
+      "text": "but here you can see the different"
+    },
+    {
+      "start": 394.319,
+      "duration": 3.921,
+      "text": "ideas. And if I want to talk to the"
+    },
+    {
+      "start": 396.16,
+      "duration": 4.4,
+      "text": "content bot, I can always just go click"
+    },
+    {
+      "start": 398.24,
+      "duration": 4.88,
+      "text": "on this and I can talk to the content"
+    },
+    {
+      "start": 400.56,
+      "duration": 4.72,
+      "text": "bot directly. But the point is I now"
+    },
+    {
+      "start": 403.12,
+      "duration": 4.88,
+      "text": "have a main point of contact that I can"
+    },
+    {
+      "start": 405.28,
+      "duration": 4.72,
+      "text": "talk to and I can voice call. Highly"
+    },
+    {
+      "start": 408.0,
+      "duration": 5.759,
+      "text": "recommend using voice calls. And so that"
+    },
+    {
+      "start": 410.0,
+      "duration": 6.08,
+      "text": "is a primary bot. And this reminds me a"
+    },
+    {
+      "start": 413.759,
+      "duration": 4.0,
+      "text": "lot of the new Claude projects feature"
+    },
+    {
+      "start": 416.08,
+      "duration": 3.839,
+      "text": "which I've been talking about which is"
+    },
+    {
+      "start": 417.759,
+      "duration": 4.641,
+      "text": "still in beta, but it allows you to talk"
+    },
+    {
+      "start": 419.919,
+      "duration": 4.961,
+      "text": "to a main bot that delegates to other"
+    },
+    {
+      "start": 422.4,
+      "duration": 5.04,
+      "text": "agents. except in Claude's case, they"
+    },
+    {
+      "start": 424.88,
+      "duration": 6.0,
+      "text": "call them threads. The next one actually"
+    },
+    {
+      "start": 427.44,
+      "duration": 5.039,
+      "text": "reminds me more of Claude tag, which is"
+    },
+    {
+      "start": 430.88,
+      "duration": 3.92,
+      "text": "another Claude feature. And so that"
+    },
+    {
+      "start": 432.479,
+      "duration": 6.16,
+      "text": "brings me to the second huge update"
+    },
+    {
+      "start": 434.8,
+      "duration": 6.64,
+      "text": "inside Grockbot, which is they now have"
+    },
+    {
+      "start": 438.639,
+      "duration": 4.96,
+      "text": "a team bot. Okay, so you'll notice here"
+    },
+    {
+      "start": 441.44,
+      "duration": 4.72,
+      "text": "inside Grockbot, of course, we have our"
+    },
+    {
+      "start": 443.599,
+      "duration": 6.801,
+      "text": "normal bots, we have our main or primary"
+    },
+    {
+      "start": 446.16,
+      "duration": 6.4,
+      "text": "bot. Here we have a team bot. And team"
+    },
+    {
+      "start": 450.4,
+      "duration": 3.76,
+      "text": "bots are a little bit different."
+    },
+    {
+      "start": 452.56,
+      "duration": 4.0,
+      "text": "Actually, they're a good amount"
+    },
+    {
+      "start": 454.16,
+      "duration": 5.599,
+      "text": "different. Team bots are meant to be"
+    },
+    {
+      "start": 456.56,
+      "duration": 5.44,
+      "text": "used with your team. So, whenever you"
+    },
+    {
+      "start": 459.759,
+      "duration": 5.041,
+      "text": "create a new bot, right? We could create"
+    },
+    {
+      "start": 462.0,
+      "duration": 5.199,
+      "text": "a new bot right now. And if we created a"
+    },
+    {
+      "start": 464.8,
+      "duration": 4.72,
+      "text": "new bot right now, we create a new bot."
+    },
+    {
+      "start": 467.199,
+      "duration": 4.72,
+      "text": "Hey, you're my new bot for personal use."
+    },
+    {
+      "start": 469.52,
+      "duration": 4.56,
+      "text": "I want you to join the Riley bots team."
+    },
+    {
+      "start": 471.919,
+      "duration": 4.4,
+      "text": "And you are in charge of emails. Become"
+    },
+    {
+      "start": 474.08,
+      "duration": 4.559,
+      "text": "the email bot. Right? I could just fire"
+    },
+    {
+      "start": 476.319,
+      "duration": 5.28,
+      "text": "this prompt in and we're basically"
+    },
+    {
+      "start": 478.639,
+      "duration": 5.84,
+      "text": "allowing it to join the Riley Bots team."
+    },
+    {
+      "start": 481.599,
+      "duration": 4.481,
+      "text": "When it joins this team, it'll share all"
+    },
+    {
+      "start": 484.479,
+      "duration": 3.921,
+      "text": "of the plugins. So, I have a lot of"
+    },
+    {
+      "start": 486.08,
+      "duration": 5.28,
+      "text": "plugins that I've already connected. As"
+    },
+    {
+      "start": 488.4,
+      "duration": 5.04,
+      "text": "you can see here, I can go to 23 apps"
+    },
+    {
+      "start": 491.36,
+      "duration": 5.279,
+      "text": "installed. These are all of the apps"
+    },
+    {
+      "start": 493.44,
+      "duration": 5.759,
+      "text": "that I've installed into Grockbot. As"
+    },
+    {
+      "start": 496.639,
+      "duration": 5.521,
+      "text": "soon as I add a new bot, this new bot"
+    },
+    {
+      "start": 499.199,
+      "duration": 5.201,
+      "text": "will inherit all of those plugins and"
+    },
+    {
+      "start": 502.16,
+      "duration": 4.8,
+      "text": "skills that we've created. It says I'm"
+    },
+    {
+      "start": 504.4,
+      "duration": 4.72,
+      "text": "the email bot now joining Riley's bots"
+    },
+    {
+      "start": 506.96,
+      "duration": 4.48,
+      "text": "team and setting that up. I found the"
+    },
+    {
+      "start": 509.12,
+      "duration": 4.88,
+      "text": "Riley's bot section. I'm pulling myself"
+    },
+    {
+      "start": 511.44,
+      "duration": 4.8,
+      "text": "there and renaming myself to email bot."
+    },
+    {
+      "start": 514.0,
+      "duration": 4.959,
+      "text": "And you can see it just moved itself to"
+    },
+    {
+      "start": 516.24,
+      "duration": 5.12,
+      "text": "the Riley bots team. This is a personal"
+    },
+    {
+      "start": 518.959,
+      "duration": 5.44,
+      "text": "bot. Now, the new team bots don't"
+    },
+    {
+      "start": 521.36,
+      "duration": 6.56,
+      "text": "operate like this. A team bot is more"
+    },
+    {
+      "start": 524.399,
+      "duration": 6.88,
+      "text": "isolated and it's meant to be used as a"
+    },
+    {
+      "start": 527.92,
+      "duration": 5.599,
+      "text": "team. And so a teambot is a shared bot"
+    },
+    {
+      "start": 531.279,
+      "duration": 5.441,
+      "text": "that you can interact with in private"
+    },
+    {
+      "start": 533.519,
+      "duration": 5.44,
+      "text": "chats like Slack, the Grockbot app, and"
+    },
+    {
+      "start": 536.72,
+      "duration": 4.559,
+      "text": "more coming. And I'll show you exactly"
+    },
+    {
+      "start": 538.959,
+      "duration": 4.0,
+      "text": "how to set that up. So if you make a new"
+    },
+    {
+      "start": 541.279,
+      "duration": 4.56,
+      "text": "bot, and we could actually make a team"
+    },
+    {
+      "start": 542.959,
+      "duration": 4.961,
+      "text": "bot right now. We could create a new"
+    },
+    {
+      "start": 545.839,
+      "duration": 4.241,
+      "text": "bot. And we could actually we could go"
+    },
+    {
+      "start": 547.92,
+      "duration": 4.64,
+      "text": "we could come up here and you see team"
+    },
+    {
+      "start": 550.08,
+      "duration": 5.199,
+      "text": "bots. I could press this and say create"
+    },
+    {
+      "start": 552.56,
+      "duration": 6.399,
+      "text": "new team bot. What I'm going to do is"
+    },
+    {
+      "start": 555.279,
+      "duration": 5.761,
+      "text": "I'm going to move this to team. Hi, I'm"
+    },
+    {
+      "start": 558.959,
+      "duration": 5.281,
+      "text": "your team's new bot. What should I help"
+    },
+    {
+      "start": 561.04,
+      "duration": 5.919,
+      "text": "you with? You are in charge of tracking"
+    },
+    {
+      "start": 564.24,
+      "duration": 5.039,
+      "text": "all of the content and updating the team"
+    },
+    {
+      "start": 566.959,
+      "duration": 4.081,
+      "text": "on all things that are content related."
+    },
+    {
+      "start": 569.279,
+      "duration": 3.921,
+      "text": "Your job is to keep everyone up to date"
+    },
+    {
+      "start": 571.04,
+      "duration": 4.64,
+      "text": "on anything content related, content"
+    },
+    {
+      "start": 573.2,
+      "duration": 5.199,
+      "text": "workflows, the metrics for the week,"
+    },
+    {
+      "start": 575.68,
+      "duration": 5.279,
+      "text": "etc. If you come up to the teambot,"
+    },
+    {
+      "start": 578.399,
+      "duration": 5.521,
+      "text": "you'll notice it has plugins, secrets,"
+    },
+    {
+      "start": 580.959,
+      "duration": 5.921,
+      "text": "skills, and files. And so you see here"
+    },
+    {
+      "start": 583.92,
+      "duration": 5.52,
+      "text": "that it has none plugins. And here we"
+    },
+    {
+      "start": 586.88,
+      "duration": 4.0,
+      "text": "can actually add more plugins. So I'm"
+    },
+    {
+      "start": 589.44,
+      "duration": 3.36,
+      "text": "going to go ahead and just add these"
+    },
+    {
+      "start": 590.88,
+      "duration": 3.84,
+      "text": "plugins. And the reason these plugins"
+    },
+    {
+      "start": 592.8,
+      "duration": 4.64,
+      "text": "are separate is this bot is meant to be"
+    },
+    {
+      "start": 594.72,
+      "duration": 4.48,
+      "text": "added to your Slack and used by everyone"
+    },
+    {
+      "start": 597.44,
+      "duration": 3.28,
+      "text": "on the team. When you sign up for"
+    },
+    {
+      "start": 599.2,
+      "duration": 4.24,
+      "text": "Grockbot, you're actually giving it"
+    },
+    {
+      "start": 600.72,
+      "duration": 4.64,
+      "text": "access to your email. You don't want a"
+    },
+    {
+      "start": 603.44,
+      "duration": 4.24,
+      "text": "bot that your whole team is going to use"
+    },
+    {
+      "start": 605.36,
+      "duration": 5.52,
+      "text": "to use your email. That doesn't make any"
+    },
+    {
+      "start": 607.68,
+      "duration": 5.68,
+      "text": "sense. And also on these personal bots,"
+    },
+    {
+      "start": 610.88,
+      "duration": 5.36,
+      "text": "they have access to my Slack plugin,"
+    },
+    {
+      "start": 613.36,
+      "duration": 5.599,
+      "text": "meaning it can send DMs and post things"
+    },
+    {
+      "start": 616.24,
+      "duration": 5.2,
+      "text": "as me inside Slack. You do not want a"
+    },
+    {
+      "start": 618.959,
+      "duration": 4.88,
+      "text": "team bot, especially if you add this to"
+    },
+    {
+      "start": 621.44,
+      "duration": 4.24,
+      "text": "shared channels. You do not want this"
+    },
+    {
+      "start": 623.839,
+      "duration": 3.761,
+      "text": "inside Slack. What you want to do is you"
+    },
+    {
+      "start": 625.68,
+      "duration": 4.64,
+      "text": "want to create a teambot with its own"
+    },
+    {
+      "start": 627.6,
+      "duration": 4.72,
+      "text": "plugins, its own configurations, and you"
+    },
+    {
+      "start": 630.32,
+      "duration": 4.48,
+      "text": "want to add that to Slack. And when you"
+    },
+    {
+      "start": 632.32,
+      "duration": 6.079,
+      "text": "create a teambot, by default, it is just"
+    },
+    {
+      "start": 634.8,
+      "duration": 6.159,
+      "text": "a draft. It's not published to the team"
+    },
+    {
+      "start": 638.399,
+      "duration": 5.761,
+      "text": "until you click publish to team, in"
+    },
+    {
+      "start": 640.959,
+      "duration": 5.041,
+      "text": "which case it will become a normal team"
+    },
+    {
+      "start": 644.16,
+      "duration": 4.0,
+      "text": "bot. But in order for other people to"
+    },
+    {
+      "start": 646.0,
+      "duration": 3.68,
+      "text": "start using it on your team, what you're"
+    },
+    {
+      "start": 648.16,
+      "duration": 3.84,
+      "text": "going to do is you're going to open up"
+    },
+    {
+      "start": 649.68,
+      "duration": 4.48,
+      "text": "your agents details here on the right"
+    },
+    {
+      "start": 652.0,
+      "duration": 3.76,
+      "text": "side panel. Scroll all the way down and"
+    },
+    {
+      "start": 654.16,
+      "duration": 3.6,
+      "text": "you're just going to click bring to your"
+    },
+    {
+      "start": 655.76,
+      "duration": 3.84,
+      "text": "team's Slack. And now we're going to add"
+    },
+    {
+      "start": 657.76,
+      "duration": 3.68,
+      "text": "this to my Slack called Agent Native"
+    },
+    {
+      "start": 659.6,
+      "duration": 4.0,
+      "text": "Inc. and we're going to connect it. And"
+    },
+    {
+      "start": 661.44,
+      "duration": 4.32,
+      "text": "now we're going to click done. And now"
+    },
+    {
+      "start": 663.6,
+      "duration": 5.12,
+      "text": "inside Slack, if we scroll all the way"
+    },
+    {
+      "start": 665.76,
+      "duration": 5.519,
+      "text": "down here, you'll see content tracker."
+    },
+    {
+      "start": 668.72,
+      "duration": 5.52,
+      "text": "You click on content tracker. This is"
+    },
+    {
+      "start": 671.279,
+      "duration": 5.281,
+      "text": "the teambot that we just created. And I"
+    },
+    {
+      "start": 674.24,
+      "duration": 4.24,
+      "text": "can say, \"Hey,"
+    },
+    {
+      "start": 676.56,
+      "duration": 5.519,
+      "text": "you're"
+    },
+    {
+      "start": 678.48,
+      "duration": 6.32,
+      "text": "the new team bot, right?"
+    },
+    {
+      "start": 682.079,
+      "duration": 4.561,
+      "text": "And we can click one reply.\" Yes, that's"
+    },
+    {
+      "start": 684.8,
+      "duration": 3.92,
+      "text": "me. I'm the content tracker, the new"
+    },
+    {
+      "start": 686.64,
+      "duration": 6.319,
+      "text": "team bot. What do you need every"
+    },
+    {
+      "start": 688.72,
+      "duration": 8.559,
+      "text": "morning? give me an update in the and I"
+    },
+    {
+      "start": 692.959,
+      "duration": 8.961,
+      "text": "can go Riley go Riley channel please"
+    },
+    {
+      "start": 697.279,
+      "duration": 6.56,
+      "text": "I'll add you to that in just a second so"
+    },
+    {
+      "start": 701.92,
+      "duration": 4.8,
+      "text": "I can fire this prompt we're going to go"
+    },
+    {
+      "start": 703.839,
+      "duration": 5.44,
+      "text": "to the Riley Emily channel I'm going to"
+    },
+    {
+      "start": 706.72,
+      "duration": 5.679,
+      "text": "go ahead and I'm going to come up to"
+    },
+    {
+      "start": 709.279,
+      "duration": 6.0,
+      "text": "members and we are actually going to add"
+    },
+    {
+      "start": 712.399,
+      "duration": 5.521,
+      "text": "the content tracker and we're going to"
+    },
+    {
+      "start": 715.279,
+      "duration": 5.761,
+      "text": "add this to the channel and now we can"
+    },
+    {
+      "start": 717.92,
+      "duration": 6.4,
+      "text": "at mention the content tracker bot and"
+    },
+    {
+      "start": 721.04,
+      "duration": 5.28,
+      "text": "say, \"Hey, welcome to the channel.\" And"
+    },
+    {
+      "start": 724.32,
+      "duration": 4.56,
+      "text": "here you can see content tracker is"
+    },
+    {
+      "start": 726.32,
+      "duration": 4.72,
+      "text": "finishing up another thread. And once"
+    },
+    {
+      "start": 728.88,
+      "duration": 3.84,
+      "text": "it's done, it'll actually respond to us"
+    },
+    {
+      "start": 731.04,
+      "duration": 3.44,
+      "text": "here. And it responded and said,"
+    },
+    {
+      "start": 732.72,
+      "duration": 4.08,
+      "text": "\"Thanks, Riley Brown. Glad to be here."
+    },
+    {
+      "start": 734.48,
+      "duration": 4.64,
+      "text": "Tag me whenever you want. Creator stats,"
+    },
+    {
+      "start": 736.8,
+      "duration": 4.32,
+      "text": "a draft, or a content check.\" So, we"
+    },
+    {
+      "start": 739.12,
+      "duration": 5.04,
+      "text": "created a teambot. We can give it its"
+    },
+    {
+      "start": 741.12,
+      "duration": 5.279,
+      "text": "own skills and we can very easily add it"
+    },
+    {
+      "start": 744.16,
+      "duration": 4.88,
+      "text": "to our Slack. And so, I don't know if"
+    },
+    {
+      "start": 746.399,
+      "duration": 5.601,
+      "text": "I'll be using Victor anymore. Victor is"
+    },
+    {
+      "start": 749.04,
+      "duration": 5.28,
+      "text": "an app where its entire value prop is"
+    },
+    {
+      "start": 752.0,
+      "duration": 4.0,
+      "text": "this Teams feature, but since it's built"
+    },
+    {
+      "start": 754.32,
+      "duration": 4.24,
+      "text": "directly into an app I already use,"
+    },
+    {
+      "start": 756.0,
+      "duration": 5.279,
+      "text": "which is Grockbot, this is much easier"
+    },
+    {
+      "start": 758.56,
+      "duration": 4.959,
+      "text": "and it's great. And so this has become a"
+    },
+    {
+      "start": 761.279,
+      "duration": 4.481,
+      "text": "lot more like Claude Tag, which is the"
+    },
+    {
+      "start": 763.519,
+      "duration": 4.241,
+      "text": "version of Claude that lives directly in"
+    },
+    {
+      "start": 765.76,
+      "duration": 4.48,
+      "text": "your Slack. And so some quick notes on"
+    },
+    {
+      "start": 767.76,
+      "duration": 4.8,
+      "text": "the teambot is that it starts clean with"
+    },
+    {
+      "start": 770.24,
+      "duration": 4.8,
+      "text": "no plugins, unlike personal bots."
+    },
+    {
+      "start": 772.56,
+      "duration": 4.719,
+      "text": "Remember, every personal bot you create,"
+    },
+    {
+      "start": 775.04,
+      "duration": 4.0,
+      "text": "all of your personal bots share skills"
+    },
+    {
+      "start": 777.279,
+      "duration": 3.441,
+      "text": "and plugins. The only thing that's"
+    },
+    {
+      "start": 779.04,
+      "duration": 3.919,
+      "text": "different between them is their system"
+    },
+    {
+      "start": 780.72,
+      "duration": 4.64,
+      "text": "prompts and the context of their"
+    },
+    {
+      "start": 782.959,
+      "duration": 4.721,
+      "text": "threads. They're basically all the same"
+    },
+    {
+      "start": 785.36,
+      "duration": 4.08,
+      "text": "bot, but these team bots are very"
+    },
+    {
+      "start": 787.68,
+      "duration": 3.68,
+      "text": "isolated and they're very different. And"
+    },
+    {
+      "start": 789.44,
+      "duration": 4.079,
+      "text": "there's a reason for this because it is"
+    },
+    {
+      "start": 791.36,
+      "duration": 4.159,
+      "text": "built for businesses and teams and you"
+    },
+    {
+      "start": 793.519,
+      "duration": 4.481,
+      "text": "want to keep everything secure. And so"
+    },
+    {
+      "start": 795.519,
+      "duration": 5.76,
+      "text": "plugins that need a login like Gmail are"
+    },
+    {
+      "start": 798.0,
+      "duration": 6.32,
+      "text": "connected by each teammate individually."
+    },
+    {
+      "start": 801.279,
+      "duration": 6.641,
+      "text": "So, you can add a Gmail plugin, but if"
+    },
+    {
+      "start": 804.32,
+      "duration": 6.0,
+      "text": "we were to add Gmail, if Emily in my"
+    },
+    {
+      "start": 807.92,
+      "duration": 4.32,
+      "text": "Slack were to message the content"
+    },
+    {
+      "start": 810.32,
+      "duration": 4.319,
+      "text": "tracker bot and say, \"Hey, I want to"
+    },
+    {
+      "start": 812.24,
+      "duration": 4.96,
+      "text": "connect Gmail.\" She would connect her"
+    },
+    {
+      "start": 814.639,
+      "duration": 5.281,
+      "text": "Gmail. When she asked this content"
+    },
+    {
+      "start": 817.2,
+      "duration": 5.36,
+      "text": "tracker bot, it would use her plugin."
+    },
+    {
+      "start": 819.92,
+      "duration": 5.359,
+      "text": "When I contacted the content tracker"
+    },
+    {
+      "start": 822.56,
+      "duration": 5.2,
+      "text": "bot, it would use my Gmail plugin. And"
+    },
+    {
+      "start": 825.279,
+      "duration": 4.641,
+      "text": "so this is something I'll make more"
+    },
+    {
+      "start": 827.76,
+      "duration": 4.079,
+      "text": "in-depth details in the future because"
+    },
+    {
+      "start": 829.92,
+      "duration": 4.08,
+      "text": "it seems a little confusing at first,"
+    },
+    {
+      "start": 831.839,
+      "duration": 4.8,
+      "text": "but that's how it works. And if you ask"
+    },
+    {
+      "start": 834.0,
+      "duration": 5.279,
+      "text": "this bot to create a routine, this"
+    },
+    {
+      "start": 836.639,
+      "duration": 5.121,
+      "text": "routine stays personal. And so each"
+    },
+    {
+      "start": 839.279,
+      "duration": 4.24,
+      "text": "person's routines are their own. And"
+    },
+    {
+      "start": 841.76,
+      "duration": 4.56,
+      "text": "then of course I showed you this, but"
+    },
+    {
+      "start": 843.519,
+      "duration": 5.44,
+      "text": "this stays hidden until you publish it."
+    },
+    {
+      "start": 846.32,
+      "duration": 5.36,
+      "text": "So I highly recommend what you do is uh"
+    },
+    {
+      "start": 848.959,
+      "duration": 6.721,
+      "text": "you can create a bot. Then you are going"
+    },
+    {
+      "start": 851.68,
+      "duration": 6.88,
+      "text": "to configure and test it in the Grockbot"
+    },
+    {
+      "start": 855.68,
+      "duration": 4.88,
+      "text": "app. When it's ready, you have to"
+    },
+    {
+      "start": 858.56,
+      "duration": 4.56,
+      "text": "publish it. Then you should add it to"
+    },
+    {
+      "start": 860.56,
+      "duration": 4.959,
+      "text": "Slack and do some and then then it"
+    },
+    {
+      "start": 863.12,
+      "duration": 5.12,
+      "text": "becomes an official teambot. And then"
+    },
+    {
+      "start": 865.519,
+      "duration": 4.961,
+      "text": "you should test it in Slack before you"
+    },
+    {
+      "start": 868.24,
+      "duration": 4.399,
+      "text": "let everyone on your team use it. So the"
+    },
+    {
+      "start": 870.48,
+      "duration": 4.96,
+      "text": "third and fourth updates to Grockbot"
+    },
+    {
+      "start": 872.639,
+      "duration": 5.44,
+      "text": "seem somewhat subtle, but I genuinely"
+    },
+    {
+      "start": 875.44,
+      "duration": 5.28,
+      "text": "love both of them. So, the third update"
+    },
+    {
+      "start": 878.079,
+      "duration": 6.0,
+      "text": "to Grockbot that's super useful is they"
+    },
+    {
+      "start": 880.72,
+      "duration": 4.96,
+      "text": "now have inline drafts for email and"
+    },
+    {
+      "start": 884.079,
+      "duration": 4.32,
+      "text": "Slack. Let's say I'm talking to the"
+    },
+    {
+      "start": 885.68,
+      "duration": 5.12,
+      "text": "content bot, I can say, \"Yeah, can you"
+    },
+    {
+      "start": 888.399,
+      "duration": 4.481,
+      "text": "uh draft up a quick message in Slack to"
+    },
+    {
+      "start": 890.8,
+      "duration": 4.32,
+      "text": "uh John asking for thumbnails for these"
+    },
+    {
+      "start": 892.88,
+      "duration": 5.6,
+      "text": "videos?\""
+    },
+    {
+      "start": 895.12,
+      "duration": 5.36,
+      "text": "So, it used to draft a message or a"
+    },
+    {
+      "start": 898.48,
+      "duration": 4.24,
+      "text": "Slack note and it would just put it put"
+    },
+    {
+      "start": 900.48,
+      "duration": 4.479,
+      "text": "a text thing here. It would just put the"
+    },
+    {
+      "start": 902.72,
+      "duration": 4.16,
+      "text": "text of what it's going to say here or"
+    },
+    {
+      "start": 904.959,
+      "duration": 4.401,
+      "text": "it would summarize it. It wasn't that"
+    },
+    {
+      "start": 906.88,
+      "duration": 4.56,
+      "text": "useful, but now here it's checking the"
+    },
+    {
+      "start": 909.36,
+      "duration": 5.76,
+      "text": "thread to make sure it sounds like me."
+    },
+    {
+      "start": 911.44,
+      "duration": 6.0,
+      "text": "Now it gives us what I call a mini app,"
+    },
+    {
+      "start": 915.12,
+      "duration": 4.56,
+      "text": "which is basically a little app that I"
+    },
+    {
+      "start": 917.44,
+      "duration": 5.12,
+      "text": "can see right here. It says the"
+    },
+    {
+      "start": 919.68,
+      "duration": 5.279,
+      "text": "workspace to John Cam. And it says, can"
+    },
+    {
+      "start": 922.56,
+      "duration": 5.04,
+      "text": "you make a thumbnail for these? And I"
+    },
+    {
+      "start": 924.959,
+      "duration": 4.401,
+      "text": "can very easily edit this. You know,"
+    },
+    {
+      "start": 927.6,
+      "duration": 4.239,
+      "text": "let's say I didn't want to remove this."
+    },
+    {
+      "start": 929.36,
+      "duration": 5.12,
+      "text": "Okay, this looks good. Now I can click"
+    },
+    {
+      "start": 931.839,
+      "duration": 5.921,
+      "text": "send. And now you can see when it sends."
+    },
+    {
+      "start": 934.48,
+      "duration": 5.84,
+      "text": "So, it sends you this little UI and I"
+    },
+    {
+      "start": 937.76,
+      "duration": 5.36,
+      "text": "can very easily verify it. Hey, can you"
+    },
+    {
+      "start": 940.32,
+      "duration": 4.8,
+      "text": "draft up an email to Emily saying that"
+    },
+    {
+      "start": 943.12,
+      "duration": 4.719,
+      "text": "we're going to be working on this these"
+    },
+    {
+      "start": 945.12,
+      "duration": 4.959,
+      "text": "videos this week? And here you can see"
+    },
+    {
+      "start": 947.839,
+      "duration": 4.481,
+      "text": "that it sends another little mini app"
+    },
+    {
+      "start": 950.079,
+      "duration": 5.361,
+      "text": "that I can review and I can click show"
+    },
+    {
+      "start": 952.32,
+      "duration": 5.12,
+      "text": "more and I can very easily edit the"
+    },
+    {
+      "start": 955.44,
+      "duration": 3.6,
+      "text": "email really quickly or I can be like,"
+    },
+    {
+      "start": 957.44,
+      "duration": 3.839,
+      "text": "\"Hey, can you redo the draft? Make it a"
+    },
+    {
+      "start": 959.04,
+      "duration": 4.56,
+      "text": "little bit longer.\" And so I can edit it"
+    },
+    {
+      "start": 961.279,
+      "duration": 4.081,
+      "text": "directly myself or I can ask the agent"
+    },
+    {
+      "start": 963.6,
+      "duration": 4.159,
+      "text": "to do it and it will send me a new"
+    },
+    {
+      "start": 965.36,
+      "duration": 4.159,
+      "text": "little draft mini app. There's a lot of"
+    },
+    {
+      "start": 967.759,
+      "duration": 3.601,
+      "text": "ways that you can call it. I like the"
+    },
+    {
+      "start": 969.519,
+      "duration": 3.44,
+      "text": "name mini app because it is it's"
+    },
+    {
+      "start": 971.36,
+      "duration": 3.76,
+      "text": "literally a little mini app and when I"
+    },
+    {
+      "start": 972.959,
+      "duration": 4.161,
+      "text": "press send it actually sends the email."
+    },
+    {
+      "start": 975.12,
+      "duration": 5.36,
+      "text": "And so now I think okay this looks good."
+    },
+    {
+      "start": 977.12,
+      "duration": 5.36,
+      "text": "I can click send and it can do it. And"
+    },
+    {
+      "start": 980.48,
+      "duration": 3.359,
+      "text": "one thing you can do is say like hey I"
+    },
+    {
+      "start": 982.48,
+      "duration": 4.08,
+      "text": "don't have enough time today. Can you"
+    },
+    {
+      "start": 983.839,
+      "duration": 4.8,
+      "text": "please draft up an email to the top 10"
+    },
+    {
+      "start": 986.56,
+      "duration": 3.76,
+      "text": "emails that I need to respond to? And it"
+    },
+    {
+      "start": 988.639,
+      "duration": 2.961,
+      "text": "will do it. and it'll give you 10 little"
+    },
+    {
+      "start": 990.32,
+      "duration": 2.56,
+      "text": "cards. And if you don't want to send"
+    },
+    {
+      "start": 991.6,
+      "duration": 3.599,
+      "text": "something, you can always just press"
+    },
+    {
+      "start": 992.88,
+      "duration": 4.079,
+      "text": "discard and it will discard it. And you"
+    },
+    {
+      "start": 995.199,
+      "duration": 4.32,
+      "text": "can kind of just go through all of the"
+    },
+    {
+      "start": 996.959,
+      "duration": 4.481,
+      "text": "emails. And so you ask it to send an"
+    },
+    {
+      "start": 999.519,
+      "duration": 4.32,
+      "text": "email or a Slack message. Then there's"
+    },
+    {
+      "start": 1001.44,
+      "duration": 4.56,
+      "text": "this little send gate where you approve"
+    },
+    {
+      "start": 1003.839,
+      "duration": 4.401,
+      "text": "and then the message sends. And that's"
+    },
+    {
+      "start": 1006.0,
+      "duration": 3.519,
+      "text": "exactly how this works. And I think that"
+    },
+    {
+      "start": 1008.24,
+      "duration": 3.76,
+      "text": "this is going to be one of the biggest"
+    },
+    {
+      "start": 1009.519,
+      "duration": 5.44,
+      "text": "trends with agents, especially with"
+    },
+    {
+      "start": 1012.0,
+      "duration": 4.88,
+      "text": "personal agents in 2027. This is kind of"
+    },
+    {
+      "start": 1014.959,
+      "duration": 3.921,
+      "text": "something I've been demoing a lot for"
+    },
+    {
+      "start": 1016.88,
+      "duration": 3.92,
+      "text": "the past 6 months. And this is the UI"
+    },
+    {
+      "start": 1018.88,
+      "duration": 4.24,
+      "text": "that I've always wanted where you can"
+    },
+    {
+      "start": 1020.8,
+      "duration": 4.399,
+      "text": "message the agent to do any task. And"
+    },
+    {
+      "start": 1023.12,
+      "duration": 3.919,
+      "text": "then it will respond with some text and"
+    },
+    {
+      "start": 1025.199,
+      "duration": 4.081,
+      "text": "then it will show you the perfect"
+    },
+    {
+      "start": 1027.039,
+      "duration": 5.52,
+      "text": "interface for that task. In this case,"
+    },
+    {
+      "start": 1029.28,
+      "duration": 4.799,
+      "text": "it's Gmail and Slack, which is really"
+    },
+    {
+      "start": 1032.559,
+      "duration": 3.601,
+      "text": "useful. And then it shows you that"
+    },
+    {
+      "start": 1034.079,
+      "duration": 4.641,
+      "text": "interface and then you take action"
+    },
+    {
+      "start": 1036.16,
+      "duration": 6.24,
+      "text": "within that mini app. For example, when"
+    },
+    {
+      "start": 1038.72,
+      "duration": 6.64,
+      "text": "you can like edit it or you can respond"
+    },
+    {
+      "start": 1042.4,
+      "duration": 5.12,
+      "text": "to the app, it is like perfectly agent"
+    },
+    {
+      "start": 1045.36,
+      "duration": 4.16,
+      "text": "native. And then depending on what"
+    },
+    {
+      "start": 1047.52,
+      "duration": 4.32,
+      "text": "action you do in this mini app, it"
+    },
+    {
+      "start": 1049.52,
+      "duration": 5.68,
+      "text": "triggers an action and then kind of the"
+    },
+    {
+      "start": 1051.84,
+      "duration": 5.92,
+      "text": "app gets updated. And I think it's like"
+    },
+    {
+      "start": 1055.2,
+      "duration": 4.32,
+      "text": "right now it's just email and Slack."
+    },
+    {
+      "start": 1057.76,
+      "duration": 4.08,
+      "text": "Soon it's going to be basically"
+    },
+    {
+      "start": 1059.52,
+      "duration": 5.12,
+      "text": "everything. Okay. So now I want to talk"
+    },
+    {
+      "start": 1061.84,
+      "duration": 5.199,
+      "text": "about the final update of the day for"
+    },
+    {
+      "start": 1064.64,
+      "duration": 5.76,
+      "text": "Grockbot, which is routing traffic"
+    },
+    {
+      "start": 1067.039,
+      "duration": 7.121,
+      "text": "through your computer. If you go to"
+    },
+    {
+      "start": 1070.4,
+      "duration": 6.399,
+      "text": "Grockbot and you go down to settings and"
+    },
+    {
+      "start": 1074.16,
+      "duration": 5.519,
+      "text": "you go to computer and you scroll down"
+    },
+    {
+      "start": 1076.799,
+      "duration": 5.12,
+      "text": "to the bottom, you will see network and"
+    },
+    {
+      "start": 1079.679,
+      "duration": 4.801,
+      "text": "then route traffic through this"
+    },
+    {
+      "start": 1081.919,
+      "duration": 5.681,
+      "text": "computer. In my opinion, you should have"
+    },
+    {
+      "start": 1084.48,
+      "duration": 5.92,
+      "text": "this on and I'll tell you why. This is"
+    },
+    {
+      "start": 1087.6,
+      "duration": 4.72,
+      "text": "because your bot has a computer in the"
+    },
+    {
+      "start": 1090.4,
+      "duration": 4.08,
+      "text": "cloud. If we go up to our bot right"
+    },
+    {
+      "start": 1092.32,
+      "duration": 5.44,
+      "text": "here, we can see that it actually runs"
+    },
+    {
+      "start": 1094.48,
+      "duration": 5.12,
+      "text": "on a computer. The reason why Grockbot"
+    },
+    {
+      "start": 1097.76,
+      "duration": 3.279,
+      "text": "and other personal agents are so"
+    },
+    {
+      "start": 1099.6,
+      "duration": 3.84,
+      "text": "powerful is they have access to a"
+    },
+    {
+      "start": 1101.039,
+      "duration": 5.681,
+      "text": "computer with a browser, right? It can"
+    },
+    {
+      "start": 1103.44,
+      "duration": 5.119,
+      "text": "navigate to target.com,"
+    },
+    {
+      "start": 1106.72,
+      "duration": 4.0,
+      "text": "for example, if you asked it to buy"
+    },
+    {
+      "start": 1108.559,
+      "duration": 4.881,
+      "text": "something on target. However, the"
+    },
+    {
+      "start": 1110.72,
+      "duration": 6.079,
+      "text": "further you go down the path to buying"
+    },
+    {
+      "start": 1113.44,
+      "duration": 6.08,
+      "text": "something, Target's security will block"
+    },
+    {
+      "start": 1116.799,
+      "duration": 5.521,
+      "text": "bots from doing things, right? So like"
+    },
+    {
+      "start": 1119.52,
+      "duration": 5.2,
+      "text": "your bot has a cloud VM and so VMs can"
+    },
+    {
+      "start": 1122.32,
+      "duration": 3.92,
+      "text": "get flagged as a bot and this will"
+    },
+    {
+      "start": 1124.72,
+      "duration": 3.36,
+      "text": "actually prevent you from doing"
+    },
+    {
+      "start": 1126.24,
+      "duration": 4.16,
+      "text": "autonomous stuff like buying from"
+    },
+    {
+      "start": 1128.08,
+      "duration": 5.2,
+      "text": "certain websites, filling out certain"
+    },
+    {
+      "start": 1130.4,
+      "duration": 5.6,
+      "text": "forms or just doing a ton of tasks on"
+    },
+    {
+      "start": 1133.28,
+      "duration": 5.04,
+      "text": "the VM. And so routing through your"
+    },
+    {
+      "start": 1136.0,
+      "duration": 4.4,
+      "text": "computer makes it look like the bot is"
+    },
+    {
+      "start": 1138.32,
+      "duration": 4.08,
+      "text": "you. It uses your IP address. From"
+    },
+    {
+      "start": 1140.4,
+      "duration": 4.32,
+      "text": "targets perspective, it will think that"
+    },
+    {
+      "start": 1142.4,
+      "duration": 3.68,
+      "text": "it is using your computer. And so"
+    },
+    {
+      "start": 1144.72,
+      "duration": 4.0,
+      "text": "routing the traffic through your"
+    },
+    {
+      "start": 1146.08,
+      "duration": 5.76,
+      "text": "computer makes it more likely the bots"
+    },
+    {
+      "start": 1148.72,
+      "duration": 4.64,
+      "text": "can actually do any task because it can"
+    },
+    {
+      "start": 1151.84,
+      "duration": 3.44,
+      "text": "route through your computer. And so this"
+    },
+    {
+      "start": 1153.36,
+      "duration": 4.88,
+      "text": "is a very simple thing to turn on and I"
+    },
+    {
+      "start": 1155.28,
+      "duration": 5.759,
+      "text": "think it's incredibly useful. And so I"
+    },
+    {
+      "start": 1158.24,
+      "duration": 4.88,
+      "text": "have some final thoughts. Grockbot feels"
+    },
+    {
+      "start": 1161.039,
+      "duration": 4.561,
+      "text": "incredibly fast right now. I don't know"
+    },
+    {
+      "start": 1163.12,
+      "duration": 4.96,
+      "text": "why it is. Additionally, the UI is just"
+    },
+    {
+      "start": 1165.6,
+      "duration": 4.8,
+      "text": "the most polished of any agent platform"
+    },
+    {
+      "start": 1168.08,
+      "duration": 4.479,
+      "text": "out there. And I genuinely believe I'd"
+    },
+    {
+      "start": 1170.4,
+      "duration": 5.12,
+      "text": "be using it for almost every like every"
+    },
+    {
+      "start": 1172.559,
+      "duration": 5.761,
+      "text": "task if the models were at the frontier"
+    },
+    {
+      "start": 1175.52,
+      "duration": 5.6,
+      "text": "like Opus 5.5. And then a little bonus"
+    },
+    {
+      "start": 1178.32,
+      "duration": 4.96,
+      "text": "tip, I've been using Composeio and a"
+    },
+    {
+      "start": 1181.12,
+      "duration": 4.88,
+      "text": "Composeio and this is not sponsored by"
+    },
+    {
+      "start": 1183.28,
+      "duration": 4.88,
+      "text": "Composio, but Composio is basically a"
+    },
+    {
+      "start": 1186.0,
+      "duration": 4.24,
+      "text": "centralized place where I keep plugins"
+    },
+    {
+      "start": 1188.16,
+      "duration": 4.24,
+      "text": "and skills. And so all I have to do is"
+    },
+    {
+      "start": 1190.24,
+      "duration": 4.64,
+      "text": "set it up once here and it allows me to"
+    },
+    {
+      "start": 1192.4,
+      "duration": 5.2,
+      "text": "switch agent platforms easily. So, I was"
+    },
+    {
+      "start": 1194.88,
+      "duration": 5.52,
+      "text": "using Claude for about a week and a half"
+    },
+    {
+      "start": 1197.6,
+      "duration": 4.4,
+      "text": "a lot and I I created a bunch of skills."
+    },
+    {
+      "start": 1200.4,
+      "duration": 4.08,
+      "text": "I added some plugins and I added the"
+    },
+    {
+      "start": 1202.0,
+      "duration": 3.919,
+      "text": "plugins on Composeio instead. And so,"
+    },
+    {
+      "start": 1204.48,
+      "duration": 3.36,
+      "text": "now all I have to do is type at"
+    },
+    {
+      "start": 1205.919,
+      "duration": 3.921,
+      "text": "Composeio, please use this skill or this"
+    },
+    {
+      "start": 1207.84,
+      "duration": 4.719,
+      "text": "plugin and it can actually use them"
+    },
+    {
+      "start": 1209.84,
+      "duration": 5.28,
+      "text": "there. Right? I can go to here. If we go"
+    },
+    {
+      "start": 1212.559,
+      "duration": 5.041,
+      "text": "up here and we type Composio, we open"
+    },
+    {
+      "start": 1215.12,
+      "duration": 5.679,
+      "text": "this up, log in here, we can actually"
+    },
+    {
+      "start": 1217.6,
+      "duration": 6.079,
+      "text": "see I have all of these plugins. I have"
+    },
+    {
+      "start": 1220.799,
+      "duration": 5.921,
+      "text": "28 apps that I've created on Composeio."
+    },
+    {
+      "start": 1223.679,
+      "duration": 5.521,
+      "text": "And since I can connect GPT, Grock,"
+    },
+    {
+      "start": 1226.72,
+      "duration": 5.199,
+      "text": "Claude, Cursor, all of the different"
+    },
+    {
+      "start": 1229.2,
+      "duration": 4.959,
+      "text": "platforms to Composeio, it's very easy"
+    },
+    {
+      "start": 1231.919,
+      "duration": 4.64,
+      "text": "to like create this like centralized"
+    },
+    {
+      "start": 1234.159,
+      "duration": 4.4,
+      "text": "place where all of the agents have"
+    },
+    {
+      "start": 1236.559,
+      "duration": 3.281,
+      "text": "access to the same skills, which is my"
+    },
+    {
+      "start": 1238.559,
+      "duration": 3.12,
+      "text": "biggest thing right now. I want to test"
+    },
+    {
+      "start": 1239.84,
+      "duration": 3.92,
+      "text": "the latest agent platform, but it's hard"
+    },
+    {
+      "start": 1241.679,
+      "duration": 3.36,
+      "text": "to switch from each one. This makes it a"
+    },
+    {
+      "start": 1243.76,
+      "duration": 3.52,
+      "text": "little bit easier. So, that's just kind"
+    },
+    {
+      "start": 1245.039,
+      "duration": 3.681,
+      "text": "of a bonus tip to end the episode here."
+    },
+    {
+      "start": 1247.28,
+      "duration": 4.08,
+      "text": "And so, there you go. They added a"
+    },
+    {
+      "start": 1248.72,
+      "duration": 4.72,
+      "text": "primary bot, a team bot. They have"
+    },
+    {
+      "start": 1251.36,
+      "duration": 3.92,
+      "text": "little mini apps for inline drafts for"
+    },
+    {
+      "start": 1253.44,
+      "duration": 4.64,
+      "text": "emails and Slack. And you can route it"
+    },
+    {
+      "start": 1255.28,
+      "duration": 4.72,
+      "text": "through your computer. We talked about a"
+    },
+    {
+      "start": 1258.08,
+      "duration": 3.839,
+      "text": "lot today. I hope you got value from"
+    },
+    {
+      "start": 1260.0,
+      "duration": 3.76,
+      "text": "this video. I really appreciate those of"
+    },
+    {
+      "start": 1261.919,
+      "duration": 4.321,
+      "text": "you who've been watching and commenting"
+    },
+    {
+      "start": 1263.76,
+      "duration": 6.08,
+      "text": "on my videos. Please like, subscribe."
+    },
+    {
+      "start": 1266.24,
+      "duration": 3.6,
+      "text": "I'll see you here in the next"
+    }
+  ]
+}

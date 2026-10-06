@@ -1,0 +1,1625 @@
+{
+  "language": "en-orig",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.36,
+      "text": "So Claude has just given us one of the"
+    },
+    {
+      "start": 1.68,
+      "duration": 4.88,
+      "text": "biggest updates that they have ever"
+    },
+    {
+      "start": 3.52,
+      "duration": 4.64,
+      "text": "given us. They call it Claude mods. And"
+    },
+    {
+      "start": 6.56,
+      "duration": 3.52,
+      "text": "basically, if you could think of a"
+    },
+    {
+      "start": 8.16,
+      "duration": 3.599,
+      "text": "feature that you wish Claude Code had,"
+    },
+    {
+      "start": 10.08,
+      "duration": 3.599,
+      "text": "and you can describe it, well, Claude"
+    },
+    {
+      "start": 11.759,
+      "duration": 3.84,
+      "text": "Code will build it right into itself,"
+    },
+    {
+      "start": 13.679,
+      "duration": 3.68,
+      "text": "which means that you can turn Claude"
+    },
+    {
+      "start": 15.599,
+      "duration": 3.201,
+      "text": "Code into pretty much any tool that you"
+    },
+    {
+      "start": 17.359,
+      "duration": 2.481,
+      "text": "want it to be. And in this video, I'm"
+    },
+    {
+      "start": 18.8,
+      "duration": 2.479,
+      "text": "going to walk you through how you can"
+    },
+    {
+      "start": 19.84,
+      "duration": 3.679,
+      "text": "build your own mods. I'm going to walk"
+    },
+    {
+      "start": 21.279,
+      "duration": 3.84,
+      "text": "you through the six clawed mods that I"
+    },
+    {
+      "start": 23.519,
+      "duration": 3.201,
+      "text": "built for myself this week. But to kick"
+    },
+    {
+      "start": 25.119,
+      "duration": 4.08,
+      "text": "off this video, let's go through what"
+    },
+    {
+      "start": 26.72,
+      "duration": 4.719,
+      "text": "Claude mods are and what Enthropic"
+    },
+    {
+      "start": 29.199,
+      "duration": 4.081,
+      "text": "actually announced. So, a mod is just a"
+    },
+    {
+      "start": 31.439,
+      "duration": 4.401,
+      "text": "small add-on that changes how Claude"
+    },
+    {
+      "start": 33.28,
+      "duration": 4.48,
+      "text": "Code looks and how Claude Code works. It"
+    },
+    {
+      "start": 35.84,
+      "duration": 3.76,
+      "text": "came out on October 1st, and if you've"
+    },
+    {
+      "start": 37.76,
+      "duration": 4.08,
+      "text": "already updated your software, then it's"
+    },
+    {
+      "start": 39.6,
+      "duration": 3.84,
+      "text": "turned on for you and it's ready to use."
+    },
+    {
+      "start": 41.84,
+      "duration": 3.36,
+      "text": "Now, it works in the Claude Code"
+    },
+    {
+      "start": 43.44,
+      "duration": 3.92,
+      "text": "terminal and also works in the Claude"
+    },
+    {
+      "start": 45.2,
+      "duration": 4.0,
+      "text": "tab inside of the desktop app, but it"
+    },
+    {
+      "start": 47.36,
+      "duration": 3.039,
+      "text": "doesn't work inside of the Claude chat."
+    },
+    {
+      "start": 49.2,
+      "duration": 3.6,
+      "text": "So, you do want to make sure that you're"
+    },
+    {
+      "start": 50.399,
+      "duration": 4.32,
+      "text": "using this inside of Claude Code. Now,"
+    },
+    {
+      "start": 52.8,
+      "duration": 3.279,
+      "text": "you might be thinking, \"Well, I already"
+    },
+    {
+      "start": 54.719,
+      "duration": 3.281,
+      "text": "have skills and I already have"
+    },
+    {
+      "start": 56.079,
+      "duration": 3.841,
+      "text": "connectors.\" And that's true, but those"
+    },
+    {
+      "start": 58.0,
+      "duration": 4.16,
+      "text": "work from the outside. A skill tells"
+    },
+    {
+      "start": 59.92,
+      "duration": 4.879,
+      "text": "Claude how to do a job. A connector"
+    },
+    {
+      "start": 62.16,
+      "duration": 4.88,
+      "text": "plugs Claude into another app. But a mod"
+    },
+    {
+      "start": 64.799,
+      "duration": 4.081,
+      "text": "runs inside of Claude code itself. So,"
+    },
+    {
+      "start": 67.04,
+      "duration": 3.36,
+      "text": "it can change exactly what you see on"
+    },
+    {
+      "start": 68.88,
+      "duration": 3.599,
+      "text": "the screen, which means that you can add"
+    },
+    {
+      "start": 70.4,
+      "duration": 4.16,
+      "text": "buttons, you can add a panel, you could"
+    },
+    {
+      "start": 72.479,
+      "duration": 3.441,
+      "text": "add a miniame that you can play while"
+    },
+    {
+      "start": 74.56,
+      "duration": 2.96,
+      "text": "you wait for Claude to finish. Which"
+    },
+    {
+      "start": 75.92,
+      "duration": 3.28,
+      "text": "takes me to the first mod that I built,"
+    },
+    {
+      "start": 77.52,
+      "duration": 3.44,
+      "text": "which I call Clean View. Now, when I'm"
+    },
+    {
+      "start": 79.2,
+      "duration": 3.599,
+      "text": "working on a project, sometimes I don't"
+    },
+    {
+      "start": 80.96,
+      "duration": 3.839,
+      "text": "want to see all that text flying by when"
+    },
+    {
+      "start": 82.799,
+      "duration": 4.0,
+      "text": "I'm using claw code. I don't necessarily"
+    },
+    {
+      "start": 84.799,
+      "duration": 3.281,
+      "text": "care about the code that's behind it. I"
+    },
+    {
+      "start": 86.799,
+      "duration": 2.801,
+      "text": "don't care about the tools that it's"
+    },
+    {
+      "start": 88.08,
+      "duration": 3.76,
+      "text": "calling. I just want to see what it's"
+    },
+    {
+      "start": 89.6,
+      "duration": 4.24,
+      "text": "working on, how far along it is and what"
+    },
+    {
+      "start": 91.84,
+      "duration": 3.2,
+      "text": "else it has to do. And with this mod,"
+    },
+    {
+      "start": 93.84,
+      "duration": 3.279,
+      "text": "when you take a look down here at the"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.28,
+      "text": "bottom right, it says Tristan's tools."
+    },
+    {
+      "start": 97.119,
+      "duration": 3.601,
+      "text": "Now, we're going to go through all of"
+    },
+    {
+      "start": 98.32,
+      "duration": 4.4,
+      "text": "these in a bit, but one of them is clean"
+    },
+    {
+      "start": 100.72,
+      "duration": 4.64,
+      "text": "view. Now, since that's turned on, I'm"
+    },
+    {
+      "start": 102.72,
+      "duration": 4.32,
+      "text": "going to type a prompt like build me a"
+    },
+    {
+      "start": 105.36,
+      "duration": 2.96,
+      "text": "weather dashboard for New York City. And"
+    },
+    {
+      "start": 107.04,
+      "duration": 2.56,
+      "text": "then I'm going to hit enter. And you're"
+    },
+    {
+      "start": 108.32,
+      "duration": 3.28,
+      "text": "going to see that all of that noise"
+    },
+    {
+      "start": 109.6,
+      "duration": 4.24,
+      "text": "that's usually there is gone. All I get"
+    },
+    {
+      "start": 111.6,
+      "duration": 4.24,
+      "text": "is a simple checklist. It thinks about"
+    },
+    {
+      "start": 113.84,
+      "duration": 4.239,
+      "text": "what I asked. It comes up with a plan."
+    },
+    {
+      "start": 115.84,
+      "duration": 4.0,
+      "text": "It shows me every step of the way what"
+    },
+    {
+      "start": 118.079,
+      "duration": 3.201,
+      "text": "it's doing, how much is left, and then"
+    },
+    {
+      "start": 119.84,
+      "duration": 3.04,
+      "text": "when it's done, it's going to give me"
+    },
+    {
+      "start": 121.28,
+      "duration": 3.119,
+      "text": "the dashboard that I asked for. Now,"
+    },
+    {
+      "start": 122.88,
+      "duration": 3.36,
+      "text": "that's not the point, though. Yes, this"
+    },
+    {
+      "start": 124.399,
+      "duration": 3.36,
+      "text": "dashboard looks pretty nice. But back in"
+    },
+    {
+      "start": 126.24,
+      "duration": 3.68,
+      "text": "Clawed Code, the point I'm trying to"
+    },
+    {
+      "start": 127.759,
+      "duration": 3.84,
+      "text": "make is that I get a short summary of"
+    },
+    {
+      "start": 129.92,
+      "duration": 4.08,
+      "text": "what it did, and that's really all I"
+    },
+    {
+      "start": 131.599,
+      "duration": 4.401,
+      "text": "want. It's clean. It's minimalistic, and"
+    },
+    {
+      "start": 134.0,
+      "duration": 4.239,
+      "text": "it's what I typically appreciate. But"
+    },
+    {
+      "start": 136.0,
+      "duration": 4.08,
+      "text": "how does a claude mod change what's on"
+    },
+    {
+      "start": 138.239,
+      "duration": 3.761,
+      "text": "my screen? Well, every time Claude does"
+    },
+    {
+      "start": 140.08,
+      "duration": 3.84,
+      "text": "something like run a file or run a"
+    },
+    {
+      "start": 142.0,
+      "duration": 4.319,
+      "text": "command, it sends out a little signal"
+    },
+    {
+      "start": 143.92,
+      "duration": 3.76,
+      "text": "called an event. A mod is just a small"
+    },
+    {
+      "start": 146.319,
+      "duration": 2.881,
+      "text": "piece of code that listens for those"
+    },
+    {
+      "start": 147.68,
+      "duration": 3.199,
+      "text": "events. And when one of those events"
+    },
+    {
+      "start": 149.2,
+      "duration": 3.52,
+      "text": "comes through, the mod can do one of"
+    },
+    {
+      "start": 150.879,
+      "duration": 4.0,
+      "text": "three things. It can watch it, it can"
+    },
+    {
+      "start": 152.72,
+      "duration": 3.36,
+      "text": "change it, or can handle it itself. So"
+    },
+    {
+      "start": 154.879,
+      "duration": 3.281,
+      "text": "the normal thing that you're expecting"
+    },
+    {
+      "start": 156.08,
+      "duration": 3.2,
+      "text": "to happen never happens. So, with the"
+    },
+    {
+      "start": 158.16,
+      "duration": 2.799,
+      "text": "cleaning view mod, the one that we're"
+    },
+    {
+      "start": 159.28,
+      "duration": 3.44,
+      "text": "looking at right now, every time Claude"
+    },
+    {
+      "start": 160.959,
+      "duration": 3.601,
+      "text": "is about to show one of those technical"
+    },
+    {
+      "start": 162.72,
+      "duration": 3.92,
+      "text": "rows, one of those tools that it needs"
+    },
+    {
+      "start": 164.56,
+      "duration": 3.92,
+      "text": "to call, the mod is going to step in and"
+    },
+    {
+      "start": 166.64,
+      "duration": 3.76,
+      "text": "it's going to hide it. And when Claude"
+    },
+    {
+      "start": 168.48,
+      "duration": 3.44,
+      "text": "finishes the step, the mod is going to"
+    },
+    {
+      "start": 170.4,
+      "duration": 3.68,
+      "text": "check it off the list. Now, the good"
+    },
+    {
+      "start": 171.92,
+      "duration": 3.92,
+      "text": "news here is that Claude code has a"
+    },
+    {
+      "start": 174.08,
+      "duration": 3.519,
+      "text": "built-in skill that teaches Claude how"
+    },
+    {
+      "start": 175.84,
+      "duration": 3.2,
+      "text": "to build these mods. All you're going to"
+    },
+    {
+      "start": 177.599,
+      "duration": 2.881,
+      "text": "have to do is describe what you want and"
+    },
+    {
+      "start": 179.04,
+      "duration": 3.04,
+      "text": "then Claude is going to build it for"
+    },
+    {
+      "start": 180.48,
+      "duration": 3.92,
+      "text": "you. But more on that later. Let's jump"
+    },
+    {
+      "start": 182.08,
+      "duration": 4.799,
+      "text": "over to the second mod I built, which I"
+    },
+    {
+      "start": 184.4,
+      "duration": 4.24,
+      "text": "call employee control panel. Now,"
+    },
+    {
+      "start": 186.879,
+      "duration": 3.761,
+      "text": "normally if you want to switch models,"
+    },
+    {
+      "start": 188.64,
+      "duration": 3.44,
+      "text": "you would have to type in slashmodel and"
+    },
+    {
+      "start": 190.64,
+      "duration": 2.64,
+      "text": "then pick the one from the list. Or if"
+    },
+    {
+      "start": 192.08,
+      "duration": 2.48,
+      "text": "you want to change how hard Claude"
+    },
+    {
+      "start": 193.28,
+      "duration": 3.2,
+      "text": "thinks, then you had to type in"
+    },
+    {
+      "start": 194.56,
+      "duration": 3.759,
+      "text": "slasheffort and then do the same thing."
+    },
+    {
+      "start": 196.48,
+      "duration": 3.6,
+      "text": "Now, those work for sure, but to be"
+    },
+    {
+      "start": 198.319,
+      "duration": 3.761,
+      "text": "honest, I hate typing in the slash"
+    },
+    {
+      "start": 200.08,
+      "duration": 4.239,
+      "text": "commands just to change the model or"
+    },
+    {
+      "start": 202.08,
+      "duration": 3.84,
+      "text": "effort. So, with this mod, I'm going to"
+    },
+    {
+      "start": 204.319,
+      "duration": 2.961,
+      "text": "click Tristan's tools at the bottom"
+    },
+    {
+      "start": 205.92,
+      "duration": 3.44,
+      "text": "here, and you're going to see that the"
+    },
+    {
+      "start": 207.28,
+      "duration": 3.84,
+      "text": "model and effort are right there for me"
+    },
+    {
+      "start": 209.36,
+      "duration": 3.519,
+      "text": "to change. And when I change them, you"
+    },
+    {
+      "start": 211.12,
+      "duration": 3.92,
+      "text": "can take a look at the status bar below."
+    },
+    {
+      "start": 212.879,
+      "duration": 4.0,
+      "text": "it changes right away. So, I don't have"
+    },
+    {
+      "start": 215.04,
+      "duration": 3.199,
+      "text": "to take the time to type in slash"
+    },
+    {
+      "start": 216.879,
+      "duration": 2.801,
+      "text": "commands just to pick the model or"
+    },
+    {
+      "start": 218.239,
+      "duration": 3.441,
+      "text": "effort I want. I'm just going to go to"
+    },
+    {
+      "start": 219.68,
+      "duration": 3.6,
+      "text": "my toolbar and it's right there for me"
+    },
+    {
+      "start": 221.68,
+      "duration": 3.52,
+      "text": "to change. Now, I know this one is"
+    },
+    {
+      "start": 223.28,
+      "duration": 3.44,
+      "text": "small, but it does make my day easier"
+    },
+    {
+      "start": 225.2,
+      "duration": 3.759,
+      "text": "and I think it's going to make your day"
+    },
+    {
+      "start": 226.72,
+      "duration": 4.799,
+      "text": "easier, too. But the next mod is going"
+    },
+    {
+      "start": 228.959,
+      "duration": 5.601,
+      "text": "to put a whole team of employees to work"
+    },
+    {
+      "start": 231.519,
+      "duration": 4.64,
+      "text": "at once, and I call it the agent dock,"
+    },
+    {
+      "start": 234.56,
+      "duration": 3.759,
+      "text": "which actually is pretty awesome. When"
+    },
+    {
+      "start": 236.159,
+      "duration": 4.16,
+      "text": "you give Claude a big job, it can hand"
+    },
+    {
+      "start": 238.319,
+      "duration": 3.521,
+      "text": "pieces of those to helper agents. Now,"
+    },
+    {
+      "start": 240.319,
+      "duration": 3.84,
+      "text": "these little agents are just extra"
+    },
+    {
+      "start": 241.84,
+      "duration": 4.08,
+      "text": "copies of Claude that can each take a"
+    },
+    {
+      "start": 244.159,
+      "duration": 3.521,
+      "text": "small piece of the work. But the problem"
+    },
+    {
+      "start": 245.92,
+      "duration": 3.519,
+      "text": "here is that you don't always get to see"
+    },
+    {
+      "start": 247.68,
+      "duration": 3.199,
+      "text": "what the agents are doing. And you"
+    },
+    {
+      "start": 249.439,
+      "duration": 3.52,
+      "text": "usually don't get to select how many"
+    },
+    {
+      "start": 250.879,
+      "duration": 4.161,
+      "text": "agents you want to work on your project"
+    },
+    {
+      "start": 252.959,
+      "duration": 4.481,
+      "text": "at any given time. But with this mod, if"
+    },
+    {
+      "start": 255.04,
+      "duration": 4.319,
+      "text": "I type in /doc, I'm going to get to pick"
+    },
+    {
+      "start": 257.44,
+      "duration": 3.519,
+      "text": "how many agents I want on my team for"
+    },
+    {
+      "start": 259.359,
+      "duration": 4.161,
+      "text": "the very next prompt that I give Claude."
+    },
+    {
+      "start": 260.959,
+      "duration": 3.921,
+      "text": "And I'm going to select up to 50 agents."
+    },
+    {
+      "start": 263.52,
+      "duration": 3.6,
+      "text": "Now, I'm going to give it a real job"
+    },
+    {
+      "start": 264.88,
+      "duration": 4.16,
+      "text": "here to test this out. This is for a new"
+    },
+    {
+      "start": 267.12,
+      "duration": 3.28,
+      "text": "bakery called Golden Crumb. And what I"
+    },
+    {
+      "start": 269.04,
+      "duration": 4.24,
+      "text": "want to do is I want to create a"
+    },
+    {
+      "start": 270.4,
+      "duration": 4.72,
+      "text": "dashboard that tracks 50 different tasks"
+    },
+    {
+      "start": 273.28,
+      "duration": 3.28,
+      "text": "before the grand opening. Now, in my"
+    },
+    {
+      "start": 275.12,
+      "duration": 3.2,
+      "text": "little toolbar down here, you can also"
+    },
+    {
+      "start": 276.56,
+      "duration": 3.76,
+      "text": "pick what type of helper you're going to"
+    },
+    {
+      "start": 278.32,
+      "duration": 3.92,
+      "text": "use for these agents. You can either use"
+    },
+    {
+      "start": 280.32,
+      "duration": 4.8,
+      "text": "fast and cheap or you can use the same"
+    },
+    {
+      "start": 282.24,
+      "duration": 4.56,
+      "text": "model that you're using like Opus 5.5."
+    },
+    {
+      "start": 285.12,
+      "duration": 4.16,
+      "text": "But take a look at this. Every agent"
+    },
+    {
+      "start": 286.8,
+      "duration": 4.48,
+      "text": "gets its own card and its own task with"
+    },
+    {
+      "start": 289.28,
+      "duration": 4.16,
+      "text": "its own progress bar. Now, we selected"
+    },
+    {
+      "start": 291.28,
+      "duration": 4.08,
+      "text": "50. 20 of them are showing right now. 10"
+    },
+    {
+      "start": 293.44,
+      "duration": 3.44,
+      "text": "are working. The rest are just waiting"
+    },
+    {
+      "start": 295.36,
+      "duration": 2.88,
+      "text": "their turn. And when they're all done,"
+    },
+    {
+      "start": 296.88,
+      "duration": 3.759,
+      "text": "Claude is going to pull everything"
+    },
+    {
+      "start": 298.24,
+      "duration": 4.32,
+      "text": "together in one dashboard. Now, heads up"
+    },
+    {
+      "start": 300.639,
+      "duration": 4.161,
+      "text": "on this one, though. If you do select a"
+    },
+    {
+      "start": 302.56,
+      "duration": 4.479,
+      "text": "big team, like 50 agents, you will go"
+    },
+    {
+      "start": 304.8,
+      "duration": 4.16,
+      "text": "through your plan a lot faster. My mod"
+    },
+    {
+      "start": 307.039,
+      "duration": 3.761,
+      "text": "does warn me about that before I go too"
+    },
+    {
+      "start": 308.96,
+      "duration": 3.84,
+      "text": "big, but it is worth knowing in case you"
+    },
+    {
+      "start": 310.8,
+      "duration": 3.76,
+      "text": "build this yourself. Now, the next mod"
+    },
+    {
+      "start": 312.8,
+      "duration": 3.28,
+      "text": "is one that I use every single day. But"
+    },
+    {
+      "start": 314.56,
+      "duration": 2.88,
+      "text": "before I show you what that is, take a"
+    },
+    {
+      "start": 316.08,
+      "duration": 3.04,
+      "text": "look at the session bar over here on the"
+    },
+    {
+      "start": 317.44,
+      "duration": 3.599,
+      "text": "lefth hand side. You can see which"
+    },
+    {
+      "start": 319.12,
+      "duration": 3.68,
+      "text": "sessions are actively running. You can"
+    },
+    {
+      "start": 321.039,
+      "duration": 3.361,
+      "text": "jump to whichever session that you want"
+    },
+    {
+      "start": 322.8,
+      "duration": 3.6,
+      "text": "to jump into. And this is something that"
+    },
+    {
+      "start": 324.4,
+      "duration": 4.079,
+      "text": "I built. And if you like it, please go"
+    },
+    {
+      "start": 326.4,
+      "duration": 3.84,
+      "text": "ahead and subscribe and comment session"
+    },
+    {
+      "start": 328.479,
+      "duration": 3.041,
+      "text": "bar. If I do get enough comments, I'll"
+    },
+    {
+      "start": 330.24,
+      "duration": 2.88,
+      "text": "go ahead and shoot a video on that one"
+    },
+    {
+      "start": 331.52,
+      "duration": 3.92,
+      "text": "as well. But let's get back to mod"
+    },
+    {
+      "start": 333.12,
+      "duration": 4.32,
+      "text": "number four, which is Claude photos."
+    },
+    {
+      "start": 335.44,
+      "duration": 4.08,
+      "text": "Now, I make AI photos and videos every"
+    },
+    {
+      "start": 337.44,
+      "duration": 3.52,
+      "text": "single day, but we know that Claude"
+    },
+    {
+      "start": 339.52,
+      "duration": 2.88,
+      "text": "can't make them on their own. Now, what"
+    },
+    {
+      "start": 340.96,
+      "duration": 3.2,
+      "text": "that normally means is that you have to"
+    },
+    {
+      "start": 342.4,
+      "duration": 5.28,
+      "text": "leave Claude and go into a different"
+    },
+    {
+      "start": 344.16,
+      "duration": 6.0,
+      "text": "tool like Gemini or Chatt or any other"
+    },
+    {
+      "start": 347.68,
+      "duration": 5.2,
+      "text": "tool that's running Seance2.5. But I"
+    },
+    {
+      "start": 350.16,
+      "duration": 4.319,
+      "text": "don't do that. I use one tool, which is"
+    },
+    {
+      "start": 352.88,
+      "duration": 3.92,
+      "text": "Higsfield. Now, the reason why I like"
+    },
+    {
+      "start": 354.479,
+      "duration": 5.041,
+      "text": "Hicksfield so much is because yes, it"
+    },
+    {
+      "start": 356.8,
+      "duration": 4.72,
+      "text": "has every top image and video and audio"
+    },
+    {
+      "start": 359.52,
+      "duration": 3.76,
+      "text": "model all in one place, but they have a"
+    },
+    {
+      "start": 361.52,
+      "duration": 3.6,
+      "text": "connector right inside of Claude. So, it"
+    },
+    {
+      "start": 363.28,
+      "duration": 3.44,
+      "text": "just made sense to build a mod right on"
+    },
+    {
+      "start": 365.12,
+      "duration": 2.799,
+      "text": "top of it. And full disclosure, I did"
+    },
+    {
+      "start": 366.72,
+      "duration": 2.56,
+      "text": "reach out to Higsfield to see if they"
+    },
+    {
+      "start": 367.919,
+      "duration": 3.041,
+      "text": "wanted to partner on this video and they"
+    },
+    {
+      "start": 369.28,
+      "duration": 3.6,
+      "text": "are sponsoring it, which makes sense"
+    },
+    {
+      "start": 370.96,
+      "duration": 4.48,
+      "text": "since this whole mod runs on top of"
+    },
+    {
+      "start": 372.88,
+      "duration": 4.8,
+      "text": "Higsfield. Now, if I type in /create,"
+    },
+    {
+      "start": 375.44,
+      "duration": 4.16,
+      "text": "take a look at this. I get a full photo"
+    },
+    {
+      "start": 377.68,
+      "duration": 3.6,
+      "text": "and video experience right inside of"
+    },
+    {
+      "start": 379.6,
+      "duration": 3.36,
+      "text": "Claude. On the top right, I get to see"
+    },
+    {
+      "start": 381.28,
+      "duration": 3.199,
+      "text": "how many Higsfield credits I have. Then"
+    },
+    {
+      "start": 382.96,
+      "duration": 2.88,
+      "text": "I get to describe the type of video or"
+    },
+    {
+      "start": 384.479,
+      "duration": 3.201,
+      "text": "photo that I want. Now, I'm just going"
+    },
+    {
+      "start": 385.84,
+      "duration": 3.76,
+      "text": "to ask it to make a photo of me riding a"
+    },
+    {
+      "start": 387.68,
+      "duration": 3.68,
+      "text": "train. It can pick my outfit. It can"
+    },
+    {
+      "start": 389.6,
+      "duration": 3.599,
+      "text": "pick my expression, whatever. This is"
+    },
+    {
+      "start": 391.36,
+      "duration": 4.64,
+      "text": "just for a demo, but then I get to pick"
+    },
+    {
+      "start": 393.199,
+      "duration": 4.081,
+      "text": "whether I want this as a photo or video."
+    },
+    {
+      "start": 396.0,
+      "duration": 2.8,
+      "text": "So, of course, I'm going to pick photo."
+    },
+    {
+      "start": 397.28,
+      "duration": 2.96,
+      "text": "And then I get to pick the model that"
+    },
+    {
+      "start": 398.8,
+      "duration": 3.679,
+      "text": "I'm going to use. Now, I'm going to"
+    },
+    {
+      "start": 400.24,
+      "duration": 3.44,
+      "text": "select Nano Banana Pro because I think"
+    },
+    {
+      "start": 402.479,
+      "duration": 3.041,
+      "text": "it's one of the best ones that's out"
+    },
+    {
+      "start": 403.68,
+      "duration": 3.84,
+      "text": "there. I get to pick my image size,"
+    },
+    {
+      "start": 405.52,
+      "duration": 4.959,
+      "text": "which would be 16 by9. And I'm going to"
+    },
+    {
+      "start": 407.52,
+      "duration": 4.959,
+      "text": "pick that I want this in 4K. Then I also"
+    },
+    {
+      "start": 410.479,
+      "duration": 4.081,
+      "text": "can do some of the extra settings here,"
+    },
+    {
+      "start": 412.479,
+      "duration": 4.401,
+      "text": "which is where I can upload a photo of"
+    },
+    {
+      "start": 414.56,
+      "duration": 4.32,
+      "text": "me so it knows what I look like. With"
+    },
+    {
+      "start": 416.88,
+      "duration": 4.719,
+      "text": "that said, Claude is going to take that"
+    },
+    {
+      "start": 418.88,
+      "duration": 4.96,
+      "text": "one sentence and turn it into a much"
+    },
+    {
+      "start": 421.599,
+      "duration": 3.681,
+      "text": "bigger and more detailed prompt that's"
+    },
+    {
+      "start": 423.84,
+      "duration": 2.96,
+      "text": "written exactly for the model that we"
+    },
+    {
+      "start": 425.28,
+      "duration": 3.199,
+      "text": "chose. And of course, you can change the"
+    },
+    {
+      "start": 426.8,
+      "duration": 2.959,
+      "text": "prompt if you want, but it's a much more"
+    },
+    {
+      "start": 428.479,
+      "duration": 3.521,
+      "text": "detailed prompt than I would have ever"
+    },
+    {
+      "start": 429.759,
+      "duration": 4.16,
+      "text": "used. So, when I hit enter, it has the"
+    },
+    {
+      "start": 432.0,
+      "duration": 3.28,
+      "text": "tasks already lined up for me. Now, one"
+    },
+    {
+      "start": 433.919,
+      "duration": 3.041,
+      "text": "thing it's going to do is it's going to"
+    },
+    {
+      "start": 435.28,
+      "duration": 3.44,
+      "text": "tell me how many credits this is going"
+    },
+    {
+      "start": 436.96,
+      "duration": 3.84,
+      "text": "to use, and it's going to pause there"
+    },
+    {
+      "start": 438.72,
+      "duration": 4.08,
+      "text": "until I click yes. Now, I did that on"
+    },
+    {
+      "start": 440.8,
+      "duration": 4.16,
+      "text": "purpose because I don't want a crazy"
+    },
+    {
+      "start": 442.8,
+      "duration": 4.239,
+      "text": "amount of tokens or credits being used"
+    },
+    {
+      "start": 444.96,
+      "duration": 4.239,
+      "text": "without my approval. But once I hit"
+    },
+    {
+      "start": 447.039,
+      "duration": 3.841,
+      "text": "that, it's going to do one interesting"
+    },
+    {
+      "start": 449.199,
+      "duration": 3.28,
+      "text": "thing. Now, since this is running in the"
+    },
+    {
+      "start": 450.88,
+      "duration": 3.439,
+      "text": "terminal, it's going to give me this"
+    },
+    {
+      "start": 452.479,
+      "duration": 3.761,
+      "text": "little pixel preview, which I thought"
+    },
+    {
+      "start": 454.319,
+      "duration": 2.961,
+      "text": "was just fun to add in. You know, you"
+    },
+    {
+      "start": 456.24,
+      "duration": 3.28,
+      "text": "could remove that if you don't want to"
+    },
+    {
+      "start": 457.28,
+      "duration": 4.319,
+      "text": "use it. But down here is where you click"
+    },
+    {
+      "start": 459.52,
+      "duration": 4.72,
+      "text": "and see the real photo. And that is me"
+    },
+    {
+      "start": 461.599,
+      "duration": 4.241,
+      "text": "on the train just like I asked. But I"
+    },
+    {
+      "start": 464.24,
+      "duration": 3.359,
+      "text": "never had to leave Claude. And this"
+    },
+    {
+      "start": 465.84,
+      "duration": 3.12,
+      "text": "photo is already saved on my computer."
+    },
+    {
+      "start": 467.599,
+      "duration": 3.121,
+      "text": "Now, of course, this is just the tip of"
+    },
+    {
+      "start": 468.96,
+      "duration": 3.679,
+      "text": "the iceberg when it comes to Hicksfield."
+    },
+    {
+      "start": 470.72,
+      "duration": 3.36,
+      "text": "We all create images. We all create"
+    },
+    {
+      "start": 472.639,
+      "duration": 2.96,
+      "text": "videos. If you've never been to"
+    },
+    {
+      "start": 474.08,
+      "duration": 3.2,
+      "text": "Hicksfield's website, you should"
+    },
+    {
+      "start": 475.599,
+      "duration": 3.681,
+      "text": "definitely check it out. They have some"
+    },
+    {
+      "start": 477.28,
+      "duration": 4.0,
+      "text": "of the coolest and most popular AI"
+    },
+    {
+      "start": 479.28,
+      "duration": 3.68,
+      "text": "videos that you can just copy the prompt"
+    },
+    {
+      "start": 481.28,
+      "duration": 3.84,
+      "text": "and make it yourself if you want to. And"
+    },
+    {
+      "start": 482.96,
+      "duration": 4.32,
+      "text": "most of them are the videos that you see"
+    },
+    {
+      "start": 485.12,
+      "duration": 3.28,
+      "text": "that are going viral online. So, if you"
+    },
+    {
+      "start": 487.28,
+      "duration": 3.12,
+      "text": "haven't checked them out, check it out."
+    },
+    {
+      "start": 488.4,
+      "duration": 3.919,
+      "text": "The link is in my description to try out"
+    },
+    {
+      "start": 490.4,
+      "duration": 4.479,
+      "text": "Hicksfield. But that does take us to the"
+    },
+    {
+      "start": 492.319,
+      "duration": 4.16,
+      "text": "fifth mod and I call it Roadtrip. Now,"
+    },
+    {
+      "start": 494.879,
+      "duration": 3.44,
+      "text": "this one I built just for fun, but I do"
+    },
+    {
+      "start": 496.479,
+      "duration": 4.0,
+      "text": "like it and I have been using it. It's a"
+    },
+    {
+      "start": 498.319,
+      "duration": 4.081,
+      "text": "mini racing game that plays right inside"
+    },
+    {
+      "start": 500.479,
+      "duration": 3.28,
+      "text": "of Claude Code while you wait for Claude"
+    },
+    {
+      "start": 502.4,
+      "duration": 2.88,
+      "text": "to build your project. So, let's say"
+    },
+    {
+      "start": 503.759,
+      "duration": 3.201,
+      "text": "that you ask Claude to make your weather"
+    },
+    {
+      "start": 505.28,
+      "duration": 3.44,
+      "text": "dashboard better. While it's running,"
+    },
+    {
+      "start": 506.96,
+      "duration": 3.2,
+      "text": "you can just click play and now you're"
+    },
+    {
+      "start": 508.72,
+      "duration": 2.96,
+      "text": "driving. You're playing the game. And"
+    },
+    {
+      "start": 510.16,
+      "duration": 3.84,
+      "text": "every so often in the game, it's going"
+    },
+    {
+      "start": 511.68,
+      "duration": 3.919,
+      "text": "to ask you a quiz question about Claude,"
+    },
+    {
+      "start": 514.0,
+      "duration": 3.12,
+      "text": "which by the way, let me tell you, is a"
+    },
+    {
+      "start": 515.599,
+      "duration": 3.44,
+      "text": "lot better than just staring at the"
+    },
+    {
+      "start": 517.12,
+      "duration": 3.44,
+      "text": "screen waiting for Claude to finish."
+    },
+    {
+      "start": 519.039,
+      "duration": 3.041,
+      "text": "Those are five mods that I built this"
+    },
+    {
+      "start": 520.56,
+      "duration": 2.64,
+      "text": "week. Now, you're probably wondering how"
+    },
+    {
+      "start": 522.08,
+      "duration": 2.24,
+      "text": "you can build these yourself. You're"
+    },
+    {
+      "start": 523.2,
+      "duration": 3.52,
+      "text": "going to want to make sure that Claude"
+    },
+    {
+      "start": 524.32,
+      "duration": 5.519,
+      "text": "Code is up to date because Claude Mods"
+    },
+    {
+      "start": 526.72,
+      "duration": 4.64,
+      "text": "needs version 2.1.287,"
+    },
+    {
+      "start": 529.839,
+      "duration": 3.12,
+      "text": "I believe, or newer. Then, all you have"
+    },
+    {
+      "start": 531.36,
+      "duration": 3.36,
+      "text": "to do is open up Claude Code and just"
+    },
+    {
+      "start": 532.959,
+      "duration": 3.281,
+      "text": "describe the mod that you want. Claude"
+    },
+    {
+      "start": 534.72,
+      "duration": 3.36,
+      "text": "Code is going to start building it, and"
+    },
+    {
+      "start": 536.24,
+      "duration": 3.12,
+      "text": "then it's going to ask you to reload."
+    },
+    {
+      "start": 538.08,
+      "duration": 2.879,
+      "text": "When it does that, you're going to want"
+    },
+    {
+      "start": 539.36,
+      "duration": 3.12,
+      "text": "to say yes. And when you do that, your"
+    },
+    {
+      "start": 540.959,
+      "duration": 3.041,
+      "text": "mod is going to show up as soon as"
+    },
+    {
+      "start": 542.48,
+      "duration": 2.88,
+      "text": "Claude finishes. And if you don't like"
+    },
+    {
+      "start": 544.0,
+      "duration": 3.04,
+      "text": "something, you can just talk to it like"
+    },
+    {
+      "start": 545.36,
+      "duration": 3.12,
+      "text": "a normal human. You just tell it what"
+    },
+    {
+      "start": 547.04,
+      "duration": 2.4,
+      "text": "you don't like and what you want changed"
+    },
+    {
+      "start": 548.48,
+      "duration": 2.88,
+      "text": "and it's going to change it for you."
+    },
+    {
+      "start": 549.44,
+      "duration": 4.16,
+      "text": "Now, one thing to keep in mind is a mod"
+    },
+    {
+      "start": 551.36,
+      "duration": 4.4,
+      "text": "is just a type of a plugin, which means"
+    },
+    {
+      "start": 553.6,
+      "duration": 4.08,
+      "text": "it installs the same way a plugin does."
+    },
+    {
+      "start": 555.76,
+      "duration": 4.0,
+      "text": "So, if somebody shares a mod with you,"
+    },
+    {
+      "start": 557.68,
+      "duration": 3.839,
+      "text": "you can type in /plugin and search for"
+    },
+    {
+      "start": 559.76,
+      "duration": 3.12,
+      "text": "it and install it just like any other"
+    },
+    {
+      "start": 561.519,
+      "duration": 3.681,
+      "text": "plugin. One thing to keep in mind though"
+    },
+    {
+      "start": 562.88,
+      "duration": 4.399,
+      "text": "is that a mod that Claude builds for you"
+    },
+    {
+      "start": 565.2,
+      "duration": 3.36,
+      "text": "are temporary by default, which means"
+    },
+    {
+      "start": 567.279,
+      "duration": 2.56,
+      "text": "that as you're building these and you"
+    },
+    {
+      "start": 568.56,
+      "duration": 2.8,
+      "text": "find the ones that you like, you're"
+    },
+    {
+      "start": 569.839,
+      "duration": 3.201,
+      "text": "going to ask Claude to save it as a"
+    },
+    {
+      "start": 571.36,
+      "duration": 2.72,
+      "text": "plugin and install it. That way, it's"
+    },
+    {
+      "start": 573.04,
+      "duration": 2.64,
+      "text": "going to be there for you every single"
+    },
+    {
+      "start": 574.08,
+      "duration": 3.36,
+      "text": "time that you open up Claude. Now, mods"
+    },
+    {
+      "start": 575.68,
+      "duration": 3.76,
+      "text": "don't cost anything extra, but you do"
+    },
+    {
+      "start": 577.44,
+      "duration": 3.44,
+      "text": "need a paid plan that includes Claude"
+    },
+    {
+      "start": 579.44,
+      "duration": 3.44,
+      "text": "Code. And of course, if a mod is running"
+    },
+    {
+      "start": 580.88,
+      "duration": 3.44,
+      "text": "in the background, it is using your"
+    },
+    {
+      "start": 582.88,
+      "duration": 3.36,
+      "text": "subscription credits as well. And that's"
+    },
+    {
+      "start": 584.32,
+      "duration": 3.6,
+      "text": "it. And just remember that a mod is just"
+    },
+    {
+      "start": 586.24,
+      "duration": 2.88,
+      "text": "a feature that you describe, and Claude"
+    },
+    {
+      "start": 587.92,
+      "duration": 2.88,
+      "text": "is going to build it right inside of"
+    },
+    {
+      "start": 589.12,
+      "duration": 3.36,
+      "text": "Claude Code for you. So, thanks again"
+    },
+    {
+      "start": 590.8,
+      "duration": 3.28,
+      "text": "for watching. Thanks again to Higsfield"
+    },
+    {
+      "start": 592.48,
+      "duration": 4.96,
+      "text": "for sponsoring this video and check out"
+    },
+    {
+      "start": 594.08,
+      "duration": 3.36,
+      "text": "the link in the description."
+    }
+  ]
+}
