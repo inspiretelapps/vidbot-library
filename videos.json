@@ -9,8 +9,597 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-04T12:10:03+02:00",
+  "updated_at": "2026-10-06T06:07:49+02:00",
   "videos": [
+    {
+      "id": "c9Z7ixVr4CU",
+      "title": "Grok Bot Just Changed A LOT (Here’s What’s New)",
+      "channel": "Riley Brown",
+      "upload_date": "20261005",
+      "thumbnail": "https://i.ytimg.com/vi/c9Z7ixVr4CU/maxresdefault.jpg",
+      "description": "This is an Agent Native Episode.\n\nGrokbot just shipped four big updates that make it the easiest way to run a whole team of AI agents for marketing, coding, or any other kind of work. The last one fixes the biggest reason agents get blocked on the internet.\n-Primary Bot: Now there's one team leader to talk to, and it hands each task to the right bot for you. I asked for a redesign of my Native Note app, and it passed the job to my dev bot, which used Cursor with Opus 5.5 and pushed the change straight to prod.\n-I called my primary bot from the Grokbot iOS app while out on a walk. Hands-free, it sent YouTube research to my content bot and landing page fixes to the right agent.\n-Team Bots: Shared, isolated bots for your whole team. They start with their own plugins, publish to your team, and live in Slack. When teammates use one, it connects to their own logins like Gmail, so nobody's account gets shared.\n\nThen there are the quieter updates I genuinely love. Inline drafts turn email and Slack messages into little mini apps you can edit, approve, and send right in the chat. And \"Route traffic through this computer\" makes your bot's cloud computer browse from your own internet connection, so sites like Target stop flagging it as a bot.\n\nSubscribe to my new vlog channel: https://www.youtube.com/channel/UCE92uOiqod6LtYDwlgJqsug\n\nFor Agent Native Resources: agentnative.inc/resources\n\nChapters\n00:00 Intro\n00:20 1. Primary Bot\n07:11 2. Team Bot Feature\n14:30 3. Inline Drafts for Email and Slack\n17:40 4. Local Computer Routing\n19:17 Final Thoughts",
+      "duration_seconds": 1268,
+      "url": "https://www.youtube.com/watch?v=c9Z7ixVr4CU",
+      "summary": "One point of contact — 00:20: Riley Brown demonstrates a primary bot that delegates to project-specific agents rather than requiring him to choose an agent for every request. A Native Note list-view redesign is passed to a developer bot using Cursor and the requested Opus 5.5 model; he explicitly authorizes a production push and then refreshes the website to show the changed view. An iOS voice call also routes five YouTube ideas and landing-page improvements to different agents. This is a hands-on workflow demonstration, not a controlled productivity benchmark.\n\nShared access without sharing personal identity — 07:11: Personal bots inherit Brown's existing plugins and skills, whereas a team bot starts with its own empty configuration. He builds a content-tracker bot, publishes it, connects it to Slack, adds it to a channel and receives a reply. He says authenticated services such as Gmail use each teammate's own login and routines remain personal; these boundaries matter because his personal Slack integration can otherwise post as him. His recommended rollout is configure, test, publish, connect to Slack and test again before wider use.\n\nReviewable outbound messages — 14:30: Email and Slack drafts now appear as editable cards with send and discard controls instead of plain proposed text. Brown demonstrates changing a Slack draft and reviewing an email, then suggests requesting replies to the ten most important emails as separate cards. The useful change is an explicit human send gate, not simply faster composition; his prediction that these task-specific mini interfaces will spread in 2027 is an opinion, not a shipped capability beyond the shown services.\n\nRouting and the final verdict — 17:40–21:06: A desktop setting routes the cloud bot's browser traffic through the user's computer and IP address. Brown argues this makes VM traffic less likely to be flagged by retail sites, but does not demonstrate a completed purchase or establish that every block disappears. He calls the app unusually fast and polished while identifying non-frontier underlying models as a reason he would not use it for everything. His closing portability tip is Composio: he shows 28 connected apps and explains how centralizing integrations helps him switch between agent platforms without rebuilding every connection.",
+      "why_valuable": "Use one lead agent for delegation, keep shared Slack bots separate from personal credentials, and retain an approval gate for outbound messages. Brown's demonstrations help decide which Grokbot workflows to pilot; local routing is a proposed fix for cloud-browser friction, not a guarantee that blocked transactions will succeed.",
+      "key_takeaways": [
+        "00:20–04:20 — A primary bot delegates a real website redesign to a project bot and Cursor; Brown explicitly permits the production push and shows the refreshed result.",
+        "05:25–06:48 — An iOS voice call assigns five YouTube ideas and landing-page work without requiring separate conversations with each specialist.",
+        "09:35–14:28 — Team bots start with separate plugins and stay drafts until published; Brown says Gmail authentication and routines remain per teammate.",
+        "14:45–16:46 — Editable Slack/email cards expose send and discard controls, preserving human review instead of treating a generated draft as permission to send.",
+        "17:40–19:15 — Local computer routing uses the user's IP for cloud browsing; Brown expects fewer bot blocks but provides no successful checkout test.",
+        "19:18–20:43 — Brown praises speed and interface polish but still wants stronger models; his Composio setup shows 28 apps as a way to reduce platform-switching work."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/c9Z7ixVr4CU.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Brown frames the release as four changes aimed at making business agents easier to coordinate across marketing and coding. He also previews a networking change intended to reduce website blocking, setting up a workflow demonstration rather than a measured comparison of competing platforms.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 20,
+          "timestamp": "00:20",
+          "title": "1. Primary Bot",
+          "description": "A website redesign request is automatically handed to the developer assigned to Native Note, which uses Cursor and the specified model before Brown authorizes a production push. He refreshes the site to show the new list view, then uses an iOS voice call to assign content research and landing-page work, illustrating why a single lead agent can reduce coordination overhead.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 431,
+          "timestamp": "07:11",
+          "title": "2. Team Bot Feature",
+          "description": "Brown contrasts a new personal email bot that inherits existing integrations with an isolated content-tracker bot intended for colleagues. He publishes the tracker, installs it in Slack and tests a channel reply; he also explains per-user Gmail logins and personal routines, recommending staged testing so team access does not expose his personal account identity.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 870,
+          "timestamp": "14:30",
+          "title": "3. Inline Drafts for Email and Slack",
+          "description": "A Slack request produces an editable message card, and an email request offers the same review-and-send interface. Brown shows manual editing and agent-driven rewriting, then describes batching ten email replies into cards that can be approved or discarded individually, making the user the final authority over outbound communication.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1060,
+          "timestamp": "17:40",
+          "title": "4. Local Computer Routing",
+          "description": "The desktop networking setting sends a cloud agent's browser traffic through the local computer's internet connection. Brown explains how a cloud VM can trigger retail-site bot defenses and why using the user's IP might help, but the segment contains no completed checkout test and does not establish universal access to blocked sites.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1157,
+          "timestamp": "19:17",
+          "title": "Final Thoughts",
+          "description": "Brown's enthusiasm for the app's speed and interface is qualified by his wish for frontier-level models before using it for almost every task. He then shows a Composio account with 28 connected apps and argues that keeping integrations in a central service reduces the cost of moving between Claude, Grok, Cursor and other agent environments.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
+    {
+      "id": "TGFaKSHqkpE",
+      "title": "4 Men Share How They Hit Rock Bottom (and got out) - Dr K, Joe Hudson & Connor Beaton",
+      "channel": "Chris Williamson",
+      "upload_date": "20261005",
+      "thumbnail": "https://i.ytimg.com/vi/TGFaKSHqkpE/maxresdefault.jpg",
+      "description": "Expect to learn:\n\n- What it takes to climb the mountain of success as a man.\n- The catalysts that propel people forward to make real and lasting change.\n- How to come back from rock bottom.\n- and much more…\n\nGuests:\n\n- Joe Hudson is a coach, entrepreneur and a podcast host.\n- Dr K is a psychiatrist, Harvard Medical School instructor, co-founder of Healthy GamerGG, Twitch streamer and a YouTuber.\n- Connor Beaton is a men’s life coach, founder of ManTalks and an author focusing on men’s wellness and personal growth.\n\nCheck out Dr. K's Memberships & mental health tools: https://go.healthygamer.gg/4dBnCqa\n\n-\n\nGet a Free Sample Pack of LMNT’s most popular flavours with your first purchase at https://drinklmnt.com/modernwisdom\n\nSign up for a free trial from Shopify at https://shopify.com/modernwisdom\n\nGet 35% off your first subscription on the best supplements from Momentous at https://livemomentous.com/modernwisdom\n\nGet the brand new Whoop 5.0 and your first month for free at https://join.whoop.com/modernwisdom\n\nGet ChatGPT to explore ideas, solve problems, and learn faster at ⁠⁠https://chatgpt.com\n\n-\n\n0:00 How Can Men Actually Win the Game?\n11:33 Do We Choose When We Hit Rock Bottom?\n25:02 Was Love Island Chris’ Rock Bottom?\n33:53 The Moment Joe Knew He’d Hit Rock Bottom\n43:18 How Karma Led Dr K to Rock Bottom\n54:57 When Self-Hatred Becomes Rock Bottom\n01:03:10 The Beauty of Knowing You’ve Made It\n01:15:14 What Does Karma Actually Mean?\n01:23:59 Is the Work Ever Done?\n01:32:33 Why You Need a Mountain to Climb\n01:40:18 Is Awareness the Key to Conquering Desire?\n01:54:22 Why Confronting Your Shame Changes Everything\n02:11:54 Is Rock Bottom Really About Shame?\n02:14:19 Where to Find Everyone\n\n-\nCheck out Dr. K's Memberships & mental health tools: https://go.healthygamer.gg/4dBnCqa\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - https://chriswillx.com/books/\n\nTry my productivity energy drink Neutonic here - https://neutonic.com/modernwisdom\n\n-\n\nGet in touch in the comments below or head to...\nInstagram: https://www.instagram.com/chriswillx \nTwitter: https://www.twitter.com/chriswillx\nEmail: https://chriswillx.com/contact/",
+      "duration_seconds": 8478,
+      "url": "https://www.youtube.com/watch?v=TGFaKSHqkpE",
+      "summary": "Achievement is not a cure for self-rejection — 00:00–11:33: Chris Williamson asks Dr K, Joe Hudson and Connor Beaton how men can win the success game and become free of it. They distinguish earning competence and material success from using shame as fuel to escape an unwanted identity: the latter can get someone to the top while leaving the same emptiness intact. Hudson recommends repeatedly asking what one really wants, including desires such as a happy relationship that can feel less attainable than a large company. Their objection is not to ambition itself but to substituting achievement for the emotional problem it was meant to solve.\n\nDo not wait for a catastrophe — 11:33–25:02: Dr K warns against romanticizing a final crash that supposedly guarantees transformation: rock bottom is the lowest point before a turnaround, and life can keep getting worse. Beaton emphasizes taking responsibility, while Hudson and Dr K qualify the idea that change is simply a choice, because someone unable to act may use that advice to deepen self-blame. Self-awareness, accepting the truth of one's behavior and receiving help are offered as routes toward agency, rather than instructions to engineer a crisis or wait for one.\n\nFour different identity collapses — 25:02–01:15:14: Williamson describes Love Island exposing a mismatch between his party-boy persona and his actual interests, followed at age 27 by a six-month sober period and serious self-investigation. Hudson recalls abusive conflict with his wife, including a car-and-pitchfork confrontation that revealed meditation was not resolving relational patterns; he pursued trauma and somatic work. Dr K describes gaming 16–20 hours a day, a 2.4 college GPA, monastic aspirations and learning to tolerate unsuccessful medical-school applications without interpreting them as personal annihilation. Beaton recounts affairs, shame, living in a Walmart parking lot and suicidal thoughts before accepting his mentor Bernard's help; later family life brought joy he had once thought impossible. These are personal recovery narratives, not evidence that suffering is necessary or should be repeated.\n\nResponsibility without an endless finish-line fantasy — 01:15:14–01:40:18: Dr K defines karma as cause and effect, not cosmic justice or blame for what happens to victims, and argues that avoiding a task also reinforces a pattern. Hudson adds that the agency that once liberated someone can become a rigid identity unless it also permits surrender. The panel rejects being permanently 'done' with development and distinguishes attachment-based self-worth from competence-based self-esteem: proving skill cannot replace feeling worthy of care. Williamson's endurance-athlete example makes the distinction practical: doing difficult training does not substitute for the difficult conversation at home.\n\nObserve the urge and interrupt avoidance — 01:40:18–01:54:22: Hudson asks people to feel wanting rather than automatically satisfy or suppress it, tracing a surface urge toward needs such as calm or connection. Dr K's potato-chip story makes awareness the exercise: notice wanting and the actual satisfaction rather than making resistance another contest to win. They apply this logic to compulsive sexual behavior, while Dr K explicitly calls his dopamine/serotonin account a rough functional-neuroscience explanation, not direct brain measurements. The usable principle is curiosity about triggers and emotional avoidance; their unconventional addiction exercises are discussion examples, not a substitute for individualized clinical care.\n\nShame, failure and the closing verdict — 01:54:22–02:21:18: Beaton suggests pausing, breathing and turning toward the internal state a habit is avoiding, while Hudson proposes writing self-critical dialogue and hearing what it sounds like addressed to another person. Dr K challenges an absolute claim that shame never motivates: it can initiate achievement, but that is different from stopping an addictive behavior or enjoying what one has earned. They converge on separating personhood from behavior and permitting failure without demanding that it guarantee later success. After sharing their resources, they revisit relationships as both mirrors for inner work and sources of connection without compulsory approval; Williamson proposes a future beginner's spirituality discussion rather than presenting a complete spiritual method here.",
+      "why_valuable": "Stop treating another achievement or a worse crisis as the cure for shame. This discussion helps distinguish a competence problem from a self-worth or avoidance problem, offering concrete starting points—honest self-observation, trusted support and interrupting self-critical habit loops—while making clear that recovery stories are not instructions to seek suffering.",
+      "key_takeaways": [
+        "03:30–10:30 — Shame-fueled ambition can produce success without contentment; Hudson's repeated 'what do I really want?' question tests whether the target addresses the actual need.",
+        "13:00–21:30 — Dr K rejects waiting for a guaranteed transformative crash, and the panel cautions that 'just choose' can add blame when someone cannot yet act.",
+        "35:30–37:00 — Hudson finds that meditation does not resolve his abusive relationship patterns; he turns toward trauma and somatic work rather than more of the same practice.",
+        "58:00–01:02:30 — Beaton's turnaround includes accepting a mentor's help after homelessness and suicidal thoughts; the panel does not portray solitary willpower as the whole recovery story.",
+        "01:33:00–01:36:30 — Relational self-worth and competence-based self-esteem need different kinds of work; hard training cannot replace an avoided conversation with a spouse.",
+        "01:45:30–01:46:30; 01:55:00–01:57:00 — Notice the urge and the feeling behind it, then build tolerance through a pause and breathing instead of immediately escaping the internal state.",
+        "02:03:00–02:09:30 — The panel distinguishes shame's ability to trigger achievement from its failure to create fulfillment or reliably stop compulsive behavior; there is a genuine disagreement before that qualification.",
+        "02:10:30–02:14:00 — Separate inherent worth from behavior and face failure without treating it as a transaction that guarantees eventual success."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/TGFaKSHqkpE.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "How Can Men Actually Win the Game?",
+          "description": "The panel challenges the assumption that maximizing status and discipline will automatically produce peace once a man succeeds. They compare shame-driven ambition with cultivating contentment, and Hudson recommends questioning the deepest desired outcome, because a happy marriage may feel impossible to someone who regards a huge business as achievable.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 693,
+          "timestamp": "11:33",
+          "title": "Do We Choose When We Hit Rock Bottom?",
+          "description": "Dr K warns that fantasizing about a final crash can prolong deterioration rather than create a guaranteed rebirth. Beaton stresses agency, but the discussion also questions how the choice becomes possible, turning toward self-awareness, surrender and accepting the truth of one's behavior so responsibility does not become another instrument of self-abuse.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1502,
+          "timestamp": "25:02",
+          "title": "Was Love Island Chris’ Rock Bottom?",
+          "description": "Williamson explains how reality television surrounded him with embodiments of the party-boy identity he had built while stripping away distractions. An unexpected view of the Milky Way after eviction crystallized the mismatch in retrospect, and he later pursued sobriety, meditation and self-investigation; he is careful not to describe an instant cure for a chronic problem.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2033,
+          "timestamp": "33:53",
+          "title": "The Moment Joe Knew He’d Hit Rock Bottom",
+          "description": "Hudson recalls a relationship conflict involving his wife's car and his pitchfork that shattered the gap between his spiritual self-image and his actual conduct. The discovery that more meditation would not fix learned relational patterns led him toward trauma and somatic work, after which the panel explores why both teachable methods and acceptance matter in change.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2598,
+          "timestamp": "43:18",
+          "title": "How Karma Led Dr K to Rock Bottom",
+          "description": "Dr K recounts failing at college while gaming 16–20 hours daily, returning from an ashram and gradually abandoning the idea that becoming a monk outwardly was necessary for inner work. With a 2.4 GPA and a wish to attend medical school, he describes accepting the possibility of continued rejection, prompting a discussion of unsuccessful effort as learning without using failure as a reason for self-hatred.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3297,
+          "timestamp": "54:57",
+          "title": "When Self-Hatred Becomes Rock Bottom",
+          "description": "Beaton describes a charismatic outward life alongside self-loathing, affairs and compulsive behavior, until his partner's discovery made the damage impossible to deny. Shame drove him into a car in a Walmart parking lot, but accepting help from his singing mentor Bernard became a sustained apprenticeship in inner work; his later joy at starting a family shows a recovery arc rather than a single dramatic fix.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3790,
+          "timestamp": "1:03:10",
+          "title": "The Beauty of Knowing You’ve Made It",
+          "description": "The guests contrast awe, joy and absurd humor as different experiences of a life they once could not imagine, then discuss the fear that everything might fall apart again. They disagree about wanting another period of suffering but agree on changing the relationship to setbacks and noticing smaller misalignments early, with Williamson describing new sensitivity to even minor lies after intensive personal work.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4514,
+          "timestamp": "1:15:14",
+          "title": "What Does Karma Actually Mean?",
+          "description": "Dr K presents karma as cause and effect rather than moral justice, linking current patterns to choices, genetics and past experience without claiming victims deserve harm. His practical warning is that avoidance is also training: repeatedly postponing action reinforces postponement, while earlier choices eventually require engagement rather than escape through a new identity or technique.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5039,
+          "timestamp": "1:23:59",
+          "title": "Is the Work Ever Done?",
+          "description": "The panel considers how the sense of agency that helps someone leave victimhood can later become an inflexible demand to control everything. They reject the promise of being permanently finished with maturation, emphasizing changing tools as circumstances change and becoming more able to serve others rather than purchasing a final endpoint of peace.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5553,
+          "timestamp": "1:32:33",
+          "title": "Why You Need a Mountain to Climb",
+          "description": "Beaton separates relational self-worth from confidence built through competence, explaining why achievements cannot reliably fill an attachment-based sense of being unlovable. Williamson's athlete example contrasts tolerating chosen training discomfort with avoiding a hard conversation at home, and the discussion moves toward feeling deeper wants instead of replacing them with attainable status goals.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 6018,
+          "timestamp": "1:40:18",
+          "title": "Is Awareness the Key to Conquering Desire?",
+          "description": "Dr K contrasts pain with the reaction that creates suffering and pleasure with the attachment that can become obsession. His potato-chip example and Hudson's urge-awareness exercise shift attention from suppression to the real experience underneath a habit; the panel also offers a deliberately simplified neuroscience account, with an explicit caveat that it is not based on direct neurotransmitter measurements in yogis.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 6862,
+          "timestamp": "1:54:22",
+          "title": "Why Confronting Your Shame Changes Everything",
+          "description": "Beaton recommends a pause, breathing and turning toward the emotion that compulsive behavior is regulating, while Hudson questions the self-critical language that keeps shame active. A written-dialogue exercise makes internal abuse visible, but Dr K challenges claims that shame never motivates, leading to a distinction between initiating achievement, stopping addictive patterns and actually feeling fulfilled by success.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 7914,
+          "timestamp": "2:11:54",
+          "title": "Is Rock Bottom Really About Shame?",
+          "description": "Dr K notes that each recovery story involved a confrontation with shame and asks what someone truly wants when they are unwilling to relinquish self-criticism. He rejects the comforting guarantee implied by 'failing forward': freedom requires tolerating an actual failure, not accepting it only because one expects a later reward.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 8059,
+          "timestamp": "2:14:19",
+          "title": "Where to Find Everyone",
+          "description": "The guests point listeners to ManTalks and Men's Work, Art of Accomplishment, and Healthy Gamer resources before reopening the relationship question. They distinguish needing another person's approval from being deeply affected by connection, then propose a future beginner's spirituality conversation, leaving the metaphysical questions open rather than delivering a complete spiritual prescription.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
+    {
+      "id": "Ipunu_YJXtc",
+      "title": "Someone just BROKE Apple's Embargo..",
+      "channel": "Max Tech",
+      "upload_date": "20261005",
+      "thumbnail": "https://i.ytimg.com/vi/Ipunu_YJXtc/maxresdefault.jpg",
+      "description": "Apple's 2026 Mac Event is COMING soon, with 3 NEW Macs including the new OLED Touchscreen MacBook Pro!\nBuy MacBook Neo on Amazon ➡ https://geni.us/qlyh\nBuy M5 MacBook Air on Amazon ($50 OFF) ➡ https://geni.us/lGA2s0j\nBuy M5 MacBook Pro on Amazon ➡ https://geni.us/Z3BJxq\n\nTimestamps ⬇️\n3 New Macs CONFIRMED - 00:00\nMark Gurman Leaks - 0:28\nFinal Cut 13 Embargo Leak - 0:45\nTouchscreen MacBook Code Leaks - 1:48\n1/3 M6 MacBook Pro - 2:21\n2/3 M6 iMac 24\" - 3:50\n3/3 Redesigned MacBook Pro - 4:37\nOLED Display Upgrade - 5:39\n5G Cellular Support - 6:17\nTouchscreen Support - 6:38\nBoth mini-LED & OLED? - 7:15\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nPRIVACY POLICY and FULL DISCLOSURE:\n°Max Tech is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees  by advertising and linking to amazon.com\n°Max Tech is a participant in the B&H Photo Video affiliate program that provides an advertising commission if you purchase through our links. \n°If you purchase something from our affiliate links will get a small commission with no extra cost to you. This makes it possible for us to make more videos. Thank you! \n°We DO NOT collect, store, use, or share any data about you.",
+      "duration_seconds": 508,
+      "url": "https://www.youtube.com/watch?v=Ipunu_YJXtc",
+      "summary": "Launch-window argument — 00:00–02:28: Max Tech predicts three new Macs within the next month, citing Mark Gurman's podcast, a removed Final Cut Pro 13 video and code reportedly referencing an OLED touchscreen MacBook Pro running macOS 27.1. The alleged software video's pinch-to-zoom feature is interpreted as evidence for touch hardware, and past macOS release timing is used to infer a launch window. These are the presenter's readings of reports and leaks, not an Apple announcement; the title's embargo claim is also inferred from a video becoming private.\n\nIncremental base-model upgrades — 02:28–04:37: The expected base 14-inch MacBook Pro and 24-inch iMac are described as M6 chip refreshes with Apple's N1 wireless chip for Wi-Fi 7 and Bluetooth 6, rather than redesigns. The presenter recounts his own M6 Mac Mini tests, claiming some CPU/GPU results beat an M1 Max and some Blender tests beat an M2 Ultra, but supplies no numeric scores in the captions and is not testing these unreleased laptops or iMacs. New iMac colors are speculative, and he says its OLED transition is rumored much later, in 2029 or 2030.\n\nWhy the higher-end redesign interests him — 04:37–07:04: Having kept a 16-inch M1 Max because its performance still serves his home needs, the presenter sees new features as the reason to upgrade. He expects thinner and lighter 14- and 16-inch models, a Dynamic Island replacing the notch and tandem OLED with a claimed 1,600-nit peak brightness. He links OLED to deeper blacks, less haloing and faster pixel response at 120 Hz, and interprets four leaked code names as support for cellular variants. Touch support is expected, while Apple Pencil support is only floated as a possibility.\n\nThe unresolved lineup — 07:04–08:26: Reports that mini-LED and more expensive OLED variants might coexist until 2028 lead the presenter to propose an alternative: retain mini-LED only on the base 14-inch model and replace higher-end models with OLED. He favors this simpler lineup and speculates that touch could be disabled in settings. The practical conclusion is to distinguish a routine chip refresh from a feature-led redesign when considering an upgrade, while treating release dates, pricing and the final product range as unresolved rumors.",
+      "why_valuable": "An existing M1 Max owner may have more reason to wait for a feature-led display/connectivity redesign than to buy another chip-only refresh. This helps frame a Mac upgrade decision, but the expected M6 models, OLED, cellular support and launch window are the presenter's leak-based predictions, not confirmed Apple specifications.",
+      "key_takeaways": [
+        "00:45–02:22 — A withdrawn Final Cut Pro 13 video and reported macOS 27.1 code are treated as launch clues; neither constitutes a product announcement or proof that an embargo was broken.",
+        "02:28–02:57 — The base 14-inch MacBook Pro is expected to keep mini-LED and its current design while gaining M6 and N1 wireless hardware.",
+        "02:59–03:50 — The presenter reports M6 Mac Mini comparisons against older Mac Studios, without numeric benchmark scores; these are not tests of the rumored new MacBook Pro.",
+        "03:55–04:37 — The iMac is portrayed as another chip/wireless refresh with uncertain new colors; its rumored OLED move is placed in 2029 or 2030.",
+        "04:39–06:16 — He keeps his M1 Max because it is already fast enough, but expects tandem OLED, lower weight and faster display response to make a redesign worthwhile.",
+        "06:18–07:02 — Cellular variants are inferred from four code names; Apple Pencil support is presented only as a possibility.",
+        "07:04–08:18 — The coexistence of mini-LED and OLED remains uncertain, and the presenter's preferred simpler lineup is his own hypothesis."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/Ipunu_YJXtc.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "3 New Macs CONFIRMED",
+          "description": "The presenter predicts an imminent launch of three Macs and promises three pieces of supporting evidence before describing the hardware. His certainty is rhetorical: the discussion is based on leaks and reporting, with no Apple announcement or hands-on test of the proposed products in this interval.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 28,
+          "timestamp": "00:28",
+          "title": "Mark Gurman Leaks",
+          "description": "A recent Mark Gurman podcast is cited as the first reason to expect Macs within the next month rather than a delay into 2027. This is attributed reporting relayed by the presenter, so it should inform a watch-and-wait decision rather than be mistaken for an official release date.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 45,
+          "timestamp": "00:45",
+          "title": "Final Cut 13 Embargo Leak",
+          "description": "A YouTuber's quickly privatized Final Cut Pro 13 upload and Reddit's account of its feature timestamps are used to infer an accidental early release. Pinch-to-zoom is then linked to a possible touchscreen OLED laptop, but both the embargo explanation and the hardware connection remain deductions rather than demonstrated facts.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 108,
+          "timestamp": "01:48",
+          "title": "Touchscreen MacBook Code Leaks",
+          "description": "Reported code places an OLED touchscreen MacBook Pro on unreleased macOS 27.1, which the presenter combines with Apple's historical late-October software timing. He also mentions last year's November 3 release, making the proposed thirty-day window an extrapolation from software schedules rather than a confirmed launch appointment.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 141,
+          "timestamp": "02:21",
+          "title": "1/3 M6 MacBook Pro",
+          "description": "The base 14-inch laptop is expected to retain its design and mini-LED display while receiving M6 and the N1 wireless chip. The presenter then recounts his M6 Mac Mini comparisons with M1 Max and M2 Ultra machines, suggesting substantial speed without supplying numerical scores or establishing that the laptop will match those results.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 230,
+          "timestamp": "03:50",
+          "title": "2/3 M6 iMac 24\"",
+          "description": "The expected desktop update is described as the same basic chip-and-wireless refresh, with new colors as its main potential visible change. Suggested shades are inferred from other leaked Apple products, while the presenter cautions that an OLED iMac is rumored only for 2029 or 2030 and should not be the basis for a near-term wait.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 277,
+          "timestamp": "04:37",
+          "title": "3/3 Redesigned MacBook Pro",
+          "description": "The presenter explains that his existing 16-inch M1 Max still handles his home workload, so another performance-only upgrade has little appeal. A thinner, lighter redesign and a reported Dynamic Island instead of the notch would change that calculation by improving portability and bringing genuinely different hardware features.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 339,
+          "timestamp": "05:39",
+          "title": "OLED Display Upgrade",
+          "description": "Tandem OLED is expected to provide deeper blacks and avoid the haloing of individually controlled mini-LED zones, with a claimed 1,600-nit peak brightness. The presenter also argues that faster pixel response would make 120 Hz motion feel smoother, but these are anticipated benefits rather than measurements from the rumored laptop.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 377,
+          "timestamp": "06:17",
+          "title": "5G Cellular Support",
+          "description": "Four reported code names, described as two for each laptop size, are interpreted as evidence for separate cellular versions. The presenter welcomes possible built-in 5G, but the inference does not by itself establish modem availability, regional carrier support or the final configuration choices Apple will sell.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 398,
+          "timestamp": "06:38",
+          "title": "Touchscreen Support",
+          "description": "The presenter expects touchscreen support and relays Gurman's account of a new interface for moving between the trackpad and direct display interaction. He also mentions possible Apple Pencil support, explicitly making that a weaker possibility rather than a tested feature or a demonstrated accessory combination.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 435,
+          "timestamp": "07:15",
+          "title": "Both mini-LED & OLED?",
+          "description": "Reports that Apple may sell both display types until 2028 prompt a competing hypothesis: keep mini-LED for the base 14-inch machine and move higher-end models entirely to OLED. The presenter prefers that simpler naming scheme and imagines a touch-disable setting, but finishes without resolving the final lineup or confirming either scenario.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
+    {
+      "id": "LDn7rQKIFro",
+      "title": "Claude Code Just Dropped MODS. (Master it in 10 Minutes).",
+      "channel": "Tristen O'Brien",
+      "upload_date": "20261005",
+      "thumbnail": "https://i.ytimg.com/vi/LDn7rQKIFro/maxresdefault.jpg",
+      "description": "Connect the Higgsfield MCP to Claude in 30 seconds: https://higgsfield.ai?fpr=tristen15\n\n👇 FREE: Get the exact prompts I used to build every mod in this video, plus my full Prompt Library and AI newsletter: https://tristenobrien.ai\n_____\n\nClaude Code just dropped Claude Mods, and it's one of the biggest Claude Code updates yet. Mods let you describe a feature you wish Claude Code had, and Claude builds it right into itself: new buttons, panels, slash commands, even a mini game. No coding required.\n\nIn this video I show you five real Claude Code mods I built this week, including a clean checklist view that hides all the code, a one-click model and effort picker, a dock that runs a whole team of AI agents at once, a photo and video studio powered by the Higgsfield MCP, and a mini racing game you can play while Claude works. Then I show you how to build your own mods, how to save and install them as plugins, and what they cost.\n\nMods launched October 1, 2026 in Claude Code version 2.1.287. They work in the Claude Code terminal and in the Code tab of the Claude desktop app, but not in regular Claude chat.\n_____\n\n⏱️ CHAPTERS\n\n0:00 Claude Mods: the biggest Claude Code update yet\n0:30 What a Claude mod is\n0:52 Mods vs skills vs connectors\n1:15 Mod 1: Clean View\n3:01 Mod 2: Employee Control Panel\n3:47 Mod 3: Agent Dock\n5:12 Bonus: the Session Bar\n5:31 Mod 4: Claude Photos & Videos (with Higgsfield)\n8:11 Mod 5: Road Trip\n8:40 How to build your own mods\n9:34 What mods cost\n_____\n\nTHE MODS IN THIS VIDEO\n\n1. Clean View. Hides the tool calls and code that scroll by while Claude works, and shows a simple checklist of the plan, the current step, and how much is left.\n\n2. Employee Control Panel. Switch your Claude model and effort level in one click instead of typing /model and /effort.\n\n3. Agent Dock. Pick your team size, and Claude splits the job across that many AI helper agents, each with its own live progress card.\n\n4. Claude Photos & Videos. Make AI photos and videos without leaving Claude, using Nano Banana Pro and the other top models on Higgsfield, with a credit check before anything runs.\n\n5. Road Trip. A mini racing game with Claude quiz questions you can play while Claude builds your project.\n\n_____\n\nHOW TO BUILD YOUR OWN CLAUDE MOD\n\n1. Update Claude Code to version 2.1.287 or newer.\n2. Open Claude Code in the terminal or the desktop app's Code tab and describe the mod you want.\n3. Say yes when Claude asks to reload, and your mod shows up when Claude finishes.\n4. When you have one you like, ask Claude to save it as a plugin and install it so it's there every time.\n\nMods don't cost anything extra, but you do need a paid Claude plan that includes Claude Code. Only install mods from people you trust, because a mod has the same access to your computer that Claude Code does.\n_____\n\nThis video is sponsored by Higgsfield. Try it here: https://higgsfield.ai?fpr=tristen15\n\n#Claude #ClaudeCode #ClaudeMods #ClaudeCodeMods #AI #AIAgents #ClaudePlugins #Higgsfield #NanoBananaPro #AITools",
+      "duration_seconds": 600,
+      "url": "https://www.youtube.com/watch?v=LDn7rQKIFro",
+      "summary": "What is being customized — 00:00–01:15: Tristen O'Brien describes Claude Mods as add-ons that change Claude Code's own interface and behavior, unlike a skill that supplies task instructions or a connector that links another service. He says they launched October 1 and work in the terminal and desktop Code tab, not regular Claude chat. Those availability claims are the creator's account; this entry does not independently verify an Anthropic release.\n\nVisibility and orchestration — 01:15–05:31: Clean View replaces scrolling tool details with a checklist while Claude builds a New York weather dashboard, and Employee Control Panel exposes model and effort choices without repeated slash commands. Agent Dock lets O'Brien request 50 helpers for a bakery's 50-task opening dashboard, showing separate task cards; he explicitly notes that only ten are working in the displayed moment, so a selected team of 50 is not the same as 50 simultaneous workers. A separate session bar offers navigation between running sessions. The benefit is visible coordination, with larger teams consuming the subscription faster rather than producing a demonstrated fiftyfold speedup.\n\nA service-backed media interface — 05:31–08:11: The photo/video mod runs on the Higgsfield connector, and O'Brien discloses that Higgsfield sponsors the video. He requests a reference-based train portrait using Nano Banana Pro, 16:9 framing and 4K output, lets Claude expand the prompt, and requires an explicit credit-cost approval before generation. The result is saved locally and opened from the terminal; Claude itself is not presented as the image-generation model. Road Trip then illustrates a less essential use: a racing game and Claude quizzes while coding continues.\n\nInstallation, persistence and cost — 08:40–09:54: O'Brien names version 2.1.287 or newer, with an 'I believe' qualification in speech, and demonstrates the describe-build-reload approach. Custom mods are temporary by default, so he recommends asking Claude to save and install a useful one as a plugin; shared mods use the plugin installation route. His verdict is that users can build the small workflow features they wish existed without manually coding them. He says mods carry no extra feature fee but require a paid plan including Claude Code, consume plan allowance when working, and may incur separate external-service credits; the creator description additionally warns to install only trusted mods because they have Claude Code's computer access.",
+      "why_valuable": "Start with a checklist or model picker before a large agent dock: the demonstrated mods reduce interface friction, but selecting 50 helpers can burn through plan allowance. This helps decide which Claude Code customizations to try, how to retain them as plugins, and where an explicit third-party credit approval is needed.",
+      "key_takeaways": [
+        "00:30–01:15 — The creator distinguishes in-process interface/behavior mods from instructional skills and external-service connectors, and says regular Claude chat is not supported.",
+        "01:15–03:00 — Clean View substitutes a live checklist for technical output during a weather-dashboard build; this is a presentation change, not proof of more reliable code.",
+        "03:47–05:10 — Agent Dock requests 50 bakery-opening tasks, but the display shows ten active workers; a larger requested team consumes plan allowance faster.",
+        "05:31–07:47 — The sponsored Higgsfield-backed portrait workflow uses Nano Banana Pro, 16:9 and 4K choices, plus an explicit cost confirmation before credits are spent.",
+        "08:40–09:34 — Describe the mod, accept the reload, then save and install it as a plugin if it should survive future sessions; the creator names version 2.1.287 or newer.",
+        "09:34–09:54 — No additional mod fee does not mean free operation: a paid Claude Code plan, model usage and external-generation credits still matter.",
+        "Creator description — Shared mods have Claude Code's computer access; install only trusted sources rather than treating a UI add-on as harmless styling."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/LDn7rQKIFro.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Claude Mods: the biggest Claude Code update yet",
+          "description": "O'Brien proposes turning desired Claude Code features into working add-ons by describing them in ordinary language. He previews a collection of his own interface experiments and a build-your-own workflow, presenting customization as the main benefit rather than reporting a benchmark or guaranteed productivity increase.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 30,
+          "timestamp": "00:30",
+          "title": "What a Claude mod is",
+          "description": "The creator describes a mod as a small extension to Claude Code's appearance and operation and says an updated installation already has support enabled. He limits its scope to the terminal and the desktop app's Code tab, an important distinction for users who would otherwise try the same steps in regular Claude chat.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 52,
+          "timestamp": "00:52",
+          "title": "Mods vs skills vs connectors",
+          "description": "Skills are presented as instructions for completing a job, and connectors as links to outside applications, while mods operate within Claude Code itself. That internal position lets a mod add buttons, panels or even games, explaining why interface customization is a different capability from simply supplying a better prompt.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 75,
+          "timestamp": "01:15",
+          "title": "Mod 1: Clean View",
+          "description": "A New York weather-dashboard request runs behind a checklist instead of a stream of technical rows, ending with the finished dashboard and a short summary. O'Brien explains that the extension listens to events and can watch, change or handle them, so the cleaner display comes from intercepting presentation rather than eliminating the underlying tool work.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 181,
+          "timestamp": "03:01",
+          "title": "Mod 2: Employee Control Panel",
+          "description": "Model and effort selectors are moved into O'Brien's toolbar so changes immediately appear in the status bar. The example replaces repeated use of /model and /effort with a visible control, a small convenience that matters when switching settings frequently rather than a change to the models' capabilities.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 227,
+          "timestamp": "03:47",
+          "title": "Mod 3: Agent Dock",
+          "description": "The bakery-opening example assigns 50 tasks to a selected team of helpers, with individual cards and progress bars before Claude combines the results into a dashboard. O'Brien distinguishes the requested team from the displayed active workers and warns that a large team consumes plan limits quickly, making concurrency a budget choice rather than free parallelism.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 312,
+          "timestamp": "05:12",
+          "title": "Bonus: the Session Bar",
+          "description": "O'Brien briefly shows a sidebar that lists actively running sessions and lets him jump between them. He asks viewers to request a separate tutorial, so the segment demonstrates the navigation benefit but does not supply the full implementation or prove that unrelated sessions share their working context.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 331,
+          "timestamp": "05:31",
+          "title": "Mod 4: Claude Photos & Videos (with Higgsfield)",
+          "description": "A custom studio wraps the Higgsfield connector with prompt, model, size and credit controls, and the creator explicitly discloses the sponsorship. He generates a reference-based train portrait using Nano Banana Pro with 16:9 and 4K settings, pauses for cost approval and opens the saved result, showing a service-backed workflow rather than native Claude image generation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 491,
+          "timestamp": "08:11",
+          "title": "Mod 5: Road Trip",
+          "description": "A racing game appears inside Claude Code while a request to improve the weather dashboard runs in the background. Periodic Claude quiz questions make the waiting time interactive, illustrating that mods can add entertainment as well as work controls without demonstrating any improvement in coding speed or quality.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 520,
+          "timestamp": "08:40",
+          "title": "How to build your own mods",
+          "description": "The creator recommends updating to version 2.1.287 or newer, describing the desired feature and accepting a reload once Claude builds it. He explains that generated mods are temporary by default, so useful ones should be saved and installed as plugins; modifications can then be requested conversationally and shared plugins installed through the normal plugin route.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 574,
+          "timestamp": "09:34",
+          "title": "What mods cost",
+          "description": "O'Brien says the mod feature itself adds no separate fee, but a paid plan with Claude Code is required and background work still uses subscription allowance. His closing endorsement is therefore about accessible customization, not unlimited free execution, and he repeats the Higgsfield sponsorship before directing viewers to its link.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
+    {
+      "id": "UWhxqvrFu84",
+      "title": "I'm begging you to sell digital products (they print money)",
+      "channel": "Tom Noske",
+      "upload_date": "20260928",
+      "thumbnail": "https://i.ytimg.com/vi/UWhxqvrFu84/maxresdefault.jpg",
+      "description": "1️⃣ Work with me 👉 https://www.timetobuild.live/?utm_source=youtube&utm_medium=video&utm_content=UWhxqvrFu84\n\n2️⃣ Build your offer (FOR FREE) in 5 minutes with OfferSharp 👉 https://offersharp.timetobuild.live/?utm_source=youtube&utm_medium=video&utm_content=UWhxqvrFu84\n\n#onlinebusiness #personalbranding",
+      "duration_seconds": 992,
+      "url": "https://www.youtube.com/watch?v=UWhxqvrFu84",
+      "summary": "Sell relief, not a bundle — 00:00–05:38: Tom Noske says he has earned hundreds of thousands of dollars from low-ticket digital products, then frames their appeal as immediate relief from an annoying problem. His analogy contrasts expensive, considered triathlon-equipment purchases with roughly $40 chamois cream needed to make each ride comfortable. The first two filters are problem severity and singularity: a product should solve one specific pain well, not combine a habit tracker, meal plan, content ideation and scheduling into a vague all-in-one tool. His daily planning card is the example of narrow scope.\n\nRepeated use and proven demand — 05:38–08:40: Noske argues that regular utility turns an inexpensive purchase into continuing recommendations. He says a $9 Compiled Sanity financial spreadsheet bought in 2019 is still consulted daily, updated with figures every month, and has prompted him to refer more than a thousand customers. Those referral and revenue statements are self-reports, not audited conversion evidence. He recommends taking inspiration from products and routines already used or sold, while explicitly rejecting copying others' work.\n\nDemonstrability is the decisive fifth filter — 08:40–14:31: Noske checks both chamois cream and his Cinema LUTs against severe pain, one job, repeat use, existing demand and content compatibility. The LUTs he created in 2022 are still used in his videos and can be demonstrated by switching their effect off and on. He argues that even a useful spreadsheet or AI workflow may be a poor low-ticket offer for his content-led strategy if its benefit is hard to show. His roughly AUD 20,000 Ironman journey is used to explain outcome selling: the desired purchase was the finish-line experience, not a collection of equipment.\n\nThe content-to-sales loop — 14:32–16:28: Problem-solving content attracts an audience, a relevant offer leads to purchase, the customer reaches a concrete finish line, and the documented before-and-after becomes the next piece of content. Noske's verdict is to score an idea against all five filters before building and design an outcome that customers can picture. His promise of daily sales is motivational sales advice based on his experience, not a guarantee; traffic, conversion, costs and failure rates are not established in this video.",
+      "why_valuable": "Choose a narrow, repeatedly useful product whose result can be shown in your existing content before investing in a complex bundle. Noske's five filters and customer before-and-after loop help reject weak low-ticket ideas, but his revenue anecdotes and daily-sales promise are not evidence that an offer will sell without an audience or testing.",
+      "key_takeaways": [
+        "00:18–03:15 — The roughly $40 chamois-cream analogy makes the offer about relief from a recurring nuisance, not a broad aspirational feature bundle.",
+        "04:13–05:38 — Solve one problem exceptionally well; Noske rejects bundling a habit tracker, meal planner and content tools into the same low-ticket offer.",
+        "05:49–07:28 — He reports daily use and monthly updates of a $9 financial spreadsheet bought in 2019; lasting utility, not a high price, drives his recommendations.",
+        "07:31–08:31 — Existing products and personal routines provide demand clues, but Noske explicitly says to take inspiration rather than copy them.",
+        "09:49–10:51 — Cinema LUTs created in 2022 remain in his workflow and their effect can be toggled on/off, giving a concrete visual demonstration of the benefit.",
+        "11:44–14:31 — Content compatibility means customers can picture the outcome; the approximately AUD 20,000 triathlon story sells the finish-line identity rather than the equipment.",
+        "14:32–16:28 — Customer outcomes feed the next content cycle; the daily-sales claim remains a personal promise, with no traffic, margin or conversion data supplied."
+      ],
+      "transcript_language": "en-US",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/UWhxqvrFu84.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "title": "A small purchase that removes a recurring pain",
+          "description": "Noske contrasts costly triathlon equipment chosen deliberately with roughly $40 chamois cream bought to relieve immediate cycling discomfort. He uses that distinction to argue that a low-ticket digital product should remove a concrete, recurring nuisance, framing his revenue experience as motivation rather than presenting audited sales results.",
+          "timestamp": "00:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 208,
+          "title": "Severity and one-job scope",
+          "description": "The first product filters are how painful the problem is and whether the offer addresses a single clear need. A simple daily planning card illustrates focused usefulness, while a bundle combining habits, meals and content scheduling illustrates how broad scope can weaken both the outcome promise and the customer's reason to buy.",
+          "timestamp": "03:28",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 338,
+          "title": "Habitual utility and existing demand",
+          "description": "A $9 Compiled Sanity spreadsheet bought in 2019 is Noske's example of a product that stays useful: he says he checks it daily and enters figures every month. He links repeated use to recommendations, then urges creators to examine proven tools they already own and use for inspiration without copying someone else's product.",
+          "timestamp": "05:38",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 520,
+          "title": "Checking the five filters against real examples",
+          "description": "Noske scores chamois cream and his Cinema LUTs against pain, specificity, repeat use, proven demand and fit with his content. The LUTs remain part of his video workflow years after creation and can be demonstrated by toggling the grade on and off, showing why a visible result is a stronger selling asset than an abstract list of capabilities.",
+          "timestamp": "08:40",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 704,
+          "title": "Make the customer's finish line visible",
+          "description": "The creator argues that a useful spreadsheet or AI workflow can still be difficult to sell through low-ticket content if viewers cannot immediately see its benefit. His approximately AUD 20,000 Ironman story reframes the spending as buying a finish-line experience and identity, inviting product makers to identify an equally concrete result customers can imagine for themselves.",
+          "timestamp": "11:44",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 872,
+          "title": "Turn demonstrated customer outcomes into the next sale",
+          "description": "Problem-solving content draws an audience toward an offer, and a successful purchase should produce a customer finish line that can be documented in new content. Noske closes by linking this before-and-after loop to daily sales, but does not quantify the required audience, conversion rate or costs, so the framework is a hypothesis to test rather than a guaranteed income formula.",
+          "timestamp": "14:32",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
+    {
+      "id": "WsdcF7EEvhM",
+      "title": "THIS is What Happens When AI Gets Smarter Than Humans",
+      "channel": "Tom Bilyeu",
+      "upload_date": "20261001",
+      "thumbnail": "https://i.ytimg.com/vi/WsdcF7EEvhM/maxresdefault.jpg",
+      "description": "OpusClip: Go to https://clip.opus.pro/dashboard?coupon_code=NEWIMPACT to try Opus Clip for free today and get 50% off your first three months on the Pro Monthly plan.\nATT Business: Switch to AT&T Business at https://business.att.com\nEthos: Get a free quote at https://ethos.com/impact\n\nArtificial intelligence is accelerating at a pace few could have anticipated—and its impact on the value of human labor may be more profound than most realize. \n\nIn this thought-provoking episode, I sit down with Emad Mostaque to confront the economic and existential shifts already underway as AI rapidly outpaces human cognitive abilities. \n\nTogether, they discuss breakthrough AI achievements such as solving advanced mathematical problems, the coming transformation of the workforce, and the urgent need for individuals and societies to adapt. What does the future hold when digital agents can perform most jobs better, faster, and cheaper than any human? How should we prepare for a world where ownership, community, and personal identity must be redefined? \n\nGet ready for a candid, wide-ranging conversation about the radical opportunities and disruptions AI will bring over the next decade—because the clock is ticking, and the sandpile of the old economy may be on the verge of collapse.\n\nI’m Tom Bilyeu, and welcome to Impact Theory.\n\nSign up for my AI Masterclass: https://tombilyeu.com/ai-masterclass?utm_campaign=TBS-Livestream&utm_source=youtube&utm_medium=social \nCheck us out wherever you get your podcasts:\nSpotify:https://open.spotify.com/show/1nARKz2vTIOb7gC9dusE4b?si=a8daffd2bf1f48fd\nApple: https://podcasts.apple.com/us/podcast/tom-bilyeus-impact-theory/id1191775648\nDo you need my help STARTING a business? Join me here inside ZERO TO FOUNDER: (https://tombilyeu.com/zero-to-founder)\nGet the exact systems, mindset shifts, and principles that built a $1B brand delivered straight to your inbox every week. Subscribe for free (https://tombilyeu.com)\nCheck out our Video game - Project Kyzen: (https://projectkyzen.io/)\nCatch Me Streaming on Twitch -  (https://twitch.tv/tombilyeu)\nLink to IT discord: https://discord.gg/TZKJ2etPbT\nTom's Favorite Things List:  https://amzn.to/41Ftt7e\n\nFor Business inquiries: connect@impacttheory.com\n\nFollow Emad Mostaque:\nX: https://x.com/EMostaque\n\nFollow Me:\nInstagram: https://www.instagram.com/tombilyeu/\nTik Tok: https://www.tiktok.com/@tombilyeu?lang=en\nTwitter: https://twitter.com/tombilyeu\nYouTube: https://www.youtube.com/@TomBilyeu",
+      "duration_seconds": 6294,
+      "url": "https://www.youtube.com/watch?v=WsdcF7EEvhM",
+      "summary": "A strong forecast, with contested evidence — 00:00–15:00: Emad Mostaque tells Tom Bilyeu that human cognitive labor could become a net bottleneck within roughly two years as agents surpass people in competence, coordination and speed. He cites alleged mathematical breakthroughs, forecasting results and more reliable assistants as evidence that models are doing more than replaying training data. Bilyeu presses him on whether the claimed Navier–Stokes result is actually settled and on the gap between released tools and models Mostaque says he has seen. The interview notes that formal prize acceptance takes time; these mathematical claims and benchmarks are reported by the guest, not independently verified here, and should not be read as an official prize award.\n\nEconomics depends on reliability and cost — 15:00–35:30: Mostaque argues that models need not keep getting smarter to transform work once they clear a reliability threshold and become easy to integrate. He reports a DeepSeek harness beating a previous frontier model at 50 times lower cost and predicts a further 100-fold cost reduction over a year; the claimed comparisons are not reproduced tests in the episode. Bilyeu counters with real production-budget constraints and doubts about some generated output. They discuss specialization, model weights etched onto silicon and the time required for workflow adoption, so the displacement thesis rests on usable systems and economics, not intelligence scores alone.\n\nNear-term preparation, not one universal timeline — 35:30–01:07:00: The speakers separate AI users, owners of infrastructure and people excluded from both. Bilyeu reports that his game once involved over 100 contributors but now typically involves six or seven, while explicitly admitting his own management learning also explains part of the change. Mostaque relays a forecast of roughly 12% cognitive-labor displacement and later places greater-than-10% white-collar job loss around 2029; physical deployment is discussed on a longer, manufacturing-constrained five-to-ten-year horizon. The most actionable exercise arrives at 01:02: break a job into input/output tasks, run real examples through models, and identify both vulnerable work and tasks to automate. Daily practice and AI-enabled entrepreneurship may create an interim earning opportunity, but Bilyeu challenges whether most workers can realistically become entrepreneurs.\n\nWho owns the agent acting for you? — 01:07:00–01:27:00: Mostaque pitches locally owned AI 'champion' utilities, drawing an analogy to credit unions and regional infrastructure institutions. His proposal allocates 10% initial equity to children under 18 and half a percent annually to new children, alongside public agents, open-source systems and stakes in data centers or robots. He argues that very cheap model access could shift value toward the last-mile agent and integration layer, while an advertising-funded assistant may serve its owner rather than the user. Bilyeu questions whether distributing capital prevents renewed concentration and emphasizes using AI to understand a topic rather than outsourcing judgment. These ownership arrangements are a proposal from the guest's venture, not an established solution or demonstrated economic outcome.\n\nThe unresolved human problem and final advice — 01:27:00–01:44:30: The closing debate concerns status, goals, scarce resources and social mobility, not just whether machines can supply necessities. Bilyeu argues that people still need earned progress and a way to compete for scarce things; Mostaque fears a hardened owner/non-owner divide and discusses citizen service, digital worlds, debt relief and possible abundance. Their disagreements remain unresolved, and the guest's late longevity claims are speculative, not medical guidance. The shared practical ending is to use AI seriously now, investigate entrepreneurship and ownership without assuming guaranteed returns, and build strong local support networks. Mostaque's verdict is that institutional choices must be debated before displacement accelerates; Bilyeu does not simply endorse every scenario or timeline.",
+      "why_valuable": "Audit your job task by task and test real inputs against AI outputs before deciding what to automate or retrain for. The conversation also frames ownership, independent judgment and community support as transition risks, but its two-year displacement scenario and dramatic benchmark claims are forecasts and guest reports—not a verified timetable or investment recommendation.",
+      "key_takeaways": [
+        "03:00–06:00 — Bilyeu questions whether the alleged Navier–Stokes result is settled; the conversation acknowledges publication and acceptance requirements, so a guest's breakthrough claim is not an official prize award.",
+        "17:00–28:30 — Mostaque's thesis relies on reliable, cheap, integrated agents; he reports a 50-times-cheaper harness and forecasts 100-fold cost reduction, without a reproduced test in the episode.",
+        "37:00–38:00 — Bilyeu describes over 100 game contributors shrinking to six or seven active people, while admitting management learning as a confounding factor; this is a project anecdote, not a labor-market measurement.",
+        "49:00–53:00 — Digital and physical displacement have different constraints: the guest discusses roughly 12% cognitive-labor losses and a longer five-to-ten-year rollout constrained by robot production.",
+        "01:02:00–01:03:30 — Decompose your work into tasks with an input and output, compare model results with real work, and use the gaps to identify automation opportunities and exposure.",
+        "01:07:00–01:16:30 — Locally owned AI utilities are pitched as an alternative to renting a corporate assistant; declining token prices make the integration and ownership model central to the guest's argument.",
+        "01:17:30–01:19:00; 01:27:00–01:38:30 — Bilyeu insists on understanding rather than copying AI answers, and challenges proposals that leave people without progress or a way to earn scarce resources.",
+        "01:43:00–01:44:00 — The final advice combines serious AI use, exploring entrepreneurship/ownership and building stronger communities; neither speaker resolves the entire post-labor economy."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube captions",
+      "transcript_file": "data/transcripts/WsdcF7EEvhM.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "title": "The cognitive-labor forecast and disputed mathematical evidence",
+          "description": "Mostaque predicts that people could become the slowest members of AI teams within roughly two years, citing reported mathematical and forecasting breakthroughs. Bilyeu presses on the status of the claimed Navier–Stokes result and the difference between market tools and unreleased models, while the interview acknowledges formal acceptance delays; these remain guest reports rather than independently established benchmark results.",
+          "timestamp": "00:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 900,
+          "title": "When competent agents become economically usable",
+          "description": "The discussion shifts from frontier intelligence to reliability, optimization and what a model must do well enough to be trusted in production. Bilyeu contrasts game-development experience with Mostaque's confidence in newer assistants and robots, exposing the difference between an impressive output and a dependable replacement for a workflow or employee.",
+          "timestamp": "15:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1440,
+          "title": "Harnesses, specialization and falling inference costs",
+          "description": "Bilyeu raises the danger of runaway agent bills, prompting Mostaque to describe a reported DeepSeek harness at 50 times lower cost and predict much cheaper equivalent performance. Specialized silicon and faster generation are offered as routes to scale, but the claimed savings are not benchmarked in the interview and adoption still depends on usable integration rather than raw token speed.",
+          "timestamp": "24:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2130,
+          "title": "AI users, infrastructure owners and displaced workers",
+          "description": "The speakers distinguish people who use AI, people who own the supporting capital and those outside both groups, debating whether expanding demand creates enough new jobs. Bilyeu's smaller game-development team is a concrete but qualified anecdote, and Mostaque recommends daily practice because understanding actual strengths and weaknesses matters more than passively following releases.",
+          "timestamp": "35:30",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2670,
+          "title": "Robot ownership and the slower physical rollout",
+          "description": "Compute scarcity and humanoid deployment are discussed as possible sources of value for infrastructure owners, alongside the threat to manual occupations. Bilyeu forces a distinction between near-term digital displacement and the longer, manufacturing-constrained physical rollout, so the episode does not maintain one simple two-year deadline for every kind of work.",
+          "timestamp": "44:30",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 3210,
+          "title": "Income support, capital and a practical job audit",
+          "description": "The conversation asks how displaced people would obtain income, distinguishing tax-funded basic income from ownership and service-based alternatives without settling the design. Mostaque's useful near-term exercise is to decompose a job into input/output tasks and test model performance on real examples, using the results to identify both risk and opportunities to build a more efficient business.",
+          "timestamp": "53:30",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 4020,
+          "title": "The proposed locally owned AI champion",
+          "description": "Mostaque presents regional AI institutions owned by local investors and citizens, with initial equity for children and later allocations for new births. Open systems, public agents and stakes in infrastructure are intended to distribute participation, but this is the guest's proposed institutional architecture rather than evidence that it already solves labor displacement or capital concentration.",
+          "timestamp": "1:07:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 4380,
+          "title": "Assistant incentives, sovereignty and critical thinking",
+          "description": "The guest argues that an assistant linked to personal accounts may serve a platform owner or advertiser rather than the person relying on it, making ownership and an exit option consequential. Bilyeu counters that capital redistribution alone may reproduce concentration and describes his own rule of using AI to understand something he can teach, rather than accepting a generated answer without judgment.",
+          "timestamp": "1:13:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 4860,
+          "title": "Collective agents and transparent public decision-making",
+          "description": "Mostaque describes training agents for collective outcomes while preserving individual liberty, then argues for transparent values and oversight when AI influences schools, courts or public policy. The exchange raises governance questions rather than resolving them, and the guest's anecdotes about model bias and escaped agents are unverified claims rather than demonstrated findings in this episode.",
+          "timestamp": "1:21:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 5220,
+          "title": "Meaning, status and alternatives to paid employment",
+          "description": "Bilyeu argues that basic provision does not replace progress toward goals, skill development or the ability to earn status and resources. The speakers explore digital worlds and citizen service as possible outlets, but disagree over whether access to material accumulation can meaningfully disappear without social unrest, leaving the human-motivation problem open.",
+          "timestamp": "1:27:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 5640,
+          "title": "Debt resets, scarcity and the risk of a two-tier society",
+          "description": "Debt jubilees are discussed as potential responses to extreme concentration, with Bilyeu emphasizing that such resets can signal dangerous crisis rather than painless relief. He then uses scarce housing locations to defend the need for an allocation system, while Mostaque worries that labor displacement and unequal access to future health gains could entrench an owner class; the latter medical predictions are speculative.",
+          "timestamp": "1:34:00",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 6060,
+          "title": "Competing futures and the closing preparation checklist",
+          "description": "The speakers debate whether cheaper intelligence and labor produce abundance or a rigid divide between owners and everyone else, acknowledging that society still must provide a baseline and a way to progress. They close with daily AI competence, entrepreneurship and ownership opportunities, and especially stronger communities as practical preparation; the final appended clip promotes another episode rather than extending Mostaque's argument.",
+          "timestamp": "1:41:00",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-10-06T06:00:24+02:00",
+      "summarized_at": "2026-10-06T06:07:49+02:00"
+    },
     {
       "id": "OATUSWvp1i8",
       "title": "I Fired GoDaddy. Claude Runs My 8 Sites for $1/Month",
