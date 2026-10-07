@@ -9,8 +9,162 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-07T06:29:16+02:00",
+  "updated_at": "2026-10-07T12:09:31+02:00",
   "videos": [
+    {
+      "id": "DzSS9R8t2Ao",
+      "summary": "Popularity is not evidence of productivity | 00:00–02:19: Less Bitter satirizes the growing market for Markdown-based AI coding skills, using gstack and Matt Pocock's shared instruction files as examples. He cites 130,000 GitHub stars for gstack and another creator's reported 2,500 production pull requests in a month, but argues that the latter reflects working 10–12 hours daily rather than a secret prompting method. These figures and the explanation are claims he discusses, not independently verified measurements or a controlled productivity comparison. His target is the implication that beginners need an influencer's special stack before they can code effectively, rather than a personal attack on the creators.\n\nTry the current default before adding machinery | 02:20–04:34: Quoting Dax, the speaker argues that frontier models improve faster than elaborate user workflows, so custom setups may solve problems that have already disappeared. He contrasts collecting instruction files with opening a normal agent chat and doing the work, then challenges a suggested audit of the last 10 coding sessions for navigation and documentation inefficiencies. His practical conclusion is to avoid spending more effort and tokens on speculative optimization than the bottleneck warrants. He provides no measured before-and-after test, so this is an argument for a simpler baseline, not proof that every repository-specific instruction is useless.\n\nModel capability versus prompting expertise | 04:35–06:48: The speaker defends DHH's reliance on two frontier agents for an Elixir implementation against criticism about disallowed concurrent database reads. He interprets DHH's reply as an admission that the agents know more Elixir than he does, and says the only meaningful tuning is choosing an effort level and developing intuition through repeated use; he suggests sticking to a high setting. He then characterizes shared skills as AI-expanded versions of a result someone liked and argues that impressive output often comes from the underlying model, not a magical prompt. The discussion does not investigate the database criticism or show that the generated implementation was correct, and his claims about how other people's files were written remain inference.\n\nThe verdict, and the joke in the sales pitch | 06:49–08:30: Returning to the 2,500-PR claim, Less Bitter attributes software-engineering competence primarily to model labs' post-training, rejecting the idea that a downloadable skill can transform a weak model into a strong engineer. He tells viewers to stop bookmarking stacks and spend more time prompting and shipping instead; his later comparison of roughly 2,000 PRs with agent requests is rhetoric, not an analysis of task size, code quality or review burden. The ending promotes his own course and enjoy.dev using the same fear-of-missing-out language he has criticized. That self-mocking close reinforces the marketing critique, but the video offers commentary rather than a first-hand benchmark establishing that skills never help.",
+      "why_valuable": "Test your coding agent's current default workflow before investing in a large third-party skills stack. Less Bitter challenges the inference that 2,500 reported monthly PRs or 130,000 GitHub stars prove a prompting methodology works; his critique helps separate model capability and time spent shipping from influencer marketing, but supplies no controlled test showing all reusable instructions are ineffective.",
+      "key_takeaways": [
+        "00:33–00:49; 03:42–03:56 | The speaker cites 130,000 GitHub stars for gstack, then treats bookmarking and popularity as signs of perceived utility rather than measured coding improvement.",
+        "01:45–02:17 | A creator's reported 2,500 production PRs in a month is attributed by Less Bitter to 10–12-hour workdays, not a special skill pack; the video does not independently verify the count or that causal explanation.",
+        "02:32–03:29 | Dax's quoted argument is that models improve faster than custom setups, so starting with vanilla Codex may expose newer capabilities more directly than carrying forward old workarounds.",
+        "03:56–04:32 | Auditing the last 10 agent sessions for navigation and stale-documentation problems is challenged as potentially wasting more tokens than it saves; no actual token-savings comparison is shown.",
+        "04:35–05:37 | The DHH/Elixir exchange leads to a recommendation to learn effort-level behavior through use, but the disputed concurrent database reads are not tested or resolved.",
+        "05:54–07:22 | Less Bitter argues that reusable skills often package AI-generated instructions and that post-training supplies core engineering competence; these are his conclusions, not demonstrated universal limits on skills.",
+        "07:46–08:28 | His final advice is to work and prompt more instead of collecting stacks, followed by a self-mocking course/enjoy.dev pitch that repeats the marketing language under criticism."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Markdown skills, GitHub stars and the new marketing market",
+          "description": "Less Bitter introduces a satirical critique of AI instruction-file collections, describing gstack as text that asks an agent to act like an engineer or CEO and citing 130,000 GitHub stars. A quoted complaint about becoming famous for Markdown files brings Matt Pocock's shared skills into the discussion, after which the speaker stresses that he has nothing personal against the creators. The opening establishes that popularity and personality are not the same as evidence that a workflow improves results.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 90,
+          "timestamp": "01:30",
+          "title": "A huge pull-request count is not a causal productivity test",
+          "description": "The speaker objects to the suggestion that AI coding requires a special methodology, citing another creator's claimed 2,500 production PRs in a month and the attention attracted by her explanation. He attributes the output to 10–12-hour workdays and hard work, insisting viewers could get similar results by investing similar time. That explanation is asserted rather than tested, so the useful distinction is between an impressive reported total and evidence identifying what caused it.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 140,
+          "timestamp": "02:20",
+          "title": "Fast-improving models can make custom workarounds obsolete",
+          "description": "Quoting Dax, Less Bitter argues that models improve faster than tinkerers and that many customized setups address problems that no longer exist. He contrasts beginners being told to download stacks and prepend skill files with a meme about professional engineers simply starting a normal chat, then explains how uncertainty encourages people to bookmark those stacks. The argument favors trying current defaults before adopting an elaborate workflow, but does not compare the two approaches experimentally.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 236,
+          "timestamp": "03:56",
+          "title": "Questioning speculative repository and token optimization",
+          "description": "A suggested prompt asks an agent to inspect the last 10 coding sessions for difficult repository navigation and outdated documentation, presenting the audit as a way to save tokens. Less Bitter concedes that this is hard to argue against in the abstract, but says small extra tool calls do not change the overall scale of the work and that such optimization may itself waste tokens. Without measuring either cost or savings, he is challenging the priority of this activity rather than demonstrating that a particular audit failed.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 275,
+          "timestamp": "04:35",
+          "title": "The DHH example and choosing an agent's effort level",
+          "description": "Less Bitter recounts criticism of an AI-generated Elixir version of DHH's Campfire app for disallowing concurrent database reads, along with DHH's reply that two frontier agents produced the implementation. He defends that reliance as acknowledging the agents' greater language knowledge and reduces practical AI-coding expertise to choosing an effort level and building intuition by using agents repeatedly. The disputed database behavior is never investigated here, so the anecdote supports his position rhetorically without proving the generated code is sound.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 340,
+          "timestamp": "05:40",
+          "title": "Where skill files end and underlying model capability begins",
+          "description": "The speaker argues that long workdays, not downloadable Markdown, explain output, and describes skills as agents expanding a few instructions around a result their user liked. He infers from the wording of a skills changelog that AI wrote it, revisits the claimed 2,500 PRs and argues that model labs' post-training supplies engineering competence rather than third-party stacks. He also points to 192 bookmarks on his own joking gstack post, using that reaction to illustrate how audiences search for productivity shortcuts; none of these examples is a controlled test of skills.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 466,
+          "timestamp": "07:46",
+          "title": "Do the work, then notice the self-mocking sales pitch",
+          "description": "Less Bitter ends by telling viewers to stop collecting stacks, prompt more and work harder, likening roughly 2,000 pull requests to requests sent to an agent over a full-time month. That comparison ignores differences in task size, review and quality, so it should not be read as a productivity benchmark. He then plugs his own course and enjoy.dev with exaggerated warnings about being left behind, turning the same marketing tactics he criticized into the closing joke.",
+          "source": "generated"
+        }
+      ],
+      "title": "The big lie about AI coding",
+      "channel": "Less Bitter",
+      "upload_date": "20261006",
+      "thumbnail": "https://i.ytimg.com/vi/DzSS9R8t2Ao/maxresdefault.jpg",
+      "description": "The best way to build apps with AI: https://enjoy.dev\n\nhttps://x.com/atmoio/status/2107256069516849161\n\nshipacademy.com",
+      "duration_seconds": 510,
+      "url": "https://www.youtube.com/watch?v=DzSS9R8t2Ao",
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube automatic captions (original English track; fetched with yt-dlp)",
+      "transcript_file": "data/transcripts/DzSS9R8t2Ao.captions.json",
+      "first_detected_at": "2026-10-07T12:00:22+02:00",
+      "summarized_at": "2026-10-07T12:09:31+02:00"
+    },
+    {
+      "id": "IHV7eWibqzo",
+      "summary": "Choose a stable home base, not this month's winning model | 00:00–02:16: Tristen O'Brien proposes a five-part, 100-day learning plan centered on mastering the AI platform that already works for you. He argues that constant switching leaves attention and projects scattered, whereas sustained use helps you learn memory, slash commands, skills, MCP servers and agents. Claude is his own primary platform, but he also uses ChatGPT, Gemini and Perplexity; he does not claim everyone should choose Claude or that secondary tools must be abandoned. The promise of getting ahead of 99% of users is motivational framing, not a measured percentile backed by a study in the video.\n\nPractice through small agents and explicit preferences | 02:17–03:57: O'Brien says he has built over 150 agents for his personal life and recommends creating one small, useful agent each week, aiming for 14 by New Year's in his original plan. Examples include appointment scheduling, a morning rundown and birthday cards; these are suggested jobs, not live demonstrations. He distinguishes the agent doing the work from the saved instructions that specify how it should work. His travel example names a preferred airline, an aisle seat, Marriott hotels and no flights before 8:00 a.m.; he recommends turning repeated explanations like these into one new reusable skill each week.\n\nConnect the workflow rather than shuttle answers by hand | 03:58–04:40: O'Brien describes Model Context Protocol as a standard way to connect AI to email, calendars, files and everyday applications, contrasting it with copying inputs into a chatbot and pasting outputs back into another app. His weekly target is one new tool connection alongside the new agent and skill. This is a practical curriculum for expanding automation, not a setup tutorial: he shows no connector configuration, permission model, spending safeguards or confirmation flow for bookings and purchases, so those operational details remain to be addressed before granting real-world access.\n\nExplore deliberately and keep the foundation | 04:41–05:55: To remain a generalist without rebuilding everything, O'Brien recommends reserving one hour weekly and running the same three everyday prompts through a new model to judge whether it suits a particular job. The home platform stays stable even when another tool earns a specific role. He closes by reporting well over 1,000 hours spent on Claude and promoting the 100 Days of AI Challenge; those experience claims are self-reported, not independently evaluated evidence of mastery. His final verdict is sustained practice in one environment plus bounded experimentation elsewhere, and the original year-end/14-agent target should be understood in the context of when he recorded the plan rather than as a fresh calendar calculation.",
+      "why_valuable": "Keep one AI home platform and make your learning produce useful workflows: one small agent, one reusable preference skill and one tool connection each week, with one hour reserved for testing alternatives on the same three prompts. O'Brien's plan helps decide what to practice instead of switching platforms after every release; his 99% promise is unproven, and real booking or purchase agents still need safeguards the video does not explain.",
+      "key_takeaways": [
+        "00:44–02:15 | O'Brien recommends the platform already working for you, not whichever model was released most recently, so attention and projects stay together while you learn underlying features.",
+        "02:23–03:07 | He reports over 150 personal agents and proposes one new small agent weekly, with a stated original target of 14 by New Year's; these are self-reported experience and a learning goal, not tested performance results.",
+        "03:12–03:55 | An agent is the worker; a skill is saved instructions encoding your preferences. His travel example specifies an aisle seat, Marriott stays and no departures before 8:00 a.m.",
+        "03:48–03:57 | Each repeated explanation of how you want a task done is a candidate for a reusable skill, and the plan pairs one new skill with the weekly agent.",
+        "04:04–04:39 | MCP connections are intended to replace manual copy/paste between AI and email, calendars, files or apps; O'Brien recommends one new connection weekly but gives no implementation or permission walkthrough.",
+        "05:03–05:22 | Spend one hour a week testing a new model with the same three everyday prompts, giving alternatives specific jobs without moving your whole home workflow.",
+        "00:14–00:17; 05:24–05:40 | The claim of outperforming 99% of AI users is not substantiated, while the reported 1,000-plus Claude hours supports his emphasis on practice only as personal testimony."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "The 100-Day AI Plan",
+          "description": "O'Brien warns that jumping between platforms prevents users from mastering any one of them and introduces five areas of focus for the remaining 100 days in his year-end plan. He promises that this will put viewers ahead of 99% of AI users, but gives no supporting measurement in the opening. The practical framing is a focused learning challenge rather than a demonstrated ranking or model comparison.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 19,
+          "timestamp": "00:19",
+          "title": "Master One AI Platform",
+          "description": "O'Brien argues that repeatedly moving between new Claude and ChatGPT releases creates switching costs and scatters projects, preventing sustained learning of memory, slash commands, skills, MCP servers and agents. He recommends whichever platform already works for the viewer, using Claude as his own home base while still using ChatGPT, Gemini, Perplexity and other tools. The commitment is to one primary environment through the original year-end challenge, not to refusing all other products or choosing a universal best model.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 137,
+          "timestamp": "02:17",
+          "title": "Build an AI Employee",
+          "description": "O'Brien reports having built over 150 personal agents and describes an agent as AI given a job that continues until the result meets the user's wishes. Suggested jobs range from haircut or dentist appointments to a morning rundown, food ordering and birthday cards, although none is demonstrated working here. He recommends starting with one small job and building a new agent each week, stating an original goal of 14 by New Year's; this is a practice target rather than evidence of reliable autonomous completion.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 188,
+          "timestamp": "03:08",
+          "title": "Learn AI Skills",
+          "description": "O'Brien separates the agent that does a job from the saved instructions that tell it how to satisfy the user's preferences. His travel example includes a preferred airline, an aisle seat, Marriott hotels and no flights before 8:00 a.m., making the instructions concrete rather than merely asking the AI to act as an expert. He recommends converting repeated explanations into reusable skills and building one each week so routine work can consistently reflect personal requirements.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 238,
+          "timestamp": "03:58",
+          "title": "Connect Your Tools With MCP",
+          "description": "O'Brien contrasts copying information into AI and pasting answers into another app with Model Context Protocol connections to email, calendars, files and everyday software. He notes that platforms may use labels such as connectors or plugins and recommends connecting one new tool every week so the agents can participate in real workflows. The interval explains the purpose of integration without showing installation, permissions or safeguards for consequential actions, leaving those requirements outside this tutorial.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 281,
+          "timestamp": "04:41",
+          "title": "Stay a Generalist on Purpose",
+          "description": "O'Brien keeps Claude as his primary environment while using other AI products, arguing that depth in one platform helps him understand shared underlying concepts. He recommends blocking off one hour each week to run the same three everyday prompts through a newly released model and assess whether it deserves a specific job. That bounded comparison preserves a stable home workflow while allowing selective adoption, rather than rebuilding the whole setup after each release.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 324,
+          "timestamp": "05:24",
+          "title": "Join the 100-Day AI Challenge",
+          "description": "O'Brien reiterates that mastering one platform is the foundation of his proposed learning plan and reports having spent well over 1,000 hours on Claude. He names the program the 100 Days of AI Challenge and invites viewers to subscribe for further tips, repeating the unmeasured promise of surpassing 99% of users. The closing verdict favors sustained hands-on practice, but does not present outcomes from participants or a validated assessment of mastery.",
+          "source": "creator"
+        }
+      ],
+      "title": "How I Mastered AI (Your 100-Day PLAN to Do the Same)",
+      "channel": "Tristen O'Brien",
+      "upload_date": "20260924",
+      "thumbnail": "https://i.ytimg.com/vi/IHV7eWibqzo/maxresdefault.jpg",
+      "description": "👇 FREE: Get my complete Prompt Library + my AI newsletter to stay up to date on everything AI: https://tristenobrien.ai\n\nIn just the last two months we got Claude Opus 5, Claude Fable 5.1, OpenAI's GPT-6 Astra, and then Claude Opus 5.5 and two more GPT-6 models, GPT-6 Sol and GPT-6 Luna, all on the same day. Add new AI tools like Jev AI on top of that, and it's no wonder people keep jumping from ChatGPT to Claude to Gemini every time a new model drops.\n\nBut if you keep switching, you never get good at any of them. With 100 days left in 2026, this is the plan I'd follow to get ahead of 99% of people using AI: master one platform, build AI agents that help run your personal life, give them skills, connect them to your real tools with MCP, and stay a generalist on everything else. It works whether your home base is Claude, ChatGPT, or Gemini.\n\n⏱️ CHAPTERS\n\n0:00 The 100-Day AI Plan\n0:19 Master One AI Platform\n2:17 Build an AI Employee\n3:08 Learn AI Skills\n3:58 Connect Your Tools With MCP\n4:41 Stay a Generalist on Purpose\n5:24 Join the 100-Day AI Challenge\n\nTHE 5 THINGS, IN ONE PLACE\n\nMaster one platform. Pick the one that fits the way you already work and stick with it until the end of the year. Every time you switch, your attention and your projects get split, and you never learn the technology underneath.\n\nBuild an AI employee. An AI agent is AI you give a job to, and it keeps going until the job is done. Build one every week for the rest of the year to help run your personal life.\n\nMaster skills. A skill is a saved set of instructions that teaches your agent to do the job exactly the way you want. Build a new one every week alongside your agents.\n\nPlug it into your real tools. MCP (Model Context Protocol) connects your AI to your email, calendar, files, and the apps you already use. Connect one new tool every week.\n\nStay a generalist on purpose. Block off one hour a week to test new models like GPT-6 Astra or Opus 5.5 with the same prompts you use every day. Your home base stays the same.\n\n🎁 FREE STARTER PROMPTS\n\nPROMPT 1: BUILD YOUR FIRST AI EMPLOYEE\n\n\"I want to build an AI agent that helps with one job in my personal life. Before you build anything, ask me at least five questions about the job, how often it happens, what tools it needs to touch, and what a great result looks like. Then write out the agent's instructions step by step, and tell me exactly how to set it up on the platform I'm using.\"\n\nPROMPT 2: TURN WHAT YOU KEEP EXPLAINING INTO A SKILL\n\n\"Here's something I keep explaining to you over and over: [describe how you like it done]. Turn this into a reusable skill. Write clear instructions, include my preferences as specific rules, add an example of a perfect result, and tell me how to save it so you use it automatically next time.\"\n\nMore prompts in the free Prompt Library: https://tristenobrien.ai\n\n#AI #Claude #ChatGPT #Opus55 #GPT6 #GPT6Astra #AIAgents #MCP #ClaudeSkills #JevAI",
+      "duration_seconds": 355,
+      "url": "https://www.youtube.com/watch?v=IHV7eWibqzo",
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube automatic captions (original English track; fetched with yt-dlp)",
+      "transcript_file": "data/transcripts/IHV7eWibqzo.captions.json",
+      "first_detected_at": "2026-10-07T12:00:22+02:00",
+      "summarized_at": "2026-10-07T12:09:31+02:00"
+    },
     {
       "id": "fSJh8etPngU",
       "title": "I Let Claude Edit My Entire Video in DaVinci Resolve (Full Setup)",
