@@ -25,11 +25,15 @@ def load(path: Path, default):
 def clean_executive_summary(summary: str) -> str:
     """Remove video-position annotations while retaining headings and actual times."""
     summary = re.sub(
+        rf"(?m)^([^\n]+?)[ \t]+[—–-][ \t]+{VIDEO_CUES}(?!\d|:\d)(?=:|\*\*|[ \t]*(?:\n|$))",
+        r"\1", summary, flags=re.IGNORECASE,
+    )
+    summary = re.sub(
         rf"\[{VIDEO_CUES}\s*\|\s*([^\]\n]+)\]", r"\1:", summary,
         flags=re.IGNORECASE,
     )
     summary = re.sub(
-        rf"(?m)^(\*\*)?{VIDEO_CUES}\s*\|\s*", r"\1", summary,
+        rf"(?m)^(\*\*)?{VIDEO_CUES}(?!\d|:\d)[ \t]*[:|][ \t]*", r"\1", summary,
         flags=re.IGNORECASE,
     )
     summary = re.sub(
@@ -41,11 +45,11 @@ def clean_executive_summary(summary: str) -> str:
         flags=re.IGNORECASE,
     )
     summary = re.sub(
-        rf"\bAt\s+{VIDEO_CUES}(?![\d:]|\s*(?:[aApP]\.?[mM]\.?))\s+([a-z])",
+        rf"\bAt\s+{VIDEO_CUES}(?!\d|:\d|\s*(?:[aApP]\.?[mM]\.?))\s+([a-z])",
         lambda match: match[1].upper(), summary,
     )
     summary = re.sub(
-        rf"[ \t]+at\s+{VIDEO_CUES}(?![\d:]|\s*(?:a\.?m\.?|p\.?m\.?))(?=[ ,.;]|$)",
+        rf"[ \t]+at\s+{VIDEO_CUES}(?!\d|:\d|\s*(?:a\.?m\.?|p\.?m\.?))(?=[ ,.;:]|$)",
         "", summary, flags=re.IGNORECASE,
     )
     return re.sub(r"(?m)^[ \t]+", "", summary)

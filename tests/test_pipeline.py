@@ -15,7 +15,7 @@ def module(name, path):
     return mod
 
 merge_mod = module("merge_summary", ROOT / "scripts/merge_summary.py")
-render_mod = module("render_site", ROOT / "scripts/render_site.py")
+render_mod = module("scripts.render_site", ROOT / "scripts/render_site.py")
 manual_refresh_mod = module("manual_refresh_server", ROOT / "scripts/manual_refresh_server.py")
 
 class PipelineTests(unittest.TestCase):
@@ -71,7 +71,7 @@ class PipelineTests(unittest.TestCase):
             render_mod.render(root)
             published = json.loads((root / "public/videos.json").read_text())["videos"][0]
             self.assertEqual(item["quick_takeaways"], published["quick_takeaways"])
-            self.assertEqual(item["summary"], published["summary"])
+            self.assertEqual(merge_mod.clean_executive_summary(item["summary"]), published["summary"])
             self.assertEqual(item["key_takeaways"], published["key_takeaways"])
             self.assertEqual(item["chapters"], published["chapters"])
         finally: td.cleanup()
@@ -108,8 +108,8 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(chapters, published["chapters"])
         finally: td.cleanup()
 
-    def test_summary_cleanup_handles_existing_annotation_formats(self):
-        examples = {
+    def summary_cleanup_examples(self):
+        return {
             "**00:00–06:30 | Demand first.** Validate the product.": "**Demand first.** Validate the product.",
             "00:00–04:22 | Design: Compare the results.": "Design: Compare the results.",
             "[09:45–11:15; 14:15–16:57 | Billing] Charge for usage.": "Billing: Charge for usage.",
@@ -118,11 +118,49 @@ class PipelineTests(unittest.TestCase):
             "He reports 51.3% at 02:30–02:40 and 77.5% at 04:16–04:26.": "He reports 51.3% and 77.5%.",
             "At 06:09 he explains. A promotion at 07:31 is sponsorship.": "He explains. A promotion is sponsorship.",
             "Meet at 10:00 a.m. and discuss John 3:16.": "Meet at 10:00 a.m. and discuss John 3:16.",
+            "Prerequisites — 00:54–06:23: Check the setup.": "Prerequisites: Check the setup.",
+            "One point of contact — 00:20: Delegate tasks.": "One point of contact: Delegate tasks.",
+            "Identity — 25:02–01:15:14: Accept help.": "Identity: Accept help.",
+            "**Verdict — 17:26–end:** Review the output.": "**Verdict:** Review the output.",
+            "Setup - 00:54-06:23: Check permissions.\n\nReview – 06:24: Check the result.": "Setup: Check permissions.\n\nReview: Check the result.",
+            "The exercise arrives at 01:02: break the job into tasks.": "The exercise arrives: break the job into tasks.",
+            "00:54–06:23: Check the setup.": "Check the setup.",
+            "At 10:00 a.m. check John 3:16. Office hours — 10:00 a.m.": "At 10:00 a.m. check John 3:16. Office hours — 10:00 a.m.",
         }
+
+    def test_summary_cleanup_handles_existing_annotation_formats(self):
+        examples = self.summary_cleanup_examples()
         for original, expected in examples.items():
             with self.subTest(original=original):
                 self.assertEqual(expected, merge_mod.clean_executive_summary(original))
                 self.assertEqual(expected, merge_mod.clean_executive_summary(expected))
+
+    def test_render_cleans_summaries_that_bypass_import(self):
+        td, root = self.fixture()
+        try:
+            item = json.loads((ROOT / "data/videos.json").read_text())[0]
+            item["summary"] = "Prerequisites — 00:54–06:23: Check the setup.\n\nConclusion — 01:15:14–01:40:18: Review the result."
+            canonical = json.dumps([item])
+            (root / "data/videos.json").write_text(canonical)
+            render_mod.render(root)
+            published = json.loads((root / "public/videos.json").read_text())["videos"][0]
+            self.assertEqual("Prerequisites: Check the setup.\n\nConclusion: Review the result.", published["summary"])
+            self.assertEqual(item["chapters"], published["chapters"])
+            self.assertEqual(canonical, (root / "data/videos.json").read_text())
+        finally: td.cleanup()
+
+    def test_browser_cleans_raw_summaries_consistently_with_importer(self):
+        html = (ROOT / "site/index.html").read_text()
+        helper = re.search(r"function cleanExecutiveSummary\(summary\)\{.*?\n    \}", html, re.DOTALL)
+        self.assertIsNotNone(helper)
+        self.assertIn("${cleanExecutiveSummary(v.summary).split", html)
+        examples = self.summary_cleanup_examples()
+        videos = json.loads((ROOT / "data/videos.json").read_text())
+        originals = list(examples) + [v["summary"] for v in videos]
+        expected = list(examples.values()) + [merge_mod.clean_executive_summary(v["summary"]) for v in videos]
+        script = helper.group(0) + "\nconsole.log(JSON.stringify(" + json.dumps(originals) + ".map(cleanExecutiveSummary)))"
+        result = subprocess.run(["node"], input=script, capture_output=True, text=True, check=True)
+        self.assertEqual(expected, json.loads(result.stdout))
 
     def test_site_formats_every_library_upload_date(self):
         html = (ROOT / "site/index.html").read_text()
