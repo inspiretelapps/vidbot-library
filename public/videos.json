@@ -9,8 +9,106 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-06T06:07:49+02:00",
+  "updated_at": "2026-10-07T06:03:06+02:00",
   "videos": [
+    {
+      "id": "fSJh8etPngU",
+      "title": "I Let Claude Edit My Entire Video in DaVinci Resolve (Full Setup)",
+      "channel": "Jason Cooperson",
+      "upload_date": "20260807",
+      "thumbnail": "https://i.ytimg.com/vi/fSJh8etPngU/maxresdefault.jpg",
+      "description": "🚀 Get the Plug n' Play Claude Video Editor Project Folder ⤵️\nhttps://www.skool.com/leveragelab/about\n\n🎁 The FREE system map (paste it into Claude to build your own Claude video editor) ⤵️\nhttps://claude.ai/artifact/BYH6Mcma5to3kt2KogkEzB\n\n🔗 DaVinci Resolve MCP (the bridge that lets Claude control DaVinci Resolve) ⤵️\nhttps://github.com/samuelgursky/davinci-resolve-mcp\n\n🔗 HyperFrames (the free open-source toolkit Claude uses to build the graphics) ⤵️\nhttps://github.com/heygen-com/hyperframes\n\n🎬 DaVinci Resolve Studio (I'm not affiliated, this is just where you get it) ⤵️\nhttps://apps.cloud.blackmagicdesign.com/license-manager\n\nLike, subscribe, and drop a comment if you want more honest AI builds like this!\n\n⏰ TIMESTAMPS\n\n0:00 Intro\n0:54 What You Need First\n3:08 Get the Pre-Built Version\n3:55 The Setup\n6:24 Rough Cut\n7:42 Motion Graphics: Full Auto\n10:18 Motion Graphics: Take Two\n14:02 Color Grading\n16:21 What the MCP Can't Do\n17:26 Final Thoughts\n\nFollow me on other platforms\n📸 Instagram: https://www.instagram.com/jasoncooperson/\n🎞️ TikTok: https://www.tiktok.com/@jasoncooperson\n\nSummary ⤵️\n\nClaude can now take full control of DaVinci Resolve. It cuts your raw footage, builds the motion graphics, drops in title cards, color grades, and exports. The intro of the video you're watching was edited exactly that way, and I ran every use case live on camera with a timer going so you can see how long each one actually takes.\n\nThe whole thing is a folder of files on my computer: a Claude project that knows how to edit. The DaVinci Resolve MCP is the bridge that lets Claude actually drive Resolve, and HyperFrames is the free open-source repo that builds the graphics, it animates them as a web page and records that animation, so you get real motion design instead of a stock template. Both are free on GitHub.\n\nReal numbers from the video. The rough cut took 5 minutes and 41 seconds. I told Claude to do a fully autonomous graphics pass on my intro and take as much time as it needed, and it ran for 1 hour and 38 minutes and came back with something genuinely impressive. I asked for a faster restyle after that and got a better result in about 20 minutes. The color grade, grouping every intro clip and applying a LUT, took about 2 minutes.\n\nI also show you what it can't do. The MCP will group your clips and apply a LUT on its own, but it cannot add nodes or effects on the Color page, so the glow, halation, and grain in my grade got dragged in by hand. It can do that kind of work in Fusion but not in Color, which is silly, and I'd rather you hear it from me than find out an hour in.\n\nThe only thing you actually have to pay for is Claude Code. I'd recommend the $100/mo Max plan so you can run Opus 5 without hitting limits, though Sonnet 5 on the $20 plan will get you through it. The free version of Resolve should work, and Studio is $30/mo if you want to try it out. Everything else, HyperFrames, the Resolve MCP, WhisperX, FFmpeg, Homebrew, is free and open source, and the free prompt linked above installs",
+      "duration_seconds": 1142,
+      "url": "https://www.youtube.com/watch?v=fSJh8etPngU",
+      "summary": "Prerequisites and a realistic setup budget — 00:54–06:23: Jason Cooperson combines Claude Code, the DaVinci Resolve MCP bridge and HyperFrames with supporting tools such as WhisperX and FFmpeg. He recommends the $100/month Claude plan over the $20/month option to reduce usage-limit friction; those are his stated prices and model recommendations, not an independently checked current buying guide. He demonstrates the workflow in Resolve Studio and explicitly says he has not tested the free Resolve version. The free system-map prompt installs or guides installation inside a dedicated project folder, but the closing discussion acknowledges that building an equally refined editor can still require hours of debugging; his paid community sells the prepared assets, workflows and support rather than exclusive access to the open-source components.\n\nA concrete rough-cut result — 06:24–07:41: For the intro to this same tutorial, Cooperson asks Claude to locate footage in Downloads, create a named Resolve project and consult the associated Notion page. He reports a 5-minute-41-second run and shows the assembled timeline. This is a first-hand demonstration of intro assembly, not a controlled comparison with manual editing and not a measurement of editing the entire finished video.\n\nCreative freedom versus a usable brief — 07:42–14:01: An autonomous graphics prompt asks Claude to plan, create and individually refine every element with as much time as necessary; Cooperson reports 1 hour 38 minutes and calls the result impressive, but says it is not what he actually wanted. His revision removes graphics from the first two clips, specifies a dark-blue modern UI treatment, retains 12-fps animation and requests a 30-minute ceiling. He prefers the second result but still adjusts positioning and scale by hand. The creator description says that restyle took about 20 minutes; the spoken captions do not establish that duration because he loses the timer, so it should not be presented as a verified timed result.\n\nGrade automation has a narrow boundary — 14:02–17:25: Rather than trusting AI-created LUTs, which he criticizes, Cooperson supplies his London Rec.709 preset and asks the agent to group and grade the intro. He reports approximately 2 minutes, checks the grouping and manually lowers LUT intensity to 75% through a 0.75 key output gain. He acknowledges this is also quick to do manually, making automation more useful when chained with other tasks. The demonstrated MCP cannot add Color-page nodes and effects, despite supporting related work in Fusion, so the polished grade still requires manual finishing.\n\nVerdict and the free-versus-supported decision — 17:26–19:00: Cooperson remains positive about faster, better AI-assisted editing, but his conclusion is more qualified than the opening full-control claim: a free build is possible, a well-tuned project can take substantial work, and the shown output still benefits from human taste and finishing. He promotes a folder he says he developed over roughly a month and a half, plus installation guidance and community support. Treat the reported run times as demonstrations on his intro, not universal benchmarks or evidence that the whole video can be completed unattended; exporting is advertised but not separately demonstrated in the use-case sequence.",
+      "why_valuable": "Pilot this as an editing assistant, not a replacement for a human finisher: Cooperson reports a 5-minute-41-second rough cut and an approximately 2-minute LUT pass, but an open-ended graphics request took 1 hour 38 minutes and still needed a stylistic rewrite. The demonstration helps decide which Resolve tasks to automate, how tightly to specify graphics, and whether a free self-build or his supported project folder better fits your available setup time; free-Resolve compatibility remains untested.",
+      "key_takeaways": [
+        "01:10–01:58 — Cooperson recommends the $100/month Claude tier over the $20/month option, but says he has not tested free Resolve; do not treat that compatibility claim as demonstrated.",
+        "03:57–06:23; 17:28–18:24 — A free prompt bootstraps the integrations in a dedicated project folder, while a polished self-build can still take hours of debugging; his paid offer packages prepared files and support.",
+        "06:48–07:38 — A request to locate the intro footage, create a named Resolve project and consult its Notion page produces a rough cut in a reported 5 minutes 41 seconds, showing concrete assembly automation rather than an entire finished-video benchmark.",
+        "08:02–09:23 — Asking for an autonomous graphics pass plus element-by-element refinement with unlimited time produces a reported 1-hour-38-minute run; the impressive result still misses his preferred style.",
+        "11:03–13:58 — Explicit exclusions, a dark-blue UI style, 12-fps animation and a 30-minute requested ceiling produce a result he prefers, although some manual repositioning remains and the on-screen timer is lost.",
+        "14:39–16:19 — Cooperson prefers supplying his own London Rec.709 LUT to AI-generated grading; grouping and applying it take about 2 minutes, then he manually reduces its strength to 75%.",
+        "16:22–17:24 — The demonstrated MCP can group clips and apply a LUT but cannot add Color-page nodes or effects; Fusion has different capabilities, and the final grade still needs manual finishing."
+      ],
+      "transcript_language": "en-orig",
+      "transcript_source": "YouTube automatic captions (original English)",
+      "transcript_file": "data/transcripts/fSJh8etPngU.captions.json",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Cooperson presents a personal AI editing assistant intended to remove repetitive work while supporting rough cuts, motion graphics, titles, grading and export. He promises a free setup path for creators and editors, but these opening claims establish the scope of the tutorial rather than demonstrate that every listed capability has already been tested.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 54,
+          "timestamp": "00:54",
+          "title": "What You Need First",
+          "description": "Claude Code supplies the agent, the Resolve MCP connects it to the editor, and HyperFrames supplies the motion-graphics engine alongside free tools such as WhisperX and FFmpeg. Cooperson recommends a higher Claude subscription to avoid usage limits, describes monthly and lifetime Resolve Studio options, and explicitly admits he has not tested free Resolve compatibility. His linked prompt is intended to install or walk through the open-source prerequisites, so the practical entry barrier is both subscription access and local setup rather than buying a proprietary graphics toolkit.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 188,
+          "timestamp": "03:08",
+          "title": "Get the Pre-Built Version",
+          "description": "Viewers can purchase access to Cooperson's prepared project folder, including skills, assets, documentation, presets and workflows, instead of assembling everything themselves. He also offers twice-weekly group calls for troubleshooting, while reiterating that the linked free prompt remains the alternative; the paid offer is convenience and support, not a requirement to follow the tutorial.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 235,
+          "timestamp": "03:55",
+          "title": "The Setup",
+          "description": "Cooperson creates a dedicated Claude Resolve Editor folder, opens it in Claude Code and pastes the free setup prompt so the integrations and command-line dependencies can be installed there. Homebrew may still require terminal commands and a password, and he recommends asking the agent for step-by-step help if installation becomes confusing. Opening Resolve and testing the connection is the final readiness check, while he distinguishes this basic setup from his more fully prepared community project.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 384,
+          "timestamp": "06:24",
+          "title": "Rough Cut",
+          "description": "Working on the intro to this same video, Cooperson asks the agent to find footage in Downloads, create a named Resolve project and consult the matching Notion project page. He reports completion in 5 minutes 41 seconds and shows the assembled rough cut in Resolve, providing a concrete first-hand assembly test. The measured task is the intro's initial cut, not the production time for the full finished tutorial.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 462,
+          "timestamp": "07:42",
+          "title": "Motion Graphics: Full Auto",
+          "description": "Cooperson gives the agent broad creative freedom to read the intro, plan graphics, build them on the timeline and then refine every element for placement and correctness. He reports a 1-hour-38-minute run after explicitly allowing unlimited time, praises the result and plays the enhanced intro. The outcome demonstrates autonomous graphics production, but also exposes how exhaustive quality instructions can make an apparently hands-off task slow.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 618,
+          "timestamp": "10:18",
+          "title": "Motion Graphics: Take Two",
+          "description": "Although the first output impresses him, Cooperson says it is not the style he wanted and rewrites the brief with exclusions for the first two clips, a dark-blue modern UI look, 12-fps animation and specific overlay treatments. He asks for a maximum 30-minute revision instead of unlimited refinement, then prefers the returned result but still moves and resizes some elements manually. Because he loses the timer and does not announce a final elapsed duration in the spoken captions, this interval supports a qualitative faster-iteration conclusion rather than a verified 20-minute benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 842,
+          "timestamp": "14:02",
+          "title": "Color Grading",
+          "description": "Cooperson supplies the file path to his preferred London Rec.709 LUT rather than asking the agent to invent a grade, explaining that he finds its self-generated LUTs weak. The agent groups the intro clips, applies the preset and returns a comparison in approximately 2 minutes, after which he manually lowers key output gain to 0.75. He admits this simple operation is also quick by hand, suggesting its stronger use is as one step in a larger automated editing sequence.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 981,
+          "timestamp": "16:21",
+          "title": "What the MCP Can't Do",
+          "description": "The demonstrated bridge can group clips and apply a LUT, but Cooperson says it cannot add further nodes or effects on Resolve's Color page even though related node work is possible in Fusion. He therefore drags in and adjusts finishing effects himself, then compares the before-and-after grade. This makes the boundary explicit: automation speeds up the base grade, but the polished look still depends on human intervention.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1046,
+          "timestamp": "17:26",
+          "title": "Final Thoughts",
+          "description": "Cooperson closes by saying the free self-build is possible but may require substantial refining, error fixing and coding, contrasting it with the project he says he has developed for roughly a month and a half. His community offer includes the ready-made files, installation walkthroughs, daily Loom responses and Tuesday/Thursday calls, so the conclusion also functions as a sales pitch. His verdict remains that AI can help people edit faster and better, not that the demonstrated system eliminates setup work or manual finishing.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-07T06:00:23+02:00",
+      "summarized_at": "2026-10-07T06:03:06+02:00"
+    },
     {
       "id": "c9Z7ixVr4CU",
       "title": "Grok Bot Just Changed A LOT (Here’s What’s New)",
