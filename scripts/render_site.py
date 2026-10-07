@@ -7,12 +7,19 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+if __package__:
+    from .merge_summary import clean_executive_summary
+else:
+    from merge_summary import clean_executive_summary
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def render(root: Path = ROOT) -> dict:
     config = json.loads((root / "config.json").read_text(encoding="utf-8"))
     videos = json.loads((root / "data/videos.json").read_text(encoding="utf-8"))
+    for video in videos:
+        video["summary"] = clean_executive_summary(str(video.get("summary", "")))
     public = root / "public"
     public.mkdir(parents=True, exist_ok=True)
     shutil.copy2(root / "site/index.html", public / "index.html")
