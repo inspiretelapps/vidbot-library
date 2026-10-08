@@ -9,8 +9,546 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-07T12:09:31+02:00",
+  "updated_at": "2026-10-08T06:12:03+02:00",
   "videos": [
+    {
+      "id": "BLb8E_nlqqQ",
+      "title": "I Tested ChatGPT Dots vs. Meta Muse: Who Wins?",
+      "channel": "Jordan Rafealov",
+      "upload_date": "20261002",
+      "duration_seconds": 978,
+      "thumbnail": "https://i.ytimg.com/vi/BLb8E_nlqqQ/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BLb8E_nlqqQ",
+      "description": "👉 Get All My AI Systems: https://go.aisystemssociety.io/d10\n\n➡️ If this is your first video: I'm Jordan Rafealov. I build free sales funnels for SaaS and info businesses that already have a list, then just take a percentage. If you want to apply, book a call here: https://www.dopaminedigital.io/launch\n\nI started with no audience, no case studies and no website. 94 days later I was at $10,000 a month. Since then I have run multiple challenges, making more than $70,000 in 100 days on YouTube and documented everything.\n\nThen taking a brand-new offer from $0 to $16,305 a month in 84 days with only AI Systems and one VA.\n\nFinally I wrote one of the highest performing ads on YouTube with more than 18,000,000 views, and built funnels for brands that have generated more than $8 million in revenue.\n\nI have done my best to document the whole thing here on YouTube, and I give you all of my AI systems inside my private Skool community here: https://www.skool.com/aisystems/about\n\nRight now I'm running another 100-day challenge, posting one long-form video a day here on YouTube to help you do something similar. Like, subscribe and join me on the journey.\n\nSummary ⤵️\nOpenAI Dots vs Meta Muse: I give both AI agents the same 3 real business tasks and show you what each one actually does. First I set up Muse's soul and memory files so it knows how I work. Then both agents get the same prompts and I watch their browsers do the job with my hands off the keyboard.\n\nTask 1: build a sales call pitch deck by walking a real store's website and taking screenshots.\nTask 2: build a live competitor dashboard from 3 YouTube channels that updates itself every morning at 7:30. \nTask 3: go through my calendar and inbox, find the calls that never closed and put them on a pipeline board with the names hidden. You see every result side by side, how fast each one worked, and my honest verdict on which AI agent wins. For marketers, freelancers and agency owners deciding which agent to use.\n\nChapters\n00:00 OpenAI Dots vs Meta Muse on 3 real business tasks\n00:18 What ChatGPT Dots is\n00:47 What Meta Muse is\n01:38 Inside Muse: activity, approvals and daily heartbeats\n01:54 Setting up Muse's soul file so it works my way\n02:34 Setting up Muse's memory file\n03:27 Muse's chat, feed, ideas and goals tabs\n03:49 Task 1: build a sales call pitch deck\n04:46 Watch Muse's browser work on its own\n05:37 The same task on ChatGPT Dots\n06:38 Muse's pitch deck: the result\n08:57 Dots' pitch deck: the result\n09:57 Task 2: a live competitor dashboard\n11:28 Muse's dashboard: the result\n12:13 The daily 7:30 update, set on a schedule\n12:43 Dots' dashboard: the result\n13:34 Task 3: find the deals that never closed\n14:13 Muse's pipeline board: the result\n15:04 Dots' pipeline board: the result\n15:22 The verdict: which AI agent wins\n16:03 Get all my AI systems\n\nTools I use (my referral links, I may earn a commission at no cost to you)\nInstantly (cold email sending): https://refer.instantly.ai/jordan\nHeyReach (LinkedIn outreach): https://heyreach.io/?via=jordanb0\nScaled Mail (cold email inboxes): https://go.scaledmail.com/jordan-rafealov\nClay (list building): https://clay.com?via=e1d8b2\nAI Ark (lead sourcing): https://www.ai-ark.com/?ref=jordan\nProspeo (email finding): https://prospeo.io/?via=jordany3\nBounceBan (email checking): https://bounceban.com/?via=jordan\nWispr Flow (voice typing): https://ref.wisprflow.ai/jordan-rafealov-tvka\nTella (screen recording): https://refer.tella.com/jordan-rafealov\nSkool (start your own community): https://www.skool.com/signup?ref=d6335ef7d94b4e6ab557026fcdd8771b\nApify (scraping): code JORDAN at checkout\n\n#OpenAIDots #MetaMuse #AIAgents",
+      "summary": "Agent setup: Jordan Rafealov compares the products he calls ChatGPT Dots and Meta Muse on three business jobs, presenting a first-impressions walkthrough rather than a controlled benchmark. He configures Muse's editable soul and memory with his business context, source-linked figures, short answers, and a strict draft-never-send rule. He says Dots lacks equivalent exposed configuration, while Muse also exposes approvals, recurring activity, and goals. This makes the comparison useful for choosing an approachable agent interface, but the unequal personalization and single run limit broad performance conclusions.\n\nSales-call preparation: Both agents receive an Allbirds website-audit task requesting browser evidence, three conversion problems, and a six-slide pitch deck. Muse visibly navigates the shop and produces files, identifying competing pop-ups, missing purchase-point reviews, sold-out sizing, and cart friction. Jordan considers its design ugly and questions whether the cookie/pop-up criticism accounts for legal requirements and deliberate commercial choices. Dots is noticeably slower in his session and reports that live-view control is unavailable, substituting saved screenshots; its deck distinguishes observations from proposed tests, but he also rejects its visual quality. Neither output is treated as a client-ready expert audit.\n\nCompetitor monitoring: The brief asks for the previous seven days of uploads from three YouTube channels, with thumbnails, views, dates, links, a ranked chart, and alerts above 50,000 views. Muse's displayed dashboard contains 15 videos; Jordan reads its leading result as a Nate video with 295,000 views, and the interface shows a daily 7:30 refresh task. These are observations of the generated artifact and schedule, not independent verification of every view count or a later successful scheduled run. Dots stalls on a question; Jordan initially prefers its darker dashboard visually, then concedes it is essentially similar to Muse's.\n\nSales pipeline and verdict: With calendar and Gmail access, both are asked to identify unclosed discovery calls, assess fit, and surface three likely follow-ups without exposing names. Muse presents anonymized prospects, call history, and next steps; Dots' board shows only one lead, with Jordan unsure why others are absent. His final preference is emphatically Muse for speed, interface, and overall experience, not because either produced polished decks or a demonstrably exhaustive pipeline. The practical lesson is to judge completed artifacts, missed records, permission boundaries, and scheduled-task behavior rather than the agents' appearance alone.",
+      "why_valuable": "Muse is Jordan's preferred interface for everyday business agents because it completed these jobs faster and surfaced more pipeline detail, while neither agent produced a polished pitch deck. This helps decide which agent to pilot for website audits, competitor monitoring, and draft-only sales follow-up, with human checks for weak recommendations and missed leads.",
+      "key_takeaways": [
+        "02:09–03:23: Jordan explicitly configures draft-never-send behavior and source links for reported figures; persistent business context is part of Muse's setup, not an incidental chat prompt.",
+        "03:54–09:55: A six-slide Allbirds audit demonstrates real browsing and file generation, but both decks disappoint visually and Muse's pop-up criticism may ignore legal or business context.",
+        "06:03: Dots reports live-view control unavailable and uses stored screenshots; Jordan experiences it as much slower, without supplying a measured timing benchmark.",
+        "10:01–12:40: Muse builds a dashboard for three channels and seven days of uploads, showing 15 videos and a daily 7:30 refresh; alerts are requested only above 50,000 views, but later scheduled execution is not tested.",
+        "13:03–13:31: Jordan's initial preference for Dots' dashboard design softens when he sees that its content is largely the same as Muse's with a dark background.",
+        "13:40–15:19: Muse shows anonymized prospects and follow-up steps from Gmail/calendar context; Dots shows one unclosed lead, leaving completeness uncertain.",
+        "15:22–16:02: His verdict favors Muse's speed and user experience; this is one personalized first-impressions session, not proof of universal superiority."
+      ],
+      "quick_takeaways": [
+        "Jordan prefers Meta Muse over ChatGPT Dots for speed and interface after trying a website pitch deck, competitor dashboard, and sales pipeline. This is a first-impressions comparison, not a controlled benchmark.",
+        "Both Allbirds pitch decks need human design and conversion-analysis review; Muse's cookie/pop-up criticism may miss legal requirements or deliberate business choices.",
+        "Muse's competitor dashboard shows 15 videos across three channels and a daily 7:30 refresh. The brief requests alerts above 50,000 views; later scheduled execution is not demonstrated.",
+        "Muse's pipeline includes anonymized prospects and next steps, whereas Dots shows only one lead. Check source coverage before trusting follow-up priorities.",
+        "Set persistent business context, require source-linked figures, and make outreach draft-only before connecting inbox and calendar access."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "OpenAI Dots vs Meta Muse on 3 real business tasks",
+          "description": "Jordan proposes testing two consumer-facing agents on three jobs he actually needs in his business, rather than comparing chat answers in isolation. The opening frames the test around whether the agents finish useful work, with results still to come rather than an established winner.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 18,
+          "timestamp": "00:18",
+          "title": "What ChatGPT Dots is",
+          "description": "The presenter describes Dots as a more approachable version of systems such as Hermes and OpenClaw, emphasizing its character-based interface. He plans to customize the agent and reuse business prompts, so the relevant question is execution behind the friendly presentation rather than branding alone.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 47,
+          "timestamp": "00:47",
+          "title": "What Meta Muse is",
+          "description": "Jordan says he has only briefly tried Muse and is giving raw first impressions, pointing to its mainstream marketing and accessible visual design. He contrasts this with buying and configuring a Mac Mini, explaining why low-friction setup could matter to nontechnical users without demonstrating a performance advantage yet.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 98,
+          "timestamp": "01:38",
+          "title": "Inside Muse: activity, approvals and daily heartbeats",
+          "description": "Muse's interface exposes activities, approvals, upcoming recurring work, and daily heartbeats before Jordan opens its persistent configuration. These visible controls suggest where ongoing tasks and permission checks are managed, but this brief tour does not establish that a scheduled job has already run successfully.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 114,
+          "timestamp": "01:54",
+          "title": "Setting up Muse's soul file so it works my way",
+          "description": "Jordan edits behavioral instructions to demand finished visible work, real sources, concise answers, and draft-only communication. He also tells the agent to disclose login or blocked-site problems and give a clear opinion, making completion and honest limitations explicit before granting business tasks.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 154,
+          "timestamp": "02:34",
+          "title": "Setting up Muse's memory file",
+          "description": "The presenter adds his name, business, audience, everyday tools, preferences, and commitments, including source links for figures and no automatic sending. He says Dots does not expose the same soul/memory setup, so Muse enters the later comparison with deliberately richer persistent personalization.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 207,
+          "timestamp": "03:27",
+          "title": "Muse's chat, feed, ideas and goals tabs",
+          "description": "The tour moves through the chat interface, search, feed, ideas, and goals, with Jordan joking that a Facebook product would naturally include a feed. These are interface observations rather than tested workflows; he then leaves the tour to begin a concrete website-audit request.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 229,
+          "timestamp": "03:49",
+          "title": "Task 1: build a sales call pitch deck",
+          "description": "The prompt asks Muse to walk the Allbirds store like a customer, collect screenshots, identify three sales obstacles, and return a six-slide deck plus a short summary. Jordan also requires visible browser work, step-level updates, no invented numbers, and disclosure of blocked pages, tying the deliverable to observable evidence.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 286,
+          "timestamp": "04:46",
+          "title": "Watch Muse's browser work on its own",
+          "description": "Muse opens the store, handles the browsing journey, scrolls products, clicks around, and collects screenshots while Jordan shows that his hands are away from the controls. This demonstrates autonomous navigation in the recorded session, although the quality of the eventual diagnosis still has to be judged separately.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 337,
+          "timestamp": "05:37",
+          "title": "The same task on ChatGPT Dots",
+          "description": "Dots receives the equivalent task but reports that live-view control is unavailable, so it saves screenshots and narrates stages in chat. Jordan calls the execution extraordinarily slow while it inspects sizing and cart reassurance, illustrating that nominally identical tasks can offer different visibility and responsiveness.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 398,
+          "timestamp": "06:38",
+          "title": "Muse's pitch deck: the result",
+          "description": "Muse returns a deck and PDF built around interruptions, missing review proof, unavailable sizes, and cart friction, including evidence that it added a product to the cart. Jordan dislikes the visuals and questions whether consent/pop-up recommendations overlook legal requirements or deliberate choices by an established retailer. He sees potential for a conversion expert to refine the work, not a finished audit to present unchanged.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 537,
+          "timestamp": "08:57",
+          "title": "Dots' pitch deck: the result",
+          "description": "Dots produces a PowerPoint with website-growth ideas, including inconsistent shipping messages and an observed-versus-proposed-test distinction Jordan appreciates. Some recommendations appear to duplicate existing behavior, and despite expecting better visuals he calls the design poor. The useful structure therefore does not remove the need to verify the observations and redesign the slides.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 597,
+          "timestamp": "09:57",
+          "title": "Task 2: a live competitor dashboard",
+          "description": "The next brief asks for uploads from three competitors over the last seven days, with thumbnails, view counts, dates, links, a ranked bar chart, and the week's top video. Jordan also requests daily updates and notifications only when a video exceeds 50,000 views, then shows Muse browsing channels before giving Dots the same assignment.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 688,
+          "timestamp": "11:28",
+          "title": "Muse's dashboard: the result",
+          "description": "Muse's completed artifact displays thumbnail tiles and view rankings, and Jordan reads a Nate video at 295,000 views as the week's leader. He notes 15 videos across the selected channels and a suggestion that winner-promising head-to-head tests are performing well. These are dashboard outputs he reviews, not an independent audit of YouTube's figures or a causal marketing finding.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 733,
+          "timestamp": "12:13",
+          "title": "The daily 7:30 update, set on a schedule",
+          "description": "The completion message says the dashboard covers 15 videos and refreshes every morning at 7:30, and Jordan opens the upcoming-task area to show the refresh entry. This verifies that scheduling appears in the interface during the demo, but the recording does not follow the agent into the next day's execution.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 763,
+          "timestamp": "12:43",
+          "title": "Dots' dashboard: the result",
+          "description": "Jordan reports Dots pausing on an unnecessary question and initially calls its finished dashboard more impressive than Muse's. After clicking through, he revises that enthusiasm: the output is broadly the same with a black background. The segment separates an attractive first impression from a meaningful functional difference.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 814,
+          "timestamp": "13:34",
+          "title": "Task 3: find the deals that never closed",
+          "description": "The final prompt connects calendar and Gmail context to locate discovery calls that never closed, assess prospect fit, and prioritize three follow-ups. Jordan explicitly requests privacy and a pipeline board with names hidden, so the task requires both cross-source matching and careful presentation of sensitive sales records.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 853,
+          "timestamp": "14:13",
+          "title": "Muse's pipeline board: the result",
+          "description": "Muse organizes anonymized prospects with call history and next actions such as sending a recap or following up the next week. Jordan says he already built a similar workflow in Claude Code but needed considerably more coding and iteration. Daily reruns and Slack delivery are possibilities he mentions, not additional workflows demonstrated here.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 904,
+          "timestamp": "15:04",
+          "title": "Dots' pipeline board: the result",
+          "description": "Dots finishes an anonymized lead board, but Jordan can see only one unclosed lead and does not know where the others went. He calls the broad result fairly similar, yet the unexplained missing prospects make this a completeness issue rather than proof that the agents recovered the same pipeline.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 922,
+          "timestamp": "15:22",
+          "title": "The verdict: which AI agent wins",
+          "description": "Jordan chooses Muse because it felt substantially faster, had a better interface, and delivered a better overall experience across the session. His suggestion that Dots felt rushed is personal interpretation, not a verified explanation of product development. The verdict is explicitly first impressions rather than a measured multi-run benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 963,
+          "timestamp": "16:03",
+          "title": "Get all my AI systems",
+          "description": "The closing directs viewers to Jordan's paid community for reusable business systems and mentions a current promotional offer before signing off. No further task result or accuracy check is added, so the substantive comparison ends with the preceding preference for Muse rather than the sales invitation.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-08T06:00:21+02:00",
+      "summarized_at": "2026-10-08T06:12:03+02:00"
+    },
+    {
+      "id": "zLkWg1evkpo",
+      "title": "How the Top 1% Create Animated Instagram Carousels With AI",
+      "channel": "Tristen O'Brien",
+      "upload_date": "20260927",
+      "duration_seconds": 506,
+      "thumbnail": "https://i.ytimg.com/vi/zLkWg1evkpo/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zLkWg1evkpo",
+      "description": "⚡️Try Gamma's New Connectors ➡️ https://gam.link/TRISTEN\n\nAnimated Instagram carousels are getting more engagement than almost any other post right now, and AI can do most of the work for you. In this video I walk through my full workflow for making animated carousels with Gamma: using Gamma's AI research to write the cards, picking a template, editing every slide with the Gamma agent, exporting the cards as PNGs, animating each one in ChatGPT with the Gamma plugin, and posting the finished animated carousel to Instagram.\n\nThis video is sponsored by Gamma. I asked them to sponsor it because Gamma is what I actually use to build my carousels.\n\nWhat you'll learn:\n- How to make an Instagram carousel with AI in Gamma (Gamma 5 beta and the classic generator)\n- How Gamma's Research mode digs up the content for each card so you don't have to\n- Light vs Standard vs Max effort, and how credits work\n- How to pick a carousel template or upload your own branded template\n- How Gamma asks clarifying questions and shows an outline before it builds anything\n- How to edit text, images, layouts, colors, and card style\n- How to switch AI image models (GPT Image 2, Nano Banana Pro, and more)\n- How to use Edit with Agent to change any card with a simple prompt, and revert anytime\n- How to export Gamma cards as PNG images\n- How to animate every carousel slide with ChatGPT and the Gamma plugin\n- How to post an animated carousel on Instagram\n\nCHAPTERS\n00:00 Why animated carousels get more engagement\n00:23 Making a carousel in Gamma 5\n00:46 Upload your files or turn on Research\n01:08 Light vs Standard vs Max effort\n01:26 Writing the carousel prompt\n01:49 Picking a carousel template\n02:11 Gamma asks you questions first\n02:56 Reviewing the outline before it builds\n03:11 Generating the carousel cards\n03:25 Editing text and images on each card\n03:50 Choosing an AI image model\n04:09 Edit with Agent\n05:01 Adding images with the agent\n05:23 Changing the layout and card style\n05:43 Exporting the cards as PNGs\n06:15 Animating every card in ChatGPT with the Gamma plugin\n07:02 The animated cards\n07:12 Posting the animated carousel on Instagram\n07:47 Automating the whole thing with Make.com\n08:00 Final thoughts\n\nWant me to show you how to fully automate this, posting included, with Make.com? Comment the word MAKE and I'll make that video.\n\n#GammaPartner #Gamma #InstagramCarousel #AnimatedCarousel #AITools #ChatGPT #ContentCreation #InstagramMarketing #AIForCreators",
+      "summary": "Research and planning: Tristen O'Brien demonstrates a six-card Instagram carousel about Claude's /goal command using Gamma 5 beta, saying the classic generator can follow the same workflow. He discloses Gamma sponsorship; the opening claim that animated carousels outperform other posts is not accompanied by engagement measurements. Instead of supplying finished copy, he enables Research, chooses Standard effort because higher effort consumes more credits, and selects a template. Gamma asks about audience, depth, slide count, and hook, then provides an outline for approval before designing anything.\n\nEditable design: Gamma creates the cards, with text and free-form elements editable directly and an agent available for natural-language revisions. Tristen changes a green flag to blue and reverts to the original, then adds an image to a text-heavy card and requests a fitting correction when the first placement is wrong. He also shows image-model/art-style selection and layout/color controls. The concrete conclusion is that generation gets much of the work done but useful results still depend on specific iteration, not acceptance of the first output.\n\nAnimation handoff: Exporting cards as PNGs creates a static carousel, not an animated one. Tristen then uses the ChatGPT model he calls GPT-6 Astra with a connected Gamma plugin, names the presentation 'Stop typing continue,' and asks it to animate every slide, including text-only ones, with a premium Instagram look. He specifies a desktop output folder and shows moving files there afterward. The video does not provide a reproducible rendering script, output codec settings, or a complete technical explanation of the animation process; reproducing it depends on having the same connector and file-access capabilities.\n\nPublishing and limits: He selects the animated cards in order in Instagram, checks the sequence, adds a caption, and shares the six-card post. He suggests Make.com could automate the workflow and posting, but offers that as a future tutorial rather than demonstrating a scenario. His final endorsement centers on Gamma doing research, asking useful planning questions, and retaining editing flexibility. The demonstrated value is a research-to-published-carousel workflow; improved reach, cost savings, and fully hands-off automation are not measured in this sponsored example.",
+      "why_valuable": "Use Gamma for researched, editable carousel cards and a separate connected animation step when static PNG exports are not enough. This walkthrough helps choose a practical content-production workflow, with approval and revision points clearly shown, while exposing the gap between a demonstrated six-card post and unproven engagement or Make.com automation claims.",
+      "key_takeaways": [
+        "00:23–01:23: The walkthrough uses Gamma 5 beta and Standard effort; Tristen says higher effort uses more credits but gives no specific credit totals.",
+        "02:15–03:11: Gamma asks for audience, depth, six slides, and a hook, then shows an outline before generation; approve the content structure before spending effort on design.",
+        "04:18–05:22: He demonstrates a green-to-blue flag change, rollback, and a second prompt to fix an added image's fit; iterative corrections are part of the workflow.",
+        "05:49–06:13: PNG export produces ordinary static carousel images; the animation is a separate handoff, not a Gamma export setting shown in this video.",
+        "06:15–07:14: A Gamma-connected ChatGPT session animates every slide, including text-only cards, and saves results to a named desktop folder; the underlying render implementation is not explained.",
+        "07:16–07:45: The demonstrated publishing step is manual: select cards in order, review them, add a caption, and share the six-card Instagram carousel.",
+        "07:47–08:18: Make.com automation is proposed, not built; Gamma sponsorship is disclosed, and the video supplies no measured engagement comparison."
+      ],
+      "quick_takeaways": [
+        "Build the content first: enable Gamma Research, specify audience and six slides, choose a template, and approve the outline before generation.",
+        "Standard effort is the demonstrated setting; higher effort consumes more credits. No exact budget or engagement uplift is measured.",
+        "Edit directly or use the agent, then inspect results. Tristen reverts a color change and needs another prompt to fix an image's placement.",
+        "PNG exports are static. His separate Gamma-connected ChatGPT session animates all cards, including text-only slides, and saves them to a desktop folder.",
+        "The Instagram upload is manual. Make.com automation is only suggested, and the animation step depends on connector/file-access features not explained in full.",
+        "This is a Gamma-sponsored demonstration, not evidence that animated carousels necessarily outperform your current posts."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Why animated carousels get more engagement",
+          "description": "Tristen argues that carousels, especially animated ones, are getting strong engagement and proposes using AI to reduce the work of deciding each card's content. He gives no comparative statistics in this opening, so the claim motivates the tutorial rather than establishing a measured marketing result.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 23,
+          "timestamp": "00:23",
+          "title": "Making a carousel in Gamma 5",
+          "description": "The creator discloses that he asked Gamma to sponsor the video and opens the carousel option in Gamma 5 beta. He says the classic generator can follow the same approach, making the tool-version context explicit before he begins the actual content workflow.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 46,
+          "timestamp": "00:46",
+          "title": "Upload your files or turn on Research",
+          "description": "The input menu accepts existing notes, files, and photos for users who already have their source material. Tristen instead enables Research so Gamma can investigate his idea and draft from what it finds, shifting the initial workload from assembling assets to reviewing researched content.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 68,
+          "timestamp": "01:08",
+          "title": "Light vs Standard vs Max effort",
+          "description": "The interface offers Light for simple requests, Standard for regular work, and Max for higher-priority tasks. Tristen chooses Standard because increasing effort uses more credits, presenting a practical budget-quality tradeoff without specifying credit counts or comparing generated outputs at each setting.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 86,
+          "timestamp": "01:26",
+          "title": "Writing the carousel prompt",
+          "description": "The sample prompt asks for an educational carousel explaining Claude's /goal command and why it is powerful. Tristen supplies only a few sentences, relying on Research to fill out the substance; the next steps therefore matter for constraining the audience and avoiding an underspecified design.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 109,
+          "timestamp": "01:49",
+          "title": "Picking a carousel template",
+          "description": "Tristen selects the Featured Flow template, inspects its appearance and colors, and notes that users can upload their own branded template. Choosing a visual framework before generation provides a starting style rather than asking the model to invent the entire presentation's identity.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 131,
+          "timestamp": "02:11",
+          "title": "Gamma asks you questions first",
+          "description": "Gamma pauses to ask who the carousel is for, how deep it should go, and whether to use a hook; Tristen chooses a broad audience and roughly six slides. The selected template also appears in the design suggestions, so these clarification steps establish the content scope before the tool builds the cards.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 176,
+          "timestamp": "02:56",
+          "title": "Reviewing the outline before it builds",
+          "description": "The tool supplies a proposed outline while nothing has yet been designed, and Tristen likes the 'stop typing continue' hook and the remaining plan. He approves it rather than rewriting it, showing where a user can check the narrative before committing to the generated visual output.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 191,
+          "timestamp": "03:11",
+          "title": "Generating the carousel cards",
+          "description": "After approval, Tristen clicks Generate and points to the activity panel showing what the AI is doing as it builds the cards. He identifies that same panel as the place for later changes, linking initial creation and subsequent revisions instead of treating generation as an irreversible final step.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 205,
+          "timestamp": "03:25",
+          "title": "Editing text and images on each card",
+          "description": "The resulting card supports direct text editing and moving free-form elements, while clicking an image reveals its generation prompt and art style. Tristen explains that these choices can be changed, so the generated carousel remains a working design rather than a flat, fixed export.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 230,
+          "timestamp": "03:50",
+          "title": "Choosing an AI image model",
+          "description": "Tristen inspects the available image-model choices, identifies the current image as using GPT Image 2, and names Nano Banana Pro as his personal preference. He does not run a quality comparison here, so this is a demonstrated selection control plus a subjective recommendation, not evidence of model superiority.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 249,
+          "timestamp": "04:09",
+          "title": "Edit with Agent",
+          "description": "A natural-language request changes a flag from green to blue, and the modified version can be compared with and reverted to the original. Tristen restores the green flag and explains that work can continue on another card during processing, making reversible iteration the central practical benefit.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 301,
+          "timestamp": "05:01",
+          "title": "Adding images with the agent",
+          "description": "A text-only card looks dull to Tristen, so he asks the agent to add a representative image. The first placement does not fit properly, prompting a follow-up request to improve it; the example makes clear that the tool gets much of the way there but still needs visual inspection and corrections.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 323,
+          "timestamp": "05:23",
+          "title": "Changing the layout and card style",
+          "description": "Tristen shows moving an image between side and lower positions and changing card colors through the layout and style controls. He stresses that more specific instructions work better, combining direct interface adjustments with agent edits instead of expecting a single broad prompt to resolve every design choice.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 343,
+          "timestamp": "05:43",
+          "title": "Exporting the cards as PNGs",
+          "description": "The Share and Export controls output each card as a PNG, which Tristen says could already be posted as a conventional static carousel. For animation, he instead keeps the presentation's name for the next handoff, demonstrating that exported still images alone do not accomplish the intended moving-card result.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 375,
+          "timestamp": "06:15",
+          "title": "Animating every card in ChatGPT with the Gamma plugin",
+          "description": "Tristen opens a ChatGPT session using the model he calls GPT-6 Astra and a previously connected Gamma plugin, then references the presentation by name. He requests premium Instagram animation for every slide, including those without images, and a named desktop destination. The actual render pipeline is not explained, so the demonstration depends on these particular connection and filesystem capabilities.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 422,
+          "timestamp": "07:02",
+          "title": "The animated cards",
+          "description": "The creator opens the destination folder and shows the generated cards moving, explicitly including cards that originally contained no images. This is the visible completion check for the animation handoff; he then moves straight to Instagram without detailing the output format or technical rendering process.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 432,
+          "timestamp": "07:12",
+          "title": "Posting the animated carousel on Instagram",
+          "description": "Tristen starts a new Instagram post, selects the cards in the intended order, checks them by swiping, and adds a caption before sharing. He describes the result as a six-card animated carousel made without manual design or animation, although the publishing and review steps themselves remain manual in this recording.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 467,
+          "timestamp": "07:47",
+          "title": "Automating the whole thing with Make.com",
+          "description": "The presenter suggests that Make.com can automate the wider workflow, including posting, and asks viewers to request a separate tutorial. No scenario, trigger, or posting integration is built here, so this segment is a proposed next stage rather than evidence of an already demonstrated hands-off system.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 480,
+          "timestamp": "08:00",
+          "title": "Final thoughts",
+          "description": "Tristen's closing preference is for Gamma's research, clarifying questions, and flexibility to make the cards look how he wants. He invites experimentation and links to the product, but offers no additional performance measurement; the strongest demonstrated conclusion remains a workable content-and-editing process rather than guaranteed engagement gains.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-08T06:00:21+02:00",
+      "summarized_at": "2026-10-08T06:12:03+02:00"
+    },
+    {
+      "id": "6sZAZaQ5SNU",
+      "title": "Claude Opus 5.5 Just Changed Design Forever (5 Insane Use Cases)",
+      "channel": "Ben AI",
+      "upload_date": "20261002",
+      "duration_seconds": 851,
+      "thumbnail": "https://i.ytimg.com/vi/6sZAZaQ5SNU/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6sZAZaQ5SNU",
+      "description": "➡️ Get the free resources mentioned in this video: https://c.benai.co/co5jc-free\n➡️ Join my AI Accelerator to get all my courses, skills & tech help: https://c.benai.co/co5jc-accelerator\n➡️ Work with my AI Agency: https://c.benai.co/co5jc-agency\n➡️ We're hiring. Join the team: https://c.benai.co/co5jc-join-ben-ai\n\n🔗 My Linkedin: https://linkedin.com/in/benvansprundel/\n\n💻 Softwares I use (some of these are affiliate-links, thanks!):\nWispr Flow: https://ref.wisprflow.ai/ben-van-sprundel\nn8n: https://n8n.partnerlinks.io/zr6ttnlrb8dw\nRelevance AI: https://relevanceai.com/?via=ben\nMake.com: https://www.make.com/en/register?pc=benai\nApify: https://www.apify.com?fpr=benai\n\nChapters:\n00:00 – Intro\n01:48 – Use Case #1\n03:36 – Use Case #2\n06:28 – Use Case #3\n08:38 – Use Case #4\n10:52 – Use Case #5\n\n👋🏼 About me:\nI'm Ben. I built two $1M ARR AI businesses, and now I help professionals and business owners use AI better than 99% of people in their industry. And I (try to) show you exactly how.\n\nI believe anyone with domain expertise can use AI to transform the way they work and grow their business. You don't need to be technical.\n\nI make videos that cover:\n\n1. How to stop feeling overwhelmed by AI and actually start implementing\n2. AI automation tutorials you can follow along with, even if you're not technical\n3. The strategies and systems that actually move the needle with AI",
+      "summary": "Brand foundations: Ben AI presents the Claude model he calls Opus 5.5 and an integrated Desktop design canvas as a way to consolidate motion graphics, slides, websites, and social content. These are his demonstrated workflows and opinions, not independently verified product-release or model-ranking claims. His first recommendation is to build a design system from your website, logos, and existing assets, refine it with element-specific comments, and select it for later work. He also exports a local copy so the brand rules can be reused with other AI providers or kept separate for different clients.\n\nCode-based motion graphics: Ben shows a branded explainer built from code rather than an image or video-generation model, arguing that this makes such graphics cheaper without supplying a cost comparison. His brief specifies 15–20 seconds, aspect ratio, topic, and code-only construction; he recommends approving a script/storyboard first and exposing scenes separately so comments can target a particular animation. He exports an MP4 and shows a reusable video skill replacing part of a recorded explanation with synchronized motion graphics. Logo intros are another proposed output, with a prompt asking for five variations of a two-to-five-second animation.\n\nReporting and website iteration: For a marketing report, Ben connects source channels, compares the last 30 days with the preceding 30, asks for charts and progressive disclosure, and shows a brand-aligned presentation with direct editing and PDF/PowerPoint export. He describes saving the workflow as a skill and scheduling it for the last day of each month; the recording does not verify a later scheduled run. His landing-page redesign is only a first output he expects to refine. Reference sites, business purpose, an adjustable tweak panel, element comments, copy corrections, and mobile previews are his practical safeguards against generic or unsuitable layouts.\n\nRepeatable social design and verdict: Ben repurposes a YouTube video into a LinkedIn carousel, using reference images while applying his own design-system fonts and colors. He recommends specifying audience, purpose, call to action, image count, and maximum words per image because the model otherwise tends to overfill the cards. Once a style works, he stores the process and template in a skill with multiple selectable variants, extending the same approach to infographics. His verdict is that this could become the main workspace for many design jobs, but the useful takeaway is a repeatable reference–generate–review–save workflow, not the title's untested claim that design has changed forever.",
+      "why_valuable": "Create a reusable brand system first, then turn approved design workflows into skills rather than repeating broad prompts for every job. Ben's examples help decide how to standardize client slides, social carousels, code-based motion graphics, and landing-page iterations while retaining copy review, mobile checks, and scene-level editing.",
+      "key_takeaways": [
+        "01:48–03:32: Build a design system from a website and assets, refine it, and save a local copy; Ben recommends separate systems for different companies or clients.",
+        "04:04–05:04: For a 15–20-second coded explainer, specify aspect ratio and topic, approve script/storyboard first, expose scenes individually, then export MP4.",
+        "05:14–06:25: Ben shows a reusable skill for animating an existing recorded explanation and proposes five versions of a two-to-five-second logo intro; these are different from generative-video-model workflows.",
+        "07:10–08:34: The marketing-slide brief compares 30 days with the previous 30, favors charts and progressive disclosure, and is saved as a monthly skill; future scheduled completion is not verified.",
+        "09:42–10:49: A tweak panel, visual references, business context, copy edits, and mobile preview make website iteration more directed; Ben himself says the first redesign needs further work.",
+        "11:37–12:03: Carousel prompts should define audience, purpose, call to action, image count, and a per-image word ceiling because the model tends to overdo the text.",
+        "12:37–13:35: Save successful templates and copy rules as a skill with selectable formats so later carousels and infographics reproduce the same approved style."
+      ],
+      "quick_takeaways": [
+        "Start with a reusable design system built from your website, logos, and assets. Export a local copy and keep different client brands separate.",
+        "For code-based motion graphics, approve a script and storyboard, expose each scene for targeted edits, then export MP4. Ben's example brief asks for 15–20 seconds.",
+        "A repeatable marketing report compares the last 30 days with the preceding 30, uses charts, and can be saved as a skill. Later scheduled execution is not shown.",
+        "Request a tweak panel for website variants, provide visual references and business purpose, then review copy and mobile layouts; the first output is not final.",
+        "For social cards, specify audience, purpose, call to action, card count, and maximum words per image. Save the approved design and copy rules as a reusable skill.",
+        "Ben's model-quality and cost claims are opinions without comparative benchmarks; the concrete value is his reference, iteration, and reuse workflow."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Ben describes design, presentations, and documents sharing a Claude Desktop workflow, with a canvas for direct edits and team collaboration. He previews code-generated motion graphics, reporting decks, landing pages, and social visuals, arguing that the model he calls Opus 5.5 makes this combination unusually capable. This is an enthusiastic product walkthrough rather than a measured comparison of models or design quality.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 108,
+          "timestamp": "01:48",
+          "title": "Use Case #1",
+          "description": "The recommended foundation is a brand system generated from a website, logos, and existing assets, or from visual references when no brand exists yet. Ben refines the live artifact with direct changes and comments, then keeps it selectable for later jobs and saves a local copy for use across providers. He also recommends separate systems for each client, making brand consistency a reusable input rather than a repeated prompting chore.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 216,
+          "timestamp": "03:36",
+          "title": "Use Case #2",
+          "description": "Ben shows coded motion graphics, briefs a 15–20-second explainer, and recommends approving a script/storyboard plus exposing each scene separately for precise revisions before MP4 export. He also demonstrates a skill that replaces part of a recorded explanation with animation, and proposes short logo intros with five variations. His lower-cost argument is not backed by figures, but the scene-level workflow offers a concrete way to make revisions less ambiguous.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 388,
+          "timestamp": "06:28",
+          "title": "Use Case #3",
+          "description": "A marketing deck uses Ben's brand system and analytics from the last 30 days compared with the previous 30, with charts and progressive disclosure requested to avoid text-heavy slides. The output can be presented and edited directly or exported to PDF/PowerPoint, with comments available for targeted corrections. He saves the process as a skill and schedules monthly creation, though no later unattended run is validated in the recording.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 518,
+          "timestamp": "08:38",
+          "title": "Use Case #4",
+          "description": "After promoting his training community, Ben reviews an animated landing-page redesign that he considers a decent first pass but still needing iteration. He recommends an output tweak panel, reference websites, business-purpose context, and copy corrections, then shows switching to a mobile view. These controls turn a generic generated page into something that can be inspected and adjusted instead of accepted as a production-ready site.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 652,
+          "timestamp": "10:52",
+          "title": "Use Case #5",
+          "description": "Ben repurposes a YouTube video into a LinkedIn carousel, combining reference layouts with his own brand fonts and colors. He advises explicit audience, purpose, call-to-action, image-count, and word-limit instructions, then uses tweak controls and direct edits before saving the successful rules and multiple templates into a skill. He extends the same repeatable approach to infographics and closes by recommending experimentation rather than presenting a quantified design-quality benchmark.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-08T06:00:21+02:00",
+      "summarized_at": "2026-10-08T06:12:03+02:00"
+    },
+    {
+      "id": "GZtLsvklYBI",
+      "title": "Replace: Suno AI, ChatGPT, Perplexity, Lovable, Manus, Opus Clip & more",
+      "channel": "The Next New Thing",
+      "upload_date": "20261006",
+      "duration_seconds": 1950,
+      "thumbnail": "https://i.ytimg.com/vi/GZtLsvklYBI/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GZtLsvklYBI",
+      "description": "Resources: https://thenextnewthing.ai/l/github-repos-oct6\nPresented by Zapier: https://zapier.com/\nAndrew Warner breaks down 10 open-source tools that can replace expensive AI and creator subscriptions.\n\nAndrew Warner walks through 10 GitHub repos that can replace paid tools for voice generation, AI chat, coding, research, image creation, music, short-form video, vibe coding, general-purpose agents, and image upscaling. The bigger idea is not just saving money — these tools also give you more privacy, local control, and the ability to customize the software with your own agent.\n\nLinks featured:\n\nVoiceStudio — https://github.com/debpalash/VoiceStudio\nOdysseus — https://github.com/odysseus-dev/odysseus\nFreeLLMAPI — https://github.com/tashfeenahmed/freellmapi\nVane — https://github.com/ItzCrazyKns/Vane\nInvokeAI — https://github.com/invoke-ai/InvokeAI\nACE-Step — https://github.com/ace-step/ACE-Step-1.5\nOpenShorts — https://github.com/mutonby/openshorts\nDyad — https://github.com/dyad-sh/dyad\nOpenManus — https://github.com/FoundationAgents/OpenManus\nUpscayl — https://github.com/upscayl/upscayl\n\n00:00 - Open-Source Alternatives: Replace 10 paid subscriptions with free tools you can run and customize yourself.\n00:27 - VoiceStudio: Replace ElevenLabs with local voice cloning, dubbing, and text-to-speech.\n02:42 - Odysseus: Run a private ChatGPT-style assistant with local models, memory, research, and agents.\n05:51 - FreeLLMAPI: Route across free model providers to keep coding without burning through paid usage.\n09:27 - Vane: Replace Perplexity with a self-hosted research assistant that searches the web and cites sources.\n11:51 - InvokeAI: Create and edit images locally with an open-source alternative to Midjourney.\n13:57 - ACE-Step: Generate full songs with vocals on your own computer instead of relying on Suno.\n19:30 - OpenShorts: Turn long videos into captioned vertical clips with a self-hosted Opus Clip alternative.\n23:51 - Dyad: Build apps from plain English with an open-source alternative to Lovable.\n26:15 - OpenManus: Run agentic tasks like browsing, research, coding, and file creation with your own models.\n29:06 - Upscayl: Upscale photos locally in bulk without paying for Topaz Gigapixel.\n\n👉 Media/Sponsorship Inquiries: https://thenextnewthing.ai/l/sponsor\n\n👉 Join us: https://thenextnewthing.ai/",
+      "summary": "Local voice and chat: In this Zapier-presented roundup, Andrew Warner recommends ten open-source repositories for reducing subscription dependence, gaining local control, and modifying tools with a coding agent. VoiceStudio offers voice generation, cloning, and dubbing, but he says its default Omnivoice model is non-commercial and mentions a $99/month Pro business license; a free install is therefore not blanket permission for paid client work. Odysseus combines local chat, memory, research, and organizer features, with local models or external keys. Warner explicitly says it is not as good as ChatGPT and that quality depends on the model your hardware can run, weakening the headline promise of like-for-like replacement.\n\nModel routing and research: FreeLLMAPI routes requests between providers' free allowances, with the possibility of using the same model through different providers or deliberately picking task-specific models. Warner draws on his earlier interview with its creator rather than demonstrating a sustained unlimited coding session here. He says Claude and the strongest frontier models are not included; the optional $19 add-on is described inconsistently as annual, one-time, and monthly, so the video does not establish a reliable billing period. Vane, formerly Perplexica, offers cited search and document questions with user-selected models, but Warner says it is weaker than Perplexity for many users and that local hardware or paid keys remain part of the cost tradeoff.\n\nImage and music production: InvokeAI is presented as a private local image studio with a layered editing canvas and reusable workflows, with a suitable graphics card or capable recent Mac needed for useful speed. ACE-Step offers self-hosted song generation and editing; Warner plays a song he made through its hosted interface, struggles with the lyrics, and judges it below Suno despite the project's claimed comparison. He reports Apple Silicon with about 10 GB of free disk space or an Nvidia card with at least 4 GB of memory for the cited local paths, while noting slower CPU-only operation. His recommendation is selective: local music suits experimentation and custom small-volume songs when control matters, not automatic replacement of a polished paid music service.\n\nClips and app building: OpenShorts takes a long video into roughly three to fifteen captioned vertical clips; Warner demonstrates a hosted result that needs manual reframing and says automated moment selection is imperfect. He reports a hosted free allowance of 20 minutes/month with watermark, while self-hosting requires Docker, 8 GB of memory, and around five to eight minutes per clip without a GPU. Dyad brings plain-language app building to a local interface with selectable models and database connections. The editor is free, but the model doing the coding may not be; Warner distinguishes a verified Vercel hosting path from his unconfirmed Cloudflare suggestion.\n\nAgents, upscaling, and decision: OpenManus plans browsing, research, coding, and file-creation tasks with a chosen model, but Warner warns that API costs and free-tier caps still apply and does not establish whether subscription credentials can be used. Upscayl handles local batch enlargement, described as 4× or 16× with two passes, with graphics-hardware requirements; he says face repair belongs to a $25/month cloud version rather than the free local tool. His overall enthusiasm is for ownership, customization, and escaping usage meters, not proof that all ten outperform their paid counterparts. Treat the list as a pilot shortlist: check licenses, hardware, output quality, and model/API costs before canceling anything; repository popularity counts and vendor-policy complaints are his reported claims, not independently verified benchmarks.",
+      "why_valuable": "Pilot FreeLLMAPI for provider fallback, Vane or Odysseus for model-controlled research/chat, OpenShorts for low-cost clipping, and Upscayl for private batch photo enlargement before canceling subscriptions. The roundup exposes the real decision criteria—commercial licenses, hardware, API charges, free-tier caps, and demonstrated quality gaps—so 'open source' is not mistaken for a free, equivalent replacement.",
+      "key_takeaways": [
+        "02:13–02:30: Warner says VoiceStudio's default Omnivoice model is non-commercial and cites a $99/month Pro business license; validate both app and model licensing before paid voice work.",
+        "05:20–05:44 and 11:14–11:48: He explicitly rates Odysseus below ChatGPT and Vane below Perplexity for many users; local privacy and control do not guarantee equal answer quality.",
+        "07:02–09:24: FreeLLMAPI combines providers' free quotas and can route the same model across providers, but excludes Claude/frontier options; the speaker's conflicting $19 billing descriptions require checking the actual offer.",
+        "16:30–18:52: Warner's own ACE-Step hosted song has poor lyric intelligibility and he judges it below Suno, despite the project's claimed comparison; reported local requirements include about 10 GB disk or 4 GB Nvidia memory depending on platform.",
+        "21:43–23:30: OpenShorts needs manual reframing in his demo; he reports 20 free hosted minutes/month with watermark, and Docker plus 8 GB memory for self-hosting with five-to-eight-minute CPU clip processing.",
+        "25:19–26:12: Dyad's editor can be free while its chosen coding model still costs money; Warner verifies a Vercel deployment path but only speculates about Cloudflare.",
+        "28:36–29:00: OpenManus still needs model access, typically paid API keys or capped free tiers; the video does not verify subscription-based authentication.",
+        "31:32–32:10: Upscayl is described as local 4× enlargement, or 16× through two passes, but requires suitable graphics hardware; face repair is attributed to a separate $25/month cloud offering."
+      ],
+      "quick_takeaways": [
+        "FreeLLMAPI is the relevant shortlist item for routing across free provider quotas, but it does not include Claude/frontier models. The speaker contradicts himself on the optional $19 add-on's billing period.",
+        "For paid voice work, check licenses: Warner says VoiceStudio's default model is non-commercial and mentions a $99/month business tier.",
+        "Odysseus and Vane offer local/model-controlled chat and cited research, but Warner explicitly says they are not fully equivalent to ChatGPT or Perplexity.",
+        "ACE-Step's demonstrated hosted song disappoints him. OpenShorts also needs manual reframing; its reported hosted free allowance is 20 minutes/month with watermark.",
+        "Self-hosting is not costless: OpenShorts needs Docker and 8 GB memory; music/image tools need suitable hardware. Dyad and OpenManus may still incur model/API charges.",
+        "Upscayl is worth testing for private batch photo enlargement. Warner describes 4× scaling, or 16× through two passes, but says face repair is a separate paid cloud feature."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Open-Source Alternatives: Replace 10 paid subscriptions with free tools you can run and customize yourself.",
+          "description": "Warner frames the list as a way to replace ten subscriptions with editable repositories that can run under the user's control. He emphasizes privacy and customization as much as price and discloses Zapier's presentation of the video; the opening makes no demonstrated claim that every alternative matches a paid service's quality.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 27,
+          "timestamp": "00:27",
+          "title": "VoiceStudio: Replace ElevenLabs with local voice cloning, dubbing, and text-to-speech.",
+          "description": "The presenter plays voice examples and describes local cloning from a short clip, script reading, dubbing, and audiobook creation without a per-retry credit meter. He also flags the default Omnivoice model as non-commercial and cites a $99/month Pro business license, so his 'free' recommendation has important app/model licensing boundaries. The cloning capability itself makes him uneasy, underscoring that consent and permitted use matter alongside price.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 162,
+          "timestamp": "02:42",
+          "title": "Odysseus: Run a private ChatGPT-style assistant with local models, memory, research, and agents.",
+          "description": "Warner describes a private assistant combining chat, memory, cited research, agents, email, organizer features, and a drawing tool, with a model-selection path suited to the user's computer. Local models or external API keys supply the intelligence, not the interface alone. He explicitly says it is weaker than ChatGPT and not a one-to-one replacement for its new agent features, recommending it chiefly for privacy and local control.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 351,
+          "timestamp": "05:51",
+          "title": "FreeLLMAPI: Route across free model providers to keep coding without burning through paid usage.",
+          "description": "Drawing on an earlier creator interview, Warner explains routing across providers' daily free quotas, including switching providers for the same model or selecting different models for different tasks. He warns that Claude and the strongest frontier options are absent, so 'endless coding' is promotional shorthand rather than a tested guarantee here. His optional $19 add-on explanation contradicts itself about annual, one-time, and monthly billing, leaving pricing cadence unresolved.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 567,
+          "timestamp": "09:27",
+          "title": "Vane: Replace Perplexity with a self-hosted research assistant that searches the web and cites sources.",
+          "description": "The project is described as a renamed Perplexica that searches the web, writes cited answers, and accepts documents and user-chosen models. Warner lists local Ollama and free Gemini paths alongside paid model keys, with selectable speed/quality tradeoffs. He says it is not as strong as Perplexity for many users, so the reason to test it is ownership and configurability rather than an established quality upgrade.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 711,
+          "timestamp": "11:51",
+          "title": "InvokeAI: Create and edit images locally with an open-source alternative to Midjourney.",
+          "description": "Warner presents a private image workspace with a layered canvas, selective changes to backgrounds or objects, and reusable generation recipes. He stresses local ownership and the possibility of modifying the code with an agent rather than demonstrating a direct Midjourney quality comparison. A suitable gaming graphics card or capable recent Mac is part of his recommendation, while ordinary laptops may be slow.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 837,
+          "timestamp": "13:57",
+          "title": "ACE-Step: Generate full songs with vocals on your own computer instead of relying on Suno.",
+          "description": "The creator opens the hosted song interface and plays his own attempt at a hip-hop track about repositories, whose lyrics are difficult to hear and whose quality he judges below Suno. He describes self-hosted generation, multilingual lyrics, and editing control, while reporting platform-dependent storage/GPU requirements and slower CPU operation. His concrete verdict is that it can fit experimentation, family songs, or personalized outreach when control and cost matter, but not every paid-production need.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1170,
+          "timestamp": "19:30",
+          "title": "OpenShorts: Turn long videos into captioned vertical clips with a self-hosted Opus Clip alternative.",
+          "description": "Warner shows his recent interview converted into a vertical clip, notices poor framing, and explains that a manual reframe is needed; he also distrusts automated selection of the strongest moments. The tool is described as producing three to fifteen captioned clips, with a hosted free tier of 20 minutes/month and watermark or watermark-free self-hosting. He reports Docker, 8 GB memory, and roughly five to eight minutes per CPU-only clip, making convenience and hardware part of the comparison.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1431,
+          "timestamp": "23:51",
+          "title": "Dyad: Build apps from plain English with an open-source alternative to Lovable.",
+          "description": "The local app-building interface lets users describe an application and select the model, avoiding the paid builder's fixed credit ecosystem. Warner mentions database connections such as Supabase or Neon and says he checked Vercel's free hosting path, while Cloudflare remains his suggestion rather than a verified route. He explicitly separates a free editor from potentially paid coding-model usage, and wonders whether increasingly capable coding agents will reduce the need for a separate builder.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1575,
+          "timestamp": "26:15",
+          "title": "OpenManus: Run agentic tasks like browsing, research, coding, and file creation with your own models.",
+          "description": "The agent takes an English goal, plans steps, browses sites, researches, writes code, and saves files using the user's chosen model connection. Warner contrasts that flexibility with paid task-credit systems but warns that API keys can still be expensive and free Gemini or local-model routes are capped or limited. He does not verify whether subscription credentials are permitted, so authentication and real model costs remain checks for anyone piloting it.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1746,
+          "timestamp": "29:06",
+          "title": "Upscayl: Upscale photos locally in bulk without paying for Topaz Gigapixel.",
+          "description": "Warner recommends local batch photo enlargement for old camera or family collections, describing 4× scaling or 16× through two passes, selectable models, and output-size controls. He notes suitable graphics hardware and says face repair is confined to the maker's $25/month cloud version, not the free desktop workflow. The closing returns to his wider shortlist of subscription alternatives, with ownership and customization as the overall benefit rather than proven superiority across all ten tools.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-08T06:00:21+02:00",
+      "summarized_at": "2026-10-08T06:12:03+02:00"
+    },
     {
       "id": "DzSS9R8t2Ao",
       "summary": "Popularity is not evidence of productivity | 00:00–02:19: Less Bitter satirizes the growing market for Markdown-based AI coding skills, using gstack and Matt Pocock's shared instruction files as examples. He cites 130,000 GitHub stars for gstack and another creator's reported 2,500 production pull requests in a month, but argues that the latter reflects working 10–12 hours daily rather than a secret prompting method. These figures and the explanation are claims he discusses, not independently verified measurements or a controlled productivity comparison. His target is the implication that beginners need an influencer's special stack before they can code effectively, rather than a personal attack on the creators.\n\nTry the current default before adding machinery | 02:20–04:34: Quoting Dax, the speaker argues that frontier models improve faster than elaborate user workflows, so custom setups may solve problems that have already disappeared. He contrasts collecting instruction files with opening a normal agent chat and doing the work, then challenges a suggested audit of the last 10 coding sessions for navigation and documentation inefficiencies. His practical conclusion is to avoid spending more effort and tokens on speculative optimization than the bottleneck warrants. He provides no measured before-and-after test, so this is an argument for a simpler baseline, not proof that every repository-specific instruction is useless.\n\nModel capability versus prompting expertise | 04:35–06:48: The speaker defends DHH's reliance on two frontier agents for an Elixir implementation against criticism about disallowed concurrent database reads. He interprets DHH's reply as an admission that the agents know more Elixir than he does, and says the only meaningful tuning is choosing an effort level and developing intuition through repeated use; he suggests sticking to a high setting. He then characterizes shared skills as AI-expanded versions of a result someone liked and argues that impressive output often comes from the underlying model, not a magical prompt. The discussion does not investigate the database criticism or show that the generated implementation was correct, and his claims about how other people's files were written remain inference.\n\nThe verdict, and the joke in the sales pitch | 06:49–08:30: Returning to the 2,500-PR claim, Less Bitter attributes software-engineering competence primarily to model labs' post-training, rejecting the idea that a downloadable skill can transform a weak model into a strong engineer. He tells viewers to stop bookmarking stacks and spend more time prompting and shipping instead; his later comparison of roughly 2,000 PRs with agent requests is rhetoric, not an analysis of task size, code quality or review burden. The ending promotes his own course and enjoy.dev using the same fear-of-missing-out language he has criticized. That self-mocking close reinforces the marketing critique, but the video offers commentary rather than a first-hand benchmark establishing that skills never help.",
