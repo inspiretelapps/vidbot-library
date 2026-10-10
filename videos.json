@@ -9,8 +9,221 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-10T06:05:30+02:00",
+  "updated_at": "2026-10-10T12:05:38+02:00",
   "videos": [
+    {
+      "id": "NUTuk5EwxoM",
+      "summary": "Structured decisions · 00:00–03:43 — Ben Davis recommends treating Jev as a small probabilistic decision function, not a replacement for a reasoning agent. He demonstrates three fixed-output modes: choosing among categories, checking a true/false condition, and scoring against a rubric. A support-email example separates billing, technical, sales and ambiguous requests; urgency and frustration checks can run alongside it in a single batch. The useful contract is a predictable JSON shape that application code can consume, not a guarantee that the underlying judgment is correct. He says input is inexpensive and output has no token charge.\n\nAvoid destructive agent optimizations · 05:10–10:05 — Davis rejects history compaction based on independently scoring and deleting tool calls: editing the history can invalidate prompt caches, and a narrow classifier cannot know which file read or test result matters to the broader task. He cites a Hermes team's evaluation in which Jev removed all tool calls, rather than presenting that result as his own benchmark. He also rejects prompt-only model routing because a request such as checking email may conceal custom connectors or computer-use work. His comparison is about cost per successfully completed task, including retries and tool calls, not simply the advertised token price; these are arguments and examples, not a controlled routing benchmark.\n\nThe strongest practical demo · 10:05–14:01 — In his own development server, Davis uses Jev to rank about 23 destinations in a command menu. Asking to cancel a subscription finds Manage Payments even without a literal text match, while image-related queries find the appropriate upload action. Ordinary code sorts the returned probabilities, so the interface gains semantic matching without invoking an open-ended agent. Email tagging and bounded page interactions fit the same pattern. Third-party flight-booking and driving demonstrations illustrate discrete choices, but he explicitly warns that multi-service orchestration and deep analysis remain outside the narrow model's strengths.\n\nChoose on cost, latency and input type · 14:01–16:58 — Davis compares Jev with OpenAI's Decisions API, identifying its supported model as GPT-6 Luna in the captions. He quotes roughly $0.04 versus $0.10 per million input tokens, with free output for both, and reports that his example runs made OpenAI about twice as fast while Jev was about twice as cheap. He presents these as informal observations, not published benchmark results. He says the OpenAI option accepts images whereas Jev currently does not, making it his likely default for convenience and vision, while Jev's lower price can suit frequent text-only interactions. BAML is his alternative for typed outputs across many underlying models, with a separate schema language and SDKs.\n\nVerdict and disclosure · 16:58–17:40 — His final recommendation is to add intelligent switch statements to existing deterministic products, especially semantic navigation, rather than turn every feature into a chat box or delegate broad reasoning to a classifier. Keep the choice space small and the surrounding workflow explicit; predictable formatting does not make decisions infallible. The Grok Bot section spans 03:43–05:10 and is a paid sponsor demonstration of delivery notifications and ordering assistance, not evidence about Jev's performance. Prices, capabilities and speed comparisons above are the speaker's claims in this upload and were not independently retested.",
+      "why_valuable": "Use a narrow classifier for support-email triage and semantic navigation, but keep full-context agents and native compaction for complex work. Davis's live command-menu demo and reported $0.04-versus-$0.10 input pricing help decide whether a cheaper text-only decision service is worth integrating, rather than risking lost context or higher retry costs through automatic compaction and routing.",
+      "key_takeaways": [
+        "01:32–03:29: Billing/technical/sales/ambiguous classification, an urgency flag and a frustration score can be combined in fixed-shape responses; this supports code-driven triage without paying for a full agent conversation.",
+        "06:14–07:56: Deleting past tool calls can break caching and discard task-critical evidence. Davis cites a Hermes evaluation that removed all tool calls; it is a reported external test, not a compaction benchmark he runs on camera.",
+        "08:18–09:35: A short email-checking prompt does not reveal whether the environment needs connectors, custom code or computer use. Davis argues for measuring successful task cost rather than routing by token price alone.",
+        "10:14–11:56: His live menu ranks about 23 destinations and maps a subscription-cancellation query to Manage Payments; a simple probability sort adds semantic navigation without an agent loop.",
+        "12:25–14:01: Third-party browser and driving demos support bounded state-to-action decisions, not a claim that Jev can orchestrate complex work across many tabs and services.",
+        "15:17–15:54: Davis quotes approximately $0.04/M input tokens for Jev and $0.10/M for OpenAI, with free output for both. His informal example runs favor OpenAI on speed and Jev on price; they are not a controlled benchmark.",
+        "14:38–14:59 and 15:56–16:58: He favors OpenAI's option when image inputs matter and BAML when structured outputs must work across different models; these address different integration constraints.",
+        "16:58–17:35: The recommended design is a small probabilistic decision inside explicit application logic, not a universal chatbot or a substitute for context-rich reasoning."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "A decision model with a fixed output contract",
+          "source": "generated",
+          "description": "Davis contrasts free-form language generation with a service that accepts unstructured input and returns probabilities in a stable, typed shape. He emphasizes inexpensive input, no output-token charge and multiple decisions in one request, making this useful as a code-facing component rather than an open-ended agent."
+        },
+        {
+          "start_seconds": 93,
+          "timestamp": "01:33",
+          "title": "Support triage, urgency checks and rubric scoring",
+          "source": "generated",
+          "description": "A support request is classified into billing, technical, sales or ambiguous, followed by a boolean urgency check and a frustration score against explicit criteria. Davis then batches two boolean checks and a score in one call, showing how predictable JSON can drive several workflow branches without separate conversational responses."
+        },
+        {
+          "start_seconds": 223,
+          "timestamp": "03:43",
+          "title": "Paid Grok Bot demonstration",
+          "source": "generated",
+          "description": "In a disclosed sponsor segment, Davis promotes an always-on personal agent with routines, app integrations and its own computer. His concrete example is an Amazon setup that sends a morning delivery list, forwards locker codes and asks for confirmation around purchases; this demonstrates his assistant usage rather than testing the decision model."
+        },
+        {
+          "start_seconds": 310,
+          "timestamp": "05:10",
+          "title": "Why tool-call pruning is poor compaction",
+          "source": "generated",
+          "description": "Davis argues that scoring tool calls in isolation cannot preserve the task's broader context, and editing earlier history can invalidate caches and increase input and cache-write costs. He reports a Hermes team's evaluation where Jev deleted all tool calls, using that failure to recommend lab-native compaction rather than repeated pruning that loses evidence and forces expensive rereads."
+        },
+        {
+          "start_seconds": 477,
+          "timestamp": "07:57",
+          "title": "Prompt-only routing misses the real task cost",
+          "source": "generated",
+          "description": "A request to check email may actually require custom connectors, code or computer use, none of which a router can infer reliably from the short prompt alone. Davis argues that a nominally cheap model can run in circles while a stronger one finishes quickly, so routing should be judged on successful task cost; his joke about proxying every request to a strong model is not a measured benchmark."
+        },
+        {
+          "start_seconds": 605,
+          "timestamp": "10:05",
+          "title": "Live semantic ranking in a command menu",
+          "source": "generated",
+          "description": "Davis opens his own development server and ranks about 23 menu destinations, demonstrating that a request to cancel a subscription reaches Manage Payments without a literal text match. Image-upload and background-removal queries also find relevant actions, while the implementation merely sorts returned probabilities, showing a practical interface improvement without an agent loop."
+        },
+        {
+          "start_seconds": 718,
+          "timestamp": "11:58",
+          "title": "Bounded workflow decisions and computer-use limits",
+          "source": "generated",
+          "description": "Email filters and tags are presented as appropriate narrow decisions, and Davis discusses third-party flight-booking and truck-driving demonstrations built around discrete actions. He distinguishes these from preparing a video or managing downloads and keys across many services, stressing that the more external context and orchestration a task needs, the less suitable this lightweight decision component becomes."
+        },
+        {
+          "start_seconds": 841,
+          "timestamp": "14:01",
+          "title": "OpenAI comparison: vision, latency and input price",
+          "source": "generated",
+          "description": "Davis describes an OpenAI Decisions API with predicate, choice and score modes, saying its image support enables visual classification that Jev does not currently offer. He quotes roughly four versus ten cents per million input tokens and reports OpenAI as about twice as fast in his own example runs, preferring its convenience while noting that frequent text-only requests can favor Jev's lower price."
+        },
+        {
+          "start_seconds": 955,
+          "timestamp": "15:55",
+          "title": "BAML for schemas across underlying models",
+          "source": "generated",
+          "description": "Davis introduces a schema language and SDKs that turn outputs from ordinary models into typed application values, using a verdict with a label and confidence as his example. He says he has used BAML extensively for YouTube tooling and values its ability to work with different models, separating model-agnostic integration from the dedicated decision services discussed earlier."
+        },
+        {
+          "start_seconds": 1018,
+          "timestamp": "16:58",
+          "title": "Final recommendation: improve existing product logic",
+          "source": "generated",
+          "description": "Davis ends by identifying semantic search as a quick user-experience win and encouraging other small additions to existing products. His broader verdict is that intelligent switch statements inside deterministic workflows have more useful applications than making every interface a text box, provided the model is given an appropriately narrow decision."
+        }
+      ],
+      "title": "Jev is the Coolest New Model That Everyone's Using Wrong",
+      "channel": "Ben Davis",
+      "upload_date": "20261010",
+      "duration_seconds": 1060,
+      "thumbnail": "https://i.ytimg.com/vi/NUTuk5EwxoM/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NUTuk5EwxoM",
+      "description": "Jev is novel and very useful. There's a ton of cool things to do with it, but there's also a ton of really dumb things people are doing with it. \n\nThank you Grok Bot for sponsoring! Check them out at: https://davis7.link/bot\n\njev compaction post - https://x.com/tamarajtran/status/2100694549362553153\n\njev router post - https://x.com/OpenRouter/status/2103610898690855161\n\nsynthetic data - https://x.com/CompleteSkeptic/status/2100617775823966680\n\nbaml also works great - https://boundaryml.com/#observability  \n\nMy X, Discord, and more: https://davis7.sh/",
+      "first_detected_at": "2026-10-10T12:00:17+02:00",
+      "summarized_at": "2026-10-10T12:05:38+02:00"
+    },
+    {
+      "id": "d6spCMcfkew",
+      "summary": "What is being reconstructed · 00:00–05:13 — Sirio presents an independently built approximation of Higgsfield's Genjutsu-style character replacement, using Seedance 2.5 and agent-assisted preprocessing rather than evidence of Higgsfield's actual internal implementation. He shows a blocked direct request, then argues that recognizable faces and music trigger the restrictions in his example. His organizing idea is to separate identity and appearance from motion and timing. Depth Anything produces a motion-preserving depth representation, but discards scene color and appearance as well; that loss drives the failures and repairs demonstrated later. The title says 12 hours, while he describes spending 12–24 hours experimenting.\n\nPreserve timing and avoid wasted drafts · 05:13–09:38 — Sirio says removing all audio loses the speech cues used for lip synchronization; his demonstration changes pitch and isolates vocals instead. He configures an Enhancor API connection with an agent and stresses putting secrets in an environment file rather than chat. The main cost-saving lesson is Seedance's 480p draft workflow: once a result is approved, request its 1080p completion through the original task ID. Downloading the draft and submitting that file as a fresh reference is a different generation request and does not preserve the original settings or guarantee the same result. His provider-price and no-data-training assertions are promotional claims, not independently verified privacy or pricing findings.\n\nThe initial failure explains the architecture · 09:38–13:47 — His first two-character draft retains the actor's body and hair while turning the environment gray. Asking the agent to describe the original room, without describing the people, restores color but does not solve body identity. A later composite keeps the real background and substitutes depth-rendered people; he shows this producing a better replacement. Sirio explicitly says he is unsure why the model follows the silhouette so closely, so the tutorial offers observed repairs and a tentative explanation rather than a proven account of model internals. These intermediate failures are the most useful evidence for deciding how much preprocessing a production workflow needs.\n\nAn automated pipeline with review gates · 13:47–18:23 — He packages the manual work into an 11-step open-source workflow: vocal separation with Demucs, a three-semitone pitch change with Rubber Band, video depth processing, SAM 3 person segmentation, background compositing, preparation review, an edit-mode draft, original-audio restoration and approved 1080p completion. The interface exposes Upload, Review, Draft and Export, accepts MP4/MOV clips up to 30 seconds, and requires review of the prepared mask before generation. He checks for holes around bodies, hair and hands, then approves a draft before paying for the final render. The download is free, but external APIs and final generation still cost money; permission to use footage, likenesses and audio remains a separate requirement.\n\nChoose depth or face tracking by the shot · 18:23–21:46 — Sirio's faster alternative uses Google's MediaPipe Face Landmarker, which he says tracks 478 facial points per frame and records their timing in a landmarks JSON file. He recommends it for one centered person speaking to camera, while moving multi-person shots should use the depth workflow; combining the mesh with a depth composite is another proposed option. He finishes by suggesting transcription, second-by-second motion descriptions and the user's own voice as extensions. His verdict is that the value of a wrapper lies in its workflow and review experience, not ownership of the base model. Successful examples here do not establish universal filter behavior, legal permission, or a verified reverse engineering of Higgsfield's proprietary system.",
+      "why_valuable": "A 480p draft should be completed through its task ID, not re-uploaded as a new reference, and preprocessing must be reviewed before spending on final video generation. Sirio's failed drafts and subsequent repairs help decide whether to pay for a convenient character-replacement wrapper or maintain an API pipeline, and whether a single talking head needs face tracking or a multi-person scene needs depth-based compositing.",
+      "key_takeaways": [
+        "02:24–03:00: Sirio argues that a wrapper sells workflow design and one-button convenience, not the base model. His reconstruction is a demonstrated alternative, not proof of Higgsfield's actual implementation.",
+        "05:13–06:29: He preserves speech timing rather than muting everything, explaining that vocals supply lip-sync cues; appearance and audio preprocessing are separate parts of the motion-transfer problem.",
+        "08:21–09:37: He describes cheap 480p trials followed by 1080p completion through the approved draft's task ID. Re-uploading the downloaded draft starts a different request and can change the result.",
+        "10:39–13:31: A room description fixes gray scenery but not the retained actor's body; the successful later example adds a real-background/depth-person composite. He acknowledges uncertainty about the model's silhouette-following behavior.",
+        "14:03–14:55: The 11-step pipeline combines Demucs, Rubber Band, Depth Anything, SAM 3, Seedance editing and restoration of the original soundtrack; the automated pitch change is three semitones.",
+        "16:13–18:11: The interface accepts MP4/MOV clips up to 30 seconds and makes the user review the prepared mask, then approve the draft before an extra-cost 1080p completion; free source code does not mean free API usage.",
+        "19:26–20:12: The face-tracking alternative uses 478 landmarks per frame and is recommended for one centered talking head. Sirio prefers depth processing for two people moving around.",
+        "20:40–21:30: Suggested extensions include transcription, detailed motion descriptions and the user's own voice. Treat filter explanations and vendor comparisons as Sirio's claims, and obtain permission for any footage, likenesses or soundtrack you process."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "Sirio opens with a generated scene placing him somewhere he was never filmed, then contrasts it with a direct Seedance replacement request that is blocked. He frames the discrepancy as a reason to investigate preprocessing rather than assuming a wrapper has its own underlying video model."
+        },
+        {
+          "start_seconds": 38,
+          "timestamp": "00:38",
+          "title": "Why Your Video Gets Blocked",
+          "source": "creator",
+          "description": "Sirio introduces an educational reconstruction that will first fail manually and then be automated, arguing that character-replacement apps sell the thinking behind an API workflow. He shows the rejected celebrity-template request and describes spending 12–24 hours testing approaches, but does not establish that his final method is Higgsfield's actual internal implementation."
+        },
+        {
+          "start_seconds": 212,
+          "timestamp": "03:32",
+          "title": "Depth Anything Explained",
+          "source": "creator",
+          "description": "Sirio attributes the restrictions in his example to recognizable faces and music, then separates identity cues from motion and timing. He demonstrates depth representations that retain distance and movement while dropping normal appearance, comparing outputs from different services and noting that his color preference is aesthetic rather than a functional difference."
+        },
+        {
+          "start_seconds": 313,
+          "timestamp": "05:13",
+          "title": "Isolating the Vocals",
+          "source": "creator",
+          "description": "Sirio explains that completely muting the clip would remove speech cues needed for lip synchronization, then demonstrates a changed-pitch vocal-only track in CapCut. He combines that audio with the depth representation and previews the next limitation: the processed video no longer tells the model what the original room actually looks like."
+        },
+        {
+          "start_seconds": 427,
+          "timestamp": "07:07",
+          "title": "API Key Setup",
+          "source": "creator",
+          "description": "Sirio gives an agent the Enhancor API documentation and creates a provider key for his existing project, explaining that using Codex here is a convenience choice rather than an endorsement. He tells viewers to store the credential in an environment file and never paste it into chat; his claims about price and provider data practices are assertions rather than audited findings."
+        },
+        {
+          "start_seconds": 498,
+          "timestamp": "08:18",
+          "title": "Draft Mode Explained",
+          "source": "creator",
+          "description": "Sirio describes iterating at 480p and paying for a 1080p completion only after selecting a satisfactory draft. He emphasizes that continuation belongs to the original task ID, not the downloaded video file, so submitting that file again is a new request that may lose settings and produce a different result."
+        },
+        {
+          "start_seconds": 578,
+          "timestamp": "09:38",
+          "title": "First Test",
+          "source": "creator",
+          "description": "Sirio submits a depth clip and two character photos as a draft, noting that this API path requires hosted input URLs rather than local files. The returned example is visibly unsatisfactory: it changes his face but retains the original actor's body and hair, and the environment is gray, making the loss of appearance information concrete."
+        },
+        {
+          "start_seconds": 662,
+          "timestamp": "11:02",
+          "title": "Two Fixes",
+          "source": "creator",
+          "description": "An agent-written description of the original room restores color without fixing the retained body, so Sirio next keeps the real background while compositing processed people over it. He shows the subsequent draft working better and recaps the manual adjustments, while admitting that his explanation for silhouette-following is uncertain; the result motivates automation rather than proving model internals."
+        },
+        {
+          "start_seconds": 827,
+          "timestamp": "13:47",
+          "title": "My 11 Steps Workflow",
+          "source": "creator",
+          "description": "Sirio turns the demonstrated repairs into an agent-managed pipeline using Demucs for vocal separation, Rubber Band for a three-semitone pitch change, Depth Anything and SAM 3 for person processing, and compositing with the original background. Review precedes Seedance drafting, the original soundtrack replaces generated audio, and an approved result proceeds to 1080p completion, showing that orchestration and checks are central to the product."
+        },
+        {
+          "start_seconds": 904,
+          "timestamp": "15:04",
+          "title": "Get the Workflow for FREE",
+          "source": "creator",
+          "description": "Sirio offers the project as a downloadable skill that an agent can set up from its README, with Enhancor and Replicate credentials supplied separately. He also suggests rebuilding from the illustrated workflow or transcript, making clear that the free deliverable is the automation code and interface rather than an independently developed base video model."
+        },
+        {
+          "start_seconds": 947,
+          "timestamp": "15:47",
+          "title": "Workflow Live Demo",
+          "source": "creator",
+          "description": "Sirio demonstrates the four-stage interface with an MP4/MOV clip up to 30 seconds, automated preparation and a compulsory review of the whole processed mask before generation. He checks body, hair and hand coverage, adds character photos and approves a satisfactory draft before the extra-cost 1080p export; restoring the original soundtrack and requiring approvals reduce unwanted edits and wasted spending."
+        },
+        {
+          "start_seconds": 1103,
+          "timestamp": "18:23",
+          "title": "Face Mesh Workflow",
+          "source": "creator",
+          "description": "Sirio presents a faster alternative that tracks 478 facial points per frame with Google's Face Landmarker and saves positions with timing in a landmarks JSON file. He recommends it for a single centered speaker, keeps depth processing for moving multi-person shots and proposes combining the mesh with a depth composite when needed, so workflow choice depends on scene structure rather than one universal preset."
+        },
+        {
+          "start_seconds": 1237,
+          "timestamp": "20:37",
+          "title": "What to Build Next",
+          "source": "creator",
+          "description": "Sirio suggests adding transcription, second-by-second motion descriptions and the user's own voice to extend the project. He closes by restating the motion-versus-identity distinction and pointing to the open-source download, presenting the achievement as a reusable workflow; the demonstrated examples do not verify every wrapper's internals or establish permission to reuse third-party material."
+        }
+      ],
+      "title": "Dear Higgsfield, I reverse engineered you in 12 hours",
+      "channel": "Sirio",
+      "upload_date": "20261009",
+      "duration_seconds": 1306,
+      "thumbnail": "https://i.ytimg.com/vi/d6spCMcfkew/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=d6spCMcfkew",
+      "description": "Join my PublicAI Community (free) and get insider AI knowledge on anything: https://www.skool.com/publicai\nJoin the Tein Waitlist (free): https://tein.ai\n\nGet Seedance 2.5 API access through Enhancor (official API, cheaper, faster, and no data training): https://app.enhancor.ai/api-dashboard\n\n\nIn this video I reverse engineer how Higgsfield's Genjutsu works and rebuild it from scratch using Seedance 2.5, Claude, and a free 11-step automated workflow I built and am giving away for free.\n\nYou will learn⤵️\n1. Why Seedance 2.5 blocks your video and the exact two things that trigger it (face + music)\n2. How Higgs Genjutsu gets around it , and why keeping the movement is all that matters\n3. How to use Depth Anything to hide who is in the video without losing any motion\n4. How to strip the music and keep only the vocals so the AI can still sync the lips\n5. Why you cannot just mute the audio, and what to do instead in CapCut\n6. How draft mode actually works in Seedance 2.5 and why most people waste money using it wrong\n7. Why the depth mask alone gives you the wrong body, and two ways to fix it\n8. How the full 11-step workflow automates everything from Demucs to SAM 3 to the final 1080p export\n9. When to use the face mesh instead of the depth mask and what makes it faster\n10. How Google Face Landmarker tracks 478 points per frame to match movement exactly\n\nTools and workflows in this tutorial⤵️\nFree Genjutsu Open Source Workflow (GitHub): https://github.com/sirioberati/Genjustsu-Open-Source-Workflow\n\n\nFree resources⤵️\nPublicAI Community: https://www.skool.com/publicai\n\nConnect with me on:\nhttps://instagram.com/heysirio\nhttps://instagram.com/saysirio\n\nChapters\n00:00 – 00:38 Intro\n00:38 – 03:32 Why Your Video Gets Blocked\n03:32 – 05:13 Depth Anything Explained\n05:13 – 06:29 Isolating the Vocals\n07:07 – 08:18 API Key Setup\n08:18 – 09:38 Draft Mode Explained\n09:38 – 11:02 First Test\n11:02 – 13:32 Two Fixes\n13:47 – 15:04 My 11 Steps Workflow\n15:04 – 15:47 Get the Workflow for FREE\n15:47 – 18:23 Workflow Live Demo\n18:23 – 20:37 Face Mesh Workflow\n20:37 – 21:43 What to Build Next\n \n⚠️ Copyright Notice: This video contains brief clips from MasterClass and Quavo & Takeoff – Hotel Lobby (A COLORS SHOW) used solely for educational analysis and reverse engineering purposes. Total third-party footage is under 30 seconds. All rights remain with their respective owners: © MasterClass, © Colors Studios / Quavo & Takeoff. This content is intended as fair use commentary under 17 U.S.C. § 107.",
+      "first_detected_at": "2026-10-10T12:00:17+02:00",
+      "summarized_at": "2026-10-10T12:05:38+02:00"
+    },
     {
       "id": "1LRvMRC_pfY",
       "title": "The Biggest Launch Since ChatGPT (Muse)",
