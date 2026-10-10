@@ -1,0 +1,327 @@
+00:00 Hi, welcome to this masterclass.
+00:02 My name is Sirio, and this is entirely AI.
+00:06 I'll show you. So that's me in a scene that I was never actually in, and I didn't
+00:11 even use any app to make it. And this is what actually happens when you try to do it
+00:15 the normal way. I'm uploading that same template video into Seedance 2.5 and asking
+00:20 you to swap me in. Blocked. But apps like Higgsfield's Genjutsu do this exact
+00:26 thing all day, every day with these exact videos.
+00:29 So how the f*** are they getting around it?
+00:39 Hey friend, welcome back. Today we're going to reverse engineer Higgsfield's
+00:43 Genjutsu and we're going to get around the IP blocks in Seedance 2.5 so that you guys
+00:48 can put yourself into pretty much any movie scene or talking head you want without
+00:52 any special software. A quick heads up before we start.
+00:55 This video is for educational purposes only.
+00:57 I basically want you to understand how these AI models actually work and what they
+01:01 can really do. And this might end up being the first episode of a new series where I
+01:06 actually show you guys the stuff that they do not want you to know.
+01:10 And by they, you know what I'm talking about.
+01:12 Okay, so no fluff. Here's how this is going to work.
+01:16 We're going to start by doing the whole thing by hand.
+01:19 Okay, it's actually going to break on us twice and we're going to fix both times.
+01:25 At every step along the way, I'm going to pause and tell you why it works and not
+01:29 just what to click. And then I'm going to give you the AI or the automatic version,
+01:34 the agent version, though the workflow so that you can turn it into a template for
+01:39 your own stuff. And in the next videos, we're going a lot further and we're going to
+01:43 make things like this. I'm Kim Kardashian and this is masterclass.
+01:48 I'm Cereo and this is your time to build something of your own.
+01:54 Cut. Good job.
+01:57 So what do you think? Was it any good?
+01:59 Man, you killed it. But first the basics.
+02:01 So let's not waste any more time.
+02:03 You guys have all seen these videos that are basically everywhere right now.
+02:06 And the way that it works is that you upload a photo of yourself and then you pick a
+02:10 template video and then it just swaps you in for the person that is in that template
+02:14 video. It's the same moves, the same everything, the same lip syncing.
+02:18 And most people get this from one of those wrapper apps that sells it as a feature.
+02:24 And like I've said before, that's really the whole reason that the wrapper works and
+02:28 good for them. What I mean by that is that they are selling to you an API workflow.
+02:34 It is not the AI model. It's the workflow.
+02:36 It's the thinking. They are selling you the thinking that they do for you and you
+02:41 just press a button. And so this tutorial is for those people who actually want to
+02:45 build that button. I spend the last 12 to 24 hours on this going through
+02:51 open source models, masking, cutting people out and a whole bunch of other subs that
+02:56 didn't work. And I ended up with the one that I'm going to show you today.
+03:00 So let's go back to that blog generation from the start.
+03:04 This is the template. And all I did here was I head over to CDense 2.5.
+03:09 I uploaded this exact video and I typed replace the character in the video with the
+03:13 picture that I uploaded. And it got blocked for IP, which I mean, sure, it makes
+03:18 sense. These people are famous.
+03:20 But like I said, this exact video works totally fine in Genjutsu.
+03:24 But before we actually build anything, I think that it is important for us to
+03:27 understand why because if you get this part, the rest of the video is basically just
+03:32 just details. There are really only two things that get you blocked here.
+03:35 The first one is the face. The second one is the music.
+03:38 And the way that I like to think about this is that the video is really carrying
+03:43 these two things at the same time.
+03:44 It's carrying who's in it. So the face, the voice, the music, and it's carrying how
+03:49 things move. So the motion, the timing and the lips and the filter, the IP filter
+03:54 only cares about the who. It does not care about the how and the how is the
+03:58 movement. So the whole idea here is that you keep the how, the movement and you
+04:02 throw away the who, the IP and everything that we're going to do from here on out is
+04:07 really just hide one of those two things, obviously without losing the movement.
+04:12 So the first thing that we're going to have to do is turn this template into
+04:15 something where the AI cannot tell who the people are, but he can still see how
+04:20 they move. And for that, we're going to use something that is called depth anything.
+04:24 You can find it on hugging phase or replicate or foul.
+04:28 And all you have to do is that you upload your video, you click generate, and then
+04:32 you get something like this. So this is what's called the depth mask.
+04:36 And what I mean by this is that it throws away what everything looks like and it
+04:42 keeps how close or how far things are from the camera.
+04:46 Like it's the depth. If you've used Photoshop or or you've done retouching before,
+04:51 it's kind of very similar to dodge and burn.
+04:54 But in this case, it tracks all the movements, the movements are still there.
+04:59 But the faces, as you can see, they're not just a silhouette.
+05:02 This one is from foul. And this one is from replicate.
+05:07 I like the one from replicate. Just, I don't know.
+05:09 I just like the colors of it. There's no difference.
+05:12 You can use the one from foul too.
+05:13 And there's one more thing, which is the audio, right?
+05:16 If we want the lips to match the song, then the audio has to
+05:22 go through as well. Now, the first thing that most people would say is just muted,
+05:27 but we cannot do that. And the reason why is that AI actually needs to hear the
+05:32 voice in order for it to move the mouth.
+05:35 So instead of muting it, we're going to keep the voice, but get rid of everything
+05:40 else. Keep the actual words, remove the soundtrack, remove the background music.
+05:45 So what I'm going to do is that I'm going to take this depth mask and bring it into
+05:48 cap cut. And I'm just going to make a new project and drag the clip in.
+05:52 And then I'm going to click on it.
+05:55 And over here on the right hand side, I'm going to go to audio, then voice changer,
+06:00 then voice filters, then I'm going to pick pitch up.
+06:04 This is a voice filter. And what it does, it just changes the pitch of the music.
+06:09 And then once that's done, I'm going back to the basics.
+06:11 I'm going to click on isolate voice, then keep only the vocals.
+06:16 And so now what's left is basically only the acapella without the music or
+06:20 soundtrack. So listen to it.
+06:29 So that's both of them hidden. Right.
+06:31 C dense 2.5 isn't going to block this anymore because there are no faces.
+06:36 There's no music and we still have all of the movement, right?
+06:40 Pretty neat. Now, instead of giving it the original video, we're going to give it
+06:44 the depth mask video plus our own photos and then swap the people in.
+06:50 But there's one problem though, which is that the depth mask has no idea what
+06:56 the place actually looks like. It just either like a grayscale version
+07:02 of the depth mask like in FAL or like this other one here.
+07:05 And I think it's easier to show you guys.
+07:07 So let's run a quick test in order to do that.
+07:09 We need an API key. So I'm going to grab my enhancer API key for C dense 2.5 so we
+07:15 can test. And the link for that is in the description.
+07:18 And yes, it is cheaper than all of the other platforms that say that they are the
+07:22 cheapest and also doesn't train on your data.
+07:25 So your stuff is safe. I'm going to copy the docs right here.
+07:29 And then I'm going to paste them into codex or Claude.
+07:34 I'm using codex right now. That's really because I already had this project started
+07:38 in here. It does not mean that I'm endorsing open AI or anything is just easier for
+07:42 me right now. Hey, can you set this up for me?
+07:46 And I'm going to head over to my enhancer API dashboard.
+07:49 I'm going to generate a key, copy it and I'm going to go back to the agent and I'm
+07:55 going to ask it to make an ENV file, which is just like a little private file in
+08:00 your folder that holds your keys and saves the keys in there for safety.
+08:05 So please guys, never ever paste your keys in the chat.
+08:09 Always put them in an ENV file.
+08:11 I'm going to click on here and I'm going to paste in my API key and we're all set.
+08:15 And we are ready to generate. But before we actually make anything,
+08:21 the next thing I want to talk about is draft mode because a lot of people get this
+08:26 wrong. What I mean by draft mode is CDES 2.5 lets you make a 480p version of your
+08:31 video first over and over until you like what you see.
+08:35 And then it finishes that exact same video in 1080p so you don't have to lose any
+08:40 detail. And it's not like an upscaler.
+08:42 It's kind of like doing a pencil sketch before you paint.
+08:46 You can redo the sketch over and over again as many times as you want.
+08:48 And then when you're ready, you're like, cool, I'm going to pay for the paint once.
+08:52 So use draft mode every time that you're trying to draft something or generate
+08:56 something with CDES. Now let's say that you get a draft that you really like.
+09:00 What a lot of people will do is they're going to download it and then upload it
+09:04 right back as the reference video thinking that's the same thing it is
+09:10 not. And the reason why is that the draft is tied to a task ID and not
+09:16 the video file. So when you upload that file again, that's actually totally
+09:20 different kind of request and it doesn't carry over any of your settings.
+09:24 So there's no promises that you're going to get the same video back.
+09:28 So basically you do all of the cheap tries in draft mode and then you only pay for
+09:33 1080p one time. Hopefully this makes sense.
+09:37 You're going to see it in action.
+09:38 So I'm just going to drag in the depth mask, this one, and then the two photos that
+09:43 I want to use, which is me and teen.
+09:45 And if you guys haven't met teen yet, teen is this little creature that I've made
+09:50 with AI basically my companion.
+09:53 And also a really cool new project that I'm working on that is also linked in the
+09:58 description as well. And then I'm going to paste in this really simple replacement
+10:02 prompt. You can screenshot that.
+10:05 And then I'm just basically going to say, hey, use the draft mode for this
+10:09 generation.
+10:11 Seed ends also needs links, not files.
+10:13 So please throw everything on a temporary server like cat box or temp files.
+10:18 It's going to host your inputs temporarily and then you're going to hit enter.
+10:21 And this usually takes about one minute.
+10:24 Okay, cool. So here's what we got.
+10:25 And if you want to grab the video, you can either get it from the agent or you can
+10:29 go into the logs and use a generic enhancer dashboard and give it a quick refresh.
+10:34 And it will be sitting right there with your request ID.
+10:38 That's also going to match your agents.
+10:39 And I mean, it's not great, right?
+10:42 Well, we basically have two problems here.
+10:45 The first one is that it didn't actually swap me in all the way.
+10:50 So that's my face, but that it's very much the actor's body
+10:55 with all the long hair. And the second thing is that the whole thing is just
+11:01 gray. So one way to fix this is to have the agent describe
+11:06 the studio. And the reason why is like I said earlier, the depth mask has no idea
+11:11 what the place looks like. And if this was your reference video, this is why you got
+11:17 back. So that's where the gray comes from.
+11:20 And what I'm going to do is I'm going to take a screenshot of the original video and
+11:24 I'm going to drop it into the agent.
+11:25 And I'm going to say, Hey, describe this place for me, but do not describe the
+11:30 people and then update the prompt with that and send the same request again.
+11:36 So that's the problem that I'm using.
+11:37 You can pause and screenshot this.
+11:40 Since we're doing this with the agent, the agent knows exactly what they send before
+11:43 and they can just update that request or update that payload, you don't have to do
+11:47 anything manually because the agent has context of your workflow.
+11:50 And I'm just going to hit enter and submit it.
+11:52 Okay, now we have caller, which is nice.
+11:56 That's one of our two problems fixed.
+11:58 But I mean, the other problem is still there.
+12:01 For some reason, it is still sticking way too close to the depth mask, which is why
+12:07 it's still the actor's body. It's not mine.
+12:11 I'm not entirely sure why. I think it's basically, I don't know, I think it just
+12:15 sees an outline and then it traces it.
+12:18 But I've got one more trick to fix this.
+12:20 So this time, I'm going to grab the original video and then our depth mask with the
+12:26 changed audio, I'm going to drop the original clip into cap cut, and then I'm going
+12:31 to put in the depth mask right on top of it.
+12:33 I'm going to mute the original clip.
+12:35 So the only audio left is our pitched vocals.
+12:38 And I'm going to click on the depth mask and go over to the video tab, then the
+12:44 background removal, then click on customer removal, and just highlight the people.
+12:49 Basically, what this is doing is that it's cutting out just the people and then it's
+12:54 laying them on top of the original video.
+12:57 Now, why does that work? Well, if you think about it like now, it's a very
+13:03 different video. We were giving it a depth mask, which is really just the outline.
+13:07 So it was raising the outline before and now we are giving it something that that is
+13:11 totally different and it stops from tracing it.
+13:14 So I don't know. It looks at the whole thing again.
+13:16 And I'm going to export that. This is what it looks like.
+13:18 Then I'm going to send it back to the agent and say, Hey, swap the old sorts video
+13:22 for this new one and make another draft.
+13:26 And look at that. That worked. That's pretty cool.
+13:31 Okay, so that was basically four moves.
+13:33 We hit the face, we hit the music, we described the room, and then we laid the
+13:38 people over the real video. And that's way too much manual work to do every single
+13:43 time. But but you can do all of it with one click the same way Higgsfield does
+13:48 with the workflow. So I had the agent turn everything we just did
+13:54 into one. All you need is a replicate account and I'm giving you a skill that sets
+13:58 everything up. Hugging face is also optional, just a backup choice.
+14:03 So really quickly it is 11 steps.
+14:05 One, we upload the original video.
+14:07 We keep the original video for also the final audio to demicus on
+14:13 replicate splits the vocals from the music.
+14:16 Three rubber band pitches the vocals up by three semitones.
+14:21 Four, we have depth anything video, which makes the collared depth video that we
+14:26 talked about. Five, we have Sam three cutting out all the people on every frame.
+14:31 Six, it puts those depth people over the original background.
+14:34 Seven, the pitched vocals go right inside of that video.
+14:38 Eight, you check everything before it sends.
+14:41 Nine, C dense makes a draft through enhancer in the edit mode.
+14:44 Ten, it throws away C dense audio and puts in the whole original soundtrack back.
+14:49 And 11, you approve it. And it makes a 1080p video and you download the final
+14:55 and before I know well but this workflow is making millions of dollars.
+15:00 Now you don't have to do any of that yourself.
+15:03 I'll show you all of it running as soon as it is set up.
+15:06 So this whole thing runs through your agent and it comes with its own interface.
+15:10 I built all of it for you guys.
+15:12 All you have to do is download the skill, give it to your agent and then plug in
+15:15 your API keys from enhancer and replicate so you can grab the skill in the
+15:19 description, grab the folder and we're going to drag it in and in codecs and we're
+15:24 going to say please read the read me file and set this up for me and just let the
+15:29 agent do it. The agent is going to set up everything for you and ask you some
+15:32 questions along the way. And if you don't want to download the files for whatever
+15:35 reason, you can just ask your agent to build this workflow over here.
+15:41 So you can just screenshot this or just give it my video transcript of this YouTube
+15:46 video. Now I already have mine set up and there are two ways to run this.
+15:52 The first one is you just drop in the video that you want to change and then the
+15:57 photos that you want to be placed in the video are like swapped and you say,
+16:03 Hey, run the workflow as simple as that.
+16:06 The second one you do it yourself in the UI interface and that's what I'm going to
+16:10 do here. So you guys can see every step.
+16:13 So the interface is really just four steps because you don't see everything that's
+16:17 happening in the back end. You have to upload, review, draft and export or save.
+16:22 So I'm going to upload my video, which can be an MP4 or a MOV up to 30 seconds.
+16:28 I'm going to leave it on advanced because that's the depth workflow we just built.
+16:33 And then I'm going to click prepare.
+16:36 And so right now it's doing steps through one to seven all by itself.
+16:40 You don't have to do anything. It's splitting the vocals from the music.
+16:43 It's pitching them up everything we did in cup cut.
+16:47 And then it's making the depth video, cutting the people with Sam three laying them
+16:51 over the original background and cleaning up every little stray or edges that are
+16:57 off from that mask. This is step eight.
+16:59 And it's not going to let me generate until I've watched the whole thing and I've
+17:03 approved it myself. And the reason for that is that might be a bad mask.
+17:08 So we don't, I don't want you to basically just throw money down
+17:13 the drain. AI agents are unpredictable.
+17:16 That's why we make sure that they check their work every time.
+17:20 So it's checking for holes in the body, the hair or hands.
+17:23 This one to me looks very clean.
+17:25 So I'm going to prove this. And then I'm going to add my characters.
+17:29 So character one, that's me. Character two is optional in this case, it's teen.
+17:35 And then the prompt is already written.
+17:37 And you can edit that if you wish.
+17:40 And I'm going to generate my draft.
+17:42 Cool. So here's our draft and listen to that.
+17:51 Take notes. That's the original audio on the pitched one.
+17:55 And I'm pretty happy with this.
+17:57 So I'm going to approve that. And then it makes the 1080p and puts the original
+18:02 audio back one more time. And that one does cost extra.
+18:08 And it's never going to do it without asking you first or approving.
+18:11 Now that workflow is the best one if you want to bulletproof your generations.
+18:15 And it mostly uses the audio to match the words.
+18:18 So if your video has no audio, it will still generate for sure.
+18:21 But there's one more workflow for when you want the face to move exactly like the
+18:27 original. And it's the same workflow, but we add what's called a face mash.
+18:32 And what I mean by that, it's a little wireframe that gets drawn right on top of the
+18:36 face. It's kind of like those dots that they put on actor spaces in the behind the
+18:41 scene videos, they can track them, the dots can capture how the face moves and then
+18:46 the computer can totally create a different character on top of that.
+18:50 So that same thing, same thing applies here.
+18:52 It's going to track how the face moves and it's still going to hide the person
+18:57 behind it. And this is actually the easiest one because it only has two steps.
+19:00 So you can change the pitch, you can add the face mash and there's no cutting anyone
+19:06 out like that. Like it just removes all those extra other steps.
+19:09 So if you guys downloaded the project, you can just ask the agent to use this
+19:13 workflow instead, it's faster. And it's also right here in the interface.
+19:17 It's just called fast, or you can ask it to install the face mash tracking and put
+19:21 it on top of the original video.
+19:23 You send that in and you get something like this.
+19:26 That's dope. That's crazy. So what the face mash is doing is it's tracking
+19:31 478 points on the face. So around the eyes, the lips, the nose,
+19:37 the whole face. And it is drawing that mash on every single frame.
+19:42 And it saves all of those points with all the timing in a file that we have set
+19:48 up to be called face landmarks .json.
+19:52 Everything is done and safe for you.
+19:55 You don't have to worry about it.
+19:56 And it uses Google's face landmark model from Google's official model storage.
+20:01 One heads up though, at least right now, this works best with one person which is
+20:06 centered talking to the camera.
+20:08 If you have two people moving around, I would just stick with a depth mask workflow.
+20:12 And if you want to bullet prove this even more, you can ask the agent to put the
+20:17 face mash on top of the cut out depth video.
+20:20 So on top of this one right here.
+20:22 And then you get something like this.
+20:24 And then you send that in as a source video.
+20:26 And again, all of this works by just talking to it.
+20:28 There's nothing for you to install yourself.
+20:32 You just ask the agent to set up the Google Media Pipe Face Landmarker or any other
+20:37 packages. Okay, this has been a long video.
+20:40 So from here, you guys can keep making things better.
+20:43 You can add a transcriber. So it writes down what's said in the video and puts that
+20:48 into the prompt. You could have the agent watch the original video and describe the
+20:52 movement in detail second by second.
+20:54 And then you can even use your own voice.
+20:57 So you basically make your and I'm here to spill the secrets behind API's so
+21:02 that you can build million dollar workflows.
+21:06 That is it. And if you take one thing away from this video is that everything, every
+21:10 one of these tricks was basically just the same idea implemented in different ways
+21:14 and methods. You just keep how things move and you throw away who is in the video.
+21:19 And hopefully you guys know how Genjutsu actually works now and how to build
+21:22 yourself. I have attached the entire open source project in the link in the
+21:27 description. So just get it from there.
+21:30 It's free and go make something with it.
+21:33 And in the next one, we're going to go way past the basics.
+21:38 See you guys there and do not forget, create without limits.
+21:42 This is Sirio.

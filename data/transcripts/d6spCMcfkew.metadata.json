@@ -1,0 +1,78 @@
+{
+  "id": "d6spCMcfkew",
+  "title": "Dear Higgsfield, I reverse engineered you in 12 hours",
+  "channel": "Sirio",
+  "channel_id": "UCNuJJ38qSq8LMiltOZTgzaw",
+  "upload_date": "20261009",
+  "duration": 1306,
+  "thumbnail": "https://i.ytimg.com/vi/d6spCMcfkew/maxresdefault.jpg",
+  "webpage_url": "https://www.youtube.com/watch?v=d6spCMcfkew",
+  "description": "Join my PublicAI Community (free) and get insider AI knowledge on anything: https://www.skool.com/publicai\nJoin the Tein Waitlist (free): https://tein.ai\n\nGet Seedance 2.5 API access through Enhancor (official API, cheaper, faster, and no data training): https://app.enhancor.ai/api-dashboard\n\n\nIn this video I reverse engineer how Higgsfield's Genjutsu works and rebuild it from scratch using Seedance 2.5, Claude, and a free 11-step automated workflow I built and am giving away for free.\n\nYou will learn⤵️\n1. Why Seedance 2.5 blocks your video and the exact two things that trigger it (face + music)\n2. How Higgs Genjutsu gets around it , and why keeping the movement is all that matters\n3. How to use Depth Anything to hide who is in the video without losing any motion\n4. How to strip the music and keep only the vocals so the AI can still sync the lips\n5. Why you cannot just mute the audio, and what to do instead in CapCut\n6. How draft mode actually works in Seedance 2.5 and why most people waste money using it wrong\n7. Why the depth mask alone gives you the wrong body, and two ways to fix it\n8. How the full 11-step workflow automates everything from Demucs to SAM 3 to the final 1080p export\n9. When to use the face mesh instead of the depth mask and what makes it faster\n10. How Google Face Landmarker tracks 478 points per frame to match movement exactly\n\nTools and workflows in this tutorial⤵️\nFree Genjutsu Open Source Workflow (GitHub): https://github.com/sirioberati/Genjustsu-Open-Source-Workflow\n\n\nFree resources⤵️\nPublicAI Community: https://www.skool.com/publicai\n\nConnect with me on:\nhttps://instagram.com/heysirio\nhttps://instagram.com/saysirio\n\nChapters\n00:00 – 00:38 Intro\n00:38 – 03:32 Why Your Video Gets Blocked\n03:32 – 05:13 Depth Anything Explained\n05:13 – 06:29 Isolating the Vocals\n07:07 – 08:18 API Key Setup\n08:18 – 09:38 Draft Mode Explained\n09:38 – 11:02 First Test\n11:02 – 13:32 Two Fixes\n13:47 – 15:04 My 11 Steps Workflow\n15:04 – 15:47 Get the Workflow for FREE\n15:47 – 18:23 Workflow Live Demo\n18:23 – 20:37 Face Mesh Workflow\n20:37 – 21:43 What to Build Next\n \n⚠️ Copyright Notice: This video contains brief clips from MasterClass and Quavo & Takeoff – Hotel Lobby (A COLORS SHOW) used solely for educational analysis and reverse engineering purposes. Total third-party footage is under 30 seconds. All rights remain with their respective owners: © MasterClass, © Colors Studios / Quavo & Takeoff. This content is intended as fair use commentary under 17 U.S.C. § 107.",
+  "chapters": [
+    {
+      "start_time": 0.0,
+      "title": "Intro",
+      "end_time": 38.0
+    },
+    {
+      "start_time": 38.0,
+      "title": "Why Your Video Gets Blocked",
+      "end_time": 212.0
+    },
+    {
+      "start_time": 212.0,
+      "title": "Depth Anything Explained",
+      "end_time": 313.0
+    },
+    {
+      "start_time": 313.0,
+      "title": "Isolating the Vocals",
+      "end_time": 427.0
+    },
+    {
+      "start_time": 427.0,
+      "title": "API Key Setup",
+      "end_time": 498.0
+    },
+    {
+      "start_time": 498.0,
+      "title": "Draft Mode Explained",
+      "end_time": 578.0
+    },
+    {
+      "start_time": 578.0,
+      "title": "First Test",
+      "end_time": 662.0
+    },
+    {
+      "start_time": 662.0,
+      "title": "Two Fixes",
+      "end_time": 827.0
+    },
+    {
+      "start_time": 827.0,
+      "title": "My 11 Steps Workflow",
+      "end_time": 904.0
+    },
+    {
+      "start_time": 904.0,
+      "title": "Get the Workflow for FREE",
+      "end_time": 947.0
+    },
+    {
+      "start_time": 947.0,
+      "title": "Workflow Live Demo",
+      "end_time": 1103.0
+    },
+    {
+      "start_time": 1103.0,
+      "title": "Face Mesh Workflow",
+      "end_time": 1237.0
+    },
+    {
+      "start_time": 1237.0,
+      "title": "What to Build Next",
+      "end_time": 1306
+    }
+  ]
+}

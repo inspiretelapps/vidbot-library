@@ -1,0 +1,1975 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "Hi, welcome to this masterclass."
+    } ]
+  }, {
+    "tStartMs": 2640,
+    "dDurationMs": 3140,
+    "segs": [ {
+      "utf8": "My name is Sirio, and this is entirely AI."
+    } ]
+  }, {
+    "tStartMs": 6780,
+    "dDurationMs": 4460,
+    "segs": [ {
+      "utf8": "I'll show you. So that's me in a scene\nthat I was never actually in, and I didn't"
+    } ]
+  }, {
+    "tStartMs": 11240,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "even use any app to make it. And this is\nwhat actually happens when you try to do it"
+    } ]
+  }, {
+    "tStartMs": 15160,
+    "dDurationMs": 5220,
+    "segs": [ {
+      "utf8": "the normal way. I'm uploading that same\ntemplate video into Seedance 2.5 and asking"
+    } ]
+  }, {
+    "tStartMs": 20380,
+    "dDurationMs": 5720,
+    "segs": [ {
+      "utf8": "you to swap me in. Blocked. But apps\nlike Higgsfield's Genjutsu do this exact"
+    } ]
+  }, {
+    "tStartMs": 26100,
+    "dDurationMs": 2900,
+    "segs": [ {
+      "utf8": "thing all day, every day\nwith these exact videos."
+    } ]
+  }, {
+    "tStartMs": 29500,
+    "dDurationMs": 2200,
+    "segs": [ {
+      "utf8": "So how the f*** are\nthey getting around it?"
+    } ]
+  }, {
+    "tStartMs": 39070,
+    "dDurationMs": 4400,
+    "segs": [ {
+      "utf8": "Hey friend, welcome back. Today we're\ngoing to reverse engineer Higgsfield's"
+    } ]
+  }, {
+    "tStartMs": 43470,
+    "dDurationMs": 4920,
+    "segs": [ {
+      "utf8": "Genjutsu and we're going to get around the\nIP blocks in Seedance 2.5 so that you guys"
+    } ]
+  }, {
+    "tStartMs": 48390,
+    "dDurationMs": 4400,
+    "segs": [ {
+      "utf8": "can put yourself into pretty much any movie\nscene or talking head you want without"
+    } ]
+  }, {
+    "tStartMs": 52790,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "any special software. A quick\nheads up before we start."
+    } ]
+  }, {
+    "tStartMs": 55450,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "This video is for\neducational purposes only."
+    } ]
+  }, {
+    "tStartMs": 57950,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "I basically want you to understand how\nthese AI models actually work and what they"
+    } ]
+  }, {
+    "tStartMs": 61950,
+    "dDurationMs": 4900,
+    "segs": [ {
+      "utf8": "can really do. And this might end up being\nthe first episode of a new series where I"
+    } ]
+  }, {
+    "tStartMs": 66850,
+    "dDurationMs": 3540,
+    "segs": [ {
+      "utf8": "actually show you guys the stuff\nthat they do not want you to know."
+    } ]
+  }, {
+    "tStartMs": 70610,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "And by they, you know\nwhat I'm talking about."
+    } ]
+  }, {
+    "tStartMs": 72810,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "Okay, so no fluff. Here's\nhow this is going to work."
+    } ]
+  }, {
+    "tStartMs": 76290,
+    "dDurationMs": 3420,
+    "segs": [ {
+      "utf8": "We're going to start by doing\nthe whole thing by hand."
+    } ]
+  }, {
+    "tStartMs": 79970,
+    "dDurationMs": 5200,
+    "segs": [ {
+      "utf8": "Okay, it's actually going to break on us\ntwice and we're going to fix both times."
+    } ]
+  }, {
+    "tStartMs": 85310,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "At every step along the way, I'm going to\npause and tell you why it works and not"
+    } ]
+  }, {
+    "tStartMs": 89730,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "just what to click. And then I'm going to\ngive you the AI or the automatic version,"
+    } ]
+  }, {
+    "tStartMs": 94470,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "the agent version, though the workflow so\nthat you can turn it into a template for"
+    } ]
+  }, {
+    "tStartMs": 99350,
+    "dDurationMs": 4280,
+    "segs": [ {
+      "utf8": "your own stuff. And in the next videos,\nwe're going a lot further and we're going to"
+    } ]
+  }, {
+    "tStartMs": 103630,
+    "dDurationMs": 4800,
+    "segs": [ {
+      "utf8": "make things like this. I'm Kim\nKardashian and this is masterclass."
+    } ]
+  }, {
+    "tStartMs": 108550,
+    "dDurationMs": 5080,
+    "segs": [ {
+      "utf8": "I'm Cereo and this is your time\nto build something of your own."
+    } ]
+  }, {
+    "tStartMs": 114630,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "Cut. Good job."
+    } ]
+  }, {
+    "tStartMs": 117010,
+    "dDurationMs": 1760,
+    "segs": [ {
+      "utf8": "So what do you think? Was it any good?"
+    } ]
+  }, {
+    "tStartMs": 119210,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "Man, you killed it. But first the basics."
+    } ]
+  }, {
+    "tStartMs": 121090,
+    "dDurationMs": 1900,
+    "segs": [ {
+      "utf8": "So let's not waste any more time."
+    } ]
+  }, {
+    "tStartMs": 123390,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "You guys have all seen these videos\nthat are basically everywhere right now."
+    } ]
+  }, {
+    "tStartMs": 126770,
+    "dDurationMs": 3440,
+    "segs": [ {
+      "utf8": "And the way that it works is that you upload\na photo of yourself and then you pick a"
+    } ]
+  }, {
+    "tStartMs": 130210,
+    "dDurationMs": 4300,
+    "segs": [ {
+      "utf8": "template video and then it just swaps you\nin for the person that is in that template"
+    } ]
+  }, {
+    "tStartMs": 134510,
+    "dDurationMs": 4140,
+    "segs": [ {
+      "utf8": "video. It's the same moves, the same\neverything, the same lip syncing."
+    } ]
+  }, {
+    "tStartMs": 138990,
+    "dDurationMs": 4740,
+    "segs": [ {
+      "utf8": "And most people get this from one of those\nwrapper apps that sells it as a feature."
+    } ]
+  }, {
+    "tStartMs": 144310,
+    "dDurationMs": 4600,
+    "segs": [ {
+      "utf8": "And like I've said before, that's really\nthe whole reason that the wrapper works and"
+    } ]
+  }, {
+    "tStartMs": 148910,
+    "dDurationMs": 5200,
+    "segs": [ {
+      "utf8": "good for them. What I mean by that is that\nthey are selling to you an API workflow."
+    } ]
+  }, {
+    "tStartMs": 154330,
+    "dDurationMs": 2460,
+    "segs": [ {
+      "utf8": "It is not the AI model. It's the workflow."
+    } ]
+  }, {
+    "tStartMs": 156930,
+    "dDurationMs": 4300,
+    "segs": [ {
+      "utf8": "It's the thinking. They are selling you\nthe thinking that they do for you and you"
+    } ]
+  }, {
+    "tStartMs": 161230,
+    "dDurationMs": 4640,
+    "segs": [ {
+      "utf8": "just press a button. And so this tutorial\nis for those people who actually want to"
+    } ]
+  }, {
+    "tStartMs": 165870,
+    "dDurationMs": 5740,
+    "segs": [ {
+      "utf8": "build that button. I spend the last\n12 to 24 hours on this going through"
+    } ]
+  }, {
+    "tStartMs": 171610,
+    "dDurationMs": 4540,
+    "segs": [ {
+      "utf8": "open source models, masking, cutting people\nout and a whole bunch of other subs that"
+    } ]
+  }, {
+    "tStartMs": 176150,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "didn't work. And I ended up with the\none that I'm going to show you today."
+    } ]
+  }, {
+    "tStartMs": 180870,
+    "dDurationMs": 3880,
+    "segs": [ {
+      "utf8": "So let's go back to that blog\ngeneration from the start."
+    } ]
+  }, {
+    "tStartMs": 184790,
+    "dDurationMs": 4860,
+    "segs": [ {
+      "utf8": "This is the template. And all I did\nhere was I head over to CDense 2.5."
+    } ]
+  }, {
+    "tStartMs": 189850,
+    "dDurationMs": 3880,
+    "segs": [ {
+      "utf8": "I uploaded this exact video and I typed\nreplace the character in the video with the"
+    } ]
+  }, {
+    "tStartMs": 193730,
+    "dDurationMs": 5040,
+    "segs": [ {
+      "utf8": "picture that I uploaded. And it got blocked\nfor IP, which I mean, sure, it makes"
+    } ]
+  }, {
+    "tStartMs": 198770,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "sense. These people are famous."
+    } ]
+  }, {
+    "tStartMs": 200370,
+    "dDurationMs": 3960,
+    "segs": [ {
+      "utf8": "But like I said, this exact video\nworks totally fine in Genjutsu."
+    } ]
+  }, {
+    "tStartMs": 204410,
+    "dDurationMs": 2820,
+    "segs": [ {
+      "utf8": "But before we actually build anything,\nI think that it is important for us to"
+    } ]
+  }, {
+    "tStartMs": 207230,
+    "dDurationMs": 4980,
+    "segs": [ {
+      "utf8": "understand why because if you get this part,\nthe rest of the video is basically just"
+    } ]
+  }, {
+    "tStartMs": 212210,
+    "dDurationMs": 3660,
+    "segs": [ {
+      "utf8": "just details. There are really only\ntwo things that get you blocked here."
+    } ]
+  }, {
+    "tStartMs": 215870,
+    "dDurationMs": 2540,
+    "segs": [ {
+      "utf8": "The first one is the face.\nThe second one is the music."
+    } ]
+  }, {
+    "tStartMs": 218610,
+    "dDurationMs": 4640,
+    "segs": [ {
+      "utf8": "And the way that I like to think about\nthis is that the video is really carrying"
+    } ]
+  }, {
+    "tStartMs": 223250,
+    "dDurationMs": 1560,
+    "segs": [ {
+      "utf8": "these two things at the same time."
+    } ]
+  }, {
+    "tStartMs": 224990,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "It's carrying who's in it. So the face,\nthe voice, the music, and it's carrying how"
+    } ]
+  }, {
+    "tStartMs": 229410,
+    "dDurationMs": 5040,
+    "segs": [ {
+      "utf8": "things move. So the motion, the timing\nand the lips and the filter, the IP filter"
+    } ]
+  }, {
+    "tStartMs": 234450,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "only cares about the who. It does not\ncare about the how and the how is the"
+    } ]
+  }, {
+    "tStartMs": 238870,
+    "dDurationMs": 3740,
+    "segs": [ {
+      "utf8": "movement. So the whole idea here is that\nyou keep the how, the movement and you"
+    } ]
+  }, {
+    "tStartMs": 242610,
+    "dDurationMs": 4580,
+    "segs": [ {
+      "utf8": "throw away the who, the IP and everything\nthat we're going to do from here on out is"
+    } ]
+  }, {
+    "tStartMs": 247190,
+    "dDurationMs": 4480,
+    "segs": [ {
+      "utf8": "really just hide one of those two things,\nobviously without losing the movement."
+    } ]
+  }, {
+    "tStartMs": 252050,
+    "dDurationMs": 2960,
+    "segs": [ {
+      "utf8": "So the first thing that we're going to\nhave to do is turn this template into"
+    } ]
+  }, {
+    "tStartMs": 255010,
+    "dDurationMs": 5900,
+    "segs": [ {
+      "utf8": "something where the AI cannot tell who\nthe people are, but he can still see how"
+    } ]
+  }, {
+    "tStartMs": 260910,
+    "dDurationMs": 3700,
+    "segs": [ {
+      "utf8": "they move. And for that, we're going to use\nsomething that is called depth anything."
+    } ]
+  }, {
+    "tStartMs": 264610,
+    "dDurationMs": 3280,
+    "segs": [ {
+      "utf8": "You can find it on hugging\nphase or replicate or foul."
+    } ]
+  }, {
+    "tStartMs": 268170,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "And all you have to do is that you upload\nyour video, you click generate, and then"
+    } ]
+  }, {
+    "tStartMs": 272490,
+    "dDurationMs": 3880,
+    "segs": [ {
+      "utf8": "you get something like this. So this\nis what's called the depth mask."
+    } ]
+  }, {
+    "tStartMs": 276830,
+    "dDurationMs": 5560,
+    "segs": [ {
+      "utf8": "And what I mean by this is that it throws\naway what everything looks like and it"
+    } ]
+  }, {
+    "tStartMs": 282390,
+    "dDurationMs": 4200,
+    "segs": [ {
+      "utf8": "keeps how close or how far\nthings are from the camera."
+    } ]
+  }, {
+    "tStartMs": 286750,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "Like it's the depth. If you've used Photoshop\nor or you've done retouching before,"
+    } ]
+  }, {
+    "tStartMs": 291370,
+    "dDurationMs": 2960,
+    "segs": [ {
+      "utf8": "it's kind of very similar\nto dodge and burn."
+    } ]
+  }, {
+    "tStartMs": 294750,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "But in this case, it tracks all the\nmovements, the movements are still there."
+    } ]
+  }, {
+    "tStartMs": 299170,
+    "dDurationMs": 3420,
+    "segs": [ {
+      "utf8": "But the faces, as you can see,\nthey're not just a silhouette."
+    } ]
+  }, {
+    "tStartMs": 302770,
+    "dDurationMs": 3960,
+    "segs": [ {
+      "utf8": "This one is from foul. And\nthis one is from replicate."
+    } ]
+  }, {
+    "tStartMs": 307070,
+    "dDurationMs": 2480,
+    "segs": [ {
+      "utf8": "I like the one from\nreplicate. Just, I don't know."
+    } ]
+  }, {
+    "tStartMs": 309590,
+    "dDurationMs": 2880,
+    "segs": [ {
+      "utf8": "I just like the colors of\nit. There's no difference."
+    } ]
+  }, {
+    "tStartMs": 312610,
+    "dDurationMs": 1060,
+    "segs": [ {
+      "utf8": "You can use the one from foul too."
+    } ]
+  }, {
+    "tStartMs": 313830,
+    "dDurationMs": 2540,
+    "segs": [ {
+      "utf8": "And there's one more thing,\nwhich is the audio, right?"
+    } ]
+  }, {
+    "tStartMs": 316930,
+    "dDurationMs": 5780,
+    "segs": [ {
+      "utf8": "If we want the lips to match\nthe song, then the audio has to"
+    } ]
+  }, {
+    "tStartMs": 322710,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "go through as well. Now, the first thing\nthat most people would say is just muted,"
+    } ]
+  }, {
+    "tStartMs": 327250,
+    "dDurationMs": 5540,
+    "segs": [ {
+      "utf8": "but we cannot do that. And the reason\nwhy is that AI actually needs to hear the"
+    } ]
+  }, {
+    "tStartMs": 332790,
+    "dDurationMs": 3020,
+    "segs": [ {
+      "utf8": "voice in order for it to move the mouth."
+    } ]
+  }, {
+    "tStartMs": 335950,
+    "dDurationMs": 4580,
+    "segs": [ {
+      "utf8": "So instead of muting it, we're going to\nkeep the voice, but get rid of everything"
+    } ]
+  }, {
+    "tStartMs": 340530,
+    "dDurationMs": 4860,
+    "segs": [ {
+      "utf8": "else. Keep the actual words, remove the\nsoundtrack, remove the background music."
+    } ]
+  }, {
+    "tStartMs": 345690,
+    "dDurationMs": 3240,
+    "segs": [ {
+      "utf8": "So what I'm going to do is that I'm going\nto take this depth mask and bring it into"
+    } ]
+  }, {
+    "tStartMs": 348930,
+    "dDurationMs": 3040,
+    "segs": [ {
+      "utf8": "cap cut. And I'm just going to make\na new project and drag the clip in."
+    } ]
+  }, {
+    "tStartMs": 352610,
+    "dDurationMs": 2080,
+    "segs": [ {
+      "utf8": "And then I'm going to click on it."
+    } ]
+  }, {
+    "tStartMs": 355150,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "And over here on the right hand side, I'm\ngoing to go to audio, then voice changer,"
+    } ]
+  }, {
+    "tStartMs": 360470,
+    "dDurationMs": 3800,
+    "segs": [ {
+      "utf8": "then voice filters, then\nI'm going to pick pitch up."
+    } ]
+  }, {
+    "tStartMs": 364590,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "This is a voice filter. And what it does,\nit just changes the pitch of the music."
+    } ]
+  }, {
+    "tStartMs": 369350,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "And then once that's done,\nI'm going back to the basics."
+    } ]
+  }, {
+    "tStartMs": 371910,
+    "dDurationMs": 3900,
+    "segs": [ {
+      "utf8": "I'm going to click on isolate\nvoice, then keep only the vocals."
+    } ]
+  }, {
+    "tStartMs": 376390,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "And so now what's left is basically\nonly the acapella without the music or"
+    } ]
+  }, {
+    "tStartMs": 380710,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "soundtrack. So listen to it."
+    } ]
+  }, {
+    "tStartMs": 389490,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "So that's both of them hidden. Right."
+    } ]
+  }, {
+    "tStartMs": 391910,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "C dense 2.5 isn't going to block this\nanymore because there are no faces."
+    } ]
+  }, {
+    "tStartMs": 396570,
+    "dDurationMs": 4040,
+    "segs": [ {
+      "utf8": "There's no music and we still\nhave all of the movement, right?"
+    } ]
+  }, {
+    "tStartMs": 400810,
+    "dDurationMs": 4100,
+    "segs": [ {
+      "utf8": "Pretty neat. Now, instead of giving it\nthe original video, we're going to give it"
+    } ]
+  }, {
+    "tStartMs": 404910,
+    "dDurationMs": 5060,
+    "segs": [ {
+      "utf8": "the depth mask video plus our own\nphotos and then swap the people in."
+    } ]
+  }, {
+    "tStartMs": 410190,
+    "dDurationMs": 5980,
+    "segs": [ {
+      "utf8": "But there's one problem though, which\nis that the depth mask has no idea what"
+    } ]
+  }, {
+    "tStartMs": 416170,
+    "dDurationMs": 5900,
+    "segs": [ {
+      "utf8": "the place actually looks like. It\njust either like a grayscale version"
+    } ]
+  }, {
+    "tStartMs": 422070,
+    "dDurationMs": 3400,
+    "segs": [ {
+      "utf8": "of the depth mask like in FAL\nor like this other one here."
+    } ]
+  }, {
+    "tStartMs": 425670,
+    "dDurationMs": 1280,
+    "segs": [ {
+      "utf8": "And I think it's easier to show you guys."
+    } ]
+  }, {
+    "tStartMs": 427090,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "So let's run a quick\ntest in order to do that."
+    } ]
+  }, {
+    "tStartMs": 429170,
+    "dDurationMs": 5980,
+    "segs": [ {
+      "utf8": "We need an API key. So I'm going to grab\nmy enhancer API key for C dense 2.5 so we"
+    } ]
+  }, {
+    "tStartMs": 435150,
+    "dDurationMs": 3040,
+    "segs": [ {
+      "utf8": "can test. And the link for\nthat is in the description."
+    } ]
+  }, {
+    "tStartMs": 438510,
+    "dDurationMs": 3720,
+    "segs": [ {
+      "utf8": "And yes, it is cheaper than all of the\nother platforms that say that they are the"
+    } ]
+  }, {
+    "tStartMs": 442230,
+    "dDurationMs": 2660,
+    "segs": [ {
+      "utf8": "cheapest and also doesn't\ntrain on your data."
+    } ]
+  }, {
+    "tStartMs": 445150,
+    "dDurationMs": 4540,
+    "segs": [ {
+      "utf8": "So your stuff is safe. I'm going\nto copy the docs right here."
+    } ]
+  }, {
+    "tStartMs": 449870,
+    "dDurationMs": 4220,
+    "segs": [ {
+      "utf8": "And then I'm going to paste\nthem into codex or Claude."
+    } ]
+  }, {
+    "tStartMs": 454210,
+    "dDurationMs": 3980,
+    "segs": [ {
+      "utf8": "I'm using codex right now. That's really\nbecause I already had this project started"
+    } ]
+  }, {
+    "tStartMs": 458190,
+    "dDurationMs": 4280,
+    "segs": [ {
+      "utf8": "in here. It does not mean that I'm endorsing\nopen AI or anything is just easier for"
+    } ]
+  }, {
+    "tStartMs": 462470,
+    "dDurationMs": 3280,
+    "segs": [ {
+      "utf8": "me right now. Hey, can\nyou set this up for me?"
+    } ]
+  }, {
+    "tStartMs": 466270,
+    "dDurationMs": 2840,
+    "segs": [ {
+      "utf8": "And I'm going to head over\nto my enhancer API dashboard."
+    } ]
+  }, {
+    "tStartMs": 469930,
+    "dDurationMs": 5800,
+    "segs": [ {
+      "utf8": "I'm going to generate a key, copy it and\nI'm going to go back to the agent and I'm"
+    } ]
+  }, {
+    "tStartMs": 475730,
+    "dDurationMs": 4580,
+    "segs": [ {
+      "utf8": "going to ask it to make an ENV file, which\nis just like a little private file in"
+    } ]
+  }, {
+    "tStartMs": 480310,
+    "dDurationMs": 4740,
+    "segs": [ {
+      "utf8": "your folder that holds your keys and\nsaves the keys in there for safety."
+    } ]
+  }, {
+    "tStartMs": 485310,
+    "dDurationMs": 3860,
+    "segs": [ {
+      "utf8": "So please guys, never ever\npaste your keys in the chat."
+    } ]
+  }, {
+    "tStartMs": 489330,
+    "dDurationMs": 2180,
+    "segs": [ {
+      "utf8": "Always put them in an ENV file."
+    } ]
+  }, {
+    "tStartMs": 491690,
+    "dDurationMs": 3920,
+    "segs": [ {
+      "utf8": "I'm going to click on here and I'm going\nto paste in my API key and we're all set."
+    } ]
+  }, {
+    "tStartMs": 495750,
+    "dDurationMs": 5380,
+    "segs": [ {
+      "utf8": "And we are ready to generate. But\nbefore we actually make anything,"
+    } ]
+  }, {
+    "tStartMs": 501490,
+    "dDurationMs": 4640,
+    "segs": [ {
+      "utf8": "the next thing I want to talk about is\ndraft mode because a lot of people get this"
+    } ]
+  }, {
+    "tStartMs": 506130,
+    "dDurationMs": 5260,
+    "segs": [ {
+      "utf8": "wrong. What I mean by draft mode is CDES\n2.5 lets you make a 480p version of your"
+    } ]
+  }, {
+    "tStartMs": 511390,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "video first over and over\nuntil you like what you see."
+    } ]
+  }, {
+    "tStartMs": 515070,
+    "dDurationMs": 4940,
+    "segs": [ {
+      "utf8": "And then it finishes that exact same video\nin 1080p so you don't have to lose any"
+    } ]
+  }, {
+    "tStartMs": 520010,
+    "dDurationMs": 2560,
+    "segs": [ {
+      "utf8": "detail. And it's not like an upscaler."
+    } ]
+  }, {
+    "tStartMs": 522990,
+    "dDurationMs": 2900,
+    "segs": [ {
+      "utf8": "It's kind of like doing a\npencil sketch before you paint."
+    } ]
+  }, {
+    "tStartMs": 526030,
+    "dDurationMs": 2780,
+    "segs": [ {
+      "utf8": "You can redo the sketch over and\nover again as many times as you want."
+    } ]
+  }, {
+    "tStartMs": 528850,
+    "dDurationMs": 3620,
+    "segs": [ {
+      "utf8": "And then when you're ready, you're like,\ncool, I'm going to pay for the paint once."
+    } ]
+  }, {
+    "tStartMs": 532690,
+    "dDurationMs": 4040,
+    "segs": [ {
+      "utf8": "So use draft mode every time that you're\ntrying to draft something or generate"
+    } ]
+  }, {
+    "tStartMs": 536730,
+    "dDurationMs": 3380,
+    "segs": [ {
+      "utf8": "something with CDES. Now let's say that\nyou get a draft that you really like."
+    } ]
+  }, {
+    "tStartMs": 540390,
+    "dDurationMs": 3780,
+    "segs": [ {
+      "utf8": "What a lot of people will do is they're\ngoing to download it and then upload it"
+    } ]
+  }, {
+    "tStartMs": 544170,
+    "dDurationMs": 6000,
+    "segs": [ {
+      "utf8": "right back as the reference video\nthinking that's the same thing it is"
+    } ]
+  }, {
+    "tStartMs": 550170,
+    "dDurationMs": 5880,
+    "segs": [ {
+      "utf8": "not. And the reason why is that the\ndraft is tied to a task ID and not"
+    } ]
+  }, {
+    "tStartMs": 556050,
+    "dDurationMs": 4780,
+    "segs": [ {
+      "utf8": "the video file. So when you upload that\nfile again, that's actually totally"
+    } ]
+  }, {
+    "tStartMs": 560830,
+    "dDurationMs": 3620,
+    "segs": [ {
+      "utf8": "different kind of request and it\ndoesn't carry over any of your settings."
+    } ]
+  }, {
+    "tStartMs": 564570,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "So there's no promises that you're\ngoing to get the same video back."
+    } ]
+  }, {
+    "tStartMs": 568650,
+    "dDurationMs": 4840,
+    "segs": [ {
+      "utf8": "So basically you do all of the cheap tries\nin draft mode and then you only pay for"
+    } ]
+  }, {
+    "tStartMs": 573490,
+    "dDurationMs": 3420,
+    "segs": [ {
+      "utf8": "1080p one time. Hopefully\nthis makes sense."
+    } ]
+  }, {
+    "tStartMs": 577050,
+    "dDurationMs": 920,
+    "segs": [ {
+      "utf8": "You're going to see it in action."
+    } ]
+  }, {
+    "tStartMs": 578210,
+    "dDurationMs": 4860,
+    "segs": [ {
+      "utf8": "So I'm just going to drag in the depth\nmask, this one, and then the two photos that"
+    } ]
+  }, {
+    "tStartMs": 583070,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "I want to use, which is me and teen."
+    } ]
+  }, {
+    "tStartMs": 585790,
+    "dDurationMs": 5000,
+    "segs": [ {
+      "utf8": "And if you guys haven't met teen yet, teen\nis this little creature that I've made"
+    } ]
+  }, {
+    "tStartMs": 590790,
+    "dDurationMs": 1820,
+    "segs": [ {
+      "utf8": "with AI basically my companion."
+    } ]
+  }, {
+    "tStartMs": 593090,
+    "dDurationMs": 5140,
+    "segs": [ {
+      "utf8": "And also a really cool new project that\nI'm working on that is also linked in the"
+    } ]
+  }, {
+    "tStartMs": 598230,
+    "dDurationMs": 4420,
+    "segs": [ {
+      "utf8": "description as well. And then I'm going\nto paste in this really simple replacement"
+    } ]
+  }, {
+    "tStartMs": 602650,
+    "dDurationMs": 2460,
+    "segs": [ {
+      "utf8": "prompt. You can screenshot that."
+    } ]
+  }, {
+    "tStartMs": 605170,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "And then I'm just basically going to\nsay, hey, use the draft mode for this"
+    } ]
+  }, {
+    "tStartMs": 609410,
+    "dDurationMs": 700,
+    "segs": [ {
+      "utf8": "generation."
+    } ]
+  }, {
+    "tStartMs": 611110,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "Seed ends also needs links, not files."
+    } ]
+  }, {
+    "tStartMs": 613670,
+    "dDurationMs": 4960,
+    "segs": [ {
+      "utf8": "So please throw everything on a temporary\nserver like cat box or temp files."
+    } ]
+  }, {
+    "tStartMs": 618870,
+    "dDurationMs": 2920,
+    "segs": [ {
+      "utf8": "It's going to host your inputs temporarily\nand then you're going to hit enter."
+    } ]
+  }, {
+    "tStartMs": 621930,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "And this usually takes about one minute."
+    } ]
+  }, {
+    "tStartMs": 624430,
+    "dDurationMs": 1320,
+    "segs": [ {
+      "utf8": "Okay, cool. So here's what we got."
+    } ]
+  }, {
+    "tStartMs": 625830,
+    "dDurationMs": 3340,
+    "segs": [ {
+      "utf8": "And if you want to grab the video, you can\neither get it from the agent or you can"
+    } ]
+  }, {
+    "tStartMs": 629170,
+    "dDurationMs": 4540,
+    "segs": [ {
+      "utf8": "go into the logs and use a generic enhancer\ndashboard and give it a quick refresh."
+    } ]
+  }, {
+    "tStartMs": 634190,
+    "dDurationMs": 3700,
+    "segs": [ {
+      "utf8": "And it will be sitting right\nthere with your request ID."
+    } ]
+  }, {
+    "tStartMs": 638090,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "That's also going to match your agents."
+    } ]
+  }, {
+    "tStartMs": 639930,
+    "dDurationMs": 2300,
+    "segs": [ {
+      "utf8": "And I mean, it's not great, right?"
+    } ]
+  }, {
+    "tStartMs": 642850,
+    "dDurationMs": 2600,
+    "segs": [ {
+      "utf8": "Well, we basically have two problems here."
+    } ]
+  }, {
+    "tStartMs": 645590,
+    "dDurationMs": 3860,
+    "segs": [ {
+      "utf8": "The first one is that it didn't\nactually swap me in all the way."
+    } ]
+  }, {
+    "tStartMs": 650090,
+    "dDurationMs": 5720,
+    "segs": [ {
+      "utf8": "So that's my face, but that\nit's very much the actor's body"
+    } ]
+  }, {
+    "tStartMs": 655810,
+    "dDurationMs": 5500,
+    "segs": [ {
+      "utf8": "with all the long hair. And the second\nthing is that the whole thing is just"
+    } ]
+  }, {
+    "tStartMs": 661310,
+    "dDurationMs": 5660,
+    "segs": [ {
+      "utf8": "gray. So one way to fix this\nis to have the agent describe"
+    } ]
+  }, {
+    "tStartMs": 666970,
+    "dDurationMs": 5020,
+    "segs": [ {
+      "utf8": "the studio. And the reason why is like I\nsaid earlier, the depth mask has no idea"
+    } ]
+  }, {
+    "tStartMs": 671990,
+    "dDurationMs": 5520,
+    "segs": [ {
+      "utf8": "what the place looks like. And if this was\nyour reference video, this is why you got"
+    } ]
+  }, {
+    "tStartMs": 677510,
+    "dDurationMs": 3240,
+    "segs": [ {
+      "utf8": "back. So that's where the gray comes from."
+    } ]
+  }, {
+    "tStartMs": 680910,
+    "dDurationMs": 3340,
+    "segs": [ {
+      "utf8": "And what I'm going to do is I'm going to\ntake a screenshot of the original video and"
+    } ]
+  }, {
+    "tStartMs": 684250,
+    "dDurationMs": 1000,
+    "segs": [ {
+      "utf8": "I'm going to drop it into the agent."
+    } ]
+  }, {
+    "tStartMs": 685690,
+    "dDurationMs": 5040,
+    "segs": [ {
+      "utf8": "And I'm going to say, Hey, describe this\nplace for me, but do not describe the"
+    } ]
+  }, {
+    "tStartMs": 690730,
+    "dDurationMs": 4980,
+    "segs": [ {
+      "utf8": "people and then update the prompt with\nthat and send the same request again."
+    } ]
+  }, {
+    "tStartMs": 696410,
+    "dDurationMs": 1360,
+    "segs": [ {
+      "utf8": "So that's the problem that I'm using."
+    } ]
+  }, {
+    "tStartMs": 697990,
+    "dDurationMs": 1980,
+    "segs": [ {
+      "utf8": "You can pause and screenshot this."
+    } ]
+  }, {
+    "tStartMs": 700070,
+    "dDurationMs": 3560,
+    "segs": [ {
+      "utf8": "Since we're doing this with the agent, the\nagent knows exactly what they send before"
+    } ]
+  }, {
+    "tStartMs": 703630,
+    "dDurationMs": 3700,
+    "segs": [ {
+      "utf8": "and they can just update that request or\nupdate that payload, you don't have to do"
+    } ]
+  }, {
+    "tStartMs": 707330,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "anything manually because the\nagent has context of your workflow."
+    } ]
+  }, {
+    "tStartMs": 710750,
+    "dDurationMs": 1540,
+    "segs": [ {
+      "utf8": "And I'm just going to\nhit enter and submit it."
+    } ]
+  }, {
+    "tStartMs": 712350,
+    "dDurationMs": 3640,
+    "segs": [ {
+      "utf8": "Okay, now we have caller, which is nice."
+    } ]
+  }, {
+    "tStartMs": 716890,
+    "dDurationMs": 1740,
+    "segs": [ {
+      "utf8": "That's one of our two problems fixed."
+    } ]
+  }, {
+    "tStartMs": 718890,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "But I mean, the other\nproblem is still there."
+    } ]
+  }, {
+    "tStartMs": 721730,
+    "dDurationMs": 5620,
+    "segs": [ {
+      "utf8": "For some reason, it is still sticking way\ntoo close to the depth mask, which is why"
+    } ]
+  }, {
+    "tStartMs": 727350,
+    "dDurationMs": 4020,
+    "segs": [ {
+      "utf8": "it's still the actor's\nbody. It's not mine."
+    } ]
+  }, {
+    "tStartMs": 731770,
+    "dDurationMs": 3860,
+    "segs": [ {
+      "utf8": "I'm not entirely sure why. I think it's\nbasically, I don't know, I think it just"
+    } ]
+  }, {
+    "tStartMs": 735630,
+    "dDurationMs": 2580,
+    "segs": [ {
+      "utf8": "sees an outline and then it traces it."
+    } ]
+  }, {
+    "tStartMs": 738250,
+    "dDurationMs": 2420,
+    "segs": [ {
+      "utf8": "But I've got one more trick to fix this."
+    } ]
+  }, {
+    "tStartMs": 740870,
+    "dDurationMs": 5220,
+    "segs": [ {
+      "utf8": "So this time, I'm going to grab the original\nvideo and then our depth mask with the"
+    } ]
+  }, {
+    "tStartMs": 746090,
+    "dDurationMs": 5300,
+    "segs": [ {
+      "utf8": "changed audio, I'm going to drop the original\nclip into cap cut, and then I'm going"
+    } ]
+  }, {
+    "tStartMs": 751390,
+    "dDurationMs": 2400,
+    "segs": [ {
+      "utf8": "to put in the depth\nmask right on top of it."
+    } ]
+  }, {
+    "tStartMs": 753850,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "I'm going to mute the original clip."
+    } ]
+  }, {
+    "tStartMs": 755510,
+    "dDurationMs": 2900,
+    "segs": [ {
+      "utf8": "So the only audio left\nis our pitched vocals."
+    } ]
+  }, {
+    "tStartMs": 758650,
+    "dDurationMs": 5740,
+    "segs": [ {
+      "utf8": "And I'm going to click on the depth mask\nand go over to the video tab, then the"
+    } ]
+  }, {
+    "tStartMs": 764390,
+    "dDurationMs": 5280,
+    "segs": [ {
+      "utf8": "background removal, then click on customer\nremoval, and just highlight the people."
+    } ]
+  }, {
+    "tStartMs": 769970,
+    "dDurationMs": 4300,
+    "segs": [ {
+      "utf8": "Basically, what this is doing is that it's\ncutting out just the people and then it's"
+    } ]
+  }, {
+    "tStartMs": 774270,
+    "dDurationMs": 2620,
+    "segs": [ {
+      "utf8": "laying them on top of the original video."
+    } ]
+  }, {
+    "tStartMs": 777310,
+    "dDurationMs": 5820,
+    "segs": [ {
+      "utf8": "Now, why does that work? Well, if you\nthink about it like now, it's a very"
+    } ]
+  }, {
+    "tStartMs": 783130,
+    "dDurationMs": 3760,
+    "segs": [ {
+      "utf8": "different video. We were giving it a depth\nmask, which is really just the outline."
+    } ]
+  }, {
+    "tStartMs": 787510,
+    "dDurationMs": 3800,
+    "segs": [ {
+      "utf8": "So it was raising the outline before and\nnow we are giving it something that that is"
+    } ]
+  }, {
+    "tStartMs": 791310,
+    "dDurationMs": 2680,
+    "segs": [ {
+      "utf8": "totally different and it\nstops from tracing it."
+    } ]
+  }, {
+    "tStartMs": 794030,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "So I don't know. It looks\nat the whole thing again."
+    } ]
+  }, {
+    "tStartMs": 796390,
+    "dDurationMs": 2380,
+    "segs": [ {
+      "utf8": "And I'm going to export that.\nThis is what it looks like."
+    } ]
+  }, {
+    "tStartMs": 798830,
+    "dDurationMs": 3740,
+    "segs": [ {
+      "utf8": "Then I'm going to send it back to the agent\nand say, Hey, swap the old sorts video"
+    } ]
+  }, {
+    "tStartMs": 802570,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "for this new one and make another draft."
+    } ]
+  }, {
+    "tStartMs": 806370,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "And look at that. That\nworked. That's pretty cool."
+    } ]
+  }, {
+    "tStartMs": 811110,
+    "dDurationMs": 2320,
+    "segs": [ {
+      "utf8": "Okay, so that was basically four moves."
+    } ]
+  }, {
+    "tStartMs": 813570,
+    "dDurationMs": 4860,
+    "segs": [ {
+      "utf8": "We hit the face, we hit the music, we\ndescribed the room, and then we laid the"
+    } ]
+  }, {
+    "tStartMs": 818430,
+    "dDurationMs": 4980,
+    "segs": [ {
+      "utf8": "people over the real video. And that's way\ntoo much manual work to do every single"
+    } ]
+  }, {
+    "tStartMs": 823410,
+    "dDurationMs": 5540,
+    "segs": [ {
+      "utf8": "time. But but you can do all of it with\none click the same way Higgsfield does"
+    } ]
+  }, {
+    "tStartMs": 828950,
+    "dDurationMs": 5840,
+    "segs": [ {
+      "utf8": "with the workflow. So I had the\nagent turn everything we just did"
+    } ]
+  }, {
+    "tStartMs": 834790,
+    "dDurationMs": 4100,
+    "segs": [ {
+      "utf8": "into one. All you need is a replicate\naccount and I'm giving you a skill that sets"
+    } ]
+  }, {
+    "tStartMs": 838890,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "everything up. Hugging face is also\noptional, just a backup choice."
+    } ]
+  }, {
+    "tStartMs": 843190,
+    "dDurationMs": 2220,
+    "segs": [ {
+      "utf8": "So really quickly it is 11 steps."
+    } ]
+  }, {
+    "tStartMs": 845690,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "One, we upload the original video."
+    } ]
+  }, {
+    "tStartMs": 847630,
+    "dDurationMs": 5900,
+    "segs": [ {
+      "utf8": "We keep the original video for\nalso the final audio to demicus on"
+    } ]
+  }, {
+    "tStartMs": 853530,
+    "dDurationMs": 2420,
+    "segs": [ {
+      "utf8": "replicate splits the\nvocals from the music."
+    } ]
+  }, {
+    "tStartMs": 856310,
+    "dDurationMs": 4620,
+    "segs": [ {
+      "utf8": "Three rubber band pitches the\nvocals up by three semitones."
+    } ]
+  }, {
+    "tStartMs": 861290,
+    "dDurationMs": 5700,
+    "segs": [ {
+      "utf8": "Four, we have depth anything video, which\nmakes the collared depth video that we"
+    } ]
+  }, {
+    "tStartMs": 866990,
+    "dDurationMs": 4100,
+    "segs": [ {
+      "utf8": "talked about. Five, we have Sam three\ncutting out all the people on every frame."
+    } ]
+  }, {
+    "tStartMs": 871330,
+    "dDurationMs": 3300,
+    "segs": [ {
+      "utf8": "Six, it puts those depth people\nover the original background."
+    } ]
+  }, {
+    "tStartMs": 874990,
+    "dDurationMs": 3140,
+    "segs": [ {
+      "utf8": "Seven, the pitched vocals go\nright inside of that video."
+    } ]
+  }, {
+    "tStartMs": 878510,
+    "dDurationMs": 2240,
+    "segs": [ {
+      "utf8": "Eight, you check\neverything before it sends."
+    } ]
+  }, {
+    "tStartMs": 881090,
+    "dDurationMs": 3280,
+    "segs": [ {
+      "utf8": "Nine, C dense makes a draft\nthrough enhancer in the edit mode."
+    } ]
+  }, {
+    "tStartMs": 884730,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "Ten, it throws away C dense audio and puts\nin the whole original soundtrack back."
+    } ]
+  }, {
+    "tStartMs": 889950,
+    "dDurationMs": 5900,
+    "segs": [ {
+      "utf8": "And 11, you approve it. And it makes a\n1080p video and you download the final"
+    } ]
+  }, {
+    "tStartMs": 895850,
+    "dDurationMs": 4080,
+    "segs": [ {
+      "utf8": "and before I know well but this\nworkflow is making millions of dollars."
+    } ]
+  }, {
+    "tStartMs": 900290,
+    "dDurationMs": 2180,
+    "segs": [ {
+      "utf8": "Now you don't have to\ndo any of that yourself."
+    } ]
+  }, {
+    "tStartMs": 903170,
+    "dDurationMs": 3620,
+    "segs": [ {
+      "utf8": "I'll show you all of it running\nas soon as it is set up."
+    } ]
+  }, {
+    "tStartMs": 906990,
+    "dDurationMs": 3640,
+    "segs": [ {
+      "utf8": "So this whole thing runs through your\nagent and it comes with its own interface."
+    } ]
+  }, {
+    "tStartMs": 910710,
+    "dDurationMs": 1580,
+    "segs": [ {
+      "utf8": "I built all of it for you guys."
+    } ]
+  }, {
+    "tStartMs": 912490,
+    "dDurationMs": 3360,
+    "segs": [ {
+      "utf8": "All you have to do is download the skill,\ngive it to your agent and then plug in"
+    } ]
+  }, {
+    "tStartMs": 915850,
+    "dDurationMs": 3740,
+    "segs": [ {
+      "utf8": "your API keys from enhancer and replicate\nso you can grab the skill in the"
+    } ]
+  }, {
+    "tStartMs": 919590,
+    "dDurationMs": 4460,
+    "segs": [ {
+      "utf8": "description, grab the folder and we're\ngoing to drag it in and in codecs and we're"
+    } ]
+  }, {
+    "tStartMs": 924050,
+    "dDurationMs": 5440,
+    "segs": [ {
+      "utf8": "going to say please read the read me file\nand set this up for me and just let the"
+    } ]
+  }, {
+    "tStartMs": 929490,
+    "dDurationMs": 3080,
+    "segs": [ {
+      "utf8": "agent do it. The agent is going to set\nup everything for you and ask you some"
+    } ]
+  }, {
+    "tStartMs": 932570,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "questions along the way. And if you don't\nwant to download the files for whatever"
+    } ]
+  }, {
+    "tStartMs": 935890,
+    "dDurationMs": 5200,
+    "segs": [ {
+      "utf8": "reason, you can just ask your agent\nto build this workflow over here."
+    } ]
+  }, {
+    "tStartMs": 941430,
+    "dDurationMs": 5500,
+    "segs": [ {
+      "utf8": "So you can just screenshot this or just\ngive it my video transcript of this YouTube"
+    } ]
+  }, {
+    "tStartMs": 946930,
+    "dDurationMs": 5440,
+    "segs": [ {
+      "utf8": "video. Now I already have mine set up\nand there are two ways to run this."
+    } ]
+  }, {
+    "tStartMs": 952470,
+    "dDurationMs": 4880,
+    "segs": [ {
+      "utf8": "The first one is you just drop in the\nvideo that you want to change and then the"
+    } ]
+  }, {
+    "tStartMs": 957350,
+    "dDurationMs": 5960,
+    "segs": [ {
+      "utf8": "photos that you want to be placed in\nthe video are like swapped and you say,"
+    } ]
+  }, {
+    "tStartMs": 963530,
+    "dDurationMs": 2980,
+    "segs": [ {
+      "utf8": "Hey, run the workflow as simple as that."
+    } ]
+  }, {
+    "tStartMs": 966570,
+    "dDurationMs": 4120,
+    "segs": [ {
+      "utf8": "The second one you do it yourself in the\nUI interface and that's what I'm going to"
+    } ]
+  }, {
+    "tStartMs": 970690,
+    "dDurationMs": 2140,
+    "segs": [ {
+      "utf8": "do here. So you guys can see every step."
+    } ]
+  }, {
+    "tStartMs": 973030,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "So the interface is really just four steps\nbecause you don't see everything that's"
+    } ]
+  }, {
+    "tStartMs": 977270,
+    "dDurationMs": 5320,
+    "segs": [ {
+      "utf8": "happening in the back end. You have to\nupload, review, draft and export or save."
+    } ]
+  }, {
+    "tStartMs": 982590,
+    "dDurationMs": 5780,
+    "segs": [ {
+      "utf8": "So I'm going to upload my video, which\ncan be an MP4 or a MOV up to 30 seconds."
+    } ]
+  }, {
+    "tStartMs": 988550,
+    "dDurationMs": 4920,
+    "segs": [ {
+      "utf8": "I'm going to leave it on advanced because\nthat's the depth workflow we just built."
+    } ]
+  }, {
+    "tStartMs": 993850,
+    "dDurationMs": 1760,
+    "segs": [ {
+      "utf8": "And then I'm going to click prepare."
+    } ]
+  }, {
+    "tStartMs": 996050,
+    "dDurationMs": 4220,
+    "segs": [ {
+      "utf8": "And so right now it's doing steps\nthrough one to seven all by itself."
+    } ]
+  }, {
+    "tStartMs": 1000470,
+    "dDurationMs": 3100,
+    "segs": [ {
+      "utf8": "You don't have to do anything. It's\nsplitting the vocals from the music."
+    } ]
+  }, {
+    "tStartMs": 1003770,
+    "dDurationMs": 3200,
+    "segs": [ {
+      "utf8": "It's pitching them up\neverything we did in cup cut."
+    } ]
+  }, {
+    "tStartMs": 1007410,
+    "dDurationMs": 3940,
+    "segs": [ {
+      "utf8": "And then it's making the depth video,\ncutting the people with Sam three laying them"
+    } ]
+  }, {
+    "tStartMs": 1011350,
+    "dDurationMs": 5740,
+    "segs": [ {
+      "utf8": "over the original background and cleaning\nup every little stray or edges that are"
+    } ]
+  }, {
+    "tStartMs": 1017090,
+    "dDurationMs": 1880,
+    "segs": [ {
+      "utf8": "off from that mask. This is step eight."
+    } ]
+  }, {
+    "tStartMs": 1019030,
+    "dDurationMs": 4200,
+    "segs": [ {
+      "utf8": "And it's not going to let me generate\nuntil I've watched the whole thing and I've"
+    } ]
+  }, {
+    "tStartMs": 1023230,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "approved it myself. And the reason\nfor that is that might be a bad mask."
+    } ]
+  }, {
+    "tStartMs": 1028070,
+    "dDurationMs": 5920,
+    "segs": [ {
+      "utf8": "So we don't, I don't want you to\nbasically just throw money down"
+    } ]
+  }, {
+    "tStartMs": 1033990,
+    "dDurationMs": 2480,
+    "segs": [ {
+      "utf8": "the drain. AI agents are unpredictable."
+    } ]
+  }, {
+    "tStartMs": 1036850,
+    "dDurationMs": 3320,
+    "segs": [ {
+      "utf8": "That's why we make sure that\nthey check their work every time."
+    } ]
+  }, {
+    "tStartMs": 1040550,
+    "dDurationMs": 2780,
+    "segs": [ {
+      "utf8": "So it's checking for holes in\nthe body, the hair or hands."
+    } ]
+  }, {
+    "tStartMs": 1043510,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "This one to me looks very clean."
+    } ]
+  }, {
+    "tStartMs": 1045350,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "So I'm going to prove this. And\nthen I'm going to add my characters."
+    } ]
+  }, {
+    "tStartMs": 1049970,
+    "dDurationMs": 5400,
+    "segs": [ {
+      "utf8": "So character one, that's me. Character\ntwo is optional in this case, it's teen."
+    } ]
+  }, {
+    "tStartMs": 1055550,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "And then the prompt is already written."
+    } ]
+  }, {
+    "tStartMs": 1057750,
+    "dDurationMs": 2260,
+    "segs": [ {
+      "utf8": "And you can edit that if you wish."
+    } ]
+  }, {
+    "tStartMs": 1060210,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "And I'm going to generate my draft."
+    } ]
+  }, {
+    "tStartMs": 1062610,
+    "dDurationMs": 2780,
+    "segs": [ {
+      "utf8": "Cool. So here's our\ndraft and listen to that."
+    } ]
+  }, {
+    "tStartMs": 1071290,
+    "dDurationMs": 3180,
+    "segs": [ {
+      "utf8": "Take notes. That's the original\naudio on the pitched one."
+    } ]
+  }, {
+    "tStartMs": 1075330,
+    "dDurationMs": 2060,
+    "segs": [ {
+      "utf8": "And I'm pretty happy with this."
+    } ]
+  }, {
+    "tStartMs": 1077630,
+    "dDurationMs": 4900,
+    "segs": [ {
+      "utf8": "So I'm going to approve that. And then\nit makes the 1080p and puts the original"
+    } ]
+  }, {
+    "tStartMs": 1082530,
+    "dDurationMs": 5620,
+    "segs": [ {
+      "utf8": "audio back one more time.\nAnd that one does cost extra."
+    } ]
+  }, {
+    "tStartMs": 1088430,
+    "dDurationMs": 2760,
+    "segs": [ {
+      "utf8": "And it's never going to do it without\nasking you first or approving."
+    } ]
+  }, {
+    "tStartMs": 1091330,
+    "dDurationMs": 3600,
+    "segs": [ {
+      "utf8": "Now that workflow is the best one if you\nwant to bulletproof your generations."
+    } ]
+  }, {
+    "tStartMs": 1095410,
+    "dDurationMs": 2980,
+    "segs": [ {
+      "utf8": "And it mostly uses the\naudio to match the words."
+    } ]
+  }, {
+    "tStartMs": 1098790,
+    "dDurationMs": 3040,
+    "segs": [ {
+      "utf8": "So if your video has no audio,\nit will still generate for sure."
+    } ]
+  }, {
+    "tStartMs": 1101990,
+    "dDurationMs": 5560,
+    "segs": [ {
+      "utf8": "But there's one more workflow for when\nyou want the face to move exactly like the"
+    } ]
+  }, {
+    "tStartMs": 1107550,
+    "dDurationMs": 4720,
+    "segs": [ {
+      "utf8": "original. And it's the same workflow,\nbut we add what's called a face mash."
+    } ]
+  }, {
+    "tStartMs": 1112710,
+    "dDurationMs": 3640,
+    "segs": [ {
+      "utf8": "And what I mean by that, it's a little\nwireframe that gets drawn right on top of the"
+    } ]
+  }, {
+    "tStartMs": 1116350,
+    "dDurationMs": 5300,
+    "segs": [ {
+      "utf8": "face. It's kind of like those dots that\nthey put on actor spaces in the behind the"
+    } ]
+  }, {
+    "tStartMs": 1121650,
+    "dDurationMs": 4520,
+    "segs": [ {
+      "utf8": "scene videos, they can track them, the dots\ncan capture how the face moves and then"
+    } ]
+  }, {
+    "tStartMs": 1126170,
+    "dDurationMs": 3820,
+    "segs": [ {
+      "utf8": "the computer can totally create a\ndifferent character on top of that."
+    } ]
+  }, {
+    "tStartMs": 1130090,
+    "dDurationMs": 2020,
+    "segs": [ {
+      "utf8": "So that same thing,\nsame thing applies here."
+    } ]
+  }, {
+    "tStartMs": 1132930,
+    "dDurationMs": 4280,
+    "segs": [ {
+      "utf8": "It's going to track how the face moves\nand it's still going to hide the person"
+    } ]
+  }, {
+    "tStartMs": 1137210,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "behind it. And this is actually the\neasiest one because it only has two steps."
+    } ]
+  }, {
+    "tStartMs": 1140870,
+    "dDurationMs": 5240,
+    "segs": [ {
+      "utf8": "So you can change the pitch, you can add\nthe face mash and there's no cutting anyone"
+    } ]
+  }, {
+    "tStartMs": 1146110,
+    "dDurationMs": 3520,
+    "segs": [ {
+      "utf8": "out like that. Like it just removes\nall those extra other steps."
+    } ]
+  }, {
+    "tStartMs": 1149750,
+    "dDurationMs": 3700,
+    "segs": [ {
+      "utf8": "So if you guys downloaded the project,\nyou can just ask the agent to use this"
+    } ]
+  }, {
+    "tStartMs": 1153450,
+    "dDurationMs": 3460,
+    "segs": [ {
+      "utf8": "workflow instead, it's faster. And\nit's also right here in the interface."
+    } ]
+  }, {
+    "tStartMs": 1157190,
+    "dDurationMs": 4660,
+    "segs": [ {
+      "utf8": "It's just called fast, or you can ask it\nto install the face mash tracking and put"
+    } ]
+  }, {
+    "tStartMs": 1161850,
+    "dDurationMs": 1700,
+    "segs": [ {
+      "utf8": "it on top of the original video."
+    } ]
+  }, {
+    "tStartMs": 1163690,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "You send that in and you\nget something like this."
+    } ]
+  }, {
+    "tStartMs": 1166330,
+    "dDurationMs": 4040,
+    "segs": [ {
+      "utf8": "That's dope. That's crazy. So what the\nface mash is doing is it's tracking"
+    } ]
+  }, {
+    "tStartMs": 1171750,
+    "dDurationMs": 5920,
+    "segs": [ {
+      "utf8": "478 points on the face. So around\nthe eyes, the lips, the nose,"
+    } ]
+  }, {
+    "tStartMs": 1177910,
+    "dDurationMs": 4160,
+    "segs": [ {
+      "utf8": "the whole face. And it is drawing\nthat mash on every single frame."
+    } ]
+  }, {
+    "tStartMs": 1182450,
+    "dDurationMs": 5860,
+    "segs": [ {
+      "utf8": "And it saves all of those points with\nall the timing in a file that we have set"
+    } ]
+  }, {
+    "tStartMs": 1188310,
+    "dDurationMs": 3660,
+    "segs": [ {
+      "utf8": "up to be called face landmarks .json."
+    } ]
+  }, {
+    "tStartMs": 1192270,
+    "dDurationMs": 2640,
+    "segs": [ {
+      "utf8": "Everything is done and safe for you."
+    } ]
+  }, {
+    "tStartMs": 1195010,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "You don't have to worry about it."
+    } ]
+  }, {
+    "tStartMs": 1196370,
+    "dDurationMs": 5200,
+    "segs": [ {
+      "utf8": "And it uses Google's face landmark model\nfrom Google's official model storage."
+    } ]
+  }, {
+    "tStartMs": 1201790,
+    "dDurationMs": 4700,
+    "segs": [ {
+      "utf8": "One heads up though, at least right now,\nthis works best with one person which is"
+    } ]
+  }, {
+    "tStartMs": 1206490,
+    "dDurationMs": 1380,
+    "segs": [ {
+      "utf8": "centered talking to the camera."
+    } ]
+  }, {
+    "tStartMs": 1208010,
+    "dDurationMs": 4320,
+    "segs": [ {
+      "utf8": "If you have two people moving around, I\nwould just stick with a depth mask workflow."
+    } ]
+  }, {
+    "tStartMs": 1212570,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "And if you want to bullet prove this even\nmore, you can ask the agent to put the"
+    } ]
+  }, {
+    "tStartMs": 1217250,
+    "dDurationMs": 3140,
+    "segs": [ {
+      "utf8": "face mash on top of the\ncut out depth video."
+    } ]
+  }, {
+    "tStartMs": 1220630,
+    "dDurationMs": 1440,
+    "segs": [ {
+      "utf8": "So on top of this one right here."
+    } ]
+  }, {
+    "tStartMs": 1222690,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "And then you get something like this."
+    } ]
+  }, {
+    "tStartMs": 1224250,
+    "dDurationMs": 2180,
+    "segs": [ {
+      "utf8": "And then you send that\nin as a source video."
+    } ]
+  }, {
+    "tStartMs": 1226710,
+    "dDurationMs": 2160,
+    "segs": [ {
+      "utf8": "And again, all of this\nworks by just talking to it."
+    } ]
+  }, {
+    "tStartMs": 1228910,
+    "dDurationMs": 2980,
+    "segs": [ {
+      "utf8": "There's nothing for you\nto install yourself."
+    } ]
+  }, {
+    "tStartMs": 1232170,
+    "dDurationMs": 4840,
+    "segs": [ {
+      "utf8": "You just ask the agent to set up the Google\nMedia Pipe Face Landmarker or any other"
+    } ]
+  }, {
+    "tStartMs": 1237010,
+    "dDurationMs": 3360,
+    "segs": [ {
+      "utf8": "packages. Okay, this\nhas been a long video."
+    } ]
+  }, {
+    "tStartMs": 1240970,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "So from here, you guys can\nkeep making things better."
+    } ]
+  }, {
+    "tStartMs": 1243090,
+    "dDurationMs": 5500,
+    "segs": [ {
+      "utf8": "You can add a transcriber. So it writes\ndown what's said in the video and puts that"
+    } ]
+  }, {
+    "tStartMs": 1248590,
+    "dDurationMs": 4240,
+    "segs": [ {
+      "utf8": "into the prompt. You could have the agent\nwatch the original video and describe the"
+    } ]
+  }, {
+    "tStartMs": 1252830,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "movement in detail second by second."
+    } ]
+  }, {
+    "tStartMs": 1254870,
+    "dDurationMs": 1920,
+    "segs": [ {
+      "utf8": "And then you can even use your own voice."
+    } ]
+  }, {
+    "tStartMs": 1257050,
+    "dDurationMs": 5900,
+    "segs": [ {
+      "utf8": "So you basically make your and I'm here\nto spill the secrets behind API's so"
+    } ]
+  }, {
+    "tStartMs": 1262950,
+    "dDurationMs": 2940,
+    "segs": [ {
+      "utf8": "that you can build\nmillion dollar workflows."
+    } ]
+  }, {
+    "tStartMs": 1266150,
+    "dDurationMs": 4460,
+    "segs": [ {
+      "utf8": "That is it. And if you take one thing away\nfrom this video is that everything, every"
+    } ]
+  }, {
+    "tStartMs": 1270610,
+    "dDurationMs": 4160,
+    "segs": [ {
+      "utf8": "one of these tricks was basically just the\nsame idea implemented in different ways"
+    } ]
+  }, {
+    "tStartMs": 1274770,
+    "dDurationMs": 4680,
+    "segs": [ {
+      "utf8": "and methods. You just keep how things move\nand you throw away who is in the video."
+    } ]
+  }, {
+    "tStartMs": 1279510,
+    "dDurationMs": 3240,
+    "segs": [ {
+      "utf8": "And hopefully you guys know how Genjutsu\nactually works now and how to build"
+    } ]
+  }, {
+    "tStartMs": 1282750,
+    "dDurationMs": 5200,
+    "segs": [ {
+      "utf8": "yourself. I have attached the entire\nopen source project in the link in the"
+    } ]
+  }, {
+    "tStartMs": 1287950,
+    "dDurationMs": 2380,
+    "segs": [ {
+      "utf8": "description. So just get it from there."
+    } ]
+  }, {
+    "tStartMs": 1290510,
+    "dDurationMs": 2440,
+    "segs": [ {
+      "utf8": "It's free and go make something with it."
+    } ]
+  }, {
+    "tStartMs": 1293430,
+    "dDurationMs": 4600,
+    "segs": [ {
+      "utf8": "And in the next one, we're\ngoing to go way past the basics."
+    } ]
+  }, {
+    "tStartMs": 1298290,
+    "dDurationMs": 3720,
+    "segs": [ {
+      "utf8": "See you guys there and do not\nforget, create without limits."
+    } ]
+  }, {
+    "tStartMs": 1302610,
+    "dDurationMs": 700,
+    "segs": [ {
+      "utf8": "This is Sirio."
+    } ]
+  } ]
+}

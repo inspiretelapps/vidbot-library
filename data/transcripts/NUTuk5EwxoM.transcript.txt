@@ -1,0 +1,1085 @@
+00:00 There's this new model that came out a
+00:01 
+00:01 little bit ago called Jev. That's not a
+00:03 
+00:03 normal new model like a new Opus release
+00:05 
+00:06 or something. Instead of being a normal
+00:07 
+00:07 AI model that generates a bunch of texts
+00:09 
+00:09 which can run in loops and do tool calls
+00:11 
+00:11 and agent things, it's a decisions model
+00:14 
+00:14 which will take a bunch of options and
+00:16 
+00:16 then give you the likely probability of
+00:19 
+00:19 each option. And it is extremely cool.
+00:21 
+00:21 This is a very dope release that a lot
+00:23 
+00:23 of people were very excited about. It
+00:24 
+00:24 does actually add in new abilities. I
+00:27 
+00:27 have a bunch of stuff that I want to
+00:28 
+00:28 show for like where Jev actually makes
+00:30 
+00:30 sense. But there's also some places and
+00:32 
+00:32 things that I've been seeing go very
+00:33 
+00:33 viral that are very stupid, like
+00:36 
+00:36 extremely stupid use cases of Jev that
+00:38 
+00:38 make no sense. But we'll get into that
+00:40 
+00:40 later. I want to just talk about the
+00:42 
+00:42 good first. And there there's a lot of
+00:44 
+00:44 really good stuff here. This is the
+00:46 
+00:46 official announcement for the Jev model.
+00:48 
+00:48 The big thing that it does differently
+00:50 
+00:50 is that while both normal LMS and Jev
+00:53 
+00:53 take in normal unstructured data like
+00:55 
+00:55 whatever you want, the big change is
+00:57 
+00:58 what the output is. The output on an LM
+00:59 
+00:59 is just text. It's a bunch of random
+01:01 
+01:01 text stuff. The output on Jev is type-S
+01:04 
+01:04 safe structured values. It is a clear
+01:06 
+01:06 contract of it will output the same
+01:07 
+01:07 shape every single time, which makes it
+01:09 
+01:10 far more deterministic in nature. And
+01:11 
+01:11 when you combine that with the fact that
+01:13 
+01:13 the input tokens are incredibly cheap,
+01:15 
+01:15 the output tokens are free and you can
+01:17 
+01:17 run a ton of these requests in parallel
+01:20 
+01:20 in like one request. So you send one
+01:22 
+01:22 request that's asking for 10 different
+01:23 
+01:23 decisions. You can just do that and
+01:25 
+01:25 it'll give you all the answers at once
+01:27 
+01:27 in a clear, predictable, structured
+01:29 
+01:29 output that can be parsed by code
+01:30 
+01:30 instead of by a model. It's very useful.
+01:32 
+01:32 And the obvious first example here would
+01:34 
+01:34 be something like classification. So say
+01:36 
+01:36 you have a message come into a support
+01:38 
+01:38 email and you want to have a classifier
+01:40 
+01:40 run on that to mark it as billing,
+01:42 
+01:42 technical, sales or ambiguous. So you
+01:44 
+01:44 get this question. These are the
+01:45 
+01:45 categories with a little description of
+01:47 
+01:47 each one. You run this. It's nearly
+01:49 
+01:49 instant and you get a confidence
+01:51 
+01:51 probability for each answer. So it is
+01:53 
+01:53 100% confident that this is a billing
+01:55 
+01:55 related request which is basically
+01:57 
+01:57 correct. That's fine. Another useful
+01:59 
+01:59 mode quote unquote this thing has is the
+02:01 
+02:01 null probability which is basically just
+02:03 
+02:03 is this statement true or false? It's a
+02:05 
+02:05 boolean. So you give it some input and
+02:07 
+02:07 then it will return the percentage
+02:08 
+02:08 chance of yes and of no. So you could
+02:11 
+02:11 have something in here like uh is this
+02:13 
+02:13 message urgent or timesensitive? The
+02:15 
+02:15 criteria is true, explicit urgency,
+02:18 
+02:18 false, no, time pressure expressed and
+02:20 
+02:20 you pass in some random request, it'll
+02:22 
+02:22 give you that percentage chance. So you
+02:24 
+02:24 could use this as a quick switch on
+02:26 
+02:26 something to maybe prioritize stuff like
+02:28 
+02:28 this could be a very good important
+02:30 
+02:30 filter within an email or whatever. The
+02:32 
+02:32 third type of request is a scoring
+02:34 
+02:34 request, which this one's kind of the
+02:36 
+02:36 weirdest, but it's still very useful.
+02:37 
+02:37 So, the way it works is you give the
+02:39 
+02:39 model a set of criteria. So, say the
+02:41 
+02:42 zero criteria is calm or neutral, one is
+02:45 
+02:45 frustrated, but civil, two is very
+02:47 
+02:47 angry, expresses intense frustration or
+02:49 
+02:49 hostility. And the instructions here are
+02:51 
+02:51 to judge the expressed emotion. You pass
+02:53 
+02:54 in some user message or whatever. And
+02:55 
+02:56 you will get a score between 0ero and
+02:57 
+02:57 one of how frustrated that user is. So
+03:01 
+03:01 in the example here, the message that
+03:02 
+03:02 the user sent would be about a 35% on
+03:05 
+03:05 the anger scale with a47 confidence. And
+03:09 
+03:09 again, for all three of these request
+03:10 
+03:10 formats, you will get out a fixed JSON
+03:13 
+03:13 blob that it's effectively type safe. So
+03:15 
+03:15 you can do programmatic calls on this
+03:17 
+03:17 for score, for null, for choice. All of
+03:19 
+03:19 them work that way. And as I mentioned
+03:21 
+03:21 earlier, you can send multiple questions
+03:23 
+03:23 at once. So we have two null checks, one
+03:25 
+03:25 score check here. You run them and all
+03:27 
+03:27 three of these pop out from one request.
+03:29 
+03:29 So, you eat the input tokens on all of
+03:30 
+03:30 them. No output token price. It's very
+03:32 
+03:32 quick, very useful. This is a very cool
+03:35 
+03:35 model that unlocks a lot of very novel
+03:37 
+03:37 things. I've seen some dope use cases.
+03:38 
+03:38 I'll show you a couple here. But I've
+03:40 
+03:40 also seen some really, really stupid
+03:42 
+03:42 ones, which I'll show you right after
+03:43 
+03:43 today's sponsor. So, I am very excited
+03:46 
+03:46 about today's sponsor because I
+03:47 
+03:47 successfully tricked Grockbot into
+03:49 
+03:49 paying me. Yes, that's right. This is an
+03:51 
+03:51 ad for Grockbot, the thing that I've
+03:52 
+03:52 talked about in multiple videos and will
+03:54 
+03:54 continue to talk about because it's
+03:55 
+03:55 really good and I run basically all my
+03:57 
+03:57 stuff through it. It is the single best
+04:00 
+04:00 personal agent assistant thing that is
+04:02 
+04:02 out on the market right now. Full stop.
+04:04 
+04:04 It is great for teams. It's great for
+04:05 
+04:06 individuals. It is so powerful to have
+04:07 
+04:08 this always on agent system that has
+04:10 
+04:10 routines, a full computer onto itself. A
+04:13 
+04:13 ton of different bots that are able to
+04:14 
+04:14 communicate with each other in just a
+04:16 
+04:16 really good desktop app, mobile app, and
+04:19 
+04:19 now even in the grock.com website. It's
+04:21 
+04:21 all in there. The whole thing just feels
+04:23 
+04:23 great. And to show you a specific
+04:25 
+04:25 example, this one's tough because like I
+04:27 
+04:27 really can't show too much of how I'm
+04:29 
+04:29 using bot because all of it's like
+04:30 
+04:30 personal private business stuff. But
+04:32 
+04:32 this one is really useful. I have it
+04:34 
+04:34 hooked up so that Amazon is signed in on
+04:36 
+04:36 the Grockbot computer. And you can see
+04:38 
+04:38 right here, it just proactively sent me
+04:40 
+04:40 a message at 8 a.m. today. Hey, here's
+04:42 
+04:42 all what's arriving today. And whenever
+04:44 
+04:44 something does arrive, it goes into an
+04:46 
+04:46 Amazon locker. It'll send me the code
+04:47 
+04:47 for that. I grab it. It all works. If I
+04:49 
+04:49 want to order something, I just tell it
+04:51 
+04:51 to go do it. It'll give me a little
+04:52 
+04:52 confirmation message that looks kind of
+04:54 
+04:54 like this and that's it. It just works.
+04:57 
+04:57 I could keep going on about this for a
+04:59 
+04:59 while, but seriously, just go try it
+05:00 
+05:00 out. Hook up everything you use
+05:02 
+05:02 day-to-day like notion, Gmail, etc., and
+05:04 
+05:04 then talk to the bot. Get everything set
+05:06 
+05:06 up. You'll be very happy with it at
+05:08 
+05:08 dav7.link/bot.
+05:10 
+05:10 Starting with a lot of the dumb use
+05:11 
+05:11 cases here because unfortunately I think
+05:13 
+05:13 the discourse around Jev has gotten
+05:15 
+05:15 polluted by people trying to stick this
+05:16 
+05:16 thing in a lot of places that it just
+05:18 
+05:18 does not belong. This model is not as
+05:20 
+05:20 smart as a normal LLM. Just because it
+05:22 
+05:22 can make decisions does not mean that
+05:24 
+05:24 those decisions are going to be nearly
+05:26 
+05:26 as good as something like Opus 55 with
+05:28 
+05:28 actual reasoning happening with lots
+05:30 
+05:30 more context, actual tool calls doing
+05:32 
+05:32 things. This is just a switch statement.
+05:35 
+05:35 And if you can make a quick gut check
+05:37 
+05:37 decision with narrow context, yeah, it's
+05:39 
+05:39 fantastic. And there's a lot of useful
+05:41 
+05:41 places to put that. This example of
+05:43 
+05:43 using Jev for compaction is stupid. Like
+05:46 
+05:46 extremely stupid. Do not do this. If you
+05:48 
+05:48 want my take on compaction, just use
+05:50 
+05:50 what the labs ship with. They have
+05:51 
+05:51 trained and optimized their models to
+05:53 
+05:53 work well with their own native
+05:55 
+05:55 compaction system. They know when it's
+05:57 
+05:57 coming. They know how to use it. Don't
+05:58 
+05:58 try and complicate it. You will end up
+06:00 
+06:00 shooting yourself in the foot. And
+06:02 
+06:02 that's what this does. This goes through
+06:03 
+06:03 all of the tool calls in your history.
+06:05 
+06:05 It will score them based on whether or
+06:07 
+06:07 not you should keep them or not, and
+06:09 
+06:09 then drop the irrelevant ones. And
+06:11 
+06:11 that's your compaction. You reduce your
+06:13 
+06:13 token price. There's a lot of problems
+06:14 
+06:14 here. First off, like the instant one
+06:16 
+06:16 that should be obvious to most people is
+06:18 
+06:18 that caching is now broken. You will
+06:20 
+06:20 bust cache instantly on this. If you go
+06:22 
+06:22 back and edit the history, like on new
+06:24 
+06:24 anthropic models, they're making it so
+06:25 
+06:25 you can't change the history and tool
+06:27 
+06:27 calls and whatever without busting the
+06:29 
+06:29 cache. And by breaking caching, you are
+06:30 
+06:30 suddenly reading a ton of tokens into
+06:33 
+06:33 context. Input tokens plus cash write
+06:35 
+06:35 tokens get very expensive very fast and
+06:37 
+06:37 you do not want to screw with this. The
+06:39 
+06:39 other problem too is that this will not
+06:41 
+06:41 actually get you useful context in the
+06:43 
+06:43 compaction. you will lose very valuable
+06:45 
+06:45 data almost every single time because it
+06:48 
+06:48 doesn't have the broader context of
+06:50 
+06:50 what's actually happening within the
+06:51 
+06:51 request. When you do normal compaction,
+06:53 
+06:53 the model will take all of the context
+06:55 
+06:55 and pull the useful pieces out, get rid
+06:57 
+06:58 of the stuff that doesn't matter, and
+06:59 
+06:59 then that's what gets compacted forward.
+07:01 
+07:01 Versus this will not have any of that
+07:03 
+07:03 context. When it's checking the read
+07:05 
+07:05 file, it doesn't know if that file was
+07:06 
+07:06 important or not. It just sees, oh, it's
+07:08 
+07:08 a read. Yeah, we should probably keep
+07:10 
+07:10 that. Who cares? Or it's just a test
+07:12 
+07:12 command. Oh, that doesn't matter. we can
+07:13 
+07:13 get rid of that when maybe those did
+07:15 
+07:15 actually matter a lot and since the
+07:16 
+07:16 model is very narrow it doesn't see any
+07:18 
+07:18 of that stuff and when you try and do it
+07:20 
+07:20 this way it just sucks I think that tech
+07:22 
+07:22 one of the co-founders and lead
+07:24 
+07:24 engineers on Hermes agent a very good
+07:26 
+07:26 agent put this very well that when they
+07:28 
+07:28 tested out Jev compaction on their own
+07:30 
+07:30 compaction evals they found that it
+07:32 
+07:32 actually just removed all of the tool
+07:35 
+07:35 calls from their chat history it just
+07:36 
+07:36 wiped them so it ended up being
+07:38 
+07:38 programmatic so you don't even have to
+07:39 
+07:39 pay the Jev API price you could
+07:41 
+07:41 literally just strip all the tool calls
+07:42 
+07:42 And that's your magical compaction,
+07:44 
+07:44 which is not good. And this just kind of
+07:46 
+07:46 leads to a doom loop where you keep
+07:47 
+07:47 removing tool calls from the history and
+07:49 
+07:50 then busting cash over and over and it
+07:52 
+07:52 just makes everything way more expensive
+07:53 
+07:54 and stupid for no good reason. It don't
+07:56 
+07:56 do this. This is a dumb use case.
+07:57 
+07:57 Another pretty dumb use case was the
+07:59 
+07:59 auto router stuff. I think that the
+08:01 
+08:01 model router things, at least right now,
+08:03 
+08:03 are pretty stupid. They don't make much
+08:05 
+08:05 sense at all. Like the Jev router here
+08:08 
+08:08 will use Jev to decide where your
+08:10 
+08:10 request should go. Should it be routed
+08:11 
+08:12 to DeepSeek? Should it be routed to six
+08:14 
+08:14 soul? Should it be routed to 38 Flash?
+08:16 
+08:16 Where should that request go? And maybe
+08:18 
+08:18 on paper that seems like a reasonable
+08:20 
+08:20 thing to do. Maybe if you just see the
+08:22 
+08:22 prompt is, can you go check my email?
+08:24 
+08:24 You would think that that would be a
+08:25 
+08:25 perfectly feasible task for a very dumb
+08:28 
+08:28 small model to go do and it wouldn't
+08:30 
+08:30 have any performance hits. But that
+08:32 
+08:32 doesn't have the actual context of
+08:33 
+08:33 what's happening on the environment. Is
+08:35 
+08:35 the environment in such a state that to
+08:37 
+08:37 go get the emails you have to write a
+08:39 
+08:39 bunch of custom code and use weird
+08:40 
+08:40 connectors? Do you have to use computer
+08:42 
+08:42 use for it? How does all this stuff
+08:43 
+08:43 work? It doesn't have that info. So, you
+08:45 
+08:45 end up getting routed to a dumber model
+08:47 
+08:47 which will take longer, use more tokens,
+08:49 
+08:49 end up actually being more expensive
+08:51 
+08:51 because, I've talked about this a lot,
+08:52 
+08:52 too. The actual price of a model is not
+08:55 
+08:55 the sticker price. 6.1 Soul will end up
+08:57 
+08:57 being much cheaper on a lot of tasks
+08:59 
+08:59 than Deepseek V4.1 Flash will be, even
+09:01 
+09:01 though V4.1 Flash is borderline free.
+09:04 
+09:04 It's absurdly cheap when it runs and
+09:06 
+09:06 runs and runs and runs and runs in
+09:08 
+09:08 circles getting nothing useful done and
+09:10 
+09:10 61 soul can just do it in five tool
+09:12 
+09:12 calls instantly. That one is going to be
+09:14 
+09:14 better. The cost per task here doesn't
+09:16 
+09:16 end up working out to actually make this
+09:18 
+09:18 better. And as a result, you just end up
+09:19 
+09:20 getting stuck with a much worse model
+09:21 
+09:21 all the time for no good reason. It is
+09:24 
+09:24 not a good use case for something like
+09:25 
+09:25 Jev or almost anything in general.
+09:27 
+09:27 Classifying what model a prompt should
+09:29 
+09:29 go to is a very difficult problem which
+09:31 
+09:31 requires a lot of context, a lot of
+09:33 
+09:33 engineering that a simple router like
+09:35 
+09:35 this just does not have. Honestly, on
+09:36 
+09:36 the topic of routers, one of the things
+09:37 
+09:38 I've wanted to do for a while, I'm not
+09:39 
+09:39 going to do this, so I'll just say it in
+09:40 
+09:40 the video. But it would be a really
+09:41 
+09:41 funny gag if someone like did a add-on
+09:44 
+09:44 launch of a new router and they're like,
+09:46 
+09:46 "Oh, we solved model routing. This is
+09:48 
+09:48 the most powerful router. Look at how
+09:49 
+09:49 well it does on benchmarks and how cheap
+09:51 
+09:51 and efficient and good it is." and all
+09:53 
+09:53 the router is is just a proxy for GPT
+09:56 
+09:56 6.1 Saul. I would bet money that that
+09:58 
+09:58 would outperform almost all of the other
+09:59 
+09:59 model routers because they don't make
+10:01 
+10:01 much sense. This is not a real thing
+10:03 
+10:03 right now. Don't use Jev for this. And
+10:05 
+10:05 honestly, I think that's enough bashing
+10:06 
+10:06 the bad implementations because I do
+10:08 
+10:08 want to talk about the places where Jev
+10:09 
+10:10 is cool. I again I think this is such a
+10:12 
+10:12 dope useful model. Like to give you an
+10:14 
+10:14 inproduct example, I have the dev server
+10:16 
+10:16 for picking things spun up here and one
+10:18 
+10:18 of the things I recently added is a
+10:20 
+10:20 search command. So you can go in here,
+10:21 
+10:21 you could search for assets or billing
+10:23 
+10:23 or whatever and just quickly jump to it.
+10:25 
+10:25 A command K menu, great feature. I want
+10:27 
+10:27 it in basically every product. One of
+10:29 
+10:29 the things that Jev is really good at is
+10:30 
+10:30 actually searching things because you
+10:33 
+10:33 can pass all of the different places
+10:34 
+10:34 where it could go. There's about 23
+10:36 
+10:36 options here. And instead of doing a
+10:38 
+10:38 normal text search where if I type
+10:40 
+10:40 something that doesn't quite match, like
+10:41 
+10:41 for example, if I do cancel my uh sub,
+10:45 
+10:45 it will direct me to manage payments.
+10:48 
+10:48 when if I was just doing a normal text
+10:49 
+10:49 search on this, it would not find manage
+10:51 
+10:51 payments. It would order these
+10:52 
+10:52 completely wrong. And the ordering I get
+10:54 
+10:54 here actually makes sense. Manage
+10:56 
+10:56 payments at top billing down here. Then
+10:58 
+10:58 the rest are like whatever. It's
+10:59 
+10:59 basically a 0% chance. And it works
+11:00 
+11:00 great for features, too. If I just type
+11:02 
+11:02 remove, show the remove background, see
+11:04 
+11:04 the assets. There should be like a
+11:06 
+11:06 upload one in here. So yeah, upload an
+11:08 
+11:08 image or add image to site or something.
+11:11 
+11:11 That will also show upload image. Like
+11:13 
+11:13 it just makes the search much smarter.
+11:14 
+11:14 And because the model is so cheap and
+11:16 
+11:16 small and fast, you can kind of get away
+11:18 
+11:18 with doing something like this. In a lot
+11:20 
+11:20 of cases, the quote type- safe nature of
+11:22 
+11:22 Jev is the reason why a weird feature
+11:24 
+11:24 like that can exist. Since when you do
+11:26 
+11:26 your request here, you have the choice
+11:28 
+11:28 here. So, it's doing a choice request.
+11:30 
+11:30 You tell it to rank these. You give it a
+11:32 
+11:32 bunch of different criteria to pick from
+11:33 
+11:33 and the criteria are pages. Then at the
+11:36 
+11:36 end here, you will get out this
+11:37 
+11:37 deterministic state of a completed
+11:40 
+11:40 result with this model with these
+11:41 
+11:42 answers and each of them are ranked by
+11:43 
+11:43 probability. So all the code is actually
+11:45 
+11:45 doing is ranking based off this. It's a
+11:47 
+11:47 simple sort. None of this is using an
+11:49 
+11:49 agent or heavy non-determinism behind
+11:51 
+11:51 the scenes. It is basically a
+11:52 
+11:52 deterministic code function with just a
+11:54 
+11:54 sprinkle of probability in there on the
+11:56 
+11:56 switch statement. Obviously, as far as
+11:58 
+11:58 good use cases go, a switch statement
+12:01 
+12:01 that is intelligent, is just insanely
+12:03 
+12:03 useful for any like internal
+12:05 
+12:05 classification task within a workflow.
+12:07 
+12:07 The stuff I showed earlier of like
+12:08 
+12:08 classifying an email, very useful, makes
+12:10 
+12:10 a ton of sense. Like in Superhuman or
+12:12 
+12:12 Gmail, the inbox filters and tags and
+12:14 
+12:14 folders, those should probably be
+12:16 
+12:16 something like Jev where it can just
+12:18 
+12:18 quickly read the email and then put it
+12:20 
+12:20 exactly where it should be. So you don't
+12:21 
+12:21 have to eat the cost of a full agent,
+12:23 
+12:23 but you also get things sorted in a much
+12:25 
+12:25 smarter way. Another just really cool
+12:27 
+12:27 example I found was uh the founder of
+12:29 
+12:29 browser use, which is a well browser use
+12:32 
+12:32 company, put together a computer use
+12:35 
+12:35 demo of Jev doing computer use stuff. it
+12:38 
+12:38 got access to the browser and was able
+12:40 
+12:40 to do flight booking by interacting with
+12:42 
+12:42 the page and making decisions based on
+12:44 
+12:44 the current state of the page. In these
+12:47 
+12:47 smaller cases, this is actually quite
+12:48 
+12:48 good. You could pull this off in certain
+12:50 
+12:50 scenarios. The problem is as the
+12:53 
+12:53 computer used task gets more complex and
+12:55 
+12:55 requires more external context and it's
+12:57 
+12:57 not just a straight shot. Go find this
+12:59 
+12:59 page, click this exact button, do this
+13:01 
+13:01 thing like the flights page, there's not
+13:02 
+13:02 too much context being stuck in here. If
+13:04 
+13:04 you're doing something like a lot of the
+13:06 
+13:06 things I have computer use with codecs
+13:07 
+13:07 do like go prep a video for editing or
+13:10 
+13:10 go handle a bunch of file downloads and
+13:13 
+13:13 key managements across 10 different tabs
+13:15 
+13:15 and services that level of orchestration
+13:17 
+13:17 is not going to be feasible or possible
+13:19 
+13:19 with Jev. But for again quick smaller
+13:22 
+13:22 things it does work and anything that
+13:24 
+13:24 can be represented as a switch statement
+13:26 
+13:26 you can stick Jev into. Like another one
+13:28 
+13:28 here of a full self-driving truck. Uh
+13:30 
+13:30 Justin posted this one. The model is
+13:32 
+13:32 actually driving the car. It is deciding
+13:35 
+13:35 what path it should take, when it should
+13:37 
+13:37 start, when it should stop, because you
+13:38 
+13:38 can pretty much represent the state of
+13:40 
+13:40 driving as a switch statement. And I
+13:42 
+13:42 think that's kind of the point. Jev
+13:43 
+13:43 works for basically anything that can be
+13:45 
+13:45 represented as a switch statement. And
+13:47 
+13:47 you need to keep the complexity and
+13:49 
+13:49 level of decision-m on that switch
+13:51 
+13:51 statement much lower. Uh like if you're
+13:53 
+13:53 trying to do some deep analysis on
+13:55 
+13:55 something at 32k context window, it is
+13:57 
+13:57 not going to get the job done. But
+13:59 
+13:59 again, small one-off things is really
+14:01 
+14:01 useful. With how insanely well the Jev
+14:03 
+14:03 launch went, there have actually been a
+14:04 
+14:04 lot of companies doing similar things.
+14:07 
+14:07 There's actually one that's been doing
+14:08 
+14:08 this for quite a while that I really
+14:09 
+14:09 like. One of them is OpenAI. They just
+14:12 
+14:12 released their decisions API, which is
+14:15 
+14:15 effectively structured output for GBT6
+14:17 
+14:18 Luna. You pass in a model. Currently,
+14:20 
+14:20 only GBT6 Luna is supported. You give it
+14:22 
+14:22 some input. You give it some questions.
+14:23 
+14:23 And then it has the three the same three
+14:26 
+14:26 buckets that Jeb has just with different
+14:27 
+14:27 names. Predicate, choice, score. They
+14:30 
+14:30 have a couple examples down here of like
+14:32 
+14:32 you can feed in this cup. What is the
+14:33 
+14:34 probability that it has a dent? 0% 100%.
+14:37 
+14:37 I think one of the reasons why this is
+14:38 
+14:38 the first major example here is actually
+14:40 
+14:40 that since it's using Luna under the
+14:42 
+14:42 hood and Luna has vision capabilities
+14:44 
+14:44 and Jev doesn't, you can do vision
+14:47 
+14:47 classification off of OpenAI's version,
+14:49 
+14:49 but you can't off of Jev. I'm sure that
+14:51 
+14:51 they will add that. that's almost
+14:52 
+14:52 certainly coming soon. But at least for
+14:53 
+14:53 right now, if you want to do this kind
+14:55 
+14:55 of switch statement on vision stuff, you
+14:58 
+14:58 do kind of need to use the OpenAI
+14:59 
+15:00 version here, which is again very good.
+15:01 
+15:01 It's the same general thing. You can see
+15:03 
+15:03 here they have a driving example, the
+15:05 
+15:05 routing example, and a document type
+15:07 
+15:07 example. Like all of these are normal
+15:09 
+15:09 use cases that work well on both of
+15:11 
+15:11 them. Putting these two side by side,
+15:12 
+15:12 the biggest difference is in the input
+15:14 
+15:14 price and also again the image inputs.
+15:17 
+15:17 The price on Jev per million input
+15:18 
+15:18 tokens is about four centsish. Then on
+15:22 
+15:22 the Luna version it's about 10 cents. So
+15:24 
+15:24 it's over twice as expensive. They're
+15:26 
+15:26 both free on output charges. They have
+15:28 
+15:28 the same general capabilities. After
+15:30 
+15:30 running a bunch of examples on both of
+15:31 
+15:31 them, the OpenAI one ended up being
+15:33 
+15:33 about 2x faster versus the Jev one ended
+15:36 
+15:36 up being about 2x cheaper. So pros and
+15:39 
+15:39 cons to both. I'll be honest, most of
+15:41 
+15:41 the time I would probably just find
+15:42 
+15:42 myself reaching for the OpenAI one
+15:44 
+15:44 because it would generally speaking be
+15:45 
+15:45 more convenient since it has image stuff
+15:47 
+15:47 in it, but this cost is a pretty huge
+15:49 
+15:49 difference. And if you're doing weird
+15:51 
+15:51 use cases like the P thing one I showed
+15:52 
+15:52 earlier. The price is quite useful to
+15:54 
+15:54 have lower. That other thing I mentioned
+15:55 
+15:56 earlier that's actually been doing this
+15:57 
+15:57 for a while is BAML. I really like BAML.
+16:00 
+16:00 I found this like I think it was April
+16:02 
+16:02 of LA this year or something like that.
+16:03 
+16:03 It was a while ago. And what they do is
+16:05 
+16:05 really dope. It is just taking normal
+16:07 
+16:07 models. You can stick whatever model in
+16:09 
+16:09 you want and it will hard constrain and
+16:11 
+16:11 make sure that you get the correct
+16:13 
+16:13 output every single time. It is the best
+16:15 
+16:15 way to do structured outputs or at least
+16:16 
+16:16 was the best way to do structured
+16:18 
+16:18 outputs before Jev and before decisions.
+16:20 
+16:20 The syntax for this is actually a new
+16:23 
+16:23 language, a basically madeup language
+16:25 
+16:25 that you give it a class. So the verdict
+16:28 
+16:28 has to have a label. It has to have a
+16:29 
+16:30 confidence and then you just pass in
+16:31 
+16:31 whatever text it is. It will use OpenAI
+16:33 
+16:34 GBT 5.5. You can use whatever model you
+16:36 
+16:36 want. give it a prompt, tell it what the
+16:38 
+16:38 output format is, and every single time
+16:40 
+16:40 you will get the output in this shape.
+16:41 
+16:42 And they have a bunch of SDKs so that it
+16:43 
+16:43 is truly type- safe where this is now
+16:45 
+16:45 basically a deterministic function in
+16:47 
+16:47 your codebase that just classifies
+16:49 
+16:49 things. And I've used this a ton in the
+16:50 
+16:50 past for a bunch of YouTube tooling and
+16:52 
+16:52 that kind of thing. It's a great system,
+16:53 
+16:54 very similar to Jev or decisions, just
+16:56 
+16:56 every single model works with it. So
+16:58 
+16:58 yeah, that's Jev. I think this is an
+17:00 
+17:00 awesome new model and paradigm of doing
+17:03 
+17:03 things that the more creative you get
+17:05 
+17:05 with this, the more weird useful places
+17:07 
+17:07 you could probably find to stick this
+17:09 
+17:09 into existing products. Uh, I really
+17:11 
+17:11 like the search example cuz I think
+17:12 
+17:12 that's one of the quickest UX wins you
+17:14 
+17:14 could get out of this, but there's
+17:15 
+17:15 probably a ton of other stuff that I
+17:16 
+17:16 haven't even thought of. I think this
+17:18 
+17:18 will be huge for sprinkling AI quote
+17:20 
+17:20 unquote into more and more places where
+17:23 
+17:23 it actually makes sense. just making
+17:24 
+17:24 everything into a text box is probably
+17:26 
+17:26 not the right way forward, but sticking
+17:28 
+17:28 more intelligent switch statements into
+17:30 
+17:30 deterministic workflows that has a lot
+17:32 
+17:32 of applications. So yeah, if you haven't
+17:35 
+17:35 played with this yet, I highly recommend
+17:36 
+17:36 it. If you enjoyed the video, make sure
+17:37 
+17:37 you like and subscribe.
