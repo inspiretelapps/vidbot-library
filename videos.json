@@ -9,8 +9,139 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-10T12:05:38+02:00",
+  "updated_at": "2026-10-11T06:03:31+02:00",
   "videos": [
+    {
+      "id": "ND_kRgU_WlY",
+      "title": "You can rewrite typescript in rust for $420k",
+      "channel": "Theo - t3․gg",
+      "upload_date": "20261010",
+      "duration_seconds": 2860,
+      "thumbnail": "https://i.ytimg.com/vi/ND_kRgU_WlY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ND_kRgU_WlY",
+      "description": "I ported all of typescrict into rust, and it only cost me $420k... the second time was way cheaper though\n\nThank you Qdrant for sponsoring! Check them out at: https://soydev.link/qdrant\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏",
+      "summary": "Porting strategy and real cost • 00:00, 13:24: Theo presents a Rust implementation of the TypeScript compiler, checker and language server, while stressing that he has not read a single line of its code. Earlier OpenAI experiments consumed roughly $400,000 in API-equivalent inference and stalled around 84% compatibility; the successful Opus effort instead translated Microsoft's existing Go port, including Go-library and runtime behavior, into Rust. Its first version was two to three times slower than Go, before sustained optimization. The $420,000 headline is not his cash bill: his later accounting puts the successful effort at roughly $24,000 in full-price API inference, or about $500 in allocated subscription usage with a reset, spread across six accounts. This is evidence for a favorable starting point and subsidized experimentation, not proof that Microsoft's preceding engineering work was unnecessary.\n\nSpeed, correctness and maintenance • 17:28: In his own project tests, Theo reports roughly twice the speed of TypeScript 7's Go implementation and substantial improvements over TypeScript 6, with figures varying by workload. Integrating Effect diagnostics into the Rust checker makes T3 Code's complete checking workflow about four times faster than the Bun-plus-Effect alternative; that is not a claim that its bare checker always beats Bun. He reports incorrect Bun diagnostics on Sentry and tRPC, but still generally recommends Bun because he trusts its maintenance prospects more. His audit also attributes five of six reported issues to the targeted upstream TypeScript 7 version, with one specific to the Rust port. These are the creator's benchmarks and compatibility observations, not independently reproduced guarantees.\n\nThe real goal is portable developer tooling • 19:57, 21:27: The project began as an apparently impossible model-capability test, but its architectural purpose is to put a complete TypeScript development loop inside JavaScript/V8 environments. Theo argues that Go was a sensible choice for native batch compilation: garbage collection and concurrency can be good tradeoffs even when per-request latency fluctuates. Rust becomes attractive for WebAssembly, where carrying a Go runtime and collector adds overhead and where the native Go checker cannot simply reuse the old JavaScript compiler interfaces. The sponsor segment separately demonstrates Qdrant semantic retrieval for loosely worded issue and video searches; it is advertising, not evidence for the compiler's performance.\n\nWhy the execution environment may become the bottleneck • 23:17, 28:18: Drawing on an Artificial Analysis chart, Theo argues that the price of a given level of model capability is falling much faster than the cost of the computers running agents' tools. Today's terminal-oriented agents expect real files, native programs and operating-system processes, so each cloud thread often requires substantial reserved resources. He proposes V8 isolates, as used by Cloudflare Workers, as a smaller execution boundary that can share resources while agents wait for inference. This is an economic and architectural forecast, not a measured cloud-pricing study; his later explanation also blurs containers and virtual machines and should not be treated as a precise infrastructure tutorial.\n\nA working prototype, not a proven Cloudflare deployment • 31:54, 33:05: Just Bash supplies a simulated shell and in-memory filesystem, while the Rust/Wasm checker supplies the missing build-time feedback. Theo shows a Node-hosted V8 prototype in which the agent harness, compilation, checking and resulting app reportedly use under 260 MB of RAM and peak around 4% CPU; model inference is external and excluded. He says the alternative using Go-based esbuild takes roughly twice the idle RAM. The important result is a development loop that need not write to the host filesystem, not merely a faster compiler. Browser and Cloudflare execution remain proposed extensions: near the end he asks an agent to try Cloudflare, rather than showing a completed deployment there.\n\nEngineering leverage and final verdict • 41:48, 45:23: His contribution was to improve the agents' environment, audit blockers, fix memory-related failures, add SSH-accessible machines and prevent parallel work from interfering, rather than write elaborate prompts or personally review the implementation. A concrete stopping rule—at least twice the Go build's speed—kept agents optimizing after compatibility work was done. After a brief employer-funded course promotion, he concludes that AI now lets him test longstanding browser-development ideas instead of merely imagining them. He is excited about the ability to validate ambitious prototypes, explicitly not arguing that everyone should adopt his Rust checker. The practical lesson is to test diagnostics, plugin support, maintenance and deployment constraints before replacing established tooling.",
+      "why_valuable": "The practical win is a potentially smaller, portable agent-development environment—not a $420,000 cash rewrite or a universal Bun replacement. Theo reports roughly 2× Go-checker speed and an under-260 MB in-memory prototype, helping you decide whether to test Rust/Wasm tooling for your own repositories and agent infrastructure; Effect support, diagnostic fidelity, maintenance risk and the unproven Cloudflare deployment are the deciding caveats.",
+      "key_takeaways": [
+        "13:24–16:42: The successful route was Microsoft's Go implementation → Rust, not a fresh JavaScript → Rust rewrite. Theo says the initial faithful translation was 2–3× slower, so optimization was a separate phase.",
+        "15:21–16:26: The headline token valuation is not the paid bill. Theo's detailed estimate for the successful run is about $24,000 at API rates versus roughly $500 of subscription usage, aided by multiple accounts and a reset.",
+        "17:28–19:53: Theo's own tests suggest roughly 2× the Go checker's speed; the approximately 4× T3 Code advantage over Bun includes integrated Effect checks and is workflow-specific, not a universal benchmark.",
+        "16:50–17:26 and 18:55–19:35: Matching diagnostics matters as much as speed. Theo says five of six issue reports reflected upstream bugs, yet generally recommends Bun for maintenance confidence despite reporting false diagnostics on some larger repositories.",
+        "21:27–22:53: Rust/Wasm is valuable for bringing checking back into browser and V8 environments. Theo still considers Go a reasonable native-compilation choice; the architectural target changes the language tradeoff.",
+        "32:43–35:06: The demonstrated Node/V8 development loop reportedly stays under 260 MB and peaks around 4% CPU, excluding remote inference. A Cloudflare-hosted version is a possibility, not a deployment demonstrated in this video.",
+        "41:48–44:25: Better environments and measurable exit criteria outweighed clever prompts: Theo fixed memory failures, supplied SSH machines, coordinated parallel work and set a minimum 2×-Go performance goal.",
+        "45:23–47:38: His final endorsement is of AI-assisted experimentation, not universal adoption of this checker. Validate real repository compatibility, long-term ownership and sandbox capabilities before treating the prototype as production tooling."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "A model stress test becomes a Rust compiler",
+          "description": "Theo announces a compiler, type checker and language-server implementation developed by agents, while acknowledging that he has not personally read its code. He contrasts roughly 84% compatibility from the earlier OpenAI effort with the successful Opus run and introduces claimed speed gains of 12.5× over TypeScript 6 and around 2× over the Go version. The opening frames the rewrite as both a capability experiment and a route to a different developer environment, with verification and cost caveats still to come.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 149,
+          "timestamp": "02:29",
+          "title": "Sponsor: semantic search for agent retrieval",
+          "description": "In a paid Qdrant demonstration, Theo compares keyword results with ranked semantic matches for videos, GitHub issues and thumbnail expressions. A loosely phrased Windows-PC-lag report returns no keyword matches but eight semantic results, illustrating how retrieval can help find duplicates when users do not share exact wording. He also promotes open-source/self-hosted availability; these retrieval examples should be kept separate from the compiler benchmarks.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 261,
+          "timestamp": "04:21",
+          "title": "Type erasure is easy; checking JavaScript behavior is hard",
+          "description": "Using a typed function example, Theo separates removing TypeScript syntax from proving that an application's types are used consistently. He recalls improving Twitch's hot reload by separating browser compilation from checking, then uses Doom implemented in the type system to convey the checker's complexity. JavaScript's dynamic behavior and object semantics make a faithful foreign-language checker much harder than a fast transpiler, explaining why existing bundlers did not solve this problem.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 559,
+          "timestamp": "09:19",
+          "title": "Why Go made sense for Microsoft's native port",
+          "description": "Despite his dislike of Go, Theo argues that its concurrency, familiar syntax and garbage collection made it a practical bridge away from JavaScript. He distinguishes latency spikes in short individual requests from the relatively small contribution of collection to a long compiler run. His conclusion is workload-specific: batch type checking benefits from easier memory management and parallelism even when a latency-sensitive service might make different tradeoffs.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 803,
+          "timestamp": "13:23",
+          "title": "A faithful Go translation and subscription-adjusted economics",
+          "description": "The agents translated the existing Go port into Rust closely enough to recreate parts of its standard library and goroutine behavior, producing an initial build two to three times slower than Go. Theo then demanded at least twice Go's speed and used six Claude accounts, valuing the successful inference at roughly $24,000 in API prices but around $500 of allocated subscription usage with a reset. He says five of six issue reports reproduced upstream TypeScript 7 bugs, making the apparent compatibility result dependent on Microsoft's prior work rather than evidence that it could have been skipped.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1048,
+          "timestamp": "17:28",
+          "title": "Repository benchmarks, Effect integration and Bun's tradeoffs",
+          "description": "Theo reports approximately twice the Go checker's speed on real projects and much larger gains against the older JavaScript implementation, with results varying across workloads. For T3 Code, built-in Effect diagnostics avoid a second checking pass and yield an approximately fourfold end-to-end advantage over the Bun-plus-Effect workflow. He reports Bun raising incorrect errors on Sentry and tRPC, yet generally recommends it because of stronger maintenance confidence; the point is to compare complete workflows and correctness, not rank tools from one headline multiplier.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1197,
+          "timestamp": "19:57",
+          "title": "The impossible-task benchmark was not the final purpose",
+          "description": "The rewrite served as Theo's deliberately unreachable challenge for models after years of arguments about how difficult a faithful TypeScript port would be. Once Opus completed it, he says he was struggling to think of comparably impossible engineering tasks to try next. That enthusiasm motivates the project, but he explicitly separates the capability experiment from the deeper architectural reason to want Rust rather than merely a faster native checker.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1287,
+          "timestamp": "21:27",
+          "title": "WebAssembly restores a JavaScript-hosted development path",
+          "description": "Theo explains that carrying Go's memory-management runtime into WebAssembly complicates compact bundles and introduces overhead he does not want in browser-like environments. Moving TypeScript to native Go also removed some of the easy JavaScript embedding and compiler interfaces available with the original implementation. He wants Rust both for integrated Effect support and, more importantly, as a route back to checking and compilation inside V8 rather than depending on a native executable.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1397,
+          "timestamp": "23:17",
+          "title": "Cheaper inference can expose expensive agent computers",
+          "description": "Using an Artificial Analysis cost-efficiency chart, Theo argues that model capability is becoming cheaper faster than the computers reserved for agents' development tools. He contrasts that trend with cloud threads needing real operating systems, shells and substantial memory, forecasting that execution environments will eventually matter more to the total bill. The economic direction is his interpretation rather than an independently measured pricing comparison, and he acknowledges uncertainty over the exact RAM allotted by Cursor.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1698,
+          "timestamp": "28:18",
+          "title": "The resource advantage and restrictions of V8 isolates",
+          "description": "Theo describes Cloudflare's execution model as isolating JavaScript above the operating system instead of giving every application its own conventional server environment. He ties lower overhead to restricted capabilities: code cannot freely use the host filesystem or run arbitrary native executables, so a traditional terminal-based development loop does not simply fit. Those missing capabilities establish the requirements for his prototype, rather than proving that every existing agent can move unchanged into a Worker.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1914,
+          "timestamp": "31:54",
+          "title": "Just Bash plus Rust checking produces an in-memory demo",
+          "description": "Just Bash supplies simulated commands, processes and files in JavaScript memory, while the Rust-based checker provides the compiler feedback that a shell simulation alone cannot deliver. Theo shows a Node-hosted V8 development loop and reports under 260 MB of RAM with roughly 4% peak CPU for its harness, checking and app execution, excluding external model inference. He contrasts it with an esbuild-based alternative using about twice the idle memory and stresses that host filesystem writes are unnecessary; browser or Cloudflare hosting is still a proposed extension.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2118,
+          "timestamp": "35:18",
+          "title": "Moving the build loop above the operating-system boundary",
+          "description": "Through a layered computer diagram, Theo contrasts conventional hosted development environments with JavaScript isolates, then explains how simulated files and Wasm tooling let the agent build without touching the host filesystem. He argues that shared scheduling can avoid reserving idle CPU while an agent waits for inference, making a lightweight developer environment attractive as model prices fall. His account loosely mixes container and VM concepts and includes an admission of incomplete understanding, so the diagram is architectural intuition rather than a precise virtualization reference.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2508,
+          "timestamp": "41:48",
+          "title": "Audits, parallelism and a measurable performance target",
+          "description": "Theo shows straightforward goal prompts supported by agent instructions and accountability notes, then describes fixing memory crashes, exposing extra machines over SSH and coordinating independent work. Agents stopped too soon after reaching compatibility or making a small optimization, so he imposed a minimum target of twice the Go build's speed. He characterizes his actual role as managerial: identify recurring blockers and improve the environment instead of relying on elaborate prompting or writing the port himself.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2669,
+          "timestamp": "44:29",
+          "title": "Course promotion aimed at employer-funded training",
+          "description": "Theo briefly promotes a paid developer course with other instructors and a live workshop on using agents to ship software. He says job-helping information will remain free on his channel and explicitly discourages paying personally if employer education expenses cannot cover it. This is a promotional aside, not additional evidence that the compiler or isolate prototype is ready for production use.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 2723,
+          "timestamp": "45:23",
+          "title": "Final verdict: ambitious ideas can now be tested",
+          "description": "Recalling earlier fascination with StackBlitz's browser runtime, Theo says agents now let him try architectural ideas that previously existed mostly in his head. He asks an agent to investigate Cloudflare deployment but does not present the completed result, and his final enthusiasm is explicitly not a recommendation that everyone adopt this checker. His conclusion celebrates the speed of testing possibilities; strong employment predictions are rhetoric rather than evidence of production reliability or future outcomes.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-10-11T06:00:17+02:00",
+      "summarized_at": "2026-10-11T06:03:31+02:00"
+    },
     {
       "id": "NUTuk5EwxoM",
       "summary": "Structured decisions · 00:00–03:43 — Ben Davis recommends treating Jev as a small probabilistic decision function, not a replacement for a reasoning agent. He demonstrates three fixed-output modes: choosing among categories, checking a true/false condition, and scoring against a rubric. A support-email example separates billing, technical, sales and ambiguous requests; urgency and frustration checks can run alongside it in a single batch. The useful contract is a predictable JSON shape that application code can consume, not a guarantee that the underlying judgment is correct. He says input is inexpensive and output has no token charge.\n\nAvoid destructive agent optimizations · 05:10–10:05 — Davis rejects history compaction based on independently scoring and deleting tool calls: editing the history can invalidate prompt caches, and a narrow classifier cannot know which file read or test result matters to the broader task. He cites a Hermes team's evaluation in which Jev removed all tool calls, rather than presenting that result as his own benchmark. He also rejects prompt-only model routing because a request such as checking email may conceal custom connectors or computer-use work. His comparison is about cost per successfully completed task, including retries and tool calls, not simply the advertised token price; these are arguments and examples, not a controlled routing benchmark.\n\nThe strongest practical demo · 10:05–14:01 — In his own development server, Davis uses Jev to rank about 23 destinations in a command menu. Asking to cancel a subscription finds Manage Payments even without a literal text match, while image-related queries find the appropriate upload action. Ordinary code sorts the returned probabilities, so the interface gains semantic matching without invoking an open-ended agent. Email tagging and bounded page interactions fit the same pattern. Third-party flight-booking and driving demonstrations illustrate discrete choices, but he explicitly warns that multi-service orchestration and deep analysis remain outside the narrow model's strengths.\n\nChoose on cost, latency and input type · 14:01–16:58 — Davis compares Jev with OpenAI's Decisions API, identifying its supported model as GPT-6 Luna in the captions. He quotes roughly $0.04 versus $0.10 per million input tokens, with free output for both, and reports that his example runs made OpenAI about twice as fast while Jev was about twice as cheap. He presents these as informal observations, not published benchmark results. He says the OpenAI option accepts images whereas Jev currently does not, making it his likely default for convenience and vision, while Jev's lower price can suit frequent text-only interactions. BAML is his alternative for typed outputs across many underlying models, with a separate schema language and SDKs.\n\nVerdict and disclosure · 16:58–17:40 — His final recommendation is to add intelligent switch statements to existing deterministic products, especially semantic navigation, rather than turn every feature into a chat box or delegate broad reasoning to a classifier. Keep the choice space small and the surrounding workflow explicit; predictable formatting does not make decisions infallible. The Grok Bot section spans 03:43–05:10 and is a paid sponsor demonstration of delivery notifications and ordering assistance, not evidence about Jev's performance. Prices, capabilities and speed comparisons above are the speaker's claims in this upload and were not independently retested.",
