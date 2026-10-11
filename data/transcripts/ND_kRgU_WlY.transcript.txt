@@ -1,0 +1,1379 @@
+00:00 Announcing TSC RS aka Typescript Rust.
+00:04 My complete rewrite of the TypeScript
+00:06 compiler, Type Checker, and LSP all in
+00:09 Rust. This is a project I've had agents
+00:11 working on for 5 months now. I burned
+00:13 $400,000 of codeex tokens and got
+00:16 nowhere. I burned $20,000 of Opus 5.5
+00:19 and I got there in 2 weeks. An important
+00:21 note, I have not read a single line of
+00:25 code. If you've been around for a bit,
+00:27 you probably know I've been using this
+00:28 TypeScript Rust rewrite as my favorite
+00:30 little playground for trying out new
+00:32 models and seeing where capabilities are
+00:33 going. I did that because I was looking
+00:35 for things that just seemed impossible
+00:37 for the models to do. The reason I first
+00:39 started the TypeScript Rust project was
+00:40 because I had a crazy amount of
+00:42 inference with the early access testing
+00:43 for GPT56 soul and it was crushing
+00:46 everything I threw at it. So, I decided
+00:48 to reach for something a bit bolder. Not
+00:50 a bit bolder, like just impossible. It
+00:52 didn't seem viable to just rewrite all
+00:54 of TypeScript in Rust. It seemed like a
+00:56 meme and it was the furthest I got using
+00:59 OpenAI models was roughly 84%
+01:01 compatibility. And while like impressive
+01:04 that it could get that far, didn't
+01:06 really seem like it was going to get
+01:07 much further because at that point the
+01:09 last 16% is way harder. And as you get
+01:12 closer and closer, the edges that are
+01:13 left get worse and worse. Which is why
+01:15 it feels extra insane that not only is
+01:17 TS Rust now out and available for people
+01:20 to use with a real package on npm, more
+01:22 importantly, it's way faster when
+01:25 compared to TypeScript v6, which was the
+01:27 last version written in TypeScript and
+01:29 JavaScript itself. It is 12.5 times
+01:31 faster. When compared to TSGO, which is
+01:34 TypeScript v7, the version that the
+01:36 official folks at Microsoft built, it's
+01:38 around two times faster. We're not the
+01:40 only ones who did this. Bun also dropped
+01:42 bun check which is a rewrite of the
+01:44 typescript checker in Rust that is also
+01:47 way faster and I'll be real is even
+01:49 faster than what we built with PS Rust.
+01:52 But there are catches to all of this
+01:54 from how I built it to how I verified it
+01:56 to the secret reasons I actually wanted
+01:58 this to exist which believe it or not
+02:00 aren't just RAM usage and how long it
+02:03 takes to run. I have one very
+02:05 interesting secret reason I wanted to
+02:07 build this and I actually have a demo of
+02:09 it working now. This little vibe coding
+02:11 demo here is a lot cooler than it might
+02:13 seem initially. I want to talk about all
+02:15 of this from how much it cost to how it
+02:18 worked to why I care so much about this
+02:20 project and most importantly what does
+02:22 this mean for engineering going forward.
+02:24 But after burning $420,000
+02:26 of tokens, I hope you can forgive me for
+02:28 a real quick break for today's sponsor.
+02:29 How the heck did we get here? AI models
+02:31 are capable of rewriting pretty much any
+02:33 piece of software from scratch in
+02:34 whatever language you want. But trying
+02:36 to find the right three rows in your
+02:38 database using an agent is nearly
+02:39 impossible. Once the data isn't
+02:41 perfectly structured and doesn't have
+02:43 the exact keywords the model's looking
+02:44 for, it's not going to find it. This is
+02:46 why good vector search and retrieval
+02:48 systems are so important. And today's
+02:49 sponsor, Quadrant, has it absolutely
+02:51 figured out. I'm going to quickly
+02:52 mention two things to make the haters go
+02:54 away. It's fully open source and also
+02:56 written in Rust. You can use the cloud
+02:57 if you want or you can self-host. Both
+02:59 are incredible. My team's been using the
+03:00 cloud version a bunch and the things
+03:02 we've been building are genuinely super
+03:03 useful. For example, let's look for
+03:05 videos where I talk about my agent MD.
+03:07 When I do basic keyword search, I get 10
+03:09 results that aren't really good fits for
+03:12 what I was looking for. But on Quadrant,
+03:14 I'm getting ranked results based on how
+03:16 well my question actually matches the
+03:18 content. And obviously, the video on the
+03:20 right here is a much better fit than the
+03:22 one on the left. I can even get more
+03:23 vague and search for something like
+03:24 anti-claude. And what's funny here is
+03:26 the video that was recommended on the
+03:28 left is the same as before, because this
+03:30 is basic keyword search, like what your
+03:32 agents do by default. on the right with
+03:34 the vector search, we get videos that
+03:36 are very much me being anti-anthropic. I
+03:38 didn't plan this one ahead. I did not
+03:40 think this gap was going to be so big.
+03:41 That's hilarious. The more vague the
+03:43 query, the more valuable it is. For
+03:44 example, I can have it go through all of
+03:46 my issues and PRs on GitHub for T3 Code
+03:49 and ask something vague like T3 Code is
+03:51 making my whole Windows PC lag even when
+03:52 it's sitting idle. I fire this, I get no
+03:55 results from the keyword search, and I
+03:56 get eight relevant results from
+03:58 Quadrant. This makes dduping and finding
+04:00 similar issues so much easier. We're
+04:01 even using it now to index all the faces
+04:03 I use in my thumbnails. I can search for
+04:05 shrugging with both hands out and
+04:07 immediately get results that are good
+04:09 matches for that request. Or I can
+04:11 search something like angry and get all
+04:13 the thumbnails where I looked kind of
+04:14 mad. There's a reason companies like
+04:16 Canva, Discord, and more have been
+04:17 moving to Quadrant. Give your agents
+04:18 search that feels magical at
+04:20 swive.link/quadrant.
+04:21 I'm gonna do everything in my power to
+04:24 not make this video two to four hours
+04:26 long, which is tough because I have so
+04:28 much to say about this, but I think we
+04:31 should do a brief history lesson to
+04:33 explain what this is and why it exists.
+04:35 Typescript is a language kind of. The
+04:38 point of Typescript is to build a system
+04:40 on top of JavaScript so that we can have
+04:42 more confidence about the behaviors of
+04:44 our JavaScript apps. The main thing that
+04:46 we're talking about today is TSC, the
+04:48 TypeScript compiler. The point of the
+04:50 TypeScript compiler is of course to turn
+04:52 the TypeScript that is in your editor
+04:54 into JavaScript that your browser can
+04:56 run because your browser doesn't know
+04:57 how to deal with TypeScript. If you have
+04:58 a function like function user name
+05:02 string console.log
+05:05 user.name. Wow, we're writing code. Such
+05:08 advanced stuff. Been a while, right
+05:09 guys? Wait, there's even a code button
+05:11 there. Look at that. If you took this
+05:13 function and ran it in Chrome or Node or
+05:16 any other JavaScript runtime, it will
+05:18 immediately fail an error because the
+05:21 syntax for the type definition here
+05:22 where I describe user as a parameter
+05:25 that is of type object with a name key
+05:27 that's a string. This is not valid
+05:29 JavaScript syntax. You can't just do
+05:32 this there. Also, the function needs a
+05:34 name. So, log user. You get the idea,
+05:36 though. This would not be valid
+05:38 JavaScript because of this guy here.
+05:41 Turning this into valid JavaScript is
+05:42 actually quite easy. You can go through
+05:45 and trim out all of the TypeScript isms
+05:48 in the JavaScript code. And once you've
+05:50 done that, you can just run it and it
+05:51 works. So the first important thing to
+05:54 understand here, turning TypeScript
+05:56 files into JS files is easy, borderline
+05:59 trivial, and there have been lots of
+06:01 cool tools doing this for a while now.
+06:03 In particular, one blew up a few years
+06:06 ago and kind of changed how we think
+06:07 about webdev. ESB build. ES build was
+06:10 built by Evan W who was the CTO of Figma
+06:13 because he wanted to make it faster to
+06:15 get updates when you change files in
+06:17 your editor to see them in your UI and
+06:20 running all of your code through
+06:21 JavaScript just to remove some things
+06:22 from it so you can put it in the browser
+06:24 was not efficient. So ESB build was
+06:26 built to do a lot of those steps, not
+06:28 just the turning typescript to
+06:29 JavaScript, but also a lot of the other
+06:31 steps like bundling in the CSS, creating
+06:35 the other assets needed, turning it all
+06:36 into one file the browser could actually
+06:38 receive instead of all of these files
+06:39 scattered around your codebase. All the
+06:41 things you need to bundle the app to get
+06:43 it ready for your browser written in Go
+06:46 so that it could be as efficient as
+06:48 possible reasonably without having to
+06:50 like reinvent the universe and manage
+06:52 all your memory yourself. and ESB build
+06:53 was incredible, but it was missing
+06:55 something. We're just talking about
+06:57 turning TypeScript into JavaScript.
+06:58 That's an easy part. The actual hard
+07:00 part is checking the TypeScript, making
+07:02 sure the types are valid and being used
+07:05 and honored correctly throughout your
+07:06 application. I'm going to be so real
+07:08 with y'all. Doing the translation,
+07:10 turning TS into JS was so easy that even
+07:13 just doing it in JS wasn't that big of a
+07:15 deal. Checking the TypeScript to make
+07:17 sure it's correct, way harder, and also
+07:20 way slower. This ended up being where
+07:23 most of the time was spent. As a result
+07:25 of this, the maintainers of lots of big
+07:26 code bases split their transpolation and
+07:29 typeecking compilation paths separately.
+07:31 I remember how bad the hot reloading was
+07:33 initially at Twitch. I would run the dev
+07:35 command, it would take 2 minutes to
+07:36 start up, and then I would go and edit a
+07:38 file, save, and it would take 30 seconds
+07:39 to a minute to appear in the browser. I
+07:41 was so hyped that we got it under 5
+07:43 seconds by making it so the path that
+07:45 puts it in the browser is separate from
+07:47 the path that is type checking the code
+07:50 to make sure it's correct in its type
+07:52 definitions. Something like ES build let
+07:54 you go even further for those hot
+07:56 reloads from saving to seeing it in the
+07:57 browser, but it doesn't give you enough
+07:59 info to know something like did the
+08:01 types check correctly. And as you've
+08:03 probably seen if you've watched my old
+08:04 videos, the TypeScript type system is
+08:06 incredibly complex and flexible. It's a
+08:08 touring complete system. Here's a fun
+08:09 throwback. One of my friends actually
+08:12 ported all of Doom into Typescript's
+08:15 types, not Typescript, the language.
+08:17 Typescript, the type system. Insane
+08:19 project. Highly recommend watching that
+08:20 video if you haven't seen it before. The
+08:22 point I'm trying to make here is that
+08:23 TypeScript's type system is complex. And
+08:26 it's complex because it can represent
+08:28 all the things you do in JS. Therefore,
+08:30 rewriting the checker in a
+08:32 non-JavaScript language would inherently
+08:34 suck because of all the weird things
+08:36 that JavaScript does inherently, like
+08:38 the way you can change what variables
+08:41 types are as you execute your code. The
+08:43 way that objects inherent traits and the
+08:46 way all of the prototyping systems work
+08:48 and all the the weirdness of JavaScript
+08:51 that TypeScript faithfully encodes is a
+08:53 lot easier to encode when the language
+08:55 encoding it is the same language as the
+08:57 one you're encoding. A sillier way to
+08:59 explain this is that it's much easier to
+09:01 explain how English works in English
+09:03 than it would be to explain how English
+09:04 works in Spanish. Just imagine that
+09:06 complexity, but like times a 100. That's
+09:08 what makes this so hard is all the
+09:10 weirdness of JS has to be encoded
+09:11 faithfully in whatever thing you choose
+09:14 instead. But that was not enough to stop
+09:16 Microsoft, which is why Microsoft
+09:18 decided to rewrite TSC. They wanted it
+09:21 to be native and super fast to make
+09:23 these compilation and type check times
+09:25 way better, which is why they picked Go.
+09:27 You might be confused. In fact, I'll
+09:30 switch over to chat and see how people
+09:31 feel about their choice for Go. What
+09:33 language do you guys think they should
+09:35 have chosen? Jai, C++, C. C's a funny
+09:39 one cuz the creator of Typescript's also
+09:40 the creator of C#. I have the hot take
+09:43 that Go is the right language for this.
+09:47 I know everybody else has opinions, but
+09:48 let me explain why. I recently got
+09:51 dunked on for these tweets, and I think
+09:53 they're relevant here more than ever. I
+09:55 posted in February of 2024, "Go is
+09:58 probably the right language for most
+10:00 JavaScript build and dev tooling." I
+10:02 followed up with the following. Tweeting
+10:04 this now for reference in 3 years when
+10:06 we realize we up going allin on
+10:08 Rust. This take aged poorly, but not for
+10:11 the right reasons. I need to explain the
+10:13 Go one first because this almost
+10:15 directly contradicts with my other takes
+10:17 on Go. For example, here where I'm
+10:19 making fun of Melky, saying, "I suddenly
+10:22 understand why you think Go is a good
+10:23 language. I'm notoriously a Go hater. I
+10:26 just never liked the language much. I I
+10:29 get where its benefits are. I just makes
+10:31 you feel like a monkey more than an
+10:32 engineer from being real. So why did Go
+10:35 make sense here? Go's biggest strengths
+10:38 compared to something like Rust are its
+10:40 flexibility because it's not trying
+10:42 anywhere near as hard to be like super
+10:44 type safe and memory safe. Its type
+10:45 system is a meme. Its
+10:46 concurrency stuff built in is awesome.
+10:49 Like Go's concurrency model has its
+10:51 issues. like channels are stupid, but
+10:53 the like core parts in Go routines,
+10:55 there's some really cool stuff in there.
+10:57 And concurrency is one of the big things
+10:58 that the team wanted with the TypeScript
+11:00 rewrite so that they could take more
+11:02 advantage of your cores. It syntax was
+11:04 surprisingly similar to JS which made it
+11:05 easier to look at two functions from one
+11:07 and the other and understand what
+11:09 they're doing. But I would argue the
+11:10 biggest piece garbage collection.
+11:13 Garbage collection is one of the flaws
+11:14 in Go because it means that your memory
+11:16 isn't being managed by you and at some
+11:18 point it has to be cleaned up which
+11:20 means that the performance
+11:21 characteristics of your app are not
+11:23 reliable. Usually it will respond to a
+11:25 request pretty fast but sometimes if
+11:27 that request comes in when you happen to
+11:29 be out of memory and need to do garbage
+11:31 collection then you'll have these random
+11:32 latency spikes that suck. The benefit is
+11:35 that you get crazy concurrency and you
+11:36 have to think about memory constantly at
+11:38 the cost of garbage collection causing
+11:41 your latency to spike. So if you have a
+11:44 system that you care a lot about and
+11:45 like you want to make sure every request
+11:46 is resolved in under 25 milliseconds, Go
+11:49 might not be the right language because
+11:51 sometimes it will have to garbage
+11:52 collect and it will hold off on
+11:54 executing code until that garbage
+11:55 collection pass is done. To be clear
+11:57 here, JavaScript and Typescript, those
+11:59 are garbage collected as well. Go is an
+12:01 interesting language because it's both
+12:03 low-level and garbage collected. So why
+12:05 would you ever want to use this for a
+12:07 compiler then? Isn't that going to be
+12:08 super slow? No. If you have a 100,000
+12:12 requests that all come in at 25
+12:13 milliseconds and then you have to do GC
+12:15 and the thousand first request comes in
+12:18 at 300 milliseconds instead. That seems
+12:22 horrible because that one request is now
+12:24 10 plus times slower than all the other
+12:26 requests were. But if one out of a
+12:28 thousand requests is 10 times slower,
+12:30 the total time is like less than 1%
+12:32 slower, it's nothing. The impact of
+12:34 garbage collection on the scale of a
+12:36 long process with lots of things in it
+12:38 is much less than when you're timing
+12:41 each individual request. So if you're
+12:43 doing work that you want to have
+12:44 resolved in milliseconds, a garbage
+12:46 collecting language will have flaws you
+12:48 should work around. But if your average
+12:50 request is going to take more than a 100
+12:52 milliseconds, like I don't know,
+12:54 multiple seconds because you're
+12:55 compiling a giant app, I don't care if
+12:56 you garbage collect one, two, three, 10,
+12:58 100 times during that request because
+13:00 the garbage collection is going to make
+13:01 up such a small percentage of the
+13:02 runtime. It barely matters. It washes
+13:04 out. So if I was building a web service
+13:06 I wanted to have respond as quickly as
+13:08 possible, Go is not the right language.
+13:10 But if I'm trying to take something
+13:11 written in JavaScript that's really slow
+13:12 that takes minutes to run and shave the
+13:15 time down and get more concurrency, Go
+13:17 is one of the best languages to do this
+13:19 with. But it couldn't have been too hard
+13:20 to do the Rust thing, right? Cuz you had
+13:22 an agent do it in 2 weeks. Now I would
+13:24 like to introduce TS Rust. Writing all
+13:27 of Typescript from JS to Rust would not
+13:30 have been viable. I know this to be the
+13:32 case because of how much the other
+13:33 models I tried like 56 Soul and Astra
+13:36 struggled with this port. I think a lot
+13:38 of that was because going from
+13:39 JavaScript to Rust is not trivial with
+13:41 things as complex as TypeScript itself.
+13:44 And this is where things start to get
+13:45 interesting with my TS Rust port. If we
+13:47 hop into the crates, a lot of things
+13:49 were done, many of which are uh I think
+13:52 questionable is a fair word for it. One
+13:54 of those things is this go std. This is
+13:58 the standard library from Go ported to
+14:01 Rust because the way Opus chose to do
+14:04 this wasn't to rewrite things from Go to
+14:08 Rust. It was to go through this Goport
+14:11 line by line and faithfully port
+14:14 it over to the Rust language. And the
+14:17 result of this was actually quite a bit
+14:19 slower than the Go version because when
+14:21 you have to reimplement things like Go
+14:23 routines, which is in here somewhere, I
+14:25 forgot which it's in. I think it's in
+14:27 the runtime RS. Yeah, runtime RS. This
+14:30 is Go routines ported to Rust.
+14:34 This happened because Go was a much
+14:36 better starting point for a Rust port
+14:39 than JavaScript is. The Microsoft team
+14:41 faithfully by hand went through every
+14:43 line of code in Typescript, ported it to
+14:45 Go, and then started refining it to make
+14:47 it better and faster in Go. My agents
+14:49 did the same thing from the Go version
+14:51 to Rust, and they succeeded. I didn't
+14:54 even know that my agents had done this
+14:55 until somebody else pointed it out on
+14:57 Twitter. And as soon as I saw that, I
+14:58 was like, "Oh, that's hilarious. That
+14:59 explains a lot." Because again, when
+15:01 TSGO RS was ready for its first run when
+15:04 Opus finished, it was two to three times
+15:06 slower than the Go version. So, I told
+15:07 it in a/goal, your objective is to make
+15:10 it at least two times faster in every
+15:12 way. And then I let it run for 2 weeks.
+15:15 More importantly, I let it run on my six
+15:18 cla accounts. All of the work done in TS
+15:21 Rust with Opus 55, which effectively
+15:22 gave up on the old version and
+15:24 restarted, was roughly $24,000
+15:27 of inference if I had paid full API
+15:29 prices. But, as you know, I didn't
+15:31 because I have subscriptions. So, I also
+15:33 tried pricing it out using all my logs
+15:35 to see how much of my utilization went
+15:37 to this. The equivalent in your sub
+15:40 usage for all the work I did here was
+15:42 between 925% and 983% of one account's
+15:46 weekly limit, which means about two and
+15:47 a half months of usage on a cloud code
+15:50 sub. When you consider that we got a
+15:52 free reset, this ends up being about
+15:54 $500ish give or take of subscription
+15:57 usage. And at that price, this is
+15:59 actually a good value to have built. I
+16:01 know it sounds insane, but $500 to have
+16:04 TypeScript in Rust, which is more memory
+16:06 efficient and faster, 2x faster than the
+16:08 Go version, is genuinely super useful.
+16:10 And I am to me, this is money well
+16:12 spent. And I know that seems insane
+16:14 because the 20,000 or the $420,000
+16:16 headline number sounds crazy, but with
+16:18 the subsidization from a subscription
+16:20 and the fact that only the 20k of Claude
+16:22 mattered, this being 10 weeklys of usage
+16:24 is just hilariously good value in my
+16:26 opinion. So, if you were thinking, man,
+16:28 the Microsoft TypeScript team wasted so
+16:30 much money and time porting to Go, they
+16:32 could have just waited and let AI do it
+16:34 in Rust. No, I don't think the AI would
+16:36 have done this viably from JavaScript
+16:37 and TypeScript to Rust, but it was able
+16:39 to do it with Go relatively trivially.
+16:42 And the result is a pretty much 100%
+16:45 drop in replacement for TSGO and TSC7. I
+16:50 know that for a very silly reason, the
+16:52 issues, there were five, there are now
+16:54 four. I audited these issues. Well, my
+16:56 agent and I audited these issues. And of
+16:58 the six issues that have been opened
+17:00 total so far, one of them was specific
+17:03 to TS Rust. The other five issues were
+17:06 problems that exist in TSC7, the
+17:09 specific version that we were targeting.
+17:11 So, these aren't things that are wrong
+17:12 with the rewrite. These are bugs in
+17:14 Typescript itself currently that were
+17:16 faithfully ported to my Rust version.
+17:18 And I think that is hilarious that not
+17:20 only did I port the intentional things,
+17:22 I ported the bugs, too, because this
+17:23 truly is a fully compatible drop-in
+17:26 replacement. I suppose now would be a
+17:28 good time to talk about the resulting
+17:30 performance. Since I started this before
+17:32 bun was even a thought from Jared, I was
+17:34 initially running all my numbers against
+17:36 Typescript 7. And for realworld projects
+17:38 like T3 code, we saw a 2x improvement
+17:41 from TS7 which is TSGO and as much as a
+17:44 20x improvement on various things for
+17:46 TSC 6 which was the last TypeScript
+17:48 JavaScript based TSC. I started with the
+17:50 T3 code checks because I did something
+17:51 fun here. One of the things effect TS
+17:53 does and if you're not familiar effect
+17:54 is a popular library in Typescript to
+17:56 make building reliable concurrent
+17:59 systems more viable and composable as
+18:01 well. effect uses and abuses TypeScript
+18:04 so heavily that they've actually built
+18:05 their own fork of TypeScript
+18:08 effectively. It's a patch you apply to
+18:09 your TypeScript config and your
+18:11 TypeScript like package in your repo to
+18:14 get more diagnostics and features from
+18:16 effect into the type checking. I built
+18:18 that directly into TS Rust because we
+18:21 rely on this a lot for things like T3
+18:22 code. So for our use case in T3 code,
+18:25 not only are we way faster than TS7 with
+18:29 effects TSGO plugin, we're actually way
+18:32 faster, like fourish times faster than
+18:34 bun as well, not because bun check is
+18:36 slower. Bun check is super fast, but
+18:38 because we have to do the effect check
+18:40 on top of it after. And as soon as
+18:42 you're doing both, it just ends up way
+18:43 slower end to end. But this is just
+18:44 checking in T3 code. Let's check other
+18:46 projects. some real simple things like I
+18:49 don't know the entirety of TRPC server
+18:51 or centuries codebase or excaladraw and
+18:55 funny enough I was checking effect as
+18:57 well I actually think bun couldn't pass
+18:59 on the effect codebase if I recall bun
+19:01 also raised incorrect errors on sentry
+19:03 and tRPC so the bun checker while
+19:06 incredibly impressive and faster in a
+19:08 lot of cases does not have faithful
+19:11 enough checking for me to trust it in
+19:12 these types of big projects I think bun
+19:14 check fits well with like the other bun
+19:16 tools tools in that like if you start a
+19:18 new project with bun and you use it for
+19:19 everything, bun is a great solution. I
+19:21 actually honestly would recommend bun
+19:23 over ts rust for almost everything
+19:25 simply because I have higher faith it'll
+19:26 be maintained. But tsc my project ts
+19:29 rust is a way more faithful recreation
+19:32 and as a result it does not get weird
+19:34 errors in these projects. It works
+19:35 faithfully in projects like TRPC in
+19:38 projects like T3 code in projects like
+19:40 the effect repo itself. And the
+19:42 improvements we see here for most of
+19:44 this stuff is 13x plus for going from
+19:48 TSC6 to TSC RS. And it's usually a 2x
+19:51 improvement from the Go version. But
+19:53 ready for the spicy take that's going to
+19:54 make all of this way more confusing. I
+19:57 didn't do this for performance. I did
+19:59 not make TypeScript Rust because I
+20:00 wanted something faster than TypeScript
+20:02 Go. So why did I do this? There is the
+20:05 silly reason and then the potentially
+20:08 groundbreaking one. And I'm going to
+20:09 start with the silly one. Silly reason
+20:11 is because LLMs couldn't do it. Models
+20:13 were not able to make these types of
+20:15 ports. It had become a meme. I got in
+20:16 flame wars with people for claiming they
+20:18 would be able to port TypeScript to like
+20:19 C++ and things in a month, which just
+20:22 obviously you couldn't do. And I got in
+20:24 a flame war with somebody, ended up
+20:26 getting blocked by them. It was a
+20:27 show. This is like back like the old
+20:29 2020s, like early days of Typescript
+20:32 posting on Twitter before AI took
+20:33 over all of it. And I was getting in
+20:35 like heated fights about these things
+20:36 because it was obvious you couldn't just
+20:38 rewrite TypeScript in another language,
+20:40 which is why it was always my like reach
+20:43 goal, the impossible thing that like you
+20:45 could never actually have the unobtanium
+20:47 to an extent in the web dev world. And
+20:49 as such, it was a fun thing to throw
+20:51 practically unlimited tokens at. I had
+20:53 never tried an anthropic model on this
+20:55 task because they would burn my usage
+20:56 too fast. But with Opus 5.5, usage was
+20:59 burning so slowly and I had so much I
+21:01 said, "Fuck it. Let's see what happens."
+21:02 and it was able to do it way more
+21:04 effectively than I ever could have
+21:06 guessed. I did it because I didn't think
+21:07 models could. And now that they can, I'm
+21:09 running out of things to throw the LMS
+21:12 at. Like I don't know what tasks an LLM
+21:15 would ever be able to do that are
+21:17 impossible for them now, but could be
+21:19 possible in the future. It's like hard
+21:20 for me to comprehend. Like I am out of
+21:22 engineering ideas that are like too much
+21:24 for the model. This was my too much for
+21:26 the model and now it's done it. But
+21:27 what's the real reason? What reason did
+21:30 I have to want a Rustbased version of
+21:34 Typescript when we already had a super
+21:36 fast go one? I got almost everything I
+21:38 wanted out of TSGO. Why did I want
+21:40 something else? There are small things
+21:41 like I wanted the effect stuff built in.
+21:43 I wanted to be a little easier to extend
+21:45 and play around with. But the main
+21:47 reason
+21:49 was this goes back to the garbage
+21:52 collection bit we talked about before.
+21:53 Garbage collection is an incredible way
+21:56 to take a burden off of engineers to
+21:58 allow them to ship software faster that
+22:00 is still really fast. But since garbage
+22:02 collection is a complex process that
+22:05 requires you to analyze memory and do a
+22:07 lot of memory management stuff, taking a
+22:09 Go app and bundling it into web assembly
+22:11 is not trivial because you can't just
+22:13 bundle the code the developer wrote. You
+22:15 also have to bundle all of the garbage
+22:18 collection. The the end result here is
+22:20 that it's pretty difficult to write a Go
+22:22 app and then bundle it as W was less
+22:25 than 10 megs and it's still going to
+22:26 have lots of weird performance issues
+22:28 because of that garbage collection
+22:30 aspect of it. This is why tools like ESB
+22:32 build struggled to get WSOM working for
+22:34 so long. This was also one of the things
+22:36 we lost with TypeScript Go. Previously,
+22:39 since Typescript was all just JS in the
+22:41 end, you could throw it in the browser,
+22:43 you could throw it in a V8 isolate, you
+22:44 could run it in Node and it just worked.
+22:46 With TSGO, we kind of lost that. In
+22:49 fact, we lost a lot of the JavaScript
+22:50 APIs we use to interface with TypeScript
+22:53 compiler in the past. Why do I care that
+22:55 much though? We're all running our
+22:56 agents on our computers or someone
+22:57 else's computer, right? What if we're
+22:59 not in the future? Intelligence is
+23:00 expensive. People like Lauren aka Potato
+23:03 at Cursor and SpaceX are spending
+23:06 allegedly 132 mill. This number is
+23:08 I'll explain why in
+23:09 that other video. Subscribe if you
+23:11 haven't, by the way. That red button
+23:12 helps us a ton and you'll get to be
+23:13 around for this rant which will be fun.
+23:17 Ignoring the fact that those numbers
+23:18 aren't real, the rate at which prices go
+23:21 down is real. Flashbang warning for
+23:23 artificial analysis. I need to port this
+23:25 particular bench over and I haven't yet.
+23:27 This is the cost efficiency over time
+23:30 chart from artificial analysis. This
+23:32 takes a given score that models could
+23:34 get. So like DeepSync R1 getting a score
+23:36 above a 10 on their index in January of
+23:39 2025 and it tracks how much the price
+23:42 for models of that level of intelligence
+23:44 goes up or down over time. Where things
+23:46 get really crazy is all the way over
+23:48 here on the right where we see models
+23:49 that are super smart like Opus 5, which
+23:52 broke into the 50 point range for the
+23:55 first time costing $5.86 per task when
+23:57 they ran it. And now we have models like
+23:59 61 Soul that get the same score for 32.
+24:02 So it's already decreased by 10x in cost
+24:06 for that level of intelligence in just
+24:08 like four months. At a given level of
+24:10 intelligence, cost goes down absurdly
+24:13 fast. Like 10x a year is a conservative
+24:16 estimate here. If you take the 30 point
+24:18 range, which cost $2.50 in February of
+24:21 this year and got down to 3 by summer of
+24:25 this year, that is 8x per month
+24:28 decrease, averaging out to a,000x a year
+24:30 annualized. The rate at which prices for
+24:33 intelligence goes down is insane. But
+24:35 intelligence isn't the only thing we're
+24:37 paying for. When you're building apps
+24:39 with AI, you also have to pay to host
+24:41 it. You have to pay to store the data in
+24:43 the database. You have to pay for
+24:44 whatever like systems and providers
+24:45 you're doing. You have to pay Apple to
+24:46 distribute the app. You have to pay for
+24:47 all these other things. But there's one
+24:49 more thing you have to pay for that
+24:50 people don't think about a lot. You got
+24:52 to pay for the compute that your agent
+24:54 runs on. If you're one of those $5 VPS
+24:56 bros, now's your time to shine because
+24:58 we actually need to talk. One [snorts]
+25:00 of the cool things cursor does right now
+25:02 is the cursor cloud. When you spin up a
+25:05 cloud thread in cursor, it will run on a
+25:07 full VM with 32 gigs of RAM. I think it
+25:09 might be 16. I'm pretty sure it's 32 in
+25:11 Cursor's cloud with a real guey, real
+25:14 processor, real everything it needs in
+25:15 Linux so that it can spin up your app
+25:17 and test it with a real computer. Every
+25:19 thread gets its own computer. You spin
+25:21 up four threads, that's 128 gigs of RAM
+25:24 reserved to you for that bit. And right
+25:26 now, Cursor doesn't charge for that. So
+25:28 the problem now is that your inference
+25:30 is way more expensive than the VMs to
+25:32 the point where the VMs are almost a
+25:33 rounding error, which is why giving you
+25:36 those free VMs is not really a big cost.
+25:39 But remember what I just said, the cost
+25:41 of inference is going down and it's
+25:43 going down rapidly. What about the cost
+25:46 of compute? What about the cost of VMs?
+25:48 See where I'm going here? The cost of
+25:50 renting a 16 or 32 gig box is going up
+25:54 steadily thanks to AI sweeping all the
+25:57 demand for RAM. The result is that VMs
+26:00 and compute that you want to run your
+26:01 agents on, not the compute running the
+26:04 models, the compute running the code
+26:05 that the model's editing. That compute
+26:07 has been slowly going up in price over
+26:09 time, but the inference compute is
+26:12 plummeting in price. So, one of these
+26:14 things goes up by 25 to 30% every year.
+26:17 the other goes down by 10 to 100x every
+26:20 year. We're going to quickly get to a
+26:22 point where inference is cheaper than
+26:24 the VM. With a model like GLM53 flash,
+26:27 running it for an hour straight is going
+26:29 to cost you a few dollars. The VM it's
+26:32 running on is likely more expensive than
+26:35 the model in the inference you're doing
+26:37 in that window. And as models of that
+26:39 price get smarter and as models at that
+26:41 tier get cheaper, this will be hit
+26:44 quickly. at which point compute will be
+26:46 a constraint for when we're building
+26:48 with agents. Right now we're being given
+26:49 the VMs for free, but that is not going
+26:52 to last. Even Cloud Code isn't doing
+26:53 this anymore. Cloud code now gives every
+26:55 subscriber a credit that they can use
+26:58 towards the cloud compute that they use
+27:00 if they use Claude's cloud product.
+27:01 There's a lot of layers to why it works
+27:03 this way. The compute and the memory are
+27:05 expensive, so they have to like worry
+27:07 about that. The reason that it has to be
+27:09 reserved this way is because of how our
+27:10 agents work. Our agents expect to run on
+27:13 a real computer with a real terminal
+27:15 with real bash so that it can run
+27:18 commands. It can run rip grape. It can
+27:20 search through the codebase and find
+27:21 things. It expects to have native tools
+27:23 for editing, for checking how much CPU
+27:25 is being used, for searching for files,
+27:27 for moving files, for running git
+27:28 commands, for all these things. Our
+27:30 agents expect and are trained on real
+27:33 Linux boxes or Mac or whatever else.
+27:35 They're trained for real systems that
+27:38 they can do things on. And surely you
+27:40 can sandbox them some amount, but all of
+27:42 those additional layers cost additional
+27:45 resources. Sandboxing harder is not
+27:48 going to make the compute cheaper. If
+27:49 anything, it's going to make the comput
+27:50 and the memory more expensive. Which
+27:52 means we need a better abstraction
+27:54 layer. Ideally, in a future where agents
+27:56 are cheap and writing code is incredibly
+27:59 cheap because the models and inferred
+28:00 have gotten so cheap, the thing that
+28:01 they write them on and to test them on
+28:04 should not be this expensive.
+28:06 Thankfully, this is a thing we have
+28:07 explored for a very, very long time in
+28:10 the industry. And this is a war you guys
+28:12 have heard from here. And we get to
+28:14 revisit an old war that we have not
+28:16 talked about in a while. We get to talk
+28:18 about big orange. Cloudflare. What is
+28:21 the word that y'all associate most with
+28:24 Cloudflare? Spam me chat. When you think
+28:27 Cloudflare, what do you think? Cost,
+28:29 cheap, free, cheap. There's like cloud
+28:31 and CDN. Most of them here are free.
+28:35 cheap cost related. A lot of what people
+28:39 associate with Cloudflare is cheapness.
+28:41 The reason for that is how Cloudflare's
+28:44 platform works. When I write code for a
+28:47 backend and I host it on Cloudflare, I'm
+28:50 not wrapping it in a Docker image that
+28:51 they deploy on a server. In fact, when I
+28:53 put code on Cloudflare, it's not
+28:55 deployed. It's not running. It runs when
+28:57 a request comes in. The request triggers
+29:00 Cloudflare to spin up a worker. A worker
+29:03 is an isolated JS process inside of V8,
+29:06 the JavaScript engine powering Chrome
+29:07 and a lot of other things. And that
+29:09 isolate isn't a kernel. It's not Linux.
+29:11 It's not an OS. It is a isolated
+29:14 execution layer where your browser or
+29:17 whatever else can execute JavaScript.
+29:19 This is really useful in browsers
+29:21 because you can have different tabs
+29:23 doing different things and not have
+29:24 access to each other's stuff. or you can
+29:26 have one tab with four things running in
+29:28 it that are different that can
+29:29 communicate with each other but not
+29:31 interfere with each other. V8's
+29:32 isolation layer is incredibly powerful.
+29:34 It's not the most secure thing, but it's
+29:36 pretty secure. And what Cloudflare has
+29:38 done is taken those isolates, made them
+29:40 as secure as possible so that when a
+29:42 user goes to a website you built and
+29:44 deployed on Cloudflare, it can grab that
+29:47 code from storage, throw it on this
+29:49 isolate that's just sitting there
+29:50 waiting, execute it, then kill it. So on
+29:52 a platform like Verscell or Heroku or
+29:55 Hetsnner or any other traditional host,
+29:58 if you and I both host an app on that
+29:59 platform, we both have our own Linux
+30:01 instance effectively that is running
+30:02 with our code in it. On Cloudflare, your
+30:05 code and my code are executing in the
+30:07 same instance of Linux, just split
+30:10 higher up in the V8 layer instead of
+30:12 with VMs and Docker. Hopefully this all
+30:14 makes sense. If it doesn't, ask your
+30:16 agent. I'm not going to keep ranting
+30:17 about this. I've talked about this in a
+30:18 lot of my videos before. There are
+30:20 problems with this model, though. If
+30:22 we're running inside of a JavaScript
+30:23 isolate, we lose a lot of things like we
+30:26 can't read files from the file system
+30:28 because the file system isn't in the
+30:30 isolate and that would allow us to
+30:31 escape and screw with other people's
+30:32 stuff. We can't run native code because
+30:35 native code escapes the isolate and
+30:37 needs to run in the actual like system
+30:39 which we can't do here which means we
+30:41 can't run a lot of other languages in
+30:42 Cloudflare workers. Means we can't do
+30:44 traditional persistent servers in
+30:46 workers. There's a lot of these things
+30:47 and Cloudflare has built lots of clever
+30:49 solutions to these problems, but the
+30:51 code that we're talking about, the
+30:52 JavaScript is running in this virtual
+30:55 layer above V8 instead of running at the
+30:58 VM layer. This makes Cloudflare an
+31:00 incredibly cost-effective and memory
+31:02 usage effective platform. And that's why
+31:04 it's so cheap. It's actually cheap to
+31:06 run. They're not just pricing things
+31:07 cheaper because they want to win.
+31:09 They're doing it because their platform
+31:11 allows them to and still have margin. In
+31:12 this sense, Verscell is not overpriced
+31:14 because they want to make more money
+31:15 than Cloudflare. They are charging
+31:17 probably similar margins, but it's
+31:19 higher cost to them, too. But since
+31:20 Cloudflare is just running in this
+31:22 JavaScript layer, you can't really run
+31:24 an agent in that because you can't write
+31:26 and read files. You can't run a dev
+31:29 server. You certainly can't run
+31:30 TypeScript Go to turn your TypeScript
+31:32 into JavaScript and get feedback on
+31:34 what's wrong to your agent. Oh, huh.
+31:37 Weird. It looks like I did exactly that.
+31:40 This is the demo I built in Astra, and
+31:42 it has some dumb decisions that are
+31:43 wasting a bunch of memory. So, I'm going
+31:45 to switch to this version that Opus made
+31:47 because it's a better representation of
+31:48 what I have in mind here. Before I can
+31:50 justify the chaos I'm about to show you,
+31:52 I need to show one last reference.
+31:54 There's a library called Just Bash. Just
+31:56 Bash was created by Malta at Verscell
+31:58 and has become a pretty legit library.
+32:00 The point of just bash is to provide
+32:02 agents a full fake bash environment in
+32:06 memory in JavaScript so that you can
+32:08 import this bash from just bash and then
+32:10 execute most traditional bash commands
+32:13 with a fake file system, fake processes,
+32:15 fake everything, allowing for an agent
+32:18 to operate as though it is working
+32:20 within bash, even if it isn't. But in
+32:22 order for this to work, you also need to
+32:24 be able to compile and type check and do
+32:26 all the other things that you would do
+32:26 in a normal file system if you wanted to
+32:28 use this to build. If you set this up as
+32:29 a way for your agent to explore fake
+32:31 files to find content, awesome. But
+32:33 you're not going to build a real app
+32:34 with this. You need too many other
+32:36 things, including TypeScript Rust. Well,
+32:38 TypeScript Go or TSC traditional. But
+32:41 now with TypeScript Rust, we can do
+32:43 really stupid things like here where I
+32:45 had GBD61 Soul build a full app that is
+32:50 entirely functioning all in a V8
+32:52 isolate. This one is running in node on
+32:54 a server technically, but this could
+32:56 just be run on your browser. There are
+32:58 some limitations, but not as many as
+33:00 you'd think. And this all just ran and
+33:02 worked and did its thing. And the
+33:05 entirety of utilization for this,
+33:08 everything that was used here, from the
+33:10 agent to the compute it ran on to the
+33:12 compute that the app itself is running
+33:14 on to the type checking and compilation
+33:17 and everything else just ran on my
+33:19 isolate and used under 260 megs of RAM.
+33:22 and it peaked at like 4% CPU.
+33:25 Do you understand how cool this is? This
+33:29 will allow for you to have an agent
+33:31 build an app where both the agent and
+33:33 the compute it runs on, not the like
+33:36 compute for the inference, but the
+33:37 compute that it's running the code on
+33:39 and building on all together for
+33:41 pennies. And doing this with Go would
+33:43 suck because TSGO wastes a ton of
+33:46 resources simply because porting that to
+33:49 JS is not viable. WASM, but you get the
+33:51 idea. Web Assembly is not a good fit for
+33:54 Go. It is an incredible fit for Rust.
+33:56 And just to emphasize my point here,
+33:58 when I had Astra build this, it chose to
+34:00 use ESB for the bundler. And just
+34:02 sitting here idle, it's using 2x the RAM
+34:06 of the other version because the
+34:07 inclusion of a go-based package like ES
+34:09 build inherently just eats memory and
+34:12 resources and the data that has to be
+34:14 loaded in. Like we have to load way more
+34:16 in because of how much bigger the
+34:18 bundle is. I see people confused about
+34:20 how this would work on Cloudflare. Do
+34:21 you know what Cloudflare, Chrome, and
+34:23 Node all have in common? They're all
+34:25 using V8 isolates. The way these things
+34:28 work is that they are all using the same
+34:30 JavaScript engine. And when you load a
+34:33 Chrome extension or you load a new file
+34:35 or you have some process in Wom, those
+34:39 are all different isolate workers is the
+34:41 term for it. And they can communicate
+34:42 with each other if they're allowed, but
+34:43 they cannot interfere with each other.
+34:45 What I built here isn't impressive
+34:46 because I rebuilt Bolt but used TS Rust.
+34:49 What I built here is impressive because
+34:51 I could turn my file system on read only
+34:54 and it still works. Nothing here left
+34:57 RAM. Nothing here left V8. I'm not doing
+35:00 anything on the system. This all exists
+35:03 within V8. The whole dev loop exists in
+35:06 V8. There isn't anything comparable. I
+35:08 see people mentioning like random like
+35:10 database companies and stuff that let
+35:11 you execute code of them. No, no, you're
+35:12 you're not getting it. And if you guys
+35:14 aren't getting it, you're my stream
+35:15 audience. I am not excited to see how
+35:16 others deal with this. Let's talk about
+35:18 how computers work really quick. At the
+35:20 bottom you have hardware, CPU, RAM,
+35:23 whatever else. Above that you have
+35:26 drivers. Drivers are provided by the
+35:29 thing above the kernel. The drivers are
+35:31 the method in which the kernel
+35:32 interfaces with hardware. Above this we
+35:34 have the operating system. Above this we
+35:36 have applications. I would argue
+35:38 actually we have file system kind of.
+35:41 Then you have applications. So let's
+35:43 figure out how something like Heroku
+35:47 Hetner or any normal cloud works. If we
+35:49 wanted to deploy a Docker image on AWS,
+35:53 we're not deploying it here because
+35:55 these things have to exist on AWS's
+35:58 hardware so that they can put more
+36:00 systems above. So what they'll do is in
+36:02 the application layer they'll put
+36:04 something like Docker and you know what
+36:06 you do after that you copy paste
+36:08 everything and do this.
+36:11 This is how hosting on normal VPS
+36:14 providers works on top of the file
+36:16 system and operating system. You have an
+36:18 application, usually something like
+36:20 Docker, and it's not technically running
+36:21 a new kernel instance always. Usually,
+36:23 it's doing a shim kernel. So, I could
+36:26 claim like for this layer here that this
+36:28 is all like the like Docker hypervisor
+36:31 I don't fully understand it,
+36:33 but like docker shim to kernel, which
+36:36 makes the kernel stuff more efficient
+36:38 for sure. So this shim's there to allow
+36:40 you to skip steps when it makes sense
+36:41 to. And then you're building an OS on
+36:44 top, which is why on something like AWS,
+36:47 you can have one box that AWS is
+36:50 providing that has one person running
+36:52 Ubuntu, one person running Windows
+36:53 Server, and one person running, I don't
+36:55 know, Debian or something. That's all
+36:56 happening in the application layer of
+36:58 Docker on top of the operating system.
+37:01 Which means every one of these things
+37:03 takes RAM. This is why every time you
+37:05 spin up a new Docker container on your
+37:07 computer, it's using a bunch of
+37:08 resources. It takes resources to run
+37:10 operating systems in your operating
+37:11 system. Let's compare this to how
+37:13 JavaScript works. So, we have our whole
+37:16 stack here, but let's say the
+37:18 application is Chrome. Inside of Chrome,
+37:22 you have V8, which is the JavaScript
+37:24 runtime. And in V8, you have all of
+37:27 these isolates. And all of these
+37:29 isolates can execute different
+37:30 JavaScript files and functions at the
+37:32 same time. This is way more efficient
+37:34 because now every file or application if
+37:37 it fits in one of these isolates, it
+37:39 doesn't need to shim out to the kernel,
+37:42 run an operating system, and steal a
+37:44 bunch of resources. Like, like, let's be
+37:46 real here. What takes more resources on
+37:48 your computer? A new Docker instance of
+37:50 Postgress or a new tab in Chrome? Tabs
+37:53 in Chrome, as slow as y'all might think
+37:55 Chroma is, obviously uses way less
+37:58 resources. Absurdly, comically,
+38:00 obviously. The reason why is the insane
+38:04 billions of dollars that Google has
+38:05 pissed into V8. They wanted to make this
+38:07 engine as efficient as possible so that
+38:10 the web could be a compelling platform
+38:11 so they could finally stop making shitty
+38:13 Windows apps. Google spent a billion
+38:15 dollars so that Chrome would be fast
+38:16 enough so they could stop making Windows
+38:19 versions of Google Earth and That
+38:21 was a lot of money and effort put in to
+38:23 V8. And this has benefited the whole
+38:26 ecosystem in ways that are hard to
+38:27 comprehend, including all of Cloudflare.
+38:30 Cloudflare's whole platform is built on
+38:32 the idea that virtualizing at the
+38:34 operating system level by putting an OS
+38:36 at the app layer is stupid and VH is a
+38:40 much better abstraction for putting
+38:42 applications that customers are hosting
+38:44 on top of. The catch is that these are
+38:46 just JavaScript. They don't have full
+38:48 system capabilities. You can't call the
+38:51 kernel because there's no kernel you
+38:52 have access to. You can't write files
+38:53 because there's no file system. It is
+38:55 just JavaScript. Anything that a Chrome
+38:57 tab can't do, a V8 isolate can't do with
+38:59 the exception of cores. I don't even
+39:01 talk about cores now, but remember all
+39:02 the problems here are you don't have a
+39:04 file system. You don't have native code
+39:05 access. You can't do the things you need
+39:07 to build. Isolates are a good place to
+39:09 put the code once it's built. They are
+39:11 not a good place to build. On Versel,
+39:13 for example, Verscell sandboxes are the
+39:15 same compute and primitives as hosting
+39:17 on Verscell is. on Cloudflare.
+39:19 Cloudflare sandboxes suck because
+39:21 Cloudflare does not know how to make
+39:23 things work well with Docker because
+39:25 that's not their focus. Their focus is
+39:26 this isolate layer. So, Cloudflare
+39:28 sandboxes run on entirely different
+39:30 compute with entirely different
+39:31 platforms than Cloudflare's traditional
+39:34 like worker hosting. So, the thing I did
+39:36 here, the thing I enabled inspired by
+39:39 Just Bash because the thing that makes
+39:40 Just Bash special is it lies to agents
+39:43 living in this isolate layer. So they
+39:45 think they have access to the file
+39:46 system and to these other things. And
+39:48 that is what we have built here. If I
+39:50 was to flip a switch on the file system
+39:52 for the server running this demo to be
+39:55 read only. So I literally could not edit
+39:57 files on the computer. I could only do
+39:59 things in RAM in my V8 isolated node.
+40:02 This will still run exactly the same.
+40:04 That is what makes this demo cool. It
+40:06 would be fully possible to run this
+40:08 entire demo in a Cloudflare worker. So
+40:11 instead of needing half a gig of RAM and
+40:13 a bunch of reserved CPU, I can throw it
+40:16 in here and it costs nothing. Another
+40:18 thing to think about here is how CPU
+40:20 allocation works. If you have a VM that
+40:22 has two CPUs and I have a VPM that has
+40:24 two CPUs and both are idling, we're
+40:27 still wasting four vCPUs. There are some
+40:29 things that make it easier to like
+40:30 reallocate and have virtual like cores
+40:32 not be guaranteed the same way. But the
+40:34 way it's working on Cloudflare is with
+40:35 the built-in event loop where when your
+40:37 code isn't doing anything, it doesn't
+40:39 cost anything other than a bit of RAM.
+40:41 So when you're waiting for the next
+40:42 token from an inference provider, that's
+40:44 not costing you any compute cuz the CPU
+40:46 is doing nothing. So that CPU is being
+40:48 used by others. When suddenly data comes
+40:51 in, it will execute the next task
+40:53 because your app, my app, and another
+40:55 person's app are all sharing the same
+40:57 event loop. We're all sharing the same
+40:59 scheduler effectively. So it becomes way
+41:01 more efficient for us to run things
+41:03 here. or even a long running task that
+41:04 takes hours probably spends most of its
+41:06 time idle. Now that only costs money for
+41:08 when a token comes in, not for the time
+41:10 between tokens. If inference continues
+41:12 to get cheaper, this type of building
+41:15 will become essential because this will
+41:17 enable us to build a gentic developer
+41:19 experiences that are cheap on all sides
+41:22 where running the agent is cheap and
+41:24 giving the agent compute to execute on
+41:26 is also cheap. I see some people in chat
+41:28 catching on here asking is this related
+41:31 to lakebed? I won't say more yet. I need
+41:33 to give you guys something to be excited
+41:35 about because I just wanted to focus on
+41:37 this. The fact that TS Rust is one of
+41:40 the final pieces I need to take a full
+41:43 endtoend TypeScript developer experience
+41:44 and do it in an isolate instead of doing
+41:47 it in a VM. For those who are curious
+41:48 and want to see the very complex prompts
+41:51 I use to build TS Rust, here you go. I
+41:54 told it to work in code sandbox ts on
+41:57 this computer. Read the agents MD and
+41:59 the type check or accountability uh
+42:01 files first. Those files included audit
+42:02 notes from the 16-hour run and asked for
+42:05 some things. Make the cargo job count
+42:07 configurable. Add script state and split
+42:10 yada yada. And then update the agency so
+42:12 we can do more parallel work. To which I
+42:13 said, do it. Great work. I trust your
+42:15 judgment fully. Keep going and doing
+42:17 what you think is best to continue
+42:18 improving compatibility and performance.
+42:19 You can probably move to main soon as
+42:21 well. I did a follow-up at some point
+42:22 saying get whatever the best current
+42:23 state of the work is and set it as the
+42:25 main branch ASAP. I don't care how. I
+42:26 trust your judgment. Then later I did a
+42:28 slashef effort cuz I noticed I was on
+42:29 the wrong effort level. Actually, I I
+42:31 was on ultra code and it kept bumping me
+42:32 down to medium when it crashed because
+42:34 it was running out of memory and
+42:35 crashing systemd constantly, but once I
+42:38 like added some things at the OS level
+42:40 to fix this, I had to rerun/ef effort to
+42:42 put on ultra code again on XI and then
+42:44 the / goal of complete the port, get as
+42:46 close as possible to 100% compatibility
+42:48 with TSGO, and then also improve
+42:50 performance. Do the efforts in parallel.
+42:52 Multiple workflows and sub aents should
+42:53 be running at all times to maximize
+42:55 parallelism. Orchestrate how you need to
+42:57 keep them working independently all on
+42:58 this machine. And I noticed it was
+43:00 running out of compute all the time. So
+43:02 I took other machines I had in my fleet,
+43:04 configured them for SSH access, and told
+43:06 it you have SSH access to other machines
+43:08 now like Cup 2 and Alvin, two of my uh
+43:11 VPSs. I noticed it kept stopping because
+43:13 it like got full compat and then like
+43:15 would make one performance room and be
+43:17 like, look, I fixed performance. So it
+43:19 needed a better end state. So I told it
+43:21 with a new goal, our target is minimum
+43:23 2x faster than the go build. Continue
+43:26 iterating until we get there. And then
+43:28 it did for two weeks and now we are
+43:31 here. So, as you see, I wrote some very
+43:33 complex prompts for all of this. Super
+43:36 super high IQ things I was doing here.
+43:38 I'm a mega prompter. Real talk though,
+43:41 the things I did here were not around
+43:43 the prompts. It was around the
+43:45 environment and setup to allow it to do
+43:47 this stuff. So I like I had other
+43:49 threads going where I was auditing
+43:51 constantly figuring out where the
+43:52 blockers were, what's taking a while,
+43:54 what failure modes are happening again
+43:55 and again, and then updating the
+43:57 environment to allow agents to operate
+44:00 more effectively in parallel without
+44:01 stepping on each other. And after a bit,
+44:03 we built systems that allowed that to
+44:05 work and ended up shipping much faster
+44:06 once we did. But my energy was honestly
+44:09 similar to how I work as a manager where
+44:11 I wasn't spending my time in the
+44:13 trenches writing code. I was spending my
+44:16 time making sure that my team had
+44:18 everything they needed to be as
+44:19 effective as possible in finding where
+44:21 the slowdown was and helping them get
+44:22 around it so that the slowdown would
+44:23 stop happening. Ended up being really
+44:25 fun. And I know I was making a joke
+44:27 about being a mega prompter, but uh I
+44:29 have been politely requested to mention
+44:31 mega dev a bit more. I am finally doing
+44:33 a paid course for the first time ever.
+44:35 Feels weird and I want to be very clear
+44:37 about this. Any information that will
+44:39 help you get a job is not going in here.
+44:41 It's just going on my channel for free.
+44:43 The point of this is for employed
+44:44 developers that want to maximize how
+44:47 much they use and abuse AI to ship real
+44:49 software in the real world. I'm working
+44:51 with three other incredible instructors,
+44:52 people who have helped me learn how the
+44:54 web and technologies work for years now.
+44:56 I'll do the sidebar so you can see
+44:57 Angie, who I love to death, Kent, who
+44:59 taught me half of what I learned about
+45:00 React back in the day, and John
+45:02 Linquist, the creator of Egghhead. If
+45:04 you have to pay for this with your own
+45:05 money, I wouldn't recommend it. But if
+45:07 you can get your boss to sign off on
+45:08 using internal like expenses for
+45:11 educational stuff for it, it'll be fun.
+45:13 And I'm going to do a live workshop with
+45:14 it as well, which should be very fun. So
+45:16 that's where I'll get to talk more about
+45:17 all of these chaotic strategies for
+45:19 maximizing what your agents are capable
+45:21 of, which should be fun stuff. What a
+45:23 journey this one was. I my AI psychosis
+45:27 was already pretty bad, but the fact
+45:29 that all these truly crazy ideas I've
+45:32 been thinking about for years now are
+45:35 actually doable. Like I've always wanted
+45:37 to have a full stack developer
+45:38 experience that runs purely within V8
+45:40 back when Bolt was still stack blitz and
+45:44 they first put out their full like JS
+45:47 runtime thing inside of WASM. So you
+45:49 could have a full VS codeike experience
+45:51 with apps bundling in the browser. I was
+45:54 blown away. I wanted to go further with
+45:55 that with Cloudflare and I went as far
+45:57 as trying to reverse engineer Stack
+45:59 Blitz and like decode the JS binary and
+46:02 their WASM to figure out how they were
+46:03 doing it because they're there was so
+46:05 much cool stuff there. That's how I
+46:06 became friends with Eric back in the day
+46:07 and that stuff was so cool. I've always
+46:09 been a nerd about how the code we write
+46:11 actually runs and executes and how these
+46:13 systems compose and operate. It's such
+46:16 fun stuff and now I get to try out my
+46:18 crazy ideas. Previously, the vast
+46:21 majority of this was just like
+46:22 imaginary. Like I was playing these
+46:24 games in my head, and if any of those
+46:26 ideas went far enough, I could maybe
+46:27 talk about it with a smarter person and
+46:28 maybe inspire them to build something
+46:30 kind of like it in 5 years in the
+46:31 future. Now, when I have one of these
+46:33 insane ideas, I tell Opus and then I see
+46:35 if it works or not. Even now, I wanted
+46:37 to see if this will actually run on
+46:39 Cloudflare. So, I just told Opus, "Go do
+46:41 it." And it probably will. Absolutely
+46:44 insane. I on one hand, the engineering
+46:46 we know and love is dead. And very, very
+46:48 much so. these types of YOLO projects
+46:50 should not be viable at all. Like you
+46:52 shouldn't even be able to get it to pass
+46:53 the tests, much less actually work as a
+46:55 drop in replacement for TypeScript. But
+46:58 yeah, if you still think AI dev isn't
+47:01 the future and isn't obviously where all
+47:02 of software dev is going, you deserve
+47:04 the lack of employment you'll have in 3
+47:06 months because this is insane. It's
+47:08 actually hard to fathom how capable
+47:11 these tools have gotten. I think this is
+47:12 everything I had to say on this one. I
+47:14 was up till 6:00 in the morning prepping
+47:15 all of these demos and I'm so proud of
+47:17 what Opus and I were able to cook. Not
+47:19 because I think everyone should use
+47:21 this, but because I can find out if
+47:22 these ideas work or not in ways that are
+47:25 just hard to fathom. I actually feel
+47:27 like we're peering into the future with
+47:29 some of this stuff. And it's so cool to
+47:30 see. I cannot imagine where we will be
+47:32 next year. And I hope you guys are
+47:34 excited to go on this journey with me
+47:35 because it's only going to get more
+47:36 chaotic from here. And with that, until
+47:38 next time, peace nerds.
