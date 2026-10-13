@@ -1,0 +1,84 @@
+{
+  "id": "XfdIhd1g6EI",
+  "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+  "channel": "Cheeky Pint",
+  "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+  "upload_date": "20261012",
+  "duration": 8071,
+  "thumbnail": "https://i.ytimg.com/vi/XfdIhd1g6EI/maxresdefault.jpg",
+  "webpage_url": "https://www.youtube.com/watch?v=XfdIhd1g6EI",
+  "description": "As Meta scales its AI infrastructure past five gigawatts, Mark Zuckerberg (founder and CEO, Meta) and Alexandr Wang (Chief AI Officer, Meta Superintelligence Labs) join John for a pint to discuss the launch of Muse Wonder and the future of personal AI agents.\n\nIn this episode, Mark and Alex open up about the creation of Meta Superintelligence Labs (MSL), the decision to execute a complete talent reboot, and what it really feels like to make a $100B+ CapEx commitment before knowing if the model will work. They dive deep into the architecture of Muse Wonder—including active memory, multimodal perception, and frontier coding—while laying out their vision for agentic commerce, hardware form factors like smart glasses, and why superintelligence belongs in the hands of billions.\n\nFull transcript on Substack: https://cheekypint.substack.com/p/muse-wonder-zuckerberg-and-wangs\n\n\nSubscribe to Cheeky Pint\nSpotify: https://open.spotify.com/show/2IHbGJJ...\nApple Podcasts: https://podcasts.apple.com/us/podcast...\nSubstack: https://substack.com/@cheekypint/note/p-191214714?r=5su49q&utm_source=notes-share-action&utm_medium=web\n\n\nKey moments\n00:00:24 Muse’s breakout use cases\n00:07:28 Why the model is the product\n00:14:35 Meet Muse Wonder\n00:24:56 How frontier models are actually built\n00:48:26 Betting $100B\n01:07:21 Agentic commerce\n01:19:34 OpenRouter \n01:20:06 Beyond the smartphone\n01:27:00 Funding\n01:34:06 Why AI won’t be winner-take-all\n01:40:46 Meta Superintelligence Labs (MSL)\n02:08:11 Working for Mark Zuckerberg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "end_time": 24.0,
+      "title": "<Untitled Chapter 1>"
+    },
+    {
+      "start_time": 24.0,
+      "title": "Muse’s breakout use cases",
+      "end_time": 448.0
+    },
+    {
+      "start_time": 448.0,
+      "title": "Why the model is the product",
+      "end_time": 875.0
+    },
+    {
+      "start_time": 875.0,
+      "title": "Meet Muse Wonder",
+      "end_time": 1496.0
+    },
+    {
+      "start_time": 1496.0,
+      "title": "How frontier models are actually built",
+      "end_time": 2906.0
+    },
+    {
+      "start_time": 2906.0,
+      "title": "Betting $100B",
+      "end_time": 4041.0
+    },
+    {
+      "start_time": 4041.0,
+      "title": "Agentic commerce",
+      "end_time": 4774.0
+    },
+    {
+      "start_time": 4774.0,
+      "title": "OpenRouter",
+      "end_time": 4806.0
+    },
+    {
+      "start_time": 4806.0,
+      "title": "Beyond the smartphone",
+      "end_time": 5220.0
+    },
+    {
+      "start_time": 5220.0,
+      "title": "Funding",
+      "end_time": 5646.0
+    },
+    {
+      "start_time": 5646.0,
+      "title": "Why AI won’t be winner-take-all",
+      "end_time": 6046.0
+    },
+    {
+      "start_time": 6046.0,
+      "title": "Meta Superintelligence Labs (MSL)",
+      "end_time": 7691.0
+    },
+    {
+      "start_time": 7691.0,
+      "title": "Working for Mark Zuckerberg",
+      "end_time": 8071
+    }
+  ],
+  "caption_source": {
+    "language": "en",
+    "type": "creator-provided",
+    "format": "json3",
+    "retrieval": "yt-dlp"
+  }
+}

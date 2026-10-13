@@ -1,0 +1,2595 @@
+00:00 At the end of last year, we're like, all right, we are quite
+00:05 We haven't seen the models yet.
+00:07 You know, we're going to write this check for like, I don't know,
+00:09 like $100 billion, $200 billion.
+00:11 I'm like, Alex, are you sure this is going to work?
+00:15 It's like—Cheers.
+00:17 Cheers. Yeah.
+00:19 Cheers. Cheers.
+00:21 Cheers.
+00:24 So, give me the update on Muse.
+00:27 If you were looking at the third-party reports,
+00:32 you would see that this might be the fastest-growing agent or AI app
+00:39 that I think has existed yet.
+00:41 What are your guys' personal favorite Muse use cases, either yours or other people's?
+00:47 I was actually talking about this at dinner yesterday.
+00:49 My favorite thing is I have my Muse, whose name is Oiler,
+00:53 constantly source increasingly obscure teas
+00:57 from increasingly obscure vendors of tea.
+01:02 So at this point he's, on a weekly basis, my Muse is buying
+01:07 some random tea from some farm in Taiwan or some farm in Japan
+01:14 and sourcing it over and bringing it back.
+01:16 What's your favorite Muse use case?
+01:18 I don't know. I mean, I use it for a ton of stuff.
+01:21 I still like...
+01:22 My favorite both use case and probably eval for the product
+01:26 is having it coach me in MMA.
+01:28 So I put cameras in my gym, and I basically...
+01:35 It watches the cameras when I'm in there, and it gives me feedback in between
+01:38 the rounds, which is a very hard problem, it turns out, because not
+01:42 only does it have to...
+01:43 It basically has to process all the video quickly enough because you only
+01:50 get 1 minute in between the rounds.
+01:52 Oh, it coaches you between the rounds? Yeah.
+01:54 I want feedback. I want feedback on how to win.
+01:56 You know what I mean? It's like, come on.
+01:57 Did you have to instruct it...
+01:58 I've wondered about this too, because looking at videos is
+02:02 a really good AI use case.
+02:04 It feels like you can't just give it a multi-gigabyte video file.
+02:07 So do you tell it how to slice stills out of it?
+02:10 No, it basically... Yeah, it pulls stills.
+02:12 I think it kind of figured that out by itself.
+02:15 Um, it turns out that Muse has pretty good native understanding
+02:21 of MMA, so that's good.
+02:22 So like the multi-modal—
+02:24 The pre-training.
+02:25 Yeah, someone on the team knew. Now...
+02:30 Just kind of out there in the corpus.
+02:32 I think it's a good test of the kind of coding ability that...
+02:39 Because really basically what it's doing, it's like, you know,
+02:41 within the agent, I'm not seeing any code, but it basically is writing this whole
+02:45 video processing, image processing pipeline.
+02:48 Yes.
+02:48 And I'm constantly telling it like, all right...
+02:50 Like, look you took 30 seconds to give me that feedback.
+02:53 I only have a 60-second break. Like, you gotta go faster.
+02:55 Just optimize yourself, optimize yourself.
+02:58 And it's, I think, a good example of how stuff is
+03:02 going to go in the future where basically everyone is actually
+03:05 going to be writing tons of code.
+03:06 They're just not going to know that they're writing code.
+03:09 What kind of MMA steers does a model give you?
+03:12 Um, you want to see? Yeah.
+03:15 Basically, let me see if I can pull some stuff out.
+03:16 But basically it gives me a lot of stuff about balance and, like, hip position.
+03:22 Or it's like when you're kind of in side control here.
+03:26 It's just like you didn't get this underhook
+03:29 in this place so you're going to...
+03:30 You're vulnerable to this getting rolled over here.
+03:33 I'll pull up some stuff. You guys should try this.
+03:35 It was definitely one of his first use cases actually of even
+03:38 the initial prototypes. Yeah.
+03:40 Yeah.
+03:40 I mean, I did this with OpenClaw before we even had Muse working.
+03:43 It was just like...
+03:45 Then that's why I was saying it's kind of like become an eval for this too.
+03:50 It's good.
+03:50 I actually didn't know that it was an eval for the product.
+03:52 So noted. Yeah.
+03:54 There you go.
+03:57 How is all this...
+03:59 In the model's training data, like the fine-grained,
+04:03 this is what an MMA fighter looks like when they're appropriately
+04:07 balanced, and this is when they're like too much on the back foot.
+04:10 Just, I'm wondering, how has it consumed so many images of
+04:14 appropriate versus inappropriate MMA posture?
+04:17 Here you can see it.
+04:17 It just pulls out frames from it and it's like too much on my back leg there.
+04:22 Yeah, but is this the emergent intelligence?
+04:24 Like it does actually...
+04:27 Again, does it know from seeing lots of images of MMA
+04:30 or does it know because it understands the concept of where you're
+04:33 meant to be balancing?
+04:33 It's read books about MMA, and then it sees that you're
+04:36 too much on the back foot, or—
+04:37 Well, we did train the models with a lot of visual perception data.
+04:44 Yeah.
+04:44 So, I mean, I think that that's like kind of making good multimodal models.
+04:48 I mean, this gets into like, I think, a core approach thing that we have,
+04:52 which is we're training the models end-to-end to be good
+04:55 personal agents, right?
+04:56 So like the question is why would Meta want to build these models?
+05:01 First of all, I think just superintelligence overall is going
+05:04 to allow us to run the company better and build all kinds of different things.
+05:07 But for the products that we're building, there's certain capabilities and certain
+05:11 mixes of skills that basically are just much more applicable to these cases.
+05:17 So I mean, this is one of the things that Alex focused on from the beginning
+05:21 was like, all right, we really want to make sure that our
+05:23 multimodal program is good because that's disproportionately important for the types
+05:27 of things that people use all these services for.
+05:29 How do you train a good multimodal model?
+05:32 Is this where Meta just has an advantage because you guys have so
+05:34 much image and video data? It's very helpful.
+05:36 Yeah.
+05:37 And I think ultimately, a lot of this, it comes down to how are
+05:42 you focused on it, right?
+05:43 I think because of the fact that we wanted to build personal superintelligence.
+05:48 And fundamentally, I think most people in the world really
+05:51 experience the world in a highly multimodal way.
+05:53 They like talking to other people and listening to things and seeing videos
+05:59 and filming things of their own.
+06:01 I think most consumers have this highly multimodal experience.
+06:04 And especially earlier this year, there was actually a point of tension
+06:09 almost in the industry because I think so much of the consensus view within the AI
+06:14 industry was that it was just all about coding and coding was all that mattered.
+06:19 And I think that for the success of a product like
+06:23 Muse and the success of a lot of these consumer use cases, it really depends on
+06:28 the ability to be strong and multimodal. Yeah.
+06:30 I think we're just kind of scratching the surface of that.
+06:33 I mean, a lot of the initial theory that we had was that,
+06:35 I mean, most people don't actually like reading that much, right?
+06:39 So even the text-based interaction model, I think it's something that people do.
+06:43 I mean, everyone texts.
+06:46 But when you think about stuff like the glasses that we're working on,
+06:49 or even our other products that are very visual,
+06:52 the glasses basically will eventually just be a pure multimodal product, right?
+06:56 It's like you can let it hear what you are listening to, and it can talk to you,
+07:01 and it can see what you see if you let it.
+07:03 And then eventually, I don't even know if we're going to
+07:07 have an app store on the glasses.
+07:08 It'll just be like a multimodal generation that kind of creates whatever
+07:13 you need right in your vision.
+07:15 And I imagine something like that will probably end up powering a lot
+07:17 of the apps that we build too.
+07:20 But yeah, I mean, we're still in the early days of that.
+07:24 But for now, the perception work has been really impressive.
+07:28 I want to ask you guys about the product space here in AI
+07:32 and try something out on you.
+07:33 If I was to describe to you, say, with Stripe, what I think a winning
+07:37 product looks like, it would take me pages and pages to talk about because we have
+07:41 the developer experience and we have to talk about all the international
+07:43 heterogeneity of payment methods. Then we have to talk about stablecoins.
+07:46 Like, it would take me a long time.
+07:47 Whereas I notice a phenomenon in AI where it feels like the winning products
+07:52 collapse very quickly onto an agreed-upon product space
+07:56 that everyone is pursuing, and so transformers worked, and then
+07:59 like the chat agent UI really worked.
+08:03 And now we are seeing...
+08:04 You mentioned OpenClaw earlier, the kind of OpenClaw persistent agent,
+08:09 has a computer, able to do things.
+08:12 You know, computer use out there in the world view.
+08:13 We're collapsing on that product space.
+08:15 But there's something about AI where the winning products
+08:18 tend to be very simple, pursued by all the companies
+08:22 that are taking it seriously.
+08:24 You could describe on the back of a postcard...
+08:26 Like you could describe very concisely.
+08:28 And obviously, implementing them is massively complicated.
+08:31 Like, we'll get into the new model.
+08:32 There's, you know, huge amounts of frontier work
+08:36 that goes into making a good version.
+08:37 But the winning brand—now you're talking about the glasses or the future versions.
+08:42 But somehow there's a very small number of clearly correct products in AI
+08:48 as opposed to it being this, like, very broad and complicated product space.
+08:54 I kind of disagree.
+08:55 Sure.
+08:57 Well, first of all, I think part of the theory
+09:00 from the beginning was that this kind of agent or whatever form it took was
+09:03 going to be quite a different thing from this text-based assistant, right?
+09:09 Every company has one of those. I mean, ours is Meta AI.
+09:12 It reaches a ton of people, but I mean, it's like the same thing
+09:14 that all these companies have.
+09:16 And we, I think,
+09:18 specifically think that that is used for very informational purposes,
+09:23 but people don't think about it as like a thing that gets stuff done for them.
+09:26 It's retrieval, not delegation or something.
+09:28 Yeah, and even like when you say it has a computer...
+09:31 Yeah, but there's lots of different ways to do that, right?
+09:34 You know, I think that it's only kind of this most recent wave that
+09:39 gives the agent a dedicated VM, which I think is actually incredibly
+09:44 important for making you feel confident that the security and privacy of your
+09:49 information is—it's not just like, okay, it's not connecting to some elastic
+09:54 compute that just everyone uses.
+09:57 But my claim isn't that it's easy to implement, nor that it's obvious—
+10:00 I think there are going to be a lot of things.
+10:02 Yeah. Okay.
+10:03 You think there's going to be a lot of different things?
+10:04 Because again, my claim is that now that people see Muse,
+10:07 everyone looks at that and says, "Oh yeah, that's clearly how you want the AI agent
+10:12 product to work, and that the future AI agent products that we'll see
+10:16 will be fairly Muse-shaped."
+10:18 So I think...
+10:19 My take on this is, I think we're just so early in the realm
+10:23 of what AI products will look like that I think a lot of the interesting
+10:27 differentiation about the products kind of gets collapsed in how
+10:30 we view the products today.
+10:32 I think the traditional way in which we wrote down and think about
+10:35 product specs, that is...
+10:38 Those aren't the relevant dimensions and levers and axes
+10:42 to consider the important design decisions on AI-native products.
+10:47 And so, Muse, for example, I think so much attention was put in the design
+10:52 of the model for the product.
+10:54 And there were a lot of very intentional decisions around, in all these situations,
+10:57 how exactly should the model behave?
+11:00 And what's the exact personality of the model in these situations?
+11:02 And how should it handle these sorts of tool-use scenarios?
+11:05 And these are very intentional decisions.
+11:08 And probably in the same way that the full spec of how we wanted the model to behave
+11:14 in all these scenarios would be an extremely long document.
+11:17 But because of just how we think about products today, it's just AI.
+11:23 It's kind of like how when mobile first started happening,
+11:26 it was like, "Oh, it's just an app and everything is just
+11:28 an app." Well, it turns out there's a lot of nuance in what exactly an app is.
+11:33 And we're kind of in this phase where, oh, it's just AI, or it's just an agent,
+11:37 or it's just an agent with a VM or something like that.
+11:39 But the interesting differentiations we have to tease out.
+11:44 Okay.
+11:44 So you guys think I'm making the classic mistake, which is like,
+11:46 my domain is complex and this domain is, again, from a product
+11:49 point-of-view, it's simple. All payment processors seem the same.
+11:51 Yeah, no, I really agree with what you're saying.
+11:54 One thing that we talked about from early on, is that basically
+11:58 there is this pattern where I think the products are getting thinner
+12:01 and the model is getting to be more of the product, right?
+12:03 So one of the things that we say internally is like,
+12:04 the model is the product. Yes.
+12:05 Right?
+12:06 So, and when you're talking about an agent,
+12:08 a lot of the complex product work that went into Muse
+12:11 is basically around the privacy and security model for handling your data
+12:14 and the things that get connected to it.
+12:15 And that, I think, is something that we're just very proud of that we
+12:18 really focused on.
+12:19 But that's a lot of the product surface that we need to innovate on.
+12:22 But the capabilities, the personality, a lot of the stuff is like
+12:26 you're training into the model.
+12:28 And whether they're the people in the lab who are working on that or the people
+12:32 on Nat's team who are working on the product,
+12:34 I think when Nat is thinking about what is the key stuff that we need to make
+12:38 the product feel good, he's talking about post-training the model, right?
+12:42 Not like...
+12:43 I mean, of course the UI of the product matters too, but the most important
+12:46 part of the UI is the product. Yeah, exactly.
+12:48 I think there's like, there's still very viscerally, I think from a user,
+12:53 there's a feeling of using Muse over time.
+12:57 And maybe some meaningful portion of that is just the reliability
+13:00 of Muse to handle certain tasks.
+13:02 But then another meaningful portion is how is it proactive?
+13:05 And in what context is it proactive?
+13:07 And when it talks to you, how do you feel about how it talks to you?
+13:10 And so there's clearly a lot of...
+13:14 And I'm starting to see more and more of this actually show up on the X feed,
+13:17 which are people are starting to tease out these, like...
+13:20 They're all proactive agents, but what are the actual meaningful
+13:24 differences between them?
+13:26 And these, I think, are the interesting product decisions,
+13:28 which, you know, the funny thing is how do you specify these product decisions?
+13:32 Well, it's ultimately in model design decisions, which ultimately boil down to
+13:36 training methods or data or evals or, you know, all these things.
+13:40 Yes.
+13:41 As we talk about product space, one notable Muse detail is
+13:44 that there is no model selector.
+13:46 and no effort selector.
+13:49 Do you guys think that's just obviously correct in a consumer AI product, or—
+13:52 I just want to make it simple.
+13:54 Yeah. I think that we've been...
+13:57 I think somewhat infamously, a lot of the AI products have been
+14:01 designed by a highly technical group that do not have these sort of randomly
+14:08 sampled American in their mental model.
+14:11 And so the products...
+14:13 I mean, the naming of some of the models is like so egregious.
+14:19 The numbers go backwards?
+14:19 Some of the times the numbers go backwards and sometimes it's just like a totally
+14:22 different word and you have another set of words.
+14:24 And like, I just like, how is somebody who's not
+14:27 carefully reading API design specs supposed to know
+14:32 what they're supposed to pick? Like, it's just far too confusing.
+14:35 Okay, we're talking about models a lot. Tell me about the new model.
+14:38 It sounds awesome.
+14:39 Yeah, I mean, I think we're quite proud of this.
+14:41 Um, yeah, the new model—Muse Wonder—it's a new class of model
+14:45 that is at the frontier.
+14:47 So we've basically been working on this since the beginning.
+14:49 Basically, when you're doing these pre-trains, you don't just go to whatever
+14:53 the biggest cluster is that you have.
+14:55 You want to work your way up the ladder training models that are
+14:59 maybe 4 or 5 times bigger, and then you just keep on repeating that process.
+15:05 So the first set of models that we've had Muse Spark was all based on this initial
+15:11 pre-training that we did in, what was it, December?
+15:14 Yeah, the end of last year. Yeah.
+15:15 And, and it's actually...
+15:16 I think we've all just been quite surprised and impressed with how
+15:21 much intelligence and capability the team has been able to build
+15:26 into a model which is like frankly not that big, right?
+15:30 I mean, and then after that we were working on this next model,
+15:33 and the pre-training has been done for a bit, and we've been working
+15:36 on the post-training, and now it is here.
+15:40 So it's the next class of model.
+15:42 It is significantly bigger.
+15:44 So I think you you will feel that in terms of the nuance in which it can think.
+15:50 And it really.
+15:50 A lot of the areas that we focused on were making it the best personal
+15:55 and professional agentic model.
+15:57 Some of the different things that you can optimize for that's it for us, and then
+16:02 yeah, a lot of the basic capabilities that we focused on building in.
+16:06 Very good memory, very good ability to persist through complicated tasks.
+16:11 But a ton of work went into this across the lab and the product
+16:15 teams and all of this.
+16:17 And I think it's also just sort of a testament to the the team being able
+16:21 to methodically figure out the process to scale these models.
+16:24 So I think this is also just, you know,
+16:30 a milestone on the way towards the time
+16:33 between each subsequently bigger class of models, I think will
+16:36 now start to compress.
+16:38 And that's very exciting for the type of stuff that we can build.
+16:40 At Meta or in the industry generally?
+16:42 At Meta.
+16:43 I mean, I think you're seeing something like this everywhere else, but—
+16:46 Is this an RSI effect or something else?
+16:49 Well, I think at Meta, part of this is just...
+16:52 We needed to...
+16:53 Well, I think quite famously, we were not happy with the trajectory
+16:56 that we were on with Llama 4.
+16:58 We kind of like rebuilt the whole team.
+16:59 That's been this kind of crazy thing over the last year and a half that we should
+17:03 probably spend a bunch of time on.
+17:04 Oh, we'll get to that. Yeah, yeah.
+17:04 Some war stories.
+17:06 But the team basically had to go build up like different tiers
+17:11 of models to get to this one.
+17:14 And now that we are kind of at the frontier,
+17:17 now everything that we do going forward will just be pushing the frontier,
+17:21 as opposed to there's a lot of background work that we needed to do before that.
+17:25 I don't know, what would you say? Yeah.
+17:27 Well, I think we're really excited about it.
+17:29 We will have 2 models in this series that are going to be available.
+17:35 So there's Muse Wonder and Muse Wonder Full.
+17:39 Laugh? Yeah, all right, there you go.
+17:41 Yeah, very good. Uh, which is basically a much higher—
+17:44 Studio band version.
+17:45 Yeah, no, a much higher-end model.
+17:47 It's the full version of Muse 1.
+17:49 I know, I got it. Yeah, yeah, it's not—
+17:51 It's 2 words. Wonder full version.
+17:56 You're clearly a father.
+17:57 What's up?
+17:58 This is an excellent dad joke. Yeah, there you go.
+18:00 Um, and, and the performance...
+18:01 I mean, we've seen like incredible performance across a slate of evaluations
+18:05 on personal, professional agent tasks.
+18:08 It's state-of-the-art based on our measurement.
+18:10 And then there's a number of, I think, specific highlights which we're
+18:14 really excited about.
+18:15 Which we've designed into the model over time.
+18:17 So active memory, like Mark mentioned, is one area where
+18:22 we think that to build personal agents, personal professional agents,
+18:26 like memory is just one of the clear requirements to build reliable agents
+18:31 and is one of the areas where we've invested, I think,
+18:33 disproportionately actually compared to many of the other efforts.
+18:37 And we have our own internal evals of Memory Bench which demonstrate
+18:40 a lot of the capabilities there.
+18:42 What does memory mean in a model to a layperson?
+18:46 Is it just how much stuff it can...
+18:47 Like the working memory of if you're working on a task, how much stuff
+18:50 the model can kind of keep in its—
+18:52 Yeah. How's it different from context?
+18:54 I think it's in the experience of using the model.
+18:57 How well does it remember things that you mentioned to it over days, weeks,
+19:01 or months, and then leverage those in the process of doing future tasks?
+19:05 I see.
+19:05 This is the stuff that's buggy AF in OpenClaw.
+19:08 Like, I think we're all extremely fond of OpenClaw.
+19:11 Very happy OpenClaw user, but it ultimately does this compaction
+19:15 where it has like the long-term memory and the working short-term memory or whatever.
+19:18 And I think once people use OpenClaw for a while, they find the memory pretty buggy.
+19:22 Yeah.
+19:22 So we've designed basically both the model and a system for the model to use
+19:27 to develop a much stronger form of memory. We call it active memory.
+19:31 Yeah.
+19:32 In addition, as Mark mentioned on the persistence—
+19:35 But so this is outside the model, like the model exists and it's—
+19:37 No, no, but some of the capabilities that you're talking about,
+19:40 like the compaction, are things that the model does, right?
+19:43 So basically being able to do this well, both with—
+19:45 It's not a harness, it's in the model itself.
+19:47 Yes, it's in the model itself. Exactly, yeah.
+19:50 So it's aware of its memory as a core system.
+19:55 And it's about how it's able to leverage various sources to be able to
+20:00 conduct tasks in the future, as well as understand its ability to do
+20:04 compaction, how it should do that compaction most effectively, et cetera.
+20:07 Okay.
+20:07 But this is a big deal because I think a lot of people's early experience
+20:10 of AI agents has been buggy memory.
+20:13 And so, yeah, improving that is—
+20:14 And to be clear, there's still plenty of room to improve.
+20:17 Our evaluations show this, but this is something that we're quite
+20:20 proud of, and we think this is a meaningful contribution.
+20:22 Okay. So active memory is one thing.
+20:23 Yeah. Active memory.
+20:24 Active focus is another, which is effectively just the ability for the model
+20:28 to, when conducting tasks,
+20:31 be able to carry them through, especially as we've seen
+20:34 Muse users as well as Muse Code users, give  higher and higher complexity
+20:39 and more and more ambiguous and more and more complex tasks,
+20:42 we want the model to be able to conduct those and do those very effectively.
+20:45 And this is one of the things actually in early dogfooding and testing
+20:48 that a lot of people have noticed about the model that is sort of special
+20:52 and stands out with respect to other models that they've tried or used.
+20:57 The third one is domain expertise.
+20:59 What is focus in AI terms?
+21:01 Is it like putting a lot of compute on the task?
+21:04 Is it not getting distracted with other—
+21:08 Kind of, persistence? Yeah, like persistence.
+21:10 It's basically like the ability to conduct complete tasks over very long horizons.
+21:14 Okay.
+21:14 And then when faced with various setbacks along the way,
+21:20 the ability to identify other solutions to those problems in an aligned way.
+21:24 Okay.
+21:26 Then there's...
+21:27 It's actually a big step up in coding capabilities,
+21:31 so frontier coding capabilities.
+21:32 So it is actually state-of-the-art on DeepSWE and, SWE-Marathon
+21:38 and does very well on other benchmarks like Terminal-Bench 4 and many others.
+21:41 So we think that users who use it for coding,
+21:45 which will be a minority of all of our users, but the ones who do will see
+21:49 a big improvement and a big step up.
+21:51 Okay, so we should also just be using Muse Wonder Full for coding at Stripe?
+21:56 Potentially, yeah.
+21:57 I mean, let's go out there and—
+21:59 But like if it's state of the art on SWE-bench, yeah.
+22:01 We'd be missing out.
+22:02 Yeah, no, it's a big improvement on coding.
+22:04 I mean, obviously, we want people to try it and see how they
+22:07 experience it, but we've been very pleased in our own internal testing.
+22:12 Okay, so this is—
+22:13 Yeah, I think people will like it for a lot of things.
+22:14 Okay, so this is both just your latest frontier model, like people can come,
+22:19 you know, developers can come directly to you, they can use it on OpenRouter,
+22:22 like they can just consume it as a model, and it's also a big upgrade
+22:27 inside of Muse that people will just feel as active users of Muse.
+22:33 Yeah.
+22:33 Well, what we're going to do in Muse, because it's a lot bigger and it's more
+22:36 expensive to serve, we're going to start off primarily in paid subscriptions.
+22:43 So what we want to do with Muse as a product, we want it to be
+22:45 free for everyone to use.
+22:47 So we have this huge amount of free tokens that people can use with
+22:51 with Muse Spark as the model.
+22:53 But if you want to use Wonder for most of the hard tasks, then
+23:00 at least for now, you'll use the paid version.
+23:03 But, you know, I mean, eventually we'll, you know how quickly the field moves.
+23:06 Yes.
+23:07 And we hope to, you know, at some point not too far from now,
+23:09 have a model that is as good as Wonder, but in the Spark form factor.
+23:14 And that will be a great thing to be able to serve hundreds of millions
+23:17 of people around the world.
+23:18 Okay, so you go to Muse, you subscribe to the—what's it
+23:20 called—like the premium or pro plan, or...
+23:22 Pay money. Yeah.
+23:24 And just don't stop until you've taken out your credit card.
+23:26 Yeah. And then you'll be able to...
+23:28 You'll select it, or it'll just magically— Oh, it just gets better.
+23:30 It just gets better for you. Yeah.
+23:32 And then it'll also be available via API, on the Meta Model API and OpenRouter.
+23:40 And then it'll also be available for Muse Code users.
+23:46 And then Muse Wonder Full will be available to subscribers of Muse Code.
+23:51 So it's pretty exciting.
+23:53 I think we want to, as Mark mentioned, it is a much larger model.
+23:56 And so we're working through how to serve that most effectively
+23:59 to as many people as possible.
+24:01 But we're excited to get it in the hands of as many people as possible.
+24:03 It's a big step forward.
+24:05 I mean, this is like, and we really with Muse Spark,
+24:07 we were very happy with the performance that we were able to deliver as
+24:11 we were getting up to this point.
+24:12 But like, this is, the beginning of, like, MSL kind of being at the frontier.
+24:18 We feel like the models are quite competitive with the best
+24:20 models that are out there. And I think that this is—
+24:24 Okay, so you think it's like Astra, Fable, and Wonder altogether at the frontier?
+24:31 I mean, you can look at it empirically by the benchmarks.
+24:33 Empirically by the benchmarks, one would conclude that.
+24:35 Yes. I see.
+24:36 Yes.
+24:37 And I think actually one of the things that we're especially proud of is
+24:41 we have taken the time, as we've mentioned, to optimize models
+24:47 for the product form factor of Muse.
+24:49 So this is the state-of-the-art model.
+24:51 We think it really is the best model in the world for the use case
+24:55 of personal professional agents.
+24:56 Yeah, people inside companies like complaining about Goodhart's Law.
+24:59 You know, a metric that becomes a target ceases to become a good metric.
+25:03 You hear complaints that models are benchmaxed and that at a certain point,
+25:07 kind of overfitting to the benchmarks actually makes the models slightly worse.
+25:12 As people who actually have to train AI models, is that true?
+25:15 Are the benchmarks pretty good at grading models?
+25:17 Do you start to see weird edge failure cases from the—
+25:21 The benchmarks have to keep moving, right?
+25:22 Because it happens very quickly, but they just get saturated so quickly.
+25:27 So, I mean, I do think that—
+25:28 But you think non-saturated benchmarks are fine?
+25:32 I mean, as we've gone on, we steer the models more towards our internal
+25:37 benchmarks for the use cases that we're focused on.
+25:40 So, I mean, early on when we were kind of just
+25:43 doing the science of trying to climb the ladder,
+25:46 we cared more about what the external benchmarks were just to make
+25:49 sure we were on the right track.
+25:50 And then I'd say, you know, each release that goes by,
+25:54 the larger share of what we're looking at are internal ones.
+25:58 And one of the things that we actually quantified in our research blog post as
+26:02 part of Muse Wonder is this metric for big model smell,
+26:07 which is kind of, you know, big model smell and feeling of benchmaxing
+26:10 are kind of like inverses of one another.
+26:11 This idea that you could just like tell when you're using a really
+26:13 big model, it just... You can tell.
+26:15 It just has nuance. It's got that je ne sais quoi.
+26:17 Yeah.
+26:17 And so we, the way we quantify that is actually almost explicitly what you're
+26:20 mentioning, which is the gap between in-distribution performance
+26:23 and out-of-distribution performance. So what is the...
+26:26 We kind of measure how well does the model perform on tasks
+26:29 that are in distribution of our RL and post-training versus tasks
+26:33 that are out of distribution.
+26:35 And what does that gap look like for...
+26:37 What does that gap look like between the Muse Spark line and the Muse Wonder line?
+26:40 And we actually see this huge step up from the Muse Spark to the Muse Wonder
+26:44 line because of, as Mark mentioned, like, it's just a much better base
+26:47 model powering this new line.
+26:49 And there's an entire je ne sais quoi to that,
+26:52 but I think we've been able to actually quantify this effect.
+26:56 And it's an obviously dimension that we're excited to continue improving on.
+27:00 But if you're saying that external benchmarks have ceased to become
+27:03 as important, and you care much more about your internal benchmarks.
+27:07 Is that kind of an argument against benchmaxing, that you think that
+27:11 just trying to get the top score on the external benchmarks that everyone
+27:14 talks about is maybe not going to lead you to develop a great model?
+27:17 Well, yeah, but also we're focused on specific things.
+27:20 I mean, part of the whole strategy is personal superintelligence and just trying
+27:24 to build different types of products than other people are trying to build.
+27:27 So even if we did have the exact same evals as everyone else.
+27:31 It just—
+27:32 Yes.
+27:33 And though I would say a personal superintelligence is not like a super
+27:35 niche interest, like it's probably something that other
+27:38 models want to be able to do.
+27:40 I think that there are things that are very different about it.
+27:44 I mean, I think like the personality probably matters more.
+27:47 I mean, one of the things that we talk about is this idea of discretion, right?
+27:51 So if you want to like use the model to get something done,
+27:55 It needs to be able to know a lot about you and get things done in the world
+27:59 while disclosing as little as possible.
+28:01 So, you know, if you're— you have an allergy or you're
+28:04 pregnant or something, you're trying to, like, get a,
+28:06 you know, like, a table at a restaurant and you don't want to, like,
+28:09 have to tell them your medical condition. Yes, yeah.
+28:12 You know, to make sure that it's going to be a good place for you.
+28:14 Like, okay, how do you handle that?
+28:16 And I mean, humans have common sense and the models so far
+28:20 If you're building a coding agent that works in an environment where everyone has
+28:24 access to the same context, discretion isn't particularly important.
+28:28 So there are all these things that I think are just kind of more important for us.
+28:33 Yes.
+28:34 Aspects of coding where the code needs to work,
+28:37 but you don't— the consumers who are using it may not even ever see the code.
+28:41 I mean, that probably matters more in a personal superintelligence context
+28:45 rather than serving software developers.
+28:47 So I think these things are just a bit different.
+28:50 Yeah.
+28:50 Ultimately, we care about making useful models.
+28:52 So we want models when you put them into people's hands,
+28:56 they have a great experience using.
+28:58 And I think that is the most important metric for any model that we
+29:02 or other people produce.
+29:04 I think that really focusing on the external benchmarks,
+29:09 if you really dig into the supply chain a little bit, it's some
+29:12 PhD student who made these benchmarks, a benchmark as part of their,
+29:18 as the course of them doing their PhD.
+29:20 And so you're kind of outsourcing all of your product thinking to that PhD
+29:24 student who happened to make a viral benchmark.
+29:26 Right. So clearly that's wrong.
+29:28 Yeah. And so that's why we care a lot.
+29:30 A huge part of what a lot of people at Meta and MSL are focused
+29:34 on is crafting amazing evals.
+29:36 And now that we have them, we can work on our own.
+29:38 But if you're building a you're ramping up your lab, right?
+29:41 It's like those public ones are not a crazy place to start, but it's
+29:45 just not where you want to end up.
+29:46 You're just at that point, you're just looking for signs of life.
+29:48 But then when you're like really in this mode, as we are now, where it's like,
+29:53 you know, we want to be very intentional about how
+29:55 we're improving our model over time to build better and better, better products.
+29:59 Like a lot of the cases that Mark just mentioned, like these are
+30:03 actually detailed very rigorously in like the spreadsheet of all the little
+30:07 capabilities and nuances of the product that we think really
+30:11 matter to the end user.
+30:13 And maybe each of them matters like 2% to the user, but in aggregate,
+30:16 that's the obsession that will ultimately result in these models that feel magical.
+30:21 Can you guys describe for me just what goes into training an RL model?
+30:24 Or sorry, a leading-edge frontier model?
+30:27 I'm just curious in that I think a lot of people listening
+30:30 to this have a rough idea where there's there's a pre-training
+30:34 and a post-training step.
+30:34 So pre-training is you kind of ingest this huge amount of data.
+30:38 You look at a lot of pictures and these are cats and these are dogs.
+30:40 And after a while you start to develop a sense for what is catness and what is
+30:44 dogness and what is fur and everything like that.
+30:47 And so that's kind of the pre-training step where you just hoover up data
+30:50 and maybe you can talk about the data acquisition and just kind
+30:52 of what goes into that.
+30:54 And then there's this RL stage, which is the newish advance
+31:01 over kind of the past few years of AI.
+31:03 And again, it sounds like that is where a lot of the specific nuance of this model
+31:07 has come in, where you guys have chosen better domains,
+31:15 better hills to climb for the model.
+31:18 But just at a high level, describe how many people,
+31:21 how long it takes, what the steps are, how you think about those in—
+31:26 How much time do you have? Yeah, at a high level.
+31:27 This happens to be What we spend all of our time on.
+31:32 Exactly. And so summarizing—
+31:34 YouTube courses.
+31:36 Yeah, I think at a very high level, these are the stages.
+31:40 It's pre-training and post-training.
+31:42 Ironically, training is the superset of all of it.
+31:46 But that's—
+31:47 so how many people are on this whole effort, like when you
+31:49 develop these models?
+31:50 So this, I think you're getting into what is interesting about MSL
+31:54 and the approach that we've taken, which is, I mean, From the very beginning,
+31:58 I think when I first reached out to you, I think we were just looking at this
+32:01 because we were like, just like, wow, okay, how far we've come.
+32:04 And I was just like, I pulled up the screenshot of like
+32:06 when I first reached out to Alex.
+32:08 My first thing was like, hey, do you have time to catch up and talk?
+32:10 And then it's like, all right, we talked for—
+32:12 That's how they get you. 44 minutes or whatever.
+32:14 And then after that call, 2 days later, Alex sends me this long thing,
+32:19 which is like, well, here's what I think I would do if I were in your position.
+32:24 And the very first thing is that you don't need a lot of people, and
+32:29 talent density is the thing that matters.
+32:31 So I'd say, like, from the beginning of the plan, this was,
+32:35 like, the core of your strategy, right?
+32:37 It's basically, like, you actually don't need
+32:40 a massive number of people, but what you do need is for,
+32:44 like, each of the people to be as good as possible, which kind of informed this
+32:49 kind of crazy recruiting push and, like, very
+32:52 intense filtering that we had to take, you know, some of the best people
+32:56 from inside Meta and a very intense process to get people from outside Meta.
+33:01 But I actually think like a lot of what has made MSL special
+33:05 and why a lot of people have wanted to join is because I think it's in some
+33:09 ways it's just like more fun to work on a talent and smaller effort.
+33:12 It feels like the startup. Yes.
+33:14 That's operating.
+33:16 In some ways it has all the benefits of a startup
+33:19 with the stability and resources of a larger company.
+33:21 And this was like this environment that I think this was like point one in your kind
+33:25 of plan for what, um, for what Alex was like, this is what we need to go do.
+33:29 So I don't know the answer of like how big is a pre-training team, you know,
+33:33 it's, it doesn't need to be that big.
+33:34 But I think if you look at, you know, some of the other labs, um, it's
+33:38 probably quite big in some other places.
+33:40 So, um, I think part of the reason why, uh, these models are doing well is because
+33:44 you You have people who we're betting on and they have a lot of resources
+33:48 because we're taking our compute.
+33:50 We're not peanut buttering it across a lot of competing efforts.
+33:53 We're basically just investing in the key people, a lot of compute per researcher,
+33:59 and then they can do their work.
+34:02 Was Wonder the one big training effort?
+34:04 That was where most of the training was?
+34:06 It was the next pre-train.
+34:07 It was climbing up this ladder.
+34:09 So, I mean, we have this tiering system and then kind of Spark.
+34:12 I mean, internally, like, Avocado was the code name
+34:14 for the Muse Spark line, and then Watermelon was the code name for this one.
+34:18 And we're, like, out of fruits now. We're out of fruits.
+34:20 Yeah, so we're going to have to switch to a, to a new convention.
+34:24 But, um, I think the only fruit that is technically larger is the durian,
+34:28 and you don't want to go to the durian. No, no, no, no.
+34:30 Yeah, yeah, yeah. No, you want to stay far away.
+34:32 A durian is bigger than a watermelon?
+34:34 I think it's definitely heavier. That's horrifying.
+34:36 Definitely heavier. Spikier.
+34:37 Spikier, yeah.
+34:39 But no, yeah, I think as Mark mentioned, like, you know, each of the— I mean,
+34:44 each of the stages I'll describe, like, it's tens of people working on it
+34:48 at Meta versus, you know, hundreds at—
+34:50 So Meta is a huge company, but this is like a really tiny effort inside of Meta.
+34:54 Yeah. Oh yeah, I know.
+34:54 The research team is less than 200 people.
+34:56 Yeah, it's very small.
+34:58 It's intentionally very, very tight. I think that the—
+35:00 It's closer to 100, right?
+35:02 And then there's a bunch of InfoFolks. Yeah.
+35:04 It's a lot of infra work.
+35:06 So I think at a very high level, to go back to the, to the, to the what is
+35:11 it question, you know, how does it happen?
+35:13 How does model happen? That's basically what I'm asking.
+35:15 Where do models come from?
+35:19 You take a huge amount of data for pre-training, and here you're—
+35:24 And it's here, like, roughly, it's like all the,
+35:28 you know, public internet and like all the books you can get your hands
+35:31 on and just like as much data as possible. But different types.
+35:34 Plus the proprietary But also different modalities, right?
+35:37 So if you want it to be good at perception, then you want to make sure
+35:40 it has a lot of images and audio and video and this kind of stuff.
+35:44 Um, you know, if you want it to
+35:47 be good at certain domains, you don't just want to RL that in at the end.
+35:51 You want to have it have exposure to that from the beginning.
+35:53 Yeah. Yep.
+35:54 Yeah.
+35:54 So, so, and in this stage, you're kind of, you're much less,
+35:58 you care a lot less exactly what the data looks like or how it's formatted or
+36:01 You know, all of everything about it.
+36:03 But it's just lots and lots of data.
+36:05 When you talk about this being the best personal agent model,
+36:09 was there data you had to get for the pre-train where it's like huge
+36:12 amounts of restaurant reservation, call booking?
+36:15 I don't know what it is, but like—
+36:16 You just kind of want to dump in large volumes of the modalities
+36:20 that people are going to care about.
+36:21 I mean, there were a bunch of things.
+36:22 I mean, I don't actually think we talked about this when we were talking
+36:25 about where Muse Wonder excels.
+36:27 But some of the areas that it's like, all right, what do people care about, right?
+36:31 It's, I mean, there are things like shopping that people care about a lot,
+36:34 personal advice that people care about a lot.
+36:36 People have personal legal questions, personal health questions,
+36:39 personal tax questions.
+36:41 Muse Wonder, I mean, is like quite good at those.
+36:44 I don't know if there's any quantification that we want to give,
+36:47 but it's, let's say it's—
+36:49 It's very good on those personal advice questions.
+36:51 Yeah, and so those types of things, I mean, you can RL them to some degree,
+36:55 but you're like, just want to put in a large amount of data.
+36:58 Like, you can imagine health is a very— there's a lot of data
+37:01 out there about health.
+37:02 And, um, in, in pre-training, you just wanted to like see
+37:05 all these different things.
+37:06 And, um, so you, you kind of just put these different corpora in.
+37:11 Yeah.
+37:12 So, so that— so as, um, as Mark was mentioning, like, the, uh, we,
+37:18 uh, one of the highlights of Muse Wonder actually is its ability on domain
+37:22 various domain expertises. Yes.
+37:24 And I think our philosophy here is that, you know, the best personal agent should
+37:29 feel like a team of experts in your corner.
+37:31 Like, it should feel like it is your legal team.
+37:34 Yes.
+37:34 And your finance team, and your medical team, and, and, and, and, and.
+37:38 And so, um, on a bunch of these domains, we, you know, Muse Wonder is actually
+37:42 state of the art on, I think, um, a lot of the finance evals, as well
+37:45 as a lot of the, um, uh, legal evals.
+37:48 the state-of-the-art model.
+37:50 And that, you know, these, these domain areas, that starts in pre-training.
+37:53 Those, you know, we look for a lot of domain data to put into pre-training.
+37:57 Yes.
+37:58 But a lot of the, a lot of the art of pre-training— I mean,
+38:01 pre-training is, um, there's this one Rune tweet where it's like pre-training is full
+38:05 of the researchers who like chew glass and stare out into the distance
+38:08 and into the, into the abyss or whatnot.
+38:10 But, but I think there's a truth to that because it is like, um,
+38:14 It is both the highest stakes of the research areas because you,
+38:18 you know, we invested a huge percentage of our compute into training Muse Wonder,
+38:22 into pre-training Muse Wonder.
+38:24 And it was very high stakes.
+38:27 I think probably both of us at various points in that process, you know—
+38:30 You went through troughs of sadness.
+38:32 But yeah, troughs of uncertainties, you know, all the 7 stages of grief,
+38:36 you know, happen while you're pre-training a model.
+38:39 And it is the most sort of like fundamentally scientific in an interesting
+38:44 way, because, you know, you just don't have very many samples.
+38:47 So, like, your ability to infer exactly what will happen scientifically
+38:52 really depends on your ability to sort of like,
+38:54 you know, big brain reason about everything that's
+38:56 happening in this process. Okay.
+38:58 So in the pre-training stage, everyone who's training frontier models
+39:02 basically is trying to get as much data as possible for the pre-train
+39:05 with maybe a bent towards If you want Muse Wonder to excel at legal
+39:09 and finance and tax questions and things like this,
+39:12 then you want to have as much of that specific corpus as
+39:16 possible in the pre-train.
+39:17 Yeah, you still want as much intentionality about where ultimately you
+39:20 want your model to be, but again, it just, you know, benefits from a lot more data.
+39:23 Yeah.
+39:23 And this is sort of the massive data, massive compute stage.
+39:29 Do you hit some saturation in the data you put in the pre-train, or ultimately
+39:32 is it just more data is better?
+39:35 Well, there's a relationship between if you want
+39:37 the model to be bigger, you need more data.
+39:40 Otherwise, it overfits.
+39:41 Yes, but my point is, like, is there data where it's like,
+39:44 we can't distract the model with that, we can't clutter up its brain attic
+39:47 with knowing that stuff, or is it just more data is better?
+39:50 There are some of these effects, I think.
+39:53 Yeah, because this is part of the science.
+39:54 Okay, we're getting into the secret sauce, sorry.
+39:56 No, it's not even that, it's just like, I mean, I think that there are all these
+39:58 questions about, like, okay, well, we put a lot of these tokens in,
+40:01 is there any zero-sumness in a bunch of places there isn't,
+40:03 or it's actually positive transfer, but then like depending on how it's set
+40:08 up, like you can have some negative transfer.
+40:10 Yes.
+40:10 And so I don't know, there are all these interesting questions.
+40:13 But in general, one of the bigger challenges of scaling bigger models
+40:18 is it's not just about how many flops and how much compute.
+40:22 You want to be able to scale data with that.
+40:24 I mean, this is like part of what, when the original kind of scaling laws
+40:28 for pre-training were written, I mean, this is sort of what came
+40:31 out of that is is that.
+40:33 So if the internet isn't growing that quickly
+40:36 and you want to scale bigger models that can be more intelligent,
+40:39 I think one of the interesting problems is, all right, where's
+40:42 the data coming from? Yes.
+40:43 So I think that probably gets to the end of what we're going to talk about on that.
+40:48 But we could go to the other— Excellent CEO energy over here.
+40:55 But so post-training, so then I think Post-training is kind of— is
+41:00 a very exciting field now, I think, and is an area where
+41:05 I think actually, I think almost on a continual basis,
+41:08 the entire field is learning about the optimal recipes to be able
+41:11 to post-train these models.
+41:12 And again, for people, like, post-training is where you give the model
+41:16 a task that you expect it to do, grade it on how it does.
+41:19 And so if it's a chess-playing model, it plays chess games, learns the— Well,
+41:22 there's actually 2 stages.
+41:23 There's the SFT, So there's supervised learning.
+41:25 So that's like a lot of when you take this kind of raw thing and you give it both
+41:31 the question and the answer that you would want it to have, right?
+41:33 If like, if you're having a chat conversation, how would you
+41:35 want it to respond in this case?
+41:37 So when you're training things like personality, the SFT is actually like
+41:41 a very important part for molding it.
+41:43 But then I think most of the advances in the recent years have been in RL.
+41:47 Yeah. Yeah.
+41:48 So I think one mental model that can be helpful is like, And SFT is where
+41:52 you kind of initialize a lot of— SFT is supervised fine-tuning.
+41:55 Supervised fine-tuning, yeah.
+41:56 Where you initialize a lot of the behaviors that you want the model
+41:59 to be able to exhibit later on.
+42:01 And then, you know, maybe at the end of SFT,
+42:05 it has those behaviors kind of baked in, but it'll only do it like 10% of the time.
+42:08 And then in reinforcement learning, you really sort of give the model
+42:14 reinforcement in various situations to bring the elicitation of those
+42:18 behaviors dramatically up.
+42:21 And I think that the— yeah, so I think there's a bunch
+42:24 of interesting things that are happening in RL and post-training.
+42:29 I think one is that just the scaling of RL and post-training has been
+42:34 one of the clear axes, just spending more compute and gathering more data.
+42:37 Just doing much more of it before you release a model.
+42:40 Yes, doing much more of it, especially as the pre-trains scale up, doing much more.
+42:44 It's like anything in scaling laws, like it has to go with the rest
+42:48 of the factors or it doesn't work. Yeah, in general.
+42:51 I mean, if I were to give, say, like one broad statement about AI,
+42:54 it's just scale everything, you know?
+42:55 But, um, uh, but in particular, you have to scale everything.
+42:58 Like scaling one thing in isolation does not work.
+43:02 You, you technically can, you can scale one dimension.
+43:06 You just will get much more optimal performance if
+43:08 you scale many things altogether.
+43:10 Well, I mean, so one way to think about like Muse Wonder, right?
+43:13 It's like, all right, so we did the pre-train.
+43:14 Yep. we've done some RL, right?
+43:16 When you look at it like Muse Spark, right?
+43:18 So version 1 to 1.1, 1.2, 1.3, we didn't change anything about pre-training, right?
+43:23 We just continued doing more RL on top of it.
+43:25 So, um, so you, when you think about the early versions
+43:30 of a model of a new class, they're actually relatively less,
+43:34 like the RL to pre-training ratio is going to be lower for RL
+43:38 than the later versions.
+43:39 That is kind of what the point releases in models are.
+43:42 Well, I think every company has its own convention.
+43:44 For us, that's what it is meant to be.
+43:45 But for a lot of companies, like the big number is the pre-train and then the—
+43:49 I think it kind of lost that semantic value.
+43:53 Yeah, I think now you actually can't do that.
+43:54 Okay, but that is true at Meta at least.
+43:56 But we haven't even done it.
+43:57 We kind of decided to not even do it. It's true at Muse Spark at least.
+43:59 It is true at Muse Spark and Muse Wonder.
+44:01 It's true that Muse Spark and Muse Wonder are different pre-trains.
+44:03 And we decided to kick the can down the road on this question for Muse Wonder
+44:06 by not giving it a number yet.
+44:08 But when we have our first dot release, we will have to decide that.
+44:13 Yeah.
+44:14 But yeah, no, I think the RL stage, part of what has been—
+44:18 part of what's very interesting is first is just producing the environments
+44:23 and producing the tasks.
+44:24 And I think that is one of the areas where there's
+44:27 a lot of intentionality in training these models.
+44:29 It's also one of the areas where you notice very funny things.
+44:33 Like if you— in a lot of cases, less is actually more when it comes to data in RL.
+44:39 And so I think I think the sort of, like, the feel and the science of it, like,
+44:44 is pretty flipped, generally speaking, from pre-training.
+44:48 Yeah.
+44:49 The other is that I think it can give very magnified kind of instruction
+44:54 to the model, if that makes sense.
+44:55 So I think that, like, a lot of safety cases or alignment cases
+44:58 that we care a lot about are, like, you know, and, you know,
+45:01 where you would see when you do large high-compute RL runs on frontier models,
+45:05 are where you apply a lot of RL or optimization pressure in scenarios where
+45:11 the only way for the model to succeed is to do something misaligned
+45:15 or do something unsafe.
+45:16 And so that's another thing that we had to be very careful about and thoughtful
+45:19 about in training Muse Wonder is ensuring that we curated the RL environments very
+45:24 thoughtfully to ensure that all of them were eliciting and driving
+45:28 towards more aligned behavior from the model.
+45:30 So the point that you're saying about quality, I think,
+45:32 is an important one because I think a lot of the previous questions back and forth
+45:36 were about the quantity and have the flavor of like, oh,
+45:38 you need to scale the quantity. Yes.
+45:40 But I mean, I do think like a huge part of this is just, is,
+45:43 is the point that you just made of like the even a smaller amount of high quality.
+45:48 Yeah, I think, I think in RL, like we, you know, as we've seen
+45:52 pretty big jumps in our new Spark line, I think these have been like accompanied
+45:57 with, you know, real meaningful improvements to the underlying recipe.
+46:02 And each of these improvements in the recipe have been like,
+46:06 I think the improvement between Muse Spark 1 to Muse Spark 1.3 feels night and day.
+46:11 I think probably to most people, if you ask them,
+46:16 do these feel like they came from different pretrains?
+46:18 I think they probably would say yes, because I think you can—
+46:21 Mm-hmm.
+46:21 I think it's happening industry-wide for what it's worth.
+46:24 It's just like we are learning to squeeze so much capability and so much
+46:30 and elicit so much agentic capability from these existing base models.
+46:35 Now, that's not to say, like, we believe scaling is very important.
+46:38 That's why we have to use Wonderland in the first place.
+46:41 Yes.
+46:41 But, you know, this sort of like, these two things are happening at the same
+46:44 time, which is also, by the way, for us, this is why we're seeing so
+46:48 much progress in general.
+46:50 Like, I think it's the fact that we're scaling both pre-training and scaling our
+46:53 recipes in RL kind of like concurrently. At a nice clip.
+46:57 Yeah.
+46:57 And then there's these other scaling axes too.
+46:59 I mean, like making sure that your agent harness is good and that you can
+47:03 co-optimize these things is probably just another aspect of,
+47:06 or dimension for scaling.
+47:08 But if I'm understanding you guys correctly, are you saying that alignment
+47:12 is not about coming up with some alignment-specific RL
+47:16 steps and instead about making sure the entire RL process
+47:20 is kind of steering The model—
+47:23 You have to be thoughtful about it in the entire process of RL.
+47:26 Yeah.
+47:27 So I think this is a holistic effort, I think.
+47:30 Yeah.
+47:30 But also, I think different labs have very different theories.
+47:33 I mean, alignment is a very philosophical concept, right?
+47:36 Of like, who do you want it to be aligned to?
+47:38 I mean, a lot of our theory is like, okay, we care more about it being aligned to,
+47:43 you know, we're trying to give people agents, right?
+47:46 And it needs to, if you ask it to do something,
+47:49 you need to have a high confidence that it's going to do what you ask it to do.
+47:53 Yes.
+47:53 You know, like, you want it to do that with high reliability.
+47:55 You don't want a moralizing lecture for why you're wrong
+47:59 for asking it to do the thing.
+48:00 Obviously, if you're trying to do something that's catastrophic,
+48:02 it needs to gracefully, without pissing you off, like, not do it.
+48:08 But in general, you know, we view alignment as more
+48:11 of a question of instruction and values alignment with the person
+48:15 who it's intending to serve.
+48:18 And I think that that's kind of a different mode of thinking about it.
+48:23 It's very different from, I think, how some of the others do.
+48:26 But one of the more interesting things I think that is maybe a question related
+48:30 to your original question is also just how long the process of training
+48:34 one of these models takes.
+48:35 Like Muse Wonder, I mean, in general, we've planned Muse Wonder since
+48:42 last You know, August.
+48:44 Yeah, so yeah, I remember the offsite when we were— so this is like when
+48:48 they first presented this.
+48:49 Yeah, so I think all of the stages that we just talked about are like, you know, you
+48:54 really work on them for quite a long time.
+48:55 And, and, um, it's not that we, we didn't start working on Muse Wonder
+48:59 when we finished Muse Spark.
+49:01 It's that we've actually just been planning and working on this
+49:04 for quite a long time.
+49:06 And we really view Muse Spark, if anything, as like I think we mentioned
+49:09 this in the first blog post where we wrote about it.
+49:12 That was a stepping stone to get to Muse Wonder.
+49:16 And that really was how we thought about it.
+49:17 Even at the time you thought about it.
+49:18 Yeah, and in terms of how long it takes, I mean, we're also even just
+49:22 talking about the research part.
+49:23 I mean, there's also the compute part where we've been investing in building up,
+49:28 first of all, a huge amount of compute overall.
+49:29 But a lot of, you know, part of our philosophy on this is that
+49:33 you can kind of measure the compute strength of a lab by how big
+49:38 its largest single computer is, supercomputer, for being able to do these
+49:44 large training runs.
+49:45 So, I mean, we built this Prometheus cluster, we call it, in Ohio.
+49:49 Mm-hmm. That's scaling to larger than a gigawatt.
+49:53 And now we're building this Hyperion cluster in Louisiana that's
+49:56 going to scale to 5 gigawatts.
+49:58 And those actually, predate MSL.
+50:05 Because like building a whole like data center site from scratch,
+50:09 at least the plans for those, they're coming online now.
+50:11 But that was—
+50:13 You guys thought it might be the feed, right?
+50:15 That you just have used for a lot of compute generally?
+50:17 No, no, no.
+50:18 This is kind of predating, even going back to the, to kind of the LLaMA program.
+50:23 I see.
+50:23 I mean, it was probably in 2023.
+50:29 or yeah, either 2023, 2024 was when we basically started making
+50:35 the plans to build those clusters.
+50:36 They're now kind of fully coming online.
+50:39 Well, I guess the Louisiana one will come online over a couple years.
+50:43 Yeah.
+50:45 But if you want to go really end-to-end on undoing this stuff, then, I mean,
+50:49 obviously the kind of full stack, and I mean, Meta is a full-stack tech company.
+50:54 I mean, we build our own data centers, we build our own chips,
+50:58 we build our own low-level infrastructure.
+51:00 And now this is kind of the next component, which, I mean,
+51:03 arguably is probably the most important component in all of this for the next wave
+51:06 of technology is kind of building really good models and then
+51:09 delivering them to people.
+51:10 But I mean, yeah, if you want to go fully end-to-end, I mean,
+51:13 this is a long process.
+51:16 I do think this is like a— I mean, maybe it's well appreciated by folks
+51:21 in the tech industry, but It really is, you know, it feels like models
+51:25 are coming out constantly.
+51:25 So maybe you'd have the mental model that like, oh, a company like launches
+51:28 a model and then they figure out how they're going to make the next model and,
+51:31 or something like that.
+51:32 But it's actually these like very long planning processes and these
+51:36 sort of like very long work streams that kind of all come together at the very
+51:40 end and then result in these beautiful models.
+51:42 Yeah.
+51:42 How do you build good products when the feedback cycle is so long?
+51:47 Like ultimately you start planning the model in August and you don't
+51:49 know until more than a year later. if it's good.
+51:51 And, you know, Silicon Valley famously likes to run on metrics, but, like,
+51:55 ultimately, do you just need someone who
+51:59 is the aesthete and says, I'm sorry, I don't like it?
+52:02 It's nice when you have metrics, but I think the, like,
+52:04 state of being an entrepreneur is, like, how well do you make decisions
+52:08 in an information-poor environment, right? So—
+52:11 But this is, like, that on steroids, right?
+52:13 That on mega steroids.
+52:14 Yeah, I think that this is— and I think Marc gets a huge amount
+52:17 of credit for this, like, Because of how long everything takes,
+52:21 like, there were many points along over the past year since I've been here,
+52:27 but also, you know, as you mentioned, like, long before that, where
+52:30 you have to make very large investments or make very big
+52:34 decisions about, you know, how you're going to invest or develop
+52:38 the technology or, you know, what decisions you're going to make
+52:41 long before there's proof points around whether or not even the thing is working.
+52:47 And so I think this is like, in some sense, it's like
+52:51 entrepreneurship on hard mode.
+52:52 It's like the opposite of Lean Startup.
+52:53 Like, Lean Startup is like, yeah, you like see if you get something working
+52:56 and then you double down and then you see if that works, then you double down.
+52:58 Like, you cannot do that in AI.
+53:00 You have to like weave— I mean, we've been investing into these data
+53:05 centers since, you know, for years and years and years.
+53:07 We've had to—
+53:08 And you'll be radically behind if you wait to see if things are working.
+53:11 So we have these conversations where it's like, At the end of last year, we're like,
+53:15 all right, we are quite excited about the progress.
+53:19 Yeah, we haven't seen the models yet.
+53:21 Like, it's like, I'm going to, like, you know, we're going to write this check
+53:24 for, like, I don't know, like $100 billion, $200 billion.
+53:27 I'm like, Alex, are you sure this is going to work?
+53:30 It's like, um, yeah, so it was, it was so extreme that, you know,
+53:35 we had, we had like the whole exec team.
+53:37 I think Susan scared you a bit.
+53:39 Yeah, well, yeah, no, well, it was like The joke every time we talked
+53:43 about it would just be like, yeah, and we hope it's all going to work and be good.
+53:47 But like, there were literally, like, at the end of last year, other than
+53:50 me giving a vibe report on how our research was going and, you know,
+53:54 I could sort of show some plots and whatnot, but it was like, I mean,
+53:59 I was feeling good about it, but it was certainly not clear
+54:01 at all that it was going to work.
+54:03 Yeah.
+54:03 You guys are saying that the essence of training a frontier model is you have
+54:08 to push your chips all in before you've been dealt the cards.
+54:12 You just have to decide that you're going to develop a frontier model
+54:16 and you don't get to meter the inputs. At this scale.
+54:19 I mean, if we, like, back a few years ago, the clusters didn't have to be
+54:22 this big, but now they do.
+54:24 So I think this is part of the excitement
+54:28 of booting up a frontier lab now, right?
+54:33 Is basically like the ante is extremely high.
+54:36 And I think this is— and like, I kind of like viscerally remember this.
+54:40 We were in Hawaii at the end of last year.
+54:42 It was kind of like the whole exec team got together.
+54:44 And yeah, Susan pulled me aside many times and was like,
+54:48 you know, I just want to tell you, if this doesn't work, like, you know,
+54:52 this is going to be really, really bad.
+54:54 It's going to be very, very bad in financial terms.
+54:58 I really need to impress on you that this model has to work.
+55:01 it has to be good.
+55:02 If it's good, it's all good. We're great.
+55:05 But if it's bad, it's really, really, really bad.
+55:08 And Susan, who you know— And that was useful motivation?
+55:10 It was.
+55:10 Well, it was like, it was one of these very funny moments
+55:14 where I was like, you know, obviously the amounts of money
+55:16 are like so obscenely large.
+55:20 What are the amounts of money in training?
+55:21 Order of magnitude, whatever you can share, but just
+55:23 like how much are they costing? Well, you can do the classic math.
+55:25 Yeah, no, I mean, a gigawatt cluster.
+55:27 I mean, it's Like, I don't know, I think what you'd see out there would be,
+55:31 you know, to operate a gigawatt a year, call it on the order of $15 billion.
+55:36 Okay, so it's roughly a $15 billion effort to train a bunch of models.
+55:40 To operate a gigawatt cluster for a year.
+55:42 If you're talking about building the CapEx, it's probably closer to,
+55:45 you know, I mean, you pay for it upfront, so it's probably, you know,
+55:48 $50 or $60 billion.
+55:51 So, but then that's just kind of, one cluster for one part of training.
+55:58 Yeah. Um, then you have all the other parts.
+56:01 Um, research isn't just doing the run, right?
+56:04 It's like, that's like probably an equal amount of it
+56:07 is because for each change that you make, you're testing all the ladders all
+56:11 the way up to the big, the big scale.
+56:13 Um, and then they're serving the stuff.
+56:16 So, I mean, part of the stuff that in some ways—
+56:18 So tens of billions of dollars to train a Frontier model now.
+56:23 Yeah, definitely the whole, I mean, I've seen the financial rollups,
+56:26 tens of billions of dollars is a good estimate for—
+56:28 Yeah.
+56:28 And then, but then, but then you want to do something with it, right?
+56:30 So I actually think like some of the more complicated questions
+56:34 that we had were like, all right, so we're training this model and we know,
+56:39 we know we want to train the model cuz we, this is like key, but like
+56:43 how much product demand do we think we're going to have?
+56:44 Right.
+56:45 Because so now it's like, all right, well the product doesn't exist.
+56:48 Um, like, and as in you're trying to build data centers to serve Muse
+56:51 for a product that doesn't exist yet. Yeah.
+56:53 And we have to make it years in advance, right?
+56:55 So this is probably where, like, when we were talking about it last year,
+56:58 we were just like, huh, there was a moment where I think
+57:01 a bunch of people were like, yeah, maybe, maybe we should just
+57:05 like be a little more conservative.
+57:07 And it's like, no, we're doing this.
+57:09 It's like, it's like, we're going to make it work.
+57:11 We're going to make it work. We're going to burn the boats.
+57:12 Yeah, this is going to work.
+57:13 And But it was like, I mean, even, I mean, I too am an entrepreneur
+57:19 and founder and have, you know, at various points in my life taken risk.
+57:22 I remember the visceral feeling at the time was like, this is a fuck ton of risk.
+57:27 Like, I don't know if I really— Oh, it's only riskier.
+57:30 Yeah, yeah, it's only—
+57:31 well, I do think this is like one of the like things that I think, Mark,
+57:37 is very impressive about you, which is I think you have really
+57:40 internalized this concept of You know, it's about how big it is when you win,
+57:45 not like, you know, failure is okay.
+57:47 It's just like how big is the win when you do win?
+57:51 And this was, I think—
+57:52 Mark has fully internalized power laws in a way that many people have not.
+57:55 I think quite deeply, yeah.
+57:56 Well, I think the other piece is, I don't actually think it's
+57:58 quite as risky as this.
+58:00 I mean, the numbers are big, but I think—
+58:02 Meta has a backstop in terms of how it can use compute.
+58:04 Yeah, so I think there's 2 things.
+58:05 One is if AI works overall, plenty of other people want all our compute.
+58:09 Right?
+58:09 So they're willing to pay, like, I mean, if like the cost is whatever,
+58:13 $15 billion a gigawatt, we could get like a lot more for that.
+58:17 So I think that you, in order for it not to work out,
+58:19 it's not just that we have to fail, AI overall has to fail.
+58:23 Yes.
+58:24 And then even if that happens, we still have all these other
+58:29 uses to productively use compute.
+58:30 So in the grand scheme of things, we were definitely building out
+58:35 this compute for inference ahead of knowing that the product
+58:40 was going to be ready.
+58:41 But you were AI-pilled enough that you said GPUs online and powered
+58:45 will be useful to someone.
+58:46 Yeah, but also like we believed in what we were building.
+58:48 I mean, it's like, I think, and you can look at the kind
+58:54 of the trajectory where it's like, all right, first there's ChatGPT
+58:57 as the text-based assistant.
+58:59 Then, you know, Anthropic got coding agents to work.
+59:03 And no one had built the kind of personal consumer version of that.
+59:07 And it just seemed like this is the thing that Meta should build in the world.
+59:11 And I think that that was just like pretty clear to you and me and Nat,
+59:14 like from the beginning, right?
+59:16 That that's like, that's kind of what we're here to do.
+59:18 And so I don't know.
+59:20 I mean, there's always like the real question for me on the Muse launch even
+59:25 was you never know when you launch something how it's going to be received.
+59:28 Right?
+59:28 So there's always the case where you get a home run, which in this
+59:32 case it was, right? Yes.
+59:33 And it's just like extremely well received right off the bat.
+59:36 But the normal case would be you kind of— it's fine, and you have to like iterate
+59:42 a few times to get product-market fit before you really grow.
+59:46 In some ways, like, I actually think the product,
+59:48 we maybe could have even grown it faster, but we didn't have all the growth stuff
+59:51 really ready to go when we shipped it because we are like— our median
+59:54 expectation was like, all right, we're probably going to have to like
+59:56 iterate on this a bit, and like, that'll be That'll be fine.
+59:59 But I don't know, I think like if it takes a few iterations,
+1:00:03 it's like not the end of the world. That's normal.
+1:00:05 Yes.
+1:00:05 Um, you can have launches where it's like you
+1:00:08 get like, it's kind of catastrophic and then it takes a while to recover,
+1:00:10 but that's not good.
+1:00:12 But, but it's like, but I mean, even if it took a few
+1:00:14 iterations, it would have been fine.
+1:00:15 So I don't know, I guess it just seemed to me like this was going to be— yeah,
+1:00:19 the numbers were big, but I— it seemed like it was probably—
+1:00:22 Was it bonding for the executive team to be Holding hands,
+1:00:27 taking this risk together.
+1:00:28 You're talking about Susan taking UXi? Bonding or bonding moment?
+1:00:31 Is that a bonding moment? It's like, I mean, it's stressful.
+1:00:33 I think it was—Both.
+1:00:35 Both. Yeah.
+1:00:36 Being in a stressful situation together is generally bonding.
+1:00:39 Well, one thing that I think is quite notable about Meta is the degree to which,
+1:00:45 like, first of all, most of the exec team has been there quite a long time.
+1:00:48 Like, Nat and I were really newbies.
+1:00:50 And And,
+1:00:53 you know, most people have been through crazy situations many
+1:00:57 times in the past as well. Mm-hmm.
+1:00:59 And I think Meta as a company is like an extremely resilient company that has
+1:01:02 been through like, you know, many situations that also at the time
+1:01:07 would've seemed incredibly daunting.
+1:01:09 And so everyone's kind of like knows the program, so to speak,
+1:01:13 in terms of, you know, this obviously on paper, and especially when like
+1:01:18 Susan Li, our CFO, is sort of like pulling me aside in the meetings, like, does,
+1:01:22 you know, does seem like a particularly scary situation.
+1:01:26 But I think most people were like, yeah, yeah, no, but we're Meta,
+1:01:29 we're going to get through it.
+1:01:29 Like, I think there was like a real camaraderie around that and sort of like
+1:01:34 quite a nice energy around that, which really I did appreciate because I
+1:01:40 think it would be very easy for, you know, it's the other executives at
+1:01:45 the company who are operating and running— Who are paying the bills.
+1:01:49 Yeah, one of the greatest businesses of all time.
+1:01:51 Yes.
+1:01:53 And it'd be very easy for them to be quite annoyed by this whole endeavor.
+1:01:58 But I think everyone is also very excited about—
+1:02:00 They are.
+1:02:01 What the opportunities for the company with AI are.
+1:02:04 And I think, like, you know, taking a step back,
+1:02:07 I think one of Mark's jobs as, like,
+1:02:11 the founder and CEO of the company is to ensure that the company is always
+1:02:17 pushing towards the most ambitious and expansive version of what it can be.
+1:02:22 And I think that one of the great things about this entire MSL and AI push is
+1:02:28 that I think this is one of the rawest expressions of that is
+1:02:33 we knew that AI certainly is a very important technology and it's one
+1:02:39 of the bigger technologies right now.
+1:02:40 But if we were able to build it effectively
+1:02:45 and properly integrate it into everything that we do, as well as like, you know,
+1:02:49 as a full-stack technology company, like build it into,
+1:02:53 you know, these incredible products that we know will exist in the future,
+1:02:55 this could be like immensely expansive for Meta.
+1:02:58 And I think this is true.
+1:03:01 Like, I think Muse is an incredibly exciting product.
+1:03:05 It has like, you know, it can go in 1,000 different directions.
+1:03:09 I think it's one of like probably the most exciting products to just like You know,
+1:03:14 when like late at night and you just think about all the ways it can go.
+1:03:17 Like, I think Nat, Mark, and I just like, you know, shoot across messages late
+1:03:22 at night of just like, oh, we could do this and we could do this and,
+1:03:25 you know, we can make this move and we can like build this product.
+1:03:27 And I think it's just like, you know, very—
+1:03:30 It's a very exciting time in technology right now.
+1:03:33 Yeah, it's very blue ocean in that way. Yeah.
+1:03:35 Yeah.
+1:03:36 I'm struck by, as we talk about
+1:03:39 Muse and just how it clearly feels like
+1:03:44 the next platform, an agent operating on your behalf.
+1:03:48 You've talked for a long time about not wanting to be
+1:03:52 reliant on other platforms and how kind of the experience of building on
+1:03:57 Android and iOS kind of burned you on being dependent on other.
+1:04:01 And often when you would talk about, say, Reality Labs, is the importance of owning.
+1:04:05 the platform of the future and kind of many years
+1:04:08 working on Reality Labs with the intent of owning the platform of the future.
+1:04:14 And now this new modality comes along that feels
+1:04:18 pretty clearly like how you do a lot of productive work and is
+1:04:21 the platform of the future.
+1:04:22 And now Meta is really well set up.
+1:04:24 Yeah, no, I mean, it's less about wanting to own a platform for its own sake.
+1:04:28 It's about being able to build the best things.
+1:04:31 And at some level, you know, if you look at like other social apps,
+1:04:36 for example, I think part of the reason why Meta is so
+1:04:39 much better is because we don't just build the app, right?
+1:04:42 A lot of people like think about it, we're like this app company.
+1:04:44 We're not an app company, right?
+1:04:45 It's like we're like a deep technology company and we do this because we
+1:04:49 are world-class at machine learning and like all the recommendation systems
+1:04:52 are operating at a scale that basically few others are in the world.
+1:04:55 I think it's basically like Just us and ByteDance on that,
+1:04:58 and and then like okay we just kind of go all the way to the metal.
+1:05:04 And to me, being able to also deliver go the last mile through the device,
+1:05:09 it does come from a while of having these experiences where we couldn't build
+1:05:14 the experiences that we wanted on phones.
+1:05:18 But I just think for the future, the the models are going to be by far
+1:05:23 the most important part of delivering the technology experience.
+1:05:25 And I mean, this is something that I think we kind of bonded on and agreed on, like,
+1:05:31 very early, is this notion that, like, in every generation of technology
+1:05:35 companies, there's, like, no, there's usually not one company that
+1:05:39 kind of is the— is, like, wins everything.
+1:05:41 I don't think that that's how this is going to go either.
+1:05:43 But with the internet, there were, like, okay, 5 or 6 very big companies and then
+1:05:48 a whole ecosystem of other companies that are great.
+1:05:51 The companies that did the best kind of had the core technology to be
+1:05:56 able to serve people the best there.
+1:05:59 And I think in this next era, there are going to probably be a small
+1:06:03 handful of companies that have the ability to build frontier superintelligence.
+1:06:07 And I think that those companies are going to be the ones that effectively drive
+1:06:11 the agenda and can build most of the interesting, the most interesting
+1:06:15 experiences for consumers, for enterprises, hardware,
+1:06:17 these different kinds of things.
+1:06:19 So, and I just look at it as, okay, like, is it even really a choice, right?
+1:06:23 It's like, yeah, okay, Meta could, will probably exist into the future
+1:06:26 regardless of whether we do this.
+1:06:28 But if we want to be kind of an interesting company that is
+1:06:31 like inventing new things that matter to people in the future,
+1:06:35 I don't see how you can do that if you don't have the ability to build end-to-end
+1:06:39 your own superintelligence and build them into the products that people use.
+1:06:43 And I think that this is something that you just like believed from very
+1:06:45 early on, Is basically, it's like, all right, there
+1:06:48 are going to be like a handful of these.
+1:06:50 Like, it's like there's a kind of personal and consumer-oriented version of this.
+1:06:54 And like, this lane is open because everyone else seems to just be obsessed
+1:06:58 so much with just automating knowledge work, which, I mean, isn't even that
+1:07:01 charismatic version of the future, right?
+1:07:03 Because it's like, all right, like, a big part of our belief too is
+1:07:06 that the kind of highest use of superintelligence is invention
+1:07:10 and creation, not automation.
+1:07:12 And so, I don't know, it just seemed like there's like a big
+1:07:15 place in there, but you kind of need to own the stack.
+1:07:21 How is the Muse-mediated future going to shake
+1:07:25 out with businesses need to— okay,
+1:07:30 businesses variously need to build support
+1:07:34 for
+1:07:38 for Muse, where it might try to computer
+1:07:42 use its way in, but that might be janky in certain ways.
+1:07:45 So you kind of want everyone to have first-class support
+1:07:48 for agents talking to things. Yeah.
+1:07:50 Then the bigger question is they might actively try to block agents
+1:07:54 from interacting with them.
+1:07:56 And this might be because they have a misguided sense where, like,
+1:07:58 it's actually in their interest to support agents, but they don't want to.
+1:08:01 It might actually not be in their interest to support agents.
+1:08:04 You can imagine where maybe they have a very thin moat and it all comes from
+1:08:09 a business that only succeeds by consumers spending time on the site or only succeeds
+1:08:13 by overcharging consumers, then they should rationally not want
+1:08:16 to allow agents because the agents are like, why?
+1:08:17 But those are going to get disrupted. Yeah.
+1:08:20 So talk to me just through the second-order
+1:08:22 effects of how the economy works.
+1:08:24 Well, I think that it starts off with— I mean, we trained into the models
+1:08:27 very good browser use, right?
+1:08:29 So that way we want to make it so that no one No one has to do anything
+1:08:32 to integrate with Muse.
+1:08:35 And then, but then of course, for— we're kind of just going down
+1:08:38 the list of the most important partners, and for people who want to work with us,
+1:08:43 we'll just get direct API access, right?
+1:08:46 And then it's like, okay, then it ends up being way more efficient
+1:08:48 and faster for people to use Muse.
+1:08:50 It's more efficient because now you don't have an agent crawling your website.
+1:08:53 It's just going.
+1:08:54 So anyone who wants to do that, we eventually want to get there.
+1:08:57 Um, and then I think the fullness of time is
+1:09:01 that, you know, just like today every business has,
+1:09:05 um, a website and social media accounts and email addresses and all these things,
+1:09:10 every business is going to have agents too.
+1:09:12 Mm-hmm.
+1:09:12 So, and we're also building that on the other side of it.
+1:09:15 And, um, and so of course Muse agents will talk to other types of agents, but they'll
+1:09:20 work really well with our agents, right?
+1:09:22 Because I mean, we'll, we'll be able to integrate that Just,
+1:09:25 I mean, so Muse using websites is just a moment in time thing.
+1:09:28 Just to make it easy for everyone.
+1:09:29 You guys want to have it as a backstop so it's reliable for people using it.
+1:09:32 Yes, and easy for businesses to get bootstrapped.
+1:09:35 But we have, we have way more businesses that are calling us asking to integrate
+1:09:40 deeply, and very few really who have tried to block it.
+1:09:46 And my guess is that the ones that try to block it, it will end up not being
+1:09:49 the right strategic thing for them.
+1:09:50 But we'll see.
+1:09:52 This will kind of play out over time.
+1:09:52 It saves them a lot of time. Yeah.
+1:09:54 It saves them a lot of money.
+1:09:56 Like, I think these are, these are, like, clearly good things for the consumer.
+1:09:59 Yeah.
+1:09:59 So in the long arc, you'd clearly expect that demand will
+1:10:03 shift from current avenues more and more towards agentic demand.
+1:10:09 And, you know, there always will be demand that lives elsewhere,
+1:10:12 just in the same way that, like, there's still brick-and-mortar demand in commerce.
+1:10:15 But there's a lot of ecommerce demand.
+1:10:17 And kind of in the same way, like, I think agentic commerce demand
+1:10:21 will grow as a portion of the pie.
+1:10:23 The others will still exist, but will grow as a portion of the pie.
+1:10:25 And I think there's sort of these questions for businesses in the long run,
+1:10:28 like, do they want to participate in that slice
+1:10:32 or that portion of the economy over time?
+1:10:35 And I think it's an incredibly exciting area.
+1:10:37 I think it's, like, very, very exciting to imagine what will
+1:10:40 happen in this agentic commerce future. Yes.
+1:10:42 I actually think Patrick wrote a great tweeticle.
+1:10:47 Is that what we call it these days? I don't know.
+1:10:48 Patrick has his own thing going on with tweets.
+1:10:50 It's like they're buried amongst—
+1:10:51 I noticed that Brother Karamazov was quite a good literary analysis.
+1:10:57 But yeah, no, I think clearly
+1:11:02 this is a discontinuous event for how
+1:11:06 commerce will happen, broadly speaking, or just generally speaking, how
+1:11:09 the entire how all the business pipes will work, maybe even in a broader sense.
+1:11:12 But I think that, you know, you just go back to, this is clearly
+1:11:16 a lot better for the consumers.
+1:11:17 It's a lot better for the customers.
+1:11:19 So there's a natural gravity towards that reality.
+1:11:22 One of the exciting things, I'm curious what you guys see too,
+1:11:25 but I think Muse is one of the first products where you're actually people are
+1:11:29 fully delegating purchases to the agents.
+1:11:32 And this is like a— this is kind of like a, you know, a step change, right?
+1:11:35 Like, I think, you know, we've been talking a lot about agentic
+1:11:39 shopping and like the possibility of it, but now it's like really happening.
+1:11:42 And a lot of people are trusting the agents to shop for them.
+1:11:45 And I think the agents are finding them, you know, in my case, like great teas, or,
+1:11:48 you know, in whomever— whoever's case, like great products for them to purchase,
+1:11:52 which is quite exciting.
+1:11:53 And so I think that there's There's clearly an exciting thing happening here.
+1:11:58 I think, I think part of the value prop— well, one, one part of the value prop
+1:12:01 for the user is just reduced friction.
+1:12:03 Like, hey, I don't feel like click on all these websites and do all this research
+1:12:06 to try to find the exact products.
+1:12:08 Like, that step is taken care of for me.
+1:12:10 And also, like, criteria can just be automatically applied.
+1:12:13 Like, hey, I need something by Wednesday.
+1:12:15 So, you know, the agent will only look for things that could get to me by Wednesday.
+1:12:18 But that's, I mean, keyword search.
+1:12:19 It was insane that we ever relied on it because that's a very
+1:12:20 reasonable constraint. You just want to shop by.
+1:12:22 Yeah, exactly.
+1:12:24 And so I think the like old way of like searching for stuff just feels so
+1:12:28 obviously primitive now, now that you can do this.
+1:12:31 Then there's this sort of like back part of the funnel, so to speak,
+1:12:34 but just like the ease of friction reduction of just, yeah,
+1:12:38 filling out the form, just like getting it ordered is quite nice.
+1:12:42 And I think the long-term thing that we're quite excited about
+1:12:46 is greater personalization.
+1:12:48 Ultimately, I think one of the exciting things about
+1:12:52 Muse is that it has sort of like this holistic context into you as a person
+1:12:58 and all of the aspects of your life.
+1:13:00 So it sort of like can holistically understand things about your family or
+1:13:04 things about your coworkers or things about your friends.
+1:13:06 And then sort of like help you co-optimize across all of those to get you the exact
+1:13:11 right gift for your, you know, best friend in the context of your friend
+1:13:16 group based on what it knows about your friend group.
+1:13:17 Like, I think there's just like a lot of exciting opportunities
+1:13:20 that are somewhat new and novel when it comes to like these
+1:13:24 personalizations, these recommendations.
+1:13:25 Because historically, a lot of these recommendation systems are
+1:13:29 quite siloed and quite isolated. Mm-hmm.
+1:13:32 And so they're sort of like, they don't see like a holistic view
+1:13:35 of you as a person.
+1:13:37 And Muse has an opportunity to offer much greater levels of personalization.
+1:13:41 Yeah, I think people are already seeing that,
+1:13:44 where if they ask, like with Muse,
+1:13:46 if you ask it to buy something for you, quite frequently it'll add in some bit
+1:13:49 of context that it pulled in from a different conversation.
+1:13:52 You had a good example of this. Yeah.
+1:13:54 Well, so my 3-year-old daughter loves baking.
+1:14:00 She loves cooking.
+1:14:01 And so I'm like, all right, I'll start baking stuff.
+1:14:03 It's like I'm normally into smoking meats, but I'll do some baking in order
+1:14:08 to To make, to make Aurelia happy.
+1:14:11 And so we've gotten into this really cute routine where,
+1:14:15 um, you know, we, we, I've been playing with Muse voice mode,
+1:14:19 which isn't fully rolled out yet, but we're, we're playing with it.
+1:14:23 And, um, it does this great thing.
+1:14:25 It segments the, the voices.
+1:14:26 So it knows which one is me and it knows which one is not me based on that.
+1:14:31 And we just like, you know, throughout the week we're talking about
+1:14:35 what we'll want to bake that weekend. Mm-hmm.
+1:14:37 And she'll like give it ideas or like she'll kind of come
+1:14:42 up with crazy things that are not real recipes, but like bounce it off with Muse.
+1:14:48 And then Muse will just make sure that we,
+1:14:52 every Saturday when it's time to bake,
+1:14:56 I get the ingredients from Instacart and they kind of show up and they're
+1:15:01 on time, which I mean, the biggest thing is like if I were just
+1:15:04 starting the activity on Saturday, you'd have to get everything
+1:15:07 and it would take some time.
+1:15:08 But now everything's ready whenever we're going to go sit down and do it.
+1:15:12 This weekend it knew that watermelon was launching, so it threw
+1:15:15 a watermelon in the bag.
+1:15:16 It was very, very sweet.
+1:15:18 It was very heartwarming.
+1:15:21 It deduced that the recipe did not have
+1:15:25 enough— there was not enough, I guess,
+1:15:29 expense in it to get the delivery, so it needed something else.
+1:15:33 And it was like, you're going to— And it topped it up with a watermelon.
+1:15:34 It was like, do you want this watermelon? I was like, yes.
+1:15:36 I'm like, yes, that's very cute.
+1:15:38 Which I think you, uh, did you— is that the watermelon you ate?
+1:15:41 Yeah, that was the one I ate on the livestream.
+1:15:43 Okay, but the watermelon on the livestream was—
+1:15:45 That was just like, Muse just got it for me.
+1:15:47 That was a Muse—yeah, those are just—
+1:15:48 You just got it for me.
+1:15:50 But I think there's this, um—
+1:15:52 That was a very memeable moment of that very memeable situation.
+1:15:56 So we have Muse to thank for it.
+1:15:58 So, but here's another interesting thing about the whole thing is I didn't
+1:16:02 really use Instacart that much before.
+1:16:04 You know, it's like every once in a while, maybe twice a year, I would like like,
+1:16:08 use Priscilla's account or something. Yes.
+1:16:10 I went and got an Instacart account to give Muse, and now I use it like once
+1:16:15 or twice a week because like I'm talking with Aurelia with Muse,
+1:16:19 and we're coming up with these recipes, and it's delivering them, and now
+1:16:22 it's like a core part of my workflow.
+1:16:24 So I actually think that the opportunity here isn't just, okay, it's going to be
+1:16:28 20% more efficient on the conversion rate.
+1:16:31 Like, I am a new Instacart like subscriber, and I just
+1:16:34 wouldn't have done this before. Yes.
+1:16:35 So, I do think that there's this question, and then there's this question,
+1:16:38 which I think is these sort of interesting— like,
+1:16:42 this is maybe the more interesting economic question,
+1:16:45 is that Instacart account really for me, or is it for the Muse?
+1:16:48 Because I think, like, over time, I think that the question is,
+1:16:52 is the total addressable market for all of commerce just increasing dramatically?
+1:16:56 Yes. Because it's not just the people anymore.
+1:16:58 Like, now agents are effectively going to have accounts.
+1:17:01 Yes.
+1:17:01 And I think that's where this starts to, like, become a really very exciting
+1:17:05 opportunity where anyone who sits this out, I think, is going to end
+1:17:08 up feeling sad over time.
+1:17:10 And why did you have to sign up for an Instacart account?
+1:17:13 Like, we're solving this at Stripe Projects for developer
+1:17:16 stuff where your coding agent—
+1:17:18 The Stripe integration, by the way, is great.
+1:17:20 You guys did a great job with us on Muse.
+1:17:23 I think we're very happy.
+1:17:25 We have been very excited about agent-to-commerce for a long time,
+1:17:28 obviously, because again, felt to us like clearly how people
+1:17:31 are going to buy things in the future.
+1:17:34 And that was both apparent because no one needs all that friction in their life
+1:17:38 from the actual buying stage, and how early product research with AI had
+1:17:43 product-market fit, even from kind of the earliest AIs.
+1:17:47 It really feels like computer use was the last big unlock that we needed to make
+1:17:50 it happen, because now you can ask your muse to buy anything, more or less.
+1:17:54 And it'll just figure it out with computer use, right?
+1:17:57 And so it's like the ultimate backwards compatibility layer.
+1:17:59 Yeah, it's pretty—
+1:17:59 this is a set of things that Nat really obsessed over.
+1:18:01 Yeah, yeah.
+1:18:02 I think, I think there was a lot of, like, I think a lot of magic of Muse is
+1:18:05 the fact that like a lot of this stuff just works.
+1:18:08 And so like clearly if everything was just like a little bit
+1:18:12 less reliable, it would feel like a total pain in the ass and nobody would use
+1:18:15 it and people just throw away the app.
+1:18:16 And so I think the fact that so much of this has gotten to the point
+1:18:20 of reliability where You know, it just works is like a huge part of the magic.
+1:18:24 Yeah.
+1:18:24 What were you saying Matt was obsessed with?
+1:18:26 Oh, well, I mean, well, Matt's kind of obsessed with everything.
+1:18:29 Yeah, well, that's generally a sexy character.
+1:18:30 Yeah, no, it's great, it's great.
+1:18:32 But this is, I mean, but yeah, I mean, this getting this experience to be good,
+1:18:35 I think is something that he and a core group of people on that
+1:18:38 team really focused on.
+1:18:39 It's kind of funny.
+1:18:41 I think I had a dinner with Patrick, like, I want to say it was 2023,
+1:18:46 where I was, he was like, what do you think we should be doing now?
+1:18:48 I was Oh, you're like, you're already way behind the 8-ball
+1:18:51 on this agentic commerce stuff.
+1:18:52 Like, you got to figure this stuff out.
+1:18:54 Like, agents are going to be buying things and like, you're not prepared for it.
+1:18:57 So you were saying this to Patrick or Patrick saying this to you?
+1:18:59 I was saying this to Patrick.
+1:19:00 Well, because Patrick was very politely asking, what do you
+1:19:02 think we should be doing?
+1:19:03 And I sort of had this like very like urgent spiel.
+1:19:06 Yeah, and I think it's very, uh, it's funny how that was like—
+1:19:09 Well, thank you for your provocation.
+1:19:10 Well, it was directionally correct, but, uh, but like 3 years early.
+1:19:14 2023, I think.
+1:19:15 And so, um, no, it's very interesting to look
+1:19:18 at the agentic commerce stats at Stripe because
+1:19:23 we started developing all this stuff and we had a whole bunch of announcements
+1:19:25 at Sessions back in May, uh, and then it only as of September
+1:19:29 basically started going vertical.
+1:19:34 Meta is building increasingly capable models, including Muse Wonder,
+1:19:38 and their models are available on OpenRouter, Alongside hundreds of others.
+1:19:42 Stripe has agreed to acquire OpenRouter, who's the leading model gateway.
+1:19:46 OpenRouter already routes more than 10 trillion tokens a day and handles much
+1:19:50 of the complexity of working with different models through a single
+1:19:53 API, making it easier to experiment, find competitive prices, and automatically
+1:19:57 route around provider outages.
+1:19:59 Try it for yourself at openrouter. ai.
+1:20:06 Hey, could you order a watermelon to Stripe's office in South San Francisco?
+1:20:12 I'm doing a podcast here. This would be funny.
+1:20:16 Funny podcast idea.
+1:20:18 I'll check that watermelon delivery now.
+1:20:22 Great. We'll see how we get on.
+1:20:26 Well, okay.
+1:20:27 This actually raises an interesting question.
+1:20:29 People have been trying to make The HAL 9000.
+1:20:34 It's working.
+1:20:36 I really like this.
+1:20:37 I think this is an awesome touch where it's like clacking away at its laptop.
+1:20:40 I really like that in the app.
+1:20:43 We'll just leave them there and we'll see what we get.
+1:20:46 Yeah, it's tough to prop up.
+1:20:49 Yeah, there we go.
+1:20:52 People have been trying to make the speak to a computer AI vision
+1:20:55 happen for a really long time.
+1:20:57 Where Apple launched Siri in 2014, 2015, something like that.
+1:21:03 And obviously there's been Voice Mode and various AI products for a few years now.
+1:21:08 Why is it so hard? Like, it's still not the case.
+1:21:10 If you were driving your car and you wanted to check on the baking or move
+1:21:14 a meeting or something like that, you actually probably
+1:21:16 wouldn't do it with the voice.
+1:21:17 I mean, maybe almost now with the latest things.
+1:21:19 Yeah, well, there's a lot.
+1:21:20 I mean, so— But you wouldn't develop Siri like you're doing.
+1:21:22 Siri right now is actually a good example. As we're talking over each other.
+1:21:24 And I mean, I don't know, when you're using different voices—
+1:21:26 So is it just technical limitations? That's why we haven't done it?
+1:21:29 Well, I think that there's a few things.
+1:21:30 And one is you actually want it to go do stuff.
+1:21:33 So there's a question of when you speak with it, even if it understands,
+1:21:36 how's that going to work?
+1:21:38 Then I think that there's a lot of stuff about the way that people
+1:21:41 have conversations.
+1:21:42 It isn't typically, I will give a prompt, and now I will wait, and you will speak.
+1:21:47 And then, so it just goes back and forth.
+1:21:49 Um, how many of your sessions when you're
+1:21:51 talking to an agent in voice mode, do you basically, oh,
+1:21:56 it starts saying something, but then like, I don't know, it's like,
+1:21:59 I kind of feel like if I pause for 3 seconds, it's going to think
+1:22:02 I'm done and want to speak.
+1:22:03 And then if it starts speaking, but then I cut back in, is it going to
+1:22:07 think that it's like a whole new question?
+1:22:09 Um, I think there's a lot of the stuff about the conversational dynamics
+1:22:12 that you want to get right.
+1:22:14 But then there's this other issue, which is that For voice overall,
+1:22:21 it's quite high bandwidth for you to communicate with voice,
+1:22:25 but in terms of consuming information, having someone speak to you is very
+1:22:30 inefficient compared to having it be visual.
+1:22:32 Yeah.
+1:22:32 So I think like that's why, you know, partially when we do these,
+1:22:36 these interfaces, I think it's, it's kind of working on its task.
+1:22:39 I fired it off now.
+1:22:41 So I think the ideal interface is probably not just strictly voice-voice.
+1:22:45 Although I think voice output from you is pretty useful.
+1:22:50 Yeah, I think, I think there very clearly already is an explosion of voice input.
+1:22:54 Like, I think you even see this in coding where like—
+1:22:57 Yeah, people are speaking to the— Yeah, yeah, yeah.
+1:22:59 Most of the researchers just kind of like whisper into their keyboard because it is
+1:23:03 like, as Mark's mentioning, it's like the highest bandwidth way to get your like
+1:23:07 thoughts out, or usually the lowest friction way to get your thoughts out.
+1:23:10 Yeah, yeah, yeah.
+1:23:11 I think the most extreme version of this, by the way, is I think how
+1:23:16 college students now use AI is maybe the most interesting,
+1:23:18 where they just— I think a very common modality of how to use
+1:23:23 AI is that they just will completely word vomit for 10, 15 minutes,
+1:23:29 being full stream of consciousness, chain of thought of all the things.
+1:23:33 And then have AI clean it up and infer. Yeah.
+1:23:35 And have AI effectively do all of this organization of it and pulling things
+1:23:40 together and structuring everything.
+1:23:42 It's quite interesting.
+1:23:43 It's a very interesting, I think, modality of tech usage.
+1:23:47 Yeah.
+1:23:47 But yeah, I think voice input has been big.
+1:23:49 I do think agents is like, that's a big step change, because I think
+1:23:54 the mental model is just very different.
+1:23:57 Like, if it's just like an informational thing that you're talking to, that like,
+1:24:02 you will clearly get into situations where it just feels useless.
+1:24:05 Whereas now that it can do things for you, it's much closer to the experience
+1:24:09 of talking to a human. Totally.
+1:24:10 Or to a person.
+1:24:11 And so I think there's all these interesting uncanny valleys in interacting
+1:24:16 with AIs that until they've been able to take actions have felt kind of strange.
+1:24:22 And now that we have agents, I think one of the cool things about Muse
+1:24:28 is this confluence of a number of things.
+1:24:30 I think The fact that Muse is embodied and it like is this little guy
+1:24:35 that like you feel like is working on your behalf is also only possible
+1:24:39 and a coherent like representation and embodiment of the product because
+1:24:44 it has persistent memory and it has the ability to do things for you
+1:24:48 and the ability to take actions and has like a little bit of a personality.
+1:24:51 Like, is the confluence of all these things coming together that make
+1:24:54 this like embodiment concept— Yes.
+1:24:57 Even work in the first place.
+1:24:59 Then it turns out, okay, actually this is the real glasses, right?
+1:25:01 It's like, okay, a lot of people want it even with just like no
+1:25:05 display or a small display. Yes.
+1:25:07 The camera and audio is enough of a useful product.
+1:25:11 Yeah, yeah.
+1:25:12 And I— and then we started shipping the display glasses that aren't the kind
+1:25:16 of wide field of view full augmented reality, which, I mean,
+1:25:19 I thought would be awesome too, but even the small display is pretty powerful.
+1:25:25 So I think you'll start getting some interesting interactions there that are
+1:25:29 kind of fully multimodal, right?
+1:25:32 So it's voice in and out and It'll be able to see what you see, and it'll be
+1:25:36 able to kind of paint the pixels.
+1:25:39 And one of the— I mean, the other exciting thing that
+1:25:43 we've done here is Muse Gadgets, which is really,
+1:25:45 I think, unleashing the ecosystem to try cool device formats and form factors
+1:25:52 that could be really exciting.
+1:25:53 Like, since releasing that, we've gotten actually even a number
+1:25:56 of phone manufacturers, you know, talk to us about excited You
+1:26:00 know, we're like, we're just going to integrate Muse Gadgets
+1:26:02 into our phone and see how well it works. And like, we're really excited about that.
+1:26:04 Like, I think, um, I think part of what is cool about
+1:26:08 the current moment of technology is that like, it's very clear
+1:26:12 agents are really exciting.
+1:26:13 It's really clear that like, this should unlock lots of things.
+1:26:16 Will you guys come back to the household devices?
+1:26:18 Like, this is obviously a personal device, but, um, we actually had
+1:26:21 during COVID the, um, Portress— the Portal.
+1:26:25 Portal. There we go.
+1:26:26 Yeah, I mean, like, he's finding the Portal inside.
+1:26:28 One of the gadgets that we just shipped was the little HomeLink.
+1:26:31 It's like the size of a little, like, nickel or something,
+1:26:34 but with a USB, right? Yeah.
+1:26:37 Um, uh, so you can basically connect that, and then your Muse can connect
+1:26:41 to everything in your home.
+1:26:42 This is actually one of the most fun things too is just having it connect to
+1:26:47 your Sonos and connect to all your lights.
+1:26:49 I mean, I have it basically like when it's time for me to start
+1:26:53 winding down in the evening, I just have it like dim all the lights
+1:26:56 across the house and it's nice.
+1:27:00 How are we going to fund the AI buildout?
+1:27:02 Everyone's worried about, you know, Google went free cash flow negative.
+1:27:05 You know, you were talking about 1 gigawatt and then 5 gigawatts
+1:27:08 and everything like this.
+1:27:10 Meta's now free cash flow negative yet, but there's always more CapEx to fund.
+1:27:15 And so what's the answer? Where is Susan Lee?
+1:27:18 Exactly.
+1:27:19 No, I mean, look, I think that there are going
+1:27:24 to be a lot of ways to create value from this.
+1:27:26 So what we're trying to do with Muse specifically is make it so that it can be
+1:27:32 widely used, because I think that there are going to be
+1:27:35 some kind of valuable network effects at scale as people start being able
+1:27:39 to interact with each other's, and that's going to be great.
+1:27:43 So I think there are all these reasons why you want it to get to large scale.
+1:27:46 Also, you know, we were talking about partners.
+1:27:47 Partners are going to want to integrate more the more people are using it.
+1:27:50 So it will get more valuable if we can get it to scale.
+1:27:53 The best way to do that is to basically have a model where it is affordable
+1:27:56 and free for people to use.
+1:27:58 But there are going to be a lot of ways that I think we can scale revenue.
+1:28:03 Subscriptions is going to be a big one.
+1:28:06 You know, basically, just because the base version of it is
+1:28:09 free and we want the free version to be excellent doesn't mean that there are
+1:28:13 things that just naturally aren't going to be economical to include in that.
+1:28:16 So, you know, if you want the kind of— you know, we talked about this earlier.
+1:28:20 If you want to start using Muse Wonder in Muse tomorrow, then, you know,
+1:28:25 the way that you'll do that is you'll pay for a subscription.
+1:28:28 So I think that that will be a big business.
+1:28:31 There are a bunch of other things around commerce that we're quite excited about
+1:28:33 too, where we basically think— we believe that Muse is actually going to make people
+1:28:37 money and save people money by using it, and that over time there are lots
+1:28:42 of different ways to effectively take a small cut of what you are saving or
+1:28:46 making for people, and that will end up being a very large revenue stream.
+1:28:51 And then there's all the other things, right?
+1:28:52 So, you think Muse will generally just cost negative money for people?
+1:28:57 because it helps them out.
+1:28:58 Well, there are already all these sites that I think are interesting where people
+1:29:00 are like, go look through my emails, find a bunch of subscriptions I don't
+1:29:04 actually use, cancel them, whatever.
+1:29:06 Um, yeah, so yeah, I mean, that, um, I don't know if that's the thing that we
+1:29:11 would monetize, but, but like, but you get, you get, you kind of get the
+1:29:13 point and where it helps you make money.
+1:29:15 I mean, one of the ideas that we kind of talk about, I mean, this is,
+1:29:18 this is something that I think you've been kind of obsessed with, is making it like
+1:29:21 a business in a box for small businesses.
+1:29:24 So someone can just kind of— it can help them administer all these
+1:29:26 parts of what they're doing.
+1:29:27 And you can imagine that being very valuable and being very profitable,
+1:29:30 both for the business owner and for Meta.
+1:29:35 But I think one of the things that's interesting
+1:29:38 is, like, OK, if we're building the models to build the personal agents
+1:29:43 and the business agent, there is this large surplus of value
+1:29:47 because now the model, it's very general, right?
+1:29:49 So it doesn't just do those things.
+1:29:50 We'll also have the API that'll be profitable.
+1:29:53 A big part of why we want to start the Meta Enterprise Platform
+1:29:58 and have CJ Desai join us to build this is we have this view, which is like,
+1:30:01 all right, yeah, sure.
+1:30:03 So traditionally Meta hasn't been an enterprise company,
+1:30:05 but we believe that a huge part of the challenge is building
+1:30:08 the leading models in the first place. And they're very general.
+1:30:10 And once we do that, if we make a significant investment in building
+1:30:17 an enterprise group that can provide that in the way that enterprises need
+1:30:21 to consume it, then I mean, I think a lot of enterprises are
+1:30:24 going to want to use Muse Wonder.
+1:30:25 It's going to be an excellent model and affordable.
+1:30:27 And like, it's so, um, so I think that that is going to end
+1:30:31 up being a very big business too.
+1:30:33 And all of these things put together, coupled with the fact that we were already
+1:30:38 starting off as a very profitable business that can,
+1:30:41 that has good credit and can kind of underwrite these large investments,
+1:30:46 I think puts us in a pretty good position as a lab to be able to build out
+1:30:50 the compute that we need to build leading products, build up the network around
+1:30:54 this, and position the company to really lead in the area for decades to come.
+1:30:59 Okay.
+1:31:00 So, you think ultimately there'll just be a lot of revenue from these products,
+1:31:02 and so they'll be self-funding in fairly short order?
+1:31:04 Yeah.
+1:31:05 I mean, that's a much shorter answer than mine.
+1:31:07 It's like— But you're saying people are underestimating—
+1:31:10 The question was, Are we going to be able to make money from this?
+1:31:13 The answer better be yes.
+1:31:16 I think the history— Yes.
+1:31:18 The answer is yes.
+1:31:19 But the history is very front-loaded expense, right?
+1:31:22 Well, the history of AI as an industry, I think, to some degree is like,
+1:31:25 you know, people have always sort of been hand-wringing about, you know, how are
+1:31:29 these businesses going to make money?
+1:31:30 And I think, you know, every year people are sort of generally
+1:31:34 surprised at the upside.
+1:31:36 That superintelligence is Is a useful, incredibly valuable—
+1:31:39 Yeah, exactly. This is what—
+1:31:40 this is kind of Meta's whole playbook, right?
+1:31:42 Is we build something, we get it to a billion people,
+1:31:45 then we scale the revenue while growing our revenue primarily
+1:31:49 in the meantime by continuing to scale the things that are already
+1:31:53 kind of at scale and growing. Yeah.
+1:31:55 I think this is also one of the dynamics, like, I think,
+1:31:59 you know, I think Dario's talked about this as well,
+1:32:01 but like, just in general, because it requires so much advanced
+1:32:04 planning to build these models.
+1:32:07 Like, if you look at the R&D expense at any given time,
+1:32:10 that is like over— an overlapping R&D expense of multiple model
+1:32:13 generations at once. Yes.
+1:32:15 And, you know, these, they require a long time to work on.
+1:32:19 And then ultimately, you know, you see like immense payoff
+1:32:22 when, when you ultimately deliver them.
+1:32:23 And this is kind of what we saw with the Muse Spark family of models.
+1:32:27 Like, you know, again, we started working on these a long time ago.
+1:32:31 And are seeing like incredible consumer adoption through the Muse product.
+1:32:34 The other thing is that we use the models to accelerate our core business, right?
+1:32:38 So I mean, you have this core business that's hundreds of billions of dollars
+1:32:41 and still growing extremely quickly.
+1:32:42 And now, like, if you can grow it a few percent faster by using these models
+1:32:46 to accelerate these things, then that ends up funding a huge amount
+1:32:51 of this too as you're scaling it out.
+1:32:53 The Meta core business is a, is a like 8th wonder of the world.
+1:32:56 It's extremely good business. It really is.
+1:32:58 is quite incredible and is growing at sort of astonishing rates.
+1:33:05 Yeah, you guys really cooked with that one.
+1:33:10 Yeah, I think you're also getting at something, Alex, which is like there's
+1:33:13 an interesting accounting artifact where if you go build a data center,
+1:33:17 you have CapEx and you get to depreciate that over a useful life of many years.
+1:33:20 And people debate what that useful life is, but the point is you do get
+1:33:24 to depreciate it, whereas a lot of the AI costs are also just
+1:33:28 in researcher salaries, and those salaries are being spent on,
+1:33:32 you know, model training that also has a useful life of many years,
+1:33:36 but you do not get to capitalize generally.
+1:33:38 And that's also a financial advantage for us building out the data centers as
+1:33:41 opposed to a bunch of the other companies that are paying clouds,
+1:33:45 whereas they're paying the annual rate, but then at some point
+1:33:49 the GPUs will be fully depreciated, but we're probably still going to be using
+1:33:52 them for a while because they I mean, the value of even like an H100 at this
+1:33:56 point is higher than it was last year, right?
+1:33:59 Just because if compute continues being constrained.
+1:34:02 So yeah, I think it's— yeah, I think—
+1:34:06 Any advice for us with OpenRadar?
+1:34:08 We have agreed to acquire them.
+1:34:10 It has not closed yet.
+1:34:11 Yeah, I think part of the exciting— part of what we're starting to see
+1:34:17 in terms of the models, especially the frontier models that are
+1:34:20 being developed, like Muse Wonder versus, let's say, a Fable or an Astra,
+1:34:24 is that we actually are starting to focus in quite different directions
+1:34:30 from the other models.
+1:34:31 And I think there's a lot of intentionality that goes into the model
+1:34:33 development process that we've discussed as part of this, you know,
+1:34:36 in this conversation, that is genuinely different
+1:34:40 from how other models are focusing.
+1:34:41 And so, you know, when these models kind of get
+1:34:43 collapsed to the same set of benchmarks, that elides all of the—
+1:34:48 This is a good point.
+1:34:49 The interesting, um, sort of like, uh, texture that differs
+1:34:53 between the various models.
+1:34:54 And so I think one thing that is an exciting opportunity for OpenRadar,
+1:34:58 generally speaking, is like, you know, um, helping to Helping developers
+1:35:02 understand what these sort of subtle differences are so that they can make
+1:35:06 the most informed decisions about what models ultimately they select.
+1:35:10 And then also you can imagine the flip side of that, which is,
+1:35:14 you have all these developers using these models.
+1:35:17 And so those developers are great people to ask about what are the interesting
+1:35:20 textual differences between these models that are more than just tweet length.
+1:35:26 Like, this model's good, this model's bad, more than just that level of insight.
+1:35:31 And I think this is like getting to the wine sommelier
+1:35:35 version or form of understanding the models and their sort of relative
+1:35:39 strengths and weaknesses, I think would be quite exciting.
+1:35:42 Okay, so based on your experience, the OpenRadar view that there will be
+1:35:45 a diversity of models in the future and they're optimized for different tasks and—
+1:35:49 I agree with that. Exactly.
+1:35:50 That's just your guys' experience based on—
+1:35:53 Yeah, we are focusing On different things.
+1:35:56 We care a lot more about personal and professional agents, my observation,
+1:36:01 than the other major labs, which is good.
+1:36:05 There should be differentiation in the economy.
+1:36:07 This is the point of capitalism to some extent.
+1:36:09 Yeah. So you're going to say something?
+1:36:10 No, I just really agree with that point.
+1:36:12 I mean, I think that part of what I love about you guys working on OpenRouter
+1:36:16 and being able to scale it is just the more infrastructure that can get
+1:36:20 developed, that supports a diversity of players
+1:36:23 in the ecosystem, I think is good overall.
+1:36:26 I also, for the same reason, am quite a fan of some of the recent NVIDIA
+1:36:30 moves to support the open source ecosystem.
+1:36:34 I don't know, but this just kind of goes with our whole theory and philosophy
+1:36:38 about, like, what does a good future look like?
+1:36:40 Mm-hmm.
+1:36:40 We think that a good future is one where you achieve a,
+1:36:44 like, you basically get prosperity by empowering people.
+1:36:47 That's kind of the personal superintelligence thing that we're doing,
+1:36:49 but there's the whole business version. Yeah.
+1:36:52 But for a lot of the important safety topics,
+1:36:55 like, our view is that the way to get there is having a diversity
+1:37:00 and having checks and balances by kind of having a lot of different things out
+1:37:03 there and accessible to people, not like just having a couple of good
+1:37:06 models that are only in a couple companies' hands.
+1:37:08 I think that that would be— from my perspective, I think that is
+1:37:13 probably a riskier configuration for the future than lots of people
+1:37:19 having access to different things.
+1:37:20 Do you guys have a theory as to why that is?
+1:37:22 Where I feel like maybe people predicted more of a winner-takes-all dynamic in AI,
+1:37:28 or one person clearly— like, a story that people told back in 2023 is
+1:37:32 that one AI lab will start to develop an advantage,
+1:37:36 and that will allow them to get recursive self-improvement going,
+1:37:39 And then they'll just pull further and further away from everyone else.
+1:37:43 Whereas it has remained extremely competitive where
+1:37:47 there's kind of multiple people at the frontier.
+1:37:49 You guys with Wonder today are coming along with your frontier-class model.
+1:37:54 Open source models have done an impressive job of keeping up, all told.
+1:37:59 And so we had this story a few years ago that someone was just going
+1:38:03 to run away with the prize.
+1:38:04 Why hasn't that happened?
+1:38:06 I think there's a lot of underlying reasons and mechanics that drive this.
+1:38:12 One certainly is just execution.
+1:38:14 I think for any given frontier lab, there are periods of strong
+1:38:20 execution and weak execution.
+1:38:21 And I think that is true across all the labs.
+1:38:24 And so that sort of starts to average itself out over time.
+1:38:28 I think another—Very diplomatic.
+1:38:31 Sorry. Yeah.
+1:38:32 Is it that some of the Players in the lead screwed up?
+1:38:35 Well, I think if all players,
+1:38:37 when they were in the lead, executed perfectly, they would
+1:38:39 probably be able to stay in the lead.
+1:38:42 So I think that's one factor.
+1:38:43 I think the power and strength of distillation is
+1:38:46 certainly another factor that's certainly benefiting the open source
+1:38:49 ecosystem quite a bit. And I think this is just like a—
+1:38:51 There's an anti-hegemonic force in the phenomenon of distilling a model.
+1:38:56 Yeah.
+1:38:56 And this is just a quality of the technology.
+1:39:00 It's not like anyone planned for distillation to work super duper well,
+1:39:04 but it just turns out that you can get a lot of capabilities naturally
+1:39:10 through some form of distillation.
+1:39:12 And this is, broadly speaking, distillation is quite
+1:39:15 a good force for the entire ecosystem because it means that you can pack very
+1:39:20 strong intelligence capabilities into smaller and smaller models,
+1:39:22 which enables us to serve them at much wider scale.
+1:39:25 And that's certainly one of the very exciting stories is just
+1:39:29 like really small models today are like, you know, much more powerful than the
+1:39:33 biggest models a year ago or 2 years ago.
+1:39:36 And then I think the last is that there's just sort of this— I think there's like,
+1:39:42 I actually think a lot of people in the ecosystem want this future
+1:39:48 where it is not just this like, you know, definitely.
+1:39:51 One final company in all of capitalism kind of kind of end outcome.
+1:39:56 Like, I think this is one of the reasons—
+1:39:58 Not just individuals, but companies putting dollars against things.
+1:40:01 Yeah.
+1:40:02 And I think, like, you know, this is actually one of the reasons why
+1:40:05 a lot of people were excited to join Meta and Meta Superintelligence Labs
+1:40:10 in the first place, was that they were just sort of like,
+1:40:12 you know, I want to work at a place that is focused
+1:40:15 on giving this technology to billions of people.
+1:40:17 That is, like, not the stated goal necessarily
+1:40:19 of all the other frontier labs.
+1:40:20 And so, I think there's, like, a lot of sort of just, like,
+1:40:23 natural forces where many people in the industry are sort of,
+1:40:26 like, grappling with, okay, what is the actual world state
+1:40:31 that I want to live in in the future?
+1:40:33 And there's lots of sort of, like, decisions that people make at all levels
+1:40:37 in terms of where they work or who they do business with or what business deals they
+1:40:40 do that sort of, like, drive towards a more equalized outcome.
+1:40:46 You get into the Some of the MSL startup, which I also wanted to ask about, which is
+1:40:52 it just seems fundamentally very hard still to—
+1:40:57 again, we talked about what goes into developing a frontier model, but also
+1:41:01 from a standing start, like when was the standing start for MSL?
+1:41:05 Well, we launched Llama 4
+1:41:09 on April 4th, I think it was, 2025.
+1:41:13 Right.
+1:41:14 And then I think, what was it, April 20th
+1:41:20 or 21st was, I think, when I was like,
+1:41:22 hey, when I started calling people for advice on what to do.
+1:41:29 So, I remember I was in a staff meeting and I got, like, the WhatsApp
+1:41:34 notification, like, have time for a call?
+1:41:36 I was like, huh, interesting.
+1:41:39 Okay, so MSL is a little over 2 years old.
+1:41:41 No, no, no, 1 year. 1 year.
+1:41:43 Is it '25? Oh, it's '26.
+1:41:45 Oh, sorry, I'm living in the future.
+1:41:47 Yeah, you are in the future.
+1:41:48 MSL is a little over 1 year old.
+1:41:50 Um, yeah, what are your reflections a little over a year in on what was
+1:41:56 load-bearing, as the IAs would say, in how it came together?
+1:42:00 Well, I mean, I think that there was this whole thing early on which is just like,
+1:42:05 first we had to pull together this core group.
+1:42:07 Right?
+1:42:07 So, um, so Nat and Alex and I, we were like talking a bit up front, um,
+1:42:15 and, you know, at first we were, you know, brainstorming.
+1:42:19 Yeah, like I was talking to Nat about, could we— is there a way that we can like
+1:42:23 structure this so that way it's like a win for Alex's shareholders and like
+1:42:27 we can like get him over here?
+1:42:29 And then, so then we were talking about, uh, like what would the plan be?
+1:42:33 And, and then basically I was just, I was in this mode where I was just like
+1:42:37 asking a lot of different people what we should do.
+1:42:40 And like every time that, that we would talk,
+1:42:44 I'd come away with like 3 more things of like, oh yeah, this is what we should do.
+1:42:48 It's like very like high signal, very like a lot of strategic clarity.
+1:42:52 And so we were brainstorming and working on this for a bit.
+1:42:57 And then Nat and Daniel joined and we pulled together a few
+1:43:00 of the the initial researchers.
+1:43:02 But like, in the beginning, it was sort of like the Supernova thing
+1:43:05 where we just kind of like jammed a bunch of people together.
+1:43:08 And I don't know, it was like, I don't think either of us
+1:43:11 slept that much for the first couple of months.
+1:43:13 No.
+1:43:13 I like, don't even, I kind of have this mental block almost
+1:43:16 where I like, I kind of almost
+1:43:20 cleared my calendar for like a month or 2
+1:43:24 and was just meeting researchers and talking to them.
+1:43:28 And I remember even before we announced the deal where you were going to come
+1:43:32 over, we were basically like, you were recruiting people and people
+1:43:35 were like, what is going on?
+1:43:37 Like, it's like, what is this?
+1:43:39 But, um, but then there was the whole question, which was a really
+1:43:43 hands-on data labeler.
+1:43:46 But, but that was, that was this whole question
+1:43:49 too, where it's like, all right, well, like,
+1:43:50 okay, so if we're not happy with the trajectory of the current
+1:43:52 program, Like, who were the right set of people to lead the program going forward?
+1:43:58 And Alex and I had spent a bunch of time talking over the years.
+1:44:02 I mean, maybe like, whatever, once every few months or something we'd talk.
+1:44:05 And I was always just very impressed by how he thought about things strategically.
+1:44:10 And I kind of had this view of like, all right, yeah, currently he's doing
+1:44:15 this very operational data business.
+1:44:19 But it always felt to me like he was the sharpest entrepreneur of his
+1:44:26 generation, of the ones who I had had a chance to meet.
+1:44:32 And like, it always just struck me, it's like, all right, like,
+1:44:35 this is a guy who, yeah, he's like running this like kind of very
+1:44:38 grindy operational business, but like—
+1:44:40 Lovely business still, by the way. What's up?
+1:44:42 We're big investors.
+1:44:44 It's not a— it's a— there's more Commentary on the difficulty
+1:44:48 of running the business.
+1:44:49 When you run the 8th wonder of the world, Alex, a lot of businesses look
+1:44:52 like a grindy operational business.
+1:44:56 It's just like my view of things.
+1:44:58 It's like grindy, grindy.
+1:45:01 No, no, no.
+1:45:04 But no, so it's, so I just kind of had this view.
+1:45:08 I'm like, all right, like, even though this is sort of
+1:45:13 I think maybe when we got started, a lot of people were like,
+1:45:16 okay, like, how is this going to work?
+1:45:18 It's like the kind of like the social media guy is working
+1:45:22 with the like data guy.
+1:45:24 Like, is that like, are we going to build a frontier lab here or what?
+1:45:27 But, but I mean, but my, but I mean, my like really strong
+1:45:30 conviction, because I talked to like all the leaders of all the labs, like all the
+1:45:33 heads of research, like all this stuff.
+1:45:35 And like, I was like, no, Alex is the guy. Like, he's the fucking guy.
+1:45:38 And like, and we're going to, and basically,
+1:45:40 like, we're going to basically be able to, to, to go pull together a team and recruit
+1:45:46 the people that we need to go do this.
+1:45:48 And like, we need this kind of very, this kind of like strategic clarity
+1:45:54 that he has around the different ways that we want to approach this,
+1:45:58 the kind of extreme focus on talent density,
+1:46:01 on kind of like the clarity of communicating the different vision,
+1:46:06 which we kind of fashioned together over this period.
+1:46:10 And a bunch of things that I think were
+1:46:14 kind of extreme but have basically worked,
+1:46:18 like having this, this like very flat culture was something
+1:46:23 that you were kind of really obsessed with, right?
+1:46:25 It's, I mean, you have like, was it almost 200 direct reports?
+1:46:28 That's like, we have, it's not, it doesn't, it's not quite
+1:46:31 that extreme in practice.
+1:46:32 I think that there's like, like team leads and all, and all this stuff.
+1:46:35 My muse helps me manage that.
+1:46:36 Yeah, well, that's— But like, but there were these series of things
+1:46:41 that I think quite early we, you kind of articulated, and I was like,
+1:46:46 okay, this is like kind of extreme, but it seems like directionally right,
+1:46:53 and like we should go do this.
+1:46:55 And, you know, I went and like talked to other people who were more like
+1:46:57 the people you'd conventionally think of, and it's like, it was just very much like,
+1:47:01 I don't know what you'd expect expect a big company to operate.
+1:47:04 And I was like, no, we want to do something that's—
+1:47:07 As you describe this, I'll note 4 things that I think even other
+1:47:12 opinionated, effective founder CEOs would not have done.
+1:47:16 One, you just called the recent prior effort by
+1:47:21 a bunch of people at the company a failure and not good enough.
+1:47:26 I mean, you were more diplomatic than that, but the act of standing up off
+1:47:29 the trajectory— Yeah, but the act of standing up So, you know,
+1:47:32 people can read between the lines.
+1:47:34 So sometimes, yeah, sometimes you have to reboot a team.
+1:47:36 That's one.
+1:47:37 Thing 2 is you are willing to pay ungodly amounts of money for effectively talent.
+1:47:43 Like, you're paying a lot of money to bring Alex and some other people, but,
+1:47:47 you know, a lot of money for Alex in particular over.
+1:47:52 Thing 3— And 49% of this very good grindy business.
+1:47:57 Yeah, exactly.
+1:47:59 But let's keep the story straight.
+1:48:01 So there's that.
+1:48:04 Thing 3 is, I'll note, Alex had never trained a frontier model before.
+1:48:09 And so you were taking some amount of a bet on Alex's potential to do
+1:48:13 something where he had done stuff in AI, but no offense,
+1:48:17 he just had not done the specific thing that you were being hired to do.
+1:48:20 And then 4th, you were saying you cleared your calendar
+1:48:23 and just only did this for 2 months.
+1:48:25 I think a lot of CEOs would've had the business review and would have had
+1:48:28 the board thing and they would have had the customer stuff and things like that.
+1:48:33 Those 4 seem to me pretty interesting where I think a lot
+1:48:37 of CEOs would not have done those. Yeah, that's interesting.
+1:48:40 I definitely think— I mean, one thing you may not appreciate this
+1:48:42 about yourself, but I think one thing that is quite special about Marc is
+1:48:47 the degree to which, like, once he concludes that something is
+1:48:51 the right thing or something makes sense, he just like fully shifts everything
+1:48:56 to be consistent with that belief set.
+1:48:58 And it is quite like, to your point, I think like the inertia of most, even
+1:49:04 very successful founders who like are opinionated and edgy or whatnot,
+1:49:08 would just be to like, oh, I still have like my whole calendar.
+1:49:11 And like, so I'll just like talk about doing this thing and hope that somebody
+1:49:16 does it kind of situation.
+1:49:18 Whereas I think, No, I think when Marc concludes
+1:49:21 that something is the thing he has to do or makes a lot
+1:49:23 of sense, then he really does, like, he has, like, maybe very high
+1:49:29 learning rate in that sense.
+1:49:30 Like, he's very willing to, like, pivot entire things to be consistent with it.
+1:49:34 And I think that, like, you know, one very underappreciated thing
+1:49:40 is the degree to which so much of the company had to pivot
+1:49:43 to support MSL as well.
+1:49:45 Like, I think that while it was a kind of like this more
+1:49:50 startup-y effort within a larger company, you know, the needs of MSL
+1:49:55 were still quite large.
+1:49:56 Like, we needed a huge amount of help on infrastructure.
+1:49:59 We needed these large-scale data centers to be built.
+1:50:01 We needed like lots of support from many other parts of the company.
+1:50:06 And especially as Muse has been successful, we've also needed lots of—
+1:50:09 Yeah.
+1:50:10 Deep collaboration with the rest of the company.
+1:50:12 And this is one thing that I think kind of only is possible because Mark is
+1:50:18 the founder CEO, and he can ensure that we have kind
+1:50:23 of like a global optimization towards this sort of like AI maximalist version of Meta
+1:50:30 versus the natural inertia of an organization towards
+1:50:34 just local optimization ad infinitum.
+1:50:37 But it's also a lot of how we work together is it's important to me to be
+1:50:42 in the details of this work so that we can get everything around the company
+1:50:46 to go do what we need to do. Right.
+1:50:48 And so it's like, I mean, yeah, I'll have opinions about this stuff, but
+1:50:51 I'm not like, I'm not the lead researcher. Right.
+1:50:54 It's like, it's, you know, it's, but I think that's kind of a lot of,
+1:50:58 I think how we work together well is that, yeah, it's, I mean, we're,
+1:51:02 we're kind of like, quite in the details of all of this stuff,
+1:51:05 but running the lab is a big thing.
+1:51:08 Running the rest of the company in order to support this is like
+1:51:11 the effort is a big thing.
+1:51:13 You almost like, you can't really get this done, I think, without
+1:51:16 both of those pieces.
+1:51:18 And one thing that I think was quite important about when we set
+1:51:22 the whole thing up is Meta, the company, invested a huge amount
+1:51:27 to stand up MSL, and then we very clearly told everyone
+1:51:31 like, hey, there's no deadlines.
+1:51:33 We are going to take things at the right pace, which I think on the one hand could
+1:51:37 be like, you know, absolutely terrifying.
+1:51:39 It's like you've just like stood up this extremely expensive unit and you're
+1:51:43 telling everyone like, hey—
+1:51:44 Yeah, and you're worried inside a larger company
+1:51:46 that like, okay, 7 years from now maybe something will ship, right?
+1:51:49 Yeah, totally.
+1:51:50 And so, but I think that like, first, I think one of the cool things
+1:51:54 about, you know, focusing on talent density and hiring all
+1:51:57 these very brilliant people who have done so much already, that's very impressive,
+1:52:01 is, you know, everybody had like a lot of motivation to ship
+1:52:05 and everybody wanted to sort of like leave their mark, so to speak, on the field.
+1:52:09 And so everybody was like heavily, highly self-motivated
+1:52:14 to move as quickly as possible.
+1:52:15 And one of the things that's been funny and I've had to continue reminding
+1:52:20 the team of is like, you know, it is a team of a lot of insecure overachievers.
+1:52:26 So like at any one point, if I ask them like, hey,
+1:52:29 how good do you think— where do you think we'll be in 3 months?
+1:52:33 I always get the most like—
+1:52:34 Everyone always says it's awful. It's awful.
+1:52:36 We're screwed. Yeah.
+1:52:36 These like very pessimistic answers.
+1:52:38 And then I record it and I like 3 months later I'm like, hey,
+1:52:42 you know, we just shipped this model.
+1:52:43 Let me just show you what all of you said, where all of you said we
+1:52:47 would be in 3 3 months ago.
+1:52:50 And, uh, and this is—
+1:52:51 And has that caused them to get any more optimistic or no?
+1:52:53 No, they're still— they're very self-critical.
+1:52:56 I think it's, it's not, it's not that they're pessimistic about—
+1:53:00 I think that the average person seems quite optimistic about MSL and very
+1:53:04 self-critical about their own project. Yeah.
+1:53:06 Which I think is actually quite a healthy, a healthy dynamic.
+1:53:10 Um, but, but the trend continues.
+1:53:13 Like, I think, I think, and, and this is, I mean, in many ways Muse Wonder is like
+1:53:16 this incredible milestone for everyone because it is a—
+1:53:21 The team was very, very critical. Yeah.
+1:53:23 That was working on it along the way.
+1:53:26 When did you guys know that Muse Wanderer was good?
+1:53:31 Um, that's a good question.
+1:53:33 I think that we, uh, so there's all these intermediate drawings.
+1:53:37 You're peeking in the oven and it's like, I don't know, it seems
+1:53:39 kind of gooey still.
+1:53:40 And yeah, yeah, going back to it, I mean, there are all these intermediate
+1:53:43 intermediate signals that you can get along the way that things are good or bad.
+1:53:46 And what are the intermediate signals?
+1:53:49 So in pre-training, you have a lot of perplexity-based evaluation.
+1:53:53 So you have a different regime of evals that can help you in pre-training.
+1:53:57 And then you have the more traditional benchmarks that can help you towards RL.
+1:54:03 But no, I mean, this model,
+1:54:06 kind of as you mentioned, has been cooking for quite a while.
+1:54:08 And You know, a lot of— I think one of the funniest
+1:54:12 things about AI research is that, you know, there's a lot of times where
+1:54:18 people just sort of like are kind of squinting at a bunch of dots and being
+1:54:22 like, yeah, looks like it's good, or, uh, looks a little bit off.
+1:54:27 Like, one of the funniest things is the people have protractors,
+1:54:33 like analog protractors that they put against you know, a set of lines on their
+1:54:38 monitor to like measure an angle.
+1:54:41 And then they, um, so he's not come for this job yet.
+1:54:45 So I think there's, I think there's like a huge amount
+1:54:47 of like, uh, like it's very, um, there's more vibes, um, driving like, okay.
+1:54:52 But when did we have this conversation where, when did you know it was good?
+1:54:56 Um, well, we had this debate after it was done pre-training where it was okay.
+1:55:03 How long will it take in RL before it is better than Muse Spark?
+1:55:10 And I remember the folks on the pre-training team
+1:55:14 were just trying to set expectations.
+1:55:16 They're like, look, sometimes this takes a while.
+1:55:19 And then it was immediately.
+1:55:21 And so we were like, okay, I think we're on a good path.
+1:55:25 That to me was sort of—Yeah.
+1:55:27 I think when when people got— yeah.
+1:55:29 We've been excited.
+1:55:30 I think we've been pretty excited about it for a few months now.
+1:55:32 Yeah. But there's a lot to do there.
+1:55:35 But going back to the beginning, I think one of the things that was very
+1:55:41 interesting and challenging in standing the thing up was like,
+1:55:44 you really just wanted this like very high talent density effort.
+1:55:49 And we were just kind of pulling some of the best people from Meta in and
+1:55:53 recruiting a lot of the best people.
+1:55:55 And I mean, you were asking, it's like, all right, well, like, okay,
+1:55:57 for people who, like, if you were asking before, it's like,
+1:56:01 well, Alex hadn't necessarily trained models like this.
+1:56:04 But to me, one of the big things was like all of the best people were
+1:56:08 very excited to work with him.
+1:56:10 And I think like, it's, I mean, you,
+1:56:12 I'm sure see this in all of, in a lot of the things that you do,
+1:56:16 which is like, you know, it's like you, most people
+1:56:19 are not kind of one-dimensional, right?
+1:56:22 Yeah, maybe you do a specific thing,
+1:56:27 but your ability to grow and expand is
+1:56:30 kind of largely based on how effectively can you just do people who are excellent
+1:56:37 in different domains want to come work with you on different things.
+1:56:40 Yeah, and the great people have followership.
+1:56:42 Yeah.
+1:56:43 And so I think that there was a little bit of that,
+1:56:47 but also just It's even for the people that don't know you yet,
+1:56:53 or like, or aren't, you know, don't know what you're about.
+1:56:56 Like, are you like an impressive person and a compelling
+1:57:00 person that people want to come work with?
+1:57:02 Do people feel comfortable that you're going to create this environment?
+1:57:06 And I think you were like very thoughtful about this early on.
+1:57:10 We were kind of— Some of the stuff I think you kind of had
+1:57:14 fully formed as beliefs of how you thought we should do this.
+1:57:18 But I also remember when we were having the initial recruiting
+1:57:21 conversations, we were sort of in real time
+1:57:25 shaping— it's like, okay, well, this construct that we're talking about
+1:57:28 with this person isn't quite going to work, but like, they seem good,
+1:57:32 and like, they have this thought.
+1:57:33 And it was just like, like, really kind of coalescing
+1:57:36 this vision about what the shape of it should be in real time.
+1:57:38 I mean, I don't know, I mean, I'm sure you remember that.
+1:57:40 this, where it was like there were some of the initial concepts of like,
+1:57:45 I mean, I think probably the most extreme thing was I think you had the concept of
+1:57:50 the talent density and all and that kind of piece.
+1:57:54 But I think we weren't sure upfront that it was going to have
+1:57:58 to be a full reboot, right?
+1:58:00 It's like that basically started when we were out talking to
+1:58:05 a lot of the kind of best people.
+1:58:07 And we realized that, hey, like, in order to make this as attractive
+1:58:11 as possible, it should feel like, okay, we're starting this
+1:58:14 thing again from scratch.
+1:58:15 And yeah, we'll pull in a lot of the great people from the Llama effort
+1:58:18 and FAIR and all of that too.
+1:58:21 But that was a very intentional thing that we basically figured out and that you
+1:58:25 figured out as we were out talking to the initial set of people of like
+1:58:28 what was going to make this compelling.
+1:58:30 And it ended up being really smart and like making a huge difference
+1:58:34 in the culture of the lab and how it got and how it got started.
+1:58:37 But I don't know, it's like being able to be that dynamic
+1:58:40 about figuring out, like, what does the shape of this need to be?
+1:58:44 It's not like that.
+1:58:45 I think that's a very uncommon trait.
+1:58:47 It's a very entrepreneurial trait, right?
+1:58:49 So, when I was thinking about, like, all right, like, this field is
+1:58:52 going to keep on evolving, right?
+1:58:54 So, what is the thing that's going to be important for someone who's
+1:58:56 going to run a lab well?
+1:58:58 It's not like, are they an expert in whatever the latest
+1:59:02 modality is of, like, or kind of of training technique for a lab.
+1:59:07 It's, is the person a clear
+1:59:11 thinker and able to kind of dynamically
+1:59:14 update and move in, like, as kind of an entrepreneur would?
+1:59:18 I think this is just like an inherently very entrepreneurial space.
+1:59:21 Has this experience changed your view on the value of
+1:59:30 going external, where both your reboot,
+1:59:34 a bunch of the people you brought in were external, like Alex and
+1:59:38 Nat and Daniel and folks.
+1:59:40 But then also you're describing deciding whether you needed a reboot
+1:59:44 based on going to the outside
+1:59:49 intelligence of the aggregate views
+1:59:52 of the researchers in the industry and getting a sense for the— But just Do
+1:59:55 you feel like you'll carry forward that approach for future unrelated projects?
+2:00:01 Because obviously the risk of a large company is that everyone's like,
+2:00:04 oh, we got a great approach.
+2:00:05 Yeah, let me show you our 100-page document on it.
+2:00:08 I mean, obviously you can't— a lot of what we had to do here was
+2:00:15 rotate a lot of the rest of the company.
+2:00:16 And like for things like the infrastructure team that now,
+2:00:19 you know, it's like building these huge clusters to support this.
+2:00:22 I mean, that's obviously a huge thing.
+2:00:25 So huge parts of the company kind of had to pivot to do this.
+2:00:28 And obviously you can't do too many of those at the same time, right?
+2:00:32 Only one thing can be the top priority. Yes.
+2:00:35 But I think on balance, it has made me somewhat more optimistic.
+2:00:39 I mean, we brought in this guy Kunal Shah, who, you know, it's like,
+2:00:43 I think he's like one of the top entrepreneurs in India,
+2:00:46 building this great company CRED, and And now he's running WhatsApp,
+2:00:49 which I always thought should do more in commerce,
+2:00:51 and we were sort of underserved there, and India is the biggest
+2:00:54 country that we're in.
+2:00:57 But, I mean, that's— it's a bit of a different
+2:00:59 situation, because we're not, like, pivoting
+2:01:02 the whole company towards WhatsApp.
+2:01:04 We just wanted to bring more entrepreneurial energy there.
+2:01:07 This was, like, a level 10 out of 10 difficulty thing.
+2:01:09 I don't want to talk about it in the past tense, as if it's done, because it's still
+2:01:12 a level 10 out of 10 difficulty thing. Yeah, yeah, sure.
+2:01:14 But I think
+2:01:18 the number of pieces that kind of had
+2:01:21 to work, it was quite all-encompassing.
+2:01:27 And I think that it's both difficult for the people doing it,
+2:01:30 but I do think that that also puts some level of strain on
+2:01:34 the rest of the company, on the financial model of the company.
+2:01:37 I think like you— so I wouldn't want to conflate those 2 pieces.
+2:01:40 Right?
+2:01:40 It's like I think there's yeah, it's good to have new blood, and it's good
+2:01:43 to have people who understand the context.
+2:01:46 And you know, you were talking about people who've been around Meta for a while
+2:01:50 and understand the ups and downs.
+2:01:52 And it's like I don't know if you've worked at Meta for 10 years,
+2:01:54 you've seen some shit, right?
+2:01:55 It's like it's like we've gone through a lot of hard times, and and like I think
+2:02:00 that that's kind of important context too.
+2:02:03 But but no, I I think a lot of this is just.
+2:02:08 trying to, you know, you're— whenever you're building
+2:02:11 a team, you're— you inherently, you know, it's like Alex had a theory for what
+2:02:16 the team shape needed to be, and like, I guess I had a theory for what
+2:02:20 like the shape of the leaders needed to be for it.
+2:02:23 And, um, and, you know, it's like a year plus in, it like seems okay.
+2:02:29 Like, it's like, first of all, it was just good to try something different, right?
+2:02:32 Mm-hmm.
+2:02:32 And then different than what everyone else was doing.
+2:02:34 Yes. And yeah, I mean, that's—
+2:02:41 I think there's some other dimensions here that are worth mentioning too.
+2:02:45 Like, one of the— like, when deciding we had to do the full
+2:02:49 reboot, like, you know, a lot of it was, you know, one of the main inputs was
+2:02:54 external, but also one of the inputs— I don't think I've ever—
+2:02:56 actually, I can't remember if I told you this story, but one of the first meetings
+2:02:59 I had When I joined, I was in this meeting with some of the leads
+2:03:05 of the existing effort.
+2:03:07 And I was like, okay, I think the first thing we need to do is
+2:03:10 train a really good reasoning model by some timeframe.
+2:03:15 I don't know when, but this is clearly the most important milestone.
+2:03:19 And one of the key leads in the group
+2:03:24 who no longer works at Meta, but was like,
+2:03:27 oh, we don't need a reasoning model.
+2:03:29 Do any of our consumers need a reasoning model?
+2:03:33 I feel like we don't need to do a reasoning model.
+2:03:34 We could just do a normal model.
+2:03:36 And I had this heart-sinking moment.
+2:03:39 Oh, no, I've joined the wrong company.
+2:03:42 I was like, oh, I've got to take 10 steps back.
+2:03:46 And I think this is kind of a funny anecdote.
+2:03:49 I remember calling Nat after this meeting.
+2:03:50 I was like, Nat, like, this is what they just said in the meeting.
+2:03:55 But I think it was specifically an indicator of something that I think,
+2:04:01 like, Mark, when he talked to people, like, certainly also started to realize,
+2:04:04 which is like, we needed leadership in the company to be
+2:04:08 much more AI-pilled and much more sort of like forward-leaning
+2:04:11 and front-leaning on like where the— how quickly the technology's moving,
+2:04:15 where it's going to go to, what the possibilities are.
+2:04:18 And effectively dramatically more AI-pilled.
+2:04:22 And I think as Marc started pivoting and shifting
+2:04:28 the whole company towards this direction, and it was very clear that this is like,
+2:04:33 I think Marc got AI-pilled, and then everyone saw that he was
+2:04:36 AI-pilled and everyone realized, like, oh, this is where the company's going.
+2:04:39 Then I think you had a lot of the existing leaders like very quickly
+2:04:45 pick it up and change.
+2:04:46 And like Adam Mosseri, for example, who runs Instagram,
+2:04:50 has one of the most like aesthetic but also like effective kind
+2:04:56 of like personal vibe code and personal mini app setup of anyone that I've seen.
+2:05:01 Like, I think it's like he's like really gone quite far in the direction.
+2:05:05 Mm-hmm.
+2:05:05 And I think a lot of the leaders at Meta who have been at Meta a long
+2:05:09 time are, like, all very adaptive.
+2:05:11 Like, I think, you know, kind of to the prior point, they've been in—
+2:05:14 Yeah.
+2:05:15 A highly turbulent, like, period of technology.
+2:05:18 Now, AI is, like, maybe, you know, 5 or 10 times more turbulent
+2:05:22 and faster moving than those past waves.
+2:05:24 But I think they're, like, they have adapted to new trends many times.
+2:05:28 And so I think there's, like, I've been very impressed, actually,
+2:05:31 by seeing how quickly a lot of Meta leadership
+2:05:36 If I compare the kind of conversations I would have with them when I first joined
+2:05:40 versus the kind of conversations I have now—
+2:05:41 They're now super AI-built. Yeah.
+2:05:43 And it's very impressive, honestly, for that to happen at the large scale
+2:05:47 of Meta, which is one of the largest companies in the world.
+2:05:51 Yeah, we got them there pretty quickly.
+2:05:53 It was, yeah, but I mean, like you're saying, it's like if
+2:05:56 you start coding, then it's helpful.
+2:06:01 But I think a big part of what, a big part of the culture that we were
+2:06:05 trying to create is also, you know, when we were talking about how you have
+2:06:11 all these direct reports, the point of it isn't that
+2:06:16 you have the direct reports, it's that there aren't, it's the absence
+2:06:20 of non-technical managers, right?
+2:06:22 So, so I don't think you would say that you're
+2:06:25 like, you know, that you're providing a ton of managerial support
+2:06:28 to 200 people at once.
+2:06:30 I mean, that's not a feature of the thing.
+2:06:31 Alex, well known for— Career chats and emotional, how are you doing, checking.
+2:06:36 But I think it's just well known among researchers that, you know,
+2:06:39 there's this common pattern.
+2:06:41 It's like you go from being very technical to you go to a role where you're,
+2:06:46 you're not like in the details anymore, and then you very quickly become not
+2:06:50 technical or don't kind of understand it much faster than you probably realize.
+2:06:55 And it's quite dangerous.
+2:06:55 It's such a fast-moving domain, especially.
+2:06:59 I think that, like, this whole thing of just,
+2:07:01 like, you have to stay technical, people have to use the agents,
+2:07:04 people should be writing code. Yeah.
+2:07:06 I think that that's— that has been a really important part of this whole thing.
+2:07:10 Have you had any very funny disagreements between the two of you guys?
+2:07:14 We have a lot of disagreements.
+2:07:15 Yeah, I mean, we're working on naming up until very recently.
+2:07:18 Naming is a good bike.
+2:07:20 It's one of the things I appreciate about Alex.
+2:07:21 It's like one of his— I mean, what this is like,
+2:07:24 I think it goes back to your your philosophy,
+2:07:27 you're talking about this for recruiting back at Scale, is like hire
+2:07:30 people who really care, right?
+2:07:31 I think there's some expletives in it, but it's fine.
+2:07:34 But I—
+2:07:36 But Alex really cares, it turns out.
+2:07:39 I think that's like one of the things that I thought was, you know, I think
+2:07:42 that that's like really important, right?
+2:07:44 It's, so I think part of what you kind of get when you like have
+2:07:49 the supernova of like all these different talented but very strong-willed people
+2:07:53 together is like, you're going to have like fun fights, um,
+2:07:57 and not fun fights, but like, but it's like to some degree I'd rather
+2:08:00 have people push for things that they believe in and like argue over things
+2:08:04 than, you know, just have people think that they're like blindly
+2:08:07 executing something, you know.
+2:08:08 It's like people need to feel ownership. So yeah.
+2:08:11 How is Mark a different boss than you expected?
+2:08:14 Um, well, I don't have a huge comparison set.
+2:08:16 I think I can leave now. Yeah, exactly.
+2:08:18 Yeah, no, it's No, I think that like the—
+2:08:23 I think it has been very—
+2:08:28 one of the very cool things about like working with Mark over the past year
+2:08:33 has just been watching like the true degree of his boldness
+2:08:38 and like, and this trait that we were talking about before of like, you know,
+2:08:41 once he internalizes certain beliefs, like the— speed and magnitude of willing
+2:08:48 to change prior actions and pivot towards the worldview that is
+2:08:55 consistent with those beliefs.
+2:08:56 I think these are pretty unusual traits, generally speaking, even
+2:09:02 among this base of founders.
+2:09:04 Mark actually ingests new information and fully updates his worldview and then
+2:09:08 acts in accordance with the newly installed worldview.
+2:09:10 Very Bayesian. And then willing to take— Very Bayesian.
+2:09:14 Very Bayesian. I've never gotten such a nice compliment.
+2:09:17 What lovely priors you have.
+2:09:21 Yeah. Posterior.
+2:09:22 You're not allowed to talk about posteriors anymore after
+2:09:25 the whole incident. Yeah.
+2:09:27 No, but then I think also just the degree of boldness.
+2:09:31 And I think that, like, the— this is— it was, like,
+2:09:35 actually quite puzzling to me at first, the degree to which you were, like,
+2:09:38 willing to make these massive bets.
+2:09:40 It was something actually Nat and I would often, like, talk about.
+2:09:43 I was like, Wow, we're really going big here.
+2:09:46 And both of us would be like, would you go this big?
+2:09:49 Would you go this big?
+2:09:50 And so I think that this, I think it's like, I mean,
+2:09:53 that is quite a notable trait and something I really admire.
+2:09:58 And I think is very, I actually, if I
+2:10:04 look back at the history of Meta and
+2:10:07 I imagine what the scenario would've been in all these pivotal moments,
+2:10:11 I can see how like this is kind of the movie, so to speak.
+2:10:15 Yeah.
+2:10:15 Or like this is kind of how a lot of those situations go where it's
+2:10:19 like there's— I feel like probably
+2:10:23 the way I imagine is like there clearly is
+2:10:26 moments where like something very, very big is happening.
+2:10:30 And it may not even really be showing in the metrics or it may not be impacting
+2:10:34 user counts or impacting revenue or whatever it might be.
+2:10:37 It's not really impacting things.
+2:10:39 But clearly, if you believe that thing is going to happen,
+2:10:42 then it has massive implications for the company and the product.
+2:10:47 And I think my post hoc retelling of Meta's history is
+2:10:52 that I think Meta is a company where every time that happens, Meta takes
+2:10:56 it extremely, extremely seriously.
+2:10:58 And that has enabled the company to innovate and continue evolving
+2:11:02 with a very fast-moving and fast-changing tech landscape.
+2:11:06 Mark is very Bayesian. Yeah, very Bayesian.
+2:11:09 So Bayesian.
+2:11:10 Life is short, just do the right thing.
+2:11:13 Yeah.
+2:11:13 And I think AI is, I mean, I think AI is maybe that, like,
+2:11:17 you know, times 100 or whatnot.
+2:11:18 But, like, I think the, you know, a lot of CEOs
+2:11:24 would've told you last, you know, last summer, oh yeah, I think AI is
+2:11:27 the most important thing for my business.
+2:11:29 Like, I think maybe every CEO would say that, But then you look at, like,
+2:11:32 what they're actually doing and how consistent are their
+2:11:34 actions with that belief.
+2:11:36 And I think this is, like, a, like, quite, quite special thing about Meta and Mark.
+2:11:42 Last question, because we're past all of our bedtimes.
+2:11:44 I'm so flattered. Yeah.
+2:11:47 What do you make of all of Alex's deranged posting on Twitter?
+2:11:50 I mean, I think most of it is great, but, but I, I guess my main view—
+2:11:56 But it doesn't matter how How much you fail, it matters how win—
+2:12:00 how big you win when you win.
+2:12:01 I think with— so I think with communication, I think it's
+2:12:06 most important to just be authentic.
+2:12:08 And I think when you're trying to be authentic, some of the things
+2:12:11 don't come out the way you want.
+2:12:13 And I think that that is a— that it is better to make the trade in that direction
+2:12:18 than it is to be overly scripted and not be authentic.
+2:12:22 But I mean, most of it, I just feel is hilarious.
+2:12:25 So, yeah, what do you think about my deranged tweets?
+2:12:30 I'm not a heavy X user, but—
+2:12:33 But you are back on X now.
+2:12:35 I'm back to posting.
+2:12:36 I mean, it's like a bunch of the researchers are there and we want
+2:12:39 to be over there, but everything I post there, I also post on Threads
+2:12:43 and it's all good.
+2:12:45 But every time I load X, I have like 4 Alex posts and it just like cracks me up.
+2:12:50 It's like some of these, Like, it's like, where do you— we're
+2:12:52 just talking about this.
+2:12:53 Well, you're now a clearinghouse, I presume, where people send you good stuff.
+2:12:56 I was like, where do you come up with this stuff?
+2:12:57 It's like, yeah, this is—yeah. How does it work?
+2:13:01 Um, most of the— like, uh, we were, we were talking about this with my partner
+2:13:04 yesterday, and he was, you know, I think one observation was just, um,
+2:13:09 there was actually probably still to this moment, I— my, my, uh, thought pattern
+2:13:14 oftentimes is, oh, that's funny.
+2:13:15 I wonder what Jolly would think about that.
+2:13:17 And then, you know, you get good memes out of that.
+2:13:21 That being said, I have experienced the sort of like brutal
+2:13:26 metabolism of the internet and how quickly it like metabolizes memes.
+2:13:30 And so the sort of like, you know, you really have to stay
+2:13:35 on the cutting edge of memeing to—
+2:13:38 It's easy to fall behind. Yeah.
+2:13:40 Which is maybe a good summary of this conversation.
+2:13:44 It's easy to fall behind, you know, you gotta stay at the frontier.
+2:13:47 Stay in the details.
+2:13:47 Yeah, stay technical and stay at the frontier.
+2:13:50 Yeah. Yeah.
+2:13:51 Alrighty, we'll leave it there. All right.
+2:13:53 Awesome. Thanks, guys.
+2:13:53 Thank you. Okay, wait, so what is everyone drinking?
+2:13:57 Well, that.
+2:13:59 What is this?
+2:14:01 That's a keg of Guinness that I brought you.
+2:14:03 This is Guinness from? Dublin.
+2:14:05 Oh, wow. You were just there?
+2:14:07 Yeah, I was just there this week. Oh, awesome.
+2:14:08 Yeah. Well, thank you.
+2:14:09 We got the local stuff. Yeah, there you go.
+2:14:11 Yeah, no, I figured this would be a good occasion to Get the Guinness going.
+2:14:15 Yeah.

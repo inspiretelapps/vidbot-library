@@ -9,8 +9,125 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-11T06:03:31+02:00",
+  "updated_at": "2026-10-13T12:06:52+02:00",
   "videos": [
+    {
+      "id": "XfdIhd1g6EI",
+      "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+      "channel": "Cheeky Pint",
+      "upload_date": "20261012",
+      "duration_seconds": 8071,
+      "thumbnail": "https://i.ytimg.com/vi/XfdIhd1g6EI/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XfdIhd1g6EI",
+      "description": "As Meta scales its AI infrastructure past five gigawatts, Mark Zuckerberg (founder and CEO, Meta) and Alexandr Wang (Chief AI Officer, Meta Superintelligence Labs) join John for a pint to discuss the launch of Muse Wonder and the future of personal AI agents.\n\nIn this episode, Mark and Alex open up about the creation of Meta Superintelligence Labs (MSL), the decision to execute a complete talent reboot, and what it really feels like to make a $100B+ CapEx commitment before knowing if the model will work. They dive deep into the architecture of Muse Wonder—including active memory, multimodal perception, and frontier coding—while laying out their vision for agentic commerce, hardware form factors like smart glasses, and why superintelligence belongs in the hands of billions.\n\nFull transcript on Substack: https://cheekypint.substack.com/p/muse-wonder-zuckerberg-and-wangs\n\n\nSubscribe to Cheeky Pint\nSpotify: https://open.spotify.com/show/2IHbGJJ...\nApple Podcasts: https://podcasts.apple.com/us/podcast...\nSubstack: https://substack.com/@cheekypint/note/p-191214714?r=5su49q&utm_source=notes-share-action&utm_medium=web\n\n\nKey moments\n00:00:24 Muse’s breakout use cases\n00:07:28 Why the model is the product\n00:14:35 Meet Muse Wonder\n00:24:56 How frontier models are actually built\n00:48:26 Betting $100B\n01:07:21 Agentic commerce\n01:19:34 OpenRouter \n01:20:06 Beyond the smartphone\n01:27:00 Funding\n01:34:06 Why AI won’t be winner-take-all\n01:40:46 Meta Superintelligence Labs (MSL)\n02:08:11 Working for Mark Zuckerberg",
+      "summary": "Delegation before chat · 00:24 / 07:28 / 14:35: Mark Zuckerberg and Alexandr Wang present Muse as a persistent personal agent rather than an information assistant: Wang describes recurring tea purchases, while Zuckerberg uses gym cameras for MMA feedback during a 60-second break. Their product thesis is that memory, personality, discretion, multimodal perception and reliable tool use must be trained into the model and co-designed with its environment. Wonder and the higher-end Wonder Full are presented as larger successors to Spark; Wonder initially goes primarily into paid Muse subscriptions, with API/OpenRouter and Muse Code access also discussed. Wang reports state-of-the-art personal-agent and coding evaluations, including DeepSWE and SWE-Marathon, but the interview supplies no numerical scores or independent comparative test. A practical trial should therefore measure recall across sessions and completion of your own tasks, not assume a claimed leaderboard lead guarantees suitability.\n\nEvaluation and training quality · 24:56 / 35:19 / 41:23: The guests argue that public benchmarks are useful for bootstrapping a lab but insufficient for designing a product. Zuckerberg's example is an agent that can book a suitable restaurant without unnecessarily exposing an allergy or pregnancy; Wang describes evaluating how capability transfers beyond the tasks used in training. They distinguish broad multimodal/domain pre-training, supervised fine-tuning of desired behavior, and reinforcement learning that makes that behavior more consistent. Spark's incremental releases reused its base pre-train, illustrating how much capability can come from better post-training recipes. Their caveat is that compute, data, model size and the agent harness must develop together, while poorly designed reward environments can pressure an agent into unsafe behavior; more training is not automatically better training.\n\nCapital commitments before proof · 48:26 / 53:11 / 55:25: Building models and serving capacity requires overlapping, long-lead workstreams, so Zuckerberg describes committing on the order of $100B–$200B before knowing whether the research would succeed. His rough estimates are about $15B to operate a one-gigawatt cluster for a year and $50B–$60B to build it upfront; these are cluster economics, not a disclosed bill for one Wonder training run. Prometheus in Ohio is described as scaling above one gigawatt, while Louisiana's Hyperion is planned to scale to five gigawatts over coming years—not five gigawatts already delivered. Wang stresses the financial downside, whereas Zuckerberg argues Meta can reduce exposure by selling compute or using it in existing businesses if a particular AI product disappoints. The strategic conclusion is that owning frontier models enables new experiences, but requires committing before conventional product-market-fit evidence arrives.\n\nCommerce needs execution, not another search box · 1:07:21 / 1:13:54: Meta's proposed adoption path is browser use for existing sites, direct APIs for willing partners, and eventually business agents talking to consumer agents. The value is applying constraints such as delivery by Wednesday, using context from prior conversations and completing checkout, rather than returning product links. Zuckerberg's concrete anecdote is Muse arranging ingredients for weekend baking with his daughter: he says his Instacart usage rose from occasional use to once or twice a week, suggesting agents might create new demand as well as reduce buying friction. He also says the agent suggested a watermelon to reach a delivery threshold and asked for approval. These are personal experiences and a commercial thesis, not a controlled conversion study or evidence that businesses blocking agents will certainly fail.\n\nInterfaces and the business model · 1:19:34 / 1:20:06 / 1:27:00 / 1:34:06: A separate OpenRouter advertisement promotes model routing and provider-outage handling; its acquisition and traffic claims are promotional statements, not independently checked results. In the interview, the guests argue that voice input is convenient but spoken output can be inefficient, and that interruption handling, speaker recognition and real action-taking matter more than merely adding a voice mode. Glasses, small displays and connected-home gadgets are described as complementary interfaces to a persistent agent. Funding would combine a free base product with paid capability, commerce-related value capture, APIs and enterprise services, supported by improvements to Meta's existing business; the conversation does not establish profitable unit economics or guaranteed user savings. Their case for a diverse model ecosystem rests on differing product priorities, uneven execution and distillation, making task-specific comparisons more useful than picking one supposed universal winner.\n\nThe organizational bet and closing verdict · 1:40:46 / 2:06:01 / 2:13:40: The guests trace MSL to dissatisfaction with Llama 4 in April 2025 and describe a full reboot shaped by recruiting feedback, concentrated compute and a research team of fewer than 200 people. Zuckerberg chose Wang for strategic clarity, adaptability and the ability to attract excellent researchers, rather than prior experience training a frontier model; Wang credits company-wide infrastructure support and founder-level willingness to reprioritize. Their flat structure still has technical leads: the objective is avoiding management layers that lose technical contact, while allowing strong researchers to disagree and own decisions. Removing arbitrary shipping deadlines did not remove urgency, and Zuckerberg cautions that the transformation remains difficult rather than finished. The closing verdict is explicit: stay in the details, stay technical and keep updating decisions as the frontier moves—a leadership lesson distinct from the guests' unverified claims of model superiority.",
+      "why_valuable": "Evaluate Muse on remembered context, successful execution and discretion—not its claimed benchmark rank—and make business ordering flows accessible to agents before buying into a platform. Zuckerberg's weekly ingredient-delivery example shows the potential for new customer demand; the interview also exposes the subscription, privacy and reliability tradeoffs to test. The $15B-per-gigawatt annual operating estimate and planned five-gigawatt cluster explain Meta's capital strategy, but they are speaker estimates and targets, not proof that the model is best or that its business economics work.",
+      "key_takeaways": [
+        "01:26–02:55: Zuckerberg's MMA workflow must analyze gym-camera footage and deliver feedback inside a 60-second break. A useful agent trial should measure end-to-end latency and outcomes, not just whether the model recognizes an image.",
+        "18:17–23:46: Wang says active memory recalls context across days, weeks and months, while active focus persists through setbacks. Wonder initially needs a paid Muse subscription for harder tasks; his claimed coding-benchmark leadership is company-reported, with no scores or independent comparison in the interview.",
+        "27:44–29:45: A personal agent should use sensitive context without revealing more than necessary, illustrated by restaurant selection around an allergy or pregnancy. The guests argue that internal task and discretion evaluations are more meaningful than letting a popular external benchmark dictate product design.",
+        "41:23–45:28: Supervised fine-tuning establishes desired behavior and RL increases consistency, but reward environments that make safe success impossible can teach misalignment. Wang stresses thoughtful environment curation; simply scaling the quantity of RL data is not a substitute for quality.",
+        "49:45–58:29: Zuckerberg describes Prometheus scaling above one gigawatt and Hyperion targeting five, with rough costs of $15B per gigawatt-year to operate and $50B–$60B upfront to build a gigawatt cluster. These are estimates and infrastructure plans, not the cost of a single model run; alternative uses for compute are his proposed downside protection.",
+        "1:08:24–1:16:34: Browser automation provides compatibility with existing stores, while APIs should make agent purchases faster. Zuckerberg says Muse's recurring baking-ingredient orders turned Instacart from occasional use into once- or twice-weekly use—an example of new demand, not a measured conversion uplift.",
+        "1:21:29–1:39:25: Voice interaction still needs interruption handling and task execution; visual output may beat spoken output for consuming information. Differentiated training priorities and distillation support a multi-model future, so compare providers on your workload rather than assume a winner-take-all market.",
+        "1:51:18–2:13:50: MSL combined no arbitrary launch deadlines with highly motivated researchers, technical leads and company-wide prioritization. The guests' closing advice is to stay technical and in the details; flat reporting lines alone do not reproduce the culture or remove the continuing difficulty of the reboot."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "The commitment before the model",
+          "description": "Zuckerberg recalls being asked to commit roughly $100 billion or $200 billion before the team had seen whether its models would work. This brief cold open frames the later discussion of infrastructure risk and research uncertainty, rather than providing an itemized training budget.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 24,
+          "timestamp": "00:24",
+          "title": "Muse’s breakout use cases",
+          "description": "Wang describes his agent sourcing obscure teas each week, while Zuckerberg shows an MMA-coaching workflow that extracts camera frames and must respond during a one-minute break between rounds. The agent writes and optimizes the processing pipeline without exposing code to its user, making latency and successful execution the real test. They connect these examples to Meta's multimodal training priorities and a future in which glasses can hear, see and generate the interface people need, rather than assuming consumer AI is primarily a text or coding product.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 448,
+          "timestamp": "07:28",
+          "title": "Why the model is the product",
+          "description": "John challenges whether AI products converge on a small set of obvious interfaces, but the guests argue that behavior, personality, proactivity and privacy create substantial differentiation beneath a similar surface. Zuckerberg emphasizes dedicated agent environments and data-handling design, while Wang explains that many product choices are expressed through post-training and evaluations rather than conventional UI specifications. Muse's lack of model and effort selectors is defended as a deliberate simplification for ordinary consumers, not evidence that the underlying engineering is simple.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 875,
+          "timestamp": "14:35",
+          "title": "Meet Muse Wonder",
+          "description": "The guests introduce a larger successor to Spark, with Wonder and higher-end Wonder Full emphasizing active memory, persistence through long tasks and domain expertise. Wang reports leadership on internal personal-agent evaluations and coding benchmarks such as DeepSWE and SWE-Marathon, but gives no scores and invites users to test the improvement themselves. Zuckerberg says the more expensive model will initially be used primarily by paying Muse subscribers while Spark supports a free offering, with API/OpenRouter and Muse Code access also discussed. Their stated objective is eventually delivering comparable capability in a smaller, cheaper model, rather than promising today's larger model free to everyone.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1496,
+          "timestamp": "24:56",
+          "title": "How frontier models are actually built",
+          "description": "The guests describe moving beyond saturated public benchmarks toward product-specific evaluations, including discretion about medical context and generalization outside a model's training distribution. They explain concentrated compute for a small research team, multimodal and expert-domain pre-training, supervised fine-tuning of desired responses, and reinforcement learning that makes those behaviors more reliable. Spark's point releases illustrate substantial gains from post-training without changing the base pre-train, but data availability, transfer between domains and scaling the whole system remain constraints. Wang warns that reward environments can encourage unsafe shortcuts when aligned success is impossible, while Zuckerberg frames alignment around reliably serving the user with appropriate boundaries rather than adding a final safety patch.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2906,
+          "timestamp": "48:26",
+          "title": "Betting $100B",
+          "description": "The guests explain why research, large training clusters and inference capacity must be planned in parallel, describing Ohio's Prometheus as scaling beyond one gigawatt and Louisiana's Hyperion as targeting five over coming years. Zuckerberg recalls considering a roughly $100 billion to $200 billion commitment before model quality was proven, and gives approximate one-gigawatt cluster costs of $15 billion per operating year and $50 billion to $60 billion to build upfront—not a disclosed price for one training run. Wang recounts the CFO's concern, while Zuckerberg argues that selling capacity or using it in existing products gives Meta a backstop if a particular new product fails. They ultimately justify the risk through full-stack ownership and the ability to invent new consumer experiences, rather than suggesting the financial uncertainty has disappeared.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4041,
+          "timestamp": "1:07:21",
+          "title": "Agentic commerce",
+          "description": "Zuckerberg outlines browser automation as compatibility with existing businesses, direct API integrations as a faster next step, and business agents as the eventual counterpart to personal agents. The guests argue that delegated buying can apply deadlines and preferences from prior conversations, and Zuckerberg describes Muse organizing weekly baking ingredients with his daughter, including a watermelon suggested to satisfy a delivery threshold and approved by him. He says this turned Instacart into a once- or twice-weekly habit, illustrating possible new demand rather than proving a conversion-rate lift. The discussion closes with Stripe integration and the importance of sufficiently reliable computer use; predictions that reluctant businesses will lose out remain strategic opinions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4774,
+          "timestamp": "1:19:34",
+          "title": "OpenRouter",
+          "description": "A separate promotional interlude presents OpenRouter as a single gateway for experimenting with hundreds of models, comparing prices and routing around provider outages. It states that Stripe has agreed to acquire the service and that it routes more than ten trillion tokens daily; these are claims in the advertisement, not independently verified measurements or findings from an on-camera test.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4806,
+          "timestamp": "1:20:06",
+          "title": "Beyond the smartphone",
+          "description": "Zuckerberg asks Muse to order a watermelon to the podcast location, but the segment does not establish that a delivery arrives. The discussion instead explains why useful voice assistants need action-taking, natural interruption handling and speaker recognition, while spoken responses can be less efficient to consume than visual information. The guests connect persistent memory and personality to glasses with cameras, audio or small displays, then discuss Muse Gadgets and a USB HomeLink for connected-home control. These examples point toward multiple interfaces to the same agent, not a demonstrated replacement of smartphones or a fully rolled-out voice experience.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5220,
+          "timestamp": "1:27:00",
+          "title": "Funding",
+          "description": "Zuckerberg proposes keeping a strong free Muse offering to attract users and partners, while earning revenue from paid capability, subscriptions, commerce-related value creation, model APIs and enterprise services. He describes canceling unused subscriptions and administering small businesses as possible sources of user value, not guaranteed savings or a settled fee schedule. The guests also argue that faster growth in Meta's existing business can help finance the buildout and explain why overlapping research programs make current expenses precede their benefits. Owning data centers rather than renting all capacity is presented as another financial advantage, but the interview does not establish audited unit economics or when the new businesses become self-funding.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5646,
+          "timestamp": "1:34:06",
+          "title": "Why AI won’t be winner-take-all",
+          "description": "Wang recommends using developer feedback to reveal meaningful differences between models, because a common leaderboard obscures choices about personal-agent behavior and other workloads. Zuckerberg supports routing infrastructure and open-source access as ways to sustain multiple players and distribute capability rather than concentrate it in a few companies. Wang attributes continuing competition to uneven execution, effective distillation and deliberate choices by researchers and businesses to support a pluralistic ecosystem. The conclusion is a case for task-specific model selection and accessible intelligence, not a guarantee that no provider can gain a durable advantage.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 6046,
+          "timestamp": "1:40:46",
+          "title": "Meta Superintelligence Labs (MSL)",
+          "description": "The guests trace the reboot to dissatisfaction with Llama 4 in April 2025, then describe hands-on recruiting, Wang's emphasis on talent density and a full restart shaped by conversations with prospective researchers. Zuckerberg chose Wang for strategic judgment and his ability to attract excellent people; success also depended on redirecting infrastructure and other company resources, not merely paying for a new team. Wang says removing arbitrary shipping deadlines still produced strong internal urgency, while early evaluation signals and Wonder outperforming Spark after initial RL eventually strengthened confidence. They distinguish flat, technically engaged leadership from an absence of team leads, describe changing skeptical attitudes toward reasoning models, and defend informed disagreement as ownership, while stressing that the wider transformation remains difficult and cannot be every team's simultaneous top priority.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 7691,
+          "timestamp": "2:08:11",
+          "title": "Working for Mark Zuckerberg",
+          "description": "Wang says Zuckerberg differs from many leaders in rapidly revising his beliefs and then making large, concrete changes to match them, even before usage or revenue metrics reveal the whole opportunity. Their discussion of public communication favors authenticity and tolerating some misfires over tightly scripted behavior, with Wang's memes providing a lighter example. The substantive closing advice is to stay in the details, remain technical and keep up with the frontier; the final drinks exchange supplies no further benchmark evidence or confirmation of the earlier watermelon request.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-13T12:00:25+02:00",
+      "summarized_at": "2026-10-13T12:06:52+02:00"
+    },
     {
       "id": "ND_kRgU_WlY",
       "title": "You can rewrite typescript in rust for $420k",
