@@ -9,8 +9,97 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-13T12:06:52+02:00",
+  "updated_at": "2026-10-14T06:03:50+02:00",
   "videos": [
+    {
+      "id": "7jHXoPGnA4c",
+      "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
+      "channel": "Nate Herk | AI Automation",
+      "upload_date": "20260925",
+      "duration_seconds": 1162,
+      "thumbnail": "https://i.ytimg.com/vi/7jHXoPGnA4c/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c",
+      "description": "My FREE Hyperframes skills: https://www.skool.com/ai-automation-society/about?el=opus-5.5-motion-design&hcategory=youtube-videos&utm_campaign=free-group\nFREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=opus-5.5-motion-design&sl=yt_opus-5.5-motion-design\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nClaude Opus 5.5 is giving me some of the best AI video edits I've ever gotten, so in this video I break down the exact prompts behind them. \n\nYou'll see one-prompt edits for my intro, a YouTube showreel, an AIS Live sizzle reel, three styles of the same avocado toast video, and a Lululemon spec ad, all built in Claude Code with HyperFrames. Then I walk through the five things I think about every time I edit with AI: transcribe, cut, plan the beats, build skills, and let the agent verify its own work.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro\n0:48 Breaking Down the Intro Prompt\n4:20 YouTube Showreel Skill\n6:58 One-Prompt AIS Showreel\n8:40 AIS Live Sizzle Reel\n10:40 Avocado Toast: 3 Edit Styles\n14:53 Lululemon Spec Ad\n16:12 5 Steps to Edit Videos With AI\n19:01 Final Thoughts",
+      "summary": "Speech-synced editing · 00:00 / 00:48: Nate Herk reports some of his best AI-editing results using Opus 5.5 inside Claude Code with HyperFrames, which builds animated HTML. His intro prompt specifies a transcript first, overlays aligned to spoken phrases and pointing gestures, readable backing cards, and real or generated supporting assets. He says the agent added subtle zooms and extra motion without another user prompt. This is his own qualitative demonstration, not a controlled model comparison or a measured speed/cost benchmark; he describes HyperFrames as free, while distinguishing paid-per-use ElevenLabs transcription from a slower, free local Whisper option.\n\nReusable style versus open-ended briefs · 04:20 / 06:58: Herk turns a reference reel from X into a motion-showreel skill by asking Claude to analyze why it works, then applies that skill to a YouTube-branded reel with collected thumbnails and generated imagery animated through Kling. A separate 15-second AIS company reel deliberately omits that skill: the brief instead specifies real company assets, logos, optional asset generation and coordinated music and effects. The useful distinction is between preserving a repeatable style in a skill and giving the agent a broad creative brief; neither removes the need to check branding and output quality. The ScrollCraft website-skill promotion is separate from the editing evidence.\n\nEvent storytelling has limits · 08:40: His personal stress test gives Claude Code access to a folder containing 105 GB of event recordings and resources and asks for a story-driven AIS Live sizzle reel. He explicitly says this result took three user prompts: the original request, an iteration and a specific fix, rather than one shot. The selected attendee reactions, screen-tunnel effects and closing logo composition impress him, but he acknowledges awkward speech cuts that could still be improved. The folder size is an input-library figure, not proof that every byte was analyzed or a reproducible benchmark.\n\nOne recording, different deliverables · 10:40 / 14:53: The same avocado-toast clip becomes a playful whiteboard explainer, a minimal course lesson with large concise bullets and a rounded presenter crop, and a fast-paced short with changing B-roll. Herk says most examples use high effort and calls them one-prompt results, yet notes tiny eggs, uneven glaze placement and a short that is not perfect. A Lululemon spec ad illustrates brand-oriented generated motion, but his account of sourcing product/model images is explicitly a guess, not a verified asset audit or an official brand commission. These demos suggest a way to reuse a business recording across formats, not guaranteed publish-ready output or documented licensing clearance.\n\nThe workflow and final verdict · 16:12 / 19:01: Herk recommends five stages: transcribe, remove mistakes/dead air, specify the animation beats, encode recurring preferences in skills, and have the agent inspect its output and iterate before handing it back. His example of removing 20 seconds of dead space is hypothetical, and the five-or-six-version verification discussion describes internal iteration rather than measured performance. Feedback should update the skill so the same preferences need not be repeated next time. His closing verdict is that motion design no longer requires prior editing experience and editing need not be the bottleneck; the practical interpretation is to trial this workflow on your own footage, review timing and factual/visual accuracy, and budget for model and asset services rather than treating free skills as an entirely free production pipeline.",
+      "why_valuable": "Trial Claude Code plus HyperFrames for turning a single business recording into a course lesson, explainer or short before paying for a larger editing workflow. Herk's 105 GB event-folder example needed three prompts and still had awkward cuts, while his reusable skills preserve style preferences across runs. That makes this most useful for choosing a repeatable transcript-to-edit process with explicit human review, not for proving Opus is objectively best or that free skills eliminate model and asset costs.",
+      "key_takeaways": [
+        "01:51–03:22: Transcribe before animating so overlays follow exact spoken phrases and gestures. Herk explicitly asks for backing cards behind logos/text, showing that legibility belongs in the brief rather than being left to styling alone.",
+        "01:57–02:11: Herk presents ElevenLabs as quicker and paid per use, and local Whisper as free but slower. HyperFrames and downloadable skills being free does not establish the total cost of the model, transcription or generated assets.",
+        "05:14–06:55: Analyze an admired reference and save its design principles as a reusable motion-showreel skill. His YouTube reel also uses generated images sent to Kling for animation; it is an orchestrated multi-tool workflow, not HTML animation alone.",
+        "06:58–08:14: A 15-second company reel is prompted without the reference-derived skill, using real AIS assets and logos where possible. Broad brand and energy instructions can produce a draft, while a skill is useful when consistency across future reels matters.",
+        "08:43–10:38: The AIS Live example starts from a 105 GB resource folder and needs three prompts, not one. Herk praises the story and composition but acknowledges awkward speech cuts; this is his personal test, not an independently scored benchmark.",
+        "10:53–14:52: One avocado-toast recording supports three styles: whiteboard explainer, minimal course lesson and fast-paced short. Herk flags visual inaccuracies and imperfect editing, so format repurposing still requires checking that imagery matches the explanation.",
+        "15:30–16:11: Herk says he is only pretty sure how the Lululemon spec ad sourced clothing/model images. Treat the sourcing story as conjecture and verify permissions and product fidelity before using this approach for a real commercial ad.",
+        "16:24–19:12: Transcribe, cut, plan beats, use skills and verify. Feed liked/disliked details back into the skill, and require output inspection and iteration; a single user prompt can hide several internal revisions rather than mean no quality-control work occurred."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Herk presents an AI-edited opening and says Opus 5.5 is delivering some of his best results after experimenting with other models. He frames the capability as coordinated motion design, sound, B-roll, screenshots and generated assets driven by natural language; this is a personal showcase, not a scored comparison establishing universal model superiority.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 48,
+          "timestamp": "00:48",
+          "title": "Breaking Down the Intro Prompt",
+          "description": "The setup gives Claude Code HyperFrames for HTML-based animation, with a free student kit holding reusable skills and examples. Herk's brief requires transcription first, overlays timed to speech and gestures, legible backing cards, and collected or generated assets that demonstrate the claims being spoken. He contrasts paid-per-use ElevenLabs with slower local Whisper, then highlights unrequested zooms and visual flourishes as evidence of the agent's creative contribution rather than additional user prompting.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 260,
+          "timestamp": "04:20",
+          "title": "YouTube Showreel Skill",
+          "description": "Herk uses a reel downloaded from X as a reference and asks Claude to analyze its strengths and turn them into a reusable motion-showreel skill. He then requests a distinctly YouTube-branded result with collected thumbnails, typography and colors, praising the choice to center his play-button thank-you image. Generated stills are sent to Kling to create moving scenes before being assembled, illustrating that the reusable style sits above a pipeline of asset collection, generation and composition.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 418,
+          "timestamp": "06:58",
+          "title": "One-Prompt AIS Showreel",
+          "description": "A broad brief asks for a dynamic 15-second AIS company reel, real product assets and logos where possible, optional generated assets, and coordinated motion, music and effects. Herk deliberately does not use the previously created skill and praises website imagery, branding and spatial composition in the returned draft, while qualifying his guess about one generated 3D image. The interval also promotes the separate ScrollCraft website-design skill, which is not another video-editing test.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 520,
+          "timestamp": "08:40",
+          "title": "AIS Live Sizzle Reel",
+          "description": "Herk gives Claude Code a folder with 105 GB of event recordings and resources and asks it to build a story-driven promotional reel. He corrects the one-shot framing: this example needed an initial prompt, one iteration and a specific fix, and still contains some awkward speech cuts. Selected attendee reactions, screen-tunnel transitions and a closing composition that forms the event logo explain why he finds it compelling, while the remaining cut problems make review necessary even on an impressive draft.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 640,
+          "timestamp": "10:40",
+          "title": "Avocado Toast: 3 Edit Styles",
+          "description": "The same cooking recording is repurposed into a hand-drawn whiteboard explainer, a minimal course lesson with large bullets and a rounded presenter crop, and a fast-paced short with changing supporting imagery. Herk says these are one-prompt results, notes that most examples use high effort, and identifies tiny eggs, uneven glaze placement and imperfect editing rather than claiming flawless output. His practical argument is that reusable preferences and brand/style skills can reduce repeated briefing work while a single source clip serves different audiences and formats.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 893,
+          "timestamp": "14:53",
+          "title": "Lululemon Spec Ad",
+          "description": "A generated clothing advertisement is presented as an example of conveying a physical product's brand through energetic pacing, music-synced beats and sound effects. Herk says he is only pretty sure the agent collected actual clothing/model photos and animated them, so that sourcing explanation remains conjecture rather than an audited workflow. The demo supports testing a brand-directed creative brief, but it does not establish permissions, product accuracy or an official relationship with Lululemon.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 972,
+          "timestamp": "16:12",
+          "title": "5 Steps to Edit Videos With AI",
+          "description": "Herk recommends transcription, removing mistakes and dead air, defining animation beats, building reusable skills, and inspecting the result through a verification loop. He advises updating skills with what worked and what did not, so recurring preferences do not have to be restated for every edit. Screenshots and internal revisions are meant to catch mistakes before delivery; his discussion of five or six versions illustrates the process rather than reporting a measured benchmark or removing the need for human approval.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1141,
+          "timestamp": "19:01",
+          "title": "Final Thoughts",
+          "description": "Herk closes by arguing that people can now benefit from AI motion design without previous video-editing experience and should not let editing prevent them from producing content. He adds no further test results or cost figures, so the closing message is an invitation to try the workflow rather than evidence that all production constraints have disappeared.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-14T06:00:36+02:00",
+      "summarized_at": "2026-10-14T06:03:50+02:00"
+    },
     {
       "id": "XfdIhd1g6EI",
       "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
