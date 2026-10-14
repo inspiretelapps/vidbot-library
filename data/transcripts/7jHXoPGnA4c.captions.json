@@ -1,0 +1,3187 @@
+{
+  "video_id": "7jHXoPGnA4c",
+  "language": "en-orig",
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 3.2,
+      "text": "So, I've been experimenting with AI"
+    },
+    {
+      "start": 1.24,
+      "duration": 3.92,
+      "text": "models editing videos for me for a long"
+    },
+    {
+      "start": 3.2,
+      "duration": 5.12,
+      "text": "time. Super powerful models like Fable"
+    },
+    {
+      "start": 5.16,
+      "duration": 5.0,
+      "text": "5.1 and GBD6 Astra. But, Opus 5.5 is"
+    },
+    {
+      "start": 8.32,
+      "duration": 2.92,
+      "text": "giving me some of the best outputs ever."
+    },
+    {
+      "start": 10.16,
+      "duration": 4.08,
+      "text": "Take a look at this example, which was"
+    },
+    {
+      "start": 11.24,
+      "duration": 3.0,
+      "text": "just one prompt."
+    },
+    {
+      "start": 27.12,
+      "duration": 3.56,
+      "text": "Not only does this thing do the motion"
+    },
+    {
+      "start": 28.6,
+      "duration": 3.72,
+      "text": "design and the sound design, but it also"
+    },
+    {
+      "start": 30.68,
+      "duration": 3.4,
+      "text": "will go out and it will grab the B-roll"
+    },
+    {
+      "start": 32.32,
+      "duration": 3.92,
+      "text": "and it will grab screenshots or even"
+    },
+    {
+      "start": 34.08,
+      "duration": 3.96,
+      "text": "generate images and videos for you if it"
+    },
+    {
+      "start": 36.24,
+      "duration": 3.36,
+      "text": "needs it. It has amazing taste and it"
+    },
+    {
+      "start": 38.04,
+      "duration": 2.6,
+      "text": "does good with verification. So, today"
+    },
+    {
+      "start": 39.6,
+      "duration": 2.48,
+      "text": "I'm just going to talk about how you"
+    },
+    {
+      "start": 40.64,
+      "duration": 3.28,
+      "text": "actually get this set up because all you"
+    },
+    {
+      "start": 42.08,
+      "duration": 3.32,
+      "text": "have to do is use your natural language."
+    },
+    {
+      "start": 43.92,
+      "duration": 3.12,
+      "text": "And yes, of course, that entire intro"
+    },
+    {
+      "start": 45.4,
+      "duration": 3.64,
+      "text": "that you just watched was edited with"
+    },
+    {
+      "start": 47.04,
+      "duration": 3.0,
+      "text": "Opus 5.5. This is the actual video. As"
+    },
+    {
+      "start": 49.04,
+      "duration": 3.12,
+      "text": "you can see, all of these motion"
+    },
+    {
+      "start": 50.04,
+      "duration": 3.92,
+      "text": "graphics that it did were created right"
+    },
+    {
+      "start": 52.16,
+      "duration": 3.24,
+      "text": "inside of here, inside of Claude. And"
+    },
+    {
+      "start": 53.96,
+      "duration": 3.48,
+      "text": "what's cool about this is I specified a"
+    },
+    {
+      "start": 55.4,
+      "duration": 3.16,
+      "text": "lot of things that I wanted, but it got"
+    },
+    {
+      "start": 57.44,
+      "duration": 3.12,
+      "text": "really creative here. And that's one of"
+    },
+    {
+      "start": 58.56,
+      "duration": 4.24,
+      "text": "the things about Opus 5.5 is that it has"
+    },
+    {
+      "start": 60.56,
+      "duration": 4.4,
+      "text": "amazing, amazing taste. So, let me show"
+    },
+    {
+      "start": 62.8,
+      "duration": 3.92,
+      "text": "you what I actually said in this prompt."
+    },
+    {
+      "start": 64.96,
+      "duration": 3.04,
+      "text": "So, I gave it the original video and I"
+    },
+    {
+      "start": 66.72,
+      "duration": 2.48,
+      "text": "said that I need you to edit this to be"
+    },
+    {
+      "start": 68.0,
+      "duration": 3.36,
+      "text": "super engaging and clean with"
+    },
+    {
+      "start": 69.2,
+      "duration": 3.36,
+      "text": "Hyperframes, which is the actual tool"
+    },
+    {
+      "start": 71.36,
+      "duration": 3.32,
+      "text": "that we're using here. It's completely"
+    },
+    {
+      "start": 72.56,
+      "duration": 3.48,
+      "text": "free and we give Claude code this tool"
+    },
+    {
+      "start": 74.68,
+      "duration": 2.56,
+      "text": "and it basically writes HTML and"
+    },
+    {
+      "start": 76.04,
+      "duration": 2.56,
+      "text": "animates it. So, if you need to get set"
+    },
+    {
+      "start": 77.24,
+      "duration": 3.0,
+      "text": "up with Hyperframes, then just go to"
+    },
+    {
+      "start": 78.6,
+      "duration": 3.12,
+      "text": "Google, type Hyperframes, you can go to"
+    },
+    {
+      "start": 80.24,
+      "duration": 2.76,
+      "text": "the website here, but ultimately you're"
+    },
+    {
+      "start": 81.72,
+      "duration": 3.2,
+      "text": "just going to want to go to this GitHub"
+    },
+    {
+      "start": 83.0,
+      "duration": 3.68,
+      "text": "repo for Hyperframes and then you just"
+    },
+    {
+      "start": 84.92,
+      "duration": 3.4,
+      "text": "need to literally copy this link, the"
+    },
+    {
+      "start": 86.68,
+      "duration": 3.12,
+      "text": "URL, give it to Claude code and say,"
+    },
+    {
+      "start": 88.32,
+      "duration": 3.44,
+      "text": "\"Hey, set up Hyperframes so that we can"
+    },
+    {
+      "start": 89.8,
+      "duration": 3.04,
+      "text": "use it to animate videos.\" That's it."
+    },
+    {
+      "start": 91.76,
+      "duration": 2.84,
+      "text": "And then on top of that, I have this"
+    },
+    {
+      "start": 92.84,
+      "duration": 3.04,
+      "text": "free repo called Hyperframes Student"
+    },
+    {
+      "start": 94.6,
+      "duration": 3.08,
+      "text": "Kit. And in here it has all of the"
+    },
+    {
+      "start": 95.88,
+      "duration": 4.32,
+      "text": "skills and examples that I actually have"
+    },
+    {
+      "start": 97.68,
+      "duration": 3.68,
+      "text": "done with my pipeline of editing videos."
+    },
+    {
+      "start": 100.2,
+      "duration": 2.44,
+      "text": "And if you want to get this, you can go"
+    },
+    {
+      "start": 101.36,
+      "duration": 2.76,
+      "text": "to my free school community. The link"
+    },
+    {
+      "start": 102.64,
+      "duration": 2.64,
+      "text": "for that is down in the description. In"
+    },
+    {
+      "start": 104.12,
+      "duration": 2.88,
+      "text": "here you go to classroom and you can"
+    },
+    {
+      "start": 105.28,
+      "duration": 3.56,
+      "text": "click on all YouTube resources or you"
+    },
+    {
+      "start": 107.0,
+      "duration": 4.4,
+      "text": "can go to AI skills and you can access"
+    },
+    {
+      "start": 108.84,
+      "duration": 3.52,
+      "text": "that Hyperframes Student Kit. Anyways, I"
+    },
+    {
+      "start": 111.4,
+      "duration": 2.4,
+      "text": "said the first step is for you to"
+    },
+    {
+      "start": 112.36,
+      "duration": 2.84,
+      "text": "transcribe the video so you can make"
+    },
+    {
+      "start": 113.8,
+      "duration": 3.36,
+      "text": "sure that motion graphics and animations"
+    },
+    {
+      "start": 115.2,
+      "duration": 3.76,
+      "text": "come in at the exact perfect time. So,"
+    },
+    {
+      "start": 117.16,
+      "duration": 3.76,
+      "text": "it has to just the video. You can do"
+    },
+    {
+      "start": 118.96,
+      "duration": 3.52,
+      "text": "that using something like 11 Labs API,"
+    },
+    {
+      "start": 120.92,
+      "duration": 3.04,
+      "text": "or you can do that with something like"
+    },
+    {
+      "start": 122.48,
+      "duration": 2.96,
+      "text": "Whisper, which is more of a local model"
+    },
+    {
+      "start": 123.96,
+      "duration": 3.2,
+      "text": "that can run and transcribe videos, but"
+    },
+    {
+      "start": 125.44,
+      "duration": 4.12,
+      "text": "11 Labs is a little bit quicker. So, 11"
+    },
+    {
+      "start": 127.16,
+      "duration": 3.96,
+      "text": "Labs you pay per usage, and Whisper is"
+    },
+    {
+      "start": 129.56,
+      "duration": 3.32,
+      "text": "going to be free, but it's just a little"
+    },
+    {
+      "start": 131.12,
+      "duration": 2.839,
+      "text": "slower. So, you can use either one, and"
+    },
+    {
+      "start": 132.88,
+      "duration": 2.12,
+      "text": "it's really simple to get that set up."
+    },
+    {
+      "start": 133.959,
+      "duration": 2.361,
+      "text": "You just ask Claude to go to help you"
+    },
+    {
+      "start": 135.0,
+      "duration": 2.56,
+      "text": "set that up. I said, \"Then you will"
+    },
+    {
+      "start": 136.32,
+      "duration": 3.16,
+      "text": "build the animations based on my"
+    },
+    {
+      "start": 137.56,
+      "duration": 4.2,
+      "text": "instructions. When I say powerful models"
+    },
+    {
+      "start": 139.48,
+      "duration": 3.76,
+      "text": "like Fable 5.1 and GBD-6 Astra, I want"
+    },
+    {
+      "start": 141.76,
+      "duration": 2.92,
+      "text": "you to have animations come in where I'm"
+    },
+    {
+      "start": 143.24,
+      "duration": 3.48,
+      "text": "pointing.\" So, that was basically right"
+    },
+    {
+      "start": 144.68,
+      "duration": 4.6,
+      "text": "here where I point, and I have Fable 5.1"
+    },
+    {
+      "start": 146.72,
+      "duration": 5.32,
+      "text": "come in right over here, and then I have"
+    },
+    {
+      "start": 149.28,
+      "duration": 4.12,
+      "text": "GBD-6 Astra come over here. And I told"
+    },
+    {
+      "start": 152.04,
+      "duration": 2.56,
+      "text": "it that I wanted to have a Claude logo,"
+    },
+    {
+      "start": 153.4,
+      "duration": 3.04,
+      "text": "and I wanted to have an opening eye"
+    },
+    {
+      "start": 154.6,
+      "duration": 3.44,
+      "text": "logo. I wanted it to be animated. That's"
+    },
+    {
+      "start": 156.44,
+      "duration": 3.08,
+      "text": "basically all I said, besides also"
+    },
+    {
+      "start": 158.04,
+      "duration": 3.32,
+      "text": "saying, \"Make sure there's some sort of"
+    },
+    {
+      "start": 159.52,
+      "duration": 3.48,
+      "text": "liquid glass card behind the element as"
+    },
+    {
+      "start": 161.36,
+      "duration": 3.64,
+      "text": "it's animated, otherwise it will be hard"
+    },
+    {
+      "start": 163.0,
+      "duration": 3.84,
+      "text": "to see.\" And as you saw right here, we"
+    },
+    {
+      "start": 165.0,
+      "duration": 3.92,
+      "text": "got liquid glass right behind it so that"
+    },
+    {
+      "start": 166.84,
+      "duration": 3.8,
+      "text": "we could actually read the text and see"
+    },
+    {
+      "start": 168.92,
+      "duration": 3.36,
+      "text": "the logo. So, that was me using natural"
+    },
+    {
+      "start": 170.64,
+      "duration": 3.44,
+      "text": "language, as you see. Then I said, \"When"
+    },
+    {
+      "start": 172.28,
+      "duration": 3.44,
+      "text": "I say best outputs ever, I want you to"
+    },
+    {
+      "start": 174.08,
+      "duration": 2.84,
+      "text": "have all three those words at the bottom"
+    },
+    {
+      "start": 175.72,
+      "duration": 3.96,
+      "text": "and highlight them.\" And so, that's what"
+    },
+    {
+      "start": 176.92,
+      "duration": 4.36,
+      "text": "it did right down here, Opus 5.5, best"
+    },
+    {
+      "start": 179.68,
+      "duration": 3.48,
+      "text": "outputs ever. And you'll notice that it"
+    },
+    {
+      "start": 181.28,
+      "duration": 4.08,
+      "text": "also put a little bit of an overlay"
+    },
+    {
+      "start": 183.16,
+      "duration": 2.96,
+      "text": "under this text, because once again it"
+    },
+    {
+      "start": 185.36,
+      "duration": 2.48,
+      "text": "wanted to make sure that we could"
+    },
+    {
+      "start": 186.12,
+      "duration": 3.2,
+      "text": "actually read it. So, very, very well"
+    },
+    {
+      "start": 187.84,
+      "duration": 2.64,
+      "text": "done there. Then I said, \"For the rest"
+    },
+    {
+      "start": 189.32,
+      "duration": 2.72,
+      "text": "of the video, when I'm talking about"
+    },
+    {
+      "start": 190.48,
+      "duration": 3.32,
+      "text": "B-roll and screenshots and generating"
+    },
+    {
+      "start": 192.04,
+      "duration": 2.919,
+      "text": "images and videos, I want you to have"
+    },
+    {
+      "start": 193.8,
+      "duration": 2.56,
+      "text": "things come in on the left and right"
+    },
+    {
+      "start": 194.959,
+      "duration": 2.961,
+      "text": "side of the screen. Once again, they"
+    },
+    {
+      "start": 196.36,
+      "duration": 3.0,
+      "text": "should have some sort of overlay, and I"
+    },
+    {
+      "start": 197.92,
+      "duration": 2.599,
+      "text": "want you to actually go off and get a"
+    },
+    {
+      "start": 199.36,
+      "duration": 3.12,
+      "text": "B-roll screen recording, and get a"
+    },
+    {
+      "start": 200.519,
+      "duration": 3.401,
+      "text": "screenshot, and pull in stuff, because I"
+    },
+    {
+      "start": 202.48,
+      "duration": 3.4,
+      "text": "want you to prove to the viewers that"
+    },
+    {
+      "start": 203.92,
+      "duration": 3.2,
+      "text": "you're able to do all of this.\""
+    },
+    {
+      "start": 205.88,
+      "duration": 3.32,
+      "text": "The whole point is that I'm explaining"
+    },
+    {
+      "start": 207.12,
+      "duration": 4.08,
+      "text": "what Opus is capable of when it comes to"
+    },
+    {
+      "start": 209.2,
+      "duration": 3.68,
+      "text": "animating and editing videos, and I want"
+    },
+    {
+      "start": 211.2,
+      "duration": 3.12,
+      "text": "you to prove it in real time. Now, that"
+    },
+    {
+      "start": 212.88,
+      "duration": 2.8,
+      "text": "is basically my entire prompt, and"
+    },
+    {
+      "start": 214.32,
+      "duration": 3.16,
+      "text": "what's so cool about that is that it"
+    },
+    {
+      "start": 215.68,
+      "duration": 3.64,
+      "text": "goes off and it does it, but it also"
+    },
+    {
+      "start": 217.48,
+      "duration": 3.2,
+      "text": "puts its own spin on things. Like,"
+    },
+    {
+      "start": 219.32,
+      "duration": 2.76,
+      "text": "you'll notice at the very beginning,"
+    },
+    {
+      "start": 220.68,
+      "duration": 3.24,
+      "text": "it's doing this very subtle zoom in"
+    },
+    {
+      "start": 222.08,
+      "duration": 4.0,
+      "text": "effect. I didn't ask for that, but it"
+    },
+    {
+      "start": 223.92,
+      "duration": 3.52,
+      "text": "just kind of knew to do that to make it"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.12,
+      "text": "more engaging. I didn't ask for this"
+    },
+    {
+      "start": 227.44,
+      "duration": 3.24,
+      "text": "either. When I said the one prompt thing"
+    },
+    {
+      "start": 229.2,
+      "duration": 2.96,
+      "text": "right there, it just did that by itself"
+    },
+    {
+      "start": 230.68,
+      "duration": 3.32,
+      "text": "with a super cool Claude looking"
+    },
+    {
+      "start": 232.16,
+      "duration": 3.36,
+      "text": "interface. I didn't ask for this either,"
+    },
+    {
+      "start": 234.0,
+      "duration": 2.76,
+      "text": "but I absolutely love it. And then"
+    },
+    {
+      "start": 235.52,
+      "duration": 2.8,
+      "text": "you'll see what it interpreted when I"
+    },
+    {
+      "start": 236.76,
+      "duration": 4.24,
+      "text": "said get the screen recording, get the"
+    },
+    {
+      "start": 238.32,
+      "duration": 4.68,
+      "text": "screenshot, generate an image, generate"
+    },
+    {
+      "start": 241.0,
+      "duration": 4.24,
+      "text": "video. It did all of that on its own."
+    },
+    {
+      "start": 243.0,
+      "duration": 3.28,
+      "text": "Amazing taste. The verification."
+    },
+    {
+      "start": 245.24,
+      "duration": 2.8,
+      "text": "I thought this was a super clean"
+    },
+    {
+      "start": 246.28,
+      "duration": 3.48,
+      "text": "animation right here. The verification"
+    },
+    {
+      "start": 248.04,
+      "duration": 3.56,
+      "text": "with like screenshots and checking. You"
+    },
+    {
+      "start": 249.76,
+      "duration": 3.52,
+      "text": "guys will notice in my prompt, I didn't"
+    },
+    {
+      "start": 251.6,
+      "duration": 2.76,
+      "text": "actually ask for that at all. It just"
+    },
+    {
+      "start": 253.28,
+      "duration": 2.56,
+      "text": "did it because it thought that it would"
+    },
+    {
+      "start": 254.36,
+      "duration": 3.159,
+      "text": "make the intro more engaging and I would"
+    },
+    {
+      "start": 255.84,
+      "duration": 3.04,
+      "text": "argue that it definitely did. And now"
+    },
+    {
+      "start": 257.519,
+      "duration": 3.28,
+      "text": "you can see that's all I said. I didn't"
+    },
+    {
+      "start": 258.88,
+      "duration": 4.2,
+      "text": "ask another prompt. And what we got was"
+    },
+    {
+      "start": 260.799,
+      "duration": 3.761,
+      "text": "that exact video right back here with"
+    },
+    {
+      "start": 263.08,
+      "duration": 2.76,
+      "text": "all of these things that we just saw."
+    },
+    {
+      "start": 264.56,
+      "duration": 3.32,
+      "text": "Now, let's break down that other example"
+    },
+    {
+      "start": 265.84,
+      "duration": 3.84,
+      "text": "that you guys saw inside of the actual"
+    },
+    {
+      "start": 267.88,
+      "duration": 3.36,
+      "text": "intro itself. This little YouTube show"
+    },
+    {
+      "start": 269.68,
+      "duration": 3.88,
+      "text": "reel, which I was super super impressed"
+    },
+    {
+      "start": 271.24,
+      "duration": 4.2,
+      "text": "by. This was also a one-shot prompt,"
+    },
+    {
+      "start": 273.56,
+      "duration": 3.0,
+      "text": "like I said. Really, really impressive."
+    },
+    {
+      "start": 275.44,
+      "duration": 3.0,
+      "text": "There's so many things that wanted to"
+    },
+    {
+      "start": 276.56,
+      "duration": 3.64,
+      "text": "play here. It had to go get screenshots"
+    },
+    {
+      "start": 278.44,
+      "duration": 3.52,
+      "text": "of so many of my thumbnails and then it"
+    },
+    {
+      "start": 280.2,
+      "duration": 3.48,
+      "text": "zoomed in on the thank you one, which I"
+    },
+    {
+      "start": 281.96,
+      "duration": 3.12,
+      "text": "think was amazing reasoning. It"
+    },
+    {
+      "start": 283.68,
+      "duration": 3.16,
+      "text": "literally said, \"Okay, this is Nate"
+    },
+    {
+      "start": 285.08,
+      "duration": 2.96,
+      "text": "holding up the play button saying thank"
+    },
+    {
+      "start": 286.84,
+      "duration": 2.2,
+      "text": "you. This is the one that we're going to"
+    },
+    {
+      "start": 288.04,
+      "duration": 2.12,
+      "text": "put in the center and this is the one"
+    },
+    {
+      "start": 289.04,
+      "duration": 3.0,
+      "text": "that we're going to zoom in on.\" Because"
+    },
+    {
+      "start": 290.16,
+      "duration": 3.8,
+      "text": "I think that highlights the branding and"
+    },
+    {
+      "start": 292.04,
+      "duration": 4.12,
+      "text": "the culture of YouTube, which was just"
+    },
+    {
+      "start": 293.96,
+      "duration": 4.24,
+      "text": "insane. So anyways, it generated all of"
+    },
+    {
+      "start": 296.16,
+      "duration": 3.68,
+      "text": "this stuff and the sound and the music,"
+    },
+    {
+      "start": 298.2,
+      "duration": 3.719,
+      "text": "all of that, right? Now, here's what I"
+    },
+    {
+      "start": 299.84,
+      "duration": 3.56,
+      "text": "did in this example. What's important is"
+    },
+    {
+      "start": 301.919,
+      "duration": 2.881,
+      "text": "that you're clear on what you want. And"
+    },
+    {
+      "start": 303.4,
+      "duration": 4.0,
+      "text": "you'll notice in the previous version, I"
+    },
+    {
+      "start": 304.8,
+      "duration": 3.84,
+      "text": "was like speaking very emotionally. And"
+    },
+    {
+      "start": 307.4,
+      "duration": 2.44,
+      "text": "that's what's cool about it is sometimes"
+    },
+    {
+      "start": 308.64,
+      "duration": 2.6,
+      "text": "you don't always know exactly what you"
+    },
+    {
+      "start": 309.84,
+      "duration": 2.72,
+      "text": "want, but you know the emotions you want"
+    },
+    {
+      "start": 311.24,
+      "duration": 3.08,
+      "text": "the video to"
+    },
+    {
+      "start": 312.56,
+      "duration": 3.359,
+      "text": "create inside of you, right? So, what I"
+    },
+    {
+      "start": 314.32,
+      "duration": 4.64,
+      "text": "did is I downloaded an example that I"
+    },
+    {
+      "start": 315.919,
+      "duration": 4.681,
+      "text": "saw on X. I saw this example from Ken."
+    },
+    {
+      "start": 318.96,
+      "duration": 2.88,
+      "text": "Amazing output here using hyperframes"
+    },
+    {
+      "start": 320.6,
+      "duration": 2.56,
+      "text": "and using Opus. And you'll notice"
+    },
+    {
+      "start": 321.84,
+      "duration": 2.8,
+      "text": "there's a lot of similarities with this"
+    },
+    {
+      "start": 323.16,
+      "duration": 3.04,
+      "text": "reel and the one that we just looked at"
+    },
+    {
+      "start": 324.64,
+      "duration": 3.32,
+      "text": "with YouTube. So, basically what I did"
+    },
+    {
+      "start": 326.2,
+      "duration": 4.12,
+      "text": "is I used this as inspiration. I"
+    },
+    {
+      "start": 327.96,
+      "duration": 4.52,
+      "text": "downloaded this video. I then came into"
+    },
+    {
+      "start": 330.32,
+      "duration": 3.48,
+      "text": "Claude Code and I gave it to Claude Code"
+    },
+    {
+      "start": 332.48,
+      "duration": 3.68,
+      "text": "and I said, \"Analyze this video, which"
+    },
+    {
+      "start": 333.8,
+      "duration": 4.68,
+      "text": "was created by Opus 5.5, and figure out"
+    },
+    {
+      "start": 336.16,
+      "duration": 3.44,
+      "text": "why this is so good.\" So, I liked this"
+    },
+    {
+      "start": 338.48,
+      "duration": 2.88,
+      "text": "video and I wanted to do something"
+    },
+    {
+      "start": 339.6,
+      "duration": 3.64,
+      "text": "similar. And I had Claude Code figure"
+    },
+    {
+      "start": 341.36,
+      "duration": 3.6,
+      "text": "out what that is. I had Opus figure out"
+    },
+    {
+      "start": 343.24,
+      "duration": 3.6,
+      "text": "why it's so good. And then I said, \"Turn"
+    },
+    {
+      "start": 344.96,
+      "duration": 3.64,
+      "text": "that into a skill.\" So, now we have the"
+    },
+    {
+      "start": 346.84,
+      "duration": 2.56,
+      "text": "skill called motion reel or something"
+    },
+    {
+      "start": 348.6,
+      "duration": 2.24,
+      "text": "and I'm I'm going to give that to you"
+    },
+    {
+      "start": 349.4,
+      "duration": 3.32,
+      "text": "guys for free just a sec. And then I"
+    },
+    {
+      "start": 350.84,
+      "duration": 4.0,
+      "text": "said, \"Okay, use that skill, create me"
+    },
+    {
+      "start": 352.72,
+      "duration": 3.8,
+      "text": "my own show reel about YouTube.\" I said,"
+    },
+    {
+      "start": 354.84,
+      "duration": 3.44,
+      "text": "\"Collect b-roll images, any assets you"
+    },
+    {
+      "start": 356.52,
+      "duration": 3.36,
+      "text": "need. Make sure the whole thing feels"
+    },
+    {
+      "start": 358.28,
+      "duration": 3.12,
+      "text": "branded to YouTube, the typography,"
+    },
+    {
+      "start": 359.88,
+      "duration": 2.76,
+      "text": "design, language, colors, branding, all"
+    },
+    {
+      "start": 361.4,
+      "duration": 3.04,
+      "text": "that type of stuff that makes YouTube"
+    },
+    {
+      "start": 362.64,
+      "duration": 4.6,
+      "text": "YouTube should be unmistakable in this"
+    },
+    {
+      "start": 364.44,
+      "duration": 3.88,
+      "text": "show reel.\" And now we have our output."
+    },
+    {
+      "start": 367.24,
+      "duration": 2.56,
+      "text": "You can see here it wrote this skill"
+    },
+    {
+      "start": 368.32,
+      "duration": 3.52,
+      "text": "called motion show reel. So, if I go"
+    },
+    {
+      "start": 369.8,
+      "duration": 3.88,
+      "text": "into my files real quick and I go to the"
+    },
+    {
+      "start": 371.84,
+      "duration": 4.0,
+      "text": "skills and we go all the way down to the"
+    },
+    {
+      "start": 373.68,
+      "duration": 4.239,
+      "text": "M's, we go to the motion show reel. We"
+    },
+    {
+      "start": 375.84,
+      "duration": 4.16,
+      "text": "now have this motion show reel skill"
+    },
+    {
+      "start": 377.919,
+      "duration": 3.721,
+      "text": "with all of this information like about"
+    },
+    {
+      "start": 380.0,
+      "duration": 4.2,
+      "text": "how we actually design reels like this."
+    },
+    {
+      "start": 381.64,
+      "duration": 3.96,
+      "text": "So, I'm going to put this inside of my"
+    },
+    {
+      "start": 384.2,
+      "duration": 3.0,
+      "text": "um Free School community once again. So,"
+    },
+    {
+      "start": 385.6,
+      "duration": 3.04,
+      "text": "if you guys want it, hop into my Free"
+    },
+    {
+      "start": 387.2,
+      "duration": 3.08,
+      "text": "School community and you can grab it in"
+    },
+    {
+      "start": 388.64,
+      "duration": 4.08,
+      "text": "the YouTube resources or inside of the"
+    },
+    {
+      "start": 390.28,
+      "duration": 3.92,
+      "text": "AI skills. It'll be in there and now you"
+    },
+    {
+      "start": 392.72,
+      "duration": 2.8,
+      "text": "can do reels just like that. What you'll"
+    },
+    {
+      "start": 394.2,
+      "duration": 3.32,
+      "text": "also notice is that it had to go"
+    },
+    {
+      "start": 395.52,
+      "duration": 3.36,
+      "text": "generate these images. So, you can see"
+    },
+    {
+      "start": 397.52,
+      "duration": 2.92,
+      "text": "it created these images and then it sent"
+    },
+    {
+      "start": 398.88,
+      "duration": 3.08,
+      "text": "them to Cling in order to turn those"
+    },
+    {
+      "start": 400.44,
+      "duration": 4.0,
+      "text": "images into videos and that's how we"
+    },
+    {
+      "start": 401.96,
+      "duration": 4.52,
+      "text": "actually got these animations inside of"
+    },
+    {
+      "start": 404.44,
+      "duration": 3.52,
+      "text": "the video right about here where we see"
+    },
+    {
+      "start": 406.48,
+      "duration": 3.88,
+      "text": "the actual play button sort of being"
+    },
+    {
+      "start": 407.96,
+      "duration": 3.76,
+      "text": "animated. These two scenes were because"
+    },
+    {
+      "start": 410.36,
+      "duration": 2.88,
+      "text": "it created an image and then it created"
+    },
+    {
+      "start": 411.72,
+      "duration": 3.96,
+      "text": "a video and then it sent it back to"
+    },
+    {
+      "start": 413.24,
+      "duration": 5.32,
+      "text": "Claude and then Opus took all that stuff"
+    },
+    {
+      "start": 415.68,
+      "duration": 4.52,
+      "text": "and put it into one consistent video."
+    },
+    {
+      "start": 418.56,
+      "duration": 3.52,
+      "text": "Now, here's another show reel style"
+    },
+    {
+      "start": 420.2,
+      "duration": 3.36,
+      "text": "video, but this one didn't use that"
+    },
+    {
+      "start": 422.08,
+      "duration": 3.92,
+      "text": "skill that we built at all. And just to"
+    },
+    {
+      "start": 423.56,
+      "duration": 3.92,
+      "text": "show you how cool stuff can be made even"
+    },
+    {
+      "start": 426.0,
+      "duration": 3.12,
+      "text": "with a show reel. So, I said, \"Make a"
+    },
+    {
+      "start": 427.48,
+      "duration": 3.04,
+      "text": "dynamic 15-second motion graphics video"
+    },
+    {
+      "start": 429.12,
+      "duration": 3.0,
+      "text": "that shows what an incredible motion"
+    },
+    {
+      "start": 430.52,
+      "duration": 3.8,
+      "text": "designer you are like it's your show"
+    },
+    {
+      "start": 432.12,
+      "duration": 3.76,
+      "text": "reel for a resume. Go all out.\" I"
+    },
+    {
+      "start": 434.32,
+      "duration": 2.8,
+      "text": "actually saw this from someone on X."
+    },
+    {
+      "start": 435.88,
+      "duration": 2.4,
+      "text": "They made a demo and they said this is"
+    },
+    {
+      "start": 437.12,
+      "duration": 2.84,
+      "text": "what they prompted with, so I tried it"
+    },
+    {
+      "start": 438.28,
+      "duration": 3.68,
+      "text": "out. I said, \"Make it about our company"
+    },
+    {
+      "start": 439.96,
+      "duration": 3.28,
+      "text": "AIS. Use real assets and logos from our"
+    },
+    {
+      "start": 441.96,
+      "duration": 3.28,
+      "text": "products when possible. You can also use"
+    },
+    {
+      "start": 443.24,
+      "duration": 3.52,
+      "text": "key.ai to generate any assets you need"
+    },
+    {
+      "start": 445.24,
+      "duration": 2.92,
+      "text": "and use hyperframes or any other tools"
+    },
+    {
+      "start": 446.76,
+      "duration": 3.84,
+      "text": "for motion design and music and sound"
+    },
+    {
+      "start": 448.16,
+      "duration": 4.16,
+      "text": "effects. And with one shot prompt, this"
+    },
+    {
+      "start": 450.6,
+      "duration": 4.4,
+      "text": "is what we got back right here. So,"
+    },
+    {
+      "start": 452.32,
+      "duration": 2.68,
+      "text": "let's take a look."
+    },
+    {
+      "start": 468.52,
+      "duration": 2.88,
+      "text": ">> You can see the similarities at the"
+    },
+    {
+      "start": 469.52,
+      "duration": 3.8,
+      "text": "beginning with the little B that like"
+    },
+    {
+      "start": 471.4,
+      "duration": 3.68,
+      "text": "drops and there's sound effects. But"
+    },
+    {
+      "start": 473.32,
+      "duration": 3.64,
+      "text": "then with the motion graphics, with the"
+    },
+    {
+      "start": 475.08,
+      "duration": 3.64,
+      "text": "color schemes, with the same sort of"
+    },
+    {
+      "start": 476.96,
+      "duration": 3.4,
+      "text": "like spatial awareness of doing things"
+    },
+    {
+      "start": 478.72,
+      "duration": 3.36,
+      "text": "like this, I thought it was so cool. It"
+    },
+    {
+      "start": 480.36,
+      "duration": 3.8,
+      "text": "pulled pictures from our website. It"
+    },
+    {
+      "start": 482.08,
+      "duration": 4.56,
+      "text": "knew how many members we had. It had"
+    },
+    {
+      "start": 484.16,
+      "duration": 3.68,
+      "text": "this 3D sort of image which I think was"
+    },
+    {
+      "start": 486.64,
+      "duration": 3.04,
+      "text": "an image that was generated and then it"
+    },
+    {
+      "start": 487.84,
+      "duration": 3.84,
+      "text": "was turned into a video similar to that"
+    },
+    {
+      "start": 489.68,
+      "duration": 3.56,
+      "text": "YouTube show reel. Anyways, this"
+    },
+    {
+      "start": 491.68,
+      "duration": 4.2,
+      "text": "background image is from our website as"
+    },
+    {
+      "start": 493.24,
+      "duration": 3.52,
+      "text": "well. So, just very, very well done."
+    },
+    {
+      "start": 495.88,
+      "duration": 2.56,
+      "text": "Real quick, guys, I've got this"
+    },
+    {
+      "start": 496.76,
+      "duration": 3.0,
+      "text": "completely free website design skill"
+    },
+    {
+      "start": 498.44,
+      "duration": 2.479,
+      "text": "that I'm giving away. I use this for"
+    },
+    {
+      "start": 499.76,
+      "duration": 2.8,
+      "text": "every single website that I build,"
+    },
+    {
+      "start": 500.919,
+      "duration": 4.241,
+      "text": "including our AI Automation Society"
+    },
+    {
+      "start": 502.56,
+      "duration": 4.48,
+      "text": "site, which I think is pretty slick and"
+    },
+    {
+      "start": 505.16,
+      "duration": 3.52,
+      "text": "I absolutely love this website. It's"
+    },
+    {
+      "start": 507.04,
+      "duration": 3.76,
+      "text": "called ScrollCraft and it understands"
+    },
+    {
+      "start": 508.68,
+      "duration": 3.76,
+      "text": "things like scroll-driven animations and"
+    },
+    {
+      "start": 510.8,
+      "duration": 4.359,
+      "text": "layering. But also it has things in"
+    },
+    {
+      "start": 512.44,
+      "duration": 4.599,
+      "text": "there like taste, typography, spacing,"
+    },
+    {
+      "start": 515.159,
+      "duration": 3.041,
+      "text": "depth. It's just a really good website"
+    },
+    {
+      "start": 517.039,
+      "duration": 2.521,
+      "text": "design skill in general and it's"
+    },
+    {
+      "start": 518.2,
+      "duration": 2.719,
+      "text": "completely free. So, the link for this"
+    },
+    {
+      "start": 519.56,
+      "duration": 2.76,
+      "text": "will be down in the description, but"
+    },
+    {
+      "start": 520.919,
+      "duration": 3.041,
+      "text": "let's get back to the video. Now, let me"
+    },
+    {
+      "start": 522.32,
+      "duration": 3.32,
+      "text": "show you guys, this is one of my like"
+    },
+    {
+      "start": 523.96,
+      "duration": 4.84,
+      "text": "new favorite benchmarks. I basically"
+    },
+    {
+      "start": 525.64,
+      "duration": 6.12,
+      "text": "give ClaudeCode access to a folder which"
+    },
+    {
+      "start": 528.8,
+      "duration": 4.48,
+      "text": "has 105 GB of YouTube videos, or sorry,"
+    },
+    {
+      "start": 531.76,
+      "duration": 3.4,
+      "text": "not YouTube videos, videos and"
+    },
+    {
+      "start": 533.28,
+      "duration": 3.72,
+      "text": "recordings and resources from our event,"
+    },
+    {
+      "start": 535.16,
+      "duration": 3.44,
+      "text": "AIS Live. And then I say, \"Hey, look"
+    },
+    {
+      "start": 537.0,
+      "duration": 3.4,
+      "text": "through all this and create me a sizzle"
+    },
+    {
+      "start": 538.6,
+      "duration": 2.96,
+      "text": "reel. Tell a story out of this.\" And"
+    },
+    {
+      "start": 540.4,
+      "duration": 3.4,
+      "text": "look what I got here. Now, this wasn't a"
+    },
+    {
+      "start": 541.56,
+      "duration": 4.04,
+      "text": "one-shot prompt. This was one prompt and"
+    },
+    {
+      "start": 543.8,
+      "duration": 3.48,
+      "text": "then me giving one round of iteration"
+    },
+    {
+      "start": 545.6,
+      "duration": 3.04,
+      "text": "and then having it fix one thing. So,"
+    },
+    {
+      "start": 547.28,
+      "duration": 3.68,
+      "text": "technically three prompts, that's why it"
+    },
+    {
+      "start": 548.64,
+      "duration": 4.96,
+      "text": "is V2.1. But let's take a look at this"
+    },
+    {
+      "start": 550.96,
+      "duration": 2.64,
+      "text": "output right here."
+    },
+    {
+      "start": 554.48,
+      "duration": 4.32,
+      "text": ">> Hello, hello AIS Live. I'm so, so"
+    },
+    {
+      "start": 556.88,
+      "duration": 2.56,
+      "text": "pumped. It was electric."
+    },
+    {
+      "start": 558.8,
+      "duration": 3.16,
+      "text": ">> That's cool."
+    },
+    {
+      "start": 559.44,
+      "duration": 3.8,
+      "text": ">> Never even opened VS Code. Signed the"
+    },
+    {
+      "start": 561.96,
+      "duration": 3.2,
+      "text": "deal."
+    },
+    {
+      "start": 563.24,
+      "duration": 3.8,
+      "text": ">> The chat's going crazy."
+    },
+    {
+      "start": 565.16,
+      "duration": 3.679,
+      "text": ">> Drippy."
+    },
+    {
+      "start": 567.04,
+      "duration": 3.72,
+      "text": ">> Fantastic event."
+    },
+    {
+      "start": 568.839,
+      "duration": 3.881,
+      "text": ">> This was amazing."
+    },
+    {
+      "start": 570.76,
+      "duration": 3.84,
+      "text": ">> Such a fun two days."
+    },
+    {
+      "start": 572.72,
+      "duration": 5.24,
+      "text": ">> I literally like logged off yesterday"
+    },
+    {
+      "start": 574.6,
+      "duration": 3.36,
+      "text": "just buzzing. I had goosebumps."
+    },
+    {
+      "start": 578.12,
+      "duration": 3.28,
+      "text": ">> Can't wait for the next one."
+    },
+    {
+      "start": 581.76,
+      "duration": 4.56,
+      "text": ">> I mean, do you guys have any idea how"
+    },
+    {
+      "start": 583.68,
+      "duration": 4.4,
+      "text": "complicated that process is? Just to"
+    },
+    {
+      "start": 586.32,
+      "duration": 4.0,
+      "text": "tell a story out of an event when you"
+    },
+    {
+      "start": 588.08,
+      "duration": 3.52,
+      "text": "just are given a folder of resources."
+    },
+    {
+      "start": 590.32,
+      "duration": 2.8,
+      "text": "And of course, it's marketing for our"
+    },
+    {
+      "start": 591.6,
+      "duration": 3.84,
+      "text": "next one, which is actually real coming"
+    },
+    {
+      "start": 593.12,
+      "duration": 3.8,
+      "text": "up October 17th and 18th. So, mark your"
+    },
+    {
+      "start": 595.44,
+      "duration": 3.28,
+      "text": "calendars if you guys want to show up."
+    },
+    {
+      "start": 596.92,
+      "duration": 2.84,
+      "text": "More details will be in the description."
+    },
+    {
+      "start": 598.72,
+      "duration": 2.52,
+      "text": "But, I know there were a few things that"
+    },
+    {
+      "start": 599.76,
+      "duration": 2.76,
+      "text": "weren't great. There were sometimes"
+    },
+    {
+      "start": 601.24,
+      "duration": 3.08,
+      "text": "where there was like an awkward cut of"
+    },
+    {
+      "start": 602.52,
+      "duration": 4.4,
+      "text": "the speech and a few things that we"
+    },
+    {
+      "start": 604.32,
+      "duration": 4.04,
+      "text": "could tweak, right? But, look at this."
+    },
+    {
+      "start": 606.92,
+      "duration": 3.12,
+      "text": "Look how it made like this tunnel of all"
+    },
+    {
+      "start": 608.36,
+      "duration": 3.48,
+      "text": "the screens. Look at the beginning how"
+    },
+    {
+      "start": 610.04,
+      "duration": 3.84,
+      "text": "it was zooming in on different screens."
+    },
+    {
+      "start": 611.84,
+      "duration": 3.8,
+      "text": "Like, it was really aware of the spacing"
+    },
+    {
+      "start": 613.88,
+      "duration": 3.48,
+      "text": "and this is just really, really cool. It"
+    },
+    {
+      "start": 615.64,
+      "duration": 4.08,
+      "text": "was also pulling out specific moments in"
+    },
+    {
+      "start": 617.36,
+      "duration": 4.04,
+      "text": "the transcripts of these calls that were"
+    },
+    {
+      "start": 619.72,
+      "duration": 3.84,
+      "text": "showing kind of like the vibe and the"
+    },
+    {
+      "start": 621.4,
+      "duration": 3.52,
+      "text": "energy within the live event. This is my"
+    },
+    {
+      "start": 623.56,
+      "duration": 3.44,
+      "text": "favorite scene here at the end where it"
+    },
+    {
+      "start": 624.92,
+      "duration": 4.64,
+      "text": "has all of these scenes come together"
+    },
+    {
+      "start": 627.0,
+      "duration": 3.96,
+      "text": "and it forms the actual AI S live logo"
+    },
+    {
+      "start": 629.56,
+      "duration": 3.44,
+      "text": "even with the little red dot and then it"
+    },
+    {
+      "start": 630.96,
+      "duration": 3.8,
+      "text": "zooms in on the red dot and it says your"
+    },
+    {
+      "start": 633.0,
+      "duration": 3.24,
+      "text": "seat is in the middle. I just thought"
+    },
+    {
+      "start": 634.76,
+      "duration": 3.48,
+      "text": "that the way that it was able to"
+    },
+    {
+      "start": 636.24,
+      "duration": 4.0,
+      "text": "actually bring all of this to life is"
+    },
+    {
+      "start": 638.24,
+      "duration": 3.52,
+      "text": "really, really impressive to me. Now, I"
+    },
+    {
+      "start": 640.24,
+      "duration": 3.48,
+      "text": "also wanted to show you guys what else"
+    },
+    {
+      "start": 641.76,
+      "duration": 3.84,
+      "text": "is possible. Like, a lot of times it's"
+    },
+    {
+      "start": 643.72,
+      "duration": 3.4,
+      "text": "about thinking of a use case. So, I"
+    },
+    {
+      "start": 645.6,
+      "duration": 3.84,
+      "text": "recorded this really simple video of me"
+    },
+    {
+      "start": 647.12,
+      "duration": 4.24,
+      "text": "explaining how to make avocado toast."
+    },
+    {
+      "start": 649.44,
+      "duration": 3.72,
+      "text": "And I perfected that, by the way. My"
+    },
+    {
+      "start": 651.36,
+      "duration": 2.88,
+      "text": "avocado toast is so good. But anyways, I"
+    },
+    {
+      "start": 653.16,
+      "duration": 2.92,
+      "text": "just wanted to show you I did three"
+    },
+    {
+      "start": 654.24,
+      "duration": 3.8,
+      "text": "different edits with this avocado toast"
+    },
+    {
+      "start": 656.08,
+      "duration": 3.28,
+      "text": "video. This one I said, \"Hey, I want you"
+    },
+    {
+      "start": 658.04,
+      "duration": 2.799,
+      "text": "to edit this using hyperframes. I'm"
+    },
+    {
+      "start": 659.36,
+      "duration": 3.92,
+      "text": "looking for a simple and clean"
+    },
+    {
+      "start": 660.839,
+      "duration": 3.761,
+      "text": "whiteboard hand-drawn style animation.\""
+    },
+    {
+      "start": 663.28,
+      "duration": 2.44,
+      "text": "And it's really simple as if you're"
+    },
+    {
+      "start": 664.6,
+      "duration": 3.4,
+      "text": "trying to explain to a kid how to make"
+    },
+    {
+      "start": 665.72,
+      "duration": 4.32,
+      "text": "avocado toast. Simple graphics, simple"
+    },
+    {
+      "start": 668.0,
+      "duration": 3.64,
+      "text": "animations, easy to understand. If you"
+    },
+    {
+      "start": 670.04,
+      "duration": 3.24,
+      "text": "need to generate any images like or"
+    },
+    {
+      "start": 671.64,
+      "duration": 3.92,
+      "text": "sorry, assets like images or videos, you"
+    },
+    {
+      "start": 673.28,
+      "duration": 3.76,
+      "text": "can use key.ai. I then said that some"
+    },
+    {
+      "start": 675.56,
+      "duration": 3.4,
+      "text": "scenes should be a full screen"
+    },
+    {
+      "start": 677.04,
+      "duration": 3.16,
+      "text": "whiteboard takeover and some scenes"
+    },
+    {
+      "start": 678.96,
+      "duration": 3.12,
+      "text": "should just be the left half is the"
+    },
+    {
+      "start": 680.2,
+      "duration": 4.44,
+      "text": "whiteboard and the right half is my"
+    },
+    {
+      "start": 682.08,
+      "duration": 4.2,
+      "text": "face. So, it then went ahead and started"
+    },
+    {
+      "start": 684.64,
+      "duration": 3.24,
+      "text": "generating things, it started reasoning,"
+    },
+    {
+      "start": 686.28,
+      "duration": 2.92,
+      "text": "it started testing things out, and now"
+    },
+    {
+      "start": 687.88,
+      "duration": 2.959,
+      "text": "we have this output which I'll go ahead"
+    },
+    {
+      "start": 689.2,
+      "duration": 3.4,
+      "text": "and play right now. All All so here's"
+    },
+    {
+      "start": 690.839,
+      "duration": 3.921,
+      "text": "how I make avocado toast. When you put"
+    },
+    {
+      "start": 692.6,
+      "duration": 4.08,
+      "text": "the toast in the toaster, when you're"
+    },
+    {
+      "start": 694.76,
+      "duration": 3.44,
+      "text": "letting it sit, you don't set it flat on"
+    },
+    {
+      "start": 696.68,
+      "duration": 3.64,
+      "text": "the plate because then that bottom side"
+    },
+    {
+      "start": 698.2,
+      "duration": 3.8,
+      "text": "gets a little soggy. You want that both"
+    },
+    {
+      "start": 700.32,
+      "duration": 3.36,
+      "text": "sides to be crispy. Then you put the"
+    },
+    {
+      "start": 702.0,
+      "duration": 3.28,
+      "text": "eggs on the pan, you mash up the"
+    },
+    {
+      "start": 703.68,
+      "duration": 3.36,
+      "text": "avocado, you spread the avocado on the"
+    },
+    {
+      "start": 705.28,
+      "duration": 4.12,
+      "text": "crispy bread. I put like everything"
+    },
+    {
+      "start": 707.04,
+      "duration": 4.0,
+      "text": "bagel seasoning on the avocado mash, and"
+    },
+    {
+      "start": 709.4,
+      "duration": 3.6,
+      "text": "then I do some balsamic vinegar, and"
+    },
+    {
+      "start": 711.04,
+      "duration": 4.0,
+      "text": "then you put the eggs on top of the"
+    },
+    {
+      "start": 713.0,
+      "duration": 3.44,
+      "text": "toast. And that's how it's done. Now, my"
+    },
+    {
+      "start": 715.04,
+      "duration": 3.36,
+      "text": "main critique here is that the eggs are"
+    },
+    {
+      "start": 716.44,
+      "duration": 3.8,
+      "text": "super tiny and the balsamic glaze is"
+    },
+    {
+      "start": 718.4,
+      "duration": 3.76,
+      "text": "only on one little piece of the toast,"
+    },
+    {
+      "start": 720.24,
+      "duration": 4.72,
+      "text": "so that wouldn't taste as good as if it"
+    },
+    {
+      "start": 722.16,
+      "duration": 4.64,
+      "text": "was everywhere. But anyways, look how"
+    },
+    {
+      "start": 724.96,
+      "duration": 3.44,
+      "text": "good this was able to in one prompt just"
+    },
+    {
+      "start": 726.8,
+      "duration": 4.08,
+      "text": "animate this stuff in a very simple and"
+    },
+    {
+      "start": 728.4,
+      "duration": 3.56,
+      "text": "engaging way. It's hand-drawn. It is,"
+    },
+    {
+      "start": 730.88,
+      "duration": 3.0,
+      "text": "like I said, it's kind of friendly and"
+    },
+    {
+      "start": 731.96,
+      "duration": 3.6,
+      "text": "playful as if you wanted to show a kid."
+    },
+    {
+      "start": 733.88,
+      "duration": 3.52,
+      "text": "But this was literally just one prompt"
+    },
+    {
+      "start": 735.56,
+      "duration": 3.64,
+      "text": "and it took care of everything. Now,"
+    },
+    {
+      "start": 737.4,
+      "duration": 3.36,
+      "text": "when I first really started using AI to"
+    },
+    {
+      "start": 739.2,
+      "duration": 3.24,
+      "text": "edit videos, it was for course style"
+    },
+    {
+      "start": 740.76,
+      "duration": 3.68,
+      "text": "videos. Things that were super easy. We"
+    },
+    {
+      "start": 742.44,
+      "duration": 3.8,
+      "text": "just wanted them animated with like, you"
+    },
+    {
+      "start": 744.44,
+      "duration": 4.32,
+      "text": "know, bullet points and super simple"
+    },
+    {
+      "start": 746.24,
+      "duration": 4.08,
+      "text": "images and graphics. So, here is what I"
+    },
+    {
+      "start": 748.76,
+      "duration": 2.8,
+      "text": "did in this one. I need you to edit a"
+    },
+    {
+      "start": 750.32,
+      "duration": 3.04,
+      "text": "course style video for me using"
+    },
+    {
+      "start": 751.56,
+      "duration": 3.08,
+      "text": "Hyperframes. My camera will start off"
+    },
+    {
+      "start": 753.36,
+      "duration": 2.8,
+      "text": "full screen and then I want it to be a"
+    },
+    {
+      "start": 754.64,
+      "duration": 3.4,
+      "text": "rounded crop. The background's going to"
+    },
+    {
+      "start": 756.16,
+      "duration": 3.36,
+      "text": "be super simple, super minimalistic, and"
+    },
+    {
+      "start": 758.04,
+      "duration": 3.68,
+      "text": "the style I'm looking for is just bullet"
+    },
+    {
+      "start": 759.52,
+      "duration": 4.0,
+      "text": "points with important takeaways, not too"
+    },
+    {
+      "start": 761.72,
+      "duration": 3.44,
+      "text": "wordy, and they should be big. And then"
+    },
+    {
+      "start": 763.52,
+      "duration": 3.44,
+      "text": "visual aids should just be AI-generated"
+    },
+    {
+      "start": 765.16,
+      "duration": 3.679,
+      "text": "images, very simple, very light motion"
+    },
+    {
+      "start": 766.96,
+      "duration": 3.32,
+      "text": "graphics to help illustrate concepts."
+    },
+    {
+      "start": 768.839,
+      "duration": 3.561,
+      "text": "And here is what we got. This was once"
+    },
+    {
+      "start": 770.28,
+      "duration": 3.28,
+      "text": "again a one-shot prompt. Oh wait, that"
+    },
+    {
+      "start": 772.4,
+      "duration": 3.439,
+      "text": "was just an image. It was just doing"
+    },
+    {
+      "start": 773.56,
+      "duration": 3.92,
+      "text": "verification. Here we go. All right, so"
+    },
+    {
+      "start": 775.839,
+      "duration": 3.881,
+      "text": "here's how I make avocado toast. When"
+    },
+    {
+      "start": 777.48,
+      "duration": 4.12,
+      "text": "you put the toast in the toaster, when"
+    },
+    {
+      "start": 779.72,
+      "duration": 3.04,
+      "text": "you're letting it sit, you don't set it"
+    },
+    {
+      "start": 781.6,
+      "duration": 3.12,
+      "text": "flat on the plate because then that"
+    },
+    {
+      "start": 782.76,
+      "duration": 4.079,
+      "text": "bottom side gets a little soggy. You"
+    },
+    {
+      "start": 784.72,
+      "duration": 4.04,
+      "text": "want that both sides to be crispy. Then"
+    },
+    {
+      "start": 786.839,
+      "duration": 3.521,
+      "text": "you put the eggs on the pan, you mash up"
+    },
+    {
+      "start": 788.76,
+      "duration": 3.44,
+      "text": "the avocado, you spread the avocado on"
+    },
+    {
+      "start": 790.36,
+      "duration": 4.2,
+      "text": "the crispy bread. I put like everything"
+    },
+    {
+      "start": 792.2,
+      "duration": 4.0,
+      "text": "bagel seasoning on the avocado mash, and"
+    },
+    {
+      "start": 794.56,
+      "duration": 3.56,
+      "text": "then I do some balsamic vinegar, and"
+    },
+    {
+      "start": 796.2,
+      "duration": 3.8,
+      "text": "then you put the eggs on top of the"
+    },
+    {
+      "start": 798.12,
+      "duration": 4.719,
+      "text": "toast. And that's how it's done. So, all"
+    },
+    {
+      "start": 800.0,
+      "duration": 4.24,
+      "text": "of the images and videos in this video"
+    },
+    {
+      "start": 802.839,
+      "duration": 2.721,
+      "text": "were AI-generated. All of this was"
+    },
+    {
+      "start": 804.24,
+      "duration": 2.76,
+      "text": "AI-generated, and you you see that it's"
+    },
+    {
+      "start": 805.56,
+      "duration": 3.08,
+      "text": "going to save you so much time because"
+    },
+    {
+      "start": 807.0,
+      "duration": 4.64,
+      "text": "it can go get B-roll, it can take"
+    },
+    {
+      "start": 808.64,
+      "duration": 4.32,
+      "text": "screenshots, it can you know generate"
+    },
+    {
+      "start": 811.64,
+      "duration": 2.76,
+      "text": "things if you need it to. It's just"
+    },
+    {
+      "start": 812.96,
+      "duration": 3.24,
+      "text": "really cool because now you can film"
+    },
+    {
+      "start": 814.4,
+      "duration": 3.32,
+      "text": "content and editing doesn't have to be"
+    },
+    {
+      "start": 816.2,
+      "duration": 3.6,
+      "text": "the bottleneck anymore, especially when"
+    },
+    {
+      "start": 817.72,
+      "duration": 4.68,
+      "text": "you start to build skills around stuff"
+    },
+    {
+      "start": 819.8,
+      "duration": 4.12,
+      "text": "like your preferences and motion styles"
+    },
+    {
+      "start": 822.4,
+      "duration": 3.2,
+      "text": "and all that kind of stuff, your brand"
+    },
+    {
+      "start": 823.92,
+      "duration": 3.88,
+      "text": "guidelines. And then the last one I did"
+    },
+    {
+      "start": 825.6,
+      "duration": 3.76,
+      "text": "here was kind of a short-form video and"
+    },
+    {
+      "start": 827.8,
+      "duration": 3.52,
+      "text": "this was using Hyperframe once again and"
+    },
+    {
+      "start": 829.36,
+      "duration": 3.4,
+      "text": "you'll notice that I'm not really having"
+    },
+    {
+      "start": 831.32,
+      "duration": 2.8,
+      "text": "this leverage other skills. So I wanted"
+    },
+    {
+      "start": 832.76,
+      "duration": 3.44,
+      "text": "to show you how easy it is to do a"
+    },
+    {
+      "start": 834.12,
+      "duration": 3.12,
+      "text": "one-shot prompt with Opus 5.5. Pretty"
+    },
+    {
+      "start": 836.2,
+      "duration": 3.04,
+      "text": "much all these examples I've been"
+    },
+    {
+      "start": 837.24,
+      "duration": 3.6,
+      "text": "running on high by the way, high meaning"
+    },
+    {
+      "start": 839.24,
+      "duration": 3.0,
+      "text": "the effort level. And I just said"
+    },
+    {
+      "start": 840.84,
+      "duration": 2.84,
+      "text": "basically this, generate the assets you"
+    },
+    {
+      "start": 842.24,
+      "duration": 3.68,
+      "text": "need, have it be engaging, have it be"
+    },
+    {
+      "start": 843.68,
+      "duration": 5.16,
+      "text": "fast-paced, easy to understand. So let's"
+    },
+    {
+      "start": 845.92,
+      "duration": 4.84,
+      "text": "see what we got down here for this"
+    },
+    {
+      "start": 848.84,
+      "duration": 3.6,
+      "text": "short. Here's how I make avocado toast."
+    },
+    {
+      "start": 850.76,
+      "duration": 3.44,
+      "text": "When you put the toast in the toaster,"
+    },
+    {
+      "start": 852.44,
+      "duration": 3.04,
+      "text": "when you're letting it sit, you don't"
+    },
+    {
+      "start": 854.2,
+      "duration": 3.12,
+      "text": "set it flat on the plate because then"
+    },
+    {
+      "start": 855.48,
+      "duration": 3.68,
+      "text": "that bottom side gets a little soggy."
+    },
+    {
+      "start": 857.32,
+      "duration": 3.16,
+      "text": "You want that both sides to be crispy."
+    },
+    {
+      "start": 859.16,
+      "duration": 2.8,
+      "text": "Then you put the eggs on the pan, you"
+    },
+    {
+      "start": 860.48,
+      "duration": 3.32,
+      "text": "mash up the avocado, you spread the"
+    },
+    {
+      "start": 861.96,
+      "duration": 3.44,
+      "text": "avocado on the crispy bread. I put like"
+    },
+    {
+      "start": 863.8,
+      "duration": 3.28,
+      "text": "everything bagel seasoning on the"
+    },
+    {
+      "start": 865.4,
+      "duration": 3.72,
+      "text": "avocado mash and then I do some balsamic"
+    },
+    {
+      "start": 867.08,
+      "duration": 5.48,
+      "text": "vinegar and then you put the eggs on top"
+    },
+    {
+      "start": 869.12,
+      "duration": 4.88,
+      "text": "of the toast and that's how it's done."
+    },
+    {
+      "start": 872.56,
+      "duration": 3.96,
+      "text": "I mean it's not perfect, right? But a"
+    },
+    {
+      "start": 874.0,
+      "duration": 3.68,
+      "text": "one-shot prompt and it's just it's"
+    },
+    {
+      "start": 876.52,
+      "duration": 2.56,
+      "text": "really cool that it's able to switch"
+    },
+    {
+      "start": 877.68,
+      "duration": 3.32,
+      "text": "between these different scenes. It"
+    },
+    {
+      "start": 879.08,
+      "duration": 3.32,
+      "text": "definitely keeps my attention because we"
+    },
+    {
+      "start": 881.0,
+      "duration": 3.72,
+      "text": "have all these different sorts of B-roll"
+    },
+    {
+      "start": 882.4,
+      "duration": 3.96,
+      "text": "going on in the background. It is just a"
+    },
+    {
+      "start": 884.72,
+      "duration": 2.84,
+      "text": "really, really decent output when you"
+    },
+    {
+      "start": 886.36,
+      "duration": 2.52,
+      "text": "consider"
+    },
+    {
+      "start": 887.56,
+      "duration": 3.32,
+      "text": "what this would have taken for a human"
+    },
+    {
+      "start": 888.88,
+      "duration": 3.52,
+      "text": "to do it for you. And now, one-shot"
+    },
+    {
+      "start": 890.88,
+      "duration": 3.04,
+      "text": "prompt, you iterate, you iterate, you"
+    },
+    {
+      "start": 892.4,
+      "duration": 3.96,
+      "text": "build skills. And I wanted to show you"
+    },
+    {
+      "start": 893.92,
+      "duration": 3.88,
+      "text": "guys one more example with Lululemon"
+    },
+    {
+      "start": 896.36,
+      "duration": 3.72,
+      "text": "because this is like a physical,"
+    },
+    {
+      "start": 897.8,
+      "duration": 4.44,
+      "text": "tangible product. Look how good it did"
+    },
+    {
+      "start": 900.08,
+      "duration": 4.88,
+      "text": "at making this video feel like"
+    },
+    {
+      "start": 902.24,
+      "duration": 2.72,
+      "text": "Lululemon."
+    },
+    {
+      "start": 930.36,
+      "duration": 2.72,
+      "text": ">> So if you guys think about what it"
+    },
+    {
+      "start": 931.2,
+      "duration": 3.96,
+      "text": "actually had to do there, all of these"
+    },
+    {
+      "start": 933.08,
+      "duration": 3.36,
+      "text": "videos were obviously AI generated, but"
+    },
+    {
+      "start": 935.16,
+      "duration": 3.56,
+      "text": "what I'm pretty sure it did is it went"
+    },
+    {
+      "start": 936.44,
+      "duration": 4.68,
+      "text": "to Lululemon and it found all these"
+    },
+    {
+      "start": 938.72,
+      "duration": 4.16,
+      "text": "actual pieces of clothing. It found"
+    },
+    {
+      "start": 941.12,
+      "duration": 4.12,
+      "text": "them, it took pictures of the actual"
+    },
+    {
+      "start": 942.88,
+      "duration": 4.44,
+      "text": "model here, and then generated videos of"
+    },
+    {
+      "start": 945.24,
+      "duration": 4.6,
+      "text": "them running or jumping or whatever it"
+    },
+    {
+      "start": 947.32,
+      "duration": 4.24,
+      "text": "is in the clothes. And then of course it"
+    },
+    {
+      "start": 949.84,
+      "duration": 3.48,
+      "text": "brings it all together here with actual"
+    },
+    {
+      "start": 951.56,
+      "duration": 3.36,
+      "text": "catalog images. It's just really cool to"
+    },
+    {
+      "start": 953.32,
+      "duration": 3.2,
+      "text": "think about how many little pieces would"
+    },
+    {
+      "start": 954.92,
+      "duration": 2.8,
+      "text": "have had to go into this if you were"
+    },
+    {
+      "start": 956.52,
+      "duration": 3.32,
+      "text": "editing this or creating this as a"
+    },
+    {
+      "start": 957.72,
+      "duration": 5.0,
+      "text": "human, but really as a human all I did"
+    },
+    {
+      "start": 959.84,
+      "duration": 4.44,
+      "text": "was I told it what I wanted and sort of"
+    },
+    {
+      "start": 962.72,
+      "duration": 3.76,
+      "text": "the emotional feeling I wanted it to"
+    },
+    {
+      "start": 964.28,
+      "duration": 5.08,
+      "text": "carry throughout, the vibe. High energy,"
+    },
+    {
+      "start": 966.48,
+      "duration": 4.88,
+      "text": "fast-paced, engaging, sync the music to"
+    },
+    {
+      "start": 969.36,
+      "duration": 3.56,
+      "text": "the beats, sound effects, things like"
+    },
+    {
+      "start": 971.36,
+      "duration": 3.04,
+      "text": "that. So I just wanted to talk about the"
+    },
+    {
+      "start": 972.92,
+      "duration": 2.96,
+      "text": "five things that I'm constantly thinking"
+    },
+    {
+      "start": 974.4,
+      "duration": 2.52,
+      "text": "about when I'm actually editing videos"
+    },
+    {
+      "start": 975.88,
+      "duration": 3.84,
+      "text": "with AI. I'm just going to run through"
+    },
+    {
+      "start": 976.92,
+      "duration": 4.16,
+      "text": "these super simply because you just you"
+    },
+    {
+      "start": 979.72,
+      "duration": 3.04,
+      "text": "could basically give the transcript of"
+    },
+    {
+      "start": 981.08,
+      "duration": 3.32,
+      "text": "this section to your AI agent and it"
+    },
+    {
+      "start": 982.76,
+      "duration": 3.8,
+      "text": "would be fine. So the first piece is to"
+    },
+    {
+      "start": 984.4,
+      "duration": 4.16,
+      "text": "transcribe. If you're starting off with"
+    },
+    {
+      "start": 986.56,
+      "duration": 3.76,
+      "text": "a clip and you need it to be edited"
+    },
+    {
+      "start": 988.56,
+      "duration": 3.48,
+      "text": "like, you know, a video or a course or"
+    },
+    {
+      "start": 990.32,
+      "duration": 3.28,
+      "text": "whatever it is, you obviously want to"
+    },
+    {
+      "start": 992.04,
+      "duration": 3.28,
+      "text": "transcribe first so that the beats can"
+    },
+    {
+      "start": 993.6,
+      "duration": 3.36,
+      "text": "come in at the right time and so that"
+    },
+    {
+      "start": 995.32,
+      "duration": 4.12,
+      "text": "the AI knows how to tell a story out of"
+    },
+    {
+      "start": 996.96,
+      "duration": 4.24,
+      "text": "it. Transcribe is essential. Whether you"
+    },
+    {
+      "start": 999.44,
+      "duration": 3.28,
+      "text": "want to use Whisper or"
+    },
+    {
+      "start": 1001.2,
+      "duration": 3.96,
+      "text": "Eleven Labs or some other tool,"
+    },
+    {
+      "start": 1002.72,
+      "duration": 4.0,
+      "text": "transcribing is essential. From there,"
+    },
+    {
+      "start": 1005.16,
+      "duration": 3.04,
+      "text": "you're going to have it cut things out."
+    },
+    {
+      "start": 1006.72,
+      "duration": 2.88,
+      "text": "So if it's mistakes, cut out the"
+    },
+    {
+      "start": 1008.2,
+      "duration": 2.92,
+      "text": "mistakes. If it notices in the"
+    },
+    {
+      "start": 1009.6,
+      "duration": 3.32,
+      "text": "transcript that there's like 20 seconds"
+    },
+    {
+      "start": 1011.12,
+      "duration": 3.16,
+      "text": "of dead space, cut out the dead space."
+    },
+    {
+      "start": 1012.92,
+      "duration": 3.12,
+      "text": "Things like that. You're cutting things"
+    },
+    {
+      "start": 1014.28,
+      "duration": 3.52,
+      "text": "up. And a lot of times I'll use AI just"
+    },
+    {
+      "start": 1016.04,
+      "duration": 2.88,
+      "text": "to literally cut out mistakes and then"
+    },
+    {
+      "start": 1017.8,
+      "duration": 2.64,
+      "text": "I'll take the clip and do whatever I"
+    },
+    {
+      "start": 1018.92,
+      "duration": 3.68,
+      "text": "want with it, but it's able to just"
+    },
+    {
+      "start": 1020.44,
+      "duration": 3.44,
+      "text": "clean out your content so much quicker"
+    },
+    {
+      "start": 1022.6,
+      "duration": 3.0,
+      "text": "than you could because you'd be in the"
+    },
+    {
+      "start": 1023.88,
+      "duration": 3.04,
+      "text": "the editor looking for the dead space"
+    },
+    {
+      "start": 1025.6,
+      "duration": 2.52,
+      "text": "and then, you know,"
+    },
+    {
+      "start": 1026.92,
+      "duration": 3.12,
+      "text": "snipping everything out. And then number"
+    },
+    {
+      "start": 1028.12,
+      "duration": 3.12,
+      "text": "three is to plan the beats. A lot of"
+    },
+    {
+      "start": 1030.04,
+      "duration": 3.08,
+      "text": "times from there what I like to do is I"
+    },
+    {
+      "start": 1031.24,
+      "duration": 3.4,
+      "text": "like to be very specific about what it"
+    },
+    {
+      "start": 1033.12,
+      "duration": 3.44,
+      "text": "is that I want. As you guys saw in this"
+    },
+    {
+      "start": 1034.64,
+      "duration": 3.4,
+      "text": "intro version, the intro for this video,"
+    },
+    {
+      "start": 1036.56,
+      "duration": 3.12,
+      "text": "I was basically just planning out what I"
+    },
+    {
+      "start": 1038.04,
+      "duration": 3.399,
+      "text": "wanted. Now, obviously it went off the"
+    },
+    {
+      "start": 1039.68,
+      "duration": 2.92,
+      "text": "cuff a little bit and it was creative,"
+    },
+    {
+      "start": 1041.439,
+      "duration": 2.52,
+      "text": "but if I would have said like these are"
+    },
+    {
+      "start": 1042.6,
+      "duration": 2.719,
+      "text": "the only beats I want you to actually"
+    },
+    {
+      "start": 1043.959,
+      "duration": 3.801,
+      "text": "create, nothing else, it would have done"
+    },
+    {
+      "start": 1045.319,
+      "duration": 3.761,
+      "text": "that. But, I let it be creative here."
+    },
+    {
+      "start": 1047.76,
+      "duration": 3.4,
+      "text": "But, I basically said, \"Hey, at this"
+    },
+    {
+      "start": 1049.08,
+      "duration": 3.64,
+      "text": "point, I want this to come in. I want"
+    },
+    {
+      "start": 1051.16,
+      "duration": 2.64,
+      "text": "this to come in. I want this to come"
+    },
+    {
+      "start": 1052.72,
+      "duration": 2.52,
+      "text": "in.\" And the better you can set"
+    },
+    {
+      "start": 1053.8,
+      "duration": 2.72,
+      "text": "expectations of what you're looking for"
+    },
+    {
+      "start": 1055.24,
+      "duration": 2.88,
+      "text": "and what you would consider good,"
+    },
+    {
+      "start": 1056.52,
+      "duration": 2.96,
+      "text": "obviously the better or not better, but"
+    },
+    {
+      "start": 1058.12,
+      "duration": 3.6,
+      "text": "the more aligned your output is going to"
+    },
+    {
+      "start": 1059.48,
+      "duration": 3.64,
+      "text": "be. Number four is to use skills. So,"
+    },
+    {
+      "start": 1061.72,
+      "duration": 3.44,
+      "text": "build skills around things. If you build"
+    },
+    {
+      "start": 1063.12,
+      "duration": 3.76,
+      "text": "a lot of reels, then build skills around"
+    },
+    {
+      "start": 1065.16,
+      "duration": 2.96,
+      "text": "reels. Use my HyperFrame student kit."
+    },
+    {
+      "start": 1066.88,
+      "duration": 3.4,
+      "text": "Use"
+    },
+    {
+      "start": 1068.12,
+      "duration": 3.52,
+      "text": "resources and use inspiration. Like you"
+    },
+    {
+      "start": 1070.28,
+      "duration": 2.52,
+      "text": "guys saw me do, I took a video that I"
+    },
+    {
+      "start": 1071.64,
+      "duration": 3.36,
+      "text": "really liked and I told it to build a"
+    },
+    {
+      "start": 1072.8,
+      "duration": 4.28,
+      "text": "skill. Now, guess what? Every time I run"
+    },
+    {
+      "start": 1075.0,
+      "duration": 3.88,
+      "text": "that skill, I will look at the output"
+    },
+    {
+      "start": 1077.08,
+      "duration": 3.4,
+      "text": "and say, \"Hey, in this version, I really"
+    },
+    {
+      "start": 1078.88,
+      "duration": 3.08,
+      "text": "liked this and I really didn't like"
+    },
+    {
+      "start": 1080.48,
+      "duration": 3.16,
+      "text": "this. Update the skill with that"
+    },
+    {
+      "start": 1081.96,
+      "duration": 3.16,
+      "text": "information, run it again, and then I'll"
+    },
+    {
+      "start": 1083.64,
+      "duration": 2.8,
+      "text": "give you more feedback.\" And that way"
+    },
+    {
+      "start": 1085.12,
+      "duration": 2.84,
+      "text": "you're actually building a reusable"
+    },
+    {
+      "start": 1086.44,
+      "duration": 3.6,
+      "text": "component where every single time you"
+    },
+    {
+      "start": 1087.96,
+      "duration": 3.28,
+      "text": "run the skill, it's getting better and"
+    },
+    {
+      "start": 1090.04,
+      "duration": 2.68,
+      "text": "you're able to just move faster and"
+    },
+    {
+      "start": 1091.24,
+      "duration": 3.08,
+      "text": "faster. You don't want to have to repeat"
+    },
+    {
+      "start": 1092.72,
+      "duration": 3.28,
+      "text": "yourself every time. If you ever find"
+    },
+    {
+      "start": 1094.32,
+      "duration": 3.08,
+      "text": "yourself repeating something, just throw"
+    },
+    {
+      "start": 1096.0,
+      "duration": 3.04,
+      "text": "it in the skill. And then the fifth one,"
+    },
+    {
+      "start": 1097.4,
+      "duration": 3.76,
+      "text": "probably the most important one, is the"
+    },
+    {
+      "start": 1099.04,
+      "duration": 3.36,
+      "text": "verification loop. You'll notice how as"
+    },
+    {
+      "start": 1101.16,
+      "duration": 2.72,
+      "text": "it's going through a lot of my videos,"
+    },
+    {
+      "start": 1102.4,
+      "duration": 3.24,
+      "text": "it's taking screenshots and looking at"
+    },
+    {
+      "start": 1103.88,
+      "duration": 2.84,
+      "text": "them and then making iterations. And"
+    },
+    {
+      "start": 1105.64,
+      "duration": 2.92,
+      "text": "that's how you get in that loop where"
+    },
+    {
+      "start": 1106.72,
+      "duration": 4.04,
+      "text": "you're not just basically saying, \"Okay,"
+    },
+    {
+      "start": 1108.56,
+      "duration": 5.0,
+      "text": "here is my output number one.\" You're"
+    },
+    {
+      "start": 1110.76,
+      "duration": 4.36,
+      "text": "getting output number like five or six"
+    },
+    {
+      "start": 1113.56,
+      "duration": 4.28,
+      "text": "because the agent basically did this. It"
+    },
+    {
+      "start": 1115.12,
+      "duration": 4.52,
+      "text": "delivered output one and then it watched"
+    },
+    {
+      "start": 1117.84,
+      "duration": 3.0,
+      "text": "it. It realized there was some mistakes"
+    },
+    {
+      "start": 1119.64,
+      "duration": 2.8,
+      "text": "and then it came back and it delivered"
+    },
+    {
+      "start": 1120.84,
+      "duration": 3.56,
+      "text": "output two. And then it watched output"
+    },
+    {
+      "start": 1122.44,
+      "duration": 3.76,
+      "text": "two and then it kept iterating on its"
+    },
+    {
+      "start": 1124.4,
+      "duration": 3.48,
+      "text": "outputs until it realized, \"Okay, this"
+    },
+    {
+      "start": 1126.2,
+      "duration": 3.12,
+      "text": "one is finally good enough where I'm"
+    },
+    {
+      "start": 1127.88,
+      "duration": 3.68,
+      "text": "going to give it to Nate and here you"
+    },
+    {
+      "start": 1129.32,
+      "duration": 3.28,
+      "text": "go, Nate. This is the finished video.\""
+    },
+    {
+      "start": 1131.56,
+      "duration": 3.08,
+      "text": "So, now you're getting something that"
+    },
+    {
+      "start": 1132.6,
+      "duration": 4.28,
+      "text": "has already been checked by the AI and"
+    },
+    {
+      "start": 1134.64,
+      "duration": 4.08,
+      "text": "iterated on, then, you know, compared to"
+    },
+    {
+      "start": 1136.88,
+      "duration": 2.96,
+      "text": "if it just handed you this first version"
+    },
+    {
+      "start": 1138.72,
+      "duration": 2.68,
+      "text": "and then you're frustrated and you have"
+    },
+    {
+      "start": 1139.84,
+      "duration": 2.92,
+      "text": "to make all these, you know, prompts."
+    },
+    {
+      "start": 1141.4,
+      "duration": 3.16,
+      "text": "But, anyways, guys, there are so many"
+    },
+    {
+      "start": 1142.76,
+      "duration": 3.72,
+      "text": "use cases when it comes to using AI to"
+    },
+    {
+      "start": 1144.56,
+      "duration": 3.28,
+      "text": "help you edit things or add motion"
+    },
+    {
+      "start": 1146.48,
+      "duration": 2.76,
+      "text": "design because it's not really something"
+    },
+    {
+      "start": 1147.84,
+      "duration": 2.96,
+      "text": "that you had to have previous video"
+    },
+    {
+      "start": 1149.24,
+      "duration": 3.28,
+      "text": "editing experience in order to take"
+    },
+    {
+      "start": 1150.8,
+      "duration": 3.24,
+      "text": "advantage of now. So, don't let editing"
+    },
+    {
+      "start": 1152.52,
+      "duration": 2.84,
+      "text": "be your bottleneck, but that's going to"
+    },
+    {
+      "start": 1154.04,
+      "duration": 2.32,
+      "text": "do it for today. If you enjoyed and"
+    },
+    {
+      "start": 1155.36,
+      "duration": 2.24,
+      "text": "learned something new, please give it a"
+    },
+    {
+      "start": 1156.36,
+      "duration": 2.32,
+      "text": "like. It helps me out a ton. And as"
+    },
+    {
+      "start": 1157.6,
+      "duration": 2.4,
+      "text": "always, I appreciate you guys making it"
+    },
+    {
+      "start": 1158.68,
+      "duration": 2.64,
+      "text": "to the end of the video. I'll see you"
+    },
+    {
+      "start": 1160.0,
+      "duration": 3.88,
+      "text": "all in the next one."
+    },
+    {
+      "start": 1161.32,
+      "duration": 2.56,
+      "text": "Thanks, everyone."
+    }
+  ],
+  "full_text": "So, I've been experimenting with AI models editing videos for me for a long time. Super powerful models like Fable 5.1 and GBD6 Astra. But, Opus 5.5 is giving me some of the best outputs ever. Take a look at this example, which was just one prompt. Not only does this thing do the motion design and the sound design, but it also will go out and it will grab the B-roll and it will grab screenshots or even generate images and videos for you if it needs it. It has amazing taste and it does good with verification. So, today I'm just going to talk about how you actually get this set up because all you have to do is use your natural language. And yes, of course, that entire intro that you just watched was edited with Opus 5.5. This is the actual video. As you can see, all of these motion graphics that it did were created right inside of here, inside of Claude. And what's cool about this is I specified a lot of things that I wanted, but it got really creative here. And that's one of the things about Opus 5.5 is that it has amazing, amazing taste. So, let me show you what I actually said in this prompt. So, I gave it the original video and I said that I need you to edit this to be super engaging and clean with Hyperframes, which is the actual tool that we're using here. It's completely free and we give Claude code this tool and it basically writes HTML and animates it. So, if you need to get set up with Hyperframes, then just go to Google, type Hyperframes, you can go to the website here, but ultimately you're just going to want to go to this GitHub repo for Hyperframes and then you just need to literally copy this link, the URL, give it to Claude code and say, \"Hey, set up Hyperframes so that we can use it to animate videos.\" That's it. And then on top of that, I have this free repo called Hyperframes Student Kit. And in here it has all of the skills and examples that I actually have done with my pipeline of editing videos. And if you want to get this, you can go to my free school community. The link for that is down in the description. In here you go to classroom and you can click on all YouTube resources or you can go to AI skills and you can access that Hyperframes Student Kit. Anyways, I said the first step is for you to transcribe the video so you can make sure that motion graphics and animations come in at the exact perfect time. So, it has to just the video. You can do that using something like 11 Labs API, or you can do that with something like Whisper, which is more of a local model that can run and transcribe videos, but 11 Labs is a little bit quicker. So, 11 Labs you pay per usage, and Whisper is going to be free, but it's just a little slower. So, you can use either one, and it's really simple to get that set up. You just ask Claude to go to help you set that up. I said, \"Then you will build the animations based on my instructions. When I say powerful models like Fable 5.1 and GBD-6 Astra, I want you to have animations come in where I'm pointing.\" So, that was basically right here where I point, and I have Fable 5.1 come in right over here, and then I have GBD-6 Astra come over here. And I told it that I wanted to have a Claude logo, and I wanted to have an opening eye logo. I wanted it to be animated. That's basically all I said, besides also saying, \"Make sure there's some sort of liquid glass card behind the element as it's animated, otherwise it will be hard to see.\" And as you saw right here, we got liquid glass right behind it so that we could actually read the text and see the logo. So, that was me using natural language, as you see. Then I said, \"When I say best outputs ever, I want you to have all three those words at the bottom and highlight them.\" And so, that's what it did right down here, Opus 5.5, best outputs ever. And you'll notice that it also put a little bit of an overlay under this text, because once again it wanted to make sure that we could actually read it. So, very, very well done there. Then I said, \"For the rest of the video, when I'm talking about B-roll and screenshots and generating images and videos, I want you to have things come in on the left and right side of the screen. Once again, they should have some sort of overlay, and I want you to actually go off and get a B-roll screen recording, and get a screenshot, and pull in stuff, because I want you to prove to the viewers that you're able to do all of this.\" The whole point is that I'm explaining what Opus is capable of when it comes to animating and editing videos, and I want you to prove it in real time. Now, that is basically my entire prompt, and what's so cool about that is that it goes off and it does it, but it also puts its own spin on things. Like, you'll notice at the very beginning, it's doing this very subtle zoom in effect. I didn't ask for that, but it just kind of knew to do that to make it more engaging. I didn't ask for this either. When I said the one prompt thing right there, it just did that by itself with a super cool Claude looking interface. I didn't ask for this either, but I absolutely love it. And then you'll see what it interpreted when I said get the screen recording, get the screenshot, generate an image, generate video. It did all of that on its own. Amazing taste. The verification. I thought this was a super clean animation right here. The verification with like screenshots and checking. You guys will notice in my prompt, I didn't actually ask for that at all. It just did it because it thought that it would make the intro more engaging and I would argue that it definitely did. And now you can see that's all I said. I didn't ask another prompt. And what we got was that exact video right back here with all of these things that we just saw. Now, let's break down that other example that you guys saw inside of the actual intro itself. This little YouTube show reel, which I was super super impressed by. This was also a one-shot prompt, like I said. Really, really impressive. There's so many things that wanted to play here. It had to go get screenshots of so many of my thumbnails and then it zoomed in on the thank you one, which I think was amazing reasoning. It literally said, \"Okay, this is Nate holding up the play button saying thank you. This is the one that we're going to put in the center and this is the one that we're going to zoom in on.\" Because I think that highlights the branding and the culture of YouTube, which was just insane. So anyways, it generated all of this stuff and the sound and the music, all of that, right? Now, here's what I did in this example. What's important is that you're clear on what you want. And you'll notice in the previous version, I was like speaking very emotionally. And that's what's cool about it is sometimes you don't always know exactly what you want, but you know the emotions you want the video to create inside of you, right? So, what I did is I downloaded an example that I saw on X. I saw this example from Ken. Amazing output here using hyperframes and using Opus. And you'll notice there's a lot of similarities with this reel and the one that we just looked at with YouTube. So, basically what I did is I used this as inspiration. I downloaded this video. I then came into Claude Code and I gave it to Claude Code and I said, \"Analyze this video, which was created by Opus 5.5, and figure out why this is so good.\" So, I liked this video and I wanted to do something similar. And I had Claude Code figure out what that is. I had Opus figure out why it's so good. And then I said, \"Turn that into a skill.\" So, now we have the skill called motion reel or something and I'm I'm going to give that to you guys for free just a sec. And then I said, \"Okay, use that skill, create me my own show reel about YouTube.\" I said, \"Collect b-roll images, any assets you need. Make sure the whole thing feels branded to YouTube, the typography, design, language, colors, branding, all that type of stuff that makes YouTube YouTube should be unmistakable in this show reel.\" And now we have our output. You can see here it wrote this skill called motion show reel. So, if I go into my files real quick and I go to the skills and we go all the way down to the M's, we go to the motion show reel. We now have this motion show reel skill with all of this information like about how we actually design reels like this. So, I'm going to put this inside of my um Free School community once again. So, if you guys want it, hop into my Free School community and you can grab it in the YouTube resources or inside of the AI skills. It'll be in there and now you can do reels just like that. What you'll also notice is that it had to go generate these images. So, you can see it created these images and then it sent them to Cling in order to turn those images into videos and that's how we actually got these animations inside of the video right about here where we see the actual play button sort of being animated. These two scenes were because it created an image and then it created a video and then it sent it back to Claude and then Opus took all that stuff and put it into one consistent video. Now, here's another show reel style video, but this one didn't use that skill that we built at all. And just to show you how cool stuff can be made even with a show reel. So, I said, \"Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are like it's your show reel for a resume. Go all out.\" I actually saw this from someone on X. They made a demo and they said this is what they prompted with, so I tried it out. I said, \"Make it about our company AIS. Use real assets and logos from our products when possible. You can also use key.ai to generate any assets you need and use hyperframes or any other tools for motion design and music and sound effects. And with one shot prompt, this is what we got back right here. So, let's take a look. >> You can see the similarities at the beginning with the little B that like drops and there's sound effects. But then with the motion graphics, with the color schemes, with the same sort of like spatial awareness of doing things like this, I thought it was so cool. It pulled pictures from our website. It knew how many members we had. It had this 3D sort of image which I think was an image that was generated and then it was turned into a video similar to that YouTube show reel. Anyways, this background image is from our website as well. So, just very, very well done. Real quick, guys, I've got this completely free website design skill that I'm giving away. I use this for every single website that I build, including our AI Automation Society site, which I think is pretty slick and I absolutely love this website. It's called ScrollCraft and it understands things like scroll-driven animations and layering. But also it has things in there like taste, typography, spacing, depth. It's just a really good website design skill in general and it's completely free. So, the link for this will be down in the description, but let's get back to the video. Now, let me show you guys, this is one of my like new favorite benchmarks. I basically give ClaudeCode access to a folder which has 105 GB of YouTube videos, or sorry, not YouTube videos, videos and recordings and resources from our event, AIS Live. And then I say, \"Hey, look through all this and create me a sizzle reel. Tell a story out of this.\" And look what I got here. Now, this wasn't a one-shot prompt. This was one prompt and then me giving one round of iteration and then having it fix one thing. So, technically three prompts, that's why it is V2.1. But let's take a look at this output right here. >> Hello, hello AIS Live. I'm so, so pumped. It was electric. >> That's cool. >> Never even opened VS Code. Signed the deal. >> The chat's going crazy. >> Drippy. >> Fantastic event. >> This was amazing. >> Such a fun two days. >> I literally like logged off yesterday just buzzing. I had goosebumps. >> Can't wait for the next one. >> I mean, do you guys have any idea how complicated that process is? Just to tell a story out of an event when you just are given a folder of resources. And of course, it's marketing for our next one, which is actually real coming up October 17th and 18th. So, mark your calendars if you guys want to show up. More details will be in the description. But, I know there were a few things that weren't great. There were sometimes where there was like an awkward cut of the speech and a few things that we could tweak, right? But, look at this. Look how it made like this tunnel of all the screens. Look at the beginning how it was zooming in on different screens. Like, it was really aware of the spacing and this is just really, really cool. It was also pulling out specific moments in the transcripts of these calls that were showing kind of like the vibe and the energy within the live event. This is my favorite scene here at the end where it has all of these scenes come together and it forms the actual AI S live logo even with the little red dot and then it zooms in on the red dot and it says your seat is in the middle. I just thought that the way that it was able to actually bring all of this to life is really, really impressive to me. Now, I also wanted to show you guys what else is possible. Like, a lot of times it's about thinking of a use case. So, I recorded this really simple video of me explaining how to make avocado toast. And I perfected that, by the way. My avocado toast is so good. But anyways, I just wanted to show you I did three different edits with this avocado toast video. This one I said, \"Hey, I want you to edit this using hyperframes. I'm looking for a simple and clean whiteboard hand-drawn style animation.\" And it's really simple as if you're trying to explain to a kid how to make avocado toast. Simple graphics, simple animations, easy to understand. If you need to generate any images like or sorry, assets like images or videos, you can use key.ai. I then said that some scenes should be a full screen whiteboard takeover and some scenes should just be the left half is the whiteboard and the right half is my face. So, it then went ahead and started generating things, it started reasoning, it started testing things out, and now we have this output which I'll go ahead and play right now. All All so here's how I make avocado toast. When you put the toast in the toaster, when you're letting it sit, you don't set it flat on the plate because then that bottom side gets a little soggy. You want that both sides to be crispy. Then you put the eggs on the pan, you mash up the avocado, you spread the avocado on the crispy bread. I put like everything bagel seasoning on the avocado mash, and then I do some balsamic vinegar, and then you put the eggs on top of the toast. And that's how it's done. Now, my main critique here is that the eggs are super tiny and the balsamic glaze is only on one little piece of the toast, so that wouldn't taste as good as if it was everywhere. But anyways, look how good this was able to in one prompt just animate this stuff in a very simple and engaging way. It's hand-drawn. It is, like I said, it's kind of friendly and playful as if you wanted to show a kid. But this was literally just one prompt and it took care of everything. Now, when I first really started using AI to edit videos, it was for course style videos. Things that were super easy. We just wanted them animated with like, you know, bullet points and super simple images and graphics. So, here is what I did in this one. I need you to edit a course style video for me using Hyperframes. My camera will start off full screen and then I want it to be a rounded crop. The background's going to be super simple, super minimalistic, and the style I'm looking for is just bullet points with important takeaways, not too wordy, and they should be big. And then visual aids should just be AI-generated images, very simple, very light motion graphics to help illustrate concepts. And here is what we got. This was once again a one-shot prompt. Oh wait, that was just an image. It was just doing verification. Here we go. All right, so here's how I make avocado toast. When you put the toast in the toaster, when you're letting it sit, you don't set it flat on the plate because then that bottom side gets a little soggy. You want that both sides to be crispy. Then you put the eggs on the pan, you mash up the avocado, you spread the avocado on the crispy bread. I put like everything bagel seasoning on the avocado mash, and then I do some balsamic vinegar, and then you put the eggs on top of the toast. And that's how it's done. So, all of the images and videos in this video were AI-generated. All of this was AI-generated, and you you see that it's going to save you so much time because it can go get B-roll, it can take screenshots, it can you know generate things if you need it to. It's just really cool because now you can film content and editing doesn't have to be the bottleneck anymore, especially when you start to build skills around stuff like your preferences and motion styles and all that kind of stuff, your brand guidelines. And then the last one I did here was kind of a short-form video and this was using Hyperframe once again and you'll notice that I'm not really having this leverage other skills. So I wanted to show you how easy it is to do a one-shot prompt with Opus 5.5. Pretty much all these examples I've been running on high by the way, high meaning the effort level. And I just said basically this, generate the assets you need, have it be engaging, have it be fast-paced, easy to understand. So let's see what we got down here for this short. Here's how I make avocado toast. When you put the toast in the toaster, when you're letting it sit, you don't set it flat on the plate because then that bottom side gets a little soggy. You want that both sides to be crispy. Then you put the eggs on the pan, you mash up the avocado, you spread the avocado on the crispy bread. I put like everything bagel seasoning on the avocado mash and then I do some balsamic vinegar and then you put the eggs on top of the toast and that's how it's done. I mean it's not perfect, right? But a one-shot prompt and it's just it's really cool that it's able to switch between these different scenes. It definitely keeps my attention because we have all these different sorts of B-roll going on in the background. It is just a really, really decent output when you consider what this would have taken for a human to do it for you. And now, one-shot prompt, you iterate, you iterate, you build skills. And I wanted to show you guys one more example with Lululemon because this is like a physical, tangible product. Look how good it did at making this video feel like Lululemon. >> So if you guys think about what it actually had to do there, all of these videos were obviously AI generated, but what I'm pretty sure it did is it went to Lululemon and it found all these actual pieces of clothing. It found them, it took pictures of the actual model here, and then generated videos of them running or jumping or whatever it is in the clothes. And then of course it brings it all together here with actual catalog images. It's just really cool to think about how many little pieces would have had to go into this if you were editing this or creating this as a human, but really as a human all I did was I told it what I wanted and sort of the emotional feeling I wanted it to carry throughout, the vibe. High energy, fast-paced, engaging, sync the music to the beats, sound effects, things like that. So I just wanted to talk about the five things that I'm constantly thinking about when I'm actually editing videos with AI. I'm just going to run through these super simply because you just you could basically give the transcript of this section to your AI agent and it would be fine. So the first piece is to transcribe. If you're starting off with a clip and you need it to be edited like, you know, a video or a course or whatever it is, you obviously want to transcribe first so that the beats can come in at the right time and so that the AI knows how to tell a story out of it. Transcribe is essential. Whether you want to use Whisper or Eleven Labs or some other tool, transcribing is essential. From there, you're going to have it cut things out. So if it's mistakes, cut out the mistakes. If it notices in the transcript that there's like 20 seconds of dead space, cut out the dead space. Things like that. You're cutting things up. And a lot of times I'll use AI just to literally cut out mistakes and then I'll take the clip and do whatever I want with it, but it's able to just clean out your content so much quicker than you could because you'd be in the the editor looking for the dead space and then, you know, snipping everything out. And then number three is to plan the beats. A lot of times from there what I like to do is I like to be very specific about what it is that I want. As you guys saw in this intro version, the intro for this video, I was basically just planning out what I wanted. Now, obviously it went off the cuff a little bit and it was creative, but if I would have said like these are the only beats I want you to actually create, nothing else, it would have done that. But, I let it be creative here. But, I basically said, \"Hey, at this point, I want this to come in. I want this to come in. I want this to come in.\" And the better you can set expectations of what you're looking for and what you would consider good, obviously the better or not better, but the more aligned your output is going to be. Number four is to use skills. So, build skills around things. If you build a lot of reels, then build skills around reels. Use my HyperFrame student kit. Use resources and use inspiration. Like you guys saw me do, I took a video that I really liked and I told it to build a skill. Now, guess what? Every time I run that skill, I will look at the output and say, \"Hey, in this version, I really liked this and I really didn't like this. Update the skill with that information, run it again, and then I'll give you more feedback.\" And that way you're actually building a reusable component where every single time you run the skill, it's getting better and you're able to just move faster and faster. You don't want to have to repeat yourself every time. If you ever find yourself repeating something, just throw it in the skill. And then the fifth one, probably the most important one, is the verification loop. You'll notice how as it's going through a lot of my videos, it's taking screenshots and looking at them and then making iterations. And that's how you get in that loop where you're not just basically saying, \"Okay, here is my output number one.\" You're getting output number like five or six because the agent basically did this. It delivered output one and then it watched it. It realized there was some mistakes and then it came back and it delivered output two. And then it watched output two and then it kept iterating on its outputs until it realized, \"Okay, this one is finally good enough where I'm going to give it to Nate and here you go, Nate. This is the finished video.\" So, now you're getting something that has already been checked by the AI and iterated on, then, you know, compared to if it just handed you this first version and then you're frustrated and you have to make all these, you know, prompts. But, anyways, guys, there are so many use cases when it comes to using AI to help you edit things or add motion design because it's not really something that you had to have previous video editing experience in order to take advantage of now. So, don't let editing be your bottleneck, but that's going to do it for today. If you enjoyed and learned something new, please give it a like. It helps me out a ton. And as always, I appreciate you guys making it to the end of the video. I'll see you all in the next one. Thanks, everyone."
+}

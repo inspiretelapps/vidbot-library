@@ -1,0 +1,636 @@
+00:00 So, I've been experimenting with AI
+00:01 models editing videos for me for a long
+00:03 time. Super powerful models like Fable
+00:05 5.1 and GBD6 Astra. But, Opus 5.5 is
+00:08 giving me some of the best outputs ever.
+00:10 Take a look at this example, which was
+00:11 just one prompt.
+00:27 Not only does this thing do the motion
+00:28 design and the sound design, but it also
+00:30 will go out and it will grab the B-roll
+00:32 and it will grab screenshots or even
+00:34 generate images and videos for you if it
+00:36 needs it. It has amazing taste and it
+00:38 does good with verification. So, today
+00:39 I'm just going to talk about how you
+00:40 actually get this set up because all you
+00:42 have to do is use your natural language.
+00:43 And yes, of course, that entire intro
+00:45 that you just watched was edited with
+00:47 Opus 5.5. This is the actual video. As
+00:49 you can see, all of these motion
+00:50 graphics that it did were created right
+00:52 inside of here, inside of Claude. And
+00:53 what's cool about this is I specified a
+00:55 lot of things that I wanted, but it got
+00:57 really creative here. And that's one of
+00:58 the things about Opus 5.5 is that it has
+01:00 amazing, amazing taste. So, let me show
+01:02 you what I actually said in this prompt.
+01:04 So, I gave it the original video and I
+01:06 said that I need you to edit this to be
+01:08 super engaging and clean with
+01:09 Hyperframes, which is the actual tool
+01:11 that we're using here. It's completely
+01:12 free and we give Claude code this tool
+01:14 and it basically writes HTML and
+01:16 animates it. So, if you need to get set
+01:17 up with Hyperframes, then just go to
+01:18 Google, type Hyperframes, you can go to
+01:20 the website here, but ultimately you're
+01:21 just going to want to go to this GitHub
+01:23 repo for Hyperframes and then you just
+01:24 need to literally copy this link, the
+01:26 URL, give it to Claude code and say,
+01:28 "Hey, set up Hyperframes so that we can
+01:29 use it to animate videos." That's it.
+01:31 And then on top of that, I have this
+01:32 free repo called Hyperframes Student
+01:34 Kit. And in here it has all of the
+01:35 skills and examples that I actually have
+01:37 done with my pipeline of editing videos.
+01:40 And if you want to get this, you can go
+01:41 to my free school community. The link
+01:42 for that is down in the description. In
+01:44 here you go to classroom and you can
+01:45 click on all YouTube resources or you
+01:47 can go to AI skills and you can access
+01:48 that Hyperframes Student Kit. Anyways, I
+01:51 said the first step is for you to
+01:52 transcribe the video so you can make
+01:53 sure that motion graphics and animations
+01:55 come in at the exact perfect time. So,
+01:57 it has to just the video. You can do
+01:58 that using something like 11 Labs API,
+02:00 or you can do that with something like
+02:02 Whisper, which is more of a local model
+02:03 that can run and transcribe videos, but
+02:05 11 Labs is a little bit quicker. So, 11
+02:07 Labs you pay per usage, and Whisper is
+02:09 going to be free, but it's just a little
+02:11 slower. So, you can use either one, and
+02:12 it's really simple to get that set up.
+02:13 You just ask Claude to go to help you
+02:15 set that up. I said, "Then you will
+02:16 build the animations based on my
+02:17 instructions. When I say powerful models
+02:19 like Fable 5.1 and GBD-6 Astra, I want
+02:21 you to have animations come in where I'm
+02:23 pointing." So, that was basically right
+02:24 here where I point, and I have Fable 5.1
+02:26 come in right over here, and then I have
+02:29 GBD-6 Astra come over here. And I told
+02:32 it that I wanted to have a Claude logo,
+02:33 and I wanted to have an opening eye
+02:34 logo. I wanted it to be animated. That's
+02:36 basically all I said, besides also
+02:38 saying, "Make sure there's some sort of
+02:39 liquid glass card behind the element as
+02:41 it's animated, otherwise it will be hard
+02:43 to see." And as you saw right here, we
+02:45 got liquid glass right behind it so that
+02:46 we could actually read the text and see
+02:48 the logo. So, that was me using natural
+02:50 language, as you see. Then I said, "When
+02:52 I say best outputs ever, I want you to
+02:54 have all three those words at the bottom
+02:55 and highlight them." And so, that's what
+02:56 it did right down here, Opus 5.5, best
+02:59 outputs ever. And you'll notice that it
+03:01 also put a little bit of an overlay
+03:03 under this text, because once again it
+03:05 wanted to make sure that we could
+03:06 actually read it. So, very, very well
+03:07 done there. Then I said, "For the rest
+03:09 of the video, when I'm talking about
+03:10 B-roll and screenshots and generating
+03:12 images and videos, I want you to have
+03:13 things come in on the left and right
+03:14 side of the screen. Once again, they
+03:16 should have some sort of overlay, and I
+03:17 want you to actually go off and get a
+03:19 B-roll screen recording, and get a
+03:20 screenshot, and pull in stuff, because I
+03:22 want you to prove to the viewers that
+03:23 you're able to do all of this."
+03:25 The whole point is that I'm explaining
+03:27 what Opus is capable of when it comes to
+03:29 animating and editing videos, and I want
+03:31 you to prove it in real time. Now, that
+03:32 is basically my entire prompt, and
+03:34 what's so cool about that is that it
+03:35 goes off and it does it, but it also
+03:37 puts its own spin on things. Like,
+03:39 you'll notice at the very beginning,
+03:40 it's doing this very subtle zoom in
+03:42 effect. I didn't ask for that, but it
+03:43 just kind of knew to do that to make it
+03:46 more engaging. I didn't ask for this
+03:47 either. When I said the one prompt thing
+03:49 right there, it just did that by itself
+03:50 with a super cool Claude looking
+03:52 interface. I didn't ask for this either,
+03:54 but I absolutely love it. And then
+03:55 you'll see what it interpreted when I
+03:56 said get the screen recording, get the
+03:58 screenshot, generate an image, generate
+04:01 video. It did all of that on its own.
+04:03 Amazing taste. The verification.
+04:05 I thought this was a super clean
+04:06 animation right here. The verification
+04:08 with like screenshots and checking. You
+04:09 guys will notice in my prompt, I didn't
+04:11 actually ask for that at all. It just
+04:13 did it because it thought that it would
+04:14 make the intro more engaging and I would
+04:15 argue that it definitely did. And now
+04:17 you can see that's all I said. I didn't
+04:18 ask another prompt. And what we got was
+04:20 that exact video right back here with
+04:23 all of these things that we just saw.
+04:24 Now, let's break down that other example
+04:25 that you guys saw inside of the actual
+04:27 intro itself. This little YouTube show
+04:29 reel, which I was super super impressed
+04:31 by. This was also a one-shot prompt,
+04:33 like I said. Really, really impressive.
+04:35 There's so many things that wanted to
+04:36 play here. It had to go get screenshots
+04:38 of so many of my thumbnails and then it
+04:40 zoomed in on the thank you one, which I
+04:41 think was amazing reasoning. It
+04:43 literally said, "Okay, this is Nate
+04:45 holding up the play button saying thank
+04:46 you. This is the one that we're going to
+04:48 put in the center and this is the one
+04:49 that we're going to zoom in on." Because
+04:50 I think that highlights the branding and
+04:52 the culture of YouTube, which was just
+04:53 insane. So anyways, it generated all of
+04:56 this stuff and the sound and the music,
+04:58 all of that, right? Now, here's what I
+04:59 did in this example. What's important is
+05:01 that you're clear on what you want. And
+05:03 you'll notice in the previous version, I
+05:04 was like speaking very emotionally. And
+05:07 that's what's cool about it is sometimes
+05:08 you don't always know exactly what you
+05:09 want, but you know the emotions you want
+05:11 the video to
+05:12 create inside of you, right? So, what I
+05:14 did is I downloaded an example that I
+05:15 saw on X. I saw this example from Ken.
+05:18 Amazing output here using hyperframes
+05:20 and using Opus. And you'll notice
+05:21 there's a lot of similarities with this
+05:23 reel and the one that we just looked at
+05:24 with YouTube. So, basically what I did
+05:26 is I used this as inspiration. I
+05:27 downloaded this video. I then came into
+05:30 Claude Code and I gave it to Claude Code
+05:32 and I said, "Analyze this video, which
+05:33 was created by Opus 5.5, and figure out
+05:36 why this is so good." So, I liked this
+05:38 video and I wanted to do something
+05:39 similar. And I had Claude Code figure
+05:41 out what that is. I had Opus figure out
+05:43 why it's so good. And then I said, "Turn
+05:44 that into a skill." So, now we have the
+05:46 skill called motion reel or something
+05:48 and I'm I'm going to give that to you
+05:49 guys for free just a sec. And then I
+05:50 said, "Okay, use that skill, create me
+05:52 my own show reel about YouTube." I said,
+05:54 "Collect b-roll images, any assets you
+05:56 need. Make sure the whole thing feels
+05:58 branded to YouTube, the typography,
+05:59 design, language, colors, branding, all
+06:01 that type of stuff that makes YouTube
+06:02 YouTube should be unmistakable in this
+06:04 show reel." And now we have our output.
+06:07 You can see here it wrote this skill
+06:08 called motion show reel. So, if I go
+06:09 into my files real quick and I go to the
+06:11 skills and we go all the way down to the
+06:13 M's, we go to the motion show reel. We
+06:15 now have this motion show reel skill
+06:17 with all of this information like about
+06:20 how we actually design reels like this.
+06:21 So, I'm going to put this inside of my
+06:24 um Free School community once again. So,
+06:25 if you guys want it, hop into my Free
+06:27 School community and you can grab it in
+06:28 the YouTube resources or inside of the
+06:30 AI skills. It'll be in there and now you
+06:32 can do reels just like that. What you'll
+06:34 also notice is that it had to go
+06:35 generate these images. So, you can see
+06:37 it created these images and then it sent
+06:38 them to Cling in order to turn those
+06:40 images into videos and that's how we
+06:41 actually got these animations inside of
+06:44 the video right about here where we see
+06:46 the actual play button sort of being
+06:47 animated. These two scenes were because
+06:50 it created an image and then it created
+06:51 a video and then it sent it back to
+06:53 Claude and then Opus took all that stuff
+06:55 and put it into one consistent video.
+06:58 Now, here's another show reel style
+07:00 video, but this one didn't use that
+07:02 skill that we built at all. And just to
+07:03 show you how cool stuff can be made even
+07:06 with a show reel. So, I said, "Make a
+07:07 dynamic 15-second motion graphics video
+07:09 that shows what an incredible motion
+07:10 designer you are like it's your show
+07:12 reel for a resume. Go all out." I
+07:14 actually saw this from someone on X.
+07:15 They made a demo and they said this is
+07:17 what they prompted with, so I tried it
+07:18 out. I said, "Make it about our company
+07:19 AIS. Use real assets and logos from our
+07:21 products when possible. You can also use
+07:23 key.ai to generate any assets you need
+07:25 and use hyperframes or any other tools
+07:26 for motion design and music and sound
+07:28 effects. And with one shot prompt, this
+07:30 is what we got back right here. So,
+07:32 let's take a look.
+07:48 >> You can see the similarities at the
+07:49 beginning with the little B that like
+07:51 drops and there's sound effects. But
+07:53 then with the motion graphics, with the
+07:55 color schemes, with the same sort of
+07:56 like spatial awareness of doing things
+07:58 like this, I thought it was so cool. It
+08:00 pulled pictures from our website. It
+08:02 knew how many members we had. It had
+08:04 this 3D sort of image which I think was
+08:06 an image that was generated and then it
+08:07 was turned into a video similar to that
+08:09 YouTube show reel. Anyways, this
+08:11 background image is from our website as
+08:13 well. So, just very, very well done.
+08:15 Real quick, guys, I've got this
+08:16 completely free website design skill
+08:18 that I'm giving away. I use this for
+08:19 every single website that I build,
+08:20 including our AI Automation Society
+08:22 site, which I think is pretty slick and
+08:25 I absolutely love this website. It's
+08:27 called ScrollCraft and it understands
+08:28 things like scroll-driven animations and
+08:30 layering. But also it has things in
+08:32 there like taste, typography, spacing,
+08:35 depth. It's just a really good website
+08:37 design skill in general and it's
+08:38 completely free. So, the link for this
+08:39 will be down in the description, but
+08:40 let's get back to the video. Now, let me
+08:42 show you guys, this is one of my like
+08:43 new favorite benchmarks. I basically
+08:45 give ClaudeCode access to a folder which
+08:48 has 105 GB of YouTube videos, or sorry,
+08:51 not YouTube videos, videos and
+08:53 recordings and resources from our event,
+08:55 AIS Live. And then I say, "Hey, look
+08:57 through all this and create me a sizzle
+08:58 reel. Tell a story out of this." And
+09:00 look what I got here. Now, this wasn't a
+09:01 one-shot prompt. This was one prompt and
+09:03 then me giving one round of iteration
+09:05 and then having it fix one thing. So,
+09:07 technically three prompts, that's why it
+09:08 is V2.1. But let's take a look at this
+09:10 output right here.
+09:14 >> Hello, hello AIS Live. I'm so, so
+09:16 pumped. It was electric.
+09:18 >> That's cool.
+09:19 >> Never even opened VS Code. Signed the
+09:21 deal.
+09:23 >> The chat's going crazy.
+09:25 >> Drippy.
+09:27 >> Fantastic event.
+09:28 >> This was amazing.
+09:30 >> Such a fun two days.
+09:32 >> I literally like logged off yesterday
+09:34 just buzzing. I had goosebumps.
+09:38 >> Can't wait for the next one.
+09:41 >> I mean, do you guys have any idea how
+09:43 complicated that process is? Just to
+09:46 tell a story out of an event when you
+09:48 just are given a folder of resources.
+09:50 And of course, it's marketing for our
+09:51 next one, which is actually real coming
+09:53 up October 17th and 18th. So, mark your
+09:55 calendars if you guys want to show up.
+09:56 More details will be in the description.
+09:58 But, I know there were a few things that
+09:59 weren't great. There were sometimes
+10:01 where there was like an awkward cut of
+10:02 the speech and a few things that we
+10:04 could tweak, right? But, look at this.
+10:06 Look how it made like this tunnel of all
+10:08 the screens. Look at the beginning how
+10:10 it was zooming in on different screens.
+10:11 Like, it was really aware of the spacing
+10:13 and this is just really, really cool. It
+10:15 was also pulling out specific moments in
+10:17 the transcripts of these calls that were
+10:19 showing kind of like the vibe and the
+10:21 energy within the live event. This is my
+10:23 favorite scene here at the end where it
+10:24 has all of these scenes come together
+10:27 and it forms the actual AI S live logo
+10:29 even with the little red dot and then it
+10:30 zooms in on the red dot and it says your
+10:33 seat is in the middle. I just thought
+10:34 that the way that it was able to
+10:36 actually bring all of this to life is
+10:38 really, really impressive to me. Now, I
+10:40 also wanted to show you guys what else
+10:41 is possible. Like, a lot of times it's
+10:43 about thinking of a use case. So, I
+10:45 recorded this really simple video of me
+10:47 explaining how to make avocado toast.
+10:49 And I perfected that, by the way. My
+10:51 avocado toast is so good. But anyways, I
+10:53 just wanted to show you I did three
+10:54 different edits with this avocado toast
+10:56 video. This one I said, "Hey, I want you
+10:58 to edit this using hyperframes. I'm
+10:59 looking for a simple and clean
+11:00 whiteboard hand-drawn style animation."
+11:03 And it's really simple as if you're
+11:04 trying to explain to a kid how to make
+11:05 avocado toast. Simple graphics, simple
+11:08 animations, easy to understand. If you
+11:10 need to generate any images like or
+11:11 sorry, assets like images or videos, you
+11:13 can use key.ai. I then said that some
+11:15 scenes should be a full screen
+11:17 whiteboard takeover and some scenes
+11:18 should just be the left half is the
+11:20 whiteboard and the right half is my
+11:22 face. So, it then went ahead and started
+11:24 generating things, it started reasoning,
+11:26 it started testing things out, and now
+11:27 we have this output which I'll go ahead
+11:29 and play right now. All All so here's
+11:30 how I make avocado toast. When you put
+11:32 the toast in the toaster, when you're
+11:34 letting it sit, you don't set it flat on
+11:36 the plate because then that bottom side
+11:38 gets a little soggy. You want that both
+11:40 sides to be crispy. Then you put the
+11:42 eggs on the pan, you mash up the
+11:43 avocado, you spread the avocado on the
+11:45 crispy bread. I put like everything
+11:47 bagel seasoning on the avocado mash, and
+11:49 then I do some balsamic vinegar, and
+11:51 then you put the eggs on top of the
+11:53 toast. And that's how it's done. Now, my
+11:55 main critique here is that the eggs are
+11:56 super tiny and the balsamic glaze is
+11:58 only on one little piece of the toast,
+12:00 so that wouldn't taste as good as if it
+12:02 was everywhere. But anyways, look how
+12:04 good this was able to in one prompt just
+12:06 animate this stuff in a very simple and
+12:08 engaging way. It's hand-drawn. It is,
+12:10 like I said, it's kind of friendly and
+12:11 playful as if you wanted to show a kid.
+12:13 But this was literally just one prompt
+12:15 and it took care of everything. Now,
+12:17 when I first really started using AI to
+12:19 edit videos, it was for course style
+12:20 videos. Things that were super easy. We
+12:22 just wanted them animated with like, you
+12:24 know, bullet points and super simple
+12:26 images and graphics. So, here is what I
+12:28 did in this one. I need you to edit a
+12:30 course style video for me using
+12:31 Hyperframes. My camera will start off
+12:33 full screen and then I want it to be a
+12:34 rounded crop. The background's going to
+12:36 be super simple, super minimalistic, and
+12:38 the style I'm looking for is just bullet
+12:39 points with important takeaways, not too
+12:41 wordy, and they should be big. And then
+12:43 visual aids should just be AI-generated
+12:45 images, very simple, very light motion
+12:46 graphics to help illustrate concepts.
+12:48 And here is what we got. This was once
+12:50 again a one-shot prompt. Oh wait, that
+12:52 was just an image. It was just doing
+12:53 verification. Here we go. All right, so
+12:55 here's how I make avocado toast. When
+12:57 you put the toast in the toaster, when
+12:59 you're letting it sit, you don't set it
+13:01 flat on the plate because then that
+13:02 bottom side gets a little soggy. You
+13:04 want that both sides to be crispy. Then
+13:06 you put the eggs on the pan, you mash up
+13:08 the avocado, you spread the avocado on
+13:10 the crispy bread. I put like everything
+13:12 bagel seasoning on the avocado mash, and
+13:14 then I do some balsamic vinegar, and
+13:16 then you put the eggs on top of the
+13:18 toast. And that's how it's done. So, all
+13:20 of the images and videos in this video
+13:22 were AI-generated. All of this was
+13:24 AI-generated, and you you see that it's
+13:25 going to save you so much time because
+13:27 it can go get B-roll, it can take
+13:28 screenshots, it can you know generate
+13:31 things if you need it to. It's just
+13:32 really cool because now you can film
+13:34 content and editing doesn't have to be
+13:36 the bottleneck anymore, especially when
+13:37 you start to build skills around stuff
+13:39 like your preferences and motion styles
+13:42 and all that kind of stuff, your brand
+13:43 guidelines. And then the last one I did
+13:45 here was kind of a short-form video and
+13:47 this was using Hyperframe once again and
+13:49 you'll notice that I'm not really having
+13:51 this leverage other skills. So I wanted
+13:52 to show you how easy it is to do a
+13:54 one-shot prompt with Opus 5.5. Pretty
+13:56 much all these examples I've been
+13:57 running on high by the way, high meaning
+13:59 the effort level. And I just said
+14:00 basically this, generate the assets you
+14:02 need, have it be engaging, have it be
+14:03 fast-paced, easy to understand. So let's
+14:05 see what we got down here for this
+14:08 short. Here's how I make avocado toast.
+14:10 When you put the toast in the toaster,
+14:12 when you're letting it sit, you don't
+14:14 set it flat on the plate because then
+14:15 that bottom side gets a little soggy.
+14:17 You want that both sides to be crispy.
+14:19 Then you put the eggs on the pan, you
+14:20 mash up the avocado, you spread the
+14:21 avocado on the crispy bread. I put like
+14:23 everything bagel seasoning on the
+14:25 avocado mash and then I do some balsamic
+14:27 vinegar and then you put the eggs on top
+14:29 of the toast and that's how it's done.
+14:32 I mean it's not perfect, right? But a
+14:34 one-shot prompt and it's just it's
+14:36 really cool that it's able to switch
+14:37 between these different scenes. It
+14:39 definitely keeps my attention because we
+14:41 have all these different sorts of B-roll
+14:42 going on in the background. It is just a
+14:44 really, really decent output when you
+14:46 consider
+14:47 what this would have taken for a human
+14:48 to do it for you. And now, one-shot
+14:50 prompt, you iterate, you iterate, you
+14:52 build skills. And I wanted to show you
+14:53 guys one more example with Lululemon
+14:56 because this is like a physical,
+14:57 tangible product. Look how good it did
+15:00 at making this video feel like
+15:02 Lululemon.
+15:30 >> So if you guys think about what it
+15:31 actually had to do there, all of these
+15:33 videos were obviously AI generated, but
+15:35 what I'm pretty sure it did is it went
+15:36 to Lululemon and it found all these
+15:38 actual pieces of clothing. It found
+15:41 them, it took pictures of the actual
+15:42 model here, and then generated videos of
+15:45 them running or jumping or whatever it
+15:47 is in the clothes. And then of course it
+15:49 brings it all together here with actual
+15:51 catalog images. It's just really cool to
+15:53 think about how many little pieces would
+15:54 have had to go into this if you were
+15:56 editing this or creating this as a
+15:57 human, but really as a human all I did
+15:59 was I told it what I wanted and sort of
+16:02 the emotional feeling I wanted it to
+16:04 carry throughout, the vibe. High energy,
+16:06 fast-paced, engaging, sync the music to
+16:09 the beats, sound effects, things like
+16:11 that. So I just wanted to talk about the
+16:12 five things that I'm constantly thinking
+16:14 about when I'm actually editing videos
+16:15 with AI. I'm just going to run through
+16:16 these super simply because you just you
+16:19 could basically give the transcript of
+16:21 this section to your AI agent and it
+16:22 would be fine. So the first piece is to
+16:24 transcribe. If you're starting off with
+16:26 a clip and you need it to be edited
+16:28 like, you know, a video or a course or
+16:30 whatever it is, you obviously want to
+16:32 transcribe first so that the beats can
+16:33 come in at the right time and so that
+16:35 the AI knows how to tell a story out of
+16:36 it. Transcribe is essential. Whether you
+16:39 want to use Whisper or
+16:41 Eleven Labs or some other tool,
+16:42 transcribing is essential. From there,
+16:45 you're going to have it cut things out.
+16:46 So if it's mistakes, cut out the
+16:48 mistakes. If it notices in the
+16:49 transcript that there's like 20 seconds
+16:51 of dead space, cut out the dead space.
+16:52 Things like that. You're cutting things
+16:54 up. And a lot of times I'll use AI just
+16:56 to literally cut out mistakes and then
+16:57 I'll take the clip and do whatever I
+16:58 want with it, but it's able to just
+17:00 clean out your content so much quicker
+17:02 than you could because you'd be in the
+17:03 the editor looking for the dead space
+17:05 and then, you know,
+17:06 snipping everything out. And then number
+17:08 three is to plan the beats. A lot of
+17:10 times from there what I like to do is I
+17:11 like to be very specific about what it
+17:13 is that I want. As you guys saw in this
+17:14 intro version, the intro for this video,
+17:16 I was basically just planning out what I
+17:18 wanted. Now, obviously it went off the
+17:19 cuff a little bit and it was creative,
+17:21 but if I would have said like these are
+17:22 the only beats I want you to actually
+17:23 create, nothing else, it would have done
+17:25 that. But, I let it be creative here.
+17:27 But, I basically said, "Hey, at this
+17:29 point, I want this to come in. I want
+17:31 this to come in. I want this to come
+17:32 in." And the better you can set
+17:33 expectations of what you're looking for
+17:35 and what you would consider good,
+17:36 obviously the better or not better, but
+17:38 the more aligned your output is going to
+17:39 be. Number four is to use skills. So,
+17:41 build skills around things. If you build
+17:43 a lot of reels, then build skills around
+17:45 reels. Use my HyperFrame student kit.
+17:46 Use
+17:48 resources and use inspiration. Like you
+17:50 guys saw me do, I took a video that I
+17:51 really liked and I told it to build a
+17:52 skill. Now, guess what? Every time I run
+17:55 that skill, I will look at the output
+17:57 and say, "Hey, in this version, I really
+17:58 liked this and I really didn't like
+18:00 this. Update the skill with that
+18:01 information, run it again, and then I'll
+18:03 give you more feedback." And that way
+18:05 you're actually building a reusable
+18:06 component where every single time you
+18:07 run the skill, it's getting better and
+18:10 you're able to just move faster and
+18:11 faster. You don't want to have to repeat
+18:12 yourself every time. If you ever find
+18:14 yourself repeating something, just throw
+18:16 it in the skill. And then the fifth one,
+18:17 probably the most important one, is the
+18:19 verification loop. You'll notice how as
+18:21 it's going through a lot of my videos,
+18:22 it's taking screenshots and looking at
+18:23 them and then making iterations. And
+18:25 that's how you get in that loop where
+18:26 you're not just basically saying, "Okay,
+18:28 here is my output number one." You're
+18:30 getting output number like five or six
+18:33 because the agent basically did this. It
+18:35 delivered output one and then it watched
+18:37 it. It realized there was some mistakes
+18:39 and then it came back and it delivered
+18:40 output two. And then it watched output
+18:42 two and then it kept iterating on its
+18:44 outputs until it realized, "Okay, this
+18:46 one is finally good enough where I'm
+18:47 going to give it to Nate and here you
+18:49 go, Nate. This is the finished video."
+18:51 So, now you're getting something that
+18:52 has already been checked by the AI and
+18:54 iterated on, then, you know, compared to
+18:56 if it just handed you this first version
+18:58 and then you're frustrated and you have
+18:59 to make all these, you know, prompts.
+19:01 But, anyways, guys, there are so many
+19:02 use cases when it comes to using AI to
+19:04 help you edit things or add motion
+19:06 design because it's not really something
+19:07 that you had to have previous video
+19:09 editing experience in order to take
+19:10 advantage of now. So, don't let editing
+19:12 be your bottleneck, but that's going to
+19:14 do it for today. If you enjoyed and
+19:15 learned something new, please give it a
+19:16 like. It helps me out a ton. And as
+19:17 always, I appreciate you guys making it
+19:18 to the end of the video. I'll see you
+19:20 all in the next one.
+19:21 Thanks, everyone.
