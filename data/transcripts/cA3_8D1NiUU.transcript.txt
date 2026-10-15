@@ -1,0 +1,204 @@
+00:00 I gave Claude Opus 5.5, Gemini 4 Argon,
+00:03 and GBT6 Astra the same job. Make the
+00:06 first 30 seconds of a music video, same
+00:08 song, same lyric, the same shot list,
+00:11 same images. The three best models in
+00:13 the world right now. And I'm not going
+00:15 to tell you which one won. I'm going to
+00:17 show you what each one made, the time
+00:19 that it took, and how much it cost it.
+00:20 And you will be the judge of it. And all
+00:22 the way to the end, we're going to look
+00:23 at the results. What are people sharing
+00:25 on Twitter? because recently Argon just
+00:27 got released and people are being very
+00:29 vocal about it. Be sure to subscribe
+00:31 because I drop weekly skills for free.
+00:33 So, let's get straight into it. So, let
+00:35 me explain to you the setup. I made the
+00:37 song locally with Aceep with $0. The
+00:40 images and clips are from Nano Banano,
+00:42 Cling, and Hicksfield. And by the way, I
+00:44 was able to get an offer for you guys on
+00:46 Hicksfield. The link is in description.
+00:48 Take a look at the promo and if it fits
+00:49 your budget, you should definitely get
+00:51 it. If not, that's fine. They also offer
+00:53 an API so you can pay as you go. Just
+00:56 click on the link and then the video
+00:58 gets rerendered by Hyperfix which is
+01:00 open source right now on my Mac. Every
+01:02 model got all of that. The same prompt
+01:05 word for word and the same skills. So
+01:07 basically the only thing that changes is
+01:09 the model. We're only looking at one
+01:12 thing, the motion graphics. Each model
+01:14 had to do everything on its own. The
+01:16 design, the effects, the code checking
+01:18 on its own work and rerendering the
+01:21 final video. No help from me whatsoever.
+01:24 The only thing I sent was the same keep
+01:27 going message when the tool paused. Now
+01:29 fair because I know some of you are
+01:31 going to ask. I ran Gemini through an
+01:33 open router but not in the chat window
+01:35 where you paste a prompt and get one
+01:37 answer back. I ran inside open code
+01:40 which is a coding agent just like cloud
+01:42 code. I gave it the full context. It had
+01:44 access to the whole project folder, the
+01:46 song, the lyrics with the timing of the
+01:48 word, the shot list, all the images, and
+01:51 the same skills. And it had the same
+01:53 tools Opus had. It could read and write
+01:56 files, run commands, render the video,
+01:58 look at its own frames, and even spin up
+02:01 helper agents. GBT got the exact same
+02:04 setup inside Codeex Open's AI's own
+02:07 tool. So, all three had the full setup,
+02:10 not just a chat box. The one thing Opus
+02:12 had that they didn't Opus made its
+02:15 version last week. It had a 50-second
+02:18 test around that. I reviewed it. Gemini
+02:20 and GBT got one prop, no feedback, and
+02:22 the song literally stays the same as
+02:24 Opus 5.5. Gemini even named its terminal
+02:27 Wedo Claw Opus 5.5. So, keep that in
+02:30 mind. So, let's start immediately with
+02:32 Gemini for Argon cuz it's just the model
+02:34 that recently got released. Gemini split
+02:36 the video in five scenes. It opens on
+02:38 their eyes with a cursor. So, I'll stay
+02:40 quiet and I'll let you watch it.
+02:43 [music]
+02:50 >> Type one line in the terminal
+02:53 and let it right [music]
+02:54 5.5 on the other side. No after effects,
+02:57 no studio, no [music] team, just writing
+03:00 code. Building every scene, every shape,
+03:02 there's a line, every frame is a choice.
+03:04 Easing in, easing out. Get the [music]
+03:05 pixels a voice. I don't touch the
+03:07 timeline. I don't move a thing. It's on
+03:09 autopilot, baby.
+03:12 >> Now, the stats. Gemini took about 63
+03:14 minutes and 179 moto calls. It cost me
+03:18 $9.87,
+03:20 which is real money on open router. And
+03:22 to be fair, about $160 of that got
+03:25 wasted on the bug in open code, the tool
+03:27 I ride in it. That's not on Gemini. And
+03:30 keep that in mind, that's Argon's launch
+03:32 price. It's supposed to be double later.
+03:34 Now, GBT6 Astro GBT splits it into four
+03:38 scenes. Same eye opening and then the
+03:40 particles. So, I'll stay again quiet and
+03:43 you watch it.
+03:47 [music]
+03:53 I know
+03:55 it right. Hope it's 5.5 on the other
+03:57 [music] side. No after effects, no
+03:59 studio, no team, just writing code.
+04:02 Building [music] every scene. Every
+04:03 shape is a line. Every frame is a
+04:05 choice. Easing in, easy and out. Get the
+04:07 pixels a voice. I don't touch the
+04:08 timeline. [music]
+04:09 I don't move a thing. It's on autopilot.
+04:13 >> GBT is more impressive. It did all of
+04:16 this in 23 minutes and 116 calls. It ran
+04:19 on my Chad GBT plan, the $20 plan. It
+04:22 hit the halfway and it costed around
+04:25 $11. And then we have Opus 5.5. Opus
+04:28 splits it into four scenes. So I'll stay
+04:31 quiet and you watch this one till
+04:34 [music]
+04:42 terminal hit and let it ride 5.5 [music]
+04:46 on the other side. No after effects, no
+04:48 studio, no team, just writing code
+04:51 building [music] every scene. Every
+04:52 shape is a line. Every frame is a
+04:54 choice. Easing in, easing out. Give the
+04:56 [music] pixels a voice. I don't touch
+04:57 the timeline. I don't move a thing. It's
+04:59 on autopilot.
+05:02 >> The final build of these 30 seconds took
+05:05 Opus about 1 hour and 15 minutes with
+05:08 four helpers building the four scenes at
+05:10 the same time. Before that, there were
+05:12 15 seconds test round about 50 minutes,
+05:15 about 544 moto calls in total. It ran on
+05:18 my Claude Max plan, the $200 month one,
+05:21 so $0 on top of my subscription. These
+05:24 first 30 seconds took about 5% of my
+05:27 weekly limits. If you split the $200
+05:29 across the month, that's about $230 of
+05:32 my plan. Now, let's look at the same
+05:34 shots from all three so you can compare.
+05:37 I'll stay quiet and you watching.
+05:39 Perfect. No studio, no team. Just caring
+05:42 [music] code. Building every scene.
+05:44 Every shape is a line. Every frame is a
+05:46 choice. Easing in, easy out. Get the
+05:48 pixels.
+05:49 >> So, here are the numbers side by side.
+05:51 Opus about 1 hour and 15 minutes for the
+05:53 final build. Plus a 50-minute test
+05:55 around $544 calls, $0 on top of my $200
+06:00 max plan, about 5% of my weekly limit.
+06:03 Gemini about 63 minutes, 179 calls,
+06:06 $9.87
+06:08 with no subscription. I just paid for
+06:10 what I used. GBT about 23 minutes and
+06:13 $11. Now, let's see what people on X are
+06:16 sharing. Argon came out yesterday, so
+06:18 these are all day first test. And every
+06:21 one of them has the video side by side.
+06:24 This one has over 500,000 views. Gave
+06:26 Opus 5.5 and Argon the same prompt.
+06:30 Gummy bears, you can play with Opus. And
+06:32 you can see the difference here is
+06:34 actually insane. And to be fair, Gemini
+06:36 is still a very, very powerful model,
+06:39 but when it comes to this, I'm not
+06:41 entirely sure it can compete with Opus.
+06:43 This one has over 1,200 likes. Argon
+06:46 versus Opus 5.5, a Vauxil Pelican riding
+06:49 a bike on top of a jet. This one is
+06:51 Argon versus GBT6 Astra, a pixel art
+06:55 night scene. They say Astra took 25
+06:57 minutes and cost $11. And Argon took 3
+07:01 minutes and cost 50. And keep in mind
+07:04 this account is a company that sells
+07:06 access to these models. Bridgemine gave
+07:08 the same level amp comped to six models.
+07:11 Argon toss 80 cents and took under 2
+07:13 minutes. Opus cost $127 and took 9 and
+07:17 1/2 minutes. And they say Google might
+07:19 be quietly cooking. Jazzy gave Opus and
+07:22 Argon the same pixel art city animation.
+07:25 And they say the results came out almost
+07:27 the same. Opus took 15 minutes and cost
+07:30 $8.20 20 cents in claw code. Argon took
+07:33 30 minutes and costs $120 in Devon. And
+07:36 keep in mind, Devon has Argon at 75% of
+07:41 right now. So, that's what people are
+07:42 saying. Now, you've seen all three and
+07:45 you've got the numbers. You're the
+07:47 judge. Let me know in the comments which
+07:48 one you think won. In my opinion, I'll
+07:51 stick to Opus 5.5 as Enthropic. I'm sure
+07:54 they're about to release a model and
+07:56 they're going definitely to be better
+07:58 than Opus 5.5. That's my best bet. Thank
+08:01 you for watching. It means a lot to me
+08:02 and these past few days have been
+08:05 actually insane. The growth in this
+08:07 channel genuinely means a lot to me and
+08:10 I'm trying to give as much value as I
+08:12 can to you guys. So from now on, we will
+08:14 be having weekly calls on school for
+08:17 free just to help you if you have any
+08:19 problems with setting up one of the
+08:21 skills. Thank you so much and I'll see
+08:22 you in the next one.

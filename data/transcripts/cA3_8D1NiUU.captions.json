@@ -1,0 +1,1027 @@
+{
+  "video_id": "cA3_8D1NiUU",
+  "language": "en-orig",
+  "source": "youtube automatic captions via yt-dlp",
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 6.48,
+      "text": "I gave Claude Opus 5.5, Gemini 4 Argon,"
+    },
+    {
+      "start": 3.36,
+      "duration": 5.36,
+      "text": "and GBT6 Astra the same job. Make the"
+    },
+    {
+      "start": 6.48,
+      "duration": 4.56,
+      "text": "first 30 seconds of a music video, same"
+    },
+    {
+      "start": 8.72,
+      "duration": 4.72,
+      "text": "song, same lyric, the same shot list,"
+    },
+    {
+      "start": 11.04,
+      "duration": 4.0,
+      "text": "same images. The three best models in"
+    },
+    {
+      "start": 13.44,
+      "duration": 3.599,
+      "text": "the world right now. And I'm not going"
+    },
+    {
+      "start": 15.04,
+      "duration": 4.159,
+      "text": "to tell you which one won. I'm going to"
+    },
+    {
+      "start": 17.039,
+      "duration": 3.841,
+      "text": "show you what each one made, the time"
+    },
+    {
+      "start": 19.199,
+      "duration": 3.281,
+      "text": "that it took, and how much it cost it."
+    },
+    {
+      "start": 20.88,
+      "duration": 2.88,
+      "text": "And you will be the judge of it. And all"
+    },
+    {
+      "start": 22.48,
+      "duration": 3.039,
+      "text": "the way to the end, we're going to look"
+    },
+    {
+      "start": 23.76,
+      "duration": 4.16,
+      "text": "at the results. What are people sharing"
+    },
+    {
+      "start": 25.519,
+      "duration": 4.16,
+      "text": "on Twitter? because recently Argon just"
+    },
+    {
+      "start": 27.92,
+      "duration": 3.84,
+      "text": "got released and people are being very"
+    },
+    {
+      "start": 29.679,
+      "duration": 4.081,
+      "text": "vocal about it. Be sure to subscribe"
+    },
+    {
+      "start": 31.76,
+      "duration": 3.68,
+      "text": "because I drop weekly skills for free."
+    },
+    {
+      "start": 33.76,
+      "duration": 3.28,
+      "text": "So, let's get straight into it. So, let"
+    },
+    {
+      "start": 35.44,
+      "duration": 4.72,
+      "text": "me explain to you the setup. I made the"
+    },
+    {
+      "start": 37.04,
+      "duration": 5.359,
+      "text": "song locally with Aceep with $0. The"
+    },
+    {
+      "start": 40.16,
+      "duration": 4.399,
+      "text": "images and clips are from Nano Banano,"
+    },
+    {
+      "start": 42.399,
+      "duration": 3.68,
+      "text": "Cling, and Hicksfield. And by the way, I"
+    },
+    {
+      "start": 44.559,
+      "duration": 3.601,
+      "text": "was able to get an offer for you guys on"
+    },
+    {
+      "start": 46.079,
+      "duration": 3.761,
+      "text": "Hicksfield. The link is in description."
+    },
+    {
+      "start": 48.16,
+      "duration": 3.28,
+      "text": "Take a look at the promo and if it fits"
+    },
+    {
+      "start": 49.84,
+      "duration": 4.08,
+      "text": "your budget, you should definitely get"
+    },
+    {
+      "start": 51.44,
+      "duration": 5.04,
+      "text": "it. If not, that's fine. They also offer"
+    },
+    {
+      "start": 53.92,
+      "duration": 4.639,
+      "text": "an API so you can pay as you go. Just"
+    },
+    {
+      "start": 56.48,
+      "duration": 4.32,
+      "text": "click on the link and then the video"
+    },
+    {
+      "start": 58.559,
+      "duration": 4.32,
+      "text": "gets rerendered by Hyperfix which is"
+    },
+    {
+      "start": 60.8,
+      "duration": 4.399,
+      "text": "open source right now on my Mac. Every"
+    },
+    {
+      "start": 62.879,
+      "duration": 4.881,
+      "text": "model got all of that. The same prompt"
+    },
+    {
+      "start": 65.199,
+      "duration": 4.641,
+      "text": "word for word and the same skills. So"
+    },
+    {
+      "start": 67.76,
+      "duration": 4.56,
+      "text": "basically the only thing that changes is"
+    },
+    {
+      "start": 69.84,
+      "duration": 4.959,
+      "text": "the model. We're only looking at one"
+    },
+    {
+      "start": 72.32,
+      "duration": 4.479,
+      "text": "thing, the motion graphics. Each model"
+    },
+    {
+      "start": 74.799,
+      "duration": 4.081,
+      "text": "had to do everything on its own. The"
+    },
+    {
+      "start": 76.799,
+      "duration": 4.241,
+      "text": "design, the effects, the code checking"
+    },
+    {
+      "start": 78.88,
+      "duration": 5.12,
+      "text": "on its own work and rerendering the"
+    },
+    {
+      "start": 81.04,
+      "duration": 6.16,
+      "text": "final video. No help from me whatsoever."
+    },
+    {
+      "start": 84.0,
+      "duration": 5.52,
+      "text": "The only thing I sent was the same keep"
+    },
+    {
+      "start": 87.2,
+      "duration": 4.559,
+      "text": "going message when the tool paused. Now"
+    },
+    {
+      "start": 89.52,
+      "duration": 4.32,
+      "text": "fair because I know some of you are"
+    },
+    {
+      "start": 91.759,
+      "duration": 3.921,
+      "text": "going to ask. I ran Gemini through an"
+    },
+    {
+      "start": 93.84,
+      "duration": 4.08,
+      "text": "open router but not in the chat window"
+    },
+    {
+      "start": 95.68,
+      "duration": 4.56,
+      "text": "where you paste a prompt and get one"
+    },
+    {
+      "start": 97.92,
+      "duration": 4.48,
+      "text": "answer back. I ran inside open code"
+    },
+    {
+      "start": 100.24,
+      "duration": 4.64,
+      "text": "which is a coding agent just like cloud"
+    },
+    {
+      "start": 102.4,
+      "duration": 4.399,
+      "text": "code. I gave it the full context. It had"
+    },
+    {
+      "start": 104.88,
+      "duration": 4.08,
+      "text": "access to the whole project folder, the"
+    },
+    {
+      "start": 106.799,
+      "duration": 4.64,
+      "text": "song, the lyrics with the timing of the"
+    },
+    {
+      "start": 108.96,
+      "duration": 4.24,
+      "text": "word, the shot list, all the images, and"
+    },
+    {
+      "start": 111.439,
+      "duration": 4.72,
+      "text": "the same skills. And it had the same"
+    },
+    {
+      "start": 113.2,
+      "duration": 5.68,
+      "text": "tools Opus had. It could read and write"
+    },
+    {
+      "start": 116.159,
+      "duration": 5.441,
+      "text": "files, run commands, render the video,"
+    },
+    {
+      "start": 118.88,
+      "duration": 5.839,
+      "text": "look at its own frames, and even spin up"
+    },
+    {
+      "start": 121.6,
+      "duration": 6.159,
+      "text": "helper agents. GBT got the exact same"
+    },
+    {
+      "start": 124.719,
+      "duration": 5.68,
+      "text": "setup inside Codeex Open's AI's own"
+    },
+    {
+      "start": 127.759,
+      "duration": 5.041,
+      "text": "tool. So, all three had the full setup,"
+    },
+    {
+      "start": 130.399,
+      "duration": 4.961,
+      "text": "not just a chat box. The one thing Opus"
+    },
+    {
+      "start": 132.8,
+      "duration": 5.36,
+      "text": "had that they didn't Opus made its"
+    },
+    {
+      "start": 135.36,
+      "duration": 5.12,
+      "text": "version last week. It had a 50-second"
+    },
+    {
+      "start": 138.16,
+      "duration": 4.799,
+      "text": "test around that. I reviewed it. Gemini"
+    },
+    {
+      "start": 140.48,
+      "duration": 4.479,
+      "text": "and GBT got one prop, no feedback, and"
+    },
+    {
+      "start": 142.959,
+      "duration": 4.881,
+      "text": "the song literally stays the same as"
+    },
+    {
+      "start": 144.959,
+      "duration": 5.521,
+      "text": "Opus 5.5. Gemini even named its terminal"
+    },
+    {
+      "start": 147.84,
+      "duration": 4.399,
+      "text": "Wedo Claw Opus 5.5. So, keep that in"
+    },
+    {
+      "start": 150.48,
+      "duration": 4.08,
+      "text": "mind. So, let's start immediately with"
+    },
+    {
+      "start": 152.239,
+      "duration": 4.401,
+      "text": "Gemini for Argon cuz it's just the model"
+    },
+    {
+      "start": 154.56,
+      "duration": 4.24,
+      "text": "that recently got released. Gemini split"
+    },
+    {
+      "start": 156.64,
+      "duration": 4.08,
+      "text": "the video in five scenes. It opens on"
+    },
+    {
+      "start": 158.8,
+      "duration": 4.951,
+      "text": "their eyes with a cursor. So, I'll stay"
+    },
+    {
+      "start": 160.72,
+      "duration": 5.051,
+      "text": "quiet and I'll let you watch it."
+    },
+    {
+      "start": 163.751,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 170.879,
+      "duration": 4.0,
+      "text": ">> Type one line in the terminal"
+    },
+    {
+      "start": 173.599,
+      "duration": 4.241,
+      "text": "and let it right [music]"
+    },
+    {
+      "start": 174.879,
+      "duration": 5.281,
+      "text": "5.5 on the other side. No after effects,"
+    },
+    {
+      "start": 177.84,
+      "duration": 4.399,
+      "text": "no studio, no [music] team, just writing"
+    },
+    {
+      "start": 180.16,
+      "duration": 3.84,
+      "text": "code. Building every scene, every shape,"
+    },
+    {
+      "start": 182.239,
+      "duration": 3.36,
+      "text": "there's a line, every frame is a choice."
+    },
+    {
+      "start": 184.0,
+      "duration": 3.12,
+      "text": "Easing in, easing out. Get the [music]"
+    },
+    {
+      "start": 185.599,
+      "duration": 3.601,
+      "text": "pixels a voice. I don't touch the"
+    },
+    {
+      "start": 187.12,
+      "duration": 4.88,
+      "text": "timeline. I don't move a thing. It's on"
+    },
+    {
+      "start": 189.2,
+      "duration": 5.28,
+      "text": "autopilot, baby."
+    },
+    {
+      "start": 192.0,
+      "duration": 6.319,
+      "text": ">> Now, the stats. Gemini took about 63"
+    },
+    {
+      "start": 194.48,
+      "duration": 5.759,
+      "text": "minutes and 179 moto calls. It cost me"
+    },
+    {
+      "start": 198.319,
+      "duration": 3.92,
+      "text": "$9.87,"
+    },
+    {
+      "start": 200.239,
+      "duration": 4.801,
+      "text": "which is real money on open router. And"
+    },
+    {
+      "start": 202.239,
+      "duration": 5.441,
+      "text": "to be fair, about $160 of that got"
+    },
+    {
+      "start": 205.04,
+      "duration": 5.04,
+      "text": "wasted on the bug in open code, the tool"
+    },
+    {
+      "start": 207.68,
+      "duration": 4.639,
+      "text": "I ride in it. That's not on Gemini. And"
+    },
+    {
+      "start": 210.08,
+      "duration": 4.64,
+      "text": "keep that in mind, that's Argon's launch"
+    },
+    {
+      "start": 212.319,
+      "duration": 5.761,
+      "text": "price. It's supposed to be double later."
+    },
+    {
+      "start": 214.72,
+      "duration": 6.079,
+      "text": "Now, GBT6 Astro GBT splits it into four"
+    },
+    {
+      "start": 218.08,
+      "duration": 4.96,
+      "text": "scenes. Same eye opening and then the"
+    },
+    {
+      "start": 220.799,
+      "duration": 5.641,
+      "text": "particles. So, I'll stay again quiet and"
+    },
+    {
+      "start": 223.04,
+      "duration": 3.4,
+      "text": "you watch it."
+    },
+    {
+      "start": 227.942,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 233.92,
+      "duration": 3.847,
+      "text": "I know"
+    },
+    {
+      "start": 235.599,
+      "duration": 4.081,
+      "text": "it right. Hope it's 5.5 on the other"
+    },
+    {
+      "start": 237.767,
+      "duration": 4.313,
+      "text": "[music] side. No after effects, no"
+    },
+    {
+      "start": 239.68,
+      "duration": 3.839,
+      "text": "studio, no team, just writing code."
+    },
+    {
+      "start": 242.08,
+      "duration": 3.28,
+      "text": "Building [music] every scene. Every"
+    },
+    {
+      "start": 243.519,
+      "duration": 3.601,
+      "text": "shape is a line. Every frame is a"
+    },
+    {
+      "start": 245.36,
+      "duration": 3.36,
+      "text": "choice. Easing in, easy and out. Get the"
+    },
+    {
+      "start": 247.12,
+      "duration": 2.399,
+      "text": "pixels a voice. I don't touch the"
+    },
+    {
+      "start": 248.72,
+      "duration": 4.96,
+      "text": "timeline. [music]"
+    },
+    {
+      "start": 249.519,
+      "duration": 6.56,
+      "text": "I don't move a thing. It's on autopilot."
+    },
+    {
+      "start": 253.68,
+      "duration": 6.0,
+      "text": ">> GBT is more impressive. It did all of"
+    },
+    {
+      "start": 256.079,
+      "duration": 6.721,
+      "text": "this in 23 minutes and 116 calls. It ran"
+    },
+    {
+      "start": 259.68,
+      "duration": 5.44,
+      "text": "on my Chad GBT plan, the $20 plan. It"
+    },
+    {
+      "start": 262.8,
+      "duration": 5.76,
+      "text": "hit the halfway and it costed around"
+    },
+    {
+      "start": 265.12,
+      "duration": 6.16,
+      "text": "$11. And then we have Opus 5.5. Opus"
+    },
+    {
+      "start": 268.56,
+      "duration": 5.888,
+      "text": "splits it into four scenes. So I'll stay"
+    },
+    {
+      "start": 271.28,
+      "duration": 5.188,
+      "text": "quiet and you watch this one till"
+    },
+    {
+      "start": 274.448,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 282.72,
+      "duration": 6.0,
+      "text": "terminal hit and let it ride 5.5 [music]"
+    },
+    {
+      "start": 286.32,
+      "duration": 4.8,
+      "text": "on the other side. No after effects, no"
+    },
+    {
+      "start": 288.72,
+      "duration": 3.84,
+      "text": "studio, no team, just writing code"
+    },
+    {
+      "start": 291.12,
+      "duration": 3.28,
+      "text": "building [music] every scene. Every"
+    },
+    {
+      "start": 292.56,
+      "duration": 3.503,
+      "text": "shape is a line. Every frame is a"
+    },
+    {
+      "start": 294.4,
+      "duration": 3.2,
+      "text": "choice. Easing in, easing out. Give the"
+    },
+    {
+      "start": 296.063,
+      "duration": 3.617,
+      "text": "[music] pixels a voice. I don't touch"
+    },
+    {
+      "start": 297.6,
+      "duration": 5.12,
+      "text": "the timeline. I don't move a thing. It's"
+    },
+    {
+      "start": 299.68,
+      "duration": 5.92,
+      "text": "on autopilot."
+    },
+    {
+      "start": 302.72,
+      "duration": 5.68,
+      "text": ">> The final build of these 30 seconds took"
+    },
+    {
+      "start": 305.6,
+      "duration": 4.96,
+      "text": "Opus about 1 hour and 15 minutes with"
+    },
+    {
+      "start": 308.4,
+      "duration": 4.16,
+      "text": "four helpers building the four scenes at"
+    },
+    {
+      "start": 310.56,
+      "duration": 4.8,
+      "text": "the same time. Before that, there were"
+    },
+    {
+      "start": 312.56,
+      "duration": 6.079,
+      "text": "15 seconds test round about 50 minutes,"
+    },
+    {
+      "start": 315.36,
+      "duration": 6.16,
+      "text": "about 544 moto calls in total. It ran on"
+    },
+    {
+      "start": 318.639,
+      "duration": 6.081,
+      "text": "my Claude Max plan, the $200 month one,"
+    },
+    {
+      "start": 321.52,
+      "duration": 6.0,
+      "text": "so $0 on top of my subscription. These"
+    },
+    {
+      "start": 324.72,
+      "duration": 5.12,
+      "text": "first 30 seconds took about 5% of my"
+    },
+    {
+      "start": 327.52,
+      "duration": 5.36,
+      "text": "weekly limits. If you split the $200"
+    },
+    {
+      "start": 329.84,
+      "duration": 5.04,
+      "text": "across the month, that's about $230 of"
+    },
+    {
+      "start": 332.88,
+      "duration": 4.24,
+      "text": "my plan. Now, let's look at the same"
+    },
+    {
+      "start": 334.88,
+      "duration": 5.039,
+      "text": "shots from all three so you can compare."
+    },
+    {
+      "start": 337.12,
+      "duration": 5.448,
+      "text": "I'll stay quiet and you watching."
+    },
+    {
+      "start": 339.919,
+      "duration": 4.321,
+      "text": "Perfect. No studio, no team. Just caring"
+    },
+    {
+      "start": 342.568,
+      "duration": 3.832,
+      "text": "[music] code. Building every scene."
+    },
+    {
+      "start": 344.24,
+      "duration": 3.92,
+      "text": "Every shape is a line. Every frame is a"
+    },
+    {
+      "start": 346.4,
+      "duration": 2.799,
+      "text": "choice. Easing in, easy out. Get the"
+    },
+    {
+      "start": 348.16,
+      "duration": 3.039,
+      "text": "pixels."
+    },
+    {
+      "start": 349.199,
+      "duration": 4.56,
+      "text": ">> So, here are the numbers side by side."
+    },
+    {
+      "start": 351.199,
+      "duration": 4.56,
+      "text": "Opus about 1 hour and 15 minutes for the"
+    },
+    {
+      "start": 353.759,
+      "duration": 6.481,
+      "text": "final build. Plus a 50-minute test"
+    },
+    {
+      "start": 355.759,
+      "duration": 7.521,
+      "text": "around $544 calls, $0 on top of my $200"
+    },
+    {
+      "start": 360.24,
+      "duration": 6.399,
+      "text": "max plan, about 5% of my weekly limit."
+    },
+    {
+      "start": 363.28,
+      "duration": 4.88,
+      "text": "Gemini about 63 minutes, 179 calls,"
+    },
+    {
+      "start": 366.639,
+      "duration": 3.521,
+      "text": "$9.87"
+    },
+    {
+      "start": 368.16,
+      "duration": 5.2,
+      "text": "with no subscription. I just paid for"
+    },
+    {
+      "start": 370.16,
+      "duration": 6.479,
+      "text": "what I used. GBT about 23 minutes and"
+    },
+    {
+      "start": 373.36,
+      "duration": 5.36,
+      "text": "$11. Now, let's see what people on X are"
+    },
+    {
+      "start": 376.639,
+      "duration": 4.961,
+      "text": "sharing. Argon came out yesterday, so"
+    },
+    {
+      "start": 378.72,
+      "duration": 5.36,
+      "text": "these are all day first test. And every"
+    },
+    {
+      "start": 381.6,
+      "duration": 5.2,
+      "text": "one of them has the video side by side."
+    },
+    {
+      "start": 384.08,
+      "duration": 6.0,
+      "text": "This one has over 500,000 views. Gave"
+    },
+    {
+      "start": 386.8,
+      "duration": 5.519,
+      "text": "Opus 5.5 and Argon the same prompt."
+    },
+    {
+      "start": 390.08,
+      "duration": 4.0,
+      "text": "Gummy bears, you can play with Opus. And"
+    },
+    {
+      "start": 392.319,
+      "duration": 4.641,
+      "text": "you can see the difference here is"
+    },
+    {
+      "start": 394.08,
+      "duration": 5.6,
+      "text": "actually insane. And to be fair, Gemini"
+    },
+    {
+      "start": 396.96,
+      "duration": 4.64,
+      "text": "is still a very, very powerful model,"
+    },
+    {
+      "start": 399.68,
+      "duration": 4.079,
+      "text": "but when it comes to this, I'm not"
+    },
+    {
+      "start": 401.6,
+      "duration": 4.879,
+      "text": "entirely sure it can compete with Opus."
+    },
+    {
+      "start": 403.759,
+      "duration": 5.761,
+      "text": "This one has over 1,200 likes. Argon"
+    },
+    {
+      "start": 406.479,
+      "duration": 5.121,
+      "text": "versus Opus 5.5, a Vauxil Pelican riding"
+    },
+    {
+      "start": 409.52,
+      "duration": 5.519,
+      "text": "a bike on top of a jet. This one is"
+    },
+    {
+      "start": 411.6,
+      "duration": 6.319,
+      "text": "Argon versus GBT6 Astra, a pixel art"
+    },
+    {
+      "start": 415.039,
+      "duration": 6.321,
+      "text": "night scene. They say Astra took 25"
+    },
+    {
+      "start": 417.919,
+      "duration": 6.321,
+      "text": "minutes and cost $11. And Argon took 3"
+    },
+    {
+      "start": 421.36,
+      "duration": 5.119,
+      "text": "minutes and cost 50. And keep in mind"
+    },
+    {
+      "start": 424.24,
+      "duration": 4.56,
+      "text": "this account is a company that sells"
+    },
+    {
+      "start": 426.479,
+      "duration": 4.72,
+      "text": "access to these models. Bridgemine gave"
+    },
+    {
+      "start": 428.8,
+      "duration": 5.119,
+      "text": "the same level amp comped to six models."
+    },
+    {
+      "start": 431.199,
+      "duration": 6.4,
+      "text": "Argon toss 80 cents and took under 2"
+    },
+    {
+      "start": 433.919,
+      "duration": 5.761,
+      "text": "minutes. Opus cost $127 and took 9 and"
+    },
+    {
+      "start": 437.599,
+      "duration": 4.961,
+      "text": "1/2 minutes. And they say Google might"
+    },
+    {
+      "start": 439.68,
+      "duration": 5.919,
+      "text": "be quietly cooking. Jazzy gave Opus and"
+    },
+    {
+      "start": 442.56,
+      "duration": 5.359,
+      "text": "Argon the same pixel art city animation."
+    },
+    {
+      "start": 445.599,
+      "duration": 5.04,
+      "text": "And they say the results came out almost"
+    },
+    {
+      "start": 447.919,
+      "duration": 5.84,
+      "text": "the same. Opus took 15 minutes and cost"
+    },
+    {
+      "start": 450.639,
+      "duration": 6.241,
+      "text": "$8.20 20 cents in claw code. Argon took"
+    },
+    {
+      "start": 453.759,
+      "duration": 7.361,
+      "text": "30 minutes and costs $120 in Devon. And"
+    },
+    {
+      "start": 456.88,
+      "duration": 6.08,
+      "text": "keep in mind, Devon has Argon at 75% of"
+    },
+    {
+      "start": 461.12,
+      "duration": 4.24,
+      "text": "right now. So, that's what people are"
+    },
+    {
+      "start": 462.96,
+      "duration": 4.239,
+      "text": "saying. Now, you've seen all three and"
+    },
+    {
+      "start": 465.36,
+      "duration": 3.6,
+      "text": "you've got the numbers. You're the"
+    },
+    {
+      "start": 467.199,
+      "duration": 4.0,
+      "text": "judge. Let me know in the comments which"
+    },
+    {
+      "start": 468.96,
+      "duration": 6.0,
+      "text": "one you think won. In my opinion, I'll"
+    },
+    {
+      "start": 471.199,
+      "duration": 5.601,
+      "text": "stick to Opus 5.5 as Enthropic. I'm sure"
+    },
+    {
+      "start": 474.96,
+      "duration": 3.679,
+      "text": "they're about to release a model and"
+    },
+    {
+      "start": 476.8,
+      "duration": 4.239,
+      "text": "they're going definitely to be better"
+    },
+    {
+      "start": 478.639,
+      "duration": 4.081,
+      "text": "than Opus 5.5. That's my best bet. Thank"
+    },
+    {
+      "start": 481.039,
+      "duration": 4.241,
+      "text": "you for watching. It means a lot to me"
+    },
+    {
+      "start": 482.72,
+      "duration": 5.12,
+      "text": "and these past few days have been"
+    },
+    {
+      "start": 485.28,
+      "duration": 4.72,
+      "text": "actually insane. The growth in this"
+    },
+    {
+      "start": 487.84,
+      "duration": 4.24,
+      "text": "channel genuinely means a lot to me and"
+    },
+    {
+      "start": 490.0,
+      "duration": 4.56,
+      "text": "I'm trying to give as much value as I"
+    },
+    {
+      "start": 492.08,
+      "duration": 5.2,
+      "text": "can to you guys. So from now on, we will"
+    },
+    {
+      "start": 494.56,
+      "duration": 4.72,
+      "text": "be having weekly calls on school for"
+    },
+    {
+      "start": 497.28,
+      "duration": 3.84,
+      "text": "free just to help you if you have any"
+    },
+    {
+      "start": 499.28,
+      "duration": 3.599,
+      "text": "problems with setting up one of the"
+    },
+    {
+      "start": 501.12,
+      "duration": 5.32,
+      "text": "skills. Thank you so much and I'll see"
+    },
+    {
+      "start": 502.879,
+      "duration": 3.561,
+      "text": "you in the next one."
+    }
+  ]
+}

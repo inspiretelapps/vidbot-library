@@ -1,0 +1,62 @@
+{
+  "id": "cA3_8D1NiUU",
+  "title": "What Is The Best Model For Motion Graphics (Tested)",
+  "channel": "Jad M.H  | AI Automation",
+  "upload_date": "20261014",
+  "duration_seconds": 508,
+  "thumbnail": "https://i.ytimg.com/vi/cA3_8D1NiUU/maxresdefault.jpg",
+  "url": "https://www.youtube.com/watch?v=cA3_8D1NiUU",
+  "description": "✅Higgsfield Promo: https://higgsfield.ai/s/katana-inside-claude-yt-jadm-h-xUOkwW\n\nWhich AI is the best at motion graphics? I gave Claude Opus 5.5, Gemini 4 Argon and GPT-6 Astra the exact same job: the first 30 seconds of a music video. Same song, same lyrics, same shot list, same images, same prompt. I show you what each one made, how long it took and what it cost. You're the judge 👇\n\n🎁 Free skills every week in my Skool: https://www.skool.com/nextphase-5790\nStuck setting one up? We now run free weekly calls in the Skool to help you.\n\n🧪 The setup (the same for all 3)\n• Song: made locally with ACE-Step, $0\n• Images and clips: Nano Banana, Kling and Higgsfield\n• Rendered with HyperFrames (open source) on my Mac\n• The same prompt word for word, the same shot list, the same skills\n• Each model did the design, effects, code, self-checks and final render on its own. The only message I sent was the same \"keep going\" when the tool paused.\n\n⚖️ Fair is fair\n• Gemini ran through OpenRouter, but inside opencode (a coding agent like Claude Code), not a chat window. It had the whole project folder and the same tools Opus had: read and write files, run commands, render, look at its own frames, use helper agents.\n• GPT-6 Astra had the same setup inside Codex, OpenAI's own tool.\n• Opus built its version last week in Claude Code, and it had a 15-second test round that I reviewed. Gemini and GPT got 1 prompt, no feedback.\n• The song literally says \"Opus five point five\", and Gemini named its terminal window \"Claude Opus 5.5\".\n\n📊 The numbers\nGemini 4 Argon: about 63 minutes, 179 model calls, $9.87 paid on OpenRouter (about $1.60 of that was lost to a bug in opencode, not Gemini). That's Argon's launch price; it's set to double later.\nGPT-6 Astra: about 23 minutes of work, 116 calls. It ran on ChatGPT Plus ($20/month), hit the Plus limit halfway, and I paid $5.61 on OpenRouter to finish.\nClaude Opus 5.5: about 1 h 15 min for the final build (4 helpers building 4 scenes at the same time), plus a 50-minute test round. About 544 calls. It ran on Claude Max ($200/month), so $0 on top: about 5% of my weekly limit, roughly $2.30 of the plan.\n\n✏️ Corrections\n• 2:17 I say \"50 second test round\". It was a 15-second test round (it took about 50 minutes).\n• 4:24 and 6:12 I say GPT cost \"around $11\". That's what the Plus half would have cost at API prices. What I actually paid on top of my Plus plan was $5.61.\n• 7:11 I say Argon's lava lamp cost \"80 cents\". It was 18 cents.\n\n🐦 The side-by-side videos from X (all launch-day tests)\nGummy bears, Opus 5.5 vs Argon (Opus $7.20, Gemini $22): https://x.com/semichenkko/status/2110131790136401989\nVoxel pelican on a jet, Argon vs Opus 5.5 (Opus on Medium): https://x.com/VulKan42069/status/2110029722046631985\nPixel-art night scene, Argon vs GPT-6 Astra (a company that sells model access): https://x.com/AiHubMix/status/2110027719476199856\nLava lamp, 6 models (Argon $0.18 in under 2 min, Opus $1.27 in 9 min 35 s): https://x.com/bridgemindai/status/2110050421184360718\nPixel-art city, Opus vs Argon (Argon ran in Devin, which has it at 75% off for now): https://x.com/notjazii/status/2110073240404271335\n\n⏱️ Chapters\n0:00 Which AI is the best at motion graphics?\n0:35 The setup\n1:29 Fair is fair\n2:30 Gemini 4 Argon\n3:34 GPT-6 Astra\n4:26 Opus 5.5\n5:33 The same shots from all three\n5:49 The numbers side by side\n6:14 What people on X are sharing\n7:43 You're the judge\n\n🙏 We just passed 6,000 subscribers. The growth these past few days has been insane, thank you. I'll keep giving as much value as I can.\n\n💬 You've seen all 3 and you've got the numbers. Which one won? And does the price change your answer? Tell me in the comments.\n\n🔔 Subscribe, I drop weekly skills for free. See you in the next one.\n\n#claude #gemini #motiongraphics\nclaude opus 5.5, opus 5.5, gemini 4 argon, gemini argon, gpt-6 astra, gpt 6 astra, opus vs gemini, opus vs gpt, gemini vs claude, claude vs gpt, best ai for motion graphics, ai motion graphics, motion graphics ai, ai music video, ai animation, same prompt ai test, ai model comparison, claude code, opencode, codex, openrouter, hyperframes, ace-step, higgsfield, gummy bear test",
+  "chapters": [
+    {
+      "start_time": 0.0,
+      "title": "Which AI is the best at motion graphics?",
+      "end_time": 35.0
+    },
+    {
+      "start_time": 35.0,
+      "title": "The setup",
+      "end_time": 89.0
+    },
+    {
+      "start_time": 89.0,
+      "title": "Fair is fair",
+      "end_time": 150.0
+    },
+    {
+      "start_time": 150.0,
+      "title": "Gemini 4 Argon",
+      "end_time": 214.0
+    },
+    {
+      "start_time": 214.0,
+      "title": "GPT-6 Astra",
+      "end_time": 266.0
+    },
+    {
+      "start_time": 266.0,
+      "title": "Opus 5.5",
+      "end_time": 333.0
+    },
+    {
+      "start_time": 333.0,
+      "title": "The same shots from all three",
+      "end_time": 349.0
+    },
+    {
+      "start_time": 349.0,
+      "title": "The numbers side by side",
+      "end_time": 374.0
+    },
+    {
+      "start_time": 374.0,
+      "title": "What people on X are sharing",
+      "end_time": 463.0
+    },
+    {
+      "start_time": 463.0,
+      "title": "You're the judge",
+      "end_time": 508
+    }
+  ]
+}
