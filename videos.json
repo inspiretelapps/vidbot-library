@@ -9,8 +9,104 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-14T06:03:50+02:00",
+  "updated_at": "2026-10-15T06:04:09+02:00",
   "videos": [
+    {
+      "id": "cA3_8D1NiUU",
+      "title": "What Is The Best Model For Motion Graphics (Tested)",
+      "channel": "Jad M.H  | AI Automation",
+      "upload_date": "20261014",
+      "thumbnail": "https://i.ytimg.com/vi/cA3_8D1NiUU/maxresdefault.jpg",
+      "description": "✅Higgsfield Promo: https://higgsfield.ai/s/katana-inside-claude-yt-jadm-h-xUOkwW\n\nWhich AI is the best at motion graphics? I gave Claude Opus 5.5, Gemini 4 Argon and GPT-6 Astra the exact same job: the first 30 seconds of a music video. Same song, same lyrics, same shot list, same images, same prompt. I show you what each one made, how long it took and what it cost. You're the judge 👇\n\n🎁 Free skills every week in my Skool: https://www.skool.com/nextphase-5790\nStuck setting one up? We now run free weekly calls in the Skool to help you.\n\n🧪 The setup (the same for all 3)\n• Song: made locally with ACE-Step, $0\n• Images and clips: Nano Banana, Kling and Higgsfield\n• Rendered with HyperFrames (open source) on my Mac\n• The same prompt word for word, the same shot list, the same skills\n• Each model did the design, effects, code, self-checks and final render on its own. The only message I sent was the same \"keep going\" when the tool paused.\n\n⚖️ Fair is fair\n• Gemini ran through OpenRouter, but inside opencode (a coding agent like Claude Code), not a chat window. It had the whole project folder and the same tools Opus had: read and write files, run commands, render, look at its own frames, use helper agents.\n• GPT-6 Astra had the same setup inside Codex, OpenAI's own tool.\n• Opus built its version last week in Claude Code, and it had a 15-second test round that I reviewed. Gemini and GPT got 1 prompt, no feedback.\n• The song literally says \"Opus five point five\", and Gemini named its terminal window \"Claude Opus 5.5\".\n\n📊 The numbers\nGemini 4 Argon: about 63 minutes, 179 model calls, $9.87 paid on OpenRouter (about $1.60 of that was lost to a bug in opencode, not Gemini). That's Argon's launch price; it's set to double later.\nGPT-6 Astra: about 23 minutes of work, 116 calls. It ran on ChatGPT Plus ($20/month), hit the Plus limit halfway, and I paid $5.61 on OpenRouter to finish.\nClaude Opus 5.5: about 1 h 15 min for the final build (4 helpers building 4 scenes at the same time), plus a 50-minute test round. About 544 calls. It ran on Claude Max ($200/month), so $0 on top: about 5% of my weekly limit, roughly $2.30 of the plan.\n\n✏️ Corrections\n• 2:17 I say \"50 second test round\". It was a 15-second test round (it took about 50 minutes).\n• 4:24 and 6:12 I say GPT cost \"around $11\". That's what the Plus half would have cost at API prices. What I actually paid on top of my Plus plan was $5.61.\n• 7:11 I say Argon's lava lamp cost \"80 cents\". It was 18 cents.\n\n🐦 The side-by-side videos from X (all launch-day tests)\nGummy bears, Opus 5.5 vs Argon (Opus $7.20, Gemini $22): https://x.com/semichenkko/status/2110131790136401989\nVoxel pelican on a jet, Argon vs Opus 5.5 (Opus on Medium): https://x.com/VulKan42069/status/2110029722046631985\nPixel-art night scene, Argon vs GPT-6 Astra (a company that sells model access): https://x.com/AiHubMix/status/2110027719476199856\nLava lamp, 6 models (Argon $0.18 in under 2 min, Opus $1.27 in 9 min 35 s): https://x.com/bridgemindai/status/2110050421184360718\nPixel-art city, Opus vs Argon (Argon ran in Devin, which has it at 75% off for now): https://x.com/notjazii/status/2110073240404271335\n\n⏱️ Chapters\n0:00 Which AI is the best at motion graphics?\n0:35 The setup\n1:29 Fair is fair\n2:30 Gemini 4 Argon\n3:34 GPT-6 Astra\n4:26 Opus 5.5\n5:33 The same shots from all three\n5:49 The numbers side by side\n6:14 What people on X are sharing\n7:43 You're the judge\n\n🙏 We just passed 6,000 subscribers. The growth these past few days has been insane, thank you. I'll keep giving as much value as I can.\n\n💬 You've seen all 3 and you've got the numbers. Which one won? And does the price change your answer? Tell me in the comments.\n\n🔔 Subscribe, I drop weekly skills for free. See you in the next one.\n\n#claude #gemini #motiongraphics\nclaude opus 5.5, opus 5.5, gemini 4 argon, gemini argon, gpt-6 astra, gpt 6 astra, opus vs gemini, opus vs gpt, gemini vs claude, claude vs gpt, best ai for motion graphics, ai motion graphics, motion graphics ai, ai music video, ai animation, same prompt ai test, ai model comparison, claude code, opencode, codex, openrouter, hyperframes, ace-step, higgsfield, gummy bear test",
+      "duration_seconds": 508,
+      "url": "https://www.youtube.com/watch?v=cA3_8D1NiUU",
+      "summary": "Decision and test design · 00:00 / 00:35: Jad compares Claude Opus 5.5, Gemini 4 Argon and GPT-6 Astra on the first 30 seconds of one music video, supplying the same song, timed lyrics, shot list, images, prompt and skills. He says each agent handled design, effects, code, self-checks and rendering, with only identical 'keep going' messages from him. The song was made locally with ACE-Step for $0, while assets came from Nano Banana, Kling and Higgsfield and rendering used HyperFrames on his Mac. This is a first-hand project comparison, not an independently scored benchmark or a demonstration that all asset production was free.\n\nFairness limits · 01:29: Gemini used OpenRouter inside OpenCode with project-folder access, commands, rendering, frame inspection and helper agents; GPT used Codex and Opus used Claude Code. However, Opus had already received feedback on a preliminary test, whereas Gemini and GPT received one prompt with no feedback, and the song itself names Opus. The creator description corrects the spoken '50-second test round' to a 15-second test that took about 50 minutes. Shared inputs make the comparison useful, but different agent environments and unequal prior iteration prevent isolating model quality cleanly.\n\nSpeed and cash outlay · 02:30 / 03:34: Jad reports Gemini produced five scenes in about 63 minutes and 179 calls, costing $9.87 on OpenRouter; the description clarifies that about $1.60 was wasted by an OpenCode bug rather than Gemini, and that Argon's launch pricing was due to double. GPT produced four scenes in about 23 minutes and 116 calls, the shortest reported work time. It exhausted his $20/month ChatGPT Plus allowance partway through: although the narration says about $11, the description corrects the additional cash payment to $5.61 on OpenRouter and explains that the earlier figure represented an API-price estimate for the Plus portion. Neither figure is a complete, directly comparable per-video production cost.\n\nOpus and the comparison reel · 04:26 / 05:33 / 05:49: Opus built four scenes with four parallel helpers; Jad reports about 1 hour 15 minutes for the final build, a separate 50-minute preliminary test, and about 544 calls overall. He used Claude Max at $200/month, reporting no additional payment and about 5% of his weekly allowance; his roughly $2.30 plan allocation is an estimate, not an API bill or a free run. He then shows matching shots and recaps the numbers, leaving the aesthetic ranking to viewers. The practical trade-off in his evidence is GPT's shorter work time versus Opus's higher iteration and call count, not proof that one model is always cheapest or visually best.\n\nOutside examples and final verdict · 06:14 / 07:43: Jad reviews other people's launch-day X comparisons involving gummy bears, a voxel pelican, pixel-art scenes and a lava lamp; these are reported demonstrations, not his own controlled tests. He questions Gemini's competitiveness on the gummy-bear example, but also cites work where Argon was faster or visually similar, flags a model-access vendor's promotional interest, and notes a temporary 75% Devin discount. His description corrects the lava-lamp Argon price from 80 cents in the narration to 18 cents. He ultimately says he will stick with Opus 5.5 while inviting viewers to choose their own winner; his expectation of a better future Anthropic model is speculation, not a tested result.",
+      "why_valuable": "GPT-6 Astra had the shortest reported work time here: about 23 minutes versus Gemini's 63 minutes and Opus's 1 hour 15 minutes plus a preliminary test, yet Jad still prefers Opus. Use this comparison to choose which motion-graphics agent to trial against your own visual standard and budget, not to declare a universal winner. The corrected GPT top-up was $5.61, and Opus's $0 extra payment relied on a $200/month plan; unequal feedback, different agent tools and launch discounts make headline price rankings unreliable.",
+      "key_takeaways": [
+        "00:35–01:27: All three agents received the same creative assets, prompt and skills and were responsible for self-checks and final rendering. The $0 claim applies to the locally generated ACE-Step song, not to every asset or the complete production workflow.",
+        "01:29–02:29: This is not a clean model-only benchmark: Gemini ran in OpenCode, GPT in Codex and Opus in Claude Code. Opus also had a reviewed 15-second preliminary test, clarified in the creator description, while the other two received no feedback.",
+        "03:12–03:33: Jad reports Gemini used about 63 minutes and 179 calls for $9.87. The description clarifies that roughly $1.60 was lost to an OpenCode bug and warns that the cited Argon launch price was due to double.",
+        "04:13–04:25: GPT's reported 23 minutes and 116 calls make it the fastest of these runs. The description corrects the narrated roughly $11 figure: the extra cash paid after the Plus limit was reached was $5.61 on OpenRouter, on top of the $20/month plan.",
+        "05:02–05:31: Opus used four parallel helpers, about 1 hour 15 minutes for the final build, a separate 50-minute test and about 544 calls overall. No additional payment meant usage within a $200/month Max subscription, not zero economic cost.",
+        "05:33–06:13: Matching-shot playback lets viewers compare aesthetics, but the recap mixes subscription allowance, cash API charges and an estimate later corrected in the description. Re-run a representative job under your own billing arrangement before choosing a model on cost alone.",
+        "06:14–07:42: The X examples are other people's launch-day demonstrations and show mixed results, with vendor incentives and a temporary 75% Devin discount flagged. The creator description corrects Argon's lava-lamp price from the narrated 80 cents to 18 cents.",
+        "07:43–08:22: Jad's personal verdict is to stay with Opus 5.5, not to award an objectively measured universal winner. He invites viewers to judge the outputs themselves and closes with free weekly skill-setup help; claims about a future Anthropic model remain conjecture."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Which AI is the best at motion graphics?",
+          "description": "Jad gives Opus 5.5, Gemini 4 Argon and GPT-6 Astra an identical brief for the first 30 seconds of a music video, including the song, lyrics, shot list and images. He promises to show each result alongside time and cost, then review reactions on X, explicitly leaving the winner to viewers rather than presenting a scored ranking.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 35,
+          "timestamp": "00:35",
+          "title": "The setup",
+          "description": "The song is generated locally with ACE-Step for $0, with imagery and clips supplied through Nano Banana, Kling and Higgsfield and the final video rendered in HyperFrames on his Mac. Jad says each model receives the same prompt and skills and must design, code, inspect and render its own result, apart from identical continuation messages when an agent pauses. The included Higgsfield promotion is separate from evidence about model performance, and the free song does not establish a free end-to-end workflow.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 89,
+          "timestamp": "01:29",
+          "title": "Fair is fair",
+          "description": "Gemini runs through OpenRouter inside OpenCode, with full project access and tools for file edits, commands, rendering, frame inspection and helper agents, while GPT runs in Codex. Jad acknowledges that Opus had a previously reviewed test and that the song names Opus, whereas the other two got a single prompt without feedback; the creator description corrects his spoken test length to 15 seconds, taking about 50 minutes. These asymmetries matter because matching assets and prompts does not make the model environments or prior iteration identical.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 150,
+          "timestamp": "02:30",
+          "title": "Gemini 4 Argon",
+          "description": "Jad says the agent divides the piece into five scenes, beginning with eyes and a cursor, and plays its music-video result before discussing resource use. He reports about 63 minutes, 179 model calls and $9.87 paid through OpenRouter; the description clarifies that roughly $1.60 was wasted by an OpenCode bug, not the model. He also warns that Argon's launch price was due to double, so this bill is not a stable long-term cost benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 214,
+          "timestamp": "03:34",
+          "title": "GPT-6 Astra",
+          "description": "The agent produces four scenes with an eye opening and particles, and Jad plays the output before praising its approximately 23-minute work time and 116 calls. He says it ran on his $20 ChatGPT plan and hit its limit partway through; although the narration quotes around $11, the creator description corrects the extra cash payment to $5.61 on OpenRouter and identifies the earlier figure as an API-price estimate for the Plus portion. The run is therefore useful evidence of his observed speed, but not of a simple all-in $11 production cost.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 266,
+          "timestamp": "04:26",
+          "title": "Opus 5.5",
+          "description": "After playing the four-scene result, Jad reports that four helper agents built the scenes in parallel, with about 1 hour 15 minutes for the final build and a separate 50-minute test of a 15-second version. He gives about 544 calls overall, no extra payment beyond his $200/month Claude Max subscription and roughly 5% of his weekly allowance, estimating a $2.30 share of the plan in the creator description. That distinguishes subscription usage from an API charge and makes its headline $0 figure unsuitable for direct comparison with pay-as-you-go bills.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 333,
+          "timestamp": "05:33",
+          "title": "The same shots from all three",
+          "description": "Jad switches from separate model demonstrations to playback of matching shots so viewers can compare the treatment of the same music and lyrics directly. He offers no new numerical quality score or narrated aesthetic verdict during the reel, making this a visual comparison for the audience rather than additional benchmark evidence.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 349,
+          "timestamp": "05:49",
+          "title": "The numbers side by side",
+          "description": "The recap puts Opus's roughly 1 hour 15 minute final build and 50-minute test alongside Gemini's 63 minutes and GPT's 23 minutes, while contrasting Max-plan usage with Gemini's $9.87 cash bill. Jad repeats the roughly $11 GPT figure that the creator description later corrects to $5.61 in additional OpenRouter payment. The time comparison favors GPT in this project, but the mixed subscription and API accounting prevents treating the displayed amounts as equivalent all-in prices.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 374,
+          "timestamp": "06:14",
+          "title": "What people on X are sharing",
+          "description": "Jad surveys launch-day posts featuring gummy bears, a voxel pelican on a jet, pixel-art scenes and a six-model lava-lamp comparison, questioning Gemini's gummy-bear result while also citing cases of faster or similar-looking Argon output. He flags that one source sells model access and that Devin temporarily discounts Argon by 75%, both relevant to interpreting promotional cost claims. The creator description corrects the lava-lamp Argon price from the narrated 80 cents to 18 cents; these are third-party reports rather than additional tests he performed himself.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 463,
+          "timestamp": "07:43",
+          "title": "You're the judge",
+          "description": "Jad invites viewers to choose a winner from the demonstrated outputs and costs, then says he personally will stay with Opus 5.5. His expectation that Anthropic will release something better is a prediction, not another test result, and he closes by thanking viewers and offering free weekly community calls to help with skill setup. The ending makes his preference explicit without converting this single project into a universal model ranking.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-15T06:00:35+02:00",
+      "summarized_at": "2026-10-15T06:04:09+02:00"
+    },
     {
       "id": "7jHXoPGnA4c",
       "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
