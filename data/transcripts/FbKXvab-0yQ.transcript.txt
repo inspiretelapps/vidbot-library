@@ -1,0 +1,1683 @@
+0:00 My name is David Andre and I'm happy to
+0:01 introduce Cloud Room. Cloud Room is a
+0:03 new breakthrough in cloud agents that
+0:05 allows anybody to run any harness, any
+0:08 model with your existing subscriptions
+0:10 for cloud agents. And not only that,
+0:12 each cloud agent gets its own isolated
+0:15 sandbox and it's fully open source on
+0:18 GitHub and you can use it for free.
+0:20 We're releasing the free plan today.
+0:22 We'll see how the capacity goes, but you
+0:24 can also self-host it. You can fork it.
+0:26 You can insp have your own agent inspect
+0:28 the code. Again, it's fully open source
+0:31 with free tier cloud agents, the first
+0:33 one in the world. And let me just show
+0:35 you how powerful this could be because
+0:37 giving each agent its own computer means
+0:40 you can scale infinitely and these
+0:42 agents keep working even when your
+0:43 laptop runs out of battery or you just
+0:45 close it. So this is what cloud room
+0:48 looks like. The core thing is you can
+0:50 choose either local local workree or
+0:53 cloud, right? So, it's up to you where
+0:55 you launch each agent. And let me just
+0:58 show you how easy it is. Launch five
+1:00 different agents, each one with a
+1:02 different harness and different model,
+1:04 and ask them what machine are they on.
+1:06 Launch all of them as cloud threats.
+1:09 Boom. I'm also going to do a new thread
+1:11 to show you the ease of launching many
+1:14 sub agents, right? Launch 25 sub aents
+1:18 underneath you. Each one using haiku
+1:20 5.5. and tell them to look for different
+1:24 small bugs in different parts of the
+1:25 codebase, but tell them to not make any
+1:27 changes yet. Right? So on the left, look
+1:29 how fast that was. This um open 5.5 high
+1:33 just launched multiple agents just like
+1:35 that. And if we click through them, you
+1:36 can see this is a cloth code, this one's
+1:38 Hermes, this one's open code, this one's
+1:41 pi agent, and this one is um codex with
+1:44 Astra, right? So you can use any your
+1:47 favorite harness, right? whatever you're
+1:49 already using your existing
+1:50 subscriptions there's no extra pay for
+1:53 tokens whether it's cloth code cursor
+1:55 codeex spy agent hermes open code FX a
+1:59 grog build or any other harness we
+2:01 support ACP as well you can use all of
+2:03 these and not only that you can use them
+2:05 in the cloud so I can say what machine
+2:07 are we on just to see that we're not on
+2:11 my MacBook here and this is going to
+2:13 launch a cloud thread and look how fast
+2:14 that is within like two seconds the
+2:17 agent is responding and boom We're on a
+2:18 cloud room, cloud sandbox, right? We've
+2:20 put a lot of work to make this as fast
+2:23 as local and I really believe this is
+2:25 the best solution for cloud engines. And
+2:28 look at that. It's launching 25
+2:29 different Hiku sub engines and each of
+2:31 these is in its own isolated sandbox.
+2:33 Let me just show that to you. If I
+2:35 reload, boom, you can see that I have 38
+2:37 agents running. Each of these is the own
+2:39 sandbox. I just have the privacy mode
+2:41 turned on so you guys don't see the name
+2:43 threads, but we can see the thread names
+2:45 here and you can see the models, right?
+2:46 So some of these are sold, open 5.5,
+2:48 high 5.5. So all of these are are the
+2:50 agents that are running for me. And this
+2:52 is just scratching the surface of what
+2:54 cloud room can do. And by the way, this
+2:57 is available right now. So as I
+2:59 mentioned, depending on capacity, I'll
+3:00 be releasing access to more and more
+3:02 people. But the free plan is available
+3:04 today. So go to cloudroom.dev. It's also
+3:07 going to be the first link below video.
+3:08 And uh make sure to download the app.
+3:10 And again, you can use it completely
+3:12 unlimited or local just like any app. So
+3:15 whether you're using codeex or claw
+3:17 desktop or something else, you know,
+3:19 cursor, all of these agents, your
+3:21 existing subscriptions are here. You can
+3:22 already use them. Um, so yeah, and by
+3:25 the way, the same same thing works the
+3:27 other way. I can say make sure to stop
+3:28 all of these agents and archive their
+3:31 threats.
+3:33 Everything is agent first. They can
+3:35 modify, they can update, archive,
+3:36 rename, move them from local to cloud.
+3:39 More on that later. You can control
+3:41 everything with plain English. All
+3:43 right. So
+3:46 let me explain why cloud room is
+3:48 different from all the existing cloud
+3:50 agent solutions because there is like
+3:53 you know cursor cloud or codex cloud but
+3:55 there's many issues with them. First of
+3:57 all, they only let you use their own
+3:59 harness, right? So, Enthropic is never
+4:01 going to let you bring COX harness or PI
+4:03 agent. Same thing with cursor. You need
+4:05 to use cursor or or Grog build. You
+4:07 cannot use CEX. You cannot use Hermes.
+4:11 You can use OM. You cannot use your
+4:14 favorite models harnesses and
+4:16 subscriptions with these existing cloud
+4:18 agent solutions. All of them are closed
+4:20 source. None of them is open source.
+4:22 Cloudroom is the first one.
+4:25 Also, Cloud Room is the only AI coding
+4:27 tool that gives you an isolated sandbox
+4:29 for every threat. Right? So, as I'm
+4:31 showing you here, these are different
+4:33 sandboxes. These are different Linux
+4:35 VMs. Each agent running in his own
+4:38 computer, completely isolated from the
+4:40 other ones, which means you can scale
+4:42 infinitely whether it's 38 agents, 380,
+4:45 3,800.
+4:47 Obviously, we're going to see where the
+4:48 power users take it. There are limits on
+4:50 the free plan, but the paid plans can do
+4:52 much, much more.
+4:55 So, we're the only AI coding tool that
+4:57 gives you an isolated sandbox for every
+4:59 threat, which already is a major
+5:00 breakthrough. But the reason why I'm
+5:02 calling it a breakthrough is that Cloud
+5:03 Room is the world's first software where
+5:06 you can do that on a free plan. You get
+5:09 cloud agents on the free plan, each one
+5:10 of its own isolated VM. Now, let me
+5:13 explain why this matters, right? It
+5:15 might not be obvious to you if you
+5:16 haven't been like deep in the field, but
+5:18 isolated sandboxes are like the obvious
+5:21 best architecture for cloud agents.
+5:24 A lot of people try to squeeze
+5:26 everything onto like a Mac Mini or a
+5:27 single VPS or stuff like that or maybe a
+5:29 sec second computer. Let's say you have
+5:30 a old laptop at your home. There's many
+5:33 issues with that. First of all, um
+5:37 infinite
+5:38 scalability can only be achieved when
+5:40 you give each agent its own computer. If
+5:43 you have, let's say, a Mac Mini, sure it
+5:45 can maybe handle five agents, 10 agents,
+5:47 but all of us are using more agents
+5:50 today than we used a year ago. And it's
+5:53 doesn't take a genius to realize how
+5:55 fast AI is improving. So me and you, we
+5:58 are using more agents today than 12
+5:59 months ago. And by pure logic, we will
+6:01 be using a lot more agents 12 months
+6:04 from now than we are today. So if you
+6:06 buy a certain piece of hardware, what if
+6:07 you need that plus 20%. Well, you cannot
+6:11 run that on that hardware and you're
+6:12 limited, right? Also running these in
+6:15 isolated sandboxes gives you a much
+6:16 better security because if one of these
+6:18 uh VMs uh you know maybe the agent gets
+6:20 prompt injected or downloads some
+6:22 harmful package whatever you really
+6:24 don't want that agent to be on your main
+6:26 computer if it's in an isolated sandbox
+6:28 only that specific agent can get
+6:30 compromised. It's much better for
+6:31 security and uh yeah you need certain
+6:36 isolated walls so that you know agents
+6:37 don't interrupt on each other. They
+6:39 don't step on each other's toes. I mean
+6:41 again if you're running one or two um
+6:43 codex instances or cloud code instances
+6:46 it might not be obvious but as soon as
+6:48 you start running five 10 15 you you'll
+6:50 need like okay I need work trees right
+6:52 but even then in work trees all it takes
+6:55 is like one agent you know pushing
+6:57 something to the primary checkout and
+6:59 it's dirty and other agents are
+7:00 struggling or maybe one agent is like
+7:02 running database tests and that's taking
+7:04 up all the resources of your computer.
+7:07 It's not ideal at all when the agents
+7:08 share a single machine and um really if
+7:12 you're doing that you're be betting
+7:13 against the progress of AI and if
+7:15 anything [clears throat] that's one
+7:16 trend in the current world you don't
+7:19 want to be betting against AI getting
+7:21 better it's getting better and the speed
+7:23 of improvements is only accelerating. So
+7:27 this is why isolated sandboxes matters.
+7:30 You can literally launch 100 sandboxes
+7:32 with one prompt inside of Cloud Room. I
+7:34 just showed you how to do that with 25
+7:36 and u yeah it's infinitely scalable. So
+7:39 if you just need 20 agents 30 agents
+7:41 suddenly to deliver a client work or
+7:43 take some opportunity in the stock
+7:45 market you can just do that. If you have
+7:47 hardware that's limited to certain
+7:48 amount you can't. So let me show you the
+7:51 normal usage right because um I don't
+7:53 want to do the fancy demos only. Let me
+7:56 just do it here. Boom. Can archive this
+7:58 and we'll archive all the sub aents as
+8:00 well. So the normal usage you just work
+8:01 in a project right. So right now this is
+8:03 the project which could be a repo, could
+8:05 be a local folder, up to you and again
+8:07 you select local or cloud entirely up to
+8:09 you. You can also change it with
+8:10 keyboard shortcuts. You can there's like
+8:12 keyboard shortcuts for everything. So
+8:13 you can change you know quick to Astra,
+8:15 quick to opus, you can select the
+8:17 reasoning effort. So let me do low, let
+8:18 me do extra high, let me do max or high.
+8:21 If you're on like um GBT like let's say
+8:24 you know Astra, you can do fast.
+8:26 Whatever supports harness supports fast,
+8:28 you can just switch on that very easy.
+8:30 So that's that. And again you can switch
+8:32 to cloud thread just like that and you
+8:34 simply speak your prompts right so you
+8:37 use it as you would do the codex app or
+8:39 the cursor app or cloud desktop ex like
+8:42 if you're already using these switching
+8:44 to cloud room will be so easy so the way
+8:46 I work is like let's say give me change
+8:48 like how we could improve the web app
+8:51 maybe I would like to improve this
+8:54 section to be a bit nicer a bit more
+8:56 custom so that I don't know the color is
+8:58 different based on the color of the
+9:01 harness. Okay, show me four different
+9:03 designs, each one rendered as a real
+9:05 image render.
+9:07 Boom. So, I've just prompted prompted
+9:08 that and it launches a new thread on the
+9:10 left. This one's running in the cloud
+9:11 and you can see on the left which
+9:13 threads are cloud threats and which are,
+9:15 you know, local on my own laptop. Very
+9:17 easy with this icon.
+9:19 Now, another thing as you might have
+9:21 noticed here is teleport. This is
+9:23 another feature we have that I don't
+9:25 think many other softwares have. I don't
+9:27 know if there's any other one that has
+9:29 it to be fair. And that allows you to
+9:31 teleport threats from your Mac from your
+9:33 MacBook to a cloud sandbox and back. So
+9:36 let me just show you.
+9:39 So we're going to start on local and I'm
+9:40 going to do what machine are we on right
+9:43 now.
+9:44 So I'm going to prove it to you, right?
+9:46 The agent will analyze the computer and
+9:48 it's going to say, "Oh, MacBook Pro blah
+9:49 blah blah." And then we're going to run
+9:52 teleport.
+9:56 We're on MacBook Pro. Okay. So now I'm
+9:58 going to right click, teleport to cloud.
+10:00 And you can see this cute little
+10:02 animation teleporting to cloud and the
+10:04 same thread with the same context and
+10:06 everything. Same repo, all the
+10:08 dependencies it needs. It's going to
+10:11 move to a new isolated sandbox in the
+10:13 cloud and continue in there. So let's
+10:15 say you're working for I don't know an
+10:17 hour, 90 minutes on your local and then
+10:19 you need to leave suddenly some
+10:20 opportunity. You need to go to the
+10:21 airport, you need to go cafe and you
+10:23 have your work running, the agents are
+10:25 running and they need to keep running,
+10:26 right? So now we can say check again
+10:29 what computer or machine are we on right
+10:30 now.
+10:33 I mean already answered but I just want
+10:35 to prove it to you for like completely.
+10:37 We're still on a cloud room cloud
+10:39 sandbox not your Mac. See and now we're
+10:41 on the sandbox. And literally within a
+10:43 matter of seconds the entire chat same
+10:46 model same harness everything working in
+10:49 an isolated cloud sandbox. And again
+10:52 each of these threads I really need to
+10:53 stress this. Each of these cloud threats
+10:55 has its own isolated sandbox. Um, yeah.
+10:59 So, why did nobody else do it, right?
+11:02 You might be thinking, "Okay, David,
+11:03 amazing innovation. Why didn't this
+11:06 exist yet?" Like, "How come nobody else
+11:08 figured this out?" Well, first of all,
+11:10 the existing solutions like the big labs
+11:12 and the big companies, they have
+11:14 perverse incentives, right? They're
+11:15 training models. They want all of the
+11:17 data. And any breakthrough or innovation
+11:20 they have, it's closed.
+11:22 fully closed source, no like no openness
+11:25 to other harnesses like even cursor
+11:27 right cursor if you think about it for a
+11:29 long time since like they started you
+11:32 could use any model and that was the
+11:33 benefit of cursor but since the
+11:35 acquisition of SpaceX um SpaceX buying
+11:37 cursor you cannot use GPD models in
+11:39 there right so Astra was the best model
+11:41 for a solid three weeks and you could
+11:43 not could not use it in cursor and
+11:45 that's the problem with these um
+11:47 existing solutions they are not agent
+11:50 agnostic they are not harness agnostic
+11:52 They want you to use their own harness.
+11:54 They're forcing you to pay for their own
+11:56 subscription. They're they're forcing
+11:58 you to use their own harness and use
+11:59 their own GUI even if you might not want
+12:01 to, right? All of us are already paying
+12:03 big money for claw subscription for corx
+12:06 subscription, grock subscription,
+12:08 whatever or open code go, you want to
+12:11 use those tokens. Okay, if you're paying
+12:13 for the tokens, you should be able to
+12:14 use them. And that's the entire vision
+12:15 of cloud. You can use any model, any
+12:18 harness, any inference provider. And
+12:21 number two, so first of all, why nobody
+12:22 else did it? The perverse incentives,
+12:25 right? These labs want to keep
+12:26 everything closed source and they will
+12:27 they will not open source their u infra
+12:30 and definitely not their core of their
+12:32 infra fully on GitHub like we did right
+12:34 now and we're already at 320 stars by
+12:36 the way. And the second reason why
+12:38 nobody else did it is that it's hard.
+12:41 Like it's very hard, right? You can have
+12:43 data loss by having uh so many different
+12:45 sandboxes. And again, this is each of
+12:46 these is basically its own computer,
+12:48 right? If you don't understand what
+12:49 sandbox is, this is a Linux computer
+12:51 running in the cloud with persistent
+12:53 internet connection where the agent has
+12:56 the full computer for himself. Okay, so
+12:59 spinning up hundreds of computers
+13:01 constantly spinning them up and down
+13:02 launching them each one persistent state
+13:05 like it's hard. Okay, data loss can
+13:08 happen if you don't know what you're
+13:09 doing. Speed. If it's like takes you 20
+13:13 seconds to launch a new thread, you're
+13:14 not going to use it. I showed you
+13:15 earlier how fast it is to launch a new
+13:17 cloud thread. We worked very hard to
+13:20 make this like nearly local speed within
+13:23 half a second of launching a local
+13:24 thread. That's how it needs to feel.
+13:26 Sync having all of your repos and all of
+13:30 your API keys synced between your
+13:33 computer and your you know MacBook or or
+13:35 Linux. Right now we have full support
+13:37 for u Mac and Linux. So those are the
+13:39 two operating systems we support fully.
+13:42 Again another thing you need the same
+13:44 you need the same login right so again
+13:45 codex cloud code whatever login you're
+13:47 using in their CLIs you need them usable
+13:50 both on local and in cloud so that's
+13:52 also very hard and by the way you need
+13:54 all of these to work if just one of
+13:56 these doesn't work people are not going
+13:57 to use it right there's a reason why
+14:00 cloud agents have been around for I
+14:01 don't know year or so and most people
+14:03 still haven't migrated and that's
+14:05 because there's friction and all it
+14:07 takes is for one of these to be not
+14:10 optimal and people will not move their
+14:12 work over. So that's what I spent the
+14:13 last five or six weeks doing with Cloud
+14:16 Room working closely with around 25
+14:20 different beta testers literally every
+14:22 day like six to 10 hours every single
+14:24 day just polishing and dockering this
+14:26 product so that all of these are as as
+14:29 good as local that really is the
+14:30 standard. It needs to be as good as
+14:31 local and in fact better because each
+14:33 agent has its own sandbox. So who is
+14:37 cloud room for right? It it's not like
+14:39 comp competing with muse or instinct as
+14:41 a consumer product. Cloudroom is for
+14:44 power users. It's for the serious
+14:46 builders, for entrepreneurs, for people
+14:48 who are already using multiple $200 a
+14:51 month subscriptions. Right? So very
+14:53 simple question you can ask yourself.
+14:54 Are you already paying $200 a month for
+14:57 cloud code and $200 a month for COEX? If
+15:00 you have at least two different $200 a
+15:04 month subscriptions, then Cloud Room is
+15:05 probably for you. This is for people who
+15:07 already understand that the future of
+15:09 agents is cloud agents. Who already
+15:10 understand that soon enough all of us
+15:12 will be running hundreds if not
+15:14 thousands of agents in parallel at the
+15:16 same time. launched by different
+15:17 triggers. Not just, you know, typing
+15:19 manually in the keyboard, but some of
+15:20 them launched by web hooks, some
+15:21 routines, you know, database outages,
+15:23 product improvements, new customers,
+15:25 different hooks, different situations
+15:28 with different harnesses, different
+15:29 conditions, completely independent of
+15:31 the state of your laptop. So, the people
+15:33 who already understand that cloud
+15:34 regions are the future and are already
+15:36 power users of multiple $200 a month
+15:39 plans,
+15:41 this is who I built Cloud Room for. So
+15:45 my job is not to convince you that cloud
+15:46 agents are the future. It's going to be
+15:48 obvious to everybody over the next 6 to
+15:50 12 months. The thing is if you're that
+15:53 person who has multiple plans and by the
+15:56 way that's another thing we can touch
+15:57 on. It's very easy switching between
+15:59 multiple plans. U here you can see the
+16:01 provider usage between your different
+16:03 subscriptions and you can see you can
+16:04 easily switch between multiple plans. So
+16:06 here I have two different uh cloth code
+16:09 plans and I can switch between them
+16:10 because I just hit the limit on the 100.
+16:13 Uh so I hit I switch to my main 200 and
+16:16 I can continue on there. You can see
+16:18 your limit and uh yeah so that's who
+16:21 cloud room is for
+16:24 and those who really want to be at the
+16:25 frontier of AI and want to maximize the
+16:27 amount of agents they're using. So again
+16:30 you can go to cloudroom.dev dev. Start
+16:32 for free, you know, try to push it to
+16:34 the limits. Once you need more agents,
+16:36 you know, you can see the differences on
+16:37 the pricing page. Start with the pro
+16:40 plan or get to the ultra plan if you
+16:42 want direct access to me and my team.
+16:44 Everybody on the ultra plan gets a
+16:45 dedicated Slack channel with direct
+16:47 access to me. So, you can shape the
+16:49 product. You can report any bugs,
+16:50 features, we'll fix it like within a
+16:52 couple of hours. So, that's who
+16:53 Cloudroom is for. Now, why is the future
+16:57 of agents in the cloud, right? Again,
+16:58 this might not be obvious. Well, you
+17:00 have to think about the shifting usage
+17:01 patterns like not all of us are uh using
+17:05 agents at the frontier. So if you think
+17:08 about a year like year back or six
+17:10 months back all of our agent usage was
+17:13 basically like this analyze this repo
+17:15 and build a feature, right? You're just
+17:17 prompting an agent and this is like you
+17:19 one at a time unblocking one agent at a
+17:21 time and that's not scalable at all.
+17:22 Like literally here I have like let me
+17:25 just ask use room CLI and tell me how
+17:28 many open um agents open agent threats I
+17:32 have inside of /code/cloud room right
+17:34 now. Answer in short don't leak any
+17:37 private stuff. I'm recording a YouTube
+17:38 video. I'm actually curious how many
+17:40 agents I have right now. And that will
+17:42 make you understand you cannot be
+17:44 unblocking them one at a time. It's
+17:46 possible if you have like five agents
+17:48 maybe 10 but as soon as you go beyond 20
+17:50 or 30 you you can go crazy right trust
+17:53 me I tried uh right now I have 201 open
+17:56 threats right so we need different
+17:59 solutions we need different ways agents
+18:01 are started and the way we use today lab
+18:05 um agents on the laptop is not going to
+18:08 be the same as in 6 months in 12 months
+18:10 in 18 months mainly the way agents are
+18:13 started are not going to be by humans
+18:15 because can I think it's like the don
+18:17 donb bar number where like you can only
+18:18 remember 150 things right so that's like
+18:21 15 or 150 people in your life it's
+18:23 similar with the agents like after you
+18:25 go beyond you know 50 or 100 you can
+18:28 completely lose track of like what was
+18:30 this thread like what was I doing in
+18:31 this thread and by the way in cloud room
+18:33 we have features like purpose where you
+18:35 can hover over the name and see the
+18:36 purpose of the thread and what
+18:38 percentage it was done again I think
+18:40 pretty I'm very certain we're the only
+18:43 AI coding tool in the world that has
+18:45 because I literally built it like two
+18:46 days ago. But uh that's one thing right
+18:49 shifting usage patterns in the future
+18:52 most of our agents will be launched by
+18:53 themselves or by some trigger or by some
+18:55 event by by some rule by some
+18:57 instruction by a software factory we've
+18:59 built by a gentic loop we have running
+19:01 not by you and me unblocking each agent
+19:04 and one I mean think about a company
+19:05 with like 5,000 developers. You think
+19:07 the CEO is telling each of those
+19:10 programmers one by one what to do? Of
+19:12 course not. There's multi- layered
+19:14 management structure. Some of these
+19:16 people are selfarters. Some of them are
+19:18 are like their work gets started by a
+19:20 customer feedback and stuff like that.
+19:22 Same thing will be by agents. Everything
+19:24 in the AI field so far has been
+19:28 has been kind of inspired by the human
+19:31 brain and by people, right? Neural
+19:33 networks literally inspired by the human
+19:35 brain. And that's the same thing is
+19:37 going to be with uh multi- aent
+19:39 management. Once we're running thousands
+19:40 of agents, you're not going to be
+19:42 unblocking each one at a time. Some of
+19:44 these are going to get reviewed
+19:44 automatically by a different agent. Some
+19:46 of these are going to get launched by
+19:48 like a manager or like a director agent.
+19:50 Some of them will just get selfarted,
+19:52 analyze some state of your database or
+19:54 health of the system and then self
+19:56 archive, right? There's going to be
+19:58 completely different usage patterns in
+19:59 the future. And for that, you need a
+20:01 persistent environment, something that's
+20:03 running always and has a stable internet
+20:05 connection, fast internet connection. In
+20:07 fact, all of these uh sandboxes have
+20:10 like 10 GB or 15 Gbit per second. So,
+20:13 extremely fast internet connection and
+20:15 like 99.99% uptime basically where it's
+20:19 always available, right? Your agents
+20:20 need to be always available because as
+20:22 your agents are doing more tasks in your
+20:24 life and business, you cannot have
+20:27 agents not running and if they're on
+20:28 your laptop, how common is it your
+20:30 laptop is out of battery or you need to
+20:31 close it to go somewhere or you go to a
+20:33 cafe and the Wi-Fi is trash? can happen
+20:35 all the time and it happens to me every
+20:37 single day and that's why cloud agents
+20:39 are the future especially as more of
+20:41 them u run in software factories and
+20:44 agent loops and again I made a whole
+20:45 video on this like a couple days ago
+20:47 literally two days ago so if you want
+20:48 watch it after this video if you're more
+20:51 interested in software factories so let
+20:54 me show you how easy it is to actually
+20:55 build like a mini software factory or
+20:57 agent loop inside of cloud room because
+20:59 what I showed you so far is the current
+21:01 way of working right so I want to prove
+21:03 it to you this is the best tool in the
+21:05 world at doing agentic engineering
+21:07 today. It's also the best tool for the
+21:10 future. We have what what we call an
+21:11 automation automations but this is
+21:13 really um like agentic engineering. This
+21:17 is like the next era of agentic
+21:20 engineering. So a better word would be
+21:21 like a agent loop or mini software
+21:24 factory where basically you can select
+21:26 different triggers such as I mean these
+21:28 are like running on a schedule.
+21:30 So for example discord slowness monitor
+21:32 checking why my discord is lagging. I
+21:34 don't know started happening today. I
+21:36 just build a simple agent loop for that.
+21:40 Uh uh we have some some of these are
+21:42 paused.
+21:44 Oh yeah, I think because they were
+21:45 launching they were launching like
+21:47 customer information. So I paused it
+21:48 before recording. U but yeah. Okay. This
+21:50 one is interesting. So it scrapes a
+21:52 archive with deep API uh every single or
+21:55 every other day at 8 a.m. launches a new
+21:57 cloud thread. And I can show you how
+21:58 that looks like. So I can run it now
+22:02 and sees what's happening on archive
+22:06 and what is relevant to me. So I have
+22:08 like next to little I have basically no
+22:11 time no extra time. I'm already working
+22:13 from the day I wake up to the day I go
+22:14 to sleep willingly by the way. So please
+22:17 nobody worry about my health or
+22:19 anything. I'm hitting the gym every day.
+22:20 But I want to educate myself and improve
+22:24 myself at the same time. Right? So how
+22:25 do I do this? Will I create an agently
+22:27 loop that checks archive which is you
+22:29 know where the research papers are and
+22:32 sees like what is relevant to me you
+22:34 know what could be something that I'm
+22:35 interested in uh something that could
+22:37 educate me and uh it's running every two
+22:41 days I think that's enough some of these
+22:42 are like security uh issues or like I I
+22:45 can show you how easy is to spin up a
+22:46 new one actually. So let's let's do
+22:48 cloud one because you know these
+22:49 automations also need to be running in
+22:51 the cloud so they always run and I'm
+22:53 going to show you how easy it is to
+22:54 create one because forget about the UI.
+22:56 UI is a thing of the past you know like
+22:57 user interfaces for humans this is not
+23:00 going to be the case everything needs to
+23:01 be controllable in fact explain the room
+23:05 CLI to me and how powerful it is and all
+23:07 the things you can do with it. All right
+23:08 so this agent was started here. This is
+23:10 the from the automation and look it's uh
+23:13 analyzing the archive for this specific
+23:17 uh period last 48 hours I don't even
+23:19 understand it right I build it with an
+23:20 agent so the agent knows what to do and
+23:23 it writes the scripts and the system
+23:24 prompts for that but everything is like
+23:27 CLI first right so room CLI is uh
+23:32 the command line interface we have for
+23:34 agents where they can control everything
+23:36 inside of cloud room so they can spawn
+23:38 more agents schedule work with
+23:39 automations reach my Mac. That's another
+23:41 breakthrough feature that no other
+23:43 coding tool has, giving the cloud agents
+23:46 access to your Mac. So, let's say you
+23:49 forget to attach a file or you told the
+23:51 agent to complete a certain task, but
+23:53 for the agent to complete that task, he
+23:55 needs to check your downloads folder and
+23:56 and get a file from there or get a get a
+23:58 certain repo that's in your in your
+24:00 document or like get a dependency that's
+24:02 only installed on your MacBook, right?
+24:06 Well, most cloud agents products would
+24:08 completely fail. You know, may maybe you
+24:10 have a API key in the enev.local and and
+24:13 you told the agent to like use it to do
+24:14 some research and and you didn't attach
+24:16 it, right? You didn't upload it to to
+24:17 the cloud agent. Most even like plot
+24:21 code, even codeex, even cursor, they
+24:23 would fail completely. Why? Because they
+24:25 don't let the cloud agents access the
+24:27 Mac. Guess what? Inside of cloud room,
+24:29 we have this sorted with this feature
+24:30 where you can control how much access
+24:33 the agents get. So you can either turn
+24:34 it off completely, you can do read only,
+24:36 you can have them ask before changes, or
+24:38 you can go do full access. So if they
+24:40 forget something, if they need to access
+24:42 something from your MacBook, they can do
+24:44 that at the level of, you know,
+24:47 permissions that you decide and yeah,
+24:49 they can also handle secrets and do all
+24:50 that other stuff. So everything is CLI
+24:53 first. So you can build new automations
+24:56 just by talking in plain English. And
+24:57 let me show you that, right? Start a new
+24:59 automation launch that runs every 30
+25:02 minutes and make it use GPD 6.1 soul max
+25:06 fast and have it do security review of
+25:10 all underlying dependencies. Make sure
+25:11 it's a clone automation and make sure it
+25:13 runs on this repo uh every 30 minutes
+25:16 and checks one different dependency of
+25:18 this project to see if there's any like
+25:20 breaches or public exploits or anything
+25:22 like that. Build this automation right
+25:24 now and and make it active.
+25:27 Boom. Just like that. Literally I spoke
+25:29 for like what 20 seconds and it's going
+25:31 to create a new agentic loop a new mini
+25:34 software factory. I mean once you have a
+25:36 lot of agentic loops it really starts to
+25:38 become a software factory right when you
+25:40 have like one or two it's like okay you
+25:42 know it's really agent automations but
+25:44 once you have 10 20 30 and again I have
+25:47 like 40 different ones usually I don't
+25:49 have all of them turned on. usually have
+25:51 like 15 to 20 turned on. At that point,
+25:53 it really is like a mini software
+25:54 factory where a lot of work is just
+25:56 starting completely without me and the
+25:58 agents go and in fact I'm going to
+26:00 upgrade it. Once you build automation,
+26:02 make sure that anytime it runs and it
+26:04 finds something, it spawns a sub agent
+26:06 with a different model. Let's go with um
+26:09 Opus 5.5 extra high through close code
+26:12 harness. And it reviews what it found to
+26:14 see if it's a real issue or if it's just
+26:16 overthinking. And if it's overthinking,
+26:18 just archive both of the threats.
+26:21 Boom. So you can have an automation
+26:23 where it la it launches whatever every
+26:26 30 minutes, every 5 hours, whatever you
+26:28 decide. Right? In the future, we're
+26:29 going to add different support for
+26:30 different triggers. Uh so it's even more
+26:33 configurable, even more advanced.
+26:34 Really, I'm trying to build cloud
+26:36 infrastructure for AI agents. If you're
+26:38 um you know, paying attention this
+26:40 video, you probably realize that. But
+26:43 not just for the current day. What's in
+26:44 the future? Because I'm telling you in
+26:46 the future most agents will not be
+26:48 started by us. We are going to move to
+26:50 higher level of work and we're going to
+26:51 be managing and orchestrating agents. So
+26:53 there it is within what 1 minute 17
+26:55 seconds created the automation. Uh uh uh
+26:58 and started it script list all 220
+27:01 dependencies. Okay. Okay. And then
+27:03 basically it's going to check one of
+27:05 them and it already started here. So
+27:08 it's checking this one dependencies we
+27:09 have axum and it's running soul max
+27:12 running on it. And this is uh another
+27:14 test. So you can see that how it works.
+27:16 It's already working. And this
+27:18 automation will run you know every 30
+27:20 minutes 30 minutes. It's called
+27:22 dependency watch. You can see the
+27:23 harness the model and the reasoning
+27:24 effort here inside of automations. And
+27:27 uh yeah I just created it literally
+27:29 within 20 seconds just speaking in plain
+27:31 English. And that's how you build
+27:33 software. Let me get this straight. It's
+27:35 not about this one thing. It's about
+27:37 building multiple of these, right? And
+27:38 thinking about like how would a 50 times
+27:40 bigger team look in a software company.
+27:44 Well, it would have security
+27:46 researchers. It would have front end
+27:47 engineers. It would have billing testing
+27:50 team. It would have product missing
+27:52 product features, right? It would have a
+27:53 team for performance and and of testing.
+27:56 And by the way, you can see the nested
+27:57 cloud agents. This guy decided to launch
+27:58 the reviewer here with Opus 5.5. And you
+28:01 can see that it was copying the repo
+28:02 from Mac. So much stuff is happening so
+28:04 fast. This is Cloud Room. This is what
+28:07 it feels like to use Cloud Agents. And
+28:09 all of this is running on isolated
+28:11 threads. None of it is touching my
+28:12 computer. I'm completely chilling. I'm
+28:14 recording a 4K video right now with OBS.
+28:16 And and I'm completely chilling right
+28:17 now. It's uh it's not overloading at
+28:20 all. I'm I don't even hear the fans.
+28:22 Why? Because all these agents, they're
+28:24 running in isolated clan boxes, isolated
+28:27 sandboxes in the cloud. You can see
+28:28 right here. Um the ones we started we
+28:30 have awake 34 different agents asleep 42
+28:35 and u yeah just like that very easy to
+28:38 create an automation that's already
+28:41 quite advanced where it launches a
+28:43 frontier model from one um AI lab and
+28:46 then it checks it with another AI lab
+28:49 and if nothing happens it self archives.
+28:51 So it literally can do pen testing,
+28:53 product improvements, you know, user
+28:55 feedback research all without your
+28:57 involvement, right? Only if there's like
+28:59 a serious issue that requires your
+29:00 judgment, you can tell it to um wait for
+29:03 you or you can tell it to fix it. Like
+29:04 if the fix is obvious and clear, you you
+29:06 know, you can tell it when the issue has
+29:08 obvious clear fix like you know when
+29:10 there's a dependency that has been
+29:12 breached and a new version has been
+29:13 patched, make sure to that the main
+29:15 agent fixes it and updates right away
+29:17 and pushes to production. You are fully
+29:20 in control. You can do whatever you want
+29:21 inside of Cloud Room. You can configure
+29:23 it the way you want. That's what I mean.
+29:26 It's for power users. It's for people
+29:27 who want to run the maximum amount of
+29:29 agents and people who really want to be
+29:31 at the cutting edge of AI. So I already
+29:33 talked about how laptop is the
+29:34 bottleneck. So let me just quickly go
+29:36 through it. Office analogy, right?
+29:38 Imagine like as these agents are more
+29:40 and more powerful, it's really like a
+29:42 equivalent to a remote employee. So
+29:44 imagine you hire somebody to your team,
+29:46 to your company, and you you say, "Oh,
+29:48 listen, bro. You're using this computer,
+29:51 and by the way, five other people on the
+29:53 team are using it." Like that person
+29:55 would probably leave on day one. And
+29:57 that's how agents really feel. And by
+29:59 the way, as the models get more
+30:01 powerful, they will need more resources,
+30:04 right? Each model will need more
+30:05 resources of of its own. And especially
+30:08 with computer use, computer use has been
+30:10 making massive progress in the last
+30:11 three or six months. you know, Codex's
+30:13 abil pinating, but even open source
+30:15 solutions like Kua driver or browser
+30:17 harness.
+30:18 Anybody who has used computer use knows
+30:20 how annoying it can be when the agent
+30:22 just does popups or opens some apps or
+30:24 switches the focus of your screen or
+30:26 opens new browser tabs. It can be
+30:28 extremely annoying, but it's also
+30:31 productive because you want these agents
+30:32 to use the browser, to use different
+30:34 apps, right? Well, the solution is give
+30:36 each agent its own computer, aka
+30:39 isolated cloud sandboxes. Also, nobody
+30:42 hosts a website on laptop, right? And a
+30:44 lot of the same same reasons why apply
+30:45 for cloud agents. It's just convenient
+30:47 convenient running them locally, right?
+30:50 With cloud code pioneering this and like
+30:53 tools like agent zero and then codex CLI
+30:55 and Hermes, they just pioneered like the
+30:57 the terminal and it's easy to install
+30:59 it. It's it's complex for somebody to
+31:01 manage like infrastructure for many
+31:03 different users and make it work and
+31:04 make it cheap, right? That's why nobody
+31:06 else did it. That's why nobody else
+31:08 bothered to do it and why nobody else
+31:10 opens sourced it and definitely didn't
+31:12 do it with a free plan, which is, by the
+31:14 way, free forever. And I'm going to work
+31:16 as hard as I can to make this power the
+31:19 free plan as powerful as it can be.
+31:21 Obviously, it's costing me money and
+31:23 it's going to be subsidized by people
+31:24 buying the Pro and Ultra. So, if you're
+31:26 interested in that, please go to
+31:28 cloudroom.dev and do that. But really,
+31:32 there hasn't been any software, any
+31:34 company that's figured this um until
+31:37 today.
+31:38 So, let me explain the differences
+31:41 between working locally in the cloud
+31:42 because it's not black and white, right?
+31:44 I think like a pretty safe prediction is
+31:46 that it's going to be like 9010. 90% of
+31:48 our work, let's say in 6 months will be
+31:51 done in cloud agents and maybe 10% will
+31:53 be done locally, right? Again, depends
+31:55 what type of work you do, what types of
+31:57 tasks you do. So I have people on my
+31:58 team who are literally doing only cloud.
+32:01 They're doing only cloud threats because
+32:03 their work is like more research more
+32:05 more like you know knowledge work type
+32:06 of stuff and they don't need the local
+32:08 ever and they literally have 100% on uh
+32:11 cloud threats inside of cloud room. Now
+32:13 for me as you can see I still use local
+32:14 right because first of all I'm
+32:16 developing cloud room so sometimes I
+32:17 need to fix something and I need to run
+32:19 it as a local thread but it's not going
+32:21 to be you know like there is use cases
+32:24 where local still makes sense right like
+32:26 I don't know maybe you want to do
+32:27 something highly private super private
+32:29 or you want to do it on your own
+32:30 operating system right like maybe like
+32:32 some Xcode development for Mac OS where
+32:34 Apple only restricts it to you know Mac
+32:37 devices only certain situations it it
+32:40 makes sense to run local or like a heavy
+32:42 rendering job and if you have a powerful
+32:43 like Mac Studio or maxed out MacBook
+32:46 Pro, it makes sense to run it on that
+32:48 machine because it's going to be faster
+32:49 than if you run it on the Linux sandbox,
+32:51 right? But literally for 90 maybe even
+32:53 95% of tasks, cloud is better and you're
+32:56 going to feel that as you move some of
+32:57 your work over. And the way to do that
+33:00 is, by the way, one project at a time,
+33:01 right? Don't try to like move everything
+33:03 over to the cloud. You're probably going
+33:04 to be annoyed. You're going to face some
+33:06 friction and it's going to be like a big
+33:08 jump, right?
+33:09 move 10% over 20% over one project, two
+33:12 repos, three repos, and like every week
+33:15 move more and more over and see like wow
+33:17 it's actually it's actually possible
+33:19 right the the the like a lot of people I
+33:22 talked in the very early weeks of
+33:24 building cloud room they thought that
+33:26 their work needed local but actually as
+33:30 I probed more and dug deeper it I
+33:33 realized that like it's only a
+33:34 limitation of existing cloud solutions
+33:36 right whether they used cursor or am or
+33:38 or Devon and they hit some limit and
+33:41 they felt okay well yeah that's the
+33:43 issue with cloud agents no that's the
+33:45 issue with that one implementation of
+33:47 cloud agents right a lot of the reasons
+33:49 why people think they need local just
+33:51 means there hasn't been good enough
+33:53 cloud agent solution so far and actually
+33:55 if there is
+33:57 you can do that work just as well with
+34:00 cloud agents if not better
+34:03 and by the way just to be very clear I'm
+34:05 still highly confident that cloud room
+34:07 is still the best tool for local
+34:09 development as well. Like I'm as I'm
+34:12 showing you, I'm using it on many
+34:13 different um local threads and I'm I'm
+34:15 going to show you like what machine are
+34:18 we on right now.
+34:20 Okay. So I want you to launch 100
+34:22 different sub aents all on local and
+34:25 make half of them codex and half of them
+34:27 cloud code. Uh the codex ones make them
+34:29 use GPT6 Luna and the cloth code ones
+34:32 make them use um haiku 5.5. and just ask
+34:35 them to um research different
+34:38 competitors and just you know
+34:40 say the name of a single competitor but
+34:42 tell them to not make any changes. Don't
+34:45 overthink it. Just launch these 100 sub
+34:46 aents right now below you.
+34:49 Sometimes you got to tell the model to
+34:51 not overthink it, right? So I already
+34:53 demonstrated how much the cloud agents
+34:55 can handle, but let me show you that
+34:58 this is still the most powerful agentic
+35:01 engineering tool, AI coding tool for
+35:02 local development as well. And a big
+35:04 part of that is because we built it on
+35:06 top of BB. So huge shout out of BB and
+35:09 the founder. Great tool. Um after
+35:12 working with it for like a month, month
+35:14 and a half, I decided it's time to fork
+35:15 it and go even faster. But a lot of
+35:17 these foundations are like hardened are
+35:21 fully like I have literally hundreds of
+35:25 hours inside of cursor GUI. And when
+35:28 Fable came out, boom, there it is. Look
+35:31 at this. Okay. So, it launched the first
+35:33 u
+35:35 Oh, it's going. It launched the first uh
+35:38 batches. It's going. It's Yeah, this is
+35:40 this is probably going to be um I'm
+35:42 going to hear the fans soon because
+35:43 again, these are running local. So,
+35:46 they're using my computer's hardware and
+35:48 CPU and GPU. So, uh it's hopefully it
+35:51 doesn't start lagging this recording.
+35:53 But my point is I was using the
+35:54 competitors. I was like hundreds of
+35:56 hours inside of the Codex app and the
+35:58 cursor GI app which are some of the best
+36:01 GIS out there, some of the best
+36:02 experience out there. And uh
+36:07 as soon as I'm just going to tell it to
+36:11 No, actually let me let me finish it.
+36:12 Let's let's finish it. Okay, I think my
+36:14 MacBook can handle it. As soon as I was
+36:16 running more than 15 worksheets inside
+36:18 of Cursor, the app was crashing. I was
+36:20 literally tweeting about this multiple
+36:21 times per day. the cursor GUI was
+36:22 crashing and the team I don't know at
+36:24 the time I think they were focused on
+36:25 Grockbot so they didn't really care that
+36:27 much but there were multiple memory
+36:29 leaks inside of cursor and that's like
+36:32 the most famous most popular AI coding
+36:35 tool right okay so it launched all all
+36:37 of them we can see there's literally 100
+36:40 different sub aents here so I'm going to
+36:42 tell it all right now pause all of them
+36:44 right now just stop them to make sure
+36:46 they're not
+36:49 >> [clears throat]
+36:52 >> Cursor GUI had multiple memory leaks,
+36:54 right? Because it's like a fork of VS
+36:56 Code, so everything is a browser. It's
+36:58 not really optimized for this. A lot of
+37:00 softwares that were built before, you
+37:01 know, really the fable generation and
+37:03 GBD 5.6 and then Astra,
+37:07 they were not built for the volume of
+37:08 agents that people are running. And
+37:10 especially with Opus 5.5 and by the way,
+37:12 Fable 5.5 is just around the corner.
+37:15 we're going to be running even more
+37:16 agents. Opus 5.5 is so fast that any
+37:18 work finishes fast in terms of u
+37:22 how long it took maybe with Astra which
+37:24 is slower right so I already used a lot
+37:27 of these tools and
+37:30 they have issues right so for example
+37:33 cursor the reason I use the cursor GUI
+37:36 is because you could use fable you could
+37:38 use GBD you could use grock you could
+37:40 use any model but then after the
+37:42 acquisition it's no longer the case
+37:43 they're training their own models and
+37:45 now openi banned from using the latest
+37:47 GPT models. So when Astra 6.5 comes out,
+37:50 you cannot use it inside of Cursor,
+37:51 right? If you look at Codex, it's more
+37:54 performant than Cursor Gy, right? Codex
+37:56 app doesn't crash nearly as much as the
+37:57 Cursor Gy does, but the main issue is
+38:00 you can only use GBD models. Right now,
+38:02 Enthropic has the best models. The 5.5
+38:04 series is great. Again, Fable 5.5 is
+38:06 right around the corner. So you cannot
+38:10 use them inside of Codex app. I mean,
+38:12 it's as simple as that, right? Another
+38:13 issue is maybe you use cloud app right
+38:15 again you cannot use cloud models but
+38:18 you can even do stuff like this you
+38:19 cannot use uh you cannot control threads
+38:23 agents cannot control different agent
+38:25 threads inside of cloud desktop who
+38:27 knows why I have no idea but it's not
+38:29 possible and a lot of the early beta
+38:31 testers coming to cloud room were
+38:33 switching away from cloud desktop for
+38:35 this very reason
+38:37 make sure to not launch any more agent
+38:39 of your sub agents and just archive all
+38:41 of them right
+38:42 I think I only told it to stop it and
+38:44 not archive it. Oh yeah, pause all of
+38:46 them. Okay. And by the way, you can do Q
+38:49 make your previous answer simple,
+38:50 simpler and shorter. So you can be
+38:52 queuing messages, right? What day is it
+38:55 today? No problem. Multiple queuing
+38:57 messages. And if you want to present
+38:59 something like by the way, what is my
+39:01 name? Answer in short. Boom. You can do
+39:04 command enter and presend it. Right? So
+39:05 even when my queue is loaded, you can
+39:07 present all of the stuff you know in
+39:09 codex in cursor GI in cloud desktop we
+39:12 have it all. Okay. So I want to make it
+39:14 clear even though cloud is in the name
+39:16 of cloud room and it's fully like cloud
+39:19 first it is still the
+39:22 the best uh agentic engineering tool for
+39:25 local and I'm highly confident in making
+39:26 that statement uh because we've seen
+39:29 that even now with like a small number
+39:32 of beta testers we have like pretty
+39:34 crazy invite rate like literally like 11
+39:37 11 to 15% of users brought a friend and
+39:40 that friend joined right so over like
+39:42 25% % of people invited a friend and
+39:45 between 11 and 15% of pe of those
+39:48 actually joined which is insane for the
+39:50 early product like early stage startup
+39:52 right so
+39:54 again everyone will use cloud regions in
+39:56 the future it's inevitable right you'll
+39:58 either be early adopter and start using
+40:00 them today or you'll try again in six
+40:02 months like the choice is yours and
+40:04 again I want to stress this cloud room
+40:06 is free and open source right you can
+40:08 literally go with the free plan you can
+40:09 even self-host it on your own hardware
+40:11 if you don't want to use a my solution.
+40:13 It's completely fine. Do whatever you
+40:15 want. The architecture is fully open
+40:17 source. Also, the Gy is fully open
+40:18 source. Let me show that as well. Boom.
+40:20 This is the Gy repo. Explaining some of
+40:23 the architecture behind teleport and how
+40:25 that works. Both are fully open source.
+40:27 Apache 2.0 license. So, you can fork
+40:30 them, you can penetration test them, you
+40:32 can do whatever you want with them. And
+40:33 you can start on the free plan and it's
+40:35 going to be free forever plan. Um, and
+40:37 again, there's I'm going to make this
+40:39 clear. I'm going to let people in waves,
+40:41 right? So when you download it, it's
+40:43 going to be um local threats are going
+40:45 to be available right away and then it's
+40:47 going to be probably Q depending on how
+40:48 much the demand is, right? If this video
+40:50 gets 20,000 50,000 views, it's going to
+40:53 be a lot of people coming in. So I need
+40:54 to make sure we have capacity and we let
+40:56 in people gradually. But uh so yeah, it
+40:58 could take a day or two before you get
+41:01 access to cloud threats on the free
+41:02 plan. Obviously, if you want to skip
+41:04 that and get instant access, both of the
+41:06 paid plans give you that. So
+41:10 again, it's free. It's open source and
+41:11 you can self-host it. You can fork it.
+41:13 You can stay on the free plan forever.
+41:15 Let me talk about the architecture a
+41:16 bit. Let's see. Recording for 40
+41:18 minutes. So this is good because it's
+41:19 only for the most technical people at
+41:21 this point. So some of the
+41:23 [clears throat] technical decisions,
+41:24 right? Rust first especially for the
+41:27 core. U you can see 78% of it is in Rust
+41:30 to make it as fast as possible. Memory
+41:31 safe language agents love Rust. So yeah,
+41:34 that was some of the first things I I
+41:37 knew I wanted to do. build it as much in
+41:39 Rust as possible. Also, it's very
+41:41 modular. So, the GUI, the web app, and
+41:43 the core are split into like separate
+41:46 apps, basically separate code bases. Uh,
+41:49 so yeah, I already showed you the core
+41:51 and the GUI. Both are separate GitHub
+41:54 repos.
+41:56 And again, you can actually access this
+41:57 from the from the landing page on
+42:00 cloudroom.dev. Again, it's going to be
+42:01 the first link below the video. I need
+42:03 to drink, guys. I'm speaking for 40
+42:04 minutes straight.
+42:08 So you can access the GitHub here and
+42:10 get started right here and right here.
+42:13 [clears throat] The GI app is as
+42:14 lightweight as possible. So as I showed
+42:17 you, it can handle hundred hundreds of
+42:20 threats. I I
+42:23 I showed you which one was it? This one.
+42:26 Uh I showed you like 200 open. I think
+42:30 this one. Yeah, 2011 open thread. Um no
+42:33 problem. Like nothing is lagging. I can
+42:34 just scroll through it very easily. long
+42:36 chats work normally and even okay
+42:39 actually on top of these 200 I launched
+42:42 another 100 sub aents so that was like
+42:44 over 300 open threats running no problem
+42:46 no problem uh no crashes very stable uh
+42:50 again built on top of BB so major shout
+42:53 out to BB let me actually um I'm just
+42:56 ask it give me a direct link to the
+42:58 official GitHub repo of BB
+43:02 why even search for it when you have
+43:03 agents nowadays right you can just have
+43:05 find it and
+43:07 give you a direct link. Boom, there it
+43:09 is. So again, major shout out of BB.
+43:11 This is what it was built upon. So if
+43:14 you're already using BB, it's going to
+43:15 be very um familiar to adopt Cloud Room.
+43:19 Very easy. You just get, you know, free
+43:21 cloud compute basically cloud threads on
+43:23 top of that. as long as a lot as well as
+43:26 a lot of optimizations such as you know
+43:28 these fast keyboard shortcuts where you
+43:29 can like um move stuff around and better
+43:32 UI and polishes because I'm very
+43:33 particular with the UI in UX and like
+43:36 what is possible and you know making
+43:38 sure that you can like translate for
+43:39 example context command from cloud code
+43:41 a lot of people want to use that a lot
+43:43 of these things we've built and u
+43:46 improved on top of BB over the past five
+43:48 to six weeks so again a huge shout out
+43:51 of BB made it faster to use a great GUI
+43:56 to build on top of. So that's the beauty
+43:59 of the open source software. So I'd be
+44:00 you know if you fork I mean 46 people
+44:02 already forked cloud room right? So if
+44:04 you decide to fork it and and build on
+44:05 top of it um I'm more than happy with
+44:08 that. It's advancing everybody and
+44:10 that's why I call it like a
+44:11 technological breakthrough because this
+44:13 makes cloud agents more accessible for
+44:15 everybody. something that OpenAI,
+44:18 Open AI, Enthropic, Cursor,
+44:23 you know, Devon, Cognition, all of these
+44:25 companies had the opportunity to do
+44:26 this, but no, none of them did it. So,
+44:28 I'm doing it myself. Again, uh
+44:31 sandboxes, right? We already touched on
+44:32 that essential architecture decision.
+44:35 Speed matters. So, uh everything is as
+44:38 fast as local, you know, for power
+44:39 users, speed matters. So, all of that
+44:42 stuff is like keybind first.
+44:43 Everything's accessible very fast. um
+44:46 convenient keyboard shortcuts for
+44:47 everything. So, I'm going to show you.
+44:48 You can go like to the bottom fret with
+44:50 a keyboard like let's say I'm let's say
+44:52 here I can go to the bottom fret at the
+44:54 bottom. I can go jump back to the top
+44:55 fret right here. Boom. U switch that
+44:59 like you you can do command N for a new
+45:01 thread. You can like go to settings and
+45:03 basically keybind everything keyboards
+45:05 right here. Look how many different
+45:07 things are possible to keybind. Um,
+45:10 yeah, really incredible.
+45:13 GitHub friendly, right? Everything is
+45:15 like compatible with GitHub. You can
+45:17 like import stuff from GitHub very
+45:18 easily once you authenticate it.
+45:21 Mac OS and Linux first. So, I think
+45:23 these are, by the way, the two operating
+45:24 systems. If you're not on one of these,
+45:26 I would recommend getting at least one
+45:29 computer that's Linux or Mac OS. Why?
+45:31 Well, Mac OS is just stable and Apple
+45:34 has the best hardware. So when people
+45:36 are building complex software, they they
+45:39 don't want to deal with some some weird
+45:40 operating system quirks, right? So
+45:42 that's why a lot of the top engineers
+45:43 and AI already use MacBooks and also
+45:46 MacBooks are just the best for um having
+45:49 the shared memory between the CPU and
+45:52 GPU. So not only is the operating system
+45:54 very stable and predictable and it just
+45:55 works, which is a very important value
+45:58 at. So that's the value of Mac OS,
+46:00 right? Stable, predictable, it always
+46:02 works, highly performant. And then Linux
+46:04 just super customizable um lightweight
+46:08 open source um yeah with with like Omari
+46:11 you can see the trend of really building
+46:13 it as agent first so these two are going
+46:15 to be more popular very easy production
+46:17 to make um Windows unfortunately it's
+46:20 going to become or maybe fortunately you
+46:22 know it's going to become less and less
+46:23 popular still in enterprise a lot of big
+46:25 companies use it but I'm talking about
+46:26 the power users people on the frontier
+46:28 everyone uses either Mac OS or Linux so
+46:30 please if you don't have either of these
+46:32 machines pick one It's going to be a
+46:34 good investment for the future. And uh
+46:37 yeah, also if you want more of the like
+46:39 technical stuff, what we're doing, we
+46:41 have a blog as well. So it's
+46:43 cloudroom.dev/blog.
+46:45 Again, I'm going to link it as another
+46:46 link below video. So you can read more
+46:48 about what we're doing and some of the
+46:50 architectural choices we've made here
+46:52 and read through some of these blog
+46:53 posts we've written. And yes, all of
+46:54 them are written by hand by humans,
+46:57 either me, either by me or my founding
+46:59 engineer. So all of them are you know
+47:02 real written stuff. Uh let's see what
+47:05 else is for technical people.
+47:08 I think that's that's the main things
+47:09 about the architecture. Again both the
+47:11 core and the and the GUI are fully open
+47:14 source. So feel free to you know have
+47:16 your agent read through this GitHub
+47:17 repos and understand more about the
+47:19 architecture and some of the technical
+47:20 decisions we've made. So okay let me
+47:24 also show you the this feature I
+47:25 mentioned earlier. this feature, right?
+47:27 Very, very powerful. Simple idea, very
+47:30 simple and elegant idea, but extremely
+47:32 powerful. So, I'm going to launch a
+47:33 cloud agent and I'm gonna like have it
+47:36 do some local work and basically show
+47:39 that like if it needs something from my
+47:41 laptop, it can get it, right? So,
+47:45 look to my MacBook and let me know how
+47:47 many files are in my downloads folder
+47:49 right now.
+47:52 Something like that.
+47:54 And also we can test it on the
+47:57 on the some of the threats right
+48:02 in terms of um so okay downloads has
+48:05 four items whatever whatever
+48:08 list out the five most recent items
+48:11 without like leaking any private names
+48:13 I'm recording YouTube video right now so
+48:14 just if there's something private or
+48:16 sensitive like censor part of it but
+48:18 what are the most five recent files in
+48:20 my downloads folder on my MacBook and
+48:22 like how far. When were they created?
+48:28 And actually, if we do a new one,
+48:30 command N, boom, we switch to cloud
+48:31 repo. You can say,
+48:34 how many um on my MacBook in the like
+48:38 main /code folder, how many projects do
+48:40 I have there? Answer in short.
+48:50 [clears throat]
+48:53 So it cloned the you see it's cloned it
+48:55 from GitHub. So everything is like git
+48:57 and github compatible.
+48:59 And uh since the as I mentioned earlier
+49:02 the sandboxes have extremely fast
+49:04 internet. I do recommend storing stuff
+49:06 on GitHub and have the agents just pull
+49:08 it up very quickly. So you have 85
+49:11 folders in /code.
+49:13 Okay. Roughly 40 different projects.
+49:16 What is the total file size of all of
+49:17 these and these repos? Answer in short.
+49:22 40 of them are cloud room site copies.
+49:24 Okay, interesting.
+49:27 Check which of these Cloudroom site
+49:29 copies are actually I'm going to do even
+49:33 more interesting. Go into the main uh
+49:36 /code/cloudroom repo on my MacBook. Find
+49:39 the branding folder in there and find
+49:42 the logo, the main logo in there, the
+49:45 PNG file, and open it in preview for me
+49:48 on my MacBook. So again, this is a cloud
+49:51 thread. I need to stress this. This
+49:52 thread is running in the cloud. I just
+49:54 told him to I'm going to actually
+49:56 presend this like interrupt it, steer
+49:58 it. I just told him to find a specific
+50:01 folder and a specific file and to open
+50:02 it. I'm having my hands off. Guys, I'll
+50:05 show you this cloud agent running in a
+50:08 isolated cloud sandbox because I gave it
+50:11 the full permissions right here and
+50:12 that's fully in your control. It can do
+50:15 stuff on your MacBook if needed. And
+50:18 again, it's just following my
+50:18 instructions for whatever task. If the
+50:20 task doesn't require it, it's never
+50:22 going to do it. But if it needs it, if
+50:24 you tell it to, it can get something
+50:26 from your MacBook. I think anthropic
+50:28 inference is slow. Uh because again,
+50:30 Fable 5.5 is about to get released. So
+50:34 I'm not sure why uh Opus is so slow
+50:38 because this is very unusual. Opus is
+50:40 normally very fast.
+50:43 >> [clears throat]
+50:43 >> We can try it maybe with a codeex.
+50:48 And by the way, you can just jump back.
+50:50 Let's see here. Five newest items, PDF
+50:53 document, image, blah blah blah. Okay,
+50:55 so times are based on Americ
+51:07 with soul. Let's do high.
+51:11 Maybe Anthropic is rolling out Fable,
+51:14 which is unfortunate if I'm really
+51:15 missing it while recording. But hey,
+51:17 maybe a Fable video coming soon. Depends
+51:18 when it drops. I've seen some leaks on
+51:20 Twitter. Uh you never know if they're
+51:22 true or not. But yeah, Codex is working.
+51:23 So I don't know what's what's going on
+51:25 with Entropic.
+51:27 But you can see now it's uh using the
+51:28 CloudMax skill to find to access my
+51:31 MacBook. Then it's going to find the
+51:33 right repo. And I don't even like
+51:35 honestly I overdescribe it. Like you can
+51:37 be even more vague, right? these
+51:39 powerful models, as long as you're using
+51:40 Frontier models, they'll just figure it
+51:42 out. If they need to do something, they
+51:44 can figure it out. And again, my hands
+51:46 are off. I'm not doing anything. I want
+51:48 to show you that this cloud agent
+51:51 running in a cloud thread can not only
+51:53 like find files and, you know, list out
+51:54 how many things are in my downloads, it
+51:56 can also open apps and fix stuff on my
+51:59 computer. Again, if the permission level
+52:01 is enabled for that, boom, there it is.
+52:03 Selfopened. I was not touching my mouse
+52:05 or keyboard. It opened the logo on my
+52:08 computer. This is, you know, live on my
+52:10 MacBook.
+52:12 And um
+52:14 yeah, this is a cloud threat, right?
+52:15 Like say like, "Oh, by the way, what
+52:18 machine are you on?" Like, are you
+52:20 running right now
+52:23 just to confirm this is not an agent
+52:25 running locally. It's running in the
+52:27 cloud.
+52:29 I want a cloud [clears throat] on VM,
+52:30 not your MacBook. As the MacBook, okay,
+52:32 so yeah, I think you you get the point.
+52:35 All
+52:35 >> [clears throat]
+52:35 >> right, that's the slow one. So, I don't
+52:36 know what happened. The the Opus one
+52:38 showed it as well. So, yeah, just uh to
+52:41 update you guys, I'm going to wrap up so
+52:44 it's not too long. Cloud Room is my next
+52:46 big bet. This is my uh full focus,
+52:48 literally where 80 to 90% of my time is
+52:50 going towards. This is my next AI
+52:52 startup. I'm going to be building it
+52:54 between San Francisco and Poland. And
+52:56 right now, we're hiring. So, I'm going
+52:57 to leave the email below the video. Um,
+53:00 so if you're actually interested, we're
+53:02 hiring like developer roles, you know,
+53:04 engineers, but also content roles, like
+53:06 YouTube strategists, video editors. So,
+53:08 and honestly, anybody like if you're
+53:10 talented, if you're locked in, if you're
+53:12 serious about AI and you're hardworking,
+53:14 just email me, okay? The email is going
+53:16 to be in the description. Introduce
+53:17 yourself, give your experience, tell me
+53:19 what role you're applying in, be as
+53:21 concise as possible, okay? So, yeah,
+53:23 this is my next big project. Uh I'm
+53:26 probably going to raise the first I mean
+53:28 right now I'm fully bootstrapped right
+53:30 uh with a very lean team. I don't need
+53:32 to raise money you know obviously my
+53:34 existing businesses are doing well but
+53:36 to move faster I'm think I'm going to
+53:38 maybe raise the first round in December
+53:40 or January. We're going to see how
+53:42 things go. Obviously the biggest cost
+53:44 here is going to be the cloud compute um
+53:46 by trying to make the free plan as
+53:48 powerful as possible providing kind of
+53:50 the superbase business model right
+53:51 superbase they have a free uh plan as
+53:53 well where you can store like I think
+53:56 two different databases completely for
+53:58 free forever on superbase but then you
+54:00 know after you hit certain limits if you
+54:02 want to scale you buy one of the paid
+54:04 plans same idea is for cloud room and
+54:06 also it's fully open source just like
+54:08 superbase so to keep the free plan
+54:11 available and to make it as good
+54:13 possible. That's going to cost a lot of
+54:14 money. Uh so yes, I'm going to try to
+54:16 subsidize it by people who, you know,
+54:18 need more and buy the paid plans
+54:19 obviously, but these also cost money
+54:21 because, you know, we're providing a lot
+54:23 of cloud compute for these as well. I
+54:24 mean, I don't even know if they're going
+54:26 to be profitable. We're going to see, I
+54:27 guess, after I launch this video
+54:30 once we have more usage data. But yeah,
+54:33 that would be the main argument for me
+54:34 raising proper venture capital in
+54:36 December or January is to support um the
+54:40 compute costs as well as you know
+54:41 aggressively hiring the best talent in
+54:43 the world. So again, if you're
+54:45 interested in joining me, the email for
+54:47 for that is going to be below the video.
+54:49 So just be very concise, please, and
+54:51 introduce yourself. Bonus points if you
+54:53 include a short video recording of who
+54:55 you are. So yeah, um this is Cloud Room.
+54:57 This is what I've been working on for
+54:59 the past five or six weeks. And and
+55:01 really more than that like probably this
+55:02 is like a combination of different
+55:04 projects because I was releasing like a
+55:06 small open source projects um underneath
+55:09 my private GitHub as well as the like
+55:12 vector labs for the past 3 months let's
+55:15 say and this is like the combination of
+55:16 that right the idea wasn't really clear
+55:18 what it's going to be over that period
+55:20 but over those uh over those weeks and
+55:23 months it kind of crystallized into open
+55:25 source cloud agents and um you know
+55:28 giving it the name cloud
+55:30 So probably like two to three months of
+55:32 work of really different open source
+55:34 projects and working on the main issue
+55:35 of agents must be running right I had
+55:38 this idea like the models are good
+55:40 enough the harnesses are good enough
+55:42 what's missing what is preventing us
+55:44 from running thousands of agents
+55:47 productively that's the important word
+55:48 is productively anybody can spin up
+55:51 thousands of deepseek v4.1 to just do
+55:53 random useless stuff right
+55:56 the key is to have them do real
+55:58 meaningful work that you would pay for
+56:00 useful stuff to actually take your life
+56:02 and business to the next level. So
+56:04 thousand like why aren't we running
+56:06 thousands of agents productively? That
+56:08 was like bothering me for many many
+56:10 weeks because again with Fable and and
+56:13 Astra and Opus 5.5 the models are good
+56:15 enough the harnesses are good enough. So
+56:17 what is missing? The answer is
+56:19 everything else. All the other friction
+56:20 right your computer disconnects for
+56:22 internet your computer overheats. Agents
+56:24 are fighting because you're running too
+56:26 many agents. Your computer needs to be
+56:28 closed or agents stop running. Agents
+56:30 need to be running. This should be a
+56:31 crime. agents stop running. All of these
+56:33 different reasons is why you cannot
+56:36 reach thousand thousand agents running
+56:38 productively
+56:40 and obviously many other reasons which
+56:42 we're going to solve along the way. But
+56:44 all of these kind of you know two to
+56:45 three months of effort culminated in
+56:47 this one idea of cloud room and again
+56:49 heavy testing over the last five weeks
+56:53 with my team and with around 20 beta
+56:56 testers. So shout out everybody who was
+56:57 a beta tester who got early access.
+57:00 highly appreciate your feedback and
+57:01 obviously I still anybody watching this
+57:03 you guys will be the first wave of users
+57:06 you have the opportunity to shape this
+57:08 product so please send me feedback in
+57:10 fact there's a tool for this I'm going
+57:11 to show you it's called u you can just
+57:14 literally uh use it from any any uh
+57:18 project you can do like report it back
+57:20 right here and using the feedback tool
+57:22 report the following thing to David the
+57:23 founder of cloud room you can literally
+57:24 just say that say like today the app was
+57:27 feeling a bit slow I don't know what's
+57:28 happening usually it's fast But today it
+57:30 was feeling slow for me in the cloud
+57:32 threats.
+57:33 And you can tell your agent send this to
+57:35 David or send this feedback to David. It
+57:37 has a tool in the room CLI where it can
+57:40 send feedback to me. It goes to my
+57:41 postgress database where it's a table.
+57:43 And then I have a cloud automation which
+57:46 runs every 10 minutes. Um it's paused
+57:48 right now because again I paused my main
+57:49 automations because they were leaking
+57:51 private info and like like customer
+57:53 emails. Um so I paused them before
+57:55 recording this. Normally I have like
+57:56 again 15 to 20 of these active
+57:59 but uh you can say like I send David
+58:02 your report cloud first sl even usually
+58:05 fast right and then within 10 minutes in
+58:07 my own cloud room what would happen is a
+58:09 new thread would start investigating
+58:11 that customer report. So please anytime
+58:14 you have any issue or bug or error just
+58:16 tell your agent yo send this to David
+58:18 you know we encountered a bug or send
+58:20 this to David I have this feature idea
+58:22 and your own agent already knows what to
+58:24 do. This is really the future of
+58:25 product. And this is why, by the way,
+58:27 guys, all of you, no matter what you're
+58:28 building, you need to have these agentic
+58:30 loops and you need to start building
+58:32 your own software factory. And I'm going
+58:34 to be working hard to build the infra
+58:36 for that. So it's it's easy for you guys
+58:38 to to build these software factories and
+58:40 to really adopt the next generation. I
+58:43 don't know what to call it like agentic
+58:44 engineering 2.0. It's really is the next
+58:46 generation of building software and of
+58:48 using agents. It's like orchestrating
+58:50 large number of agents, creating the
+58:53 logic and the rules. why they run and
+58:56 managing large amounts of agents without
+58:58 like starting each of them one by one.
+59:01 So yeah, this is Cloud Room. It's really
+59:03 built for power users for this for the
+59:06 ultra power users, right? The super
+59:08 power users, the people who are paying
+59:10 $400, $600, $800 a month or more for,
+59:13 you know, codecs or claw subscriptions
+59:15 or cursor subscriptions, just AI
+59:17 inference. If you're spending more than
+59:18 $400 a month for AI inference, you are
+59:20 the target avatar. If you're a business
+59:22 owner who wants to heavily adopt AI
+59:24 across himself and his entire team, you
+59:27 are the target avatar. This is not for
+59:29 consumers. This is not for beginners.
+59:30 You know, I'm not trying to compete with
+59:32 Muse or Instinct or stuff like that. Um,
+59:35 this really is for the heavy power
+59:36 users. And yeah, if that's you, go ahead
+59:39 and try the pro plan and ultra plan.
+59:41 Again, as I mentioned, these two plans
+59:43 include personalized onboarding either
+59:45 with me or my founding engineer, whoever
+59:47 is available. And if you're on the ultra
+59:49 plan, you get a Slack channel with me in
+59:52 it. So you can talk to me directly and
+59:53 my team as well. So you know, any issues
+59:55 that you or your team is facing are
+59:57 going to get solved within a couple of
+59:59 hours. Um because I have a lot of agents
+1:00:01 running, right? So I can do stuff like
+1:00:03 that and have insane leverage on my
+1:00:05 time. So yeah, this is Cloud Room.
+1:00:08 Again, if you want to try it out, go to
+1:00:09 cloudroom.dev. Uh feel free to try on
+1:00:11 the free plan and if you're a serious
+1:00:13 builder, go with the pro plan or the
+1:00:14 ultra plan. So with that being said, um
+1:00:16 thank you guys for watching and yeah, go
+1:00:19 and try it. cloud room.dev
