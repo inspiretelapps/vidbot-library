@@ -1,5 +1,647 @@
 [
   {
+    "id": "f2fvgG5VJJw",
+    "title": "Grok Voice 3.0 Just Killed the Call Center",
+    "channel": "Stacked Podcast",
+    "upload_date": "20261015",
+    "thumbnail": "https://i.ytimg.com/vi/f2fvgG5VJJw/maxresdefault.jpg",
+    "description": "💎 Grok Voice 3.0 live demo + a rogue AI agent fleet\n🔋 Check out Higgsfield, one of our sponsors: https://bit.ly/4gEW43Z.\n❤️ Inquiries: reach out to media@stackedpod.io.\n\nWho are Nick & Jack, and what is The AI Millionaire Podcast? ⤵️\n1. Jack built a 7-figure AI business after exiting his tech startup as a Top-100 UK entrepreneur.\n2. Nick scaled two agencies to a combined rev of $160K/m & runs the largest AI community by $.\n3. Together, they open up the black book behind AI and share how you can build one yourself!\n\nWhat to watch next 🍿\n1. The one habit that made me outperform everyone: https://www.youtube.com/watch?v=_3wxDsC8uTA\n2. AI isn't the answer—here's what actually makes you rich: https://www.youtube.com/watch?v=jxm8Jb0XWhY\n\nThanks for watching!\n0:00 Grok Voice 3.0 is here\n0:32 Live demo: the fastest AI voice yet\n1:10 Is this the end of call centers?\n2:41 The benchmarks: 97% on full duplex\n3:26 Why speed is everything in voice\n4:19 Grok Voice is already in your Tesla\n4:57 Starlink answers 20,000 calls a day with it\n6:09 We're putting it in our call centers\n7:08 Researchers find a rogue AI agent fleet\n8:25 The agents say they're Claude\n11:51 Nobody Googles anymore\n13:33 Vibe-coded maps beat search\n15:32 Nick's 3D studio planner\n19:28 Your comments: privacy and frontier models\n22:52 Outro",
+    "duration_seconds": 1399,
+    "url": "https://www.youtube.com/watch?v=f2fvgG5VJJw",
+    "summary": "Voice pilot economics · 00:00–07:08: Nick and Jack demonstrate a rapid spoken exchange and interruption handling, then argue that lower latency makes Grok Voice 3.0 worth testing in telephone support. They quote $0.08 per minute, a 97% full-duplex benchmark and roughly 0.6 seconds to first audio versus almost 1.4 seconds for a named GPT comparator. These are reported product/benchmark figures, not their own controlled measurements; their discussion of which competing model is current is itself uncertain.\n\nDeployment claims versus actual plans · 04:19–07:08: The hosts report Tesla integration and Starlink usage of 20,000 customer calls daily, about 70% resolved without a human and one in four sales calls converting. They do not independently audit those claims or show a human-agent conversion comparison. Nick's concrete next step is a proposed 2–3% call-routing pilot, increasing coverage only if it beats the lowest-performing human tier—not evidence that their own call center has already been replaced.\n\nAgents on the public web · 07:08–11:51: A second story concerns researchers reportedly contacting Tencent-linked evaluation agents working on Alibaba's AMap. The hosts recount credential discovery, webhook/mailbox interactions and agents identifying themselves as Claude, but the exact communication method is unclear to them. They speculate about distillation and future agent-heavy traffic; neither a model's self-identification nor this retelling establishes those broader conclusions.\n\nPersonal software instead of repeated search · 11:51–19:28: Both hosts describe delegating information gathering rather than manually searching. Jack's custom neighborhood map combines coffee shops, gyms and dog-friendly places; Nick describes a 3D studio planner exploring 50 layouts with purchasable Amazon products. Their practical point is that task-specific interfaces can make decisions easier when usable source data already exists, although these anecdotes are not evidence that everyone has abandoned Google.\n\nPrivacy trade-off and verdict · 19:28–23:19: The closing discussion weighs frontier-model convenience against exposure of sensitive chats and proprietary knowledge. Several surveillance and corporate-data-use assertions are speculative and are not verified in the episode; local models are presented as an increasingly attractive alternative. The overall stance is enthusiastic adoption with a small voice pilot and personalized tools, not a demonstrated end to call centers; the final segment is a comment-based Mac Mini giveaway rather than additional technical evidence.",
+    "why_valuable": "Helps decide whether to run a small AI-voice call-routing trial: the useful proposal is a 2–3% pilot judged against human performance, while the quoted price and Starlink results still need supplier verification before a telephony purchasing decision.",
+    "key_takeaways": [
+      "00:32: The live exchange includes an interruption and a quick reply; it demonstrates conversational feel, not measured production latency or task accuracy.",
+      "02:41: The hosts quote 97% full-duplex performance and roughly 0.6-second first audio versus almost 1.4 seconds for a GPT comparator; benchmark provenance and competing-model equivalence are not established here.",
+      "04:57: Starlink's reported 20,000 calls/day, 70% no-human resolution and one-in-four sales conversion are relayed claims, not the hosts' first-hand call-center results.",
+      "06:09: Nick proposes routing 2–3% of calls to the model before expanding; $0.08/minute is a quoted service price, not an audited all-in telephony cost.",
+      "08:25: Agents calling themselves Claude does not prove their actual model identity or the hosts' distillation hypothesis.",
+      "13:33–15:32: A personalized neighborhood map and a 50-layout studio planner show how tailored interfaces can replace repeated manual lookups when source data is available.",
+      "19:28: Local-model privacy is a reason to investigate deployment options, but the hosts' claims about searchable private chats and provider intelligence gathering remain unverified in this discussion."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Grok Voice 3.0 is here",
+        "description": "Nick introduces a voice release at a quoted eight cents per minute and previews a separate story about researchers encountering online agents. His framing connects cheaper, faster conversation with a possible business opportunity, but no call-center outcome has yet been demonstrated.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 32,
+        "timestamp": "00:32",
+        "title": "Live demo: the fastest AI voice yet",
+        "description": "A spoken conversation pivots from global politics to New York hot dogs and then deliberately interrupts the assistant. The prompt response impresses the host, providing a first-hand example of interaction quality without establishing a measured latency distribution or business-task success rate.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 70,
+        "timestamp": "01:10",
+        "title": "Is this the end of call centers?",
+        "description": "The hosts argue that realistic turn-taking and lower prices could make telephone agents commercially attractive, especially after ordinary telephone distortion. They acknowledge that the wording still sounds templated and would need prompting work, while their employment-decline reference is vague rather than a substantiated labor-market finding.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 161,
+        "timestamp": "02:41",
+        "title": "The benchmarks: 97% on full duplex",
+        "description": "A displayed comparison is described as scoring 97% on full-duplex conversation with about 0.6 seconds to first audio against almost 1.4 seconds for a GPT alternative. The hosts question whether the competing product is current, so this is a reported benchmark comparison rather than a clean independent head-to-head test.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 206,
+        "timestamp": "03:26",
+        "title": "Why speed is everything in voice",
+        "description": "Jack argues that pauses undermine the illusion of conversation more than many other voice characteristics, contrasting this demo with older assistants that hesitated. Nick then revises his interpretation of the GPT product comparison, which is a reason to verify model names before relying on the claimed state-of-the-art ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 259,
+        "timestamp": "04:19",
+        "title": "Grok Voice is already in your Tesla",
+        "description": "The hosts say the new voice system is already operating in Tesla vehicles and imagine issuing tasks to an agent while driving. Their excitement becomes a discussion of buying a Cybertruck, but the episode does not test a vehicle installation or demonstrate that workflow itself.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 297,
+        "timestamp": "04:57",
+        "title": "Starlink answers 20,000 calls a day with it",
+        "description": "Nick relays claims that Starlink handles 20,000 daily customer calls, resolves roughly 70% without humans and converts one in four sales calls. Jack draws on his own contact-center management experience but explicitly wants a human comparison, leaving the incremental sales and service benefit unproven here.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 369,
+        "timestamp": "06:09",
+        "title": "We're putting it in our call centers",
+        "description": "Nick says his business intends to divert perhaps 2–3% of calls from the lowest-performing human tier into an AI trial within the next day. Expansion would depend on results, and he corrects his own near-zero-cost rhetoric by returning to the quoted eight-cent-per-minute price.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 428,
+        "timestamp": "07:08",
+        "title": "Researchers find a rogue AI agent fleet",
+        "description": "The hosts recount a Swarm Chasers investigation into agents reportedly hosted by Tencent's evaluation research team and working on AMap-related searches. They describe researchers making contact and frame agent discovery as a new investigative activity, without independently reproducing the underlying research.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 505,
+        "timestamp": "08:25",
+        "title": "The agents say they're Claude",
+        "description": "Reported agents identify themselves as Anthropic Claude while answering mapping questions, which leads the hosts to speculate about distillation. They recount credential discovery, webhook traces and a mailbox/chat exchange while admitting uncertainty about the precise transport; the broader agent-traffic opportunity is a prediction, not a measured conclusion.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 711,
+        "timestamp": "11:51",
+        "title": "Nobody Googles anymore",
+        "description": "Both speakers describe asking agents for information instead of deliberately typing Google queries, with one saying he has not made an intentional search in months. They connect this to voice-input habits and changing discovery channels, but their own behavior cannot establish the title's population-wide claim.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 813,
+        "timestamp": "13:33",
+        "title": "Vibe-coded maps beat search",
+        "description": "Jack describes building an interactive map around his prospective home that combines coffee, brunch, gyms, MMA and places for his dog. Nick points out that reviews and photographs make that personalized decision aid possible, so the advantage comes from combining useful existing data with a tailored interface rather than simply generating a map.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 932,
+        "timestamp": "15:32",
+        "title": "Nick's 3D studio planner",
+        "description": "Nick describes a 3D studio walkthrough that tries 50 layouts and links furniture to Amazon, while Jack recalls the unusually detailed house model. They extrapolate toward richer venue previews and simpler consumer interfaces, then return to Tesla-shopping anecdotes; the demonstrated value remains personal planning rather than verified mass adoption.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1168,
+        "timestamp": "19:28",
+        "title": "Your comments: privacy and frontier models",
+        "description": "A viewer question prompts discussion of sensitive information shared with cloud models and the appeal of local alternatives. The hosts speculate about searchable chat histories and providers extracting industry insight, then distinguish information-sensitive businesses from execution-bound ones; these assertions are not established through evidence in the episode.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1372,
+        "timestamp": "22:52",
+        "title": "Outro",
+        "description": "Nick closes the conversation by explaining that comments can enter a Mac Mini giveaway and gives the entry window in Pacific time. The ending adds a channel-engagement offer, not a completed report on the proposed voice trial or new evidence for the earlier performance claims.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "3eve5IwikGw",
+    "title": "PRO Editor Tries Premiere Copycat FilmCraft (Finzar Review)",
+    "channel": "storezar",
+    "upload_date": "20261017",
+    "thumbnail": "https://i.ytimg.com/vi/3eve5IwikGw/maxresdefault.jpg",
+    "description": "Today, Finzar is testing out the massively hyped 'Filmcraft' to see how it compares to Premiere Pro in both functionality and usability. Get an in-depth look at how it works, what is realistic to achieve and most importantly - what animating looks like (keyframes etc).\n\nGo check out our website https://storezar.com for the world's best presets and editing courses! Thanks for watching.",
+    "duration_seconds": 958,
+    "url": "https://www.youtube.com/watch?v=3eve5IwikGw",
+    "summary": "Familiar layout, incomplete behavior · 00:02–03:21: Finzar installs FilmCraft through the Artcraft launcher and deliberately tests the animation workflow he relies on in Premiere. Basic media handling and familiar shortcuts work, but he cannot immediately install his usual presets and the cross dissolve fails to fade both character layers correctly. The test already separates visual similarity from dependable editing behavior.\n\nAnimation controls are inconsistent · 03:21–10:27: Changing the sequence to 60 fps helps the slide animation, but the Transform shutter-angle control does not produce visible motion blur. Mask expansion and feathering work well enough for a usable transition, and he actually prefers those mask handles' constrained movement. Elsewhere he cannot zoom into the keyframe area, bulk-change interpolation reliably or reset edited handles by selecting linear; jumping between keys also lands a frame off in his test.\n\nA finished mini-edit exposes scaling problems · 10:27–13:25: He completes the character slide-up, transition and slide-down using manually keyed opacity instead of the broken dissolve. Nesting works, but adding camera shake and a drop shadow creates severe lag even on the computer he describes as powerful, and export makes the machine struggle. This is his hands-on experience with a small project, not a standardized performance benchmark.\n\nVerdict: revisit, do not migrate yet · 13:25–15:58: Finzar credits a free, very young application for reproducing many basics, but says the missing fine controls and poor responsiveness make it unsuitable for his multilayer professional work. He may look again after more development, yet will not use it on upcoming projects and still values Premiere and Resolve's mature polish. The closing preset promotion is his own commercial offer, not evidence that FilmCraft can handle production-scale editing.",
+    "why_valuable": "Helps an editor decide whether to replace Premiere now: Finzar can finish a small animation in FilmCraft, but broken motion blur, unreliable keyframes and heavy lag lead him to reject it for current professional projects.",
+    "key_takeaways": [
+      "01:45–03:21: Preset installation is not immediately available and the cross dissolve fades only the incoming character in his attempt; matching Premiere's layout does not ensure matching behavior.",
+      "03:21–05:25: Position keyframes can produce a slide, but the Transform shutter-angle setting does not generate the motion blur he expects.",
+      "06:37–07:50: Mask expansion and feathering produce a usable transition; he prefers their constrained handles to Premiere's for this narrow task.",
+      "08:00–10:27: Interpolation changes, handle resets and keyframe navigation behave inconsistently, forcing manual repairs that matter for animation-heavy edits.",
+      "11:13–13:25: Nesting works, but camera shake plus a drop shadow causes severe lag on his system; no controlled hardware benchmark is supplied.",
+      "13:25–15:33: He recommends waiting for development rather than moving professional multilayer projects, while recognizing the achievement of a free early release."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "Installation and a Premiere-style workspace",
+        "description": "Finzar downloads the Artcraft launcher and opens an interface that closely resembles his usual editor. He chooses keyframe animation as the meaningful test because velocity handles and fluid motion, rather than appearance alone, determine whether it can replace his established workflow.",
+        "timestamp": "00:00",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 95,
+        "title": "Media handling and a broken dissolve",
+        "description": "Importing footage and separate audio or video works, but Finzar cannot immediately install his presets through the expected menu. His two-character cross dissolve fades only one side despite several attempts, making a routine transition unreliable before the animation test even begins.",
+        "timestamp": "01:35",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 201,
+        "title": "Transform motion and awkward easing",
+        "description": "Finzar animates a character's position and improves smoothness by changing the sequence to 60 fps. The shutter-angle setting fails to add visible motion blur, while limited zoom and confusing velocity handles make the successful slide feel more like a workaround than precise control.",
+        "timestamp": "03:21",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 326,
+        "title": "A usable mask-based transition",
+        "description": "Clip duplication, cutting and audio gain respond to familiar commands, and mask expansion can be keyframed into an actual transition. Finzar finds the mask handles unusually intuitive and likes that they cannot move vertically, though he wants that same behavior to carry over to the other animation controls.",
+        "timestamp": "05:26",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 474,
+        "title": "Interpolation failures and manual opacity repair",
+        "description": "Selecting multiple keys does not let Finzar change their interpolation together, and choosing linear fails to reset already adjusted handles. He substitutes explicit opacity animation for the faulty cross dissolve, then discovers that keyframe navigation can land a frame off and risk inserting an unintended new key.",
+        "timestamp": "07:54",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 627,
+        "title": "Completed animation meets performance limits",
+        "description": "The small character animation is finished and nesting plays successfully, showing that a complete result is possible in the free application. Adding camera shake and a drop shadow then makes the system lag badly, leading Finzar to doubt that his much denser professional timelines would be practical.",
+        "timestamp": "10:27",
+        "source": "generated"
+      },
+      {
+        "start_seconds": 805,
+        "title": "Professional verdict and reasons to wait",
+        "description": "Finzar says the young application reproduces the basics impressively but lacks the polish and fine control he needs for multilayer client or channel work. He may revisit it in a few months, yet will not use it for upcoming projects; the remaining sign-off promotes his own preset store rather than providing further tests.",
+        "timestamp": "13:25",
+        "source": "generated"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "axRhjqd-rus",
+    "title": "The REAL reason China built so much",
+    "channel": "Johnny Harris",
+    "upload_date": "20261015",
+    "thumbnail": "https://i.ytimg.com/vi/axRhjqd-rus/maxresdefault.jpg",
+    "description": "Why does China LOOK like that??\n\nHave questions about this video? Join a live Q&A with Adam on October 20: https://community.newpress.com/c/watch-live/live-q-a-with-adam\n\nCheck out all my sources for this video here: https://docs.google.com/document/d/1oKwCAIWRcIDCcZUFzaw6DSwXHJKlwQ_G9B5nclKaVv0/edit?usp=sharing\n\nChina can BUILD. Their infrastructure is incredible. And I always figured that was because they're basically a dictatorship: what the leader says, goes. But the real reason turned out to be way more interesting.\n\nJoin Newpress, our community-driven hub for creator journalism: https://newpress.com/go\n\nIf you want to learn more about how China built so much so fast, we also created a reading list you can check out here: https://docs.google.com/document/d/197FjTj2glJsiOlxdnEakPBHMYdTEi7ibNwN6mHDb1hA/edit?usp=sharing\n\nSpecial thanks to:\n- Bruce Dickson, George Washington University\n- Andrew Fedorov\n- Lynette Ong, University of Toronto\n- Victor Shih, UC San Diego\n- Dan Wang, Hoover Institution\n\nMORE CHANNELS:\nCheck out my new channel with Max Fisher - The Bigger Picture: https://www.youtube.com/@maxfisher \nCheck out my channel with Christophe Haubursin - Tunnel Vision  https://www.youtube.com/@christophe  \nCheck out my channel with Sam Ellis - Search Party - https://www.youtube.com/@samellis\n\nOriginal music for this video was composed by Tom Fox.\n\nDo you have an insider tip or unique information on a story? Do you have a suggestion for a story you want us to cover? Submit to the Tip Line: https://docs.google.com/forms/d/e/1FAIpQLSdpNs1ykIwd7KNkwntN897X_SX9hJ8WiTH_erlLU_bQp2GGLg/viewform?usp=sharing\n\n-- VIDEO CHAPTERS --\n00:00 Intro\n4:42 Chinese Characteristics\n10:11 Party-State\n15:38 Modest Prosperity\n22:53 Eating In Separate Kitchens\n29:29 To Get Rich, First Build Roads\n33:59 Lying Flat\n38:24 Maintaining Stability\n42:18 A Pat on the Shoulder\n46:38 The New Era\n\nCorrection:\n35:35 - This timeline incorrectly labels Hua Guofeng in Chinese using his birth name, 苏铸. He adopted the name 华国锋 in the 1930s and was known by that name during his political career.\n\nAbout: \nJohnny Harris is an Emmy-winning independent journalist and contributor to the New York Times. Based in Washington, DC, Harris reports on interesting trends and stories domestically and around the globe, publishing to his audience of over 5 million on Youtube.  Harris produced and hosted the twice Emmy-nominated series Borders for Vox Media. His visual style blends motion graphics with cinematic videography to create content that explains complex issues in relatable ways.\n\n- press - \nNYTimes: https://www.nytimes.com/2021/11/09/opinion/democrats-blue-states-legislation.html\nNYTimes: https://www.nytimes.com/video/opinion/100000007358968/covid-pandemic-us-response.html\nVox Borders: https://www.youtube.com/watch?v=hLrFyjGZ9NU\nNPR Planet Money: https://www.npr.org/transcripts/1072164745\n\n- where to find me -\nInstagram: https://www.instagram.com/johnny.harris/\nTiktok: https://www.tiktok.com/@johnny.harris\nFacebook: https://www.facebook.com/JohnnyHarrisVox",
+    "duration_seconds": 3025,
+    "url": "https://www.youtube.com/watch?v=axRhjqd-rus",
+    "summary": "The mechanism is incentives, not a magic wand · 00:00–15:38: Johnny Harris and producer Adam investigate why China's cities and infrastructure developed so rapidly, rejecting the simple explanation that a dictator can order everything into existence. Their account distinguishes a mixed economy—state industries, private firms and publicly or collectively owned land—from the Leninist party-state that controls political appointments. Party committees outrank parallel government offices, making the organization and its promotion system central to the explanation.\n\nDeng changed what officials were rewarded for · 15:38–22:53: After Mao, Deng Xiaoping is presented as tying party survival to material prosperity and shifting career advancement toward technical competence and economic growth. Special Economic Zones allow controlled market experimentation, while fiscal changes let local governments retain revenue above an agreed contribution. The resulting system gives both ambitious individuals and their local administrations reasons to create business activity instead of waiting for a single central instruction.\n\nFrom rural factories to land finance · 22:53–33:59: Township and Village Enterprises industrialize rural communities, but the 1994 fiscal change gives Beijing a larger share of taxes and makes those enterprises less rewarding locally. Officials turn toward converting collective rural land into state-controlled urban land, improving it, leasing usage rights and borrowing against rising values. Building now generates revenue, GDP and promotion credentials together; national projects still require coordination, but local leaders have reasons to cooperate. Empty developments are not automatically permanent failures—some later fill—yet the engine depends on future demand and can reward construction beyond immediate need.\n\nGrowth has limits; stability has teeth · 33:59–46:38: The film argues that lifting people out of poverty and building basic infrastructure cannot generate the same returns indefinitely, linking the slowdown with youth disillusionment and the phrase 'lying flat.' Alongside GDP targets, social stability becomes a promotion veto: unrest can undermine an official's career. Expert Lynette Ong describes forced displacement, hired intimidation and neighborhood social pressure as ways to reconcile development with suppressing visible protest, costs a visitor admiring a skyline may never see.\n\nXi's different era and the democratic lesson · 46:38–50:25: Harris argues that today's impressive infrastructure largely reflects the earlier reform-era incentive system, while Xi gives more weight to loyalty, ideology and security than GDP alone. What happens to the growth-for-political-control bargain is left unresolved, not forecast with certainty. The final verdict is that democracies can have good infrastructure too: the transferable question is what citizens and institutions reward leaders for, not whether people must surrender rights. The full creator description also carries a correction to a Chinese name label.",
+    "why_valuable": "Helps assess infrastructure policy without confusing visible construction with either prosperity or proof that autocracy is necessary: the film's usable framework is to examine promotion metrics, land-finance incentives, real demand and the hidden costs borne by displaced residents.",
+    "key_takeaways": [
+      "04:42–15:38: The distinction is a mixed market/state economy inside a party-state, not a Soviet-style economy where the state makes every production decision.",
+      "15:38–22:53: Deng's reforms made growth and technical competence routes to promotion, while revenue retention gave local administrations their own financial incentive to develop.",
+      "22:53–29:29: The film identifies the 1994 fiscal shift as a turning point toward land finance: improve land, lease usage rights, borrow against higher values and build again.",
+      "29:29–33:59: National coordination and local competition can reinforce each other; a railway station raises local land values and helps the officials being evaluated on development.",
+      "32:41–33:59: Some 'ghost cities' eventually populated, so initial vacancy alone does not prove failure; the deeper vulnerability is assuming demand can keep expanding indefinitely.",
+      "38:24–46:38: Social stability is described as a veto target, helping explain why coercion and community pressure can accompany development even when tourists see little overt repression.",
+      "46:38–50:25: The final lesson is to reward useful delivery and scrutinize incentives, not conclude that good trains require dictatorship; Xi's changed priorities make extrapolation from the earlier boom uncertain."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "Viral images of stations, skylines and trains prompt Harris to ask how the system behind them works, with producer Adam taking on the research. Harris explicitly notes that wealthy coastal cities are not representative of every Chinese experience and introduces dictatorship as a hypothesis to investigate rather than a sufficient answer.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 282,
+        "timestamp": "04:42",
+        "title": "Chinese Characteristics",
+        "description": "Adam explains how public land ownership and state industries coexist with private businesses, salaries, investment and competition. The flag becomes a way to show that society is organized around the Communist Party, whose large membership supplies a smaller professional hierarchy; this separates the political structure from an oversimplified capitalism-versus-communism economic label.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 611,
+        "timestamp": "10:11",
+        "title": "Party-State",
+        "description": "Parallel party and government ladders do not have equal authority: party leaders set priorities while administrators implement them. The Leninist vanguard structure controls appointments and provides the film's explanation for calling the system communist, before the discussion turns to why that particular structure produced such an exceptional reduction in poverty.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 938,
+        "timestamp": "15:38",
+        "title": "Modest Prosperity",
+        "description": "After Mao's death, Deng ties the party's future to economic improvement and changes promotion incentives toward younger, technically competent officials who can generate growth. Special Economic Zones enable market experiments, and local revenue retention gives governments a reason to earn more instead of receiving the same fixed budget regardless of performance.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1373,
+        "timestamp": "22:53",
+        "title": "Eating In Separate Kitchens",
+        "description": "Local government-backed factories industrialize rural communities, but the 1994 fiscal rearrangement makes retaining factory tax revenue less attractive. Officials increasingly develop requisitioned land, lease its usage rights and borrow against rising values, turning construction itself into a source of local income and measurable GDP even when immediate demand is weaker.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1769,
+        "timestamp": "29:29",
+        "title": "To Get Rich, First Build Roads",
+        "description": "The film distinguishes nationwide projects such as high-speed rail from isolated local vanity schemes while showing why local leaders still want stations and associated land gains. Guizhou's infrastructure and once-empty developments illustrate both overbuilding risks and the fact that some apparent ghost cities later fill, leaving dependence on continued demand as the deeper issue.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2039,
+        "timestamp": "33:59",
+        "title": "Lying Flat",
+        "description": "The earlier development surge runs into diminishing returns because moving a country out of poverty and installing basic infrastructure cannot be repeated indefinitely. Interviews and the phrase 'lying flat' contrast young citizens' frustration with outsiders' admiration, raising the unresolved question of party legitimacy when rapid improvements in living standards slow.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2304,
+        "timestamp": "38:24",
+        "title": "Maintaining Stability",
+        "description": "The collapse of other communist regimes and the Tiananmen crackdown frame a second career imperative alongside economic delivery. Social stability becomes a veto target, meaning protests can damage an official's prospects even when GDP looks strong; the film uses that contradiction to explain why prosperity did not automatically bring democratization.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2538,
+        "timestamp": "42:18",
+        "title": "A Pat on the Shoulder",
+        "description": "Lynette Ong describes how undercompensated displacement creates resistance and how officials may use hired intimidation or respected neighbors' pressure to obtain compliance. These less visible forms of coercion, followed by discussion of expanded surveillance, challenge a visitor's assumption that an attractive, orderly city reveals the full experience of its residents.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2798,
+        "timestamp": "46:38",
+        "title": "The New Era",
+        "description": "Harris argues that much of the visible built environment reflects Deng-era incentives that Xi is now changing in favor of ideology, loyalty and security. He leaves the future growth-and-control bargain open and concludes that good infrastructure does not require surrendering rights; in democracies, citizens must ask what behavior they reward in their leaders.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "cXYUulbxQZs",
+    "title": "No more Claude or ChatGPT - Local AI on your GPU + DaVinci Resolve Studio 21.1 - MCP Server",
+    "channel": "Team 2 Films",
+    "upload_date": "20261016",
+    "thumbnail": "https://i.ytimg.com/vi/cXYUulbxQZs/maxresdefault.jpg",
+    "description": "🔥🔥🔥 https://audiio.com/team2films\nYearly Pro Subscription DISCOUNT CODE: Team2Films70 (normally $199, with our code only $60, includes SFX and Stems)\n\n🔥💻 Learn how to use Resolve in your own time \nhttps://training.team2films.com/davinci-resolve-for-editors?coupon=LEARN\nDiscount Code: LEARN\n\nLearn how to set up your own Local Large Language Model and Agentic AI to control DaVinci Resolve. No more subscriptions to Claude or ChatGPT.\n\n00:00 Intro\n00:47 Hardware\n02:37 Our Setup\n04:14 Qwen\n05:05 Hermes\n05:24 Audiio\n06:50 OGRAFs\n09:35 Thoughts\n11:44 Outro",
+    "duration_seconds": 761,
+    "url": "https://www.youtube.com/watch?v=cXYUulbxQZs",
+    "summary": "Local inference is a hardware decision · 00:00–02:37: Team 2 Films presents local AI control of Resolve as an option for subscription economics, project NDAs, ethical preferences and dedicated compute. The presenter recommends at least 16 GB VRAM, explains that model weights and context compete for memory, and gives a 27-billion-parameter example at roughly 54 GB for 16-bit weights versus 27 GB at 8-bit. These are illustrative storage figures, not full system requirements; offloading also needs substantial system RAM.\n\nA deliberately split GPU setup · 02:37–05:24: The demo uses a 16 GB RTX 5080 for inference and a 12 GB RTX 5070 for Resolve on one Windows machine with 96 GB system RAM. Strata runs the Qwen model named in the captions as Qwen 3.8 FlashNext 125B, using quantization/offloading, 128K context and around 60 GB system RAM; the precise model identifier should be checked against the actual distribution before installation. Hermes connects to its local endpoint and then Resolve Studio 21.1's native MCP server, keeping this demonstrated control path off cloud compute.\n\nUseful graphics with measured waiting time · 06:50–09:35: Hermes produces an editable O-Graf lower third with text/color controls in six minutes, using existing examples as a reference. A more detailed animation explaining the user/model/agent/editor relationship takes 16 minutes including screenshot-based validation. While inference occupies its own GPU, the presenter shows a 12K source clip in a UHD timeline with three-frame temporal noise reduction playing at 24 fps; this is a specific first-hand demo, not a general performance guarantee.\n\nVerdict: keep story and authorship in control · 09:35–12:41: The presenter estimates the workflow graphic would take him perhaps an hour manually and values the ability to work while the agent runs. He also expects cloud models to remain more capable, finds unfamiliar generated graphics harder to edit, and worries about losing aesthetic intentionality or overusing animation. His conclusion is to treat local AI as a tool serving human storytelling, with Resolve Studio licensing, suitable hardware and editorial judgment still required; the mid-video Audiio promotion is separate from the technical evidence.",
+    "why_valuable": "Helps choose between cloud editing assistance and a local Hermes/Resolve setup: the demonstrated dual-GPU arrangement keeps editing usable during inference and produces editable graphics, but requires substantial RAM, a Studio license and acceptance of weaker direct editability.",
+    "key_takeaways": [
+      "00:47–02:37: Budget memory for both weights and context; the presenter recommends 16 GB VRAM as a starting point and warns that offloading also consumes system RAM.",
+      "02:37–04:14: The actual demo isolates inference on a 16 GB RTX 5080 and Resolve on a 12 GB RTX 5070, rather than assuming one shared GPU will remain responsive.",
+      "04:14–05:24: Strata, the locally hosted Qwen model and Hermes form separate layers; Hermes is pointed at a custom local endpoint before accessing Resolve's MCP server.",
+      "06:50–08:12: The first O-Graf lower third takes six minutes and includes user-editable text and colors, with existing graphics supplied as examples.",
+      "08:12–09:35: The harder animation takes 16 minutes including validation; the shown 12K-source/UHD-timeline noise-reduction example still plays at 24 fps with the second GPU.",
+      "09:35–11:44: Faster graphics are not automatically better storytelling: the presenter finds prompt-dependent edits and lost intentionality meaningful trade-offs."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "The presenter moves from the previous cloud-assisted Resolve demonstration to an entirely local control path. He gives four motivations—payback economics, ethics, NDA restrictions and dedicated speed—while warning that this is an introductory setup discussion rather than a complete AI course.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 47,
+        "timestamp": "00:47",
+        "title": "Hardware",
+        "description": "Weights and working context both need memory, and quantizing a 27-billion-parameter example from 16-bit to 8-bit reduces its approximate weight storage from 54 GB to 27 GB. The presenter recommends at least 16 GB VRAM and explains offloading and system-RAM needs, so buyers must size more than just GPU compute speed.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 157,
+        "timestamp": "02:37",
+        "title": "Our Setup",
+        "description": "The Windows workstation has 96 GB RAM and assigns a 16 GB RTX 5080 to inference while Resolve uses a 12 GB RTX 5070. The presenter discusses motherboard slot bandwidth, cooling and power, explaining why a second machine or second GPU can prevent the editor and model from fighting over the same resources.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 254,
+        "timestamp": "04:14",
+        "title": "Qwen",
+        "description": "Strata is used to host a quantized, offloaded Qwen model with 128K context, expected to consume the inference card's 16 GB VRAM and about 60 GB system RAM. The captions supply a model name that should be checked before installation; the important demonstrated choice is reserving sufficient context and offload capacity, not merely downloading the largest model.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 305,
+        "timestamp": "05:05",
+        "title": "Hermes",
+        "description": "An agent sits between the language model and editing software because it supplies tools for interacting with the computer. The presenter uses Hermes and connects it to the model through a custom endpoint containing the local server address, separating model hosting from application control.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 324,
+        "timestamp": "05:24",
+        "title": "Audiio",
+        "description": "A clearly identified Audiio sponsorship demonstrates mobile music discovery, favorites and its own music-search assistant rather than the editing agent. After the promotion, the presenter assigns Resolve to the 5070 and asks Hermes to connect to the native MCP server, completing the stated local-only inference and editor-control path.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 410,
+        "timestamp": "06:50",
+        "title": "OGRAFs",
+        "description": "The agent builds an editable lower third in six minutes, then creates a more detailed workflow animation in 16 minutes including screenshots and requirement checks. O-Graf's web technologies make it approachable for a coding model, and a 24 fps noise-reduction playback example shows why dedicating a second GPU lets the presenter keep editing during inference.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 575,
+        "timestamp": "09:35",
+        "title": "Thoughts",
+        "description": "The presenter estimates that manually building the simple workflow graphic would take perhaps an hour, but does not equate saved time with improved creative quality. He finds unfamiliar generated graphics harder to modify and worries about lost intentionality and excess animation, concluding that story should determine whether the automation is used.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 704,
+        "timestamp": "11:44",
+        "title": "Outro",
+        "description": "The closing advice reiterates that Resolve Studio and suitable hardware are still required, while other GPUs, models and agents could serve the same architecture. Hosting inference on a separate computer remains an option; the remaining vendor recommendations and request for balanced comments add no broader benchmark evidence.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "7HYlsX3_tbw",
+    "title": "First Adobe, Now Autodesk? SolidCraft Wants to Replace Fusion",
+    "channel": "Playduino",
+    "upload_date": "20261017",
+    "thumbnail": "https://i.ytimg.com/vi/7HYlsX3_tbw/maxresdefault.jpg",
+    "description": "Love these videos? Consider becoming a Channel Member to support more content like this! Thank you!\nhttps://www.youtube.com/channel/UCvsTO4avgOQYkgH_oU7oT6g/join\n\nAffiliate Links to my gear:\nBlackmagic micro studio camera 4k\nhttps://amzn.to/4cOmnDd\n\nBlackmagic ATEM mini extreme iso\nhttps://amzn.to/4sxRc4A\n\nRØDE NTG2 \nhttps://amzn.to/4tjzJhO\n\nART Tube MP\nhttps://amzn.to/4tNybfM\n\n00:00 intro\n00:25 What is Fusion?\n02:08 FreeCAD\n02:34 SolidCraft\n03:10 SolidCraft Demo\n08:27 Outro",
+    "duration_seconds": 550,
+    "url": "https://www.youtube.com/watch?v=7HYlsX3_tbw",
+    "summary": "Why look beyond Fusion? · 00:00–02:34: Playduino wants fast, local, Linux-friendly CAD rather than a subscription and default cloud file storage. He quotes Fusion at €60 per month, acknowledges its restricted noncommercial personal license and says KiCad already replaced his PCB workflow after Eagle's closure. FreeCAD is described as robust and capable, but he finds it slower to use because of its learning curve; those are his experience and quoted terms, not a fresh licensing audit.\n\nEarly promise with a narrow scope · 02:34–05:29: SolidCraft is described as only nine days old, built in Rust with coding-agent assistance, and unrelated to Artcraft. It currently targets Fusion's CAD subset rather than the full CAD/CAM/PCB package. In his hands-on demo it opens quickly, builds a dimensioned sketch, extrudes and cuts geometry, adds a 4 mm feature and updates downstream geometry after an earlier dimension changes.\n\nInterchange is the meaningful test · 05:29–08:27: Importing his power-over-Ethernet room-sensor shape works in FreeCAD but is not successfully reproduced in SolidCraft during the recorded attempts. A STEP export initially has a worrying preview, yet opens as a sound model in FreeCAD; a mesh also opens in PrusaSlicer for printing. Saving and reopening a native file succeeds, so export and local ownership look more promising than the unfinished import workflow.\n\nVerdict: promising experiment, not proven replacement · 08:27–09:10: The presenter is excited about open-source freedom and avoiding ongoing fees but ends with unanswered questions about maintainers, funding, feature parity and incumbents' reactions. The demonstrated result is basic parametric modeling and a working export path, not production qualification or a complete Fusion substitute. Anyone considering migration should test the actual import formats and geometry their own projects require.",
+    "why_valuable": "Helps decide whether SolidCraft is worth testing for locally owned 3D-print CAD: basic parametric edits and STEP/mesh exports work in this demo, while import reliability and long-term maintenance remain reasons not to replace Fusion wholesale yet.",
+    "key_takeaways": [
+      "00:25: The presenter needs Fusion mainly for 3D CAD; KiCad already handles his PCB work, so he is not evaluating an all-in-one engineering replacement.",
+      "01:14–02:08: His objections are the quoted €60/month subscription, cloud defaults, Mac responsiveness and paid browser access on Linux; he does acknowledge a limited personal license.",
+      "02:34: SolidCraft is described as nine days old and currently limited to CAD, with no affiliation to Artcraft.",
+      "03:10–05:29: Sketching, extrusion, cuts and a downstream update after an earlier dimension edit work in the first-hand demo.",
+      "05:29–07:40: The sensor-model import succeeds in FreeCAD but not in SolidCraft on camera; SolidCraft's STEP export opens correctly in FreeCAD and its mesh reaches PrusaSlicer.",
+      "08:27: The final reservation is sustainability: who maintains and funds these applications, and whether they can eventually match established tools."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "intro",
+        "description": "Playduino links the excitement over open-source Adobe alternatives to a separate project aimed at Autodesk's design software. He introduces a new CAD contender rather than claiming to have found a finished replacement for every engineering feature in Fusion.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 25,
+        "timestamp": "00:25",
+        "title": "What is Fusion?",
+        "description": "The presenter explains that his real requirement is 3D part design, since KiCad already replaced his PCB workflow. He objects to the quoted monthly subscription, cloud defaults and Linux restrictions while acknowledging the limited personal license, so the comparison is grounded in his particular needs rather than universal cost savings.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 128,
+        "timestamp": "02:08",
+        "title": "FreeCAD",
+        "description": "An established open-source alternative gets credit for robustness and advanced features, but the presenter says he fights its interface and works more slowly than in Fusion. He explicitly allows that this may reflect his own familiarity, making usability the gap he hopes a newer tool can close.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 154,
+        "timestamp": "02:34",
+        "title": "SolidCraft",
+        "description": "The new project is described as nine days old, written in Rust and developed quickly with coding-agent assistance. It targets only the CAD portion of Fusion and is not affiliated with Artcraft, so expectations should be those of an early experiment with a deliberately narrower scope.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 190,
+        "timestamp": "03:10",
+        "title": "SolidCraft Demo",
+        "description": "The hands-on sequence successfully creates and modifies parametric geometry, but an imported sensor shape that works in FreeCAD is not successfully brought into the new tool. STEP export opens correctly in FreeCAD despite a poor preview, a mesh reaches PrusaSlicer, and a native file reopens; these separate successes and failures matter more than startup speed alone.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 507,
+        "timestamp": "08:27",
+        "title": "Outro",
+        "description": "Playduino welcomes the possibility of applications that are both open-source and free of subscription fees. He nevertheless ends by asking who will maintain and fund them and whether they will match incumbents, leaving basic modeling and export as encouraging evidence rather than a guarantee of lasting production readiness.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "nBLUw9JZ9jw",
+    "title": "Claude Opus 5.5 Just Changed SEO Forever",
+    "channel": "Zubair Trabzada | AI Workshop",
+    "upload_date": "20261016",
+    "thumbnail": "https://i.ytimg.com/vi/nBLUw9JZ9jw/maxresdefault.jpg",
+    "description": "Connect Claude to Semrush (Free 14-Day Trial) 👉 https://semrush.sjv.io/c/7357560/3932026/13053\n\n🧠 Build AI assistants & AI employees like Jarvis 👉 https://www.skool.com/aiworkshop\n\n⚡ Learn AI for FREE 👉 https://www.skool.com/aiworkshop-lite\n\nCan Claude Opus 5.5 change the way we do SEO? In this step-by-step tutorial, I'll show you how to combine Claude Code, Claude Opus 5.5, and Semrush to build a powerful local SEO strategy, find keyword opportunities, analyze Google rankings, and optimize websites for better search visibility.\n\nWe'll start by setting up Claude Code, choosing a local business, and connecting Semrush SEO data. From there, I'll demonstrate how to use AI-powered keyword research prompts to uncover ranking opportunities, identify SEO problems, and build a practical strategy to help local businesses compete in Google Search.\n\nYou'll also see how Claude Opus 5.5 can analyze keyword rankings, recommend on-page SEO improvements, and rewrite homepage content with better keyword targeting, page headings, and SEO structure.\n\nWhether you're running an AI agency, offering local SEO services, managing business websites, or learning how to use AI for SEO, this tutorial shows you a practical workflow for combining Claude Code and Semrush to make SEO research and optimization faster and more efficient.\n\nThis video is sponsored by Semrush. \n\nChapters\n\n00:00 Claude Opus 5.5: SEO Game Changer  \n00:36 Set Up Claude Code for SEO  \n01:17 Choose a Local Business  \n02:27 Connect Semrush Data to Claude Code  \n04:20 Run the AI Keyword Research Prompt  \n06:10 Analyze the Keyword Rankings Table  \n09:54 3 SEO Fixes for Better Google Rankings  \n12:14 Optimize and Rewrite Homepage SEO  \n14:06 Before & After: SEO Improvements  \n18:42 Final Thoughts and Next Steps",
+    "duration_seconds": 1151,
+    "url": "https://www.youtube.com/watch?v=nBLUw9JZ9jw",
+    "summary": "Ground the audit in a data source · 00:00–04:20: Zubair Trabzada uses Claude Code in the desktop app, the model he identifies as Opus 5.5 and a Semrush MCP connector to audit Shannon Moving and Storage in San Francisco. The meaningful difference from asking a model to guess rankings is access to a named SEO database. This is a Semrush-sponsored tutorial, and its figures are third-party estimates rather than direct Google analytics or independently verified current rankings.\n\nFind near-ranking opportunities, then check the result · 04:20–09:54: The shown prompt asks for US keywords at positions 14–20, volume above 50 and a maximum of 30 rows, grouped by landing page. However, the subsequent report and commentary include positions 4–20 and examples at 9–16, so the demonstrated output does not consistently honor the requested filter. The presenter reports a 2,400-search/month phrase at position 16, a homepage ranking for 131 keywords and about 97% of organic traffic, plus roughly 17,900 combined monthly searches yielding an estimated 71 visits; these are the video's Semrush-derived estimates, not proven lost sales.\n\nTurn diagnosis into a practical worklist · 09:54–14:06: The recommendations are to align title/headline/copy with customer search wording, earn relevant local links and build substantial separate service pages. A follow-up prompt fetches the live homepage and drafts a title tag, meta description and H1 with before/after comparisons. The tool reports six H1 elements, a roughly 600-character duplicated description and a Bay Area headline that does not explicitly lead with San Francisco, illustrating how query research can guide a site-specific review rather than generic copy generation.\n\nDrafted improvements are not ranking results · 14:06–19:11: The presenter reviews a proposed 55-character title and about 150-character description, then discusses heading hierarchy, duplicate metadata and keeping business claims grounded in the existing site. Nothing is published to the business website during the demo, and no traffic uplift is measured. The closing caveat matters more than the headline: recrawling can take weeks and page-one rankings are not guaranteed; local links and reviews still matter. The presenter's one-H1 and snippet-length rules are advice in the tutorial, not verified universal Google requirements.",
+    "why_valuable": "Helps turn a local-business SEO audit into specific, reviewable edits: use Semrush-backed keyword/page evidence to draft metadata and service-page priorities, but check inconsistent filters and do not sell the resulting drafts as proven ranking gains.",
+    "key_takeaways": [
+      "02:27–04:20: The connector supplies named SEO data rather than relying on the model's unsupported ranking guesses; the video is sponsored by Semrush.",
+      "04:20–06:10: The prompt requests positions 14–20, volume over 50 and at most 30 rows; later results include positions 4–20, so validate filters rather than accepting the report uncritically.",
+      "06:10–09:54: Reported estimates put one phrase at 2,400 searches/month and position 16; the homepage accounts for 131 ranking keywords and about 97% of organic traffic.",
+      "09:54–12:14: The actionable priorities are matching customer wording, seeking relevant local links and giving distinct services useful standalone pages—not simply generating more generic blog content.",
+      "12:14–14:06: A live-page fetch reports six H1s and duplicated, overlong metadata; these findings motivate a specific before/after draft, not a sitewide redesign.",
+      "14:06–18:42: The proposed title is 55 characters and the description about 150, but the website remains unchanged and no post-edit ranking improvement is demonstrated.",
+      "17:58–18:42: The tutorial itself warns that recrawling takes time and edits do not guarantee page one; third-party search estimates are not business revenue or guaranteed customer demand."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Claude Opus 5.5: SEO Game Changer",
+        "description": "Trabzada pitches a workflow for diagnosing a real local company's search visibility and generating specific recommendations. The chosen example is a San Francisco moving business, but the opening promise of major ranking improvements is a tutorial claim rather than a measured result from an implemented campaign.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 36,
+        "timestamp": "00:36",
+        "title": "Set Up Claude Code for SEO",
+        "description": "The demonstration starts a new Claude Code session in the desktop application so research files remain in a local folder. Trabzada selects the model he calls Opus 5.5 and prefers a higher effort setting, presenting this as his workflow preference rather than a controlled comparison of model performance.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 77,
+        "timestamp": "01:17",
+        "title": "Choose a Local Business",
+        "description": "Shannon Moving and Storage is chosen as an established business in a competitive local market with room to improve its search positions. The presenter copies its website and distinguishes simply asking the model about rankings from connecting a specialist data source that can support a more grounded audit.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 147,
+        "timestamp": "02:27",
+        "title": "Connect Semrush Data to Claude Code",
+        "description": "The presenter locates Semrush in the connector browser, explains account authorization and checks that the connector is available to the session. He discloses the sponsorship and 14-day trial, while emphasizing that the subsequent ranking and volume analysis should come from this named database rather than model-generated guesses.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 260,
+        "timestamp": "04:20",
+        "title": "Run the AI Keyword Research Prompt",
+        "description": "A prompt requests keywords in the US database at positions 14–20 with volume above 50, limited to 30 rows and grouped by landing page. It also asks which page carries the site and for three business-friendly changes, linking a constrained research request to a prioritized action list instead of an unbounded SEO report.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 370,
+        "timestamp": "06:10",
+        "title": "Analyze the Keyword Rankings Table",
+        "description": "The returned table is described as covering positions 4–20, not consistently the requested 14–20, and the presenter reports substantial keyword concentration on the homepage. Examples include a 2,400-search phrase at position 16 and about 97% of organic traffic attributed to that page; these are Semrush-derived estimates, so the mismatch and uncertainty deserve checking before client use.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 594,
+        "timestamp": "09:54",
+        "title": "3 SEO Fixes for Better Google Rankings",
+        "description": "The recommendations connect weak query coverage with concrete edits to title, headline and opening copy, then suggest relevant local links and complete pages for distinct services. The presenter contrasts local-quality links with weak bulk links, but that numerical comparison is advice in the generated report rather than an observed experiment proving a fixed ratio.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 734,
+        "timestamp": "12:14",
+        "title": "Optimize and Rewrite Homepage SEO",
+        "description": "A second prompt fetches the live homepage and requests before-and-after drafts for the title tag, meta description and H1 using the selected search phrases. The tool reports six H1 elements, duplicated long metadata and a Bay Area-oriented main heading, creating a site-specific basis for revisions without changing the actual website.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 846,
+        "timestamp": "14:06",
+        "title": "Before & After: SEO Improvements",
+        "description": "The reviewed draft includes a 55-character title, an approximately 150-character description and a San Francisco-focused heading, with existing business claims retained. Duplicate tags and heading structure are also flagged, but nothing is deployed and the presenter acknowledges that recrawling takes weeks and the edits cannot guarantee first-page rankings.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1122,
+        "timestamp": "18:42",
+        "title": "Final Thoughts and Next Steps",
+        "description": "Trabzada closes by recommending the workflow to business owners and people serving SEO clients, then invites questions and subscriptions. The episode ends with proposed actions rather than post-publication measurements, so its value is faster diagnosis and drafting, not evidence that the showcased business has gained traffic.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
+    "id": "Z8lf5oWKfj0",
+    "title": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
+    "channel": "Nate Herk | AI Automation",
+    "upload_date": "20261016",
+    "thumbnail": "https://i.ytimg.com/vi/Z8lf5oWKfj0/maxresdefault.jpg",
+    "description": "Hostinger VPS: http://hostinger.com/nateherkvps\nFREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=matt-pocock-pod&sl=yt_matt-pocock-pod\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=matt-pocock-pod &hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nMatt Pocock taught himself to code, wrote it by hand for about 10 years, and now has agents write all of it. \n\nIn this conversation he explains why the best results come from telling agents what you care about and fixing the environment they work in, why spec-driven development made his code worse for months, and why he runs Opus 5.5 on medium effort. We also get into the opportunities for non-technical people, how to stand out when anyone can build a portfolio in a weekend, and the trust ladder he recommends for getting started.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro\n1:50 When Coding Agents Clicked\n4:24 Tell Agents What You Care About\n9:39 Where the Opportunities Are\n14:55 Unknown Unknowns & Grill Me\n19:43 How to Stand Out\n26:03 The Spec-Driven Development Failure\n30:48 Models, Harnesses & Effort Levels\n35:27 How to Get Started\n41:31 What's Next for Matt",
+    "duration_seconds": 2690,
+    "url": "https://www.youtube.com/watch?v=Z8lf5oWKfj0",
+    "summary": "The durable skill is communication plus engineering judgment · 00:00–09:39: Matt Pocock tells Nate Herk that coding agents became useful enough for him to stop hand-writing code around the release period he associates with Opus 4.5. His prescription is not a magic prompt: tell agents what matters and improve their working environment through readable code, tests and checks that prevent classes of mistakes. He uses AI teaching to acquire vocabulary, but follows links and reads primary sources rather than trusting the explanation blindly.\n\nA business opportunity in verifiable processes · 09:39–19:43: Pocock sees work in helping organizations adapt agents to their own knowledge workflows, because information design, trust, repeatability and output verification remain difficult. His 'Grill Me' skill repeatedly interviews the human to expose missing requirements, including security and deployment. Even experienced developers have unknown unknowns, so neither a nontechnical user nor an expert should assume that a first specification is complete; Herk adds that monitoring real production inputs remains necessary.\n\nStanding out means understanding the client · 19:43–26:03: A quick prototype is useful when it shows that its builder understands the actual business, not simply that a weekend portfolio can be generated. Pocock stresses clear thinking and a shared domain vocabulary: the meaning of an 'order' should stay aligned across client conversation, interface, code and database. He qualifies his freelance positioning advice because he already had a large audience, so this is not a tested formula for winning cold consulting bids.\n\nHis failed spec experiment changed the priority · 26:03–35:27: Pocock describes spending months turning his custom video editor into a detailed specification, only to see code quality and agent results deteriorate. He recovered by focusing on a codebase that is safe and easy to change. He currently uses Claude Code with the model he calls Opus 5.5 at medium effort and claims much higher commit volume, but these are personal workflow reports, not comparative benchmarks. Giving an agent a runnable app, browser access and screenshots produced more useful gains for him than obsessing over the newest harness or maximum reasoning effort.\n\nVerdict: climb the trust ladder, automate the boring work · 35:27–44:50: Beginners should pick a mainstream harness, work toward a small motivating idea, watch one agent closely and add tools or parallel agents only after understanding its behavior. Contrary to advice to hand over one's biggest ambition immediately, Pocock recommends low-risk, measurable chores such as draft replies and content preparation. He closes with interest in maintainable 'software factories,' better multi-agent organization and stronger open models, while explicitly declining to predict the future; agents still need help caring about a codebase's long-term health.",
+    "why_valuable": "Helps choose what to learn beyond tool-specific AI automation: communication, domain vocabulary, tests, runnable environments and staged trust are the repeatable skills Pocock says improved his work more than elaborate specs or maximum model effort.",
+    "key_takeaways": [
+      "04:24–09:39: Tell the agent what you value and encode it in tests and checks; use AI teaching as an introduction, then read the cited primary source yourself.",
+      "09:39–14:55: Organization-specific knowledge-work processes are a practical opportunity precisely because trust, information structure and verification remain difficult.",
+      "14:55–19:43: 'Grill Me' interviews expose missing requirements such as security and deployment; a detailed initial idea is not proof that the design is complete.",
+      "19:43–26:03: A client-specific prototype and consistent domain language can demonstrate understanding better than a generic fast-built portfolio; Pocock qualifies his cold-consulting advice.",
+      "26:03–30:48: His months-long spec-driven experiment made his custom editor harder to work on; he reports better results after refocusing on maintainable, changeable code.",
+      "30:48–35:27: He uses medium effort and values tests plus browser/screenshot access over constant model switching; the productivity claims are his experience, not a controlled benchmark.",
+      "35:27–41:31: Begin with one closely watched agent and low-risk, measurable chores, then gradually add integrations and parallel work as trust is earned.",
+      "41:31–44:50: His unfinished challenge is agents that improve long-term codebase quality; 'software factories' and open-model progress are interests, not a solved architecture or guaranteed forecast."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Intro",
+        "description": "A preview sets up communication, missing requirements and a failed specification experiment as the conversation's central issues. Herk then introduces Pocock's transition from years of manual coding to agents, asking how a technically experienced skeptic came to trust the new workflow.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 110,
+        "timestamp": "01:50",
+        "title": "When Coding Agents Clicked",
+        "description": "Pocock places his personal turning point around the release period he associates with Opus 4.5 after a long period of skepticism. He connects the change to skills he already enjoyed—teaching colleagues and improving their environment—rather than claiming that software knowledge had suddenly become unnecessary.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 264,
+        "timestamp": "04:24",
+        "title": "Tell Agents What You Care About",
+        "description": "Pocock argues that agents need explicit priorities and a healthy codebase with tests and checks, much as a team of human developers does. He also describes his teaching skill's source-based approach and says he still reads primary material himself; the interval ends with a clearly separate Hostinger sponsorship rather than additional evidence about agent reliability.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 579,
+        "timestamp": "09:39",
+        "title": "Where the Opportunities Are",
+        "description": "Pocock sees an opening for people who can turn each organization's knowledge work into repeatable agent processes with appropriate context and verification. He avoids prescribing entrepreneurship versus promotion as the universal path, arguing instead for transferable skills in organizing agents, information and trust while acknowledging ethical concerns about AI adoption.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 895,
+        "timestamp": "14:55",
+        "title": "Unknown Unknowns & Grill Me",
+        "description": "The discussion treats uncertainty as a shared problem for developers and nontechnical users rather than a divide between them. Pocock's interview-style skill probes what the user has omitted, while Herk describes production monitoring and communicating residual risks to clients; together they make oversight part of the workflow, not an optional afterthought.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1183,
+        "timestamp": "19:43",
+        "title": "How to Stand Out",
+        "description": "Pocock suggests that a fast prototype can establish understanding of a client's business, but qualifies his advice because he has not competed for work without an existing audience. He emphasizes clear communication and domain-driven vocabulary that stays consistent across users, interfaces, code and data, giving a specific meaning to 'order' as the example.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1563,
+        "timestamp": "26:03",
+        "title": "The Spec-Driven Development Failure",
+        "description": "A detailed specification for Pocock's custom video editor failed to preserve quality over months of use, despite his effort to follow the fashionable approach. Refocusing on code that is easy to change improved results, leading him to argue that models and harnesses still need a process for learning what the human actually values.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1848,
+        "timestamp": "30:48",
+        "title": "Models, Harnesses & Effort Levels",
+        "description": "Pocock reports several agents working in parallel and much higher commit volume, but prioritizes a testable environment over treating those counts as a universal productivity measure. His current preference is medium effort, and giving the editor agent browser and screenshot access improved its work enough that he considers environment quality more important than constant model comparisons.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2127,
+        "timestamp": "35:27",
+        "title": "How to Get Started",
+        "description": "New users are advised to choose a mainstream harness, pursue a small concrete idea and watch one agent carefully before adding custom skills, integrations or parallel agents. Pocock contrasts ambitious marketing prompts with measurable low-risk chores, saying that automating unwanted drafting work is what frees him to concentrate on strategy.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2491,
+        "timestamp": "41:31",
+        "title": "What's Next for Matt",
+        "description": "Pocock explicitly declines the role of forecaster and instead describes what he wants to make work now: agents that initiate useful tasks and maintain code for future contributors. He remains dissatisfied with current multi-agent organization, welcomes stronger open models and token efficiency, and ends with his teaching channels rather than a claim that the software-factory problem is solved.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-18T06:00:30+02:00",
+    "summarized_at": "2026-10-18T06:05:56+02:00"
+  },
+  {
     "id": "FbKXvab-0yQ",
     "title": "Cloudroom just destroyed all AI coding apps (fully open-source)",
     "channel": "David Ondrej",
