@@ -9,8 +9,221 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-18T06:05:56+02:00",
+  "updated_at": "2026-10-20T06:06:21+02:00",
   "videos": [
+    {
+      "id": "hgLI491ajG0",
+      "title": "I Tried 100+ AI Tools. These 7 Are the Best",
+      "channel": "Nate Herk | AI Automation",
+      "upload_date": "20261019",
+      "thumbnail": "https://i.ytimg.com/vi/hgLI491ajG0/maxresdefault.jpg",
+      "description": "Hostinger Black Friday deals: http://hostinger.com/nateherkvps\nFREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=100-ai-tools&sl=yt_100-ai-tools\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=100-ai-tools&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=100-ai-tools&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nPeople always ask me which AI tools I actually use, so I went back through the 100+ AI tools I've tested for my business and kept only the ones I come back to every single week. \n\nThese 6 are the best, and a couple of them sound pretty boring on paper. One runs about 90% of my daily workflow, one replaced tools I was paying for every month, and one keeps my automations running 24/7 even when my laptop is closed.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTimestamps:\n0:00 Intro\n0:23 Tool 1\n2:10 Tool 2\n3:13 Free AIOS Kit\n3:41 Tool 3\n5:10 Tool 4\n6:28 Tool 5\n7:42 Tool 6\n8:14 Tool 7\n9:21 Outro",
+      "duration_seconds": 615,
+      "url": "https://www.youtube.com/watch?v=hgLI491ajG0",
+      "summary": "Build around portable agents: Nate Herk's shortlist is seven tool categories, with Claude Code and Codex grouped together as his highest-impact choice. He says they drive about 90% of his daily workflow through a local business knowledge base containing projects, skills and meeting transcripts, and have let him replace paid slide, content and recording tools with small custom applications. His practical starting point is a subscription used for only one feature or an assistant that answers questions from SOPs and client documents. He explicitly distinguishes internal tools for a small team from reliable software serving hundreds of thousands of users; his preference for Codex's computer/browser work and Claude's brainstorming and usage allowance is personal and time-sensitive, not a controlled benchmark.\n\nRoute models and retain reusable context: Herk reports that OpenRouter offers over 500 models from more than 80 providers under one account, and says nearly all his production automations use it. Separate API keys make per-automation costs visible, while model fallbacks can continue work after an error; he proposes cheap models for lead sorting and stronger ones for drafting replies rather than using the most expensive model everywhere. His free AIOS kit promotes the Herk Loop of context, connections, capabilities and cadence, with six skills for establishing the business brain and priorities. These are his workflow recommendations and promotional resource, not measured evidence that every integration becomes interchangeable.\n\nChoose infrastructure by how the job runs: Hostinger VPS supplies the always-on computer for his hosted agents, including Hermes and OpenClaw, while Grok Bot supplies managed browser, filesystem and terminal access with app connectors and scheduled or webhook-triggered routines. His concrete Grok Bot jobs publish Q&A transcripts into a community and classroom, announce new YouTube uploads in two communities, and send AI updates. For predictable document processing or data syncing, however, he recommends writing a TypeScript script with Claude Code and deploying it to Trigger.dev instead of keeping a full reasoning-agent loop involved. He says Trigger.dev charges for execution and its free plan includes $5 in monthly credits; Hostinger's segment is explicitly sponsored, and its sales discussion gives no reproducible hosting cost comparison.\n\nVoice input and usage-based creative assets: Glaido combines hold-to-talk dictation into the current app with a command mode for web research, video summaries and opening files or applications. Herk discloses that he is a partner and describes custom MCP tools for sending work to coding agents or other apps; his fastest-on-the-market and completely-private assertions are not independently tested here, and the whole-computer voice-control ambition is presented as a vision. He uses Kie AI for pay-per-generation access to image/video models and says it is the cheapest option he has found for batch creative work, without presenting like-for-like prices or quality tests. Both recommendations are use-case reports rather than verified privacy, speed or cost rankings.\n\nFinal verdict and buying discipline: Herk closes by calling this the stack he repeatedly returns to, not the ideal list for every business, and directs viewers to his free and paid communities. The useful conclusion is architectural: keep business context portable between agents, centralize model billing and fallback, run persistent agents where an always-on computer is needed, and use ordinary scheduled code for predictable tasks. Trial the narrow workflow you need before replacing an existing tool or buying another subscription. The title promises seven and the narration delivers seven categories, although the verbatim creator description still says six; original English auto-captions also contain transcription errors in product names.",
+      "why_valuable": "Run predictable document processing and syncing as scheduled TypeScript on Trigger.dev rather than paying for a full reasoning-agent loop; keep business context portable between Claude Code and Codex. Herk's stack helps you choose between a persistent VPS, managed Grok Bot routines and ordinary scheduled code for each workflow, instead of buying overlapping tools. His reported 90% workflow coverage, cheapest-provider claims and Glaido privacy/speed claims are personal assertions, not benchmark results; Hostinger sponsors its segment and he is a Glaido partner.",
+      "quick_takeaways": [
+        "Keep your business knowledge, projects and skills portable between Claude Code and Codex; Herk uses both rather than betting his workflow on one model's temporary lead.",
+        "Use OpenRouter fallbacks and separate keys per automation to handle provider errors and track costs; reserve stronger models for tasks that actually need more reasoning.",
+        "Choose a VPS for a persistent agent computer, Grok Bot for managed app-connected routines, and Trigger.dev for predictable TypeScript jobs such as document processing and data syncing.",
+        "Glaido adds voice dictation and commands; Kie AI offers usage-based image/video generation. The privacy, speed and lowest-cost claims are not tested comparisons in this video.",
+        "Hostinger sponsors its segment and Herk is a Glaido partner. Start by testing one narrow workflow or replacing a single-feature subscription, not by buying the whole stack."
+      ],
+      "key_takeaways": [
+        "00:23–02:09: Claude Code and Codex form one category, and Herk says they cover about 90% of his workflow. Start with a small internal replacement for a subscription's single useful feature; he does not claim this makes large-scale production software easy.",
+        "01:37–02:09: He pays for both coding agents, preferring Codex for computer/browser use and Claude for brainstorming at the time of recording. Portable files and context matter more to his setup than declaring a permanent model winner.",
+        "02:10–03:12: Herk reports over 500 OpenRouter models from more than 80 providers, with fallback routing and separate API keys for cost attribution. Cheap lead classification followed by stronger-model reply drafting is his suggested division of work, not a measured savings result.",
+        "03:41–05:09: A VPS keeps hosted agents running when the laptop is off; he cites Hermes and OpenClaw deployments. Hostinger sponsors this segment, and one-click setup convenience is not evidence of an uptime guarantee or lowest total cost.",
+        "05:10–06:27: Grok Bot's concrete jobs include publishing Q&A transcripts to a community and classroom and announcing uploads in two communities. He favors the managed connectors and phone access over configuring another self-hosted agent for these routines.",
+        "06:28–07:41: Glaido's command mode can invoke research, file-opening and custom MCP tools as well as dictation. Herk discloses his partnership; completely-private and fastest claims are not supported by an audit or timed comparison in the segment.",
+        "07:42–08:13: He favors Kie AI's per-generation billing for batch images and videos rather than another monthly subscription. No exact creative-model prices or equal-quality comparison substantiate his personal cheapest-option verdict.",
+        "08:14–10:13: For deterministic document processing or syncing, he recommends Claude-written TypeScript jobs deployed to Trigger.dev, whose free plan he says includes $5 monthly credits. His closing qualification is that a different business may need a different shortlist."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Herk says most of the more than 100 AI tools he has tried added noise rather than lasting business value, while seven categories have stayed useful in his daily work. He frames the list around recurring operational impact, including apparently boring utilities, rather than novelty or a formal benchmark ranking.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 23,
+          "timestamp": "00:23",
+          "title": "Tool 1",
+          "description": "Claude Code and Codex serve as Herk's local business workspace, reading files, generating documents and drawing on projects, skills and meeting transcripts; he estimates they drive about 90% of his daily workflow. He describes replacing tools such as Gamma and his own recording workflow with small custom apps, while warning that an internal app is not equivalent to software supporting hundreds of thousands of users. He uses both agents, values Codex for browser/computer tasks and Claude for brainstorming, and wants his files organized so switching does not become painful.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 130,
+          "timestamp": "02:10",
+          "title": "Tool 2",
+          "description": "Herk says OpenRouter combines over 500 models from more than 80 providers under one account and powers nearly all his production automations. He uses fallbacks to try another model after errors and separate keys to see each automation's cost, then suggests cheap lead sorting followed by a stronger model for replies. The recommendation is centralized access and task-based routing, not an independently measured price or reliability advantage.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 193,
+          "timestamp": "03:13",
+          "title": "Free AIOS Kit",
+          "description": "The free kit is organized around Herk's four-part framework of context, connections, capabilities and cadence and includes six skills. He says it interviews the user, helps establish a business knowledge base and sets priorities, offering a starting structure for the portable agent workspace discussed earlier rather than another model recommendation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 221,
+          "timestamp": "03:41",
+          "title": "Tool 3",
+          "description": "An always-on cloud computer lets Herk keep hosted agents working when his own laptop is closed, with Hermes and OpenClaw among his examples and recurring stock-trading and social-content tasks among his claimed uses. He favors quick server creation and one-click templates because he lacks a DevOps background, then promotes Hostinger's seasonal deals. This is an explicitly sponsored segment, with no detailed hosting bill, uptime test or evidence of trading profitability.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 310,
+          "timestamp": "05:10",
+          "title": "Tool 4",
+          "description": "Managed bots share a cloud computer with browser, filesystem and terminal access, while connectors and phone synchronization make scheduled or webhook-driven routines easier for Herk to set up. He describes publishing Q&A transcripts into both the community feed and classroom, announcing videos in two communities and receiving AI-news reminders. His comparison with self-hosted OpenClaw emphasizes reduced setup and fewer forgotten repetitive tasks, not a measured comparison of execution accuracy.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 388,
+          "timestamp": "06:28",
+          "title": "Tool 5",
+          "description": "After disclosing his partnership, Herk describes holding a key to dictate directly into the current application and using command mode for research, video summaries and opening files or apps. He says custom MCP tools can launch coding-agent threads or connect to task apps, and distinguishes that functionality from the wider ambition of controlling the whole computer by voice. His local-history, privacy and speed assertions are promotional claims here rather than audited guarantees.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 462,
+          "timestamp": "07:42",
+          "title": "Tool 6",
+          "description": "Herk uses Kie AI for pay-per-use access to multiple image and video models when producing thumbnails, carousel visuals and social reels. He suggests similar use for product photos and ad creatives and prefers avoiding a monthly subscription, but provides no exact rates or controlled comparison to establish his claim that it is the cheapest option he has found.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 494,
+          "timestamp": "08:14",
+          "title": "Tool 7",
+          "description": "Predictable document processing and data syncing run as TypeScript code on schedules or webhooks rather than needing a persistent server or full reasoning-agent loop. Herk has Claude Code build, deploy, test and update those Trigger.dev jobs and says execution-based billing plus $5 in monthly free credits makes small jobs inexpensive. His central distinction is to reserve flexible agents for work that needs them and use deterministic scripts for repeatable steps.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 561,
+          "timestamp": "09:21",
+          "title": "Outro",
+          "description": "Herk says the shortlist reflects the tools he keeps returning to and cautions that businesses doing different work may need a different set. He ends by directing viewers to free resources and a paid business community, making the final verdict a personal operational stack rather than a universal purchasing recommendation.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-20T06:00:28+02:00",
+      "summarized_at": "2026-10-20T06:06:21+02:00"
+    },
+    {
+      "id": "zU8iCCoJZGQ",
+      "title": "BREAKING: Mohammed Hijab SUED Me and LOST",
+      "channel": "GodLogic Apologetics",
+      "upload_date": "20261013",
+      "thumbnail": "https://i.ytimg.com/vi/zU8iCCoJZGQ/maxresdefault.jpg",
+      "description": "0:00 Lawsuit Update\n1:01 Debate begins\n5:03 Quran 10:94 Islamic Dilemma debate\n24:01 Hijab BLUNDERS on \"Muhaymin\" \n25:25 MUST WATCH\n28:34 Hijab MISQUOTES Hadith\n32:55 The Quran does NOT correct the Bible\n48:17 Some Muslim scholars say the Bible is preserved\n1:13:28 Trinity debate\n1:31:08 Hijab gets STUCK badly on Relative Identity \n1:35:20 Trinity debate continues and concludes\n\nWe Are In Full-Time Ministry ❗️❗️ \nJOIN PATREON: https://www.patreon.com/GodLogicGL\n\nSupport Us By Buying A Shirt: https://godlogicclothing.com\n\nFollow our new Spotify:  https://open.spotify.com/show/2WMek3jUeoziu1vt8qgu7w?si=hdeEFDZERW2wOZT8mDdtHA\n\n~~IF YOU WANT TO SUPPORT~~\nDonation Link: https://godlogicapologetics.com/donate-gl\nhttps://www.paypal.me/GodLogic?locale.x=en_US\nZelle: GodLogicGL226@gmail.com\nVenmo: https://account.venmo.com/u/GodLogic\n\n~~QUESTIONS?~~\nQ&A Playlist: https://www.youtube.com/playlist?list=PLIbrY2dl7TVc\n\n~~IF YOU WANT TO CONNECT~~\n\nGodLogic 2.0 for clipped content : https://www.youtube.com/@GodLogic2.0\nFOLLOW GodLogic on Twitter/X: https://x.com/GodLogic_GL\nLIKE GodLogic on Facebook: https://www.facebook.com/GodLogicGL/\nFOLLOW on Instagram: https://www.instagram.com/godlogicgl/\nEMAIL: GodLogicGL226@gmail.com",
+      "duration_seconds": 6367,
+      "url": "https://www.youtube.com/watch?v=zU8iCCoJZGQ",
+      "summary": "Copyright claim and debate context: Avery of GodLogic opens by claiming that Mohammed Hijab's attempt to suppress this discussion through a copyright-related lawsuit was dismissed, then replays their lengthy Christian–Muslim debate. The transcript and creator description provide no court order, case number or independently verifiable legal record, so the headline remains the uploader's claim rather than an established legal finding. In the replay Avery asks permission to record and publish and specifically asks about a copyright strike; Hijab says going live is fine. They agree to alternate questions on Islam and Christianity, although credentials, interruptions and personal taunts repeatedly consume the exchange.\n\nWhat follows from consulting earlier scripture?: Avery's Islamic-dilemma argument uses Quran 10:94: if Muhammad doubts the revelation, he is directed to people reading earlier scripture, which Avery takes to make that scripture a standard against which the Quran is tested. Hijab replies that the conditional is rhetorical, that Muhammad did not doubt or ask, and that consultation does not imply a binding authority capable of overruling the Quran; he also challenges Avery's move from reassurance by agreement to a conclusion about disagreement. They dispute whether muhaymin makes the Quran a guardian, filter or corrector, and Avery counters the appeal to the Quran as criterion by arguing that earlier revelation is also called a criterion. Neither establishes an agreed inference rule or shared interpretation, so the substantive issue is authority, not merely whether the verse contains a conditional.\n\nCorrection of texts versus correction of speakers: A hadith about neither believing nor disbelieving the People of the Book becomes a dispute over the full wording, including the affirmation of revelation given to both communities. Hijab treats biblical accounts of divine rest and the Quran's denial of killing/crucifying Jesus as examples of deliberate correction of earlier material. Avery answers that biblical rest need not mean fatigue, and distinguishes correcting what Jews or Christians say from explicitly identifying and correcting a written scripture; he demands an unambiguous textual example. Hijab responds that the Quran's references to scripture with them can concern surviving parts rather than the entire corpus, using whole-for-part language such as fingers in ears and a country winning a match.\n\nDisagreement within scholarship, not a settled preservation result: Both acknowledge Muslim scholarly views distinguishing textual alteration from distortion of meaning, but disagree over which is dominant and what follows for the Bible available in Muhammad's time. Hijab cites classical authorities and eventually reads references supplied during the exchange, including material about writing a book and selling it under Quran 2:79; Avery disputes whether those quotations establish alteration of the Torah itself rather than a separate composition. Avery argues that preservation-oriented scholars support his challenge, while Hijab says a legitimate textual-corruption interpretation is enough to block a universal refutation of Islam. They leave the primary-source context, scope of preservation and majority claim contested; the auto-captions garble several Arabic names and citations, so this upload should not be used as a reliable quotation reference without checking originals.\n\nTrinity, identity and the unresolved ending: Avery affirms Jesus as truly divine and explains the Father, Son and Spirit as sharing divine essence, mind and will while remaining distinct persons. Hijab challenges whether that distinction survives identity reasoning, invoking Peter Geach and Leibniz's law; Avery appeals to relative identity and later uses the Titanic before and after sinking to argue that sameness need not mean unchanged properties, while Hijab disputes its application to the Trinity. The final exchange shifts to eternal generation: Avery distinguishes the Son's personal relation to the Father from dependence of the shared divine essence on an external being, whereas Hijab argues that being caused in any respect excludes necessary existence and closes with the Quranic declaration that God neither begets nor is begotten. Hijab declares his argument successful and Avery continues objecting; the recording cuts off during Avery's last response, without an agreed verdict, resolution or independent adjudication of the philosophical claims.",
+      "why_valuable": "The speakers do not resolve whether consulting earlier scripture establishes its authority, or whether a divine person's eternal relation entails dependence of the divine essence. Those distinctions help you choose and prepare a focused apologetics argument instead of repeating a victory slogan: check the complete hadith, the textual-versus-oral correction examples and the identity assumptions first. The copyright dismissal is asserted only by the uploader, scholarly consensus is disputed, and noisy auto-captions make exact Arabic citations unsafe to reuse without verification.",
+      "quick_takeaways": [
+        "Avery says Hijab's copyright-related lawsuit was dismissed, but the video supplies no court record or case number. Treat the legal headline as the uploader's claim.",
+        "The Quran 10:94 dispute is whether consulting earlier scripture makes it an authority over the Quran. Hijab accepts consultation language but rejects Avery's stronger inference.",
+        "They disagree over correcting biblical texts versus correcting what people say. Divine rest, the crucifixion and the full wording of a hadith are the main examples to check in primary sources.",
+        "Both acknowledge differing Muslim scholarly views on textual corruption and distortion of meaning; they do not settle which dominates or how much existing scripture is preserved.",
+        "The Trinity discussion turns on shared essence versus distinct persons, identity rules and eternal generation. Hijab claims success, Avery disputes his categories, and the recording ends during Avery's response without an agreed outcome."
+      ],
+      "key_takeaways": [
+        "00:00–01:00; 01:59–02:24: Avery alleges dismissal of a copyright-related lawsuit; the replay contains his permission request and Hijab's approval of going live. That exchange is context, not independent proof of a lawsuit, its outcome or the scope of any publication licence.",
+        "05:03–24:00: Avery treats Quran 10:94's direction to consult earlier readers as evidence of earlier scripture's authority. Hijab contests both the relevance of a hypothetical doubt and the stronger inference that disagreement would bind Muhammad to reject the Quran.",
+        "24:01–28:33: The muhaymin/criterion exchange tests whether guardianship means correction and whether calling more than one revelation a criterion establishes priority. The creator's combative chapter labels should not be mistaken for an agreed result of that argument.",
+        "28:34–38:14: Avery insists on the whole hadith, including belief in revelation to both communities, while Hijab uses divine rest and the crucifixion as correction examples. Avery's answer distinguishes biblical rest from tiredness and textual correction from correcting oral claims.",
+        "38:15–48:16: Hijab argues that confirming scripture with a community may mean confirming a surviving part, illustrated by whole-for-part expressions. Avery insists on an explicit correction of written scripture rather than a difference from what a community says.",
+        "48:17–1:13:27: Both recognize views involving textual corruption and views involving distortion of meaning, but not an agreed majority or precise preservation scope. Treat cited scholars and Quran 2:79 interpretations as disputed references to inspect, not a consensus established by this exchange.",
+        "1:13:28–1:35:19: Avery's relative-identity response separates shared divine essence from distinct persons; Hijab argues it conflicts with identity logic. The Titanic example illustrates persistence through change, but its relevance to the Trinity remains disputed rather than demonstrated by agreement.",
+        "1:35:20–1:46:07: Eternal generation becomes a dispute over hypostatic relation versus dependence on another being. Hijab declares victory and appeals to God not begetting or being begotten, while Avery denies a same-sense contradiction; the upload ends mid-response without a shared verdict."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Lawsuit Update",
+          "description": "Avery announces that a copyright-related lawsuit or challenge brought by Hijab was dismissed and presents the replay as the discussion Hijab wanted hidden. No court document, case identifier or reasoning is supplied in this interval, so the asserted legal victory must remain attributed to the uploader rather than treated as independently verified fact.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 61,
+          "timestamp": "01:01",
+          "title": "Debate begins",
+          "description": "The speakers exchange taunts before Avery asks to record and publish the conversation and specifically seeks assurance about a copyright strike; Hijab says going live is fine. They agree to alternate discussion of Islam and Christianity, then argue over whether Avery's chosen Islamic dilemma is his strongest objection. This establishes both the recording context and the competitive format that later interferes with sustained answers, without itself determining any legal permission dispute.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 303,
+          "timestamp": "05:03",
+          "title": "Quran 10:94 Islamic Dilemma debate",
+          "description": "Avery argues that Quran 10:94 directs a doubting Muhammad to earlier scripture's readers and therefore makes that revelation a standard for evaluating the Quran. Hijab replies that the conditional is rhetorical and does not entail either actual doubt or the binding authority Avery infers, then challenges the move from agreement supplying reassurance to disagreement disproving the Quran. Their exchange expands into alleged biblical corrections and the Quran's guardianship role, but recurring interruptions leave the central inference contested rather than conceded by both sides.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1441,
+          "timestamp": "24:01",
+          "title": "Hijab BLUNDERS on \"Muhaymin\"",
+          "description": "Hijab describes the Quran as a guardian and filter of truth in previous revelation, while Avery questions whether that establishes the power to correct it. Avery then invokes interpreters who, he says, apply the relevant guardianship language to Muhammad and asks to show the source; Hijab rejects that reading and resists the screen-sharing proposal. The disagreement matters because a disputed translation or referent cannot by itself settle which scripture is authoritative.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1525,
+          "timestamp": "25:25",
+          "title": "MUST WATCH",
+          "description": "Avery asks what criterion means and counters Hijab's appeal to the Quran by saying the revelation given to Moses and Aaron also bears that description. Hijab accepts earlier revelation as a criterion in its own right but rejects the implication Avery wants to draw about priority over the Quran. Celebratory reactions and a costume change interrupt the exchange before they return to Quran 10:94, with no shared conclusion about how competing criteria are ranked.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1714,
+          "timestamp": "28:34",
+          "title": "Hijab MISQUOTES Hadith",
+          "description": "Hijab invokes a report about Umar reading Torah material and another instruction neither to believe nor disbelieve the People of the Book. Avery insists the latter be completed with its affirmation of revelation to both communities, while Hijab says uncertainty about surviving material still leaves Quranic contradictions decisive. They pivot to the crucifixion and whether it counts as correction of the New Testament, showing why the report's wording and the distinction between oral testimony and scripture are central to Avery's reply.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1975,
+          "timestamp": "32:55",
+          "title": "The Quran does NOT correct the Bible",
+          "description": "Hijab presses divine rest in Genesis and Exodus and the Quran's denial of Jesus being killed or crucified as examples of correction of biblical narratives. Avery says rest does not establish divine fatigue and argues that Muhammad addresses what people say, not an identified written text; he demands an explicit textual correction and returns to the hadith about Hebrew recitation explained in Arabic. Hijab then defends partial confirmation of scripture through whole-for-part rhetoric, illustrating it with fingers in ears and a country winning a match. Their disagreement is about the scope and target of correction, not a jointly established finding that either corpus is preserved or corrupted.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2897,
+          "timestamp": "48:17",
+          "title": "Some Muslim scholars say the Bible is preserved",
+          "description": "Both speakers recognize differing Muslim scholarly approaches to textual corruption and distortion of meaning, while disputing majority status, named authorities and the scope of any preserved text. Hijab eventually reads or translates references brought into the exchange, including material about writing a book and Quran 2:79, but Avery argues that a separate forged composition need not mean the Torah itself was altered. Avery uses preservation-oriented scholars to press his challenge, whereas Hijab says a legitimate corruption interpretation prevents the dilemma from refuting Islam universally. The segment ends with a forced topic change rather than agreement on primary-source context or the Bible's preservation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4408,
+          "timestamp": "1:13:28",
+          "title": "Trinity debate",
+          "description": "Avery affirms Jesus as truly divine and describes one divine essence, mind and will shared by the three persons, while Hijab asks whether those shared features collapse them into one person. Their dispute moves through predication, identity, relative identity and Peter Geach before turning into a prolonged argument about Leibniz's law and whether Avery rejects logic or only an absolute-identity framework. Avery maintains that sameness in one respect can coexist with distinction in another, while Hijab says that move undermines a necessary logical foundation. Neither supplies an agreed formal demonstration, and credentials and interruptions repeatedly replace clarification.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5468,
+          "timestamp": "1:31:08",
+          "title": "Hijab gets STUCK badly on Relative Identity",
+          "description": "Avery compares the Titanic before departure with the damaged ship after sinking to argue that one thing can remain the same without having unchanged properties. Hijab challenges what this analogy establishes about Father, Son and Spirit and resists treating persistence of a ship as a solution to the theological identity problem. Avery concludes by restating shared essence with distinct personhood, leaving the analogy's relevance disputed rather than securing an agreed refutation.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 5720,
+          "timestamp": "1:35:20",
+          "title": "Trinity debate continues and concludes",
+          "description": "Avery distinguishes the persons by the Father's being unbegotten, the Son's eternal generation and the Spirit's procession, while retaining one shared mind and will. Hijab argues that generation entails causation and therefore dependence incompatible with necessary existence; Avery replies that a hypostatic relation differs from an essence depending on an external being, so the predicates are not opposed in the same sense. Hijab closes with the Quranic claim that God neither begets nor is begotten and declares his case successful, while Avery continues objecting. The recording cuts off during Avery's last response, so neither the creator's victory framing nor the closing monologue amounts to an agreed adjudication.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-20T06:00:28+02:00",
+      "summarized_at": "2026-10-20T06:06:21+02:00"
+    },
     {
       "id": "f2fvgG5VJJw",
       "title": "Grok Voice 3.0 Just Killed the Call Center",
