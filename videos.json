@@ -9,8 +9,231 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-20T06:06:21+02:00",
+  "updated_at": "2026-10-21T12:06:28+02:00",
   "videos": [
+    {
+      "id": "-nzCVT39UUQ",
+      "title": "Grok Made Me $10K In 14 Days: How To Build A One-Person Business With Grok Bot (3 Step Framework)",
+      "channel": "The Calum Johnson Show",
+      "upload_date": "20261012",
+      "description": "Create your avatar for free on HeyGen at http://heygen.com/calum\nStart using Gamma 5 today: https://gamma.app/?utm_source=youtube&utm_medium=influencer&utm_campaign=gammafive&utm_content=akg_TheCalumJohnsonShow\n\nGet Alex's FREE step by step guide to getting started with Grok Bot by subscribing to our newsletter, New Era: https://calumjohnsonshowlinks.lovable.app/\n\nFollow Us!\nhttps://x.com/calum_johnson9\nhttps://www.instagram.com/calumjohnson1/?hl=en\n@AlexFinnOfficial \n\nTimestamps:\n00:00 Intro\n01:59 The 3 reasons you need Grok Bot....\n04:05 How I run my one-person business with Grok Bot\n11:29 [LIVE GROK BOT DEMO STARTS]\n19:54 The difference between ChatGPT and AI agents\n24:54 Why AI agents give you slop (and how to fix it)\n28:23 Grok Bot closed me a $10k deal!\n34:15 How many hours/week does Grok Bot save you?\n40:30 The mistake everyone makes with their first Grok Bot\n45:24 Use this prompt to get your first task automated\n55:25 The one document every new AI agent needs\n01:02:20 How I trained Grok Bot to close deals in my voice\n01:09:24 Do these 2 exercises this weekend\n\nAbout The Episode:\nAlex Finn runs a one person business doing $1M/year with Grok Bot. In this episode, Alex shows you his full Grok Bot setup live, gives you the exact prompt to start with, and walks you through building your own one-person business with AI agents.",
+      "duration_seconds": 4618,
+      "thumbnail": "https://i.ytimg.com/vi/-nzCVT39UUQ/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-nzCVT39UUQ",
+      "summary": "Agent design · 01:59 / 04:05 / 11:29: Alex Finn argues that Grok Bot's advantage is reduced setup friction, not exclusive capabilities: he explicitly says Hermes, OpenClaw, Codex and Claude Code can do the same kinds of work. Preselected models, separate virtual computers and role-specific agents let him delegate development, research, sponsorship administration and community operations. His business leverage also comes from turning real product-building work into content, so the same effort advances products and attracts an audience; the interview's revenue figures are reported business claims, not audited results.\n\nExecution and measurable goals · 19:54 / 24:54: During the screen-share, project manager Kelly messages other agents about a blocked task and the task subsequently becomes merge-ready, illustrating action rather than chat-only advice. Finn's human contribution is to define a written end state, compare the current product with that vision and approve the next steps; one example produces an 11-step proposal. He blames vague goals for poor output, but his assertion that measurable specifications prevent hallucinations is stronger than the evidence shown: a spec gives a review target, not a guarantee of correctness.\n\nRevenue and human boundaries · 28:23 / 34:15: Finn says Cindy reviewed roughly 1,000 existing business emails, researched sender legitimacy and negotiated at his stated sponsorship rates, ultimately closing a $10,000 deal. His claim that a lead appeared within 15 minutes is not a claim that the deal closed in 15 minutes, and this is monetising an established creator's inbound demand, not proof that a beginner can earn the title's amount in 14 days. Dusty monitors unanswered community questions so Finn can respond personally; he also retains his own tweets and full YouTube scripts. The claimed hundreds of weekly hours saved is his rough estimate of equivalent workload across projects, not a measured time study.\n\nStart small, preserve context · 40:30 / 45:24 / 55:25: Begin with one chief of staff and one specialist for each of two or three real priorities, adding roles only when work exposes a need. Give the agent a detailed brain dump of goals and circumstances, then ask what it could automate rather than prescribing every step. Finn prefers contacting the relevant specialist directly to avoid unnecessary relay, token use and lost context; each project or agent gets a durable Markdown vision/specification, while a game-design mood board provides an aesthetic reference. No quantified cost comparison is supplied.\n\nPermissions and final exercises · 1:02:20 / 1:09:24: Cindy's autonomy was earned through research-only morning reports, several days of reviewed drafts and permission to send the top three replies before broader delegation. Finn corrected robotic negotiations with examples of his actual emails saved in memory; Gmail/calendar, AgentMail, Stripe, Vercel and HubSpot are presented as useful execution connections. His final verdict is strongly positive: try a brain dump plus reverse prompting, then an hour or day using an agent as the interface to computer tasks. The closing example retrieves old sponsor reads, creates a commentable Google Doc and prepares an email draft; treat that as his reported workflow, retain approval for consequential actions, and distinguish the separate HeyGen/Gamma sponsor segments from Grok Bot demonstrations.",
+      "why_valuable": "Use this to choose a first supervised agent workflow—such as qualifying sponsorship or sales enquiries—rather than building a large agent organisation upfront. The reusable method is a written outcome, a narrowly scoped specialist, real examples of acceptable work and a research → drafts → limited sending permission ladder; the $10,000 story depends on existing inbound demand and is not an earnings forecast.",
+      "key_takeaways": [
+        "01:59–11:29: Finn says the edge is opinionated onboarding and separate agent computers, not abilities unavailable in Hermes, OpenClaw, Codex or Claude Code; choose for workflow fit rather than exclusivity.",
+        "24:54–27:31: A vision document turns an open-ended request into a comparison between current and desired state; Kelly proposes 11 steps, but written goals still require verification rather than eliminating hallucinations.",
+        "28:23–31:10: The reported $10,000 sponsorship came from screening roughly 1,000 existing inbound emails and negotiating at known rates. A lead found after 15 minutes is not a deal closed in 15 minutes, nor a zero-audience business test.",
+        "32:35–39:32: Use automation to flag unanswered community questions, research and prepare outlines; Finn keeps personal community replies, tweets and full YouTube scripts human. His hundreds-of-hours estimate is not a benchmark.",
+        "40:30–49:22: Start with a chief of staff and two or three priority areas, one specialist each; supply personal/business context and ask what to automate before expanding the team.",
+        "51:34–55:24: Talk directly to the specialist who owns the work. Finn reports less relay, token overhead and context loss than routing everything through management, without providing measured savings.",
+        "1:04:07–1:06:58: Expand authority gradually: research reports, reviewed drafts, then the top three sends. Past emails stored as examples improved Cindy's initially robotic negotiation tone.",
+        "1:10:50–1:14:16: Practise delegation for an hour or day; Finn's sponsor-read example combines historic-email retrieval, voice matching, a commentable Google Doc and an email draft rather than merely generating text."
+      ],
+      "quick_takeaways": [
+        "Start with one chief of staff and one specialist for each of two or three real priorities; add agents only when a concrete workload requires them.",
+        "Write the desired outcome in a Markdown vision/spec, provide business context, and ask what can be automated. Talk directly to the relevant specialist rather than relaying every request through management.",
+        "Earn autonomy through research-only reports, reviewed drafts and limited sends. Finn used his own past emails to correct robotic negotiation tone before granting wider permissions.",
+        "Finn reports a $10,000 sponsorship from screening roughly 1,000 existing inbound emails. This depends on an established audience; neither the earnings claim nor his hundreds-of-hours savings estimate is independently verified.",
+        "Keep human relationships and personal content human: Dusty flags unanswered questions for Finn to answer, while agents handle research and administration. Clear specifications help review; they do not guarantee error-free output."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "A preview presents Finn's claim that a revenue agent closed a $10,000 sponsorship and introduces the question of how a new user should begin. After the host's subscription appeal, the conversation frames the episode around turning a fresh agent account into useful business work rather than treating AI as another search box.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 119,
+          "timestamp": "01:59",
+          "title": "The 3 reasons you need Grok Bot....",
+          "description": "Finn describes three benefits: completing more work, removing disliked tasks and reclaiming time for enjoyable work. He credits opinionated workflows and fewer configuration decisions, explicitly acknowledging that Hermes, OpenClaw, Codex and Claude Code can perform the same kinds of tasks rather than claiming a unique technical capability.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 245,
+          "timestamp": "04:05",
+          "title": "How I run my one-person business with Grok Bot",
+          "description": "The host cites Creator Buddy revenue above $500,000 and an academy on track for more than $1 million, while Finn describes operating without employees. His explanation combines AI delegation with leverage: build something useful for the business, then publish the process as content, so product work and audience growth reinforce each other. He also argues that selected models and per-agent computers overcome the blank-canvas problem; the business figures and scaling thesis remain interview claims.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 689,
+          "timestamp": "11:29",
+          "title": "[LIVE GROK BOT DEMO STARTS]",
+          "description": "Finn opens his agent fleet, describing separate computers and roles for development, project management, research, community and revenue work. After distinct HeyGen and Gamma sponsor segments, he explains Cindy's daily sender checks and negotiations, Dusty's community support and recurring schedules across teams. The useful evidence is the specific division of work and monitoring routines, not his broader prediction of a one-person billion-dollar business.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1194,
+          "timestamp": "19:54",
+          "title": "The difference between ChatGPT and AI agents",
+          "description": "The speakers contrast asking a chatbot for information with delegating work that actually changes a project. Finn shows Kelly messaging other agents about a blocker and points to the task becoming done and merge-ready during the discussion, using it as an example of autonomous coordination. An AI-adoption graphic sets the context, but its population claims are not independently substantiated in the interview.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1494,
+          "timestamp": "24:54",
+          "title": "Why AI agents give you slop (and how to fix it)",
+          "description": "Finn says his role is to supply a measurable destination instead of vague commands, then ask how the current project can move closer to its vision document. In the example, Kelly proposes 11 steps and he approves execution, making the written end state a practical review reference. His stronger claim that clear goals reliably prevent poor output is an opinion, not a demonstrated guarantee.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1703,
+          "timestamp": "28:23",
+          "title": "Grok Bot closed me a $10k deal!",
+          "description": "Cindy's reported workflow starts with roughly 1,000 historic business emails, sender research and Finn's sponsorship rates; he says a promising lead surfaced within 15 minutes and a $10,000 deal later closed. The discussion then follows Dusty's routines, including funnel reports, recording calls and flagging unanswered community questions for Finn to answer rather than impersonating him. Separate agent accounts and supplementary detail support human engagement, so the lesson is operational leverage on an existing business, not automatic income from scratch.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2055,
+          "timestamp": "34:15",
+          "title": "How many hours/week does Grok Bot save you?",
+          "description": "Asked about time savings, Finn estimates hundreds of weekly hours of equivalent work across software projects, a game, content and his community; no time logs or controlled measurement are supplied. He identifies coding, scheduling, email handling and meeting preparation as strong fits, while keeping his personal tweets, full YouTube scripts and community voice human. That boundary clarifies which administrative work he would delegate before creative identity and relationships.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2430,
+          "timestamp": "40:30",
+          "title": "The mistake everyone makes with their first Grok Bot",
+          "description": "Rather than copying an impressive fleet immediately, Finn recommends one chief of staff, two or three priority areas and one specialist for each. His game example adds design and marketing agents only when those needs arise, avoiding unused roles and confusion about responsibility. He also recommends asking how to approach a goal and whether another bot is needed before issuing more commands.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 2724,
+          "timestamp": "45:24",
+          "title": "Use this prompt to get your first task automated",
+          "description": "The suggested starting method is a detailed brain dump of goals, career, interests and ambitions followed by questions about what the agent can do to help. The host offers voice-memo transcription as a practical way to supply that context, and Finn then rejects the idea that every request should pass through a chief of staff. He prefers direct specialist contact to reduce relay, token overhead and lost context, while using names and titles to make responsibilities legible; no measured token comparison is given.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3325,
+          "timestamp": "55:25",
+          "title": "The one document every new AI agent needs",
+          "description": "Finn asks agents to write detailed Markdown plans containing the target state and goals before building a bot or advancing a project, then execute against that durable reference. After a separate newsletter promotion, he extends the method to his game: a mood board becomes the standard for weapons, maps and character design. The common principle is an explicit comparison target, although the claim that such documents eliminate hallucinations is not established.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 3740,
+          "timestamp": "1:02:20",
+          "title": "How I trained Grok Bot to close deals in my voice",
+          "description": "Quality assurance is introduced as a gradual permission ladder: Cindy first produced an 8 a.m. sender-research report, then reviewed email drafts, then a limited set of the top three sends. Finn explains that real past emails saved in memory corrected an initially robotic tone before he trusted wider action. He also shows the role of integrations, including Gmail/calendar context, AgentMail accounts, Stripe payment links and invoices, Vercel publishing and a HubSpot option, without providing an independent reliability test.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 4164,
+          "timestamp": "1:09:24",
+          "title": "Do these 2 exercises this weekend",
+          "description": "Finn closes with two exercises: provide a brain dump and reverse-prompt for useful opportunities, then spend an hour or day doing computer work through an agent to build the delegation reflex. His example retrieves previous sponsor reads, writes in his voice, creates a commentable Google Doc and prepares the matching email draft. Both speakers endorse the experiment before the social and newsletter sign-off, but the promised speed and sweeping capability claims remain personal expectations rather than measured results.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-21T12:00:26+02:00",
+      "summarized_at": "2026-10-21T12:06:28+02:00"
+    },
+    {
+      "id": "fP2SGGVsaB0",
+      "title": "Claude Made My Old Android TV Feel Brand New!",
+      "channel": "Ansub Khan",
+      "upload_date": "20261018",
+      "description": "🛠️ Join my free community where we build stuff like this with Claude Code: https://www.skool.com/staffed-claude-code-ai-5304\n\nMy old Android TV was slow and covered in ads I never asked for. I didn't buy a new TV or a streaming stick. I gave Claude one prompt, and it made the TV feel brand new.\n\nIn this video, Claude Code connects to the TV from my computer and goes through every app on it. It sorts them into what's safe to turn off, what the TV needs, and what I actually use. Then it switches off the bloatware and background services, stops the TV from booting into Live TV, and builds a clean new home screen with no ads. Nothing gets deleted, and every change can be undone with one command.\n\nThe prompt is free. Run it on your own TV:\nhttps://github.com/Ansub/tv-detox\n\nWhat you need:\n- An Android TV\n- Claude Code (Terminal or the desktop app)\n- Your computer and TV on the same Wi-Fi\n\nI build useful stuff like this with AI every week. Subscribe if you want to see the next one.\n\nChapters:\n\n0:00 My old TV, before and after\n0:32 Turn on developer options\n1:06 Connect Claude Code to the TV\n1:29 Claude checks every app\n1:41 Three groups of apps\n2:13 What Claude turned off\n2:27 No more booting into Live TV\n2:43 The new home screen\n3:14 What changed\n3:42 Wrap up",
+      "duration_seconds": 242,
+      "thumbnail": "https://i.ytimg.com/vi/fP2SGGVsaB0/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fP2SGGVsaB0",
+      "summary": "Result and scope · 00:00 / 03:14: Ansub Khan reports that Claude Code made his existing Android TV feel faster without buying a new television or streaming stick. His stated free-memory readings rise from around 370 MB to 600–650 MB after disabling unwanted services and replacing the home screen. Those endpoints imply approximately 62–76% more free memory, not the spoken 'roughly 90%'; this is a creator-reported before/after observation and subjective responsiveness claim, not a controlled benchmark or storage upgrade.\n\nConnect and inspect first · 00:32 / 01:06 / 01:29: On the TV he opens Settings → Device Preferences → About, clicks Build seven times, enables USB debugging and notes the network IP address. In Claude Code on a computer on the same Wi-Fi, he pastes the free prompt from github.com/Ansub/tv-detox, supplies the TV address and preferred apps, and authorizes the connection on the TV. Claude first inventories apps without changing them, then separates candidates for disabling from essential components and apps he wants to keep; the exact settings and connection support may vary by device.\n\nApproval, reversibility and feature trade-offs · 01:41 / 02:13 / 02:27: Khan reviews the proposed list before any disabling, says apps are switched off rather than deleted, and reports a change log plus a one-command reversal path. His choices include turning off unused voice search, Chromecast and the screensaver, fixing startup into Live TV and disabling animations. Those feature removals reflect his preferences, not a safe universal checklist: preserve casting or voice functions if you rely on them, and review changes on your own model.\n\nLauncher and verdict · 02:43 / 03:42: The replacement home screen contains a clock, an apps row and a second row for Play Store, HDMI inputs and settings, removing recommendations and advertising while retaining the keyboard and store. Khan's verdict is that this restored useful life to his TV, and he ends by encouraging viewers to share the free workflow. The practical decision is whether a supervised, reversible cleanup is worth trying before replacing hardware; as an additional security precaution, disable debugging again when maintenance is complete, a recommendation beyond what the video demonstrates.",
+      "why_valuable": "Helps decide whether to try an approval-based Android TV cleanup and lightweight launcher before buying replacement hardware. It shows which features Khan sacrificed, how he retained a rollback path, and a reported 370 MB → 600–650 MB free-memory change; the stated readings do not support his 90% figure, and results are not a guarantee for another TV model.",
+      "key_takeaways": [
+        "00:36–01:28: Setup requires developer options, USB debugging, the TV IP address, Claude Code and on-screen connection authorization; the reusable prompt is linked at github.com/Ansub/tv-detox.",
+        "01:29–02:11: Inventory first, separate essential/user-used apps from disable candidates, and approve the list. Khan says nothing is deleted and each change is logged for one-command reversal.",
+        "02:13–02:26: Voice search, Chromecast and the screensaver were disabled because Khan did not use them; copying those choices would remove features another owner may need.",
+        "02:27–03:13: Fixing Live TV startup, removing animations and using an ad-free launcher simplifies interaction while retaining Play Store, keyboard, HDMI and settings access.",
+        "03:14–03:41: Reported free memory rises from about 370 MB to 600–650 MB, a calculated increase of roughly 62–76%, not the spoken 90%. Faster app opening is his observation, not an independently timed benchmark."
+      ],
+      "quick_takeaways": [
+        "Try supervised software cleanup before replacing a sluggish Android TV: Khan reports free memory increasing from about 370 MB to 600–650 MB and faster app opening, without new hardware.",
+        "Those readings imply about 62–76% more free memory, not his spoken 90%. This is a creator-reported observation, not a controlled speed benchmark or extra storage.",
+        "Use Claude Code and the linked Ansub/tv-detox prompt after enabling debugging and authorizing the TV connection. Inventory first, approve disable candidates and retain the change log and reversal path.",
+        "He disabled unused Chromecast, voice search and screensaver services, fixed Live TV startup, removed animations and built a minimal ad-free launcher. Preserve features you actually use; device support varies, and turn debugging off after maintenance."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "My old TV, before and after",
+          "description": "Khan contrasts an advertising-heavy, sluggish Android TV with the same set after Claude Code's changes, saying he bought no new hardware. The promised improvements combine a custom ad-free home screen with disabling background apps and services, so the intervention is software cleanup rather than a new streaming device.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 32,
+          "timestamp": "00:32",
+          "title": "Turn on developer options",
+          "description": "He opens Device Preferences and About, clicks Build seven times to expose developer options, then enables USB debugging and records the TV's Wi-Fi IP address. These steps prepare the connection from his computer; the segment explains enabling access, not yet authorizing any app removals or performance changes.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 66,
+          "timestamp": "01:06",
+          "title": "Connect Claude Code to the TV",
+          "description": "On his computer, Khan opens Claude Code, copies the linked GitHub prompt and replaces the example values with his TV address and preferred apps. The TV then asks him to allow the connection, making local authorization a separate step from pasting the prompt and giving Claude access to inspect the device.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 89,
+          "timestamp": "01:29",
+          "title": "Claude checks every app",
+          "description": "Before making changes, Claude lists the installed apps and explains what each does, according to Khan's narration. This read-only inventory supplies the information for the next approval stage rather than immediately disabling unknown packages, keeping discovery separate from modification.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 101,
+          "timestamp": "01:41",
+          "title": "Three groups of apps",
+          "description": "The inventory is divided into disable candidates, components the TV needs and apps Khan actually uses; he reviews the list and chooses what goes. He says the workflow disables rather than deletes software, records every change and can reverse the changes with one command, making approval and recoverability central to the process.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 133,
+          "timestamp": "02:13",
+          "title": "What Claude turned off",
+          "description": "After approval, Khan says Claude disabled unwanted preinstalled apps along with voice search, Chromecast and the screensaver. He explicitly ties those service choices to not using them, which matters because the same cleanup would remove useful functions for an owner who depends on casting or voice controls.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 147,
+          "timestamp": "02:27",
+          "title": "No more booting into Live TV",
+          "description": "Khan changes an irritating startup behaviour so the television opens on its home screen instead of going directly into Live TV. He also disables animations and describes pages responding immediately to key presses, identifying a separate interaction-speed change rather than attributing every improvement to memory alone.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 163,
+          "timestamp": "02:43",
+          "title": "The new home screen",
+          "description": "The custom launcher reduces the interface to a clock, an apps row and another row for Play Store, HDMI inputs and settings, without adverts or suggested programmes. Khan says the keyboard and Play Store still work and apps open quickly, presenting a simpler home screen that preserves everyday access rather than removing core functionality.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 194,
+          "timestamp": "03:14",
+          "title": "What changed",
+          "description": "Khan reports free memory rising from around 370 MB to 600–650 MB and says app opening and lag improved without buying hardware. His spoken estimate of roughly 90% more memory does not match those endpoints, which calculate to about 62–76%; the segment supplies a reported before/after reading, not an independently controlled performance test.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 222,
+          "timestamp": "03:42",
+          "title": "Wrap up",
+          "description": "The closing asks viewers to share the workflow with friends or family whose older televisions might benefit, then invites subscriptions for more practical AI projects. It adds no further measurements or device-compatibility evidence, so the result remains Khan's experience with his own television rather than a universal repair claim.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-21T12:00:26+02:00",
+      "summarized_at": "2026-10-21T12:06:28+02:00"
+    },
     {
       "id": "hgLI491ajG0",
       "title": "I Tried 100+ AI Tools. These 7 Are the Best",
