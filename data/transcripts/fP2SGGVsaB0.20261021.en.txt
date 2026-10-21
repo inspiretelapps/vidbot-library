@@ -1,0 +1,121 @@
+00:00 This is my old Android TV covered in ads
+00:02 I never asked for.
+00:03 And this is the same TV after Claude made
+00:05 it feel brand new.
+00:06 And it feels way faster now.
+00:07 And I didn't buy anything new or install
+00:09 some sketchy app. I just let Claude do
+00:12 it. If you have a smart TV at home,
+00:14 you know how this goes.
+00:15 It gets slower and the home screen
+00:17 fills up with ads you can't even turn off.
+00:19 So, Claude built a completely new home
+00:21 screen for my TV completely from scratch,
+00:24 so I don't see ads or bloatware anywhere.
+00:26 And it also turns off a lot of apps and
+00:29 background services
+00:30 that were slowing it down.
+00:32 So I will show you exactly what it changed.
+00:34 The prompt is free and you can run it on
+00:36 your own TV. So first, on your TV, go to Settings,
+00:38 then Device Preferences, then About,
+00:40 and scroll down to Build.
+00:42 Click it seven times and you will see a
+00:44 little message that says you're a developer.
+00:46 It just unlocks a hidden menu.
+00:47 So now go back and you will see a new option
+00:49 called Developer options.
+00:51 And inside it, turn on USB debugging.
+00:54 And that's the switch that lets your computer
+00:56 talk to your TV. And while you're in
+00:57 Settings, you can go to Network and click
+00:59 on your Wi-Fi and write down the IP address,
+01:02 which is just your TV's address on your home
+01:05 Wi-Fi. Now, on your computer, open Claude
+01:07 Code, can be Terminal, can be the desktop
+01:10 app, and then go to the GitHub page,
+01:12 the link is in the description,
+01:14 and copy this prompt from there.
+01:15 And paste it in. Then just swap in your
+01:17 TV's address and the apps that you actually
+01:19 want to use. And when you hit enter,
+01:21 Claude will try to connect and your TV
+01:23 will pop up the message asking if you want
+01:26 to allow this to happen or not.
+01:28 So just click allow.
+01:29 And that's it. Now Claude can see
+01:31 everything on your TV.
+01:32 So the first thing Claude does is that
+01:34 it doesn't change anything.
+01:35 It just goes through your TV, sees every
+01:37 single app, and tells you which
+01:39 one does what. And then it sorts them into
+01:42 three groups: the stuff that's safe to
+01:44 turn off, the stuff the TV actually needs
+01:46 to work, and the apps that you actually
+01:48 use. And this list was honestly kind of
+01:50 shocking, because there were so many apps
+01:52 on there that I had never opened.
+01:55 And they were just sitting there in the
+01:56 background. And before it turns off anything,
+01:58 it asks you first.
+02:00 So you go through the list.
+02:01 You're the one who decides what goes.
+02:03 And it doesn't delete anything,
+02:05 it just switches the app off.
+02:07 And it keeps a note of every change it
+02:09 has made. So if you want to go back,
+02:11 it's just one single command.
+02:13 So, once I said yes, Claude turned off
+02:14 all of the bloatware.
+02:15 All those apps that came with the TV that
+02:17 nobody ever asked for.
+02:18 And then it turned off the voice search,
+02:20 Chromecast, and screensaver,
+02:22 because those were running in the background
+02:23 all of the time, and I wasn't using
+02:26 them. And my TV used to start up straight into Live
+02:29 TV every time I turned it on, which was
+02:30 very annoying, so I asked Claude to fix
+02:32 it. And now I see the home screen every time.
+02:36 It also turned off animations,
+02:38 so the page opens the second you press
+02:40 the key. And that feels amazing.
+02:42 And then the best part.
+02:43 Claude built me a completely new home screen
+02:46 from scratch. And it's really simple.
+02:49 There's a big clock at the top.
+02:50 And then there's one row with my apps and
+02:52 the other row with the Play Store,
+02:54 HDMI inputs, and settings.
+02:56 And that's all. So there are no ads,
+02:58 no suggested shows, no rows of stuff I
+03:00 never asked for. Just the things I actually
+03:02 use. And it's so light that the TV barely even
+03:04 notices that it's running.
+03:06 So, everything opens fast.
+03:08 And the TV still has everything it needs,
+03:10 like the Play Store and the keyboard, so nothing important
+03:13 is broken. So, here's what changed.
+03:15 Before all of that, the TV only had around
+03:18 370 megabytes of free memory,
+03:20 which is the space it uses to run
+03:22 things. And after Claude was done,
+03:24 it had around 600 to 650.
+03:26 So that's roughly 90% more room.
+03:29 And that's why everything was feeling faster.
+03:32 Apps were opening faster and nothing was lagging
+03:34 anymore. And I didn't buy a new TV or some
+03:36 streaming stick. I just gave Claude one
+03:39 prompt, and said yes to the changes I wanted.
+03:42 So if you like this video, don't forget
+03:43 to hit the like button and share it with people
+03:45 it might help, your friends or
+03:47 family. Anyone can use this,
+03:49 everyone has some sort of old television
+03:52 that needs fixing.
+03:53 And I build useful stuff like this with
+03:55 AI every week, so if you want to see the
+03:57 next one, subscribe to the channel.
+03:59 In the meantime, take care, have a nice
+04:00 day, and bye.

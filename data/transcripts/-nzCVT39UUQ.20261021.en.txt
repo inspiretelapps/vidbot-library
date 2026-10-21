@@ -1,0 +1,2137 @@
+00:00 Everything you can do on your computer,
+00:03 Grokbot can do. It's so simple, easy to
+00:05 use, easy to get into. Whatever you want
+00:07 to create, whatever you want to build,
+00:09 nothing's gatekept anymore. I've never
+00:12 in my life felt so empowered by a piece
+00:14 of technology.
+00:16 >> What are some of the tasks that are
+00:19 being done for you with these Grokbot
+00:21 agents?
+00:22 >> When you're a content creator and you're
+00:24 trying to do business, you got to
+00:26 respond to emails. I completely
+00:27 automated all of that with Cindy, my
+00:29 revenue bot. She legitimately has closed
+00:31 me five figures of deals over the last
+00:33 couple weeks. She's closed a $10,000
+00:36 sponsorship deal. And that's the amazing
+00:37 thing about Grokbot is it just figures
+00:40 it out.
+00:40 >> Someone has a fresh account with
+00:42 Grokbot. What's the first things that
+00:44 you're doing to get started in the right
+00:46 way?
+00:46 >> You think of two to three areas of your
+00:49 life you want to save time on. You want
+00:51 to automate, you want to get more done
+00:53 on. Now, I think the mistake most people
+00:55 make at this point
+00:57 >> It's crazy because I was the kid on the
+00:59 40-minute bus ride to school in London
+01:02 dreaming about sitting across from
+01:04 people like this and the guests that we
+01:05 have every week on the show. And I'm so
+01:07 deeply aware the thing that made that
+01:10 dream possible was you guys. It was
+01:12 every single one of you that tunes in,
+01:15 comments, and likes, and sends me DMs
+01:17 about the show. Can you please hit that
+01:19 subscribe button? It helps us scale the
+01:21 guests and make this an even better show
+01:23 for you. Thank you. Let's get into it.
+01:25 >> You said Grokbot is the best AI agent
+01:28 that I've ever used, which is why I
+01:30 recommend it.
+01:32 The issue is that most people have no
+01:35 idea what to do with it. If someone has
+01:37 clicked on this video
+01:40 with this desire to start a business or
+01:43 save time or just be more productive
+01:46 using AI,
+01:48 what's going to be the value to them of
+01:50 learning about Grokbot number one and
+01:53 then listening to this conversation
+01:55 until the end?
+01:56 >> Yeah, I'd say three things. Get
+01:58 significantly more done, automate all
+02:01 the things you hate doing, and have way
+02:03 more time for the things you love doing.
+02:05 I'd say those are the three biggest
+02:07 things I got out of using Grokbot.
+02:09 >> Yeah. You know what, because and
+02:11 it's one of the reasons why I wanted to
+02:12 do the show, and I said this to you even
+02:14 when we spoke earlier, you're so
+02:16 prolific. Like a new AI tool comes out,
+02:20 and I feel like you're the first person
+02:21 that's like testing it,
+02:24 implementing it in your life and in your
+02:25 business, and then like a video is out.
+02:28 And so, can you just give us like a
+02:30 quick peek behind the scenes? What has
+02:33 been the impact of using Grokbot just in
+02:37 your day-to-day? Like what has been the
+02:39 value to you?
+02:40 >> Yeah, it's it's been absolutely
+02:41 incredible. I I live a very blessed life
+02:44 where I get to live my dream. My entire
+02:46 day is just using technology, which has
+02:48 been my dream since a little kid.
+02:51 Grokbot, out of all the AI agents that
+02:53 came out, Open Claw, Hermes, everything,
+02:56 has been the most helpful. I think it is
+02:59 the AI agent that has been built most
+03:02 for usability. You know, it's it's
+03:04 interesting. It can't There's nothing it
+03:06 can do that other agents can't do.
+03:08 Everything Grokbot can do, Hermes agent
+03:10 can do, Open Claw, Codex, Claude Code,
+03:12 all of them can do it.
+03:14 But Grokbot
+03:16 decided to be extremely opinionated
+03:19 about everything.
+03:21 All the workflows being very
+03:22 opinionated, the way it works is very
+03:24 opinionated, which just makes everything
+03:26 easier. You don't have to think about
+03:27 configuration, you don't have to think
+03:29 about which models to use, this, that.
+03:31 And because it's so simple, easy to use,
+03:34 easy to get into, I'm just able to get
+03:36 way more done. I'm able to automate the
+03:38 things I hate doing, responding to
+03:40 emails, doing business deals,
+03:42 negotiating. I hate all those things.
+03:44 It's able to do that for me. It helps
+03:47 get rid of the things I hate, and help
+03:49 me do way more of the things I love,
+03:51 which I think really is like
+03:53 the the dream of AI that I don't think a
+03:55 lot of people are really taking
+03:56 advantage of. I think they're using it
+03:57 more as kind of glorified search
+03:59 engines, which hopefully by the end of
+04:01 this video, uh they'll be using the
+04:03 right way and getting way more out of
+04:05 it.
+04:05 >> Yeah.
+04:06 That's good. And and and I feel like
+04:08 there's someone that's listening at
+04:09 that's listening at home that's like
+04:11 that exactly describes how I'm using AI
+04:13 right now. It's like a glorified Google
+04:15 search. And you know what? Cuz you even
+04:17 just listed off some things, but I want
+04:19 to I wanted to build on it.
+04:21 Because you're and I said this right in
+04:22 the beginning, that you're prolific both
+04:25 in terms of how you do content, like you
+04:27 just put a lot out. And then also just
+04:29 in terms of the businesses. And just so
+04:30 if I list it off,
+04:32 you built Creator Buddy, which is a
+04:34 Twitter algorithm tool that's done over
+04:36 500,000 in revenue.
+04:37 >> Mhm.
+04:38 >> You have the Vibe Coding Academy, which
+04:39 is your community that's on track to do
+04:42 over a million this year. You just
+04:44 started a new business called Henry. You
+04:46 mentioned some of the other stuff like
+04:47 building video games and all of these
+04:48 things. You're posting daily. You put
+04:51 out content to hundreds of thousands of
+04:53 followers across Twitter, YouTube.
+04:56 Can you just describe and give the
+05:00 context and the understanding to people?
+05:03 You do this mainly as like a one It
+05:05 seems like you're like a one-person
+05:07 operation.
+05:08 Is that case?
+05:10 And then how is that even possible? And
+05:14 where are you using AI
+05:16 in that process? Like how big of a
+05:17 contributor is AI in allowing you to do
+05:20 what you do?
+05:22 >> Yeah, so I'm a total one-man business. I
+05:25 have zero employees. I do basically
+05:27 everything uh by myself. Uh one thing
+05:30 I've learned over the last several years
+05:32 is I absolutely hate managing people. I
+05:34 like working by myself. I'm going to
+05:36 figure out how to use this technology to
+05:38 help me work better by myself and get
+05:41 more done.
+05:42 Now, how I'm able to do all of that, I'd
+05:44 say two pieces. One is using AI and two
+05:49 is utilizing leverage. So, AI I have
+05:53 put into every single process I do. Grok
+05:55 Bot's basically the operating system
+05:57 behind most of what I do. We'll be going
+06:00 through that today, how I automate
+06:01 basically every area of my life and all
+06:03 the things I hate doing.
+06:05 And then two is leverage.
+06:07 I have basically figured out ways where
+06:10 I do things once and it helps everything
+06:14 I'm doing grow. So, for instance, like
+06:17 you you you mentioned earlier how I you
+06:19 know, seem to have content out the
+06:20 moment things drop.
+06:22 Well, I use these tools that drop to
+06:24 help build my businesses and then the
+06:27 sawdust from all of that is my content,
+06:30 right? So, Grok Bot comes out. I
+06:32 implement it into my business. I start
+06:33 building things with it and then I
+06:35 create videos and tweets on how I did
+06:38 that, right? So, everything I'm doing is
+06:40 contributing to my business growing, to
+06:42 my products being built, to everything
+06:44 getting automated more and then to the
+06:46 content I'm creating. It all kind of
+06:48 works together. So, it's very high
+06:51 leverage the way my business There's
+06:52 very few things I do that's kind of
+06:55 one-off and doesn't help every other
+06:57 area of my business grow. And AI just
+07:00 makes it all happen much, much quicker.
+07:02 >> Yeah, I want to talk about Grok Bot
+07:04 specifically
+07:05 because similar to you, I spend time on
+07:08 like LinkedIn and Twitter and YouTube
+07:12 and
+07:13 especially on Twitter or X, whenever one
+07:16 of these new AI tools comes out or like
+07:18 a new update, there's a lot of
+07:19 excitement. You're seeing people retweet
+07:21 and post about it and give their take on
+07:23 it.
+07:24 It felt slightly different when it came
+07:27 to Grok Bot, like the level of
+07:29 excitement and then the people making
+07:31 videos about it, like people that are
+07:33 really experts in the space being
+07:35 excited about it. I saw a quote from
+07:38 Lenny
+07:40 who does Lenny's newsletter and he said
+07:42 that one of the most it's one of the
+07:43 most exciting AI AI products that he's
+07:46 seen for months and months.
+07:48 And so, I'm curious for you to just do
+07:51 two things for us, which is first of
+07:53 all,
+07:54 why is there so much excitement? Like as
+07:57 someone who's so present in the
+07:59 conversation and a lot of the time
+08:00 starting the conversation, why are
+08:02 people so excited about Grok Bot?
+08:05 And then for you personally, what was
+08:08 that first like light bulb moment, that
+08:11 kind of like spark moment for you in
+08:13 using Grok Bot when you were like, "Oh,
+08:15 this is this is different. This is
+08:17 different from other tools and other
+08:19 releases that I've seen."
+08:20 >> Yeah, I I think it's caught on for a few
+08:23 different reasons.
+08:25 Um
+08:26 one is kind of what I touched on before,
+08:29 which is I think it's truly the first AI
+08:31 agent that's come out that that works in
+08:34 a truly opinionated way. Right? And I
+08:37 think and I'm trying to build products
+08:39 that kind of solve this challenge.
+08:41 But I actually think
+08:43 one of the biggest weaknesses of
+08:46 human beings is when you give a human
+08:49 being
+08:50 a blank canvas, a lot of the times they
+08:53 freeze. They don't know what to do with
+08:55 it. And so I've been saying for a long
+08:57 time, we need to start making AI tools
+08:59 that are more opinionated. That when you
+09:01 go into it, it's not this blank canvas,
+09:04 choose your model, choose your tools,
+09:05 choose this, choose what you want to do.
+09:07 Instead it goes, "Hey, here's what we're
+09:09 going to do. Provide me a little context
+09:12 so I can help you do it better." And
+09:13 then it goes and it starts doing things.
+09:16 And Grok Bot I think was the best
+09:18 example of this yet, where it's very
+09:20 opinionated. You don't choose models.
+09:22 Models are already selected. Right? It
+09:24 doesn't do anything on your computer.
+09:26 You don't have to set up things. Each
+09:28 agent has its own computer, has its own
+09:31 virtual computer. So when you give it
+09:33 work, it's not like, "Oh, how should I
+09:35 do it? Should I do it on this? Should I
+09:36 do it on that? It just opens its own
+09:37 computer and does things.
+09:40 It's agent-to-agent, so I'd encourage
+09:41 you to set up an agent for every task in
+09:44 your life rather than one agent that
+09:45 does everything. And so, it was these
+09:48 opinionated kind of design choices
+09:52 that I think made it click for people.
+09:54 Right? It took away a lot of options
+09:56 that you have to decide on with every AI
+09:59 tool you use, a lot of config, and it
+10:02 just said, "Hey, here's your here's what
+10:04 we're going to do. Here's how we're
+10:05 going to work. Now, let's get to work."
+10:07 And I think that clicked for a lot of
+10:08 people. I think the simplicity clicked
+10:10 for a lot of people. Having the amazing
+10:12 design choices of the agents, every
+10:14 agent's named. It just It feels like the
+10:16 type of product you just want to share
+10:17 with people and show other people.
+10:19 >> Yeah. You said it has the best
+10:20 onboarding experience that you've seen
+10:22 so far. Like, it's actually it's the
+10:24 tool that you typically would recommend
+10:27 to someone that's starting out using
+10:29 agents for the first time because it's
+10:30 so easy and they make it easy to get
+10:33 onboarded. So, so we're going to see it
+10:35 in a few moments.
+10:37 But just based off what you're saying
+10:38 and even just taking into account your
+10:40 own story,
+10:42 there's always been like this ideal in
+10:44 when it comes to entrepreneurship and
+10:46 building businesses and people's
+10:48 careers, where like the everyday person
+10:52 could build like a one-person business
+10:54 or be like an entrepreneur.
+10:56 And through using technology like AI, I
+10:59 think it really came to the fore when AI
+11:01 started becoming more prevalent. You
+11:02 could have like these one-person
+11:04 solopreneur businesses that were like
+11:06 multi-million-dollar companies. Just
+11:08 like someone who's skilled at something
+11:11 and then AI supporting.
+11:13 In your mind and just from your purview,
+11:16 how close are we to that reality? And
+11:21 does tools like Grokbot take us there?
+11:24 Like, do we still have some way to go?
+11:26 I'm just I'm curious just to hear your
+11:28 perspective.
+11:29 >> I think Grokbot truly unlocks for the
+11:32 first time the ability for the
+11:35 solopreneur one-person billion-dollar
+11:38 business.
+11:39 And the reason why I think that's
+11:41 possible is I think for the first time
+11:44 an agent
+11:46 can do quite literally everything a
+11:49 human being can do on a computer. Right?
+11:52 And if I share my screen,
+11:54 I kind of show you what I'm talking
+11:56 about here. Everything
+11:59 you can do on your computer, Grokbot can
+12:02 do. It has their own built-in computer.
+12:06 Every agent So, as you can see here, I
+12:07 have many, many agents set up to do
+12:09 many, many different types of roles and
+12:11 responsibilities. I have developers for
+12:13 different projects, project managers. I
+12:15 have community
+12:16 uh managers. I have someone in charge of
+12:18 revenue. I have someone in charge of my
+12:19 email, research.
+12:21 Each one of these has their own
+12:23 computer. Each can work 24/7 around the
+12:27 clock. Each can do anything a human
+12:30 being can do. Right? And so, for the
+12:33 first time,
+12:35 I'm able to offload and automate quite
+12:37 literally anything I want. And so, I
+12:40 think this is the golden age of
+12:42 entrepreneurship. Like, we have this
+12:44 fear going around, "Oh, AI is going to
+12:46 take jobs. AI is going to take jobs."
+12:49 First of all, that's not true. There's
+12:50 no data to back that up. But, let's just
+12:52 pretend that's true for a second that AI
+12:53 is going to take jobs.
+12:55 Well, at the same time, AI allows anyone
+12:59 with the connection to the internet to
+13:02 build quite literally anything they
+13:03 want, start their own businesses. And I
+13:05 think Grokbot's truly the first agent
+13:07 that unlocks that ability. Like, you can
+13:10 see any of these agents that are kind of
+13:11 animated and spinning right now. They're
+13:13 doing work as we speak. They're just
+13:15 going, writing code, reviewing things.
+13:17 And so, I I really feel like for the
+13:19 first time, I have just infinite
+13:21 leverage cuz anything I can do on a
+13:23 computer, my bots can do for me.
+13:25 >> Yeah. Okay. You know, you know what,
+13:26 Alex? Cuz I'm so glad that you just
+13:28 pulled up your screen and then just
+13:30 showing people. And even that thing of
+13:32 like you have GrokBot agents that are
+13:35 working as you and I are having this
+13:37 conversation. It's just kind of crazy
+13:39 and like sci-fi almost to see.
+13:43 Can you start just high-level for
+13:45 people? Cuz I know that you have like a
+13:46 number of different agents within
+13:48 GrokBot. Can you just show people what's
+13:52 possible? Like what are some of the
+13:54 tasks that are being done for you with
+13:58 these GrokBot agents? And even more
+14:01 importantly, like what has the impact of
+14:02 that been?
+14:03 >> I just built an AI avatar of myself with
+14:05 HeyGen. And if you're a solo founder who
+14:07 wants to grow your brand and business
+14:09 with content, you have to see how it
+14:11 works. Hey avatar Callum, what are the
+14:14 core principles when it comes to
+14:16 building an audience that buys? Hey
+14:18 Callum, the first principle is that
+14:20 people buy from people they know and
+14:21 trust. And trust comes from familiarity
+14:24 and giving value. The more often someone
+14:27 sees your face, hears your ideas, and
+14:29 learns from you, the more likely they
+14:31 are to buy from you. But the problem, as
+14:33 you know, is that posting high-quality
+14:35 video content takes a ton of time and
+14:37 effort. That's where I can make things
+14:39 easy for you. Record yourself once, and
+14:42 I can help you stay in the feed without
+14:44 worrying about filming every day. So
+14:46 that's HeyGen. You can just record
+14:47 yourself for 15 seconds, and you've got
+14:49 an avatar that makes videos of you on
+14:52 demand. So you're in the feed daily,
+14:55 getting in front of customers without
+14:57 actually having to film daily. And so we
+14:59 talk a lot about finding your
+15:01 competitive advantage on this show, and
+15:03 this is one of the tools that will give
+15:04 you that edge. 30 million people use it,
+15:07 including solo founders to 85% of the
+15:10 Fortune 100 right now. And so if you
+15:12 want to get started using HeyGen, your
+15:15 first three videos are completely free
+15:18 when you go to heygen.com/callum.
+15:21 That's h e y g e n dot com /callum c a l
+15:27 u m. I built this slide deck to present
+15:29 to my team with the new gamma gamma
+15:31 five. And so if you're someone who takes
+15:33 great pride in how good your
+15:35 presentations look, then you're going to
+15:37 want to hear about this because there's
+15:38 no other tool that can get you this kind
+15:40 of output. And so to give context, let
+15:43 me just show you how I built this deck
+15:44 because I think you're going to find it
+15:46 useful. So in notion, which is where all
+15:48 of the work for my team lives, I have
+15:50 information for every episode. I'm
+15:52 talking about stuff like the vision for
+15:54 the episode, stuff that I just won't cut
+15:56 in post-production, even how I'm
+15:58 thinking about title, thumbnail, all of
+16:00 that stuff. And I wanted to take that
+16:02 information for next Monday's episode
+16:04 and turn it into a beautiful slide deck
+16:07 that I could present to my team in our
+16:09 Monday morning meeting. And so what I
+16:11 did is that I opened up gamma five. I
+16:14 came into their brand new agent here. I
+16:17 clicked on the plus button over here to
+16:19 connect my notion. Then I just told the
+16:22 agent what I wanted it to build for me
+16:24 and voila, it was there. And one of my
+16:26 favorite things about the new gamma
+16:29 agent is that it will actually ask you
+16:31 the questions and then show you the
+16:33 outline of what it's going to build. And
+16:36 I found that super helpful because
+16:38 sometimes other tools will just jump
+16:40 right into it and end up building
+16:42 completely the wrong thing. I didn't
+16:44 have that experience with gamma. I just
+16:46 answered the questions, I approved the
+16:48 outline, and there the deck was built
+16:51 for me on my very first try. And so I'm
+16:53 going to show it to my team on Monday
+16:55 morning. But if you want to try out the
+16:57 new gamma, just go to that link in the
+16:59 description to get started with gamma
+17:01 today. Thank you to them for sponsoring
+17:02 this episode. Let's get back to the
+17:04 show. Yeah, many many things. So I can
+17:07 go through here. I have a lot of
+17:09 different teams. So again, kind of the
+17:12 the the judgment that Grok by team made
+17:15 was AI agents should be multi-agent. You
+17:18 should have multiple agent personas for
+17:20 everything you do in your life in your
+17:22 career. And so I have agents for this
+17:25 new project I'm working on, project
+17:27 shelf. I have agents working on my
+17:31 venture-backed startup, Henry
+17:33 Intelligent Machines.
+17:35 Each have their own role. I have a
+17:36 project manager, a developer, a
+17:38 researcher. They're always doing work. I
+17:41 have the most popular AI community on
+17:43 the internet, the Vibe Coding Academy. I
+17:45 have Dusty who's my chief community
+17:47 officer. Make sure people are engaged,
+17:50 see who's
+17:51 asking good questions, see who's not as
+17:53 engaged anymore, and help me keep the
+17:56 community active and running and
+17:58 everyone happy. I people on my content
+18:00 team.
+18:01 You know, for instance, one thing I
+18:03 absolutely hate have hated it my whole
+18:05 life, have hated it my whole career, I
+18:07 hate answering emails. I hate emails. I
+18:10 hate looking at my emails. I hate
+18:11 responding emails. Something about
+18:14 emails, just hate it. Right? But the
+18:16 issue is when you're a content creator
+18:20 and you're trying to do business,
+18:22 you got to respond to emails. You want
+18:23 sponsorships, you got to respond to
+18:25 emails. I completely automated all of
+18:27 that with Cindy, my revenue ops on my
+18:29 content team. Every day, she checks my
+18:33 email inbox, sees who's responding to
+18:35 me, see who is like looking for
+18:37 sponsorships, then she researches who
+18:40 sent the email, researches their domain,
+18:43 researches their LinkedIn, and sees how
+18:45 legitimate they are. As you know, you
+18:47 have one of the most popular podcasts in
+18:49 the world, you probably get a tremendous
+18:51 amount of spam email from like
+18:53 uh scam agencies trying to sell you fake
+18:57 sponsorships. Like it just it just
+18:58 happens when you're a content creator.
+19:00 Cindy filters all that out for me. She
+19:02 researches everyone, make sure they're
+19:04 legit, and as I'll show you in a little
+19:06 bit, she legitimately has closed me five
+19:09 figures of deals over the last couple of
+19:11 She's closed a $10,000 sponsorship deal
+19:14 a couple weeks ago which went really
+19:15 viral on X. She negotiates, responds to
+19:18 emails,
+19:19 she completely automated a task that I I
+19:23 absolutely despise doing and have
+19:26 sacrificed six figures of revenue over.
+19:29 Cindy figured it out for me.
+19:31 >> Yeah.
+19:31 >> I have researched uh a chief content
+19:34 officer who monitors my content
+19:36 strategy, lets me know what works, what
+19:37 doesn't. I have a tech team and they all
+19:41 are just constantly working. They have
+19:42 their own routines, they have their own
+19:44 schedule of when they do things and they
+19:46 just get work around the clock for me,
+19:48 which I just I've never in my life felt
+19:51 so empowered by a piece of technology.
+19:54 >> Okay, that is powerful. Okay, I've never
+19:56 in my life felt more empowered by a
+19:58 piece of technology. You know, I I just
+20:00 want to rewind for a second because
+20:02 Alex, if we look at the the data about
+20:05 like close to 60% of Americans have used
+20:09 ChatGPT.
+20:11 So, that's just like that's not even
+20:12 that they're regularly using it. That's
+20:14 just at one point in their lives they've
+20:16 used ChatGPT. The the numbers for even
+20:20 Claude, like Anthropic, like with Claude
+20:22 are even less than that. So, most people
+20:26 haven't even like there's a lot of
+20:27 people that haven't even used AI. I
+20:29 think the numbers of people that have
+20:30 used agents and are even familiar with
+20:33 what agents are
+20:35 is significantly less.
+20:37 And so,
+20:39 for the like everyday person who their
+20:43 experience of AI up to this point has
+20:45 been mainly using ChatGPT, probably like
+20:48 a glorified Google like you mentioned
+20:50 earlier. Maybe they've used Claude here
+20:53 and there.
+20:55 Can you almost take us back to first
+20:56 principles of like how is this and Grok
+21:00 bot and agents specifically
+21:02 fundamentally a different experience
+21:06 with different capabilities
+21:09 than the person that's using Claude or
+21:12 ChatGPT, basically just using its chat
+21:15 function. Like, can you describe that
+21:18 difference for people so it's real?
+21:20 >> This image always blows my mind.
+21:22 Just to add context to the question you
+21:24 just gave me.
+21:26 This is everyone in the world. So, each
+21:28 dot is 3.2 million people. The gray dots
+21:31 are people who have never used AI, just
+21:33 never touched AI, never used ChatGPT,
+21:35 nothing. Green is they used ChatGPT,
+21:39 they like they downloaded the app and
+21:40 used the free plan, asked a few
+21:41 questions. The yellow is people who pay
+21:44 for AI.
+21:47 And the red is anyone who's written like
+21:48 a single line of code with AI ever.
+21:51 One dot out of all of these dots.
+21:55 One speck. And so, if you use Grok Bot
+21:58 and you've had it build anything at all,
+22:01 you're in that one tiny red dot there.
+22:04 If you've even paid like a penny for AI,
+22:07 you're in one of these tiny dots right
+22:09 down here in the bottom right. So,
+22:11 barely anyone is using this technology
+22:14 at the moment, which is pretty amazing,
+22:15 which is just kind of a reminder for
+22:17 people who are into this stuff, how
+22:19 small the bubble we're actually in at
+22:20 the moment. Now, we can have a whole
+22:23 other conversation around investing and
+22:24 what this means around investing, but
+22:26 that's a different conversation. Um
+22:29 but
+22:30 your question is is around what's kind
+22:32 of difference between this and the
+22:33 people who just use chat regularly. The
+22:35 The difference is I think most people
+22:38 when they use AI, most people in those
+22:39 kind of green dots,
+22:42 they use AI as a way to kind of get
+22:46 information, which is good. It's the
+22:48 best way to get information ever. It's
+22:49 the best way to get information. Anytime
+22:51 I have a question, I just ask my AI.
+22:54 The difference though
+22:56 with the red dot, the one tiny dot in
+22:58 the bottom right, the 0.001% of the
+23:01 world,
+23:03 when you AI like the people in the red
+23:04 dot, it's actually taking action for
+23:07 you. Grok is built around taking action.
+23:10 And what I found the most amazing part
+23:12 about Grokbot is
+23:14 is its ability to just figure out how to
+23:18 do things. It just figures out how to do
+23:21 things. So, one thing here, I have my
+23:23 project manager Kelly working on my app
+23:26 right now.
+23:27 And as you can see here, and this is one
+23:29 of the most amazing parts about Grokbot,
+23:31 these lines right here, if you can see
+23:34 them,
+23:35 are Kelly messaging
+23:38 the other agents I have in my fleet. So,
+23:40 she's messaging other agents, having
+23:42 conversations back and forth. I never
+23:45 told Kelly to do that. I never told
+23:47 Kelly, "Hey, message Hank about this or
+23:50 read about that or whoever."
+23:53 Kelly just figured out, "Ah, I have this
+23:55 question. This thing is blocked." Right,
+23:57 you can actually see right here, this
+23:59 task I'm working on is blocked. I need
+24:02 to get verification. So, she starts
+24:04 messaging the other agents to figure out
+24:07 what she needs to get unblocked. I never
+24:10 said, "Hey, if you get stuck, talk to
+24:11 Hank." She just Look, done. The task is
+24:14 now done. The task she said was blocked
+24:16 here is now This is all happening in
+24:19 real time. Is now done and merge ready.
+24:23 That's amazing.
+24:24 That was done all automatically. It just
+24:27 figured it out. And that's the amazing
+24:29 thing about Grokbot.
+24:31 Is it just figures it out. It figures
+24:34 out how to do things. You don't need to
+24:36 handhold it, babysit it, anything like
+24:39 that. Grok is just incredible at just
+24:42 figuring it out. Uh and it really is
+24:44 amazing. You can see it's creating
+24:45 routines for itself to merge things.
+24:47 It's deleting routines of that it's
+24:49 already done. It just works and does
+24:51 things to push the ball forward.
+24:53 >> Yeah. You know, Alex, I'm so curious.
+24:56 What is your like, even in this
+24:57 scenario, what is your contribution?
+25:00 Like what is the thing that you
+25:03 what is it that you tell Grockbot that
+25:06 it then goes through like Kelly's going
+25:09 through all of this this whole chain
+25:11 where she's messaging Hank and she's
+25:13 checking something then she's messaging
+25:14 like another agent within your kind of
+25:16 AI team. Like where uh for you as the
+25:19 human, where do you fit in to this whole
+25:21 process?
+25:22 >> Yeah, uh so here's the thing
+25:26 is
+25:27 when you don't give AIs measurable goals
+25:33 they that's where you produce slop,
+25:36 right? Slop comes from Slop is not an AI
+25:40 issue. Slop is a human issue. When
+25:43 people say, "Oh, this is slop, that's
+25:44 slop."
+25:46 It's not the AI's fault, it's your fault
+25:48 if you're producing slop. The way you
+25:51 get good results, the way you get things
+25:53 out of it, the way you get AIs working
+25:55 to your benefit
+25:57 is when you give it measurable end goals
+26:00 it can measure against. And so
+26:03 to give a little context around here, I
+26:04 was having a conversation with Kelly
+26:07 when I woke up
+26:08 around let's see if I can find it here.
+26:12 Yeah, here we go. I woke up, I was
+26:14 talking to Kelly and I said, "Kelly,
+26:17 look at our vision doc. Every project I
+26:20 build has a vision doc, which is
+26:22 basically here's the end state I want.
+26:25 In a dream world where everything is
+26:27 perfect and I'm making billions of
+26:29 dollars, this is what the product looks
+26:31 like and this is what it does." Every
+26:33 single project I do has that.
+26:35 So if I'm ever stuck and I don't know
+26:37 what to do with my AI, I don't know how
+26:38 to move forward
+26:40 I go to my agent and I say, "Look at the
+26:43 vision doc.
+26:44 Look at where we are now. How do we get
+26:47 one step closer to the vision doc?"
+26:50 And then it comes up with all these
+26:52 steps. You can see it right here.
+26:54 11 different steps.
+26:56 I basically say, "Okay, I like that. Go
+26:57 ahead and start doing it."
+26:59 And she starts working toward it. As
+27:01 long as your AI has a measurable end
+27:04 goal, something it can compare where
+27:06 it's at now against, it's going to
+27:08 produce good results and it's going to
+27:10 figure out how to accomplish that goal.
+27:12 The issue for a lot of people is is they
+27:13 give commands to their agents
+27:16 and there's no measurable end goal, and
+27:18 that's where you get slop. But as long
+27:19 as it's measurable, the LLM will figure
+27:22 out how to get there. And that's how you
+27:23 start getting way better results and
+27:25 start getting your agents to just figure
+27:27 it out, figure out how to do things cuz
+27:29 it'll constantly measure against that
+27:31 goal.
+27:31 >> Yeah. You know, this is funny, Alex, cuz
+27:33 where my mind goes, as you're like
+27:35 scrolling through and showing uh Kelly's
+27:40 process, like you hear it so often or
+27:42 you start to hear it so often, like
+27:44 they're like AI employees. And this is
+27:47 almost like an AI It's like you have an
+27:48 AI business, like an AI organization.
+27:51 And it's but it's very
+27:53 >> Yes.
+27:53 >> closely resembling what we see in the
+27:55 workplace, where you have like these
+27:57 different contributors contributing to
+27:59 one project with a project manager at
+28:02 the top of it who's kind of delegating
+28:03 out the tasks. And so, you know what?
+28:07 Cuz I'd love to have you show this next,
+28:09 Alex.
+28:10 You mentioned the the sponsorship side
+28:13 of things.
+28:15 And I'm thinking about that that
+28:16 solopreneur that's, you know, you always
+28:18 have like revenue on your mind as an
+28:20 entrepreneur.
+28:22 Um
+28:23 that $10,000 deal that was closed
+28:26 through using your Grok Bot. Can you
+28:28 just show
+28:30 that chain of like how that and give the
+28:33 context of how that even came about?
+28:36 >> Yeah, so I uh I started using Grok Bot.
+28:39 I quickly realized there's something
+28:41 different about this agent. I quickly
+28:43 realized it's like incredible at long
+28:47 horizon
+28:49 automation tasks. It's incredible with
+28:51 tools. It's incredible plugins, meaning
+28:55 it can connect to my Gmail
+28:57 and then do really complex multi-step
+28:59 tasks. It can read an email, do
+29:01 research, think of something to reply
+29:02 with, and then take action. It's
+29:04 spectacular at all those things. And so
+29:06 I thought, "Okay,
+29:07 what are things I absolutely hate
+29:09 automating that I can have it do?"
+29:12 I said, "Okay, I hate emails. I'm
+29:15 probably losing out on six figures of
+29:16 sponsorships a year because
+29:18 uh I don't read my business email
+29:20 inbox." And so I went to Kelly, my or
+29:23 not not Kelly, my uh sorry, I'm
+29:25 confusing all my employees here, Cindy,
+29:28 my revenue ops.
+29:30 And I said, "Connect to my business
+29:31 account,
+29:33 read my last thousand emails, research
+29:36 every single person who sent me an
+29:38 email, find the legit ones,
+29:41 and then negotiate. Here's my going
+29:44 rates." At the time, uh I I was selling
+29:47 deals for like $10,000 for a
+29:49 sponsorship.
+29:51 Give them my rates, then negotiate. See
+29:53 what you can do.
+29:54 Literally 15 minutes later, Cindy goes,
+29:57 "Oh, I found a deal.
+29:59 They seem legit. I researched them.
+30:02 Here's uh I responded. We'll wait to see
+30:05 their reply." Now, I'll show you kind of
+30:07 what my conversation Cindy looked like.
+30:09 But basically what she does here, I'll
+30:11 give you a little sneak peek, is every
+30:13 morning she checks my sponsorship inbox,
+30:16 looks at who's emailing me,
+30:19 sees what their address is, researches
+30:22 them, and gives me a recommended next
+30:24 step
+30:25 on how what she should what we should do
+30:26 with them. She then negotiates the deal.
+30:30 And then with the first one she did, the
+30:32 first one she chose, she closed the
+30:34 deal. She got the deal closed. So I went
+30:37 in at the end, and that's when I came
+30:39 in. I was like, "Okay, so what what do
+30:40 you want me to do for the sponsors? Like
+30:41 what what should the ad read be? Things
+30:43 like that. But she handled all the stuff
+30:46 I hate, which is I hate negotiating. I
+30:48 absolutely hate I always feel like I'm
+30:49 getting taken advantage of in
+30:50 negotiations.
+30:52 AI luckily they don't feel emotions, so
+30:53 they don't they can just go in and go
+30:55 clear-headed and use logic.
+30:58 Reading emails handled for me. And so,
+31:01 that was the process. Read my email
+31:02 inbox every morning, find the legit
+31:05 sponsorships that want to work with me,
+31:07 negotiate and close the deal. And
+31:09 Cindy's able to do it.
+31:10 >> Yeah.
+31:11 You know, we're we're going to go deeper
+31:12 in some of these and like how someone
+31:14 can actually build their own first set
+31:16 of agents on Grokbot. But before we do,
+31:20 the final thing cuz you've kind of
+31:21 showed your you showed Kelly like your
+31:23 chief of staff kind of project manager,
+31:25 you've showed uh Cindy who does like
+31:27 revenue ops, sponsorships, all of that
+31:29 stuff.
+31:30 Uh you had another uh agent who like
+31:32 manages your community.
+31:35 Could you just show like when you say
+31:37 you have it's like a community manager
+31:39 is making sure that everything's like
+31:41 active and running well there, what does
+31:43 that look like? Yeah, Dusty. What does
+31:44 that look like?
+31:47 >> Yeah, so Dusty handles a ton of things
+31:50 for me.
+31:51 Uh and you can actually see all of
+31:52 Dusty's routines on the right-hand side.
+31:55 Um so, here's an amazing thing again
+31:58 about Grokbot is they have their own
+32:00 computer. They can do anything a human
+32:02 being can do on your computer. So, you
+32:04 can automate like a human being using
+32:06 computers. So, I had like community
+32:08 managers before for the community.
+32:11 Eventually, I was like, "Okay, I'm going
+32:12 to have a Grokbot figure this out."
+32:15 And now, Dusty goes in,
+32:18 gets daily news from my other
+32:20 researching bots, posts news into my
+32:22 community every day on AI the moment it
+32:24 happens.
+32:25 Um checks my funnels. So, checks like,
+32:28 "Okay, who's coming in? Where are they
+32:30 coming from? What's working? What
+32:33 isn't?" Gets me reports on that.
+32:35 Answers uh
+32:37 messages. So, I didn't want my community
+32:40 managed by an AI in a way where like
+32:43 everyone interacting with you is an AI.
+32:45 I think that's bad. I think people go to
+32:46 communities for human connection.
+32:48 But, what I actually do is I have Dusty
+32:52 do sweeps, find who ask questions who
+32:56 were never responded to, and then alert
+32:58 me every day so I can go in and respond
+33:00 to the people who have no responses.
+33:02 Uh, I have him do things I don't
+33:04 remember do like record live calls. When
+33:06 live calls start, he goes in make sure
+33:07 record is hit. Um, gives me snapshots on
+33:11 my data every single Monday so I can see
+33:12 how the community is growing.
+33:14 Uh, and a lot of other things. One thing
+33:16 I love it does is
+33:18 I could have it go in and send automated
+33:20 responses to people, but again, I think
+33:22 people go to communities for human, uh,
+33:25 you know, relationships. But, it'll look
+33:28 at my answers, and if I left any details
+33:31 out of my answers, it'll reply to me and
+33:33 say, "Hey, by the way, here's some added
+33:35 detail on what Alex was trying to say."
+33:38 And so, it makes my responses and my
+33:40 engagement with the community stronger
+33:41 by adding details I might have forgotten
+33:43 that moment. So, Dusty handles
+33:45 everything.
+33:47 And Dusty doesn't need to use my
+33:48 account. Dusty has his own account. And
+33:52 so, there's amazing plugins in Grok Bot
+33:54 like Agent Mail for instance where your
+33:56 agents can quickly create their own
+33:58 email inbox, create accounts for
+34:00 themselves in anything you're using,
+34:03 invite themselves as team members, and
+34:05 do their own thing. Dusty has its own
+34:06 account in my community. And so, it's
+34:09 just another human being in the
+34:10 community just making sure everything
+34:12 moves nicely and making sure, uh, the
+34:14 community is engaged.
+34:15 >> Yeah.
+34:16 You know what? I want to make sure that
+34:18 I understand this clearly because
+34:21 Alex, this is what I'm hearing. It's not
+34:24 necessarily that Grok Bot is going out
+34:26 and like
+34:28 making you all of this money or like
+34:30 replacing you.
+34:32 It's basically, it sounds like it's like
+34:34 the ultimate multiplier where it's
+34:37 taking away tasks and it's multiplying
+34:41 the value of your time. So it's like
+34:43 giving you information, it's giving you
+34:44 access, capabilities, uh knowledge
+34:48 um so that
+34:50 the parts where you plug in, you can
+34:51 just do
+34:53 what you do. If you were going to
+34:55 estimate, I guess how much time even in
+34:57 a week
+34:59 you'd be being saved you're being saved
+35:01 using Grok bar. Just rough estimate.
+35:03 What would you say?
+35:04 >> I mean,
+35:05 hundreds and hundreds and hundreds of
+35:07 hours.
+35:08 Right? I I've been a developer my entire
+35:11 career.
+35:12 I have a computer science degree. I've
+35:14 been building things my entire life.
+35:17 Never in a million years would I ever
+35:19 take on as many projects as I am right
+35:20 now. Never in a million years would I
+35:22 raise money for one project while also
+35:24 building out another full-scale project
+35:26 while also building out an entire video
+35:28 game while also managing like a
+35:31 community and writing content. Like
+35:33 these are all full-time 40-hour a week
+35:36 jobs, each one of these.
+35:38 And I just have them completely
+35:40 automated. So probably hundreds of hours
+35:43 a week. It is a dramatic impact if you
+35:45 can use it the right way.
+35:47 >> Okay, you know what? Cuz I cuz I'm
+35:48 getting excited now and I want to get
+35:49 into the the steps of how someone can
+35:51 start to use it and even build it in the
+35:55 similar way to what you've done. Because
+35:57 I think specifically for that person
+36:00 that maybe they've like had ambitions of
+36:02 always starting a business, like a solo
+36:04 business, but they just never have had
+36:06 enough time, like they're always kind of
+36:08 underwater. And so the idea that they
+36:11 could get time back and be able to like
+36:14 focus on the things that matter or they
+36:16 could just use the limited kind of
+36:17 resources that they have at their
+36:18 disposal, either it's just them or like
+36:20 a small team, to get more done is like
+36:23 very exciting. And so to begin, Alex,
+36:28 I had a like I was thinking about this
+36:30 this morning. I was thinking about like
+36:31 what are the different almost
+36:33 departments or like sections of a
+36:36 business that you would have,
+36:37 specifically as a solopreneur or like an
+36:40 entrepreneur with a small team. And so,
+36:43 I wanted to just list out a few of them,
+36:46 and you can kind of just give us your
+36:48 perspective if there's like certain use
+36:51 cases for GrokBot where you've seen it
+36:53 specifically strong at, like
+36:55 specifically suited to doing.
+36:57 So,
+36:58 for most companies or even just
+37:00 solopreneurs, you would have marketing
+37:02 and content as like one one
+37:05 category. You have sales and outreach.
+37:07 You have customer service. You have
+37:09 email and admin. You have fulfillment,
+37:12 specifically for like clients. You have
+37:14 coordination and management.
+37:16 Are there certain We kind of spoke about
+37:18 like even just the sponsorship side of
+37:19 things. I guess that's sales. Are there
+37:21 certain functions or like categories of
+37:24 functions
+37:26 that you've seen GrokBot do specifically
+37:29 well? And then on the other side of
+37:32 things, on the
+37:33 opposite end, are there certain
+37:35 functions that you've seen it not do
+37:37 very well?
+37:37 >> Yeah, I'd say anything
+37:41 logic based
+37:43 is go it's going to excel at. And what I
+37:45 mean by anything logic based, anything
+37:48 that there are clear right ways to do
+37:50 things. Right? So, coding, it is amazing
+37:53 at coding, building, writing code,
+37:55 answering emails, replying to emails,
+37:57 organizing your day.
+37:59 Those are all what it's best at. There
+38:01 are still things I believe that need
+38:03 human touch.
+38:05 GrokBot has not written a single tweet
+38:08 for me. It hasn't written a single full
+38:11 script on YouTube. It writes scripts for
+38:14 like ad reads. It writes outlines.
+38:18 It does research, but it's not writing
+38:21 that human level stuff, like the things
+38:23 I'll say on camera, the things I will
+38:25 tweet out. And so, those things like
+38:27 that's where you want to save for
+38:28 yourself. That's what you want to save
+38:30 for the kind of human touch side of
+38:32 things is like the content, the
+38:33 communication, things like I don't want
+38:36 it to automate replying as me and my
+38:37 community. But, anything logic-based,
+38:40 it's amazing. The project management,
+38:42 right? Looking at my vision doc, seeing
+38:46 what needs to be done and creating tasks
+38:48 around that to get as closer to the end
+38:51 goal in the apps I'm building. Writing
+38:53 the code the code to do that.
+38:56 Responding to emails, keeping me in the
+38:58 loop on things, watching my calendar,
+39:00 preparing me for meetings, reading my
+39:03 email 2 hours ago, seeing that you
+39:06 emailed me with the outline of what
+39:07 we're going to talk about, and then
+39:08 going through my entire Grokbot setup
+39:11 and pulling out my use cases and points
+39:13 so I'm prepared to talk to you. All
+39:16 those logic-based things, spectacular
+39:19 at, but there's still the human touch
+39:21 that's needed. I truly believe content
+39:24 will never be automated. But, the
+39:26 research, the outlines, all of that,
+39:29 Grokbot can save you 99% of your time
+39:32 on.
+39:32 >> Yeah. It It's It's funny that it
+39:35 actually played a part in the creation
+39:37 of this episode cuz you're right, I sent
+39:39 you an email this morning and it was
+39:41 like within the hour
+39:43 you had a you'd taken a look at it and
+39:45 you had a response. And so, it's funny
+39:47 to hear that I would
+39:48 part of the reason you were so fast was
+39:50 because Grokbot was using that process.
+39:52 And so, just ground zero, just starting
+39:57 out, right? I've used ChatGPT, I've used
+40:00 Claude. I hear Grokbot and I'm like, I
+40:03 don't even know where I go to access
+40:07 this. So, so can you just start from
+40:09 like step zero, like basic? How does
+40:13 someone even get to this window, like
+40:17 this view that you're seeing. And then
+40:20 how does like what's the first things
+40:22 that you're even doing? Like someone has
+40:24 a fresh account with GrokBot, like
+40:26 what's the first things that you're
+40:28 doing to get started in the right way?
+40:30 >> Yeah, so set up super simple. You search
+40:32 GrokBot, I'm sure it'll be the first
+40:34 link on Google. You just download it.
+40:36 When you open it up, uh it's by SpaceX
+40:39 AI, so it'll be on the SpaceX AI site.
+40:42 From there, when you open it up, you'll
+40:43 have one agent you're given. You're
+40:45 given one single agent.
+40:47 Now, I think the mistake most people
+40:49 make at this point is they'll go and
+40:51 they'll try to recreate this, right?
+40:53 They'll try to recreate like they'll
+40:55 create 400 agents. Oh, this is
+40:57 multi-agent, let me create my marketer,
+40:58 my content creator, this, that. Boom,
+41:01 they all of a sudden have 400 agents. I
+41:03 think that's a massive mistake. I don't
+41:05 think you should be starting big. I
+41:07 don't think you should be shooting for
+41:08 the moon the moment you open it up. You
+41:10 need to start small.
+41:13 You start with one agent. This agent is
+41:15 your chief of staff, right? This is the
+41:17 one that manages all the other ones,
+41:19 because what makes GrokBot so good is
+41:21 the agents can communicate with each
+41:22 other. They can talk to each other, they
+41:24 can create other agents by themselves.
+41:27 So, you start small, you make your chief
+41:28 of staff. You think of two to three
+41:31 areas of your life you want to save time
+41:34 on. You want to automate, you want to
+41:35 get more done on. Think of two to three
+41:37 areas of your life.
+41:39 You create a single bot for each. So,
+41:42 you go to your chief of staff, you say,
+41:44 "Hey, I want to automate I want to
+41:46 automate my content, my
+41:51 sponsorships,
+41:54 and my building apps.
+41:58 Help me build a bot for each, right? So,
+42:01 you can go and help me build a bot for
+42:04 each."
+42:05 >> And it's
+42:05 >> What your chief of staff will do Go
+42:08 ahead.
+42:08 >> It's still at that high level? Like that
+42:11 that was kind of how you began. It was
+42:14 you didn't even need to go into more
+42:15 detail than that.
+42:16 >> No, that's it. That's all you do and it
+42:19 starts you can start very very small
+42:21 here. It creates a bot for each and puts
+42:23 it in its own section, right?
+42:26 Then you just have one bot each. You
+42:27 don't need to make 20 bots for each of
+42:29 your teams. So maybe you're working on
+42:31 building apps. You go to your bot that's
+42:33 building your apps. Hey, can you build
+42:35 this? Can you do that? Can you do this?
+42:37 What you'll slowly and organically do
+42:39 over time is figure out more tasks you
+42:42 want to do in that area, right? So maybe
+42:44 you're building a video game.
+42:47 And you have your one bot for your video
+42:48 game that's like building out the
+42:50 gameplay. And you go, man, I wish while
+42:52 I was building this gameplay out there
+42:55 was we could also be designing things as
+42:58 we go, designing the levels, the
+42:59 weapons, whatever.
+43:01 Then that's when you go when you make
+43:03 your second bot on that team, the design
+43:05 bot, right? And then you go when you're
+43:07 building out then you're like, ah, you
+43:09 know, I I I the game's almost ready to
+43:11 go. I need to market it, but all my
+43:12 other bots are busy designing and
+43:14 developing. Then you build the marketer
+43:16 bot for the video game team. And what
+43:18 you do is you start small, you start
+43:21 with your one bot.
+43:23 You create one for your two to three key
+43:25 areas your life. And then as you come up
+43:27 with more tasks and responsibilities and
+43:29 things to do,
+43:31 you spin up one bot then another bot
+43:33 then another one and the team
+43:35 organically grows. And what happens is
+43:37 you start to build, and this might sound
+43:40 weird, but you start to build
+43:41 relationships with each one of the bots.
+43:43 You understand how they work, how they
+43:45 communicate, what they do, and it gets
+43:47 very easy to expand from there. If you
+43:50 make the mistake most people do, which
+43:52 is they come in and they just create 400
+43:54 bots off the rip,
+43:56 you don't really know how each works,
+43:57 you don't know their responsibilities. A
+43:59 lot of them are completely useless and
+44:01 you kind of get overwhelmed and you stop
+44:03 using the tool. So my kind of big tip
+44:06 when it comes to using Rock Bot, start
+44:08 small, expand slowly,
+44:12 ask more questions than prompts you
+44:15 give. And what I mean by that is, you
+44:18 should be asking way more questions than
+44:22 commands you give the bot. Why would you
+44:24 do that? Because, and this is no offense
+44:27 to anyone, we've reached the point where
+44:30 the AI is smarter than us. The AI knows
+44:33 how to do more things than us. It knows
+44:35 its capabilities way more than we know
+44:37 its capabilities. And so, to get the
+44:39 most out of it,
+44:41 like if you had Albert Einstein sitting
+44:44 right next to you, you wouldn't be
+44:45 telling Albert Einstein what to do.
+44:47 You'd be asking him a ton ton of
+44:48 questions. You'd be saying, "Hey, what
+44:49 can we do here? What can we do there?"
+44:51 It's the same thing with these bots. You
+44:52 should be asking about, "Hey, what's the
+44:54 best way to approach this? Would you
+44:56 create another bot for this? What
+44:57 responsibilities should you have to
+44:59 automate this? Can you even automate
+45:02 this? What should we do here? Here's my
+45:04 end goal, how do we reach it?" And if
+45:06 you ask way more questions than prompts
+45:08 you give, it'll guide you a lot better
+45:10 on how to approach things, when to add
+45:12 more bots, when to add more routines,
+45:15 when to connect different tools. And so,
+45:17 that'd be my final major tip. And it's
+45:18 really this way with all AI tools at
+45:20 this point. Ask way more questions than
+45:23 commands you give.
+45:24 >> Yeah. You know, I thought this was so
+45:26 good even when you and I
+45:28 spoke um about a week ago. You spoke
+45:31 about reverse prompting.
+45:33 Um and I before you spoke about it, I'd
+45:35 actually never really heard it, even
+45:37 though I've spoken with so many
+45:38 different people in this space. And so,
+45:40 I just want to give it uh to anyone
+45:41 that's listening at home. Cuz this is
+45:43 exactly what you said. You said with
+45:45 reverse prompting,
+45:47 what you want to do is you tell it about
+45:48 yourself, talking about the AI. You tell
+45:50 it about yourself. And you ask it
+45:52 questions. Based on what you know about
+45:55 me, what should we do next? What can we
+45:57 automate? How do How do you get me
+45:59 closer to my goals? And because it's so
+46:02 smart, it uncovers unknown unknowns you
+46:07 never would have thought of.
+46:09 And so it sounds like
+46:11 even when you um and and you let me know
+46:13 if this is correct. You open Grok Bot
+46:17 and
+46:18 first off you get uh it already has an
+46:20 agent for you, which is Slate, your
+46:22 chief of staff.
+46:23 At that point, Alex, are you then
+46:26 giving and like when even when you were
+46:28 starting out, did you give Slate like a
+46:30 bunch of context
+46:33 on yourself? Like was there any sort of
+46:35 document or just context file or even
+46:38 like a just a voice dump, like brain
+46:40 dump
+46:41 that you did in?
+46:43 And then from there you're asking the
+46:45 questions. Like kind of talk about that
+46:47 process of how you're even kind of
+46:49 warming it up so that it can give you
+46:52 very specific responses that are
+46:55 valuable and customized to you.
+46:57 >> Yeah, the most powerful strategy
+47:00 in AI is the brain dump to reverse
+47:03 prompt. This is patented. I came up with
+47:05 this. This is the strategy the Alex
+47:07 Finch strategy I've been praising for
+47:09 years now. The brain dump to reverse
+47:12 prompt. What does that mean? Kind of as
+47:14 I said,
+47:15 AI is smarter than us. It's more it it
+47:17 knows its capabilities a lot better.
+47:20 It's the same thing as kind of the the
+47:21 blank canvas effect with human beings.
+47:24 Like you have the blank canvas, you
+47:25 don't really know what to do.
+47:27 The solution to that is the brain dump
+47:30 to reverse prompt.
+47:32 You give the and I do this a ton because
+47:35 every new AI tool is the first thing I
+47:36 do. You brain dump everything about
+47:39 yourself. Your goals, your ambitions,
+47:40 your career,
+47:42 your interests, everything you want to
+47:44 accomplish, everything you've done to
+47:45 this point. Give it as much context as
+47:47 humanly possible.
+47:49 Then once you've done that, you can
+47:51 reverse prompt. Based on what you know
+47:54 about me, how can you help me? How can
+47:56 you get me closer to my goals? How can
+47:58 you help me achieve my dreams? How can
+48:00 you help improve my career? How can you
+48:02 help me improve my personal life?"
+48:04 Then the AI, knowing its capabilities,
+48:07 can help you fill in the unknown
+48:09 unknowns. It can say, "Oh, we can do
+48:11 this, we can do that." The odds are you
+48:12 don't know everything this AI can do.
+48:14 It's pretty much at the level of
+48:16 superintelligence now, right? So now, by
+48:20 giving it as much context as humanly
+48:22 possible,
+48:23 and then reverse prompting, "Hey, what
+48:25 can you do for me with this?"
+48:27 you're able to kind of
+48:29 unlock all your blind spots, figure out
+48:32 what it's capable of, and get way more
+48:35 out of your AI. And so, I think that's
+48:37 the most powerful strategy when you open
+48:39 up a new AI tool, when you don't know
+48:41 what to do, you're sitting around like,
+48:43 "I don't know what to do with this AI
+48:44 this moment." Just tell it a bunch of
+48:46 things and say, "Okay, what should we do
+48:47 next?" And you will get And if you do
+48:49 that over and over and over and over and
+48:51 over again,
+48:52 it's like this almost like
+48:55 exploratory way of using AI. It's It's a
+48:58 lot different than saying, "Hey, do this
+48:59 for me, then do this for me, then do
+49:00 this for me."
+49:01 It's a lot more exploratory,
+49:03 where you are like, you don't know
+49:06 what's five steps ahead. You're going
+49:07 down this path, there's a lot of fog,
+49:10 you don't know what's five steps ahead
+49:12 of you, but you're just going
+49:13 step-by-step exploring what's around
+49:15 you. You get a lot more done, it's a lot
+49:18 more fun, it's a lot more interesting,
+49:21 and I just think it's a really enjoyable
+49:22 way to use AI.
+49:23 >> Yeah.
+49:24 Yeah, I think I think it's so good, and
+49:26 I think the the advice is
+49:28 valuable
+49:30 and underrated,
+49:32 especially coming from you. And the And
+49:34 the reason I say that is what I said
+49:36 earlier, that you're the person that I
+49:38 go to online, where it's like a new tool
+49:41 has come out, and I know within the
+49:43 space of a few hours, maybe like a day,
+49:45 you will have tested it for hours, have
+49:48 kind of come up with a perspective on
+49:50 it, and then sharing that very concisely
+49:53 in a video. And so, when it comes to
+49:55 getting like onboarded and getting
+49:57 valuable outputs from a new AI tool
+50:00 fast, you're like one of the best at it.
+50:03 And so, just to make it like super
+50:05 practical, cuz I'm such a fan of like
+50:07 the the brain dump, and at least for me
+50:09 personally, the way that I do it is I
+50:11 will go into the voice memos like app on
+50:14 my iPhone.
+50:16 And then, I would just like hit the
+50:17 record button. I'll just talk into it.
+50:20 And then, once you hit the little
+50:22 square, you know, to like stop the
+50:23 recording, you can then copy the
+50:25 transcript and just put it straight into
+50:28 the AI. And so, if we take that as kind
+50:31 of like the the step one of like you've
+50:33 shared the context, and then you've just
+50:35 shared three things like that you want
+50:38 automated or you want help with. You can
+50:40 even do the reverse prompting method
+50:43 with Grokbot to figure out what those
+50:45 three things are.
+50:47 From there, because I'm so curious about
+50:49 like the functionality and what your
+50:50 experience there has been, Alex,
+50:53 it sounds like and you correct me if I'm
+50:56 wrong,
+50:57 a lot of your interaction is happening
+51:00 with either Slate, which is the name
+51:04 that you have for your chief of staff,
+51:06 or Kelly, who's the project manager. And
+51:09 then, they are then talking to the
+51:12 agents, like the the individual like sub
+51:15 agents.
+51:16 Is that the case where like you only
+51:18 really are talking to like one or two
+51:20 agents yourself, or have you found
+51:22 yourself actually kind of going into
+51:25 these like almost sub departments and
+51:28 talking with Dusty and Hank? Um
+51:32 What what has your been your experience
+51:34 in that sense?
+51:34 >> Yeah, it's kind of it kind of was trendy
+51:37 advice to give when Grokbot came out,
+51:39 which was oh, just talk to your chief of
+51:41 staff. That's it. Just talk to your one
+51:42 main bot, and then it will go and kind
+51:45 of delegate downwards.
+51:47 I actually found I don't like that and I
+51:49 don't do that at all. I actually go
+51:51 directly to whatever agents I need to
+51:53 talk to and that's for multiple reasons.
+51:56 One, the beauty of the multi-agent setup
+51:59 is each agent has their own very concise
+52:02 context. Right, Hank who's my developer
+52:06 for Henry Intelligent Machines
+52:08 all his context is around this just one
+52:12 sliver of a project of what he's working
+52:15 on.
+52:16 And if I go to Slate and I say, "Hey,
+52:18 build this out in Henry."
+52:20 It needs to think about the context
+52:22 every other agent has then pass it down
+52:24 and they think about the context of all
+52:26 the agents under it then they pass it
+52:27 down and that burns a tremendous amount
+52:29 of tokens.
+52:31 So, I find you save a lot of tokens just
+52:34 by going direct to that agent. It also
+52:37 helps you just kind of understand better
+52:39 what the context each agent has and just
+52:42 a lot more efficient, faster and saves
+52:44 you a lot of tokens.
+52:46 I also
+52:47 I just have fun going direct to the
+52:49 individual agents. I have fun going
+52:51 direct to the one developer who's
+52:53 working on the job. Like it just helps
+52:55 you learn how the entire system works.
+52:59 It helps you get things done a lot
+53:01 faster. Like if everything had to be
+53:03 passed down, you're just waiting a lot
+53:05 longer for Slate to go to Kelly then
+53:07 Kelly go to Hank and like figure out the
+53:08 context all the way and then messages
+53:11 might be lost in translation as it goes.
+53:13 And so, I go if I need something built
+53:16 in Henry, I go straight to Hank and I
+53:18 say, "Hey, we need to build this out."
+53:20 He'll then go and he'll communicate with
+53:22 the project manager and make sure
+53:24 everyone's aligned and on the same page,
+53:26 but I just like going directly to who's
+53:28 working on it and getting it done cuz
+53:30 you'll save tokens, it'll get done
+53:31 faster and you'll kind of learn how
+53:33 everyone works.
+53:34 >> Yeah. You know what's funny cuz it's
+53:36 like where my mind went even before you
+53:37 gave the the example
+53:40 is
+53:41 if you were the CEO of a company, right?
+53:43 And you walk into the office, like I'm
+53:45 I'm talking a physical office, right?
+53:47 Like the way that we have done things as
+53:50 humans for years and years and years.
+53:52 And you went in and you had a question
+53:55 about like the marketing. Like what what
+53:57 it How are we going to do marketing for
+53:59 the next quarter?
+54:01 You wouldn't go and like talk to your
+54:03 chief of staff who would then go and
+54:05 talk to the marketing person. Like you
+54:07 wouldn't do that chain of actions. You
+54:10 would just go straight to marketing. And
+54:12 it kind of feels like a very similar
+54:14 mindset here where it's like
+54:16 go to the agent that is responsible for
+54:19 the thing that you want to know about
+54:21 and you'll get
+54:22 >> the best responses there. I mean, it's
+54:24 like it's the reason why these are all
+54:27 set up like a human organization with
+54:29 project managers and CEOs and team
+54:31 leaders. AI and LLMs were trained on
+54:35 human data. They were trained on how
+54:37 humans work. They were trained on how
+54:39 humans think. And so they work and think
+54:41 and speak like humans. And so that's
+54:43 like the way because it's more efficient
+54:46 to go directly to the people in real
+54:47 life, it's more efficient to go directly
+54:49 to the agents when you have a team of
+54:50 them. So, it's it's it's a kind of a
+54:53 cheat code to think about agents in Grok
+54:56 Bot
+54:57 the same way you would think as if they
+54:58 were human beings. That's why I give
+55:00 them names. A lot of people they name
+55:02 their bots like developer bot, marketer
+55:04 bot. No, I like to give them names and
+55:06 then you give them titles and they just
+55:09 work better. Right? I found that by
+55:11 giving them names and then giving them
+55:12 titles instead of having the title their
+55:14 name, they're able to figure out who
+55:15 they should be talking to, who they
+55:17 should be working with, who they should
+55:18 be getting permission from a lot better.
+55:21 You want to think of them like humans
+55:22 and work with them like they are human
+55:24 beings.
+55:25 >> Yeah. You know, so if we just go through
+55:27 the the steps,
+55:29 we spoke about the the voice dump,
+55:31 um like the brain dump that then goes
+55:33 into Grok Bot. You do some of the
+55:35 reverse prompting to come up with those
+55:37 kind of three things that you want
+55:39 automated first. From there, you share
+55:41 that with Slate or whoever your chief of
+55:44 staff, like whatever
+55:45 uh is the name of your agent. From
+55:48 there, it will then create like these
+55:49 sub-agents.
+55:51 And you talk about this very kind of
+55:52 slow this slow and steady approach
+55:56 actually helps remove the AI slop. Like
+55:58 it
+55:59 creating it slow and steady, not adding
+56:01 a ton of agents to begin with.
+56:04 And I And I thought it was really clear
+56:06 and really good what you mentioned
+56:08 around
+56:09 you will know when you need another
+56:11 agent because it's like you might be
+56:13 doing marketing or you might be talking
+56:14 to like the the coder, like the
+56:16 developer on your agent team, and then
+56:18 be like, "Oh, we need design."
+56:20 Like we I need some I need someone that
+56:22 can do design. And that's when you then
+56:23 create like a design agent.
+56:27 And so,
+56:28 where I wanted to go, Alex,
+56:31 is
+56:33 at what point because it seems like when
+56:35 you have these new agents, a lot of the
+56:38 times, and you mentioned this earlier,
+56:39 it starts with this vision document.
+56:42 First of all,
+56:44 is that accurate? Like is that the way
+56:46 that you're kind of giving clarity to a
+56:49 new agent in the beginning? Cuz I'm just
+56:51 thinking how people can actually get
+56:53 great outputs and not slop outputs.
+56:56 And if so, if that is kind of the first
+56:58 step in your process,
+57:01 can you just go into a bit more detail
+57:03 on this vision document? Like what are
+57:05 you including? What sort of information
+57:07 is in there?
+57:09 What are the the piece of information,
+57:11 the data points that an agent needs on
+57:14 Grok Bot to be successful and actually
+57:16 productive for people?
+57:18 >> Yeah, I I as you said, like to use
+57:21 vision documents a lot. I mean, an
+57:24 example is something from a couple hours
+57:26 ago. This was uh 9:40, so 5 hours ago,
+57:30 woke up, walked to talked to my project
+57:32 manager, I "Okay, we got to figure out
+57:34 what we're going to get done today. What
+57:35 are the goals for today?"
+57:36 I basically said, as I said earlier,
+57:39 look at our vision doc where we need to
+57:40 go, our goals, look at where we're at
+57:42 now, and figure out how to close that
+57:45 gap and build a hyper-detailed markdown
+57:47 file with everything in it.
+57:50 If I want to create a new bot, go to my
+57:52 Chief of Staff, I say, "Hey, I want to
+57:53 create this new bot that is a design
+57:54 bot. Create a markdown file that has as
+57:57 much detail as possible on how to make
+57:59 the best bot we can."
+58:02 And there's a lot of advantages to this.
+58:04 Having it create a lot of artifacts in
+58:05 markdown files.
+58:07 One is it helps with its own context. If
+58:10 it brain dumps and puts everything it's
+58:12 thinking into a markdown file, it's not
+58:14 going to forget anything. It's not going
+58:15 to forget any details cuz it all goes
+58:18 into that record. And so, we have to go,
+58:21 build out the vision doc for everything
+58:23 we want to get done. This acts as the
+58:25 measurable goal for what we're trying to
+58:27 achieve. And then we go, "Okay, now
+58:29 based on this doc, take action and build
+58:31 out whatever you need to do." Now, since
+58:33 everything is written down, it's set in
+58:36 stone, it's black and white in this doc,
+58:39 we can measurably work against it.
+58:41 That's when AI is at most impactful,
+58:44 when it has something to measure
+58:45 against, something to look against. So,
+58:47 you want to build a new bot? Okay, build
+58:50 me a markdown file that has all the
+58:52 goals and everything we want to achieve
+58:53 with this new bot. So, when it creates
+58:55 the bot, it can't get lazy. It can't
+58:57 skip over details. It has that
+58:59 measurement, right? Like, if you
+59:02 are running a race or running a marathon
+59:04 and you have a goal of getting it under
+59:06 an hour and a half or whatever,
+59:09 you have a hard measurement you're going
+59:11 against. You can black or white say pass
+59:14 or fail. You can't get lazy. You can't
+59:16 be like, "Oh, I think that was good
+59:17 enough that race." No, you have a hard
+59:20 measured goal. And that's what makes AI
+59:22 impactful. It stops it from
+59:23 hallucinating. It stops it from being
+59:26 lazy because you have that hard
+59:28 measurement it's going to constantly
+59:29 check against. So anything you want to
+59:31 build, anything you want to do, always
+59:33 make sure you have that document, that
+59:34 markdown file that has those measurable
+59:37 goals. So that when it builds the bot,
+59:39 builds the project, builds whatever, it
+59:41 can always check back and go, "Okay, did
+59:43 I accomplish this or did I not?" It's
+59:45 very binary.
+59:46 >> Yeah. That That That's really good. So
+59:49 So just to confirm, so when whenever you
+59:50 want to build a new agent, you're
+59:52 actually going back to Slate, the
+59:54 cheaper stuff, and you're basically
+59:56 working with Slate to build or like
+1:00:00 write down based off the brain dump and
+1:00:02 like I guess the interaction back and
+1:00:04 forth,
+1:00:05 the vision document for that's new
+1:00:08 agent. And then you're giving that to
+1:00:10 the new agent so that it kind of has
+1:00:12 like this end state and these goals that
+1:00:14 it's working towards. And that's how you
+1:00:16 found you get the best outputs.
+1:00:18 >> Okay, so super quick break. 18 months
+1:00:21 ago I had a conversation on this show
+1:00:23 that changed everything. The episode
+1:00:25 that we recorded with Greg Eisenberg was
+1:00:27 our first AI episode. And when I left
+1:00:30 the recording, one thing was very clear
+1:00:32 to me that I didn't know before. And
+1:00:34 that was that AI is about to change how
+1:00:36 we build our businesses, our careers,
+1:00:38 and really how we live our lives. And
+1:00:41 what I saw when I spoke with people was
+1:00:43 so much uncertainty and anxiety of what
+1:00:46 this would mean for them. And so we
+1:00:47 created New Era. That's our completely
+1:00:50 free weekly newsletter that's going to
+1:00:52 help you win the new era of AI. And so
+1:00:55 every single week, directly in your
+1:00:57 inbox, you get step-by-step guides from
+1:00:59 our guests, exact prompts that they're
+1:01:02 using, plus things that our guests have
+1:01:04 even told me off camera that I think
+1:01:07 could be really beneficial to you and
+1:01:09 your business and in your life. If you
+1:01:10 want to join over 11,000 people that
+1:01:12 have already subscribed to New Era, then
+1:01:15 just go to the link in the description
+1:01:16 to subscribe to our newsletter. Thank
+1:01:18 you. Let's get back to the show.
+1:01:20 >> That's how you do it for new dot bots.
+1:01:22 That's how you pretty much do it for
+1:01:23 every task. To give another example, I'm
+1:01:26 designing this video game. I'm building
+1:01:27 my dream video game. I fell in love with
+1:01:29 this video game a year ago called Ark
+1:01:31 Raiders. They absolutely botched
+1:01:33 everything after it came out. The game
+1:01:35 stinks now. So, I'm building my own
+1:01:37 version. And like I for the design part
+1:01:40 of it,
+1:01:41 I'm doing basically the same thing where
+1:01:43 I'm like, "Let's build a mood board of
+1:01:45 what we want this game to look like."
+1:01:48 And then all every time we design
+1:01:50 weapons or maps or characters after
+1:01:52 this, we can measure it against the mood
+1:01:54 board to make sure it fits into what
+1:01:56 we're building. Right? And that just
+1:01:58 makes everything much more impactful.
+1:02:00 So, yeah, building bots, writing code,
+1:02:03 designing things, whatever it is, you
+1:02:05 always want to make sure the bot makes a
+1:02:07 measurable goal it's chasing first,
+1:02:10 whether it's a mood board for design or
+1:02:13 a spec for building a bot, and then you
+1:02:16 have it execute against that goal,
+1:02:18 against that spec, against that mood
+1:02:20 board.
+1:02:20 >> Yeah.
+1:02:21 You know, I I was just thinking like
+1:02:24 it's such a crazy time that we live in.
+1:02:26 One of the things, even as you were
+1:02:28 speaking, I was just noting it down,
+1:02:29 right? And these I'm sure you have,
+1:02:32 well, I can see that you have more,
+1:02:34 but here's kind of just some of the
+1:02:36 agents that you have, right? So, you
+1:02:38 have Slate, which is your chief of
+1:02:39 staff. You have Cindy who's the revenue
+1:02:42 ops. She did the sponsorship. You have
+1:02:45 Dusty who's the community manager. You
+1:02:47 have Reed who's your like opportunity
+1:02:50 researcher. Maybe you can even explain
+1:02:51 even what that means.
+1:02:53 But
+1:02:54 the thought in my mind, cuz you even
+1:02:56 mentioned this like slow and steady
+1:02:58 approach as you've like built this team
+1:03:00 over time. Like what we're seeing now
+1:03:02 didn't happen for you on day one,
+1:03:05 but even still,
+1:03:06 where my mind goes is that this can very
+1:03:09 quickly get overwhelming.
+1:03:13 And for you as like the ultimate manager
+1:03:15 of this and like conductor of all of
+1:03:17 this.
+1:03:18 Have you found yourself getting in a
+1:03:20 place where it's like
+1:03:22 there's too many things going on
+1:03:25 and it almost becomes difficult
+1:03:26 difficult for a quality assurance. Like
+1:03:29 to to check that it's actually working
+1:03:32 in the right place.
+1:03:33 Um
+1:03:34 like Dusty for example is your community
+1:03:36 manager is actually doing things to a
+1:03:40 good level.
+1:03:41 Like
+1:03:42 are there certain checks things that you
+1:03:44 would put in place so that like the
+1:03:47 quality of the work stays high? Because
+1:03:50 I'm just thinking about that person at
+1:03:51 home that's like
+1:03:53 yes you have agents that communicating
+1:03:55 back and forth and it like looks cool on
+1:03:57 screen.
+1:03:59 But just me looking at it as someone who
+1:04:00 hasn't started using it yet. It looks
+1:04:03 like it could be overwhelming. Has that
+1:04:05 been your experience?
+1:04:07 >> Yeah, I
+1:04:09 this kind of comes back to the point
+1:04:11 around starting small.
+1:04:13 And but even when you start small you
+1:04:15 also want to start slow.
+1:04:17 So if you start with your two or three
+1:04:19 bots
+1:04:20 you give them some responsibilities
+1:04:22 but you also make it so that before they
+1:04:24 take the action you review at least for
+1:04:26 first. Like right now uh my revenue ops
+1:04:30 Cindy who I've talked about a lot who's
+1:04:32 closing deals responding to sponsorship
+1:04:34 opportunities
+1:04:36 she's shooting off like 10 emails a day
+1:04:39 replying to a bunch negotiating deals
+1:04:41 closing deals. I didn't just create
+1:04:44 Cindy and go hey start responding all my
+1:04:46 emails researching everyone and close
+1:04:48 deals. At first I started off and I just
+1:04:51 said Cindy please every morning at 8:00
+1:04:54 a.m. research everyone who's emailed me
+1:04:57 and give me a report on who's legitimate
+1:04:59 and who's not.
+1:05:00 Then for the first few mornings I read
+1:05:02 that report I'm like okay these are
+1:05:03 pretty good you you you figured out how
+1:05:05 to do it. You figured out how to look at
+1:05:06 LinkedIn and see who's legit. You have
+1:05:08 good taste around who's who's and who's
+1:05:10 not.
+1:05:11 Then I said, "Okay, for each one of
+1:05:14 those now, build me a draft of an email
+1:05:18 on how you would respond to them, how
+1:05:19 you would negotiate the deal."
+1:05:22 Then we spent a few days doing that. I
+1:05:23 read the emails, made sure they looked
+1:05:25 good.
+1:05:26 Then after that, I said, "Okay, now take
+1:05:29 the top three, and you can send them off
+1:05:32 every morning, those emails."
+1:05:34 Next few days, top three of those, sent
+1:05:37 them off. So, what I'm doing is, not
+1:05:39 only am I starting small, but I'm also
+1:05:41 starting slow,
+1:05:43 where I am slowly giving the bots
+1:05:46 responsibilities. Slowly, "Hey, just
+1:05:48 start with research." Okay, now you did
+1:05:50 research, start writing drafts. Now you
+1:05:52 have drafts, start sending off a few of
+1:05:53 these, until you build the point of
+1:05:55 trust with that agent. Right? And along
+1:05:58 the way, say it messes up. Say, and this
+1:06:00 is what happened with Cindy, it the
+1:06:03 emails just didn't sound like me. They
+1:06:04 didn't sound human, they didn't sound
+1:06:06 empathetic enough. They felt very
+1:06:08 robotic during the negotiations. I still
+1:06:10 want the negotiation to be kind of
+1:06:11 empathetic, right? To feel human, so
+1:06:13 they want to work with you. And so, I
+1:06:15 corrected some of the ways it spoke. I
+1:06:18 took example emails I've sent in the
+1:06:19 past, and said, "Hey, put this in a
+1:06:20 memory, how I write here.
+1:06:23 And now improve your drafts."
+1:06:25 And then when the drafts got good
+1:06:26 enough, that's when I said, "Okay, I
+1:06:28 trust you now, this work is good. We
+1:06:31 have created a process for this now I
+1:06:33 believe in. Now you can go out and start
+1:06:36 taking the actions." And then we start
+1:06:37 testing what the next step would be. So,
+1:06:40 it's not only about starting small, it's
+1:06:42 about starting slow, tinkering with the
+1:06:44 process every step of the way, till it's
+1:06:46 dialed in to what you want, till it's
+1:06:48 speaking like you. Uh and then, once
+1:06:51 that's good, you give it that
+1:06:53 responsibility, then move on, and make
+1:06:54 it a little bit bigger, and give it a
+1:06:56 little bit more responsibilities. You
+1:06:58 don't try to do everything at once.
+1:07:00 >> Yeah. I spent a lot of time on Claude,
+1:07:02 and my experience using Claude
+1:07:05 fundamentally changed once I started uh
+1:07:09 like connecting all of the different
+1:07:11 software and apps and products that I
+1:07:14 use on a daily basis, right? So, now
+1:07:16 it's connected to my Gmail and then my
+1:07:19 calendar and then notion and I we use
+1:07:21 granola for like all of my meeting
+1:07:23 transcripts. It's connected to granola.
+1:07:26 Can you just explain because you
+1:07:27 mentioned obviously that Cindy's going
+1:07:29 through your emails and maybe you can
+1:07:30 just show us super quick
+1:07:33 when it comes to connecting GrokBot
+1:07:36 to
+1:07:38 other services outside of GrokBot, how
+1:07:41 does that even work? Like is it a very
+1:07:43 similar experience to Claude and ChatGPT
+1:07:46 where you have like the connectors or is
+1:07:48 it different?
+1:07:49 >> Yeah, they have the same exact thing.
+1:07:50 So, they have their marketplace and you
+1:07:52 can even see uh some of the ones I have
+1:07:54 here. So, as you said, I think the most
+1:07:56 powerful thing you can do is just
+1:07:57 connect it to your life. So, Gmail,
+1:07:59 calendar, if it has access to all your
+1:08:02 emails and calendar, you're good to go.
+1:08:04 Like it'll it'll be able to stay on top
+1:08:06 of things for you. But then taking this
+1:08:08 a step further, there's so many other
+1:08:09 ones I really like and it's all one
+1:08:11 click. You just click and it installs
+1:08:12 it. Agent Mail is so I'm not sponsored
+1:08:15 by any of these companies, by the way.
+1:08:16 Agent Mail, so good. Basically gives
+1:08:19 your agent the ability to create its own
+1:08:20 email inboxes so it can sign up for, you
+1:08:23 know, websites, create its own accounts.
+1:08:25 Amazing. Stripe.
+1:08:28 Now it can spin up payment links for me.
+1:08:30 If someone wants to buy something from
+1:08:31 me, "Hey GrokBot, can you make me a
+1:08:32 payment link for this so I can make
+1:08:34 money on this?"
+1:08:35 Boom, spins up. "Hey, can you create an
+1:08:37 invoice for this?" Boom, spins it up.
+1:08:39 Vercel, this is my favorite way to host
+1:08:41 websites. "Hey GrokBot, I need a
+1:08:43 dashboard that shows me the growth of my
+1:08:46 community over the last month. Can you
+1:08:48 take that and build a website on it,
+1:08:50 host on Vercel so I can send the link to
+1:08:52 my friend who can check it out?"
+1:08:55 30 seconds later, I have a live
+1:08:57 dashboard live on the internet anyone
+1:08:58 can access. That's really good. If you
+1:09:01 can do those, like these are my core
+1:09:03 ones, you're good to go. Like your bot
+1:09:06 will have all the context it needs and
+1:09:08 can take tons of action. You know, these
+1:09:09 are really good for entrepreneurs.
+1:09:11 There's many, many other ones in here.
+1:09:14 Everything under the sun, anything you
+1:09:16 need you can connect here. HubSpot if
+1:09:18 you need a CRM,
+1:09:20 um many others. And yeah, the the
+1:09:22 connections are are really, really good.
+1:09:24 >> Yeah.
+1:09:25 You know what, Alex? And
+1:09:27 before we get out of here, because
+1:09:30 I know for me, I'm like listening to
+1:09:32 this and I'm starting to think of
+1:09:34 different use cases and ways that I can
+1:09:35 use this in my business. And I'm sure
+1:09:37 that it's the same for someone that's
+1:09:38 listening at home, especially someone
+1:09:41 that's similar to you, is maybe like a
+1:09:42 solopreneur or they have ambitions of
+1:09:45 starting a company. Um
+1:09:48 and one of the things and like where my
+1:09:49 mind always goes, because I uh I grew up
+1:09:52 wanting to be an entrepreneur and I
+1:09:54 spent a lot of time procrastinating
+1:09:56 before I started my first business. And
+1:09:59 so I'm so big on like the first action.
+1:10:02 Like how do you reduce that amount of
+1:10:03 time from you being inspired, like
+1:10:06 seeing a video like this or hearing this
+1:10:08 conversation, and then actually starting
+1:10:11 to build and take action?
+1:10:13 And so if someone is listening at home,
+1:10:16 and let's just say they have a few hours
+1:10:18 free after listening to this
+1:10:19 conversation, maybe it's like a Thursday
+1:10:21 night or a Friday night or it's on the
+1:10:23 weekend, it's like a Saturday evening or
+1:10:25 a Sunday evening before the work week,
+1:10:27 and they just had a few hours.
+1:10:30 I'm so curious and like back to that
+1:10:32 point of just taking those first action
+1:10:34 steps.
+1:10:36 What is it that you would have them do
+1:10:39 immediately after listening to this
+1:10:42 conversation that is just going to put
+1:10:44 them on the right track? Like it's just
+1:10:45 going to get them started in the right
+1:10:47 way. Like what steps would you give
+1:10:49 them?
+1:10:50 >> Two exercises I'd give and this is
+1:10:52 perfect timing for most Americans
+1:10:54 watching this is going to well, I guess
+1:10:56 you're probably posting this later, but
+1:10:58 they they they'll probably come out
+1:10:59 before Sunday football starts tonight.
+1:11:02 One of my favorite things to do is have
+1:11:04 my iPad, have my MacBook, then in
+1:11:07 between commercials, I do things in
+1:11:10 commercials. Send a quick prompt Every
+1:11:11 commercial send a quick prompt, right?
+1:11:13 Football is back, do this exercise. Two
+1:11:15 exercises. Exercise one we talked about
+1:11:18 quite a bit.
+1:11:19 That is the brain dump to reverse
+1:11:22 prompt. That's an exercise you can do
+1:11:23 immediately right now after you do this.
+1:11:25 You brain dump everything about
+1:11:26 yourself. You say, "Hey, what can you do
+1:11:28 for me? How can you help me get closer
+1:11:30 to my goals?"
+1:11:31 Here's the other one. So, that helps you
+1:11:34 That exercise helps you figure out what
+1:11:35 AI can do for you.
+1:11:37 Then the other side of it is actually
+1:11:39 executing, actually doing those things.
+1:11:42 This exercise helps you get better at
+1:11:44 building that reflex. I think a lot of
+1:11:46 people struggle with the reflex. Even
+1:11:49 they know what AI is capable of, they
+1:11:51 struggle with the reflex of like
+1:11:54 actually doing it, actually having the
+1:11:56 AI do those things.
+1:11:58 And this exercise figure it fixes that.
+1:12:02 The exercise is challenge yourself.
+1:12:06 An entire day, if you want, I think
+1:12:08 that's smart. Or if you just want to do
+1:12:09 it for an hour, it's up to you.
+1:12:12 Everything you do during that day,
+1:12:15 do it through AI. Do it through Grokbot.
+1:12:20 Do it through ChatGPT work, Claude
+1:12:22 co-work, whatever one you want to use.
+1:12:25 Do not allow yourself to do anything on
+1:12:27 your computer manually. Nothing.
+1:12:29 Everything has to be through your AI
+1:12:32 agent of choice. Grokbot, Claude, Codex,
+1:12:34 doesn't matter.
+1:12:36 You will be shocked
+1:12:38 at what you are capable of doing. And my
+1:12:41 bet is, with pretty high confidence,
+1:12:44 everything you need to do, it will work
+1:12:47 through that agent. Everything you need
+1:12:49 to do, it'll not only work through that
+1:12:50 agent, it'll do it 10 times faster than
+1:12:53 you could have done it by yourself. And
+1:12:55 if you do that, that'll help you in a
+1:12:57 few different ways.
+1:12:59 It'll help you, as I said, build that
+1:13:00 reflex of going, "Oh, I need to do this
+1:13:02 thing. I'm going to go to AI." But it'll
+1:13:04 also help you just figure out
+1:13:07 the bounds of what this technology is
+1:13:09 capable of. Right? Like I yesterday
+1:13:13 I gave this use case a couple times, but
+1:13:15 I was like I made this challenge for
+1:13:16 myself yesterday. I could only use AI
+1:13:18 for literally every single thing I do,
+1:13:20 sending emails, replying to people,
+1:13:21 creating things.
+1:13:23 I said, "Hey, I got to write this script
+1:13:26 for an ad read. Go in my email, search
+1:13:29 back for every ad read I've ever done
+1:13:32 and sent to an advertiser before,
+1:13:34 and then write the ad read in my voice."
+1:13:36 I didn't know if it could do it. It
+1:13:37 found every single ad read, and then it
+1:13:40 saw how I send the ad reads. It saw I
+1:13:43 did it by creating a Google Doc and
+1:13:45 making it commentable, and then it gave
+1:13:47 me the link, put the link in the email
+1:13:49 draft, and put the draft in my folder,
+1:13:52 and like put it in the exact format I
+1:13:54 send ad reads out to everyone. And it
+1:13:56 just figured it out. And now I'm like,
+1:13:58 "Okay, I'm never going to do it the old
+1:13:59 way ever again. I'm just going to have
+1:14:00 my AI agent do it." So, two exercises,
+1:14:04 brain dump to reverse prompt, and the
+1:14:07 challenge yourself uh exercise, which is
+1:14:10 tomorrow do nothing manually. Do 100%
+1:14:15 everything through your agent.
+1:14:16 >> Yeah.
+1:14:17 You know what, Alex, first of all, just
+1:14:20 thank you cuz you've been so great and
+1:14:22 just showing everything
+1:14:25 um and just being like so open and like
+1:14:28 the step-by-step and the reverse
+1:14:29 prompting method. Like you've kind of
+1:14:31 given away everything.
+1:14:33 Uh so, first of all, thank you.
+1:14:35 And then secondly,
+1:14:37 I just I I I love the challenge because
+1:14:39 I think sometimes you almost have to
+1:14:42 like force the change that you want to
+1:14:43 make. Right? Like as humans, we're very
+1:14:45 good at staying in a comfort zone, but
+1:14:48 even though we know that there's a
+1:14:49 better way of doing things, we keep
+1:14:51 doing it the old way cuz the old way is
+1:14:53 familiar and it is comfortable.
+1:14:56 And so I'm actually going to go and do
+1:14:57 exactly what you just described of like,
+1:15:00 okay, for 1 day, or even if it's just a
+1:15:03 few hours, like AI is the interface.
+1:15:06 Like I have to do everything through
+1:15:08 that process with interacting with AI.
+1:15:11 Grok Bot.
+1:15:13 And it's just to your point, I think
+1:15:15 very quickly you start to see what the
+1:15:17 technology is truly capable of and it
+1:15:20 starts opening up these new
+1:15:21 opportunities. And so I think it's
+1:15:23 exciting because
+1:15:25 my hunch, my educated guess, is that
+1:15:29 we're going to get people that listen to
+1:15:31 this conversation and then reach out to
+1:15:33 us and they're like, yeah, this was
+1:15:35 pretty crazy like the way that I'm using
+1:15:37 AI and Grok Bot after having heard this
+1:15:40 conversation.
+1:15:41 >> I think it's going to change lives. I
+1:15:42 think that exercise, that second
+1:15:43 exercise, will change lives. I think
+1:15:45 people will be shocked by what AI can
+1:15:48 actually do at this point. It can do
+1:15:50 anything a human being can do and
+1:15:52 probably better.
+1:15:53 >> Yeah. Yeah. You know Alex, before we get
+1:15:55 off it, just tell people where they can
+1:15:56 go and follow you if they want to kind
+1:15:58 of see your content or just stay stay up
+1:16:00 to date with you.
+1:16:02 Where can they go and find you?
+1:16:05 >> For sure, my two biggest social
+1:16:07 platforms are YouTube and X. So search
+1:16:10 Alex Finn on YouTube. I get videos out
+1:16:13 almost every day on what the latest
+1:16:14 tools are, how to use them. Find me on
+1:16:16 X, follow on there. I have a newsletter
+1:16:19 called Ship It Weekly, shipitweekly.com.
+1:16:22 40,000 people subscribed to that. I
+1:16:24 think it's one of the biggest AI
+1:16:25 newsletters on planet Earth. Sign up for
+1:16:27 that and if
+1:16:28 you want to join my community, also the
+1:16:30 Vibe Coding Academy, search Vibe Coding
+1:16:32 Academy, you'll find it. I do live
+1:16:34 calls, live streams there multiple times
+1:16:37 a week. So you can join that as well.
+1:16:38 >> Sweet. Alex, you've been amazing, mate.
+1:16:41 This has been so good.
+1:16:41 >> I appreciate it. This is a blast. Let's
+1:16:43 do it again.
+1:16:45 >> I love it. Yes, we definitely have to do
+1:16:46 this again sometime. So, if you enjoyed
+1:16:48 this conversation and you want to hear
+1:16:49 even more stories like this, then just
+1:16:52 click here. And also, my team is going
+1:16:54 to put some more videos that you can
+1:16:56 watch here. Thank you.
