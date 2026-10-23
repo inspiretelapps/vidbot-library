@@ -1,0 +1,216 @@
+[
+  {
+    "id": "OyuId4YQiIs",
+    "summary": "Free-model trial and privacy · 00:30 / 02:56 / 04:28: Leon van Zyl builds a browser bill splitter with Beam after updating OpenCode and launching it inside a dedicated project folder. An expired Console API key initially blocks the run; reconnecting his account fixes it. He then opens the terminal-created session in the desktop app and requests a development server. His recommendation is to treat free models as an accessible learning option, not automatically as suitable for confidential professional work: he warns that prompts might be used for training and suggests a paid provider or local inference instead. That is his caution, not an independently verified audit of current provider policies.\n\nShared sessions and parallel workers · 05:22 / 07:55: A foreground development-server task blocks further interaction until he backgrounds it with Ctrl+B. He then delegates a review to Big Pickle while Beam remains the main model, inspects the worker's instructions and model, and reports that the main agent applies its findings. The same session is available in the terminal, desktop and phone, but direct messages to sub-agents are unavailable in the demonstrated interfaces. He also demonstrates code mode researching Playwright MCP, installing it locally and opening the app; the roughly 27-second run is his tutorial observation, not a controlled speed or token-savings benchmark.\n\nChange isolation and secret access · 09:22 / 10:43: Leon asks for light/dark mode in a Git worktree, shows the separate on-disk checkout, tests the result and merges it back before removing the worktree. He reports about 44 seconds for that change, on this small example only. Next, the agent generates a TypeScript plugin intended to prevent reading .env files. In a fresh session the actual demonstrated outcome is a permission request which he denies; this supports an access-control example, not proof that every alternative route to secrets is blocked.\n\nLocal-model route and final verdict · 12:18: He installs Ollama, pulls the model captioned as Qwen 3.8, enables it through Manage Models and obtains a local greeting in OpenCode. He estimates about 16 GB VRAM for that selection and recommends matching the model to the machine; the exact model identifier and hardware requirement should be checked before downloading. His closing argument is that local inference can continue offline, while free hosted models make the broader workflow approachable without buying frontier API access. The tutorial ends with a connectivity/privacy claim and a greeting, not a local coding benchmark or a demonstrated network-disconnection test.",
+    "why_valuable": "Try OpenCode's free models on a non-sensitive project before paying for a coding-agent workflow, but choose a vetted paid provider or suitably sized local model for confidential work. The practical gains shown are continuing a session across devices, backgrounding blocked work, reviewing with another model and isolating changes in worktrees; neither the .env plugin nor the local greeting proves production-grade security or coding quality.",
+    "quick_takeaways": [
+      "Beam builds a small bill splitter; an expired Console key is fixed by reconnecting the account. Leon cautions that free hosted prompts might be used for training, so verify terms before sending client code.",
+      "Terminal, desktop and phone share a session. Ctrl+B backgrounds a blocking task; Big Pickle reviews separately, but the demonstrated interfaces cannot message sub-agents directly.",
+      "Code mode combines tool work into a script. Leon reports roughly 27 seconds for researching Playwright MCP, installing it and opening the app—not a controlled benchmark.",
+      "Use a Git worktree to test changes before merging. The light/dark-mode example reportedly takes about 44 seconds on this small app.",
+      "The generated .env plugin prompts for permission in a fresh session; denying access works in the example, but broader bypass resistance is not tested.",
+      "Ollama runs a local greeting. Leon estimates about 16 GB VRAM for the model captioned as Qwen 3.8; verify its exact identifier and hardware fit before downloading."
+    ],
+    "key_takeaways": [
+      "02:56–05:19: Free Beam works after reauthorizing OpenCode Console, but Leon warns about possible prompt training. Use non-sensitive test code until you have checked the applicable service policy; free access is not a confidentiality guarantee.",
+      "05:22–07:51: Backgrounding the blocked development-server task frees the conversation, and Big Pickle can review while Beam remains the main agent. Sub-agent instructions and output are inspectable, but direct messaging to workers is unavailable in his demonstration.",
+      "07:55–09:18: Code mode scripts a sequence of tool operations rather than exposing every step as a separate conversational round trip. The reported roughly 27 seconds covers researching and installing Playwright MCP and opening the app, not an independently measured efficiency improvement.",
+      "09:22–10:43: The theme change is developed in a separate Git worktree, tested and merged back, with Leon reporting about 44 seconds. The important reusable practice is isolation and review, not expecting that turnaround on a real production repository.",
+      "10:43–12:18: A generated TypeScript plugin produces a permission gate for a .env read in a new session. The demonstrated denial is useful, but it is narrower than proving that the agent can never reach secrets through any tool.",
+      "12:18–14:41: Ollama integration ends with a successful local greeting, not a coding-quality comparison. The captions name Qwen 3.8 and Leon estimates about 16 GB VRAM; verify the model tag and machine requirements, and do not mistake his offline-capability claim for a filmed network-disconnection test."
+    ],
+    "title": "OpenCode 2.0: Biggest Update Ever (Free + Local Models)",
+    "channel": "Leon van Zyl",
+    "upload_date": "20261022",
+    "thumbnail": "https://i.ytimg.com/vi/OyuId4YQiIs/maxresdefault.jpg",
+    "description": "OpenCode 2.0 is the biggest update yet, and you can try every new feature for free.\n\n🎁 Get the free RAMP course I mention in this video (my framework for building any project with coding agents): https://www.skool.com/leonvanzyl\n\n🚀 Agentic Labs — exclusive AI coding courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs\n\nOpenCode 2.0 is the biggest update this open source coding agent has ever had. Your sessions now follow you from the terminal to the desktop app and even your phone. Agents can keep working in the background while you carry on. And you can run it all on your own machine with local models.\n\nI build a simple bill splitter app and test every new feature on it along the way. You'll even watch the agent write its own plugin that keeps it out of your secrets, all without paying a cent.\n\nResources Mentioned\n🧩 OpenCode (install + desktop app): https://opencode.ai\n\n▶️ Watch next: OpenCode Tutorial for Beginners: Setup, Agents, Skills & MCP https://youtu.be/uZGDO0L-Dr4\n\n⏱️ Chapters\n0:00 OpenCode 2.0 New Features\n0:30 Install OpenCode 2.0\n2:56 OpenCode Free Models\n4:28 OpenCode Desktop Shared Sessions\n5:22 OpenCode Agents in the Background\n7:55 Code Mode with OpenCode MCP\n9:22 Git Worktrees in OpenCode\n10:43 Build Your Own OpenCode Plugin\n12:18 Run Local Models with Ollama\n\nConnect\nX: https://x.com/leonvz\nTikTok: https://www.tiktok.com/@leonvanzylofficial\n\nBusiness & sponsorships: leon@cognaitiv.ai",
+    "duration_seconds": 894,
+    "url": "https://www.youtube.com/watch?v=OyuId4YQiIs",
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "OpenCode 2.0 New Features",
+        "description": "Leon previews continuity across terminal, desktop and phone, alongside background work and agent-written plugins. He frames the tutorial around building one small application with free models, so the subsequent examples test a workflow rather than compare production coding quality.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 30,
+        "timestamp": "00:30",
+        "title": "Install OpenCode 2.0",
+        "description": "Existing users are shown the /update command and a restart, while new users are directed to the platform-specific installer and desktop downloads. Leon creates a dedicated bill-splitter folder before launching the agent and explains why starting at the machine's root risks scattering project files. He then prepares to carry the terminal session into the desktop interface, making project scope the first practical setup decision.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 176,
+        "timestamp": "02:56",
+        "title": "OpenCode Free Models",
+        "description": "Leon selects Beam from the free model options and requests a browser-based bill-splitting app. The initial call fails because a Console API key has expired; reconnecting an account and authorizing it lets the same request proceed. This is a useful authentication troubleshooting example, not evidence that every free model or provider works without an account.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 268,
+        "timestamp": "04:28",
+        "title": "OpenCode Desktop Shared Sessions",
+        "description": "The desktop home screen shows the session started in the terminal, including the newly created application, and Leon asks it to launch a development server. He warns that free hosted models might train on submitted prompts and recommends paid-provider credentials or local inference when confidentiality matters. That distinction is especially important before moving this beginner-friendly example to client code.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 322,
+        "timestamp": "05:22",
+        "title": "OpenCode Agents in the Background",
+        "description": "A long-running server task blocks the conversation until Leon sends it to the background with Ctrl+B. He delegates a separate review to Big Pickle, inspects its instructions and model, and shows that the shared session remains available through terminal and phone. The review finishes and the main agent applies fixes, but neither desktop nor terminal permits him to message the sub-agent directly.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 475,
+        "timestamp": "07:55",
+        "title": "Code Mode with OpenCode MCP",
+        "description": "Leon contrasts sequential conversational tool calls with a script that coordinates the operations, arguing that the latter avoids excess context overhead. He asks the agent to retrieve Playwright MCP documentation, install it locally and open the application, then points to execution steps in the tool timeline as evidence of code-mode use. His roughly 27-second report describes this single tutorial run, not a measured comparison against the sequential approach.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 562,
+        "timestamp": "09:22",
+        "title": "Git Worktrees in OpenCode",
+        "description": "The agent adds light and dark themes in a separate checkout rather than editing the main working copy directly. Leon opens the additional folder, reports that the small change took about 44 seconds and says the theme switching works. He then requests a merge into main and removal of the worktree, demonstrating a reversible development workflow rather than just another generated feature.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 643,
+        "timestamp": "10:43",
+        "title": "Build Your Own OpenCode Plugin",
+        "description": "Leon asks the agent to create a plugin restricting access to .env secrets and shows that the resulting plugins are simple TypeScript files. He adds a dummy secret, opens a new session and requests its variables; the agent now asks permission, which he denies. The observed protection is that permission gate in this example, not a comprehensive test of all ways an agent might access sensitive data.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 738,
+        "timestamp": "12:18",
+        "title": "Run Local Models with Ollama",
+        "description": "Leon installs Ollama, selects the model captioned as Qwen 3.8 and estimates about 16 GB VRAM, while advising viewers to choose a model suited to their hardware. After discussing discovery problems, he enables Ollama and the model in OpenCode's management screen and obtains a greeting from local inference. He closes by emphasizing offline operation, but does not show a disconnected-network coding task or benchmark the model against Beam or paid alternatives.",
+        "source": "creator"
+      }
+    ]
+  },
+  {
+    "id": "vtUnvoYHs44",
+    "summary": "Better direction, not a magic model switch · 00:42 / 01:53: Tristen O'Brien intentionally gives Claude Opus 5.5 a vague go-kart website request and says it returns a generic-looking result after five or six minutes. He criticizes centered layouts, familiar typography, colors and emojis, then contrasts that with designers assembling mood boards before implementation. His reusable recommendation is to supply specific real-world visual references for different sections, drawing inspiration without cloning another site. This is a deliberately weak initial brief versus a richer guided brief, not a controlled comparison proving any model's design superiority.\n\nReference selection and paid integration · 02:42 / 04:25 / 05:14: In this Mobbin-sponsored tutorial, he describes a library of over 600,000 screens and demonstrates filtering by section and style, saving collections and copying individual section links. He recommends a hero from one site, pricing from another and similarly targeted examples rather than several complete websites. The Mobbin MCP page offers a Claude connection flow or a Claude Code setup command, with the connection checked in Claude's Customize → Connectors. He explicitly says the connector needs a paid Mobbin plan; the creator description also identifies it as beta, so the reference-first method should not be confused with a free connector workflow.\n\nOptional search automation and its limits · 06:04 / 06:45 / 08:19: His private Perfect Match tool first asks about the audience, desired feel, conversion goal and colors. Six scout agents each select four candidates and a judge picks five, providing reasons such as conspicuous birthday-party headlines or review treatment. He says the tool uses the authorized connector rather than scraping, is constrained by connector speed and uses credit-based AI search with evolving beta limits. Perfect Match is not being distributed; manually choosing references remains the actionable method viewers can reproduce.\n\nFrom references to a prototype · 08:46 / 09:34 / 10:17: Tristen gives Claude five selections, asks it to identify the relevant sections and rationale, supplies imagery separately and requests desktop and phone layouts. The Hilltop Karts artifact presents a prominent hero, day-pass and date/time controls, birthday and team options, pass comparisons and height information. He explicitly admits that its reviews are made up because the business is fictional; no working booking backend, factual operating rules or conversion results are established. His final verdict is to try three to five references on a real business brief, with the private automation tool optional and all invented content needing replacement before publication.",
+    "why_valuable": "Improve an AI-generated client website by supplying three to five section-specific design references and a clear audience and conversion goal before paying for another model or building search automation. The demonstration shows a more deliberately styled prototype, not a proven revenue lift; budget for Mobbin's paid connector if you use it, and replace invented reviews and unverified business details before publishing.",
+    "quick_takeaways": [
+      "Start with a clear audience, visual direction and conversion goal. The generic example is intentionally vague, so this comparison tests a better brief—not a superior model.",
+      "Choose three to five references with specific roles: a hero from one site, pricing from another, and relevant calls to action. Borrow patterns rather than copy a whole design.",
+      "Save individual Mobbin sections and pass their links to Claude. The connector needs a paid Mobbin plan and is beta; this tutorial is sponsored by Mobbin.",
+      "Perfect Match is the creator's private tool, not an available download. Its six scouts and final judge are optional; manual reference selection is enough to reproduce the main method.",
+      "The finished go-kart artifact includes pass comparisons and booking-style controls, but no functioning backend is established. Its reviews are explicitly fictional; verify all business content before a client launch."
+    ],
+    "key_takeaways": [
+      "00:42–02:42: Tristen deliberately under-specifies the initial request, then recommends a mood board of real examples. The practical lesson is to improve the brief before swapping models, not that the demonstrated visual difference is an unbiased model benchmark.",
+      "03:05–05:14: Filter inspiration by the exact section and style, save useful sections and copy their links. His recommendation is targeted examples from different sites rather than handing Claude several complete websites with no explanation of what to borrow.",
+      "02:42 / 05:14–06:04: Mobbin sponsors the video, and its connector requires a paid plan. Check the connection under Claude's Customize → Connectors; the separate Claude Code command is available on Mobbin's MCP page, and the creator description labels the connector beta.",
+      "06:45–08:19: Perfect Match asks about audience, brand feel, primary visitor action and colors before six scouts each choose four candidates and a judge selects five. Tristen says it is private, connector-rate constrained and uses credit-based AI search, so it is an automation idea rather than a downloadable prerequisite.",
+      "08:19–09:34: The useful handoff identifies each reference's section, the pattern to borrow and why it fits the business, then adds imagery and asks for desktop and phone layouts. Explicit reference rationale is more actionable than simply asking for a premium-looking website.",
+      "09:34–10:17: The Hilltop Karts artifact shows pass choices, date/time controls and height guidance, but Tristen explicitly calls its reviews made up. Treat it as a visual prototype: replace fictional claims and confirm booking behavior and business rules before release.",
+      "10:17–end: His final recommendation is to try three to five real references on one business project. The private Perfect Match tool is optional; its role is speeding up inspiration discovery, not enabling the core design technique."
+    ],
+    "title": "Claude Opus 5.5 SECRET Design Tip. (Master in 10 Minutes).",
+    "channel": "Tristen O'Brien",
+    "upload_date": "20261022",
+    "thumbnail": "https://i.ytimg.com/vi/vtUnvoYHs44/maxresdefault.jpg",
+    "description": "Check out Mobbin (discount built into this link): https://mobbin.com/tristen\n_____\n\nClaude Opus 5.5 can build you a beautiful website, as long as you know one secret design tip. In this video I build the same go-kart website twice. The first time, I give Claude no direction, and you get the generic AI look: everything centered, the same fonts, the same colors, and emojis everywhere. The second time, I give Claude real design inspiration from Mobbin, and the result looks like a professional, premium site.\n\nYou'll see why AI websites all start to look the same, the design tip real designers use to fix it, how to find and save great sections on Mobbin, and how to connect Mobbin to Claude so Claude can look at those references itself. Then I show you Perfect Match, a tool I built that uses Claude Opus 5.5 and the Mobbin connector to find the best references for you, and we build the finished site live.\n\nYou don't need to be a designer. Mobbin shows Claude what good design looks like, Claude learns from the best patterns and layouts, and the design ends up uniquely your own.\n_____\n\n⏱️ CHAPTERS\n\n0:00 Same business, two very different websites\n0:42 Why AI slop exists\n1:53 The secret design tip\n2:42 Meet Mobbin\n3:05 How Mobbin works\n4:25 Save sections and copy links\n5:14 Connect Mobbin to Claude\n6:04 Fixing the AI slop site\n6:45 Perfect Match, the tool I built\n8:19 The five picks\n8:46 Building the new site with Claude\n9:34 The finished Hilltop Karts site\n10:17 Recap\n_____\n\nHOW TO CONNECT MOBBIN TO CLAUDE\n\n1. In Mobbin, click your profile and open the MCP page.\n2. Click Claude, then click Connect to Claude. If you're signed in, it opens Claude and connects.\n3. To check it worked, go to Claude, click Customize, then Connectors, and search for Mobbin.\n\nUsing Claude Code? The same MCP page has a command you can copy and paste into Claude Code.\n\nNote: the Mobbin connector works on Mobbin's paid plans and is in beta.\n_____\n\nThis video is sponsored by Mobbin. Try it here (discount included): https://mobbin.com/tristen",
+    "duration_seconds": 648,
+    "url": "https://www.youtube.com/watch?v=vtUnvoYHs44",
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Same business, two very different websites",
+        "description": "Tristen contrasts two appearances for the same go-kart business and attributes both to Claude Opus 5.5. He promises a reference-led workflow and a private helper tool, framing professional-looking presentation as the goal rather than demonstrating sales or booking performance.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 42,
+        "timestamp": "00:42",
+        "title": "Why AI slop exists",
+        "description": "Tristen intentionally asks only for a go-kart website and says the result appears after five or six minutes. He criticizes its centered composition, familiar font choices, colors and emojis while acknowledging that it contains expected business information. His explanation is insufficient design direction, which makes this an example of improving a brief rather than a controlled evaluation of model capability.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 113,
+        "timestamp": "01:53",
+        "title": "The secret design tip",
+        "description": "Tristen describes a mood board as a collection of colors, fonts and design ideas gathered before implementation. He suggests combining a hero from one reference and pricing from another to establish a distinctive direction, explicitly separating inspiration from copying an entire website. The actionable change is to show Claude concrete examples before it designs the page.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 162,
+        "timestamp": "02:42",
+        "title": "Meet Mobbin",
+        "description": "Tristen introduces Mobbin as a source of design inspiration and says he already uses it for his website projects. He also discloses that he approached the company and it sponsored this video, an important commercial context for the recommendations that follow.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 185,
+        "timestamp": "03:05",
+        "title": "How Mobbin works",
+        "description": "Tristen describes a collection of over 600,000 screens and demonstrates narrowing it by category, site section and visual style. He inspects a site's individual hero, feature, social-proof and footer sections, then compares calls to action and colorful pricing sections across sites. This gives a repeatable way to find a specific layout pattern rather than browse complete websites without a defined need.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 265,
+        "timestamp": "04:25",
+        "title": "Save sections and copy links",
+        "description": "Tristen saves a chosen section into a collection, creates one for hero inspiration and copies its direct link from the menu. He advises selecting individual sections from different sources rather than supplying five complete websites. The resulting reference list gives Claude clearer instructions about which part of each design should influence the new page.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 314,
+        "timestamp": "05:14",
+        "title": "Connect Mobbin to Claude",
+        "description": "Tristen opens Mobbin's MCP settings and distinguishes the copyable Claude Code command from the simpler Connect to Claude flow. He checks the connection under Customize and Connectors in Claude, then states that the connector requires a paid Mobbin plan. Viewers can therefore separate the design technique from the subscription and integration needed for this particular implementation.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 364,
+        "timestamp": "06:04",
+        "title": "Fixing the AI slop site",
+        "description": "Tristen returns to the generic go-kart example and explains the manual correction: find five appealing sections from different websites, copy their links and tell Claude to use each for inspiration. He then introduces his faster personal workflow without making it necessary to follow the method. The meaningful input is explicit reference material, not another vague request for a better-looking page.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 405,
+        "timestamp": "06:45",
+        "title": "Perfect Match, the tool I built",
+        "description": "Tristen's private Perfect Match tool asks about the business audience, visual feel, primary visitor action and colors before searching. Six scouts each select four candidates and a final judge chooses five, using the Mobbin connector rather than scraping, according to his explanation. He says the tool is not distributed, AI search consumes credits and beta limits may change, so this is an optional architecture with access and throughput constraints.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 499,
+        "timestamp": "08:19",
+        "title": "The five picks",
+        "description": "The chosen references come with business-specific reasons, such as loud colors and reviews or a headline that emphasizes birthday parties. Tristen can approve a selection or rerun the search, then copies an already saved favorites list. The rationale helps turn inspiration into an intentional brief rather than treating attractive screenshots as interchangeable.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 526,
+        "timestamp": "08:46",
+        "title": "Building the new site with Claude",
+        "description": "Tristen asks Claude to build Hilltop Karts using five Mobbin references, and the response identifies the relevant sections, patterns and reasons for each choice. He supplies imagery through another tool while noting that viewers can use their own photos instead. He also requests desktop and phone presentation and an artifact preview, keeping reference discovery, image sourcing and implementation as separate inputs.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 574,
+        "timestamp": "09:34",
+        "title": "The finished Hilltop Karts site",
+        "description": "The artifact shows a prominent hero, day-pass and date/time controls, birthday and team-event options, pass comparisons and information about children's driving height. Tristen explicitly says the displayed reviews are fabricated because the site is fictional, then compares the result with the original vague-prompt version. These are demonstrated presentation elements, not proof of a functioning booking backend or verified business claims.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 617,
+        "timestamp": "10:17",
+        "title": "Recap",
+        "description": "Tristen closes by recommending three to five real references for a single business project and reiterates that viewers do not need his private helper tool. His proposed next step is to try the reference-led brief directly, with Mobbin's sponsored discount link promoted again. The final recommendation is a process change in how Claude is directed, not a guarantee that a generated prototype is ready for customers.",
+        "source": "creator"
+      }
+    ]
+  }
+]
