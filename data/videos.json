@@ -1,5 +1,193 @@
 [
   {
+    "id": "Y2cq9HHzlmE",
+    "title": "This FREE DaVinci Resolve Plugin Animates Anything in Seconds",
+    "channel": "Clipizo",
+    "upload_date": "20261021",
+    "thumbnail": "https://i.ytimg.com/vi/Y2cq9HHzlmE/maxresdefault.jpg",
+    "description": "AnimizoFX is a FREE DaVinci Resolve plugin that animates position, size, rotation and opacity on any clip without keyframes, right on the Edit page.\n⬇️ Download AnimizoFX (free): https://clipizo.com/animizofx\n\nSet a start and an end, pick one of 37 easing curves or make your own, and get smooth, professional motion in seconds. In this full introduction I walk through every feature of AnimizoFX, a free OpenFX plugin for DaVinci Resolve and DaVinci Resolve Studio:\n- the on-screen handles in the viewer;\n- capturing start and end frames from the playhead;\n- In and Out animations with Mirror;\n- a full keyframe and graph editor;\n- the curve browser, where you can save, export and import your own curves;\n- continuous motion presets;\n- Overlap, with up to four animation layers.\n\nIt works on the Edit, Color and Fusion pages. If you've been fighting keyframes and the curve editor to get a smooth ease in and ease out, this is the shortcut.\n\n⏱️ CHAPTERS\n0:00 AnimizoFX: Animizo on the Edit page\n0:22 Add AnimizoFX with Shift + Space\n0:35 The interface: pages, Open Timeline and controls\n1:01 Turn on the OpenFX Overlay (on-screen handles)\n1:32 Animate anything without keyframes\n1:54 Your first animation: curve, start frame and Capture\n2:28 Start and end positions and the reset buttons\n2:51 Drag the start and end points in the viewer\n3:20 Recap, Offset, Reverse and Loop\n3:53 The viewer timeline with frame numbers\n4:20 The animation moves with the clip\n4:33 Out animation and Mirror\n5:09 Open Timeline: a full keyframe and graph editor\n6:18 Curve browser: 37 easing presets and your own curves\n7:19 Motion page: continuous motion that reacts to your animation\n8:16 Overlap page: up to 4 animation layers\n10:19 Size animation with an elastic curve\n10:35 All my plugins are FREE now\n11:02 AnimizoFX on the Fusion page\n11:47 How to install on Windows\n12:28 How to install on macOS\n13:32 Help, Discord and outro\n\n✅ WHAT ANIMIZOFX DOES\n• Animates position, size, rotation and opacity, each with its own timing and easing\n• 37 easing presets, including elastic, or your own custom curve\n• In and Out animations, with Mirror to replay the In animation backwards\n• On-screen handles in the viewer, plus a mini timeline with frame numbers\n• Captures the start and end frames straight from the playhead\n• Offset, Reverse and Loop\n• Open Timeline: a full keyframe and graph editor for the selected clip\n• Save your own curves, then export and import them on another computer\n• Continuous motion: Float, Sway, Breathe, Drift and Soft Shake. It reacts to your In and Out animation, with Follow Through\n• Overlap: stack up to 4 animation layers for smooth, continuous motion\n• The animation lives on the clip, so it moves with the clip on your timeline\n• Works on the Edit, Color and Fusion pages\n\n🎬 GREAT FOR\nTitles and lower thirds that ease in and out, picture-in-picture moves and pop-ups, logo and graphic reveals, and gentle motion on stills and screenshots. Use it for motion graphics in DaVinci Resolve without opening Fusion.\n\n💻 REQUIREMENTS\n• DaVinci Resolve (free) or DaVinci Resolve Studio\n• Windows 10 (version 1903 or later) or Windows 11, 64-bit\n• macOS 12 or later, on Apple silicon or Intel\n• A free license key comes with the download. One key covers up to 3 computers and works offline.\n\n⚠️ INSTALL HELP\n• Windows: close DaVinci Resolve before you install and give it a few minutes to shut down. The installer can force-close Resolve, so save your projects first.\n• macOS: if it says the installer has a virus and should go to the Trash, open System Settings → Privacy & Security, press Open Anyway, then open the installer again from your Downloads folder. Restart DaVinci Resolve if it was open.\n• Why the warning? I'm not a \"known developer\" yet: code signing costs $300 a year on Windows (plus a YubiKey) and $99 a year on Apple. The installer is safe.\nStep by step: 11:47 (Windows) and 12:28 (macOS).\n\nANIMIZOFX VS THE ANIMIZO MODIFIER\nAnimizoFX animates the four most common properties on the Edit, Color and Fusion pages. To animate anything else in Fusion, like blur or colour, use the free Animizo modifier: https://clipizo.com/animizo\n\n🔗 LINKS\n• AnimizoFX (free download): https://clipizo.com/animizofx\n• Every free Clipizo plugin for DaVinci Resolve: https://clipizo.com/store/\n• Discord (help and updates): https://discord.clipizo.com\n\nSubscribe for more free DaVinci Resolve plugins and motion graphics tutorials. Next up, we make cool stuff with AnimizoFX.\n\n#DaVinciResolve #MotionGraphics #VideoEditing",
+    "duration_seconds": 827,
+    "url": "https://www.youtube.com/watch?v=Y2cq9HHzlmE",
+    "summary": "**Edit-page animation without routine keyframing**\nClipizo demonstrates AnimizoFX, an OpenFX alternative to his Fusion-only Animizo modifier, using a DaVinci Resolve logo. The plugin handles position, size, rotation and opacity directly on the Edit page; blur and colour still require the separate Fusion modifier. His basic workflow is to add the effect with Shift + Space, enable OpenFX Overlay, capture start and end frames from the playhead, then set different endpoint values. The example runs from frame 10 to frame 35. Animation timing belongs to the clip, so moving that clip along the edit does not break the move; Offset, Reverse and Loop provide further adjustments.\n\n**Reusable exits and precise easing**\nAn Out animation can mirror the entrance or use independently adjustable timing; mirroring prevents changing its duration separately until Mirror is disabled. Open Timeline exposes editable curves, point controls and linked handles, but only for the selected clip, not a multi-clip overview. Custom curves can be saved locally, exported and imported on another computer. There is a small source discrepancy: the creator says 38 curves in the narration, while the written description advertises 37 easing presets, so the exact preset count should be checked in the installed version rather than treated as settled.\n\n**Secondary motion and uninterrupted moves**\nThe Motion page adds Float, Sway, Breathe, Drift or Soft Shake, with strength and speed controls. Clipizo demonstrates that Float responds to the entrance and exit rather than merely overlaying unrelated movement: Follow Through near zero largely removes that response, while 100 makes it pronounced. For more advanced work, Overlap supports up to four animation layers; starting the next move before the previous one finishes produces continuous travel instead of stop-start motion. He recommends leaving an overlap layer's start position unchanged and adjusting its destination, then demonstrates an elastic size animation with position reset to isolate the scaling effect.\n\n**Where it fits and what free means**\nClipizo says his plugins are now free so viewers can follow future motion-graphics lessons without buying the tools, and says he intends to replace his use of Fusion's Anim Curves with this workflow. He demonstrates the same effect as a Fusion node with a more compact control layout and says it can be applied to video, graphics and text, not just the logo used here. The creator description lists support for free Resolve and Resolve Studio and says a free licence key covers up to three computers offline; those are published terms, not activation tests performed in this video. This is a creator-led feature demonstration, not an independent performance benchmark or a comparison of render speed.\n\n**Installation and the security caveat**\nOn Windows, Clipizo advises saving projects, closing Resolve and allowing roughly five minutes for background shutdown rather than letting the installer force-close the application. On macOS, he shows the Privacy & Security / Open Anyway route after a security warning, followed by installation and a Resolve restart. That is the creator's workaround, not independent evidence that a flagged installer is safe: verify the download and warning before overriding protection. He ends by directing viewers to Discord for help and promising practical follow-up tutorials; his overall recommendation is to use the now-free plugin as the basis for more accessible motion-graphics work.",
+    "why_valuable": "Use AnimizoFX for routine Resolve logo, title and graphic moves when you want clip-relative entrance/exit animation, reusable easing and continuous motion without building a Fusion setup for every edit. This walkthrough shows when the Edit-page tool is sufficient, when the Fusion modifier is still needed, and what to check before adopting it: single-clip curve editing, conflicting preset counts and the macOS installer warning. It is a creator demonstration, not independent proof of performance or installer safety.",
+    "quick_takeaways": [
+      "AnimizoFX animates position, size, rotation and opacity on Resolve's Edit page. Capture the start/end frames, set different endpoint values and choose an easing curve; blur or colour still need the Fusion Animizo modifier.",
+      "Timing follows the clip when you move it in the edit. Mirror creates a matching exit, but its duration cannot be changed independently while mirroring is enabled.",
+      "Open Timeline edits the selected clip's curves, not several clips together. Save custom curves and export/import them between computers.",
+      "Float, Sway, Breathe, Drift and Soft Shake add secondary motion. Up to four overlapping layers can keep movement flowing before an earlier move stops.",
+      "The creator says his plugins are now free. His description says a free key supports three computers offline; the narration says 38 curves but the description lists 37 presets.",
+      "Save and close Resolve before Windows installation. The macOS walkthrough overrides a security warning; verify the installer first rather than treating the creator's reassurance as a safety check."
+    ],
+    "key_takeaways": [
+      "01:32–03:27: The Edit-page plugin covers position, size, rotation and opacity, not arbitrary parameters. Clipizo captures frame 10 and frame 35, then changes position endpoints; merely setting timing produces no movement when both endpoints match.",
+      "03:53–05:07: Animation timing is relative to the clip, so relocating the clip preserves its move. Mirror reuses the entrance as an exit, but independent exit duration requires disabling Mirror.",
+      "05:09–07:07: Open Timeline provides editable curves and point/handle controls for one selected clip. Custom easing can be saved and transferred between machines; use Resolve's own keyframe tab when several clips must be viewed together.",
+      "06:36: The spoken count is 38 curves, whereas the full creator description says 37 easing presets. Treat that as a documented discrepancy, not a verified feature total.",
+      "07:19–08:14: Secondary motion is adjustable and reacts to the In/Out moves. Clipizo demonstrates Follow Through near zero versus 100 and lists Float, Sway, Breathe, Drift and Soft Shake.",
+      "08:16–10:33: Up to four overlapping animation layers can begin before earlier moves finish, avoiding a full stop between destinations. Clipizo advises changing the overlap layer's end position rather than its start and separately demonstrates elastic scaling.",
+      "10:35–11:45: The creator says his plugins are now free and demonstrates the same effect in Fusion. His description additionally lists free Resolve/Studio support and a free offline key for up to three computers; those licence terms are not independently tested here.",
+      "11:47–13:29: Save projects and close Resolve before installing on Windows; the installer can force-close it. On macOS the creator shows overriding a security warning, but the video does not independently establish that the installer is safe."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "AnimizoFX: Animizo on the Edit page",
+        "description": "Clipizo introduces a new effect that brings his animation workflow out of a Fusion-only modifier and onto Resolve's Edit page. He places a simple Resolve logo on the timeline as the demonstration asset, making clear that this is a separate plugin rather than merely the earlier modifier renamed.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 22,
+        "timestamp": "00:22",
+        "title": "Add AnimizoFX with Shift + Space",
+        "description": "The effect is inserted by pressing Shift + Space and searching for AnimizoFX. Once added, it appears in the selected clip's Effects tab, establishing where the subsequent animation controls live rather than requiring a separate Fusion composition.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 35,
+        "timestamp": "00:35",
+        "title": "The interface: pages, Open Timeline and controls",
+        "description": "The inspector presents four page buttons and a separate Open Timeline button, which the creator says also provides licence activation access. A second control row selects properties such as the entrance position or exit rotation, so page selection and property selection are distinct operations.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 61,
+        "timestamp": "01:01",
+        "title": "Turn on the OpenFX Overlay (on-screen handles)",
+        "description": "Enabling OpenFX Overlay in the viewer reveals handles that let the user manipulate the effect directly instead of relying entirely on inspector values. Clipizo explains the colour coding: position is green, size blue, rotation orange and opacity purple, helping identify which property is being edited.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 92,
+        "timestamp": "01:32",
+        "title": "Animate anything without keyframes",
+        "description": "The no-keyframe workflow is restricted here to the four common transform and visibility properties: position, size, rotation and opacity. Clipizo explicitly directs users who need parameters such as blur or colour to the separate Animizo modifier in Fusion, defining an important limit to the broader animation claim.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 114,
+        "timestamp": "01:54",
+        "title": "Your first animation: curve, start frame and Capture",
+        "description": "Clipizo leaves the default easing curve in place and demonstrates capturing frame numbers from the playhead instead of typing them or dragging a slider. He sets the entrance to begin at frame 10 and finish at frame 35, showing how to establish the timing before changing the actual property values.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 148,
+        "timestamp": "02:28",
+        "title": "Start and end positions and the reset buttons",
+        "description": "Playback initially shows no movement because both position endpoints have the same value, despite the defined frame range. The inspector can change those values, with a small reset control for one axis and Resolve's normal reset button for both, separating timing setup from the movement itself.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 171,
+        "timestamp": "02:51",
+        "title": "Drag the start and end points in the viewer",
+        "description": "Hover labels distinguish the start point from the diamond-shaped end point, and Clipizo drags the handles to define a visible path. He then reduces the logo size and adjusts the destinations to make the movement easier to inspect, demonstrating direct viewer manipulation rather than numerical trial and error.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 200,
+        "timestamp": "03:20",
+        "title": "Recap, Offset, Reverse and Loop",
+        "description": "The demonstrated setup reduces to capturing two frames and choosing two property values, with the same method available for scaling, rotation and opacity. Offset shifts the move earlier or later, Reverse changes its direction, Loop repeats it, and a separate option hides the viewer handles once they are no longer needed.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 233,
+        "timestamp": "03:53",
+        "title": "The viewer timeline with frame numbers",
+        "description": "Zooming out in the viewer exposes a miniature timeline with frame numbers and start/end markers, avoiding repeated conversion from seconds. Clipizo changes the start from frame 10 to frame 15 and shows both draggable markers and a playhead indicator, providing another way to adjust timing precisely.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 260,
+        "timestamp": "04:20",
+        "title": "The animation moves with the clip",
+        "description": "Clipizo moves the clip along Resolve's main timeline and shows that its animation continues to work. The timing is attached to the clip rather than the entire edit, which means rearranging a shot does not require rebuilding the animation's start and end positions on the main timeline.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 273,
+        "timestamp": "04:33",
+        "title": "Out animation and Mirror",
+        "description": "An example exit runs from frame 80 to frame 100, but Mirror can instead reuse the entrance animation in reverse. The exit can follow immediately or be moved later; its duration remains tied to the entrance while mirroring is active, so independent duration editing requires turning Mirror off.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 309,
+        "timestamp": "05:09",
+        "title": "Open Timeline: a full keyframe and graph editor",
+        "description": "A separate window displays entrance and exit timing together with their curves; unlocking the curve allows duration and easing changes, adding or removing points, and linking handles. Clipizo shows fitting, zooming and panning the view, but stresses that this editor displays only the selected clip, so multi-clip work still needs Resolve's own keyframe tab.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 378,
+        "timestamp": "06:18",
+        "title": "Curve browser: 37 easing presets and your own curves",
+        "description": "After manual curve editing, the inspector identifies the easing as custom, while Browse opens the preset collection. Clipizo says there are 38 curves, although the creator description lists 37 presets, and demonstrates saving a new curve locally plus exporting and importing it when changing computers.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 439,
+        "timestamp": "07:19",
+        "title": "Motion page: continuous motion that reacts to your animation",
+        "description": "Enabling the effect adds floating motion whose strength and speed can be increased, and Clipizo shows it reacting to the clip's entrance and exit. Follow Through largely suppresses that reaction near zero and makes it strong at 100; Sway, Breathe, Drift and Soft Shake provide alternatives to Float.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 496,
+        "timestamp": "08:16",
+        "title": "Overlap page: up to 4 animation layers",
+        "description": "Enabling layer two adds another move on top of the existing entrance/exit layer, and Clipizo starts it before the first move finishes to produce continuous travel. He recommends leaving the additional layer's start position unchanged and adjusting its destination, demonstrating why identical endpoints initially produce no visible second move. The feature supports up to four overlapping layers and is presented as an advanced motion-graphics technique, including for map-style movement.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 619,
+        "timestamp": "10:19",
+        "title": "Size animation with an elastic curve",
+        "description": "Clipizo increases the end scale and chooses an elastic easing curve to create a bouncing size change. Resetting the position animation removes the competing travel, making the scaling behaviour easier to judge and showing that these property animations can be tested separately.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 635,
+        "timestamp": "10:35",
+        "title": "All my plugins are FREE now",
+        "description": "Clipizo says his plugins are now free, removing the purchase barrier that previously complicated follow-along tutorials. He plans to make more motion-graphics lessons using this tool and says he will stop relying on Fusion's Anim Curves, presenting free access as part of his teaching workflow rather than a measured speed comparison.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 662,
+        "timestamp": "11:02",
+        "title": "AnimizoFX on the Fusion page",
+        "description": "The same effect can be added to a selected Fusion node, with controls arranged more compactly and capture buttons aligned with sliders. Clipizo demonstrates scaling from zero and choosing an easing curve, then clarifies that the logo was only a demonstration asset: videos, motion graphics and text can also be animated.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 707,
+        "timestamp": "11:47",
+        "title": "How to install on Windows",
+        "description": "The Windows installer requires accepting an agreement that includes restrictions on redistribution and reverse engineering. Clipizo warns that it can force-close Resolve, advises saving projects and closing the application first, and suggests allowing about five minutes for background shutdown before continuing to avoid losing work.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 748,
+        "timestamp": "12:28",
+        "title": "How to install on macOS",
+        "description": "Clipizo describes a macOS security warning and shows the Privacy & Security option to open the downloaded package anyway, followed by the normal agreement, destination and password steps. He says to restart Resolve if it was open and notes that retaining or deleting the installer is optional. These are the creator's installation instructions, not an independent verification that overriding the warning is safe.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 812,
+        "timestamp": "13:32",
+        "title": "Help, Discord and outro",
+        "description": "Clipizo directs viewers who need help to his Discord community and encourages subscribing for formerly paid tools that he now offers free. He closes by inviting feedback and anticipating creative projects with the plugin, rather than adding another technical feature or presenting an independent evaluation.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-24T06:00:20+02:00",
+    "summarized_at": "2026-10-24T06:02:51+02:00"
+  },
+  {
     "id": "OyuId4YQiIs",
     "summary": "Free-model trial and privacy · 00:30 / 02:56 / 04:28: Leon van Zyl builds a browser bill splitter with Beam after updating OpenCode and launching it inside a dedicated project folder. An expired Console API key initially blocks the run; reconnecting his account fixes it. He then opens the terminal-created session in the desktop app and requests a development server. His recommendation is to treat free models as an accessible learning option, not automatically as suitable for confidential professional work: he warns that prompts might be used for training and suggests a paid provider or local inference instead. That is his caution, not an independently verified audit of current provider policies.\n\nShared sessions and parallel workers · 05:22 / 07:55: A foreground development-server task blocks further interaction until he backgrounds it with Ctrl+B. He then delegates a review to Big Pickle while Beam remains the main model, inspects the worker's instructions and model, and reports that the main agent applies its findings. The same session is available in the terminal, desktop and phone, but direct messages to sub-agents are unavailable in the demonstrated interfaces. He also demonstrates code mode researching Playwright MCP, installing it locally and opening the app; the roughly 27-second run is his tutorial observation, not a controlled speed or token-savings benchmark.\n\nChange isolation and secret access · 09:22 / 10:43: Leon asks for light/dark mode in a Git worktree, shows the separate on-disk checkout, tests the result and merges it back before removing the worktree. He reports about 44 seconds for that change, on this small example only. Next, the agent generates a TypeScript plugin intended to prevent reading .env files. In a fresh session the actual demonstrated outcome is a permission request which he denies; this supports an access-control example, not proof that every alternative route to secrets is blocked.\n\nLocal-model route and final verdict · 12:18: He installs Ollama, pulls the model captioned as Qwen 3.8, enables it through Manage Models and obtains a local greeting in OpenCode. He estimates about 16 GB VRAM for that selection and recommends matching the model to the machine; the exact model identifier and hardware requirement should be checked before downloading. His closing argument is that local inference can continue offline, while free hosted models make the broader workflow approachable without buying frontier API access. The tutorial ends with a connectivity/privacy claim and a greeting, not a local coding benchmark or a demonstrated network-disconnection test.",
     "why_valuable": "Try OpenCode's free models on a non-sensitive project before paying for a coding-agent workflow, but choose a vetted paid provider or suitably sized local model for confidential work. The practical gains shown are continuing a session across devices, backgrounding blocked work, reviewing with another model and isolating changes in worktrees; neither the .env plugin nor the local greeting proves production-grade security or coding quality.",
