@@ -9,8 +9,199 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-24T06:02:51+02:00",
+  "updated_at": "2026-10-25T06:03:39+02:00",
   "videos": [
+    {
+      "id": "cmvF7nfEJLo",
+      "summary": "**One console for multiple agents:** Alex Finn recommends Herdr as a free, open-source terminal workspace for managing coding agents across projects and computers, rather than replacing the underlying agents themselves. His interface groups machines into project spaces, gives each agent a tab, and brings completed work to the top of a shared status list. He demonstrates Claude Code and Codex in the same environment and argues that a completion queue reduces the constant tab-switching needed in separate desktop applications; this is his workflow preference, not a measured productivity benchmark.\n\n**Build a baseline before parallelizing:** The setup walkthrough creates a project directory and separate gameplay, maps, models, testing and terminal tabs. Finn first asks a single Codex agent to build a Three.js, Diablo-like roguelike, plays the initial result, and only then assigns parallel changes: loot and money, additional enemy types, a larger map with chests, and unlockable class abilities. That sequencing is the useful method: establish a playable shared foundation before dividing improvements into bounded jobs. Although mixed providers are supported, he switches the demonstration to Codex because he says his Claude allowance is exhausted and he has already spent about $3,000 in Claude credits that week.\n\n**A playable demo, not a controlled speed test:** An agent reports eight new enemy types, and the final playthrough shows class selection, gold drops, different enemies, a loot chest and fire abilities. Finn describes the development as roughly five minutes but also says he removed pauses; no unedited timing, comparison run, merge-conflict analysis or production-readiness assessment is supplied. His conclusion is that the status-driven loop—assign a task, watch for completion, inspect the result, issue the next prompt—makes concurrent development easier for him, including across unrelated projects and devices.\n\n**Remote access and the HUD:** Finn shows a custom iPhone app for reading agent output and sending messages, and says he also built an Apple Watch companion. His separate open-source Herdr HUD provides a floating button, completion notifications and an agent messaging panel above other applications, including games. He closes by saying this combination has replaced the coding desktop apps in his own routine. The practical proposition is improved supervision of existing agents, not free model usage, guaranteed autonomous delivery or proof that multitasking improves software quality.",
+      "why_valuable": "Herdr is worth evaluating if separate Claude Code and Codex windows make it hard to supervise several projects: Finn demonstrates a unified completion queue and a baseline-first, then parallel-improvements workflow that produces a playable game. Use this to decide whether orchestration is your bottleneck, while budgeting separately for the coding agents and treating his speed claims as a personal demo rather than a benchmark.",
+      "quick_takeaways": [
+        "Herdr organizes existing coding CLIs into project spaces and agent tabs across computers; its shared completion list is the main improvement over juggling separate desktop windows.",
+        "Start with one agent building a working baseline, then split bounded improvements among agents. The demo delegates loot, enemies, maps and class abilities only after the first playable game exists.",
+        "The final game shows classes, gold drops, loot chests and fire abilities. This is a prototype demonstration, not a production-quality or controlled speed comparison.",
+        "Free orchestration does not mean free AI: Finn uses Codex after saying he exhausted Claude usage and spent about $3,000 in Claude credits that week.",
+        "His optional Herdr HUD adds an always-on-top completion and messaging panel. The iPhone and Apple Watch companions are his custom extensions, not established here as standard bundled features."
+      ],
+      "key_takeaways": [
+        "01:26–03:36: Machine/project spaces, per-agent tabs and a completion-ordered list let Finn supervise multiple providers without continuously searching through separate application windows.",
+        "08:47–10:19: Separate gameplay, maps, models and testing roles can share one project workspace; the additional plain terminal tab remains available for running and opening the app.",
+        "11:08–11:17: Finn says he exhausted his Claude usage and spent about $3,000 in Claude credits that week, illustrating that Herdr's free interface does not eliminate underlying agent costs.",
+        "12:22–15:04: Establish the initial game with one agent before delegating loot, enemy variety, map expansion and class abilities in parallel; the demo does not establish how conflicting edits would be resolved.",
+        "16:42–17:06 and 18:03–19:01: An agent reports eight enemy types, and Finn's final playthrough demonstrates classes, gold, varied enemies, chests and fire attacks. His roughly five-minute development claim includes acknowledged editing and is not an independently verified benchmark.",
+        "15:56–16:36 and 19:54–21:18: The custom phone/watch companions and floating HUD extend agent supervision beyond the main terminal; Finn's final verdict is that this has replaced the desktop apps for his own work."
+      ],
+      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
+      "channel": "Alex Finn",
+      "upload_date": "20261021",
+      "duration_seconds": 1294,
+      "thumbnail": "https://i.ytimg.com/vi/cmvF7nfEJLo/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
+      "description": "Here is the best AI engineering workflow ever using Herdr\n\nHerdr: https://herdr.dev/\nHerdr HUD: https://github.com/finna/herdr-hud\n\nCheck out my autonomous business: https://agentusecases.ai/\nSign up for my free newsletter: https://www.shipitweekly.com/\nFollow my Instagram! http://instagram.com/alexfinnai\nFULL Local AI bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\n\nPrompt:\nI want to build a roguelike game using threejs. i want it to be a top down demon slaying game like Diablo where each level you get more and more demons, but in between levels you can choose a specific power to get or attribute to level up. it should be a dark, demon like theme simlar to diablo with fun satisfying gameplay and in depth, detailed, beautiful stylistic graphics\n\n\nTimestamps:\n0:00 Intro\n0:52 The interface\n7:52 Setting it up\n11:38 Building a game\n15:56 Building custom apps for Herdr\n18:03 Final test\n19:54 Herdr HUD",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Finn says he has stopped using the Claude Code and Codex desktop apps in favor of a free tool that keeps many coding agents organized. He frames the benefit as being able to keep projects moving while doing other things and promises setup and extension examples; the opening is his enthusiastic recommendation, not comparative test evidence.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 52,
+          "timestamp": "00:52",
+          "title": "The interface",
+          "description": "Machines contain project spaces, and each space contains tabs for agents handling different responsibilities; Finn shows Claude Code and Codex alongside a shared list that promotes completed work. He also demonstrates his floating HUD while playing a game, using completion alerts and messages to keep agents moving without returning to the full terminal. The claimed advantage is less supervision friction across providers, projects and devices, while existing agent accounts and usage costs remain separate.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 472,
+          "timestamp": "07:52",
+          "title": "Setting it up",
+          "description": "After installation, Finn creates a space, makes and enters a project folder, and launches coding CLIs in role-specific tabs for gameplay, maps, models and testing, with a plain terminal alongside them. He recommends a main agent plus secondary specialists and illustrates how different providers can occupy the same workspace. Before beginning the build, he switches to Codex because he says he has exhausted his Claude allowance and spent about $3,000 in credits that week, an important qualification to the free-tool pitch.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 698,
+          "timestamp": "11:38",
+          "title": "Building a game",
+          "description": "A single Codex prompt requests a dark Three.js roguelike with escalating demon waves and upgrades between levels, and Finn plays the first version before expanding its scope. He then sends separate agents requests for loot and money, more enemy types, a larger map with chests and unlockable class abilities. As completed work rises in the agent list, he checks the loot result, demonstrating a baseline-first development sequence followed by a completion-driven review loop rather than launching every task against an empty project.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 956,
+          "timestamp": "15:56",
+          "title": "Building custom apps for Herdr",
+          "description": "Finn shows his custom iPhone interface for reading project agents and sending follow-up messages, and says the open-source code also let him build an Apple Watch companion. Returning to the project, he reads an agent report of eight additional enemy types while map and class work continue. He describes the build as roughly five minutes in, but acknowledges cutting pauses, so the footage supports a workflow demonstration rather than a reproducible elapsed-time benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1083,
+          "timestamp": "18:03",
+          "title": "Final test",
+          "description": "The refreshed game offers classes, and Finn chooses a pyromancer before encountering gold drops, different enemy behavior, weapon pickups, a chest and fire attacks. Those visible additions support the claim that several delegated changes reached the playable prototype, without establishing completeness or production quality. He then restates his operating loop: keep a main agent and specialist tabs, watch for completed work, inspect it and send the next bounded request across projects or devices.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1194,
+          "timestamp": "19:54",
+          "title": "Herdr HUD",
+          "description": "Finn's separate plugin keeps a small floating button above other applications and opens a panel with completion notifications, agent output and prompt entry. He points viewers to his GitHub repository for platform installation instructions and emphasizes that this lets him respond while gaming or using other software. His closing verdict is that an extensible terminal plus this overlay has replaced the desktop coding apps in his own routine, a personal preference rather than a measured universal advantage.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-25T06:00:19+02:00",
+      "summarized_at": "2026-10-25T06:03:39+02:00"
+    },
+    {
+      "id": "vfhuIkbj4as",
+      "summary": "**Five linked systems, with a human still on camera:** Jad presents a Claude Code skill that connects niche research, scriptwriting, short-form editing, cover generation and publishing through Blotato. His stated goal is to remove preparation and editing delays so he can batch-record rather than repeatedly commission and wait for edits. The headline is 197 posts with about 20 minutes of recording, but the creator description clarifies that 197 is an Instagram post count that can include carousels, not a verified count of distinct reels and TikToks or a measure of total production time.\n\n**Personalize research and writing, then save corrections:** Onboarding asks who the user is, what they do and whom they address; the researcher then proposes niche-specific topics for human selection. Scripts combine a hook, value distributed through the video and an ending call to action, while recordings of the creator's natural speech and a blacklist of unwanted words shape the voice. The description corrects the spoken X-sourcing claim: X failed in all 14 saved briefs after a free proxy quota was exhausted, so the creator's actual sources included GitHub, Reddit, Hacker News, YouTube and AI-company blogs; he says a free Jina key enables X. The script total is also inconsistent: the captions say 230 for August 16–September 28, whereas the description gives 213, so neither should be treated as an audited result.\n\n**Editing and covers require compute and review:** Jad describes an editor that removes retakes and pauses, isolates the presenter, inserts relevant pages, adds word-by-word captions and color grading, and uses 25–40 sound effects. He says it has five styles and a 21-rule blacklist, with feedback saved for future runs. His estimate of 30–40 minutes is editing time per short, with two or three edits running concurrently; the description says including his review brings the process closer to an hour. Cover generation uses a consistent text treatment, a changing scene and a scale trick, with a Higgsfield character and three or four alternatives to choose from; image generation consumes credits.\n\n**Approval-gated posting, not unattended publishing:** Claude drafts captions and hashtags, and Blotato schedules approved material to Instagram, TikTok and Facebook. Jad insists that nothing is published without his approval and describes continuing to correct cuts and regenerate weak covers. He reports feedback, clients and connections, but supplies no quantified conversion or revenue result. His practical verdict favors consistent, finished short-form output for businesses, personal brands and client services, while distinguishing his more personalized long-form workflow.\n\n**Installation and a cautious rollout:** Access runs through the video's Skool post and a Google Drive ZIP: open the folder in Claude Code, paste the installation prompt, connect Blotato and optionally Higgsfield, then start a new session, complete onboarding and request research. He recommends Opus 5.5 as his own model choice; that is not evidence that other models cannot work. His final advice is to start with one video a day, batch recordings, repeat mistaken lines instead of restarting, persist corrections and understand the script's emphasis rather than mechanically reading it. The skill download is advertised as free, but the video does not establish a zero-cost model, posting and image-generation stack.",
+      "why_valuable": "This gives a concrete design for a business-content pipeline: choose topics, batch-record, automate editing and covers, then approve scheduled cross-platform posts. It helps decide what to automate first and what to keep under human control; crucially, the creator's corrections show that 20 minutes is recording time rather than end-to-end production, with review closer to an hour per short and separate image-credit requirements.",
+      "quick_takeaways": [
+        "The pipeline links niche research, voice-matched scripts, short-form edits, Higgsfield covers and Blotato scheduling; people still choose topics, record, review and approve publication.",
+        "Treat the headline carefully: 197 is the creator's Instagram post count and may include carousels. Twenty minutes refers to recording, not the entire production process.",
+        "The creator estimates 30–40 minutes of editing per short, two or three edits in parallel, and closer to an hour including his review. These are reported timings, not independent tests.",
+        "Persist writing and editing corrections as rules. The described editor has five styles and a 21-rule blacklist, rather than relying on a fresh generic prompt each time.",
+        "Keep an explicit approval gate before Blotato posts to Instagram, TikTok and Facebook. Higgsfield covers consume credits; a free skill download does not establish a free operating stack.",
+        "Begin with one video a day, batch recordings and simply repeat bad lines for later removal. Verify research sources: the creator says X failed in his saved runs despite the spoken claim."
+      ],
+      "key_takeaways": [
+        "00:00–00:41 and 07:26–08:21: The proposed saving comes from linking five stages around batch recording, not eliminating human selection and review. The description clarifies that 197 counts Instagram posts, potentially including carousels.",
+        "02:17–03:00: Configure the niche and audience before generating ideas. Although Jad names X in the narration, the description says it failed in all 14 saved briefs and lists Hacker News among the sources actually used.",
+        "03:12–04:14: Use a hook, distributed value and a closing CTA, then adapt scripts with natural recordings and a blacklist of words the presenter would never say; corrections are intended to persist across future drafts.",
+        "04:42–05:41: The editor reportedly handles retakes, pauses, background isolation, source visuals, captions and color, with five styles and 21 rules. Its 30–40 minute per-short editing estimate becomes closer to an hour with review according to the creator description.",
+        "05:43–06:41: Covers combine a changing scene and scale trick with fixed typography; Jad generates three or four Higgsfield-character alternatives and selects one, using paid credits rather than an entirely free image pipeline.",
+        "06:42–07:25: Claude drafts captions and hashtags, while Blotato schedules Instagram, TikTok and Facebook posts only after explicit approval, allowing a business to batch a week's recording without surrendering publication control.",
+        "09:01–10:00: Installation requires the community ZIP, a Claude Code setup prompt and account connectors; Jad recommends Opus 5.5, but provides no controlled model comparison or complete operating-cost estimate.",
+        "10:01–10:42: Start with one daily video, record in one batch, repeat mistaken lines instead of refilming, save feedback into the skill and understand the script before performing it; the closing recommendation is gradual adoption, not immediate high-volume output."
+      ],
+      "title": "Claude Video Editing. Posting is Now on EASY MODE. (Turned It Into A Skill)",
+      "channel": "Jad M.H  | AI Automation",
+      "upload_date": "20261018",
+      "duration_seconds": 666,
+      "thumbnail": "https://i.ytimg.com/vi/vfhuIkbj4as/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vfhuIkbj4as",
+      "description": "How I posted 197 reels and TikToks, 3 to 7 a day, with only 20 minutes of recording. 5 AI systems in Claude Code do the rest: one finds the news, one writes the script, one edits the video, one makes the thumbnail, and one posts it with Blotato. I turned all 5 into one free skill 👇\n\n🎁 The full system is free in my Skool, in the post for this video: https://www.skool.com/nextphase-5790\nStuck installing it? We run free weekly calls in the Skool to help you set it up.\n\n⚡ The Higgsfield offer I mentioned for the covers (no subscription needed, you can also use their API and pay as you go): https://higgsfield.ai/s/video-model-showdown-kling-4-jadm-h-cJsSBE\n\n🧠 The 5 systems\n1. The news (my scraper): it asks who you are, what you do and who you're talking to, then scrapes your niche and gives you a list of content ideas. You pick the ones you like. A dentist gets the taboo topics, the most common surgeries, the most common teeth problems. For me (AI), it goes through GitHub, Reddit, YouTube and the AI companies' blogs.\n2. The script: a catchy hook, value spread through the whole video (not all in the first seconds), and a call to action at the end. It learns how you talk from your recordings, refines every line that doesn't sound like you, and never uses the words on your blacklist. It wrote me 213 scripts between Aug 16 and Sep 28.\n3. The editor (short form, 9:16): cuts mistakes, restarts and long pauses, cuts you out of the background, puts the real posts and pages on screen, word-by-word captions, color grading, 25 to 40 sound effects. 5 styles and a 21-rule blacklist (no emojis, never 2 highlights at once). Every note you give it gets saved.\n4. The thumbnail (reel cover): one world + one scale trick + the same text style every time, with the words straight from the script. Me on every cover with my AI character on Higgsfield, 3 to 4 versions, I pick one. It uses Higgsfield credits.\n5. Posting: Blotato connected inside Claude. Claude writes the caption and hashtags, Blotato posts to Instagram, TikTok and Facebook at the times I pick. Nothing goes out without my OK.\n\n⚙️ How to install it\n1. Skool → the post for this video → Google Drive → download the zip\n2. Open Claude Code in that folder\n3. Copy the install prompt, paste it into Claude Code, hit enter\n4. In Claude: Settings → Connectors → add Blotato (and Higgsfield if you want your own character on the covers)\n5. Start a new session, answer the questions (who you are, what you do, who you're talking to), then say \"scrape for me\"\nUse Opus 5.5 (type /model in Claude Code). It's a big job, don't go cheap on the model.\n\n💡 My 5 tips\n1. Start with 1 video a day, then ramp up\n2. Record everything in one go\n3. Messed up a line? Just say it again, the editor cuts it\n4. Don't like something? Tell Claude, and it updates the skill\n5. Understand your script and where to put the emphasis, don't just read it off a teleprompter\n\n✏️ To be precise\n• 0:00 \"197\": that's the post count on my Instagram (build.withjade), so it can include a few carousels, not only reels.\n• 2:21 \"GitHub, Reddit, X…\": in my own runs the X source didn't work (the free proxy quota was used up in all 14 saved briefs), so my ideas came from GitHub, Reddit, Hacker News, YouTube and the AI blogs. A free Jina key turns X on.\n• 5:33 \"30 to 40 minutes\" per short: that's the editing. With my own review, it's closer to an hour.\n• 10:07 \"not seven, not 16\": 16 is the most scripts the system wrote in one day (Sep 21), not posts.\n\n\n\n⏱️ Chapters\n0:00 197 reels, 5 systems\n1:21 Why I built it\n2:17 System 1: the news\n3:01 System 2: the script\n4:42 System 3: the AI editor\n5:43 System 4: the thumbnail\n6:42 System 5: posting with Blotato\n7:26 My day\n8:22 Who it's for\n9:01 How to install it\n10:01 5 tips\n\n💬 Which system would you like to see next? Tell me in the comments.\n\n🔔 Subscribe, I drop free skills every week. See you in the next one.\n\n#ClaudeCode #ContentCreation #AIAutomation #Claude #ClaudeAI #ContentSystem #InstagramReels #TikTok #ShortFormContent #AIVideoEditor #Blotato #Higgsfield #SocialMediaAutomation #PersonalBrand #AITools\nclaude code, claude code content creation, ai content system, content system, content machine, how to post every day, post 3 times a day, automate instagram reels, instagram reels, tiktok, short form content, ai video editor, ai script writer, ai thumbnail, blotato, social media automation, content automation, claude skills, free claude skill, higgsfield, opus 5.5, personal brand, content for business, claud code, bloatato, blotatto",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "197 reels, 5 systems",
+          "description": "Jad introduces a pipeline that finds topics, writes scripts, edits recordings, generates covers and publishes through Blotato, leaving him primarily responsible for talking on camera. He advertises the combined skill through his free community and cites 197 posts and 20 minutes of recording. The creator description qualifies that headline: the number comes from Instagram and can include carousels, so it is not an independently verified count of reels or evidence that all production takes 20 minutes.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 81,
+          "timestamp": "01:21",
+          "title": "Why I built it",
+          "description": "Daily publishing becomes difficult because topic selection, scripts, editing, covers, captions and distribution accumulate before a post ever goes live. Jad says outsourced editing created delays that made fast-moving AI news stale, motivating him to automate everything around recording. The underlying decision is therefore about turnaround and workflow bottlenecks, not simply replacing an editor to reduce fees.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 137,
+          "timestamp": "02:17",
+          "title": "System 1: the news",
+          "description": "Onboarding captures the creator's identity, business and audience so the researcher can propose relevant subjects rather than generic news; a dentist's content is the example outside AI. The user selects ideas before script generation, keeping editorial judgment in the loop. Although the narration lists X among the sources, the description says it failed in all 14 saved briefs because the free proxy quota was exhausted, an important limit on the demonstrated research coverage.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 181,
+          "timestamp": "03:01",
+          "title": "System 2: the script",
+          "description": "Drafts follow a hook, value spread through the full clip and an ending call to action, while existing recordings teach the writer how the presenter actually speaks. Jad saves awkward phrases to a blacklist and corrects lines over time, then reads and understands scripts before batch recording without stopping for every mistake. The volume claim is inconsistent across sources—the captions give 230 scripts while the creator description gives 213 for the same date range—so personalization is the actionable lesson rather than a reliable throughput benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 282,
+          "timestamp": "04:42",
+          "title": "System 3: the AI editor",
+          "description": "The short-form editor reportedly removes mistakes and pauses, separates the presenter from the background, inserts relevant source pages and adds captions, color grading and 25–40 sound effects. Jad says five styles and a 21-rule blacklist encode preferences such as no emojis or simultaneous highlights, with new feedback saved. He estimates 30–40 minutes per short and two or three concurrent edits, but the description clarifies that including his review brings the process closer to an hour.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 343,
+          "timestamp": "05:43",
+          "title": "System 4: the thumbnail",
+          "description": "A cover keeps the typography and layout consistent while changing its visual setting and scale trick, with text drawn from the script rather than a separate manual brief. Jad uses a Higgsfield character for a recognizable face, generates three or four options and chooses the strongest. This reduces repeated photo shoots but still requires image credits and human selection; the description also clarifies the visual recipe as one world plus one scale trick.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 402,
+          "timestamp": "06:42",
+          "title": "System 5: posting with Blotato",
+          "description": "Claude prepares captions and hashtags, and the connected Blotato account schedules the approved assets across Instagram, TikTok and Facebook. Jad explicitly requires seeing and approving everything before publication, rather than giving the system unattended permission to post. His business example is recording a week's material in one session and letting the scheduling layer distribute it without repeatedly opening each social app.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 446,
+          "timestamp": "07:26",
+          "title": "My day",
+          "description": "Jad walks through selecting scraped ideas, obtaining scripts, recording five clips in a roughly 20-minute batch, generating edits and covers, and distributing the posts. He acknowledges unwanted cuts and weak covers that need correction, and says consistency brought feedback, clients and connections without quantifying those outcomes. His conclusion is to favor finished, repeatable output over expecting every short to be a masterpiece, while the description limits the headline count to Instagram posts.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 502,
+          "timestamp": "08:22",
+          "title": "Who it's for",
+          "description": "Businesses that struggle to maintain a social presence, personal brands and people managing client accounts are the proposed users. Jad contrasts repeatable short-form publishing with his more personalized long-form production, making clear that he does not use an identical system for both. He also suggests selling the workflow as a service, but gives no client pricing, measured return or evidence that every business should publish daily.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 541,
+          "timestamp": "09:01",
+          "title": "How to install it",
+          "description": "The setup path runs from the video's community post to a Google Drive ZIP, then opening its folder in Claude Code and pasting the provided installation prompt. Users connect Blotato for publishing and optionally Higgsfield for a personal cover character, restart into a new session, answer audience questions and request research. Jad recommends Opus 5.5 and mentions usage-based image access, but does not provide a comparative model test or full stack cost breakdown.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 601,
+          "timestamp": "10:01",
+          "title": "5 tips",
+          "description": "Jad recommends beginning with one daily video and increasing gradually, recording in one sitting and repeating a mistaken line instead of restarting the whole take. He asks users to feed corrections back into Claude so the skill improves, and to understand the script's meaning and emphasis rather than mechanically following a teleprompter. The closing advice keeps performance and quality feedback with the person, even when production stages are automated.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-25T06:00:19+02:00",
+      "summarized_at": "2026-10-25T06:03:39+02:00"
+    },
     {
       "id": "Y2cq9HHzlmE",
       "title": "This FREE DaVinci Resolve Plugin Animates Anything in Seconds",
