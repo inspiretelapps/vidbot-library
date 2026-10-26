@@ -26,4 +26,25 @@ Write the useful information itself: the recommendation, steps, results, specifi
 
 Do not include video timestamps in the executive `summary`; keep them in `chapters` for jump links. The importer, publication renderer and browser remove video-position annotations from executive summaries, including headings such as `Topic — 00:54–06:23`. Publication and display apply this rule even when a generator writes directly to the library. Section headings and meaningful references such as scheduled times or scripture citations remain intact.
 
+## Use the library from Claude (MCP)
+
+`scripts/mcp_server.py` is a read-only MCP server so Claude can search the library, compare videos and pull out what matters. It never changes the library or the site. Tools: `library_overview`, `search_videos`, `list_videos`, `get_video` (summary, takeaways, chapter jump links), `get_takeaways` (many videos at once) and `get_transcript` (saved transcripts, paged). Prompts: `best_of` and `deep_dive`.
+
+It reads this checkout's `data/` when present, so on the machine that runs the scans it is always current. Without a checkout it reads the public copy on GitHub `main` (refreshed every 10 minutes). Override with `VIDBOT_ROOT=/path/to/checkout`.
+
+Claude Desktop (Settings → Developer → Edit Config), with [uv](https://docs.astral.sh/uv/) installing the `mcp` dependency automatically:
+
+```json
+{
+  "mcpServers": {
+    "vidbot": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": ["run", "/path/to/vidbot-library/scripts/mcp_server.py"]
+    }
+  }
+}
+```
+
+Claude Code: `claude mcp add vidbot -- uv run /path/to/vidbot-library/scripts/mcp_server.py`. Without uv, run `python3 -m pip install "mcp>=2.3,<3"` and use `python3` as the command instead.
+
 The site deliberately includes `noindex,nofollow` because the source playlist is unlisted. “First detected” is used instead of claiming YouTube's exact playlist-addition timestamp, which is not available through the page/yt-dlp scan.
