@@ -1,5 +1,306 @@
 [
   {
+    "id": "cwsy-6gu5p4",
+    "summary": "The cost of losing ownership: Andrew Olsson pauses work on an AI-powered insurance startup because prompting, waiting and reviewing generated code has displaced the creative flow he enjoyed. His analogy is commissioning a 300-page novel that expands to 450 and then 800 pages before its supposed author really understands it. He nevertheless argues that manual coding cannot compete commercially with AI's speed, creating a conflict between economic efficiency and satisfying work; his claim of code being written 100 times faster is an assertion, not a measured benchmark.\n\nA different mission: Olsson sees AI as an unfamiliar intelligence that makes human creativity more visible by contrast. Rather than treating literature, painting, mathematics and programming as obsolete, he argues they deserve deliberate preservation and development. This is a personal argument for reallocating attention, not evidence that software employment has disappeared or that his startup has formally closed.\n\nRejecting the urgency trap: He challenges the pitch that everyone must rush into AI entrepreneurship to avoid permanent economic exclusion. In his account, cheaper software also means more competitors, weaker code-based moats and customers who can copy a product or build their own substitute. He concludes that competing harder is not automatically worthwhile if the work and its supposed rewards are things he no longer wants.\n\nPhysical work and provenance: His own response is to collect pre-generative Blu-rays, video games and books, and spend more time drawing, painting, writing and shooting film. Film appeals to him because it creates a physical object with a traceable human process rather than an interchangeable generated image. He predicts renewed interest in analog and human-made culture, but offers his personal preferences rather than market data.\n\nThe final choice is trust over throughput: He plans to move his channel away from model-release hype and tutorials toward documenting how people stay human around AI. He commits not to use generative AI for this channel's ideas, scripts or thumbnails, while explicitly saying he still uses AI elsewhere and is not generally anti-AI. His verdict is that creative constraints, authorship and audience trust matter more to this work than making production easier or gaining views faster.",
+    "why_valuable": "Separate a genuine business advantage from the pressure to ship more AI-generated code: Olsson's experience helps decide whether to continue a software venture, protect hands-on creative work, or set explicit AI-use boundaries that preserve authorship and customer trust. It is a personal decision framework, not proof that all software careers are over.",
+    "quick_takeaways": [
+      "Olsson's problem is loss of ownership: prompting and reviewing large generated codebases feels less creative than building them himself, even while he believes AI is commercially faster.",
+      "Cheap implementation also creates competitors. He argues that shipping more code is not a durable moat when customers can copy a product or build a substitute.",
+      "He is redirecting time toward painting, writing, film photography and pre-generative physical media, valuing human provenance rather than maximum output.",
+      "His channel will exclude generative AI from ideas, scripts and thumbnails to protect authorship and trust. He still uses AI elsewhere; this is a chosen boundary, not a blanket rejection."
+    ],
+    "key_takeaways": [
+      "00:26–01:57 — The failure mode is a creator who can request revisions but no longer understands or feels ownership of the accumulating work; the expanding-novel analogy makes this distinct from ordinary coding assistance.",
+      "02:09–02:40 — Olsson claims AI can code 100 times faster in some cases and makes hand-written commercial development uneconomic. No comparative test is supplied, so this should not be treated as an industry-wide productivity measurement.",
+      "02:42–04:55 — He distinguishes software that technically works from software that feels carefully made, arguing that abundant implementation can still produce cluttered, low-quality user experiences.",
+      "05:08–06:59 — His proposed opportunity is protecting and advancing human arts and intellectual work, not merely finding another software product to sell.",
+      "07:45–08:58 — Lower entry barriers can increase competition and copying; the question becomes whether the founder actually wants the work and reward, not simply whether AI lets them ship faster.",
+      "09:36–10:39 — Film photography, physical media and handmade creative work are his concrete alternatives. His expectation of an analog revival is a forecast based on personal experience, not demonstrated demand.",
+      "10:58–13:06 — He chooses an explicitly human-authored channel over model-release hype, ruling out AI-generated ideas, scripts and thumbnails while retaining AI use outside that creative space."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Prompting replaces the creative flow of coding",
+        "source": "generated",
+        "description": "Olsson leaves work on his AI-powered insurance startup to explain why prompting, waiting and reviewing no longer feels like the craft he enjoyed. He compares the resulting loss of understanding to asking for a novel and receiving ever-larger revisions that he cannot properly absorb, making authorship rather than raw productivity his immediate concern."
+      },
+      {
+        "start_seconds": 120,
+        "timestamp": "02:00",
+        "title": "Commercial pressure meets weaker software craftsmanship",
+        "source": "generated",
+        "description": "Returning to hand-written code does not seem commercially realistic to him because he claims AI can implement some work 100 times faster, although he provides no benchmark. He contrasts functional but cluttered generated interfaces with the subtle care in well-made products, then includes a clip attributed to David Heinemeier Hansson declaring manual coding economically unproductive; these are arguments about the trade-off, not verified universal outcomes."
+      },
+      {
+        "start_seconds": 295,
+        "timestamp": "04:55",
+        "title": "Human creativity becomes the work worth protecting",
+        "source": "generated",
+        "description": "Using the thought experiment of humanity encountering a competing alien intelligence, he argues that AI highlights what people share and value in their own creative abilities. Literature, art, mathematics and coding remain worth preserving and advancing precisely because their human origin is now easier to distinguish, giving him a mission beyond another tech startup."
+      },
+      {
+        "start_seconds": 426,
+        "timestamp": "07:06",
+        "title": "The founder race can have prizes you do not want",
+        "source": "generated",
+        "description": "He links difficulty stopping work to fear-based claims that this is a once-only wealth opportunity, contrasting that promise with anecdotes of exhausted founders. Cheaper implementation, he argues, also produces more competition, easy copying and rapid obsolescence, so stepping away can be rational when neither the work nor the supposed reward is appealing."
+      },
+      {
+        "start_seconds": 541,
+        "timestamp": "09:01",
+        "title": "Analog media offers a tangible alternative",
+        "source": "generated",
+        "description": "He describes spending more time painting, drawing and writing, collecting older books, games and Blu-rays, and beginning to shoot photographs on film. The attraction is a physical creative process with human provenance, leading him to predict a return to analog and classical work without presenting market evidence for that forecast."
+      },
+      {
+        "start_seconds": 642,
+        "timestamp": "10:42",
+        "title": "A channel about people instead of model-release hype",
+        "source": "generated",
+        "description": "Early viral AI videos could have led him to keep covering incremental benchmark improvements, but he says he cannot endorse a hype cycle he no longer believes in. He wants the channel to document people living through this transition and explore how to stay human, rather than teach viewers to get ahead through another coding agent tutorial."
+      },
+      {
+        "start_seconds": 706,
+        "timestamp": "11:46",
+        "title": "A deliberate no-generative-AI rule for creative authorship",
+        "source": "generated",
+        "description": "He commits to avoiding generated ideas, scripts and thumbnails for the channel, even though AI might catch mistakes or make production easier. He explicitly distinguishes this creative boundary from opposition to AI in general, arguing that constraints strengthen his work and that earning audience trust matters more than producing faster or collecting extra views."
+      }
+    ],
+    "title": "how AI killed my software career.",
+    "channel": "andrew olsson",
+    "upload_date": "20261023",
+    "thumbnail": "https://i.ytimg.com/vi/cwsy-6gu5p4/maxresdefault.jpg",
+    "description": "In this video, we'll go for a hike and have a conversation about the state of software, tech startups, and entrepreneurship in the age of AI – and what I'm doing instead...\n\n#AI #vibecoding #softwareengineer #entrepreneur",
+    "url": "https://www.youtube.com/watch?v=cwsy-6gu5p4",
+    "duration_seconds": 811,
+    "first_detected_at": "2026-10-26T12:00:17+02:00",
+    "summarized_at": "2026-10-26T12:06:55+02:00"
+  },
+  {
+    "id": "TVRCcMlvR10",
+    "summary": "Agents are becoming proactive, but access still matters: Matt Wolfe describes Claude Duet as an assistant that monitors business information, drafts messages and presents inline dashboards before a user asks. He likes the launch demonstration but remains on the Pro/Max waitlist and has not tested it himself. Later, he reports Perplexity's open decision models at 4 billion and 27 billion parameters and local Mac support for Perplexity Computer, with a recommendation of at least 36 GB unified memory; neither the benchmark chart nor the local system receives an independent test here.\n\nSecurity is the urgent operational story: Wolfe reports an old PHP vulnerability made practically exploitable by stronger AI and says OpenAI identified it ahead of attackers. He separately discusses Railway's disclosure that an unauthorized party may have accessed environment variables, including some decrypted secrets, explaining why affected developers would need to rotate API keys and deactivate old credentials. These are reported incidents rather than his own forensic findings, and his broader suggestion that AI is behind the week's security problems does not independently establish the cause of every breach.\n\nIncremental improvements versus usable creative tools: A disclosed Hyperagent sponsorship promotes using an existing ChatGPT subscription and a paid-plan bonus. Wolfe finds OpenAI's latest shipping campaign mostly modest, highlighting context reuse, a reported 12-hour API cache and longer logged-in cache retention, alongside gradual locked-chat rollout and the Decisions API for bounded choices. His own creative tests are more informative: Ideogram produces editable SVGs but some monkeys have extra legs, while ElevenLabs Chimera gives reasonably convincing lip sync yet changes his reference-image composition and rejects generated audio longer than its 30-second limit only late in the workflow.\n\nWho owns the customer relationship?: He contrasts sites blocking outside agents with Shopify's embrace of agent shopping, arguing that retailers risk becoming interchangeable suppliers when the assistant controls discovery. Yelp illustrates the tension by restricting outside agents while offering its own restaurant-calling service; Mistral's Voxtral 3 demonstration shows interruption handling and multiple-speaker tracking. Canva Craft is presented as available in Dream Lab and the API, with Wolfe disclosing a small Canva investment, whereas the alleged OpenAI Aurora image model remains an explicitly unconfirmed rumor.\n\nDo not confuse impressive demonstrations with proven capability: The closing items include Zoom's deepfake-risk tooling, Microsoft's reported diagnostic-accuracy research and Unitree's viral robot performance. Wolfe does not validate the medical comparisons and is particularly skeptical that the robot is acting autonomously or lifting a car without assistance. His final assessment is a relatively slow launch week whose consequential stories are Duet and cybersecurity, with practical creative tools worth trying but promotional, research and rumor claims requiring different levels of confidence.",
+    "why_valuable": "Prioritize checking affected hosting credentials and PHP exposure before chasing new AI launches, then choose what to trial based on evidence: Wolfe actually tests editable SVG generation and lip-sync video, but Duet access, research benchmarks and robot autonomy are not personally verified. The agent-shopping discussion also helps decide whether a business should welcome assistants or protect direct customer access.",
+    "quick_takeaways": [
+      "Wolfe's most actionable report is security: affected Railway developers should rotate potentially exposed API keys and deactivate old credentials; check relevant PHP patch guidance rather than treating this roundup as a security audit.",
+      "Claude Duet's proactive dashboards look promising, but Wolfe is waitlisted and has not tested them. Perplexity's local Mac agent is reported to recommend at least 36 GB unified memory.",
+      "His Ideogram test exports editable SVGs, with anatomy errors in some results. Chimera's lip sync is promising, but it changes the reference composition and enforces a 30-second audio limit late in the workflow.",
+      "Agent commerce creates a trade-off: accepting assistants can win sales, but assistants may make stores interchangeable on price and delivery. Yelp promotes its own agent while restricting outsiders.",
+      "Treat Canva availability, rumored OpenAI image models, reported medical results and a staged-looking robot demo differently. Wolfe does not establish clinical performance or autonomous car-lifting."
+    ],
+    "key_takeaways": [
+      "01:30–02:43 — Wolfe has not used Claude Duet: Pro/Max subscribers can join a waitlist, so his positive reaction to its proactive messaging and dashboard is based on Anthropic's demonstration.",
+      "03:29–07:51 — He reports OpenAI's PHP discovery and Railway's potentially exposed environment variables. His concrete operational explanation is that stolen API keys can incur charges, making credential rotation and old-key deactivation more important than merely changing a dashboard password.",
+      "09:22–11:13 — OpenAI's reported usage gains come from context reuse, caching and routing, not a demonstrated new model capability. Wolfe singles out the 12-hour API cache announcement while calling most of the week's other changes minor.",
+      "12:25–13:33 — In Wolfe's own Ideogram test, individual vector elements are editable and export as SVG; two of four roller-skating-monkey results look solid to him, while others have extra legs.",
+      "13:33–15:58 — His Chimera test creates multiple shots instead of preserving the supplied pose. A later attempt produces 120 seconds of reference audio before revealing a 30-second limit, exposing a workflow problem despite promising lip sync.",
+      "16:14–17:24 — Perplexity's 4-billion and 27-billion parameter decision models and local Mac computer agent are reported announcements. The Mac recommendation is at least 36 GB unified memory; Wolfe does not explain the benchmark sufficiently to establish a general performance ranking.",
+      "17:24–20:57 — Blocking agents protects a site's direct customer relationship but can lose assistant-driven purchases; Wolfe contrasts Amazon with Shopify and notes Yelp's preference for its own restaurant-calling agent.",
+      "21:47–26:13 — Canva Craft is presented as available, Aurora image models as rumor, medical accuracy as Microsoft's research claim, and Unitree's car-lifting as doubtful. Wolfe's closing verdict prioritizes Duet and security rather than treating every announcement as equally important or verified."
+    ],
+    "chapters": [
+      {
+        "description": "Wolfe reviews Anthropic's demonstration of proactive business reminders, tool connections and dashboards, comparing the concept with other personal agents. He remains on the Pro/Max waitlist and cannot provide a hands-on test, so the apparent quality of the interface and the stated sensitive-information safeguards are vendor-presented capabilities rather than results he has verified.",
+        "start_seconds": 0,
+        "title": "Claude Duet: Anthropic's New AI Agent",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "description": "He reports that AI helped turn a long-standing PHP bug into a practical security threat and describes the rapid rise in attempted exploitation after disclosure. He then explains Railway's report of potentially accessed environment variables, including some decrypted contents, and why exposed API credentials can create unauthorized charges; the practical response is checking relevant patches and rotating affected secrets, not assuming any hosting provider is invulnerable.",
+        "start_seconds": 167,
+        "title": "Major AI Cybersecurity Threats",
+        "source": "creator",
+        "timestamp": "02:47"
+      },
+      {
+        "description": "In an explicitly sponsored segment, he describes a platform where multiple agents and people work together on research, content, analysis and operations. The promotion says viewers can sign in with an existing ChatGPT plan or choose a paid Hyperagent plan with $100 in bonus credits, but he does not measure savings, reliability or output quality against alternatives.",
+        "start_seconds": 474,
+        "title": "Hyperagent (Sponsor)",
+        "source": "creator",
+        "timestamp": "07:54"
+      },
+      {
+        "description": "He walks through OpenAI's recent shipping campaign, including context reuse, thread editing that discards later outputs and tool calls, usage resets and longer caching. Locked chats are still gradually rolling out and the Decisions API targets probabilities, choices and scores rather than free-form answers; he considers most changes modest, with cache improvements the most practically interesting.",
+        "start_seconds": 537,
+        "title": "OpenAI's Latest Updates",
+        "source": "creator",
+        "timestamp": "08:57"
+      },
+      {
+        "description": "His own test shows that generated artwork can contain individually selectable elements and download directly as an SVG, rather than being a flat image in a vector wrapper. A roller-skating-monkey prompt produces some extra-leg errors and two of four results he considers solid, illustrating why editable output is useful but still needs human inspection.",
+        "start_seconds": 745,
+        "title": "Ideogram's New AI Vector Generator",
+        "source": "creator",
+        "timestamp": "12:25"
+      },
+      {
+        "description": "Using his photograph and generated speech, Wolfe gets a multi-shot speaking video with lip sync he finds reasonably convincing, but the model changes his pose and scene instead of simply animating the supplied composition. He also encounters an off-screen submit control and a late rejection of 120 seconds of reference audio because the limit is 30 seconds, making usability and length planning important constraints.",
+        "start_seconds": 804,
+        "title": "ElevenLabs Chimera: AI Video Generation",
+        "source": "creator",
+        "timestamp": "13:24"
+      },
+      {
+        "description": "He reports open decision models with 4-billion and 27-billion parameter variants and briefly shows a benchmark without establishing exactly what it measures. He then introduces local Mac support for Perplexity Computer; the hardware recommendation of at least 36 GB unified memory begins just after the listed next chapter boundary, and no local performance test is provided.",
+        "start_seconds": 962,
+        "title": "Perplexity's New AI Models and Computer",
+        "source": "creator",
+        "timestamp": "16:02"
+      },
+      {
+        "description": "After finishing the Mac hardware note, he contrasts Amazon and several other sites restricting outside agents with Shopify's decision to welcome them. His argument is that an assistant shopping by price or delivery makes individual stores more interchangeable, while refusing agent traffic could also lose sales; he expects pressure to allow assistants but admits the eventual outcome is uncertain.",
+        "start_seconds": 1034,
+        "title": "Websites Are Blocking AI Agents",
+        "source": "creator",
+        "timestamp": "17:14"
+      },
+      {
+        "description": "Yelp's restaurant-calling feature lets its own assistant ask about wait times and menu details, even while the company restricts outside agents. A Mistral demonstration then shows a voice system following two speakers and handling an interruption, suggesting useful conversational behavior without constituting Wolfe's own test of reliability or latency.",
+        "start_seconds": 1228,
+        "title": "Yelp's AI Agent and Mistral Voxtral 3",
+        "source": "creator",
+        "timestamp": "20:28"
+      },
+      {
+        "description": "He says Canva's new image model is available through Dream Lab and the API and discloses that he has a small investment in Canva. He separately discusses Aurora model names appearing in comparison sites and API references as possible signs of a future OpenAI image release, explicitly warning that these clues are not confirmation; the interval ends as he introduces Zoom's security tooling.",
+        "start_seconds": 1307,
+        "title": "Canva Craft and New AI Image Models",
+        "source": "creator",
+        "timestamp": "21:47"
+      },
+      {
+        "description": "He explains Zoom's deepfake-risk tooling through the problem of employees being deceived by executive impersonation on video calls. Microsoft's diagnostic research follows as a reported accuracy claim rather than a clinical demonstration, and he suggests possible assistance or double-checking for doctors without proving real-world safety or performance; the interval closes by introducing the viral robot clip.",
+        "start_seconds": 1398,
+        "title": "AI Deepfake Detection and Medical AI",
+        "source": "creator",
+        "timestamp": "23:18"
+      },
+      {
+        "description": "Wolfe describes a Unitree promotional clip with flips, kicks and apparent rescue scenarios but doubts that the actions are autonomous or that the robot lifts the car's full weight unaided. He treats the bumper-lifting scene and forceful push of a child skeptically, then closes by calling this a slower news week dominated by Duet and security problems and noting that late-week news may fall into the next roundup.",
+        "start_seconds": 1469,
+        "title": "Unitree's Humanoid Robot Demo",
+        "source": "creator",
+        "timestamp": "24:29"
+      }
+    ],
+    "title": "AI News: 24 Things You Need To Know This Week",
+    "channel": "Matt Wolfe",
+    "upload_date": "20261023",
+    "thumbnail": "https://i.ytimg.com/vi/TVRCcMlvR10/maxresdefault.jpg",
+    "description": "Sign into Hyperagent with your existing ChatGPT plan, or choose a paid plan and get $100 in bonus credits: https://hyperagent.com/invite/MATT100?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT100\n\nHere's the AI news you probably missed this week! Anthropic introduces Claude Duet, AI-powered cybersecurity threats are raising serious concerns, and OpenAI continues rolling out new updates. Plus, Ideogram's new vector model, ElevenLabs Chimera, and a rapid-fire roundup of the latest AI advancements.\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nResources From Today's Video:\nClaude Duet: https://claude.com/resources/articles/claude-duet\nPHP Security Vulnerabilities: https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down\nOpenAI Patch the Planet: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/\nRailway Security Breach: https://blog.railway.com/p/security-disclosure-wednesday-october-21st\nOpenAI 28 Days of Shipping: https://x.com/thsottiaux/status/2106845241357824205\nGPT-6 Astra Pro Update: https://x.com/OpenAI/status/2111192259073094035\nCodex & Work Usage Improvements: https://x.com/thsottiaux/status/2111244596131111253\nAdditional OpenAI Update 1: https://twitter.com/thsottiaux/status/2111990254408434095\nAdditional OpenAI Update 2: https://twitter.com/thsottiaux/status/2112712984644784534\nChatGPT Locked Chats: https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/\nOpenAI Decisions API: https://openai.com/index/decisions-api/\nIdeogram Vector 1.0: https://x.com/ideogram_ai/status/2113300317584720259\nElevenLabs Chimera: https://www.youtube.com/watch?v=InsqQFUWyXI\nPerplexity Decision Models: https://x.com/AravSrinivas/status/2111181956444827695\nPerplexity Computer on Mac: https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac\nWebsites Blocking AI Agents: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web\nYelp AI Restaurant Calls: https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/\nMistral Voxtral 3: https://mistral.ai/news/voxtral-3/\nCanva Craft: https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/\nOpenAI Aurora Image Model Rumors: https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/\nZoom Deepfake Detection: https://news.zoom.com/zoomtopia-2026-security/\nMicrosoft MAI-DxO: https://microsoft.ai/news/building-medical-superintelligence/\nUnitree H2-X Humanoid Robot: https://x.com/UnitreeRobotics/status/2112819774573179175\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:\n00:00 Claude Duet: Anthropic's New AI Agent\n02:47 Major AI Cybersecurity Threats\n07:54 Hyperagent (Sponsor)\n08:57 OpenAI's Latest Updates\n12:25 Ideogram's New AI Vector Generator\n13:24 ElevenLabs Chimera: AI Video Generation\n16:02 Perplexity's New AI Models and Computer\n17:14 Websites Are Blocking AI Agents\n20:28 Yelp's AI Agent and Mistral Voxtral 3\n21:47 Canva Craft and New AI Image Models\n23:18 AI Deepfake Detection and Medical AI\n24:29 Unitree's Humanoid Robot Demo",
+    "url": "https://www.youtube.com/watch?v=TVRCcMlvR10",
+    "duration_seconds": 1618,
+    "first_detected_at": "2026-10-26T12:00:17+02:00",
+    "summarized_at": "2026-10-26T12:06:55+02:00"
+  },
+  {
+    "id": "iJgBQy2k9hk",
+    "summary": "What changes when building gets cheap: Chris of Build Great Products argues that generic feature-led dashboards and CRMs lose defensibility when coding agents make implementation easy. His three shifts are cheaper construction, agents joining humans as software users, and customers paying for completed work rather than feature access or login counts. He relocates the moat to expertise, taste, proprietary data and distribution; this is a strategic thesis, not a measured demonstration that all SaaS has ceased to work.\n\nUse domain knowledge to sell work or a controlled agent: The first opportunity is a software-enabled service: sell an accounting, legal or creative result while automating administrative work internally, rather than selling the customer another app to operate. His comparison of a 20-person firm with two people plus AI is illustrative, not a reported staffing experiment. The second is a vertical agent harness combining rules, tools, knowledge, workflows and memory around a general model; he cites specialist companies and his own planned Dungeons and Dragons product to show that domain understanding can matter beyond conventional business niches.\n\nBuild tools agents can call, or methods people can supervise: Headless products expose a narrow capability through a CLI, API or MCP server, with his Eyedropper design-system retrieval tool as an example. The risk is selling a function that a model provider soon bundles for free. His fourth pattern pairs a plugin or skill with a visual dashboard: an agent runs a repeatable coaching or consulting method, while the user sees progress and the provider can improve the process using feedback; ProductOS is his own developing example, not a proven market outcome.\n\nDifferentiate through care, familiarity or scarce information: Taste-led niche products serve a focused audience, illustrated by his roller-coaster tracking app and the idea of 1,000 true fans rather than universal adoption. Ambient consumer agents live inside familiar chats and need useful planning, booking or memory rather than novelty, but he calls that market highly competitive. Proprietary-data products sell access to information general models do not already possess, such as specialized operational records or community observations, and can strengthen over time through a deliberate collection mechanism.\n\nChoose from existing advantages, not fashionable interfaces: The eighth model gives away an open-source core and charges for hosting, support, paid services or community, using public code as distribution while retaining a clear reason to pay. His closing selection guide maps existing clients to software-enabled services, deep expertise to vertical harnesses, narrow capabilities to headless tools, proven methods to plugin/dashboard systems, audiences to niche products and unique data to data services. He warns against consumer novelty, building for everybody and open source without monetization; his final verdict is that software is changing, not dead, and strong products should amplify existing businesses and improve as underlying models improve.",
+    "why_valuable": "For a service business with existing clients, start by automating a proven delivery process rather than launching a generic SaaS dashboard. Chris's eight-model framework helps choose a product around an advantage already owned—domain expertise, a repeatable method, an audience, a narrow tool or proprietary data—and exposes the distribution and monetization risks before committing to a build.",
+    "quick_takeaways": [
+      "Start with your advantage: existing clients favor software-enabled services; deep domain expertise favors a vertical harness; a proven coaching or consulting method favors a plugin plus dashboard.",
+      "A useful harness is more than a prompt: combine domain rules, tools, knowledge, workflows and memory around the model so better models improve the service.",
+      "If you own one narrow capability or data source, expose it through a CLI, API or MCP server. Check whether a model provider could bundle the same function for free.",
+      "Focused audience products can win through care and taste rather than mass adoption. Proprietary data can be another moat if it is genuinely scarce and collected over time.",
+      "Ambient chat agents face intense competition. Open-source products need an explicit paid reason—hosting, support or services—not just free code and hope.",
+      "Chris's productivity and staffing multiples are illustrative, not verified business results. His final recommendation is to amplify a real business and sell an outcome, not another generic feature list."
+    ],
+    "key_takeaways": [
+      "02:56–08:08 — Chris identifies three strategic shifts: implementation becomes cheap, agents become software users, and pricing moves toward completed work. He argues defensibility now rests in expertise, taste, data and distribution rather than code volume.",
+      "08:14–10:46 — Existing service operators can map a process that already produces a client result and automate its routine parts. His two-people-plus-AI versus 20-person-firm comparison is illustrative, not an audited productivity finding.",
+      "10:47–14:04 — A vertical harness surrounds the model with rules, tools, knowledge, workflows and memory; the value is specialized execution, not a generic chatbot. He says he is building a Dungeons and Dragons harness, so this remains a development example rather than proof of sales.",
+      "14:04–16:33 — His Eyedropper CLI retrieves a shared design system into projects, illustrating a narrow agent-callable utility. Usage-based headless products need a capability unlikely to be bundled free by model providers.",
+      "16:33–19:51 — A plugin plus dashboard can package a proven consulting, education or coaching process while retaining visible progress and feedback. Proposed revenue includes paid access, membership or dashboard subscriptions.",
+      "19:51–25:09 — A niche product can target 1,000 true fans with distinctive care and design, while an ambient consumer agent must fit familiar messaging behavior and provide actual utility. He warns that the latter is a particularly competitive, high-risk bet.",
+      "25:09–29:39 — Proprietary-data products should expose scarce information and collect more over time; open-source core products instead use free code for distribution and monetize hosting, support or services. Neither category is defensible merely because an app exists.",
+      "29:39–34:56 — Choose the model that matches an existing asset rather than building another dashboard by default. His closing verdict is to amplify real businesses and design products that improve with better models, not assume the software market itself has disappeared."
+    ],
+    "chapters": [
+      {
+        "description": "Chris argues that easily cloned feature lists no longer provide the protection that expensive, slow software development once offered. He identifies expertise, distinctive product quality, scarce data and an existing audience as stronger advantages, then adds agent access through APIs or command-line tools and outcome-based pricing as the other forces changing what a viable product should deliver.",
+        "start_seconds": 0,
+        "title": "Why generic SaaS is dying and the 3 shifts behind it",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "description": "He recommends using internal AI systems to deliver an accounting, legal or creative result rather than asking clients to buy and operate another software tool. The comparison of a 20-person firm with two people plus AI illustrates his ambition rather than a measured case study; the practical starting point is mapping a process that already works and automating routine steps without changing the outcome being sold.",
+        "start_seconds": 494,
+        "title": "Type 1: Software-enabled services",
+        "source": "creator",
+        "timestamp": "08:14"
+      },
+      {
+        "description": "He defines the valuable layer around a model as domain rules, tools, knowledge, workflows and memory, using specialist businesses and his planned Dungeons and Dragons product as examples. The opportunity is to encode a niche that the builder deeply understands, while benefiting from better and cheaper underlying models instead of depending on a fixed level of model capability.",
+        "start_seconds": 647,
+        "title": "Type 2: Vertical agent harnesses",
+        "source": "creator",
+        "timestamp": "10:47"
+      },
+      {
+        "description": "His Eyedropper tool retrieves a shared design system into a project through the command line, illustrating software an agent can use without a human-facing dashboard. He extends the idea to agent-operated scheduling and other narrow utilities, recommends usage-based charging, and warns that a model provider might soon bundle a generic capability for free.",
+        "start_seconds": 844,
+        "title": "Type 3: Headless AI software (CLIs, APIs and MCP servers)",
+        "source": "creator",
+        "timestamp": "14:04"
+      },
+      {
+        "description": "He proposes packaging a repeatable method into agent-run plugins or skills while synchronizing progress to a dashboard, using his developing ProductOS workflow as the example. Coaches, consultants and educators could distribute the method inside tools customers already use, then charge for access or membership and use the visible progress data to improve the service.",
+        "start_seconds": 993,
+        "title": "Type 4: Agent-native systems, a plugin plus a dashboard",
+        "source": "creator",
+        "timestamp": "16:33"
+      },
+      {
+        "description": "A creator or community can support a carefully designed product for a specific group without winning an entire market, illustrated by his roller-coaster tracking app concept. The 1,000-true-fans framing emphasizes trust and detailed care rather than a measured customer count; his warning is that trying to serve everybody destroys the focus that makes this model distinctive.",
+        "start_seconds": 1191,
+        "title": "Type 5: Taste-led niche products",
+        "source": "creator",
+        "timestamp": "19:51"
+      },
+      {
+        "description": "He sees opportunity in assistants that live in familiar messaging environments and help people plan, book or remember things without installing a separate app. The hard problem is making the conversation immediately useful to ordinary families, clubs or teams rather than selling agent terminology or novelty, and he explicitly describes this consumer category as highly competitive.",
+        "start_seconds": 1361,
+        "title": "Type 6: Ambient consumer agents",
+        "source": "creator",
+        "timestamp": "22:41"
+      },
+      {
+        "description": "He contrasts easily copied code with specialized information that a general model has not already learned, using traffic, activity heatmaps and salary information as familiar examples. Builders with industry or community access can expose useful data to agents, charge for queries and design collection into the workflow so the dataset becomes more valuable over time.",
+        "start_seconds": 1509,
+        "title": "Type 7: Proprietary data products",
+        "source": "creator",
+        "timestamp": "25:09"
+      },
+      {
+        "description": "He recommends making core functionality publicly available while charging for convenience and surrounding services such as hosting, support and premium capabilities. Public code can become a distribution channel, with Supabase, PostHog and cal.com cited as examples, but he stresses that giving code away only works commercially when customers have a clear reason to pay for something beyond it.",
+        "start_seconds": 1634,
+        "title": "Type 8: Open source core products",
+        "source": "creator",
+        "timestamp": "27:14"
+      },
+      {
+        "description": "His selection guide matches existing clients to service automation, deep niche expertise to harnesses, narrow capabilities to headless tools and proven methods to plugin/dashboard systems, while identifying audiences and unique data as other starting advantages. He warns that consumer agents are difficult and open source needs monetization, promotes ProductOS, and closes with the view that software is changing rather than dying: products should amplify real businesses and improve as models improve.",
+        "start_seconds": 1779,
+        "title": "How to choose which type to build, plus ProductOS",
+        "source": "creator",
+        "timestamp": "29:39"
+      }
+    ],
+    "title": "Stop building SaaS. Build one of these 8 instead.",
+    "channel": "Build Great Products",
+    "upload_date": "20261021",
+    "thumbnail": "https://i.ytimg.com/vi/iJgBQy2k9hk/maxresdefault.jpg",
+    "description": "Get my free AI playbooks → https://skool.com/claudebuilders/about\nBuild, launch and grow your AI software business → https://skool.com/aiapps/about\n\nGeneric SaaS dashboards and CRM tools are getting hard to sell in 2026.\n\nAnyone can clone one in a weekend with Claude Code or Codex. In this video I explain why: building got cheap, agents became users of software, and pricing is moving to outcomes.\n\nThen I go through the eight types of software with the most opportunity right now, with real examples.\n\nThe moat has moved away from the code. It now sits in your expertise, your taste, your data and your audience. If you run a service business, coach clients, have a passion or already have an audience, one of these eight fits you.\n\nAt the end I show how to pick the right one for where you are today.\n\nChapters:\n\n00:00 Why generic SaaS is dying and the 3 shifts behind it\n08:14 Type 1: Software-enabled services\n10:47 Type 2: Vertical agent harnesses\n14:04 Type 3: Headless AI software (CLIs, APIs and MCP servers)\n16:33 Type 4: Agent-native systems, a plugin plus a dashboard\n19:51 Type 5: Taste-led niche products\n22:41 Type 6: Ambient consumer agents\n25:09 Type 7: Proprietary data products\n27:14 Type 8: Open source core products\n29:39 How to choose which type to build, plus ProductOS\n\nFollow on social:\nhttps://www.linkedin.com/in/ashbychris/\nhttps://x.com/chris_bgp\nhttps://www.instagram.com/build.greatproducts/",
+    "url": "https://www.youtube.com/watch?v=iJgBQy2k9hk",
+    "duration_seconds": 2098,
+    "first_detected_at": "2026-10-26T12:00:17+02:00",
+    "summarized_at": "2026-10-26T12:06:55+02:00"
+  },
+  {
     "id": "4nQGiRCUlDg",
     "title": "Yes, AI Edits Your Video Now BUT... | DaVinci Resolve MCP VS Cloud Based invideo Editor Workflows",
     "channel": "Joris Hermans",
