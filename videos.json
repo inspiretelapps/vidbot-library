@@ -9,8 +9,193 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-25T06:03:39+02:00",
+  "updated_at": "2026-10-26T06:05:04+02:00",
   "videos": [
+    {
+      "id": "4nQGiRCUlDg",
+      "title": "Yes, AI Edits Your Video Now BUT... | DaVinci Resolve MCP VS Cloud Based invideo Editor Workflows",
+      "channel": "Joris Hermans",
+      "upload_date": "20261017",
+      "thumbnail": "https://i.ytimg.com/vi/4nQGiRCUlDg/maxresdefault.jpg",
+      "description": "⚡︎ Connect your AI to invideo Editor for free: invideo.io/remote-agents\n⚡︎ Download DaVinci Resolve for free: https://www.blackmagicdesign.com/products/davinciresolve\n\nIn this video, I test a few AI editing workflows: DaVinci Resolve MCP with ChatGPT and invideo editor with both ChatGPT and Agent Two.\n\n⚡︎ Music I Use 🔥 Audiio [70% OFF Pro Subscription! =$59] - Use Code: JORIS 👉🏻 https://audiio.com/joris-hermans\n⚡︎ How I Color Grade My Videos: https://www.jorishermans.com/shop\n⚡︎ MERCH & Prints! https://www.jorishermans.com/shop\n⚡︎ Video Editing: \n\n→ For BUSINESS inquiries: hello@jorishermans.com\n\n⚡︎ Join me on INSTAGRAM: https://www.instagram.com/hermans.joris\n⚡︎ Join me on TWITTER: https://www.twitter.com/JorisHermansYT\n⚡︎ WORK & BIO: https://www.jorishermans.com\n\nMY GEAR ↓↓↓\nDaily Camera: https://amzn.to/45EBQTh\nMost used Wide Zoom lens: https://amzn.to/4jn0hu8\nMost used lens [Prime]: https://amzn.to/3KZbTHd\nB-Camera: https://amzn.to/38ivQmk\nFavorite Lens for B-Cam: https://amzn.to/2Te9ZUW\nGimbal: https://amzn.to/3N3YBK2\nBackpack: https://amzn.to/4lNbBjW\nDrone: https://amzn.to/30nd6xZ\nVlog Mic: https://amzn.to/4srdrKC\nVlog Tripod: https://amzn.to/3SMmN3U\nCINEMATIC Mist Filters: https://amzn.to/3MYKqn0\nVariable ND Filter: https://amzn.to/3M2GLlj\nAudio Recorder: https://amzn.to/3IdCTNT\nStudio Mic: https://amzn.to/4bIHIMK\nStudio Monitor: https://amzn.to/4pmhl4I\nMain Studio Light: https://amzn.to/3KwnCc5\nSmall Studio Light: https://amzn.to/3usPSIr\n\n00:00 Intro\n01:07 The Comparison\n01:23 DR MCP Setup\n02:15 invideo MCP Setup\n02:50 The Results\n05:16 The Color Grade\n07:19 Is it easier?\n09:11 Is it faster?\n10:48 Your computer\n11:35 What does it cost?\n13:57 Who is it for?\n\n__________\nLINKS USED IN THE DESCRIPTION MAY OR MAY NOT BE AFFILIATE LINKS As an Amazon Associate I earn from qualifying purchases.",
+      "duration_seconds": 932,
+      "url": "https://www.youtube.com/watch?v=4nQGiRCUlDg",
+      "summary": "Rough-cut quality: Joris Hermans gives the same studio recording and instruction—remove silences, false starts and bad takes—to DaVinci Resolve MCP with ChatGPT, invideo with ChatGPT, and invideo's Agent Two. In his own test, all three deliver useful, similar first cuts rather than finished edits. Resolve selects the intended takes; invideo with ChatGPT clips a word; Agent Two misses a short false start but adds room-tone crossfades and asks which alternate line and movement treatment he prefers. Its advantage is more editorial guidance, not an error-free result.\n\nCreative control: Asked for a nostalgic analog grade, both invideo workflows make a more obvious stylistic change, including a film-damage effect Hermans finds excessive. Resolve preserves natural skin tones but struggles with the open-ended look, even when given references. He therefore prefers Resolve MCP for balancing, normalization, grouping and other technical preparation, leaving creative grading to an informed editor. invideo feels more accessible for short-form creators and social media managers willing to trade granular control for guidance; connecting an assistant to a professional editor does not remove the need to understand editing.\n\nTime saved depends on the job: Hermans could have edited the short comparison clip faster himself; Agent Two runs faster than his Resolve/ChatGPT test, but footage upload erodes that advantage on his connection. A later update reverses the practical conclusion for his longer videos: he now uses Resolve and ChatGPT for the initial edit and reports that work previously taking 30 to 45–50 minutes takes about five, with results resembling his own edits. These are his workflow observations, not a standardized benchmark, and unattended repetitive work can free his attention even when elapsed processing time is longer.\n\nHardware and usage limits: Resolve still performs editing on the user's machine, whereas a cloud editor offloads processing but provides a more basic environment that does not fit Hermans's preferred RAW/log workflow. His early ChatGPT Plus tests at medium/high settings exhausted a five-hour usage allowance after roughly half an hour, particularly during color work. He suspects expensive UI interaction may contribute but explicitly has not confirmed the cause. In a later update, light-setting rough cuts no longer cause limit problems for him; color grading still does, so neither good output nor an existing subscription guarantees economical operation.\n\nFinal choice: Hermans keeps Resolve MCP because he already works in Resolve and values control over rough cuts, repetitive work and technical color preparation. He recommends considering invideo, especially Agent Two, for a simpler route from an idea to content when the user accepts more automated creative decisions. His verdict is that all three are useful assistants for tedious work, not a one-prompt replacement for a skilled editor; plan limits, task type, upload speed and the need for review should decide the workflow.",
+      "why_valuable": "Choose Resolve MCP for controlled, repeatable rough-cut work in an existing editing workflow, or invideo Agent Two for more guided cloud editing. Hermans's first-hand tests also show when automation does not save elapsed time, how light-setting cuts avoided his later usage-limit problems, and why creative grading still needs manual judgment.",
+      "quick_takeaways": [
+        "All three workflows made usable rough cuts from the same footage; none removed the need to check cuts and refine the result.",
+        "Agent Two added room-tone crossfades and asked about alternate takes and movement; the ChatGPT workflows made fewer editorial inquiries.",
+        "Resolve is Hermans's choice for control and repetitive technical work. invideo is more guided, but cloud upload and a simpler editor can be trade-offs.",
+        "His short test was faster to edit manually, but he later reports longer-video first edits falling from 30–50 minutes to about five with Resolve and ChatGPT.",
+        "Early medium/high-setting color work exhausted his ChatGPT allowance quickly. Light-setting rough cuts later avoided that problem for him; creative grading still caused issues."
+      ],
+      "key_takeaways": [
+        "01:10–05:16 — On the same recording and removal prompt, the three first-hand tests produced similar usable rough cuts; invideo/ChatGPT clipped a word and Agent Two left a short false start, so review remains necessary.",
+        "04:14–05:16 — Agent Two added room-tone crossfades and asked which alternate line to use and how to handle the speaker standing up; ChatGPT instead chose the shorter line without asking.",
+        "05:20–07:04 — A broad analog-look request produced stronger styling in invideo, including an excessive film-damage effect. Resolve retained natural skin tones but needed more specific direction, making it more convincing for technical preparation than autonomous creative grading in this test.",
+        "07:19–09:10 — Editing knowledge still determines how well users can direct and correct Resolve. Hermans favors invideo's guidance for less-experienced short-form/social creators and Resolve for experienced editors who want detailed control.",
+        "09:14–10:24 — Manual editing won on the short test; in a later first-hand update, Hermans reports longer-video rough edits dropping from 30 to 45–50 minutes to about five. The two results apply to different workloads, not a universal speed claim.",
+        "10:52–11:35 — Resolve uses local computing resources; invideo offloads processing, but Hermans finds its more basic environment unsuitable for his preferred RAW/log work. Upload time is an additional cloud-workflow cost noted earlier.",
+        "11:39–13:56 — Early medium/high-setting tests hit his five-hour ChatGPT allowance after about half an hour. Later light-setting rough cuts avoided repeat limits for him, while color grading remained problematic; the proposed UI/token explanation is unconfirmed.",
+        "14:01–15:18 — The speaker chooses Resolve MCP for his own professional workflow and sees Agent Two as an easier guided alternative. His final benefit is help with boring tasks, not an automatically perfect finished video."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "description": "Hermans questions whether prompt-driven editing really saves time, reduces the knowledge required or makes financial sense. He introduces three workflows—Resolve MCP with ChatGPT, invideo with ChatGPT, and invideo with Agent Two—and sets up a same-task comparison rather than accepting impressive demos as proof of a complete replacement for editing.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 67,
+          "timestamp": "01:07",
+          "title": "The Comparison",
+          "description": "Each system receives the same recording of Hermans in his studio and the same request to remove silences, false starts and bad takes. Keeping both the source material and instruction consistent gives the subsequent rough-cut comparison a clear basis, although it remains one creator's practical test rather than a broad benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 83,
+          "timestamp": "01:23",
+          "title": "DR MCP Setup",
+          "description": "In the demonstrated workflow, Hermans connects Resolve's AI assistance to ChatGPT, which usually writes scripts to operate the editor and can also interact with its interface for some tasks. He uses the ChatGPT model he calls Astra because he already has a subscription; Claude is mentioned as an alternative, but he explicitly limits his comparison to what he tested himself.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 135,
+          "timestamp": "02:15",
+          "title": "invideo MCP Setup",
+          "description": "The invideo/ChatGPT setup shown uses a plugin from ChatGPT's settings, with editing performed in the cloud instead of on a powerful local workstation. Hermans then tries the same prompt with invideo's own Agent Two, separating the cloud editor's native assistant from the external ChatGPT connection for the comparison that follows.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 170,
+          "timestamp": "02:50",
+          "title": "The Results",
+          "description": "Resolve produces a rough cut whose take selection and understanding of the message match what Hermans wanted, while invideo with ChatGPT is nearly identical apart from one clipped word. Agent Two leaves a short false start but smooths cuts with room-tone crossfades and asks about alternate takes and a change in his position. All need review, but the native agent stands out for seeking editorial input instead of silently deciding everything.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 316,
+          "timestamp": "05:16",
+          "title": "The Color Grade",
+          "description": "An open-ended nostalgic analog request leads invideo to stronger visible styling and a film-damage effect that Hermans would tone down. Resolve protects skin tones but struggles to deliver the intended creative look, even with reference images, so he sees its better role in balancing, normalization and grouping before a human grade. The contrast separates technical automation for experienced editors from a more opinionated cloud tool for users who want creative help.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 439,
+          "timestamp": "07:19",
+          "title": "Is it easier?",
+          "description": "Hermans argues that directing and correcting Resolve still depends on editing and grading knowledge, even if one prompt can produce a useful first cut. invideo, especially Agent Two, feels more approachable because it supplies guidance and handles more decisions, which may suit social media and short-form work or generated assets. For experienced users, he treats Resolve MCP as an extra pair of hands rather than a replacement for expertise.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 551,
+          "timestamp": "09:11",
+          "title": "Is it faster?",
+          "description": "For the short comparison clip, Hermans says he could edit faster manually, and Agent Two's processing advantage is offset by uploading footage on his connection. A later update reports a different result for his longer videos: initial edits that took 30 to 45–50 minutes now take about five in Resolve with ChatGPT and resemble his own cuts. He also distinguishes total runtime from attention saved when repetitive work can proceed unattended.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 648,
+          "timestamp": "10:48",
+          "title": "Your computer",
+          "description": "Resolve continues to depend on the user's own computer, while the cloud alternative performs heavy processing on remote servers and can work with a less powerful local machine. Hermans finds the cloud editor more basic and unsuitable for the professional RAW/log environment he wants, so hardware convenience alone is not enough to select an editor. He recommends assessing the actual work and desired level of control first.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 695,
+          "timestamp": "11:35",
+          "title": "What does it cost?",
+          "description": "Early tests on a ChatGPT Plus plan at medium/high settings used up Hermans's five-hour allowance in roughly half an hour, especially during grading, leaving a long wait or extra credits. He presents UI-driven grading as a possible token-cost explanation rather than a confirmed cause. A later update says light-setting rough cuts have not repeated the problem, while grading still has limits, so model settings, tasks and subscription allowances must be tested together.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 837,
+          "timestamp": "13:57",
+          "title": "Who is it for?",
+          "description": "Hermans chooses Resolve MCP because he already edits in Resolve and wants to retain control while automating rough cuts, repetition and technical color preparation. He sees invideo with Agent Two as a useful simpler option for people comfortable with more automated creative decisions. Although all three delivered worthwhile results, his concluding value is assistance with tedious work—not a perfect video from a button or a substitute for a skilled editor.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-26T06:00:18+02:00",
+      "summarized_at": "2026-10-26T06:05:04+02:00"
+    },
+    {
+      "id": "S5Y3Hp2P740",
+      "title": "My NEW AI Editor Completely FREE 0$ (No Subscription)",
+      "channel": "Jad M.H  | AI Automation",
+      "upload_date": "20261025",
+      "thumbnail": "https://i.ytimg.com/vi/S5Y3Hp2P740/maxresdefault.jpg",
+      "description": "🔗 Try Higgsfield: https://higgsfield.ai/s/video-model-showdown-kling-4-jadm-h-cJsSBE\n\n🎁 Get Editor V1 free (works with free models): https://www.skool.com/nextphase-5790\nThe edit at the start of this video cost me $0. No editor, no Claude, no ChatGPT: a free open model (GLM 5.3 Flash in OpenCode) made it with my Editor V1 skill and a one-line prompt 👇\n\n🤝 Stuck installing? We run weekly calls in the Skool to help you.\nNot sponsored by OpenCode or Z.ai (GLM). Nobody paid me for this.\n\n💸 What $0 means\nNo Claude subscription, no ChatGPT, no credits, no API key, no account, no card. OpenCode's own counter for the session: 1.6 million tokens, $0.00. GLM 5.3 Flash is free in OpenCode \"for a limited time\". After that it's $0.15 in / $0.50 out per 1M tokens.\n\n🧠 Why it wasn't possible a week ago\nFor AI to edit a video you need an agent that opens your files, runs tools and keeps working for an hour without you. That meant Claude Code and at least the $20 Claude plan. Free models were too small, or got lost on a long job. 3 things changed:\n1. OpenCode: a free, open-source agent like Claude Code. It reads the same skill folders, so my Claude skills work as they are.\n2. A big free model inside it: since Oct 16, GLM 5.3 Flash is free in OpenCode. 321 billion parameters, MIT license, 6M+ downloads on Hugging Face last month. It runs on OpenCode's servers, so a weak computer is fine.\n3. The skill: Editor V1 holds my whole editing system (pace, colors, sounds, captions, the rules it can't break). The model just follows the recipe. No massive prompt.\n\n💻 What ran where\nCutting, graphics, rendering and the sound mix ran on my MacBook Air (16 GB). Only the model ran on OpenCode's servers: 321B parameters don't fit on a laptop. Qwen 3.5 (9B) already runs on mine for carousels, but it's too small to edit. For now.\n\n🎬 Which of my skills work with a free model\n✅ Editor V1 (the edit you just saw)\n✅ My screen-share editor (tested)\n🟡 My short-form editor: should work, not tested in OpenCode yet\n❌ My motion graphics skill: too much heavy code for open models right now\nTip: build skills with Claude (it's much smarter), then run them with the free model. As good as Opus 5.5? No. But it does the work.\n\n📥 How to install (step by step)\nMac or Windows. On Windows, OpenCode recommends WSL (Linux inside Windows): https://opencode.ai/docs/windows-wsl\n1. Install OpenCode. On Mac press Cmd + Space, type Terminal, open it, paste this line and hit enter (the exact line I tested):\ncurl -fsSL https://opencode.ai/install | bash\n2. In my Skool, open the Editor V1 post, open the Google Drive and download the Editor V1 zip. Leave it in Downloads. Don't move it, don't unzip it.\n3. Close the terminal, open a new one, type opencode and hit enter. No sign-in. If you see \"connect\", skip it (that's for paid models).\n4. Type /models, search \"free\", pick GLM 5.3 Flash Free. Press Ctrl + T until you see max.\n5. Copy the setup prompt from the Google Drive, paste it into OpenCode, hit enter. It says \"Claude Code\" inside, that's fine: OpenCode reads the same folder. It installs the skill and the free tools (FFmpeg, Python, the video renderer, the speech model), asks before anything that needs your password, and asks if you want the cut-out effect (about 1 GB). Then it makes a 7-second test video. If you see it, you're done.\n6. Type /new to start a fresh session.\n7. Drag in your video and type: edit this video with editor v1\nWhen it's done, say \"open it for me\", watch it and give notes. The more notes, the better it gets.\n\n💡 My tips\n1. Start short. My test was 38 seconds, not a 20-minute video.\n2. Give notes with timestamps: \"at second 5\", not \"the second 5\".\n3. Before it starts, ask how long it will take.\n\n🔒 About the OpenCode hack\nOn Oct 17, OpenCode said its hosted Console was breached and API keys saved there may have leaked. It says the open-source app wasn't affected. This setup uses no Console account and no API key.\n\n✏️ Notes\n• In the free model's edit, the graphics show the Opus 4.5 page while I say Opus 5.5. I left it as the model made it.\n• I said I might be the first. Smaller tests exist (a Shorts-trimming skill, a paid model editing for $0.33), but I couldn't find a free open model doing a full edit from one line.\n\n⏱️ Chapters\n0:00 A free model edited my video\n1:52 Why it matters\n2:23 Why it wasn't possible before\n5:17 How it works\n6:26 How to install it\n8:43 My tips\n\n🔗 Sources (checked Oct 25, 2026)\nOpenCode free models: https://opencode.ai/docs/zen\nGLM 5.3 Flash: https://huggingface.co/zai-org/GLM-5.3-Flash\nClaude plans: https://claude.com/pricing\n\n🔔 Subscribe, I drop free skills 3 to 4 times a week. See you in the next one.\n\n#AIVideoEditing #OpenCode #ClaudeCode #FreeAI #AIVideoEditor #OpenSourceAI #GLM #ZAI #ClaudeSkills #VideoEditing #AITools #AIAutomation #Claude #ContentCreator #OpenModels",
+      "duration_seconds": 590,
+      "url": "https://www.youtube.com/watch?v=S5Y3Hp2P740",
+      "summary": "What the free demo establishes: Jad presents an opening edit made with his Editor V1 skill, a short instruction and what he identifies as GLM 5.3 Flash in OpenCode, without a paid Claude/ChatGPT subscription, API key, account or card. His motivation is to remove the cost of experimenting for new creators, contrasting it with the $20 entry plan he cites for Claude. This is his own demonstration and cost report, not proof that every video or future session will be free, and his suggestion that he might be the first is not independently established.\n\nWhy the skill matters: Jad attributes the result to an agent that can access files and run tools, a capable hosted model, and a reusable editing recipe. He says OpenCode reads the same skill folders as Claude Code, so Editor V1 can carry over rules for visual pacing, colors, sound, caption placement and prohibited behavior without a huge prompt. He describes the model as 321 billion parameters and says it became free in OpenCode on October 16; these are speaker-reported specifications and availability claims. Cutting, transitions, graphics, rendering and mixing run on his laptop, while the model runs remotely: this is not an offline, fully local editor.\n\nCapability and cost boundaries: Jad recommends using Claude to build the more demanding skill, then having the cheaper/free model execute the established recipe. He reports that his edit used 1.6 million tokens for $0, but says it is not as good as the Opus 5.5 comparison he names and excludes his code-heavy motion-graphics skill from the supported workflow. The description makes the testing boundary more precise: Editor V1 and screen-share editing were tested, while short-form editing is expected to work but was not yet tested in OpenCode. It also calls the free model offer limited-time and lists later per-token pricing, so the title's no-subscription claim should not be read as a permanent zero-cost guarantee.\n\nInstallation and verification: His walkthrough installs OpenCode, leaves the downloaded Editor V1 ZIP in Downloads, selects GLM 5.3 Flash Free through /models and uses Ctrl+T to choose max. A setup prompt installs the skill and tools including FFmpeg, Python, a video renderer and a speech model, with an optional cut-out effect described as about 1 GB. A seven-second test render is the installation check; after /new, he drags in footage and asks to edit it with Editor V1. These are the creator's setup instructions, not an installation or render independently repeated for this summary.\n\nPractical verdict and limits: Jad recommends starting with a short clip—his test was 38 seconds, not a 20-minute first job—giving revision notes with explicit timestamps, and requesting a time estimate before work begins. He advocates the workflow as a low-cost way to start creating, while still watching the result and iterating. The description discloses a factual graphics mismatch in the demo and an OpenCode hosted-Console breach notice, which are not discussed in the spoken walkthrough; it says the open-source app was unaffected and this setup uses neither a Console account nor an API key. Treat those as creator-provided disclosures rather than an independent security assessment or a guarantee of error-free output.",
+      "why_valuable": "Decide whether to trial Editor V1 with OpenCode for a short, low-cost edit before paying for an assistant subscription. The actionable distinction is that a reusable skill lets the hosted model direct local editing tools, but the free offer is temporary, the demonstrated clip is only 38 seconds, motion graphics are excluded, and the output still needs factual and visual review.",
+      "quick_takeaways": [
+        "Jad reports editing a 38-second clip with Editor V1 and hosted GLM 5.3 Flash in OpenCode: 1.6 million tokens and a $0 session charge. This is his demo, not an independently repeated test.",
+        "The model runs remotely; cutting, graphics, rendering and audio mixing run on the laptop. This is not a fully local or offline workflow.",
+        "Reuse the skill for pacing, captions, sound and style instead of writing a huge prompt. Jad recommends Claude for building the skill, then the free model for execution.",
+        "Select the free model, run the setup and verify its seven-second test render. Start a new session, add a short clip, then review and request timestamp-specific changes.",
+        "Free access is limited-time according to the description. Motion graphics are excluded, short-form compatibility was not yet tested in OpenCode, and the creator discloses a graphics mismatch in the demo."
+      ],
+      "key_takeaways": [
+        "00:00–01:24 — Jad attributes the opening edit to Editor V1 plus GLM 5.3 Flash in OpenCode, with no paid assistant subscription, API key or account. His novelty claim is tentative, not independently verified.",
+        "02:52–04:30 — The reusable skill supplies pacing, colors, sound, caption placement and guardrails. Jad's practical mechanism is a tool-using agent following an existing editing recipe, not a giant one-off prompt.",
+        "04:32–05:16 — Cutting, transitions, graphics, rendering and mixing run on Jad's laptop, while the model is hosted remotely. His reported 321-billion-parameter model size is not evidence of a laptop-local or offline setup.",
+        "05:17–06:26 — Jad recommends building the skill with Claude and running it with the free model, reports 1.6 million tokens at $0, and says the result is below his named Opus comparison. He specifically excludes code-heavy motion graphics; the description further labels short-form support as untested in OpenCode.",
+        "06:26–08:18 — His setup selects GLM 5.3 Flash Free via /models, uses Ctrl+T for max, and installs editing dependencies through the supplied setup prompt. The optional cut-out effect is about 1 GB and a seven-second render serves as the smoke test.",
+        "08:18–09:06 — After /new, drag in footage and request Editor V1, then watch the result and give precise timestamped notes. Jad's test was 38 seconds, and he advises against starting with a 20-minute video.",
+        "Creator-description caveats — Free model access is explicitly limited-time; the description lists later rates of $0.15 input and $0.50 output per million tokens. Those are creator-provided terms, not a permanent offer verified by this summary.",
+        "Creator-description disclosures — The demo displays an Opus 4.5 page while the narration says Opus 5.5, illustrating why sourced graphics still require review. The description also relays an OpenCode hosted-Console breach notice and says this no-account/no-key setup does not use that Console; this is not an independent security clearance."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "A free model edited my video",
+          "description": "Jad says the opening edit was produced with his Editor V1 skill, a small instruction and a free model he identifies as GLM 5.3 Flash, without a paid assistant subscription, API key or account. He previews an explanation of why this combination now works, which skills are suitable and how to install it, while acknowledging his claim to being first is only what he could find. The demonstration is his own reported result, not a comparative benchmark.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 112,
+          "timestamp": "01:52",
+          "title": "Why it matters",
+          "description": "Jad frames subscription costs and repeated paid experiments as barriers for people who are not yet sure content creation will work for them. He cites a $20 Claude plan, additional credit costs and the greater expense of hiring an editor to argue that a free starting point reduces the cost of learning. This is the economic motivation for the tutorial, not evidence that every production task has become costless.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 143,
+          "timestamp": "02:23",
+          "title": "Why it wasn't possible before",
+          "description": "Jad credits three ingredients: OpenCode's tool-using agent, a remotely hosted model he describes as 321 billion parameters, and an existing editing skill that sets pacing, colors, sounds, caption positions and guardrails. He says OpenCode reads Claude Code's skill folders, so the recipe can be reused rather than rebuilt or replaced with a huge prompt. He clarifies that the laptop performs the actual edit and render while the model runs on servers; his smaller local model is used for carousels, not demonstrated video editing.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 317,
+          "timestamp": "05:17",
+          "title": "How it works",
+          "description": "Jad separates creating a demanding editing system from executing it, recommending Claude to build the skill and the free model to follow the finished instructions. He excludes his code-heavy motion-graphics skill, then reports that the Editor V1 demonstration used 1.6 million tokens at a $0 session charge. He explicitly says the result is not as good as his named Opus comparison, which makes this a practical cost trade-off rather than a claim of equal capability.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 386,
+          "timestamp": "06:26",
+          "title": "How to install it",
+          "description": "The walkthrough installs OpenCode, keeps the Editor V1 ZIP in Downloads, selects the free GLM model with /models and chooses max using Ctrl+T. The supplied setup prompt installs the skill plus editing tools, asks before password-requiring actions and offers an approximately 1 GB cut-out effect, then produces a seven-second test video. Jad finishes by starting a fresh session with /new, adding footage, requesting Editor V1 and watching the output before giving revisions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 523,
+          "timestamp": "08:43",
+          "title": "My tips",
+          "description": "Jad advises testing a short clip first because his example was 38 seconds, rather than beginning with a 20-minute job. He recommends explicit timestamp-based feedback and asking for a duration estimate before editing starts, reflecting the need to review and steer the agent rather than accepting its first result blindly. His final recommendation is to use the free skill as a low-cost entry point and seek help through his community when setup or results need work.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-10-26T06:00:18+02:00",
+      "summarized_at": "2026-10-26T06:05:04+02:00"
+    },
     {
       "id": "cmvF7nfEJLo",
       "summary": "**One console for multiple agents:** Alex Finn recommends Herdr as a free, open-source terminal workspace for managing coding agents across projects and computers, rather than replacing the underlying agents themselves. His interface groups machines into project spaces, gives each agent a tab, and brings completed work to the top of a shared status list. He demonstrates Claude Code and Codex in the same environment and argues that a completion queue reduces the constant tab-switching needed in separate desktop applications; this is his workflow preference, not a measured productivity benchmark.\n\n**Build a baseline before parallelizing:** The setup walkthrough creates a project directory and separate gameplay, maps, models, testing and terminal tabs. Finn first asks a single Codex agent to build a Three.js, Diablo-like roguelike, plays the initial result, and only then assigns parallel changes: loot and money, additional enemy types, a larger map with chests, and unlockable class abilities. That sequencing is the useful method: establish a playable shared foundation before dividing improvements into bounded jobs. Although mixed providers are supported, he switches the demonstration to Codex because he says his Claude allowance is exhausted and he has already spent about $3,000 in Claude credits that week.\n\n**A playable demo, not a controlled speed test:** An agent reports eight new enemy types, and the final playthrough shows class selection, gold drops, different enemies, a loot chest and fire abilities. Finn describes the development as roughly five minutes but also says he removed pauses; no unedited timing, comparison run, merge-conflict analysis or production-readiness assessment is supplied. His conclusion is that the status-driven loop—assign a task, watch for completion, inspect the result, issue the next prompt—makes concurrent development easier for him, including across unrelated projects and devices.\n\n**Remote access and the HUD:** Finn shows a custom iPhone app for reading agent output and sending messages, and says he also built an Apple Watch companion. His separate open-source Herdr HUD provides a floating button, completion notifications and an agent messaging panel above other applications, including games. He closes by saying this combination has replaced the coding desktop apps in his own routine. The practical proposition is improved supervision of existing agents, not free model usage, guaranteed autonomous delivery or proof that multitasking improves software quality.",
