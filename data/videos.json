@@ -1,5 +1,255 @@
 [
   {
+    "id": "2DebTsaMoLE",
+    "title": "Hermes Agent Explained Simply. (Set Up in Minutes with Hostinger).",
+    "channel": "Tristen O'Brien",
+    "upload_date": "20261027",
+    "thumbnail": "https://i.ytimg.com/vi/2DebTsaMoLE/maxresdefault.jpg",
+    "description": "Get your own always-on Hermes Agent: https://www.hostinger.com/tristen10\n\nUse code TRISTEN10 for 10% off the Hermes Agent VPS plan (first-time purchases only).\n\nThis video is sponsored by Hostinger.\n\nHermes Agent is an open-source AI agent from Nous Research that gets better the longer you use it. In this Hermes Agent tutorial for beginners, I set it up from scratch on a Hostinger VPS, connect my ChatGPT subscription as the AI model, text it from my phone on Telegram, schedule a 7 a.m. morning briefing, and teach it a new skill. No coding background needed. If you've been looking for a personal AI assistant or an OpenClaw alternative that runs 24/7 on your own server, this is the easiest way to get started.\n\nCHAPTERS\n0:00 The first AI agent I'd set up\n0:38 What Hermes Agent is\n0:51 Intern to manager to director\n1:55 Why not run it on your laptop\n2:17 What a VPS is and why I use Hostinger\n2:53 Picking your Hermes plan\n4:23 Checkout add-ons and the TRISTEN10 code\n5:16 One-click Hermes setup\n6:21 Docker Manager walkthrough\n7:12 Signing in to Hermes\n7:39 Connecting ChatGPT as the brain\n8:49 Texting Hermes on Telegram\n10:14 One memory on phone and computer\n10:51 Scheduling a 7am morning briefing\n12:22 Teaching Hermes a new skill\n13:17 Usage limits to know about\n13:44 Recap\n\nWHAT YOU'LL LEARN\n\n∙ What Hermes Agent is and how its self-improving skills and persistent memory work\n∙ Why an AI agent needs a VPS instead of your laptop\n∙ How to pick a Hostinger VPS plan (KVM 1, KVM 2, KVM 4, KVM 8)\n∙ How to deploy Hermes Agent with Hostinger's one-click Docker template\n∙ How to connect your ChatGPT or Codex subscription to Hermes\n∙ How to set up a Telegram AI assistant you can text from anywhere\n∙ How to schedule automated tasks (cron jobs) like a daily morning briefing\n∙ How to save a skill so your AI agent does the job better next time\n\nRESOURCES\nhttps://www.hostinger.com/support/how-to-get-started-with-hermes-agent-at-hostinger/\n\n\n#HermesAgent #AIAgent #Hostinger",
+    "duration_seconds": 865,
+    "url": "https://www.youtube.com/watch?v=2DebTsaMoLE",
+    "summary": "Persistent assistant, not a new model: Tristen O'Brien presents Hermes as an open-source assistant from Nous Research that retains preferences and saves reusable task procedures as skills. His intern-to-director analogy describes less repeated instruction, not independently measured intelligence gains. A continuously running VPS avoids missed jobs when a laptop sleeps; he also acknowledges that messages still go to the chosen AI provider even though saved skills, history and keys reside on the server. This is a Hostinger-sponsored beginner demonstration, not a hosting comparison or a guarantee of unattended reliability.\n\nHosting choices and checkout: O'Brien chooses KVM 2 on a 24-month plan, describing KVM 1 as suitable for one agent and larger plans as options for heavier workloads or teams. These are his sizing recommendations, not load-test results. He declines the ready-to-use AI-credit add-on because he intends to use his existing ChatGPT subscription, enables Oxylabs for web access, and reports an allowance of 1,000 Oxylabs credits. The creator description advertises TRISTEN10 for 10% off first-time purchases; these are promotional terms reported in the video, not independently checked current offers.\n\nDeployment and model authentication: The demonstrated flow selects a server region and the Hermes template, retains the generated admin credentials and deploys into Docker Manager. O'Brien explains the app container and its accompanying connection-security component before opening the browser dashboard. The important exception to the point-and-click workflow is ChatGPT/Codex sign-in: he opens the Hermes container terminal, uses the model selector and completes device-code authentication in a browser. Thus VPS payment and model access are separate decisions; a deployed dashboard is not yet a configured assistant.\n\nPhone access and reusable preferences: He links Telegram through the channel setup, saves and restarts the gateway, and reports that restarting the Hermes container resolves the gateway error he encountered. He then saves a short, to-do-first briefing preference on the computer and retrieves it after starting a fresh Telegram chat, demonstrating cross-interface preference recall in this installation. This establishes a useful continuity check rather than proving every conversation is automatically shared in full across every platform.\n\nUseful jobs, skills and limits: With his to-do integration already connected, O'Brien schedules a 7 a.m. briefing containing tasks, three linked AI news stories, New York weather and a quote, then manually triggers it to demonstrate Telegram delivery. He stresses setting the correct time zone. A second task collects five weekly AI announcements with small-business implications; Hermes does not initially save it as a skill, so he explicitly requests that and successfully reuses the format for marketing tools. His final recommendation is to begin with one recurring job and measure usage, because exhausted credits or ChatGPT subscription limits can stop replies; the walkthrough does not demonstrate quota failover, security hardening or long-term uptime.",
+    "why_valuable": "For an existing Hermes user, the strongest lesson is to test one time-zone-correct briefing end to end, explicitly save useful workflows when automatic skill creation does not happen, and monitor model quotas before adding jobs. For a new deployment, it helps separate VPS hosting from model access and exposes the terminal-authentication and restart steps hidden behind the one-click pitch; Hostinger recommendations are sponsored, not comparative evidence.",
+    "quick_takeaways": [
+      "A working server is not enough: configure model access separately. O'Brien connects an existing ChatGPT subscription through terminal-based device authentication rather than buying the AI-credit add-on.",
+      "Test a briefing immediately instead of waiting overnight, and specify your time zone. His Telegram example combines tasks, three linked AI stories, weather and a quote.",
+      "A preference saved on the computer is recalled in a fresh Telegram chat. His example keeps briefings short and places the to-do list first.",
+      "Skill saving is not guaranteed to happen automatically: he explicitly saves a five-announcement research workflow, then reuses it for marketing tools.",
+      "Start with one scheduled job and monitor quota use. VPS uptime does not remove ChatGPT limits or replenish exhausted AI credits.",
+      "This is a Hostinger-sponsored setup demo, not proof that a VPS is mandatory or that self-hosting keeps prompts away from the selected AI provider."
+    ],
+    "key_takeaways": [
+      "01:35–02:47 — Skills preserve reusable task steps, while hosting keeps the process available. O'Brien explicitly distinguishes server-stored history and keys from messages sent to the selected model provider.",
+      "03:21–04:37 — His suggested starting sizes are KVM 1 for a single agent and KVM 2 for more headroom; he selects KVM 2 for 24 months and skips the separate AI-credit add-on. This is sponsored sizing advice, not a capacity benchmark.",
+      "07:49–08:47 — ChatGPT/Codex authentication cannot be completed in the demonstrated dashboard alone: the container terminal launches the model selector and browser device-code sign-in.",
+      "09:23–09:40 — Saving the Telegram connection requires a gateway restart; O'Brien reports fixing his specific restart error by restarting the Hermes container in Docker Manager.",
+      "10:23–10:42 — A short, to-do-first briefing preference entered on the computer is recalled after a fresh Telegram chat, showing persistent preference reuse in this setup.",
+      "11:02–11:59 — The 7 a.m. briefing includes tasks, three linked AI news stories, New York weather and a quote. He checks the cron entry and manually triggers delivery, while warning that the server's time zone may differ from the user's.",
+      "12:28–13:16 — His five-announcement small-business research task is only saved as a skill after an explicit request; a marketing-only follow-up then keeps the requested format without repeating the instructions.",
+      "13:19–14:17 — The closing advice is to start with one recurring job and watch usage before scaling. Both prepaid AI credits and ChatGPT subscription quotas constrain an otherwise always-on assistant, and the closing discount is a sponsor promotion."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "The first AI agent I'd set up",
+        "description": "O'Brien recommends this assistant to beginners because it runs on a server, can message a phone and retains what it learns between tasks. He promises a morning-briefing setup without a coding background and discloses Hostinger sponsorship before beginning, so the recommendation should be read as a sponsored tutorial rather than an independent product ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 38,
+        "timestamp": "00:38",
+        "title": "What Hermes Agent is",
+        "description": "Hermes is introduced as an open-source agent from Nous Research, with code that anyone can inspect and run. O'Brien immediately frames its appeal around a frustration with conventional AI assistance, setting up the next comparison about repeatedly teaching an assistant how work should be done.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 51,
+        "timestamp": "00:51",
+        "title": "Intern to manager to director",
+        "description": "An employee-promotion analogy separates a beginner who needs repeated explanations from a manager or director who can carry out familiar work. O'Brien connects that progression to saving complex-task procedures as written skills, retaining conversations and supporting many model choices; the claimed improvement is reusable knowledge, not a measured benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 115,
+        "timestamp": "01:55",
+        "title": "Why not run it on your laptop",
+        "description": "A sleeping or restarting personal computer interrupts the assistant, which is a problem for work that should happen while its owner is away. O'Brien also notes local hardware constraints, making availability the practical reason to consider another host rather than presenting a test of different machines.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 137,
+        "timestamp": "02:17",
+        "title": "What a VPS is and why I use Hostinger",
+        "description": "A rented virtual server is presented as a continuously available computer, with Hostinger's template reducing installation work. O'Brien says saved skills, history and API keys remain on that private server but explicitly acknowledges that messages still go to the selected AI model, an important limit to the privacy claim.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 173,
+        "timestamp": "02:53",
+        "title": "Picking your Hermes plan",
+        "description": "The server tiers are explained through an apartment-size analogy: KVM 1 for trying one agent, KVM 2 for more processing power and memory, and larger tiers for heavier use or a team. O'Brien selects KVM 2 on a 24-month plan and promotes the ready-made template, lack of per-agent hosting fees and gateway key, but provides no comparative workload measurements.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 263,
+        "timestamp": "04:23",
+        "title": "Checkout add-ons and the TRISTEN10 code",
+        "description": "At checkout he declines ready-to-use AI credits because he will connect a paid ChatGPT subscription instead, but enables Oxylabs to help read sites that block bots. He reports 1,000 included Oxylabs credits and demonstrates a 10% first-purchase coupon; the full creator description gives its spelling as TRISTEN10, and these terms are promotional rather than independently verified current pricing.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 316,
+        "timestamp": "05:16",
+        "title": "One-click Hermes setup",
+        "description": "Inside hPanel he selects the recommended server location, searches for the Hermes template and keeps the prefilled admin username and password, copying the password for later. He skips generating the Hostinger AI-router key because he is using ChatGPT, clicks deploy and says the application is ready after roughly a minute and a half, showing the difference between template deployment and subsequent model setup.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 381,
+        "timestamp": "06:21",
+        "title": "Docker Manager walkthrough",
+        "description": "Docker Manager shows the running assistant alongside an automatically configured component that O'Brien describes as securing browser access. He explains containers in plain language and points out Open, Terminal and the credits area, then flags that one later authentication step cannot be performed entirely through the dashboard.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 432,
+        "timestamp": "07:12",
+        "title": "Signing in to Hermes",
+        "description": "Opening the application prompts for the admin credentials retained during deployment. O'Brien declines metrics sharing and reaches a dashboard containing chat, sessions, files and models, but the assistant still needs a model connection before this installed interface can do useful work.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 459,
+        "timestamp": "07:39",
+        "title": "Connecting ChatGPT as the brain",
+        "description": "Searching for Codex under the main-model setting reveals that subscription sign-in must happen outside the dashboard. O'Brien opens the Hermes container terminal, runs the model-selection command, chooses the ChatGPT/Codex subscription route and completes browser device-code sign-in, then returns to confirm the selected model and medium reasoning effort.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 529,
+        "timestamp": "08:49",
+        "title": "Texting Hermes on Telegram",
+        "description": "The Telegram channel is created through a QR-assisted phone flow, followed by saving the configuration and restarting the gateway. O'Brien encounters a restart error and says restarting the Hermes container resolves it; an incoming Telegram greeting and a successful dashboard reply then confirm communication, though no substantive automation has been assigned yet.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 614,
+        "timestamp": "10:14",
+        "title": "One memory on phone and computer",
+        "description": "On the computer he asks for short morning briefings with the to-do list first and observes a memory update. He then starts a fresh Telegram chat and asks how he likes the briefing; the answer recalls the desktop preference, demonstrating that this saved instruction survives a new chat and a change of interface.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 651,
+        "timestamp": "10:51",
+        "title": "Scheduling a 7am morning briefing",
+        "description": "With a to-do integration already connected, he requests a daily 7 a.m. message containing tasks, three AI news stories with links, New York weather and a quote. He checks the cron entry, stresses setting the user's time zone and manually triggers the job to confirm Telegram delivery, distinguishing an exercised workflow from a schedule that has merely been created.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 742,
+        "timestamp": "12:22",
+        "title": "Teaching Hermes a new skill",
+        "description": "The research request asks for five weekly AI announcements, each with a small-business explanation of no more than two sentences and a recommendation about trying it. Hermes does not initially save the procedure, so O'Brien explicitly requests that; a marketing-tools follow-up reuses the format, illustrating both the benefit of skills and the need to check that one was actually created.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 797,
+        "timestamp": "13:17",
+        "title": "Usage limits to know about",
+        "description": "O'Brien warns that running out of AI credits stops replies until they are replenished, while a connected ChatGPT account remains subject to its subscription limits. He recommends measuring the consumption of one recurring briefing before adding more agents, because continuous hosting does not imply unlimited model availability.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 824,
+        "timestamp": "13:44",
+        "title": "Recap",
+        "description": "The closing pitch returns to an always-running server, phone access and persistent memory, while encouraging viewers to begin with just the morning briefing. O'Brien reiterates Hostinger's ease-of-setup and privacy claims and the first-purchase discount, ending with a sponsored recommendation rather than evidence from an extended reliability or security test.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-28T06:00:10+02:00",
+    "summarized_at": "2026-10-28T06:05:01+02:00"
+  },
+  {
+    "id": "uD99aKV4fq8",
+    "title": "From Vibe Coder to AI Engineer: The Complete Roadmap",
+    "channel": "Leon van Zyl",
+    "upload_date": "20261026",
+    "thumbnail": "https://i.ytimg.com/vi/uD99aKV4fq8/maxresdefault.jpg",
+    "description": "The complete AI engineer roadmap for vibe coders, from my talk at the AI Practitioner Summit 2026.\n\n🎁 Get my free RAMP Framework course (the QR code from this talk) in my free community: https://www.skool.com/leonvanzyl\n\n🚀 Agentic Labs — exclusive AI coding courses, live Q&As, workshops & deep dives: https://skool.com/agentic-labs\n\nVibe coding works for toy apps, but once real users trust your app with their data, you are accountable for everything your agent ships. This is my session from the AI Practitioner Summit 2026: the roadmap from vibe coder to AI engineer. You won't need to write the code yourself, but you will learn to understand your stack and keep your app secure. I use Claude Code and Codex, but the workflow fits any coding agent.\n\nWe start with the fundamentals and work up to a software factory where 10 coding agents pick up work and open pull requests while you sleep. Stick around for the end, where you'll see that factory running inside a 3D office.\n\nResources Mentioned\n🧩 My skills repo (start-an-app + review-an-app): https://github.com/leonvanzyl/skills\n🏢 CubeFarm (open source, run npx cubefarm): https://github.com/leonvanzyl/cubefarm\n\n▶️ Watch next: Harness Engineering: Make Any Coding Agent 10x Better https://youtu.be/z1EaBe9oIME\n\nTools I Use\n🚀 Wisprflow (speech to text): https://wisprflow.ai/r?LEON114\n\n⏱️ Chapters\n0:00 AI Engineer Roadmap\n5:35 Learn Any Codebase With AI\n9:42 Agent Skills and AGENTS.md\n16:17 GitHub Issues Workflow\n20:14 Claude Code Worktrees\n22:04 CI CD Pipeline for Agents\n29:29 Software Factory and Agent Swarms\n32:06 Harness Engineering\n34:59 CubeFarm 3D Coding Harness\n\nConnect\nX: https://x.com/leonvz\nTikTok: https://www.tiktok.com/@leonvanzylofficial\n\nBusiness & sponsorships: leon@cognaitiv.ai",
+    "duration_seconds": 2238,
+    "url": "https://www.youtube.com/watch?v=uD99aKV4fq8",
+    "summary": "Accountability before autonomy: Leon van Zyl's AI Practitioner Summit roadmap places the AI engineer between a hands-off vibe coder and a developer who rejects coding agents. His definition does not require typing all the code, but does require understanding the stack, directing multiple agents and owning performance, scalability and security. A breach in an app built and deployed by an agent remains the app owner's responsibility. His starting verdict is that rapid prompting is acceptable for experiments but inadequate for software trusted with real users' data.\n\nLearn the building blocks, then standardize them: He recommends asking an agent to explain a familiar open-source repository, documenting its frontend, backend, authentication, payments and database, then building new projects from those understood components rather than copying the repository. Repeated setup and review instructions become skills: his examples include conditional AI/authentication setup and reviews for security, product drift and SEO. He urges learners to inspect and rewrite borrowed skills, maintain a shared skills repository and keep AGENTS.md concise, with explicit testing, database-change and design-system rules.\n\nMake work reviewable before running it in parallel: GitHub issues replace local feature checklists as the common record for scoped bugs, features, dependencies, feedback and test evidence. The intended path is issue to implementation to tests to pull request, with a person deciding what merges. Separate feature branches and worktrees let two agent sessions make independent changes without directly editing the production branch, although isolation alone does not establish that their combined changes are correct.\n\nEnforce quality and separate detection from repair: Van Zyl argues for required unit and end-to-end checks that block merging when they fail, supplemented by fresh-session code review and a separate security audit. He reports that people in his community sometimes use a different provider's model to review an implementation; this is a practice recommendation, not proof of independent correctness. His security-review example uses the OWASP Top 10 and records findings and resolutions on the issue or pull request. Scheduled security, design and code-review agents should identify gaps and open non-duplicate issues, not directly repair the application; implementation agents then work those issues in isolated worktrees.\n\nScale the workflow, not just the agent count: In his software-factory demonstration, marking a request for a PS1-style graphics filter as ready changes its label to factory running and dispatches it to a worker in a 10-agent pool; questions return through issue comments, preserving human involvement. He presents cloud virtual machines as an isolation and resource-management choice, not a measured guarantee against prompt injection. His SMOL harness reduces the system prompt and toolset for small local models and discovers Ollama/LM Studio models, while enterprise harnesses can enforce tool restrictions and data-handling policies. The closing CubeFarm demonstration maps real GitHub issues and pull requests onto a 3D office; its playful interface is optional, and the substantive conclusion is to build a repeatable, tested, reviewable workflow before increasing autonomy. He points beginners to the simpler RAMP Framework course rather than insisting they start with a factory.",
+    "why_valuable": "For Jaco's growing app portfolio, the actionable decision is to standardize issue-to-worktree-to-tested-PR delivery before adding more coding agents. The roadmap supplies concrete controls—shared skills, concise project rules, mandatory CI checks, documented security reviews and monitoring agents that only file issues—so parallel development increases reviewable throughput rather than unattended production risk; the 10-agent factory and CubeFarm are demonstrations, not quantified productivity evidence.",
+    "quick_takeaways": [
+      "Owning an AI-built app still means owning its security. Learn the stack and document architecture decisions; an agent writing the code does not transfer responsibility for user data.",
+      "Turn repeated setup and review instructions into your own skills, keep them in a shared repository, and keep AGENTS.md short enough to express real guardrails clearly.",
+      "Use a GitHub issue for each scoped change, an isolated worktree for implementation, and a pull request for review. Attach test evidence and progress to the issue.",
+      "Block merging when unit or end-to-end checks fail. Add fresh-session code and security reviews, and record findings and fixes rather than accepting a claim that the app is safe.",
+      "Keep scheduled security, design and code reviewers separate from repair workers: scanners should open non-duplicate issues, not silently change production.",
+      "His factory dispatches work to a 10-agent pool, while CubeFarm visualizes real issues in 3D. Start with the disciplined workflow; neither demo supplies a measured productivity gain."
+    ],
+    "key_takeaways": [
+      "04:12–05:17 — If an AI-built app leaks customer information, van Zyl argues that the owner remains accountable. Regular security review and an understood, reliable stack are part of shipping, not optional extras delegated away with the code.",
+      "06:34–09:12 — Ask an agent to explain a real repository, record its frontend, database, authentication and payment choices, then build fresh projects with those components. Push the results to GitHub so experience becomes a reviewable portfolio rather than abandoned local prototypes.",
+      "10:26–16:16 — Repeated setup, security, drift and SEO instructions belong in reusable skills; study and adapt borrowed ones instead of copying them blindly. Pair a shared skills repository with concise AGENTS.md rules for tests, schema changes, worktrees and the design system.",
+      "17:07–22:03 — GitHub issues provide scoped work, dependencies, feedback and test evidence. Separate worktrees let two coding sessions work in parallel, with pull requests reviewed before changes reach main.",
+      "23:49–26:30 — Require unit/end-to-end checks before merging, then add fresh-session code review and a separate security audit. His example security skill uses the OWASP Top 10 and records findings and resolutions on the issue or pull request; these reviews do not prove an app vulnerability-free.",
+      "27:38–29:27 — Scheduled security, UI-design and code-review agents should open issues only when a matching issue does not already exist. Keeping discovery separate from implementation preserves a reviewable queue instead of permitting scanners to change the app directly.",
+      "30:09–32:04 — The factory example marks a PS1-filter request ready, changes its status to factory running and assigns a worker from a 10-agent pool. Issue comments support questions and human answers; the demo shows dispatch, not a completed feature or a measured throughput improvement.",
+      "33:00–37:16 — SMOL pares down prompts and tools for small local models, whereas CubeFarm exposes real GitHub work through a 3D office. Choose a harness for model capability and organizational controls, not visual novelty; beginners are offered the simpler RAMP workflow."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "AI Engineer Roadmap",
+        "description": "Van Zyl distinguishes hands-off vibe coding from an AI-engineering role that understands the stack and directs agents without necessarily writing the code manually. A hypothetical breach of an app holding real users' information makes the responsibility concrete: the owner cannot blame the contracted agent, so reliable architecture and recurring security review become prerequisites for moving beyond toy projects.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 335,
+        "timestamp": "05:35",
+        "title": "Learn Any Codebase With AI",
+        "description": "The recommended learning exercise is to have an agent clone a project you like, explain its architecture at your level and identify choices such as authentication, payments, database and frontend libraries. Van Zyl says to record those building blocks outside the chat, then build new applications with them and publish the work on GitHub for backup, feedback and a portfolio; understanding and reconstruction matter more than copying a repository.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 582,
+        "timestamp": "09:42",
+        "title": "Agent Skills and AGENTS.md",
+        "description": "Recurring project setup becomes a start-an-app skill that asks for requirements and conditionally loads instructions for AI features or authentication, while review skills check security, product drift and SEO. Van Zyl urges viewers to read, adapt and eventually author their own prompts, sharing them through a skills repository rather than treating downloaded skills as untouchable. He pairs this with a concise AGENTS.md covering planning, testing, schema changes, worktrees and a referenced design system, making standards reusable across sessions and teammates.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 977,
+        "timestamp": "16:17",
+        "title": "GitHub Issues Workflow",
+        "description": "Instead of hiding a backlog in local feature files, van Zyl proposes GitHub issues for logical units of work, with labels, dependencies and comments as the shared coordination layer. Agents can attach screenshots and test evidence while implementing a change, and users can submit work from the website or a phone. The intended outcome is a tested pull request for a human to review and merge, establishing an auditable path toward later automation.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1214,
+        "timestamp": "20:14",
+        "title": "Claude Code Worktrees",
+        "description": "A new feature or bug fix should be made in a separate feature branch and worktree, not by directly changing the main copy deployed to users. Van Zyl illustrates a second agent working in another isolated copy at the same time, with reviewed and tested changes only squashed back into main afterward; this enables parallel work without immediately exposing unfinished edits to users.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1324,
+        "timestamp": "22:04",
+        "title": "CI CD Pipeline for Agents",
+        "description": "Van Zyl shows pull-request checks for unit and end-to-end testing and recommends rules that prevent a merge when those checks fail, rather than trusting an agent's own claim that it tested the change. He adds fresh-session code review and a separate OWASP-based security audit with findings recorded on the issue or pull request, then explains how multiple workers can use separate worktrees. The later monitoring example is deliberately different: scheduled security, design and code reviewers only open non-duplicate issues, including design-system mismatches and stale code, leaving implementation to other agents.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1769,
+        "timestamp": "29:29",
+        "title": "Software Factory and Agent Swarms",
+        "description": "A request for a PS1-style graphics filter is marked ready, relabeled factory running and assigned to a worker in van Zyl's pool of 10 coding agents. Questions can be posted back to the GitHub issue for a human answer, so automatic dispatch does not eliminate human involvement. He advocates isolated cloud virtual machines to reduce shared laptop contention and contain mistakes, then describes an overnight monitoring-to-PR workflow as the goal rather than presenting a measured end-to-end productivity result.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1926,
+        "timestamp": "32:06",
+        "title": "Harness Engineering",
+        "description": "Van Zyl's SMOL example uses a small system prompt, a restricted toolset and automatic discovery of Ollama or LM Studio models because he considers general-purpose harnesses poorly matched to small local models. He extends that reasoning to organizational needs such as detecting personal information before prompts are sent, restricting tools and enforcing CI checks. The practical claim is that the environment and available tools should fit the model and policy requirements, not that one popular agent interface suits every deployment.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2099,
+        "timestamp": "34:59",
+        "title": "CubeFarm 3D Coding Harness",
+        "description": "CubeFarm represents the software factory as a 3D office, but its monitors correspond to active coding sessions and its Kanban notes correspond to real GitHub issues. Creating a backlog task creates an actual issue, and completed work is represented through pull requests; the visualization is a front end to the same workflow rather than a replacement for review and security rules. Van Zyl names the open-source project and its npx cubefarm launch command, then closes by directing beginners who found the material complex to his simpler RAMP Framework course.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-28T06:00:10+02:00",
+    "summarized_at": "2026-10-28T06:05:01+02:00"
+  },
+  {
     "id": "cwsy-6gu5p4",
     "summary": "The cost of losing ownership: Andrew Olsson pauses work on an AI-powered insurance startup because prompting, waiting and reviewing generated code has displaced the creative flow he enjoyed. His analogy is commissioning a 300-page novel that expands to 450 and then 800 pages before its supposed author really understands it. He nevertheless argues that manual coding cannot compete commercially with AI's speed, creating a conflict between economic efficiency and satisfying work; his claim of code being written 100 times faster is an assertion, not a measured benchmark.\n\nA different mission: Olsson sees AI as an unfamiliar intelligence that makes human creativity more visible by contrast. Rather than treating literature, painting, mathematics and programming as obsolete, he argues they deserve deliberate preservation and development. This is a personal argument for reallocating attention, not evidence that software employment has disappeared or that his startup has formally closed.\n\nRejecting the urgency trap: He challenges the pitch that everyone must rush into AI entrepreneurship to avoid permanent economic exclusion. In his account, cheaper software also means more competitors, weaker code-based moats and customers who can copy a product or build their own substitute. He concludes that competing harder is not automatically worthwhile if the work and its supposed rewards are things he no longer wants.\n\nPhysical work and provenance: His own response is to collect pre-generative Blu-rays, video games and books, and spend more time drawing, painting, writing and shooting film. Film appeals to him because it creates a physical object with a traceable human process rather than an interchangeable generated image. He predicts renewed interest in analog and human-made culture, but offers his personal preferences rather than market data.\n\nThe final choice is trust over throughput: He plans to move his channel away from model-release hype and tutorials toward documenting how people stay human around AI. He commits not to use generative AI for this channel's ideas, scripts or thumbnails, while explicitly saying he still uses AI elsewhere and is not generally anti-AI. His verdict is that creative constraints, authorship and audience trust matter more to this work than making production easier or gaining views faster.",
     "why_valuable": "Separate a genuine business advantage from the pressure to ship more AI-generated code: Olsson's experience helps decide whether to continue a software venture, protect hands-on creative work, or set explicit AI-use boundaries that preserve authorship and customer trust. It is a personal decision framework, not proof that all software careers are over.",

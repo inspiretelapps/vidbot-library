@@ -1,0 +1,485 @@
+0:00 So, I run over 150 AI agents, and if you
+0:02 are a beginner, this is the very first
+0:04 one that I would set up. It's called
+0:06 Hermes Agent, and it runs on your own
+0:08 server. It also sends you text messages
+0:10 to your own phone, and it saves what it
+0:12 learns. So, it gets better the longer
+0:14 that you use it. And by the end of this
+0:16 video, it'll be sending you a morning
+0:18 briefing, so you have everything that
+0:20 you need to get started for the day. And
+0:21 guess what? You do not need to be
+0:23 technical to get this going. Matter of
+0:24 fact, the install only takes a couple of
+0:26 minutes. Now, full disclosure here, I
+0:28 did connect with Hosting Earth to
+0:29 sponsor this video, because that's what
+0:31 I use, and this is the simplest way to
+0:33 run Hermes. So, with that said, let's
+0:35 jump in and talk about what Hermes Agent
+0:37 actually is. A Hermes Agent is an
+0:39 open-source agent run by News Research.
+0:42 Hermes is open-source, which means that
+0:44 anybody can look at the code and run it,
+0:46 and Hermes fixes the one thing that bugs
+0:48 me the most about AI. So, I want you to
+0:50 think about this. Imagine that you're
+0:51 hiring an intern, and it's their very
+0:53 first day. Well, on the first day,
+0:55 you're going to explain how things are
+0:56 done. You're going to explain how you
+0:57 like the reports. You're going to show
+0:58 them where all of the important files
+1:00 are in the office. Well, a lot of AI
+1:02 agents can get stuck on that first day.
+1:04 Unless you stop and teach them, they're
+1:06 going to do that same job the exact same
+1:08 way that you showed them every single
+1:10 time. And Hosting Earth calls that the
+1:11 static AI problem. Now, I want you to
+1:13 think about how people get promoted in a
+1:15 business. Again, an intern, they're
+1:17 brand new, you need to explain
+1:18 everything to them. But a manager knows
+1:20 how things are done. Now, you still are
+1:22 going to check in on them as a business
+1:24 owner, but they know how to get stuff
+1:25 done. And then there's a director. They
+1:27 have proven that they know how to handle
+1:28 tasks, and they're just going to
+1:30 complete it and tell you how things
+1:31 went. Well, Hermes moves up that same
+1:33 ladder, but it does it a lot faster.
+1:35 When it works through a very complex
+1:37 task, it is going to save how it did
+1:39 that task, and they call that a skill. A
+1:41 skill is just a set of written steps
+1:43 that it can reuse over and over again,
+1:45 so the next time it already knows what
+1:47 to do. It also goes way beyond that.
+1:48 It's going to remember your
+1:50 conversations, and also works with
+1:51 hundreds of AI models, so you're not
+1:53 just locked into one of them. But nobody
+1:55 in this business would get promoted if
+1:57 they went home every night and they
+1:58 forgot everything, and so you had to
+2:00 re-teach them every single morning. And
+2:02 that's exactly what can happen if you
+2:03 run an agent on your own computer. If
+2:05 your laptop goes to sleep, or if your
+2:07 computer goes to sleep, your agent will
+2:09 go offline with it. If you reset your
+2:11 own computer, your agent stops working
+2:13 until it turns back on. And of course,
+2:14 it's also limited to the hardware that
+2:16 your laptop or computer actually has.
+2:18 Well, that's the problem we're solving
+2:19 today. Hermes needs what's called a VPS,
+2:22 and that stands for a virtual private
+2:23 server. And it's basically a computer
+2:25 that you can rent, but it never turns
+2:27 off. And that is why I use Hostinger.
+2:29 They have a Hermes agent template that
+2:31 deploys just in one click, and I'm going
+2:33 to show you exactly what that looks
+2:34 like. Also, one thing to keep in mind is
+2:35 your data stays yours. So, your skills,
+2:38 your conversation history, your API
+2:40 keys, all of that lives on your private
+2:42 server. Now, your messages are still
+2:43 going to go to whatever AI model that
+2:44 you pick, but everything Hermes saves
+2:47 stays on your own server. And because
+2:49 it's your server, it runs all day, and
+2:51 it runs all night, and it never clocks
+2:52 out or goes to sleep. So, let's go ahead
+2:54 and jump in and set this whole thing up.
+2:56 Okay, so the first thing we need to do
+2:57 is pick a plan, and the timing is really
+2:59 good here because Hostinger's Black
+3:01 Friday sale just kicked off. So, we are
+3:03 going to go over to
+3:03 hostinger.com/tristan10.
+3:06 It's going to bring you to this page
+3:07 right here, and by the way, that link is
+3:08 also in the description. If you scroll
+3:10 down on this page, you're going to see
+3:12 the Hermes agent plans. Now, KVM that
+3:14 you see right there, that is just the
+3:15 name of the kind of virtual server that
+3:17 we are renting. And the number is the
+3:19 size. So, think of it like you're
+3:21 renting an apartment. KVM 1 is the
+3:23 studio apartment. It's enough to run one
+3:25 agent. You can try it out, it works
+3:27 really good. KVM 2 doubles that
+3:29 processing power and the memory. So,
+3:31 with that, you can run a few agents, and
+3:33 you can run longer jobs without it
+3:34 slowing down. KVM 4 and KVM 8 are just
+3:37 when you get running with a lot of
+3:39 agents or the whole team is using it.
+3:41 And you can upgrade later if you want
+3:42 to, so you're not stuck with whatever
+3:44 you choose today. Now, I'm going to go
+3:45 with KVM 2 for this demo on a 24-month
+3:48 plan. In my opinion, this is the best
+3:50 value pick in the sale, and here's why I
+3:52 like it. First of all, there is
+3:53 virtually zero setup, and that's because
+3:55 the Hermes template already comes ready
+3:57 to go. There are no per agent fees, so
+3:59 you can run as many agents that your
+4:01 server can handle. It has enough power
+4:03 for long-running tasks that you give it,
+4:05 and of course, it has security built in,
+4:06 which is really important. It also gives
+4:09 you a gateway key, and a gateway key is
+4:10 just a long, random password that
+4:12 protects the connection between you and
+4:14 your agent. And if you pick a yearly
+4:16 plan, you also get a free domain. But,
+4:19 there is one add-on at checkout that you
+4:21 should know about. But, I'm going to add
+4:22 this to my cart right now, and on the
+4:23 next screen, you're going to see exactly
+4:24 what I'm talking about. It's called
+4:26 ready to use AI. Now, this gives you AI
+4:29 credits. It's the simplest way to set
+4:30 this up. But, because I pay for ChatGPT,
+4:33 I'm going to leave it off, and I'm going
+4:35 to connect my ChatGPT subscription
+4:37 instead. Now, the next box down is
+4:39 Oxylabs, and this one I am going to turn
+4:41 on. Think of Oxylabs like better eyes on
+4:44 the internet. Some websites block bots,
+4:47 but what Oxylabs does is it helps Hermes
+4:49 get through those and then read the
+4:51 website. And when you get a hosting or
+4:53 VPS, you also get 1,000 Oxylabs AI
+4:56 credits, and you get those for free. So,
+4:58 Hermes can get into those websites right
+5:00 away, and you only pay if you need more
+5:02 credits. And right here is where your
+5:04 coupon goes. If you type in Tristan10,
+5:07 all one word, all uppercase, and hit
+5:08 apply, you're going to see 10% come off
+5:11 of the final amount. Now, just know that
+5:12 this code is for first-time purchases.
+5:14 But, then go ahead and finish checking
+5:16 out, and we'll jump into the setup.
+5:18 Okay, so now that you have checked out,
+5:19 you have landed in the HPanel, which is
+5:21 Hostinger's dashboard. It says that my
+5:23 KVM 2 setup is not finished yet, so I'm
+5:26 going to click setup. Now, first it's
+5:28 going to ask you the server location.
+5:29 For me, it's recommending Boston as the
+5:31 fastest connection, so I'm just going to
+5:33 use that and click next. That's going to
+5:34 ask me what I want to install. So, I'm
+5:36 going to type in Hermes at the search
+5:38 bar up top here, and there it is, Hermes
+5:40 agent. So, I am going to select that.
+5:42 So, now we're on the configuration
+5:43 screen. The first box says generate key.
+5:46 Now, that connects Hermes to Hostinger's
+5:48 AI router, which runs all of those AI
+5:50 credits that we're just talking about.
+5:52 Now again, I didn't select that because
+5:53 I'm going to use my own ChatGPT plan.
+5:55 Next up here is the admin username and
+5:57 password. They're already filled in for
+5:59 us. You can change it if you like. I'm
+6:00 going to keep mine, but I'm going to
+6:02 copy the password because we are going
+6:03 to need that here just in a few minutes.
+6:05 So now we get to that one click that
+6:07 builds everything and that is the deploy
+6:09 button. I'm going to click deploy and
+6:11 I'm going to skip this survey that pops
+6:12 up here, but take a look down here at
+6:14 the bottom. It says your application is
+6:16 being deployed. We are going to give it
+6:17 about a minute and a half and you'll see
+6:19 that it's all set up and ready to go.
+6:20 And when it's done, this is where you
+6:22 land. This is called Docker Manager. Now
+6:24 Docker is just software that packages
+6:26 apps so that they can run the same way
+6:28 on every single computer and each
+6:29 packaged app runs in what's called a
+6:31 container. Now Hostinger sets all of
+6:33 this up for you, so you don't even have
+6:35 to know what Docker is, but still it's
+6:36 good to know what Docker is. Now if you
+6:38 look here, the first one says Hermes
+6:40 agent. This is Hermes itself. Now you
+6:42 can see that it's running. Now the
+6:43 second one on here is called traffic.
+6:45 Traffic automatically comes with this
+6:46 setup. So what it does is it keeps your
+6:48 connection to your server secure so you
+6:50 can open up Hermes safely from your
+6:52 browser. Now you don't have to touch
+6:53 this one or do anything with it. It's
+6:55 just set up and ready to go. Now over
+6:56 here you see open. Open will launch
+6:58 Hermes itself and then you also see
+7:00 terminal. Terminal gives you a command
+7:01 line if you ever need to use it. Now
+7:03 down at the bottom is where you would
+7:04 manage those credits for those boxes
+7:06 that we skipped. Now there's one thing I
+7:07 want you to keep in mind. There's one
+7:09 spot where the dashboard can't do
+7:11 something for you and I'm going to show
+7:12 you what that looks like just here in a
+7:13 second. But to start we're going to
+7:14 click open. And when you do that, it's
+7:16 going to ask you to sign in and this is
+7:18 where that username and password from
+7:20 the setup screen comes in. When you sign
+7:21 in, you may get this message up top that
+7:23 says sharing metrics. Now I'm going to
+7:25 click no because I want everything to
+7:27 stay on my server and that is just a
+7:29 privacy and security piece for me. So
+7:32 now we're in the Hermes dashboard. If
+7:33 you look on the left hand side, you see
+7:35 chat, you see sessions, files, models.
+7:37 There's a few other things that are
+7:38 here, but the first thing that we're
+7:39 going to start with is models because at
+7:42 this point, Hermes needs a brain, and
+7:44 that brain is the AI model that we're
+7:46 going to use. Now, for me, I mentioned
+7:47 that I'm going to use ChatGPT. Under
+7:49 main model, I'm going to click change,
+7:51 and then I'm going to search for Codex
+7:52 because that is ChatGPT. And you notice
+7:54 that it does find it, but it tells me
+7:56 that ChatGPT sign-in has to happen
+7:58 outside of the dashboard. And that's
+8:00 fine, because we can do that in the
+8:01 terminal, and that is the fix that I was
+8:03 just talking about. I'm going to go back
+8:04 into the Docker Manager, and I'm going
+8:06 to click on terminal under Hermes agent.
+8:08 And then, I'm going to type in Hermes
+8:10 model. This is the only command in the
+8:12 whole video that you'll need if you're
+8:13 setting up ChatGPT yourself. You see
+8:15 that there's a list here. I'm going to
+8:16 scroll down to OpenAI and pick ChatGPT
+8:18 or Codex subscription. It's going to
+8:20 give me a link, and it's going to give
+8:21 me a code. Now, I'm going to open up
+8:23 this link, and I'm going to sign in to
+8:24 ChatGPT like I would normally, and it's
+8:26 going to ask me for this code, and I'm
+8:28 going to enter it in, and it says that
+8:30 I'm signed in and good to go. I am going
+8:32 to stick with
+8:35 medium effort. Now, you can change this
+8:37 later if you want to, but we are going
+8:39 to go back to the dashboard, and you see
+8:40 it right there. It says OpenAI Codex
+8:42 GPT-6.1
+8:44 Soul. So, now the Hermes agent has a
+8:46 brain, and it can think by using
+8:47 ChatGPT. But right now, I only can talk
+8:49 to it from my computer, and that is
+8:51 something that we need to fix. And to
+8:52 fix that, we are going to connect
+8:54 Telegram. If you've ever heard of
+8:56 Telegram before, it's a messaging app
+8:57 that you can download right on your
+8:59 phone. And to connect to it, you're
+9:00 going to click on channels. And you see
+9:02 that Telegram is right at the top here.
+9:04 There's also Discord and Slack and
+9:06 others if you want to use those, but I
+9:07 use Telegram, so that's the one I'm
+9:09 going to stick with. really easy to set
+9:10 up. I'm going to click create with QR
+9:12 code, and then I'm going to scan it with
+9:14 my phone. And Telegram just creates a
+9:16 bot for me, and it tells me to click
+9:17 start, and then it tells me to connect
+9:19 to this bot, and then it connects to
+9:21 Hermes. If I go back to the Hermes
+9:23 agent, you can see that Telegram is now
+9:25 connected. But I also have to click save
+9:27 and restart. And one really quick tip
+9:29 here, if you see a little red error that
+9:31 pops up when the gateway restarts, you
+9:33 have to go back to the Docker Manager
+9:34 and click the the three dots next to the
+9:36 Hermes agent and click restart. That's
+9:38 what fixed it for me, but it's easy to
+9:40 do. And take a look, it is live. Hermes
+9:42 even messaged me on Telegram asking what
+9:44 it could call me. We can also test it
+9:46 right here in the Hermes dashboard if we
+9:47 want to. If I click on chat, you see it
+9:49 build out here and I ask, "What can you
+9:51 help me with?" You'll see that it
+9:53 answered. And that means that that agent
+9:54 is live on my own server. But an agent
+9:56 that just answers questions really isn't
+9:59 an employee and that's what we're trying
+10:00 to build here. So, what we need to do is
+10:01 we need to give it some real tasks to
+10:03 do. And really quick, before we put
+10:04 Hermes agent to work, if this has been
+10:06 helpful, please hit subscribe and like
+10:08 the video. It's something that really
+10:09 helps out the channel and I really
+10:11 appreciate. But, let's jump back in and
+10:13 give Hermes its first job. One benefit
+10:15 to Hermes is it doesn't matter if you're
+10:16 chatting from your phone or your
+10:17 computer, it's going to keep one memory
+10:19 across all the places that you talk to
+10:21 it. So, right now, here in chat on my
+10:23 computer, I am telling it that whenever
+10:25 you send me a morning briefing, I want
+10:26 you to keep it short and put my to-do
+10:28 list first. And you can see that the
+10:30 memory was updated. So, if I go to the
+10:31 Telegram app on my phone, which is a
+10:33 completely different app, and I type in
+10:35 {slash} new to start a fresh chat and
+10:37 ask, "How do I like my morning
+10:39 briefing?" You can see that it knew
+10:40 exactly what I told it on my computer
+10:42 just moments ago. It is truly just one
+10:44 agent. It's always up-to-date on the
+10:45 things that you asked it, no matter how
+10:47 you're talking to it. But so far, I'm
+10:48 still the one doing all the asking. With
+10:50 that said, let's give it a task and see
+10:52 if it acts like a real employee. Hermes
+10:53 has a scheduler built in, which means
+10:55 that it can do a job at a certain time
+10:57 every single day without you telling it
+10:58 to do it. Now, I've already connected my
+11:00 to-do list to Hermes. So, on my phone,
+11:02 I'm going to tell Hermes that every
+11:03 morning at 7:00 a.m., I want it to send
+11:05 me a morning briefing with my to-do list
+11:08 tasks for the day. I want three of the
+11:10 biggest AI news stories with the links.
+11:13 I want weather for New York City and I
+11:15 want a quote to start the day. And when
+11:17 I hit enter, it comes back and confirms
+11:19 that it understands what I'm asking for.
+11:21 And if I go back into the Hermes
+11:22 dashboard on my computer, you can click
+11:24 on cron and you can see that the task
+11:26 that I just gave it is already there. It
+11:28 says Tristan's morning briefing and it's
+11:30 set for every single morning. Now, a
+11:32 quick tip, your server runs on its own
+11:34 clock and it's usually not the time zone
+11:36 that you're in. So, what I would do is I
+11:37 would go into Hermes and tell it what
+11:39 time zone you live in. That way, when we
+11:40 set up this briefing, it's going to show
+11:42 up at 7:00 a.m. and not 7:00 p.m. or
+11:44 whatever time zone it thinks that you're
+11:45 in. Okay, so if you want to test this
+11:47 out, I don't have to wait until tomorrow
+11:48 to see if it works. If I'm in the cron
+11:50 tab, I can trigger it by clicking this
+11:52 little lightning bolt right here, and
+11:53 then you see on my phone the briefing
+11:55 pops up and it has everything we asked
+11:57 for. It has my tasks, has the AI news,
+11:59 it has the weather, weather has the
+12:00 quote. Now, going back to that intern
+12:02 manager director analogy that we're
+12:04 talking about, I feel like this is
+12:05 director level. I handed it off, it did
+12:07 the task for me, and then told me how it
+12:09 went. And starting tomorrow, that
+12:10 briefing is going to be waiting for me
+12:12 in my Telegram app every morning at 7:00
+12:14 a.m. If you're running this on your own
+12:15 computer or on your own laptop and it
+12:17 went to sleep, that briefing would never
+12:19 show up unless you did some extra
+12:20 configuration. But on my own server, it
+12:22 is going to show up every single morning
+12:24 because that server never turns off. So,
+12:26 let's try something else. On my phone,
+12:28 I'm going to ask it to find the five
+12:30 biggest AI announcements for the week.
+12:31 But, I also want it to explain what each
+12:33 one of those mean for a small business
+12:35 owner in two sentences or less. And then
+12:37 I want it to explain whether this is
+12:38 worth trying out or not. And here's what
+12:40 it comes back with. It gave me those
+12:42 five announcements just like I asked.
+12:43 And when it's done, Hermes is going to
+12:45 decide on its own whether this is worth
+12:47 saving as a skill. And this time, it
+12:49 didn't save it, so I'm going to tell it
+12:51 to save it. And I'm going to say
+12:52 something like, "Save what you learned."
+12:54 And it does it. You can see that it
+12:55 saved it as a skill right here. So, the
+12:56 next time that I ask for something like
+12:57 this, it's going to know exactly what to
+12:59 do. With that said, let's test it one
+13:00 more time. I'm going to ask it for the
+13:02 same exact thing, but this time I only
+13:04 want it for marketing AI tools. And as
+13:06 you can see, it came back with those
+13:08 five announcements in the exact same
+13:10 format that we asked for without me
+13:11 having to explain anything over again.
+13:13 And those skills and memories are going
+13:15 to live on your server, so they survive
+13:16 even if the server restarts. But before
+13:19 you set this up, there is one thing to
+13:20 keep in mind here. Whichever way you
+13:22 decide to connect your AI, there is a
+13:24 limit to how much Hermes can use. And if
+13:26 you're on AI credits and they run out,
+13:28 Hermes is going to stop answering you
+13:29 until you refill them. If you're on a
+13:31 ChatGPT plan like the one I'm using
+13:32 right here, Hermes is going to use the
+13:34 plan limits, too. So, my advice here is
+13:36 to start with one reoccurring job like
+13:38 the morning briefing that we just
+13:39 created. See how much it uses, and then
+13:42 when you feel comfortable, add more
+13:43 agents from there. So, as we close this
+13:45 out, just remember this. You have a
+13:46 server that never turns off. You have an
+13:48 assistant that you can text for anything
+13:50 that you need, and you have an AI that's
+13:52 working its way up from intern to
+13:53 manager to director. Now, you don't have
+13:55 to build all this today. You can just
+13:56 start with that morning briefing, but
+13:58 having this set up on Hostinger makes
+13:59 this super easy. Remember, there's
+14:01 virtually zero setup. There is
+14:03 persistent memory, and there is data
+14:05 privacy built in. And also remember that
+14:07 the link is in the description, and you
+14:09 can use my code Tristan10 to get 10% off
+14:11 of the Hermes Agent VPS plan on your
+14:14 first purchase. Hostinger's Black Friday
+14:16 sale's going on right now, so go ahead
+14:17 and grab the deal while it last. And
+14:19 again, if this has been helpful, please
+14:21 like the video and subscribe, and I will
+14:23 see you in the next one.

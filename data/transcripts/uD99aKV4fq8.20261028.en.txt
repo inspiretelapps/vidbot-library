@@ -1,0 +1,1191 @@
+0:00 Hey everyone, at the AI Practitioners
+0:02 Summit and a warm welcome
+0:03 from sunny South Africa.
+0:05 I'm really honored to be here. In this
+0:08 session, I am going to give you the
+0:09 roadmap that you need
+0:11 to go from being a vibe coder to thinking
+0:14 more like an AI engineer.
+0:16 And if you're an experienced
+0:18 engineer trying to get more out of coding
+0:19 agents, this session is
+0:21 for you too. But first let me
+0:23 introduce myself. I'm Leon Fonsail. I'm a
+0:26 software engineer with
+0:27 nearly 20 years of industry experience
+0:30 and the majority of my career was spent
+0:32 working at large
+0:33 enterprises in the financial sector
+0:35 where things like performance, reliable
+0:37 code, working in teams,
+0:39 and security actually matter.
+0:42 I've been interested in AI and machine
+0:43 learning from my university days and it's
+0:45 really when GPT-2 was released that
+0:48 sparked my interest in getting my hands
+0:50 into the stuff again.
+0:51 While most people were playing with the
+0:52 ChatGPT interface and
+0:54 generating posts and lyrics and
+0:56 stuff like that, I really wanted to dig
+0:58 into the APIs to see how
+1:01 this technology can be used in
+1:02 business use cases. It was because of my
+1:05 passion for this technology
+1:07 and my love of teaching others
+1:09 that I created my YouTube channel that I
+1:11 think a lot of you might have
+1:12 seen. This is where I create
+1:14 detailed tutorials that show you the
+1:16 fundamentals of working with coding
+1:17 agents to building advanced
+1:19 stuff like Software Factories and custom
+1:22 coding harnesses. I also run
+1:24 an exclusive community where
+1:25 people can ask me questions. We have live
+1:27 workshops where we dive into the
+1:30 nitty-gritty of building
+1:31 really cool stuff with AI. Now enough
+1:33 about the community and
+1:35 YouTube. This is what we'll focus
+1:37 on in the session and this really is my
+1:40 mission. There are basically
+1:41 two types of developers. On
+1:43 the one hand of the spectrum we've got
+1:45 vibe coders. These are people who don't
+1:47 really care about the
+1:48 underlying tech stack. They rely on the
+1:51 AI agents to code the entire
+1:53 solution for them and sometimes
+1:55 even deploy the solution and maintain it
+1:58 in production. But there
+1:59 are issues with that approach.
+2:01 On the other side of the spectrum we've
+2:03 got skeptical developers.
+2:05 Yes, I've worked with a ton
+2:06 of developers in the past and I still
+2:08 find it shocking that even
+2:10 today in 2026 so many experienced
+2:13 developers haven't fully embraced the
+2:15 agentic coding yet. They're still
+2:17 extremely skeptical about all
+2:19 sorts of things about AI agents taking
+2:21 their jobs to, I don't know, messing up
+2:23 the code or just being
+2:25 unreliable. I've just heard it all. My
+2:28 goal is to take your vibe
+2:29 coders and your skeptical engineers
+2:31 and sort of bring them towards the
+2:33 middle. And this is a role I call an AI
+2:36 engineer. Now in this role
+2:37 you are not expected to write any code
+2:40 yourself but, and this is
+2:41 very important, you do have an
+2:44 understanding of the underlying tech
+2:46 stack and how everything fits together.
+2:49 You do not have to be
+2:50 technical to do this by the way and I
+2:52 will give you some
+2:53 pointers during the session. As an
+2:55 AI engineer you're able to work with not
+2:58 just one coding agent but
+3:00 multiple coding agents across
+3:01 multiple projects and you have a solid
+3:04 workflow for ensuring that the code is
+3:06 actually performant,
+3:07 it's scalable and of course it is secure.
+3:11 Now by show of hands how
+3:13 many people in this audience
+3:14 consider themselves to be vibe coders? In
+3:17 other words they just ask
+3:18 the agent to build something
+3:19 for them and they never really care about
+3:22 what the underlying tech
+3:23 stack is. The agent should just
+3:25 build it, it should look like it's
+3:26 working and the agent should just deploy
+3:28 it. Of course I can't see
+3:30 any of you but I bet you a couple of
+3:32 hands were raised. We live in a super
+3:35 interesting time where
+3:37 anyone can build anything they want. You
+3:39 don't have to be technical at
+3:41 all. I've seen non-technical
+3:43 people, in fact people who are far
+3:44 removed from being technical, build
+3:47 really cool and practical
+3:49 stuff. They can just put it up in the
+3:51 Claude Code desktop app, they
+3:52 can ask Claude to just build
+3:54 something and Claude will even figure out
+3:56 how to deploy the app to
+3:57 production and everything just
+3:59 works right? Now that approach could be
+4:01 fine if you are building toy
+4:03 apps or if you are building
+4:05 little proof of concepts but this is not
+4:08 good enough if you plan to
+4:09 put software in front of real
+4:12 users. Just imagine building an app that
+4:15 collects information from
+4:16 real users and there's a critical
+4:19 vulnerability within your application. Of
+4:22 course you didn't write the
+4:23 code, Claude did, Claude even
+4:25 deployed it and all you did was share the
+4:27 link with your users. Your
+4:29 app started to grow, users
+4:31 started to use it and something happens.
+4:34 There's a security breach.
+4:36 Your user's information was
+4:38 compromised. Who is responsible in that
+4:41 instance? And that's
+4:42 something I really try to teach people
+4:44 in my community and on my YouTube channel
+4:46 as well. You decided to build the app,
+4:48 you charge your users
+4:49 a fee and of course you are still
+4:52 accountable. Your agent was
+4:54 simply a developer that you
+4:56 contracted to do the work, you were still
+4:58 responsible to ensure
+4:59 that some kind of security
+5:00 audit was done and that audit should be
+5:03 done on a regular basis and
+5:05 of course the tech stack that
+5:06 you chose is reliable as well. That
+5:10 simple action of taking accountability is
+5:12 what's going to take
+5:14 a vibe coder to someone who can build
+5:16 reliable software
+5:17 applications using coding agents.
+5:20 So in this session I'm going to show you
+5:21 my workflow for working
+5:23 with coding agents. We'll
+5:24 start off easy by covering the
+5:26 fundamentals and then we'll ramp up the
+5:29 complexity where we'll
+5:30 discuss things like Software Factories as
+5:33 well as harness
+5:34 engineering. Starting with probably the
+5:36 most important thing you need to know
+5:38 when working with coding agents. Your
+5:40 coding agent is probably
+5:42 the most patient teacher you will ever
+5:44 have. Don't be afraid to ask
+5:46 your agent to explain what an
+5:47 application does at a level that you will
+5:50 understand. Of course
+5:52 this is going to be different
+5:53 based on your experience. If you're a
+5:55 non-technical vibe coder you probably
+5:57 don't want all the technical
+5:59 terms. Simply tell your agent to explain
+6:01 it to you in very simple
+6:02 language or if you're a software
+6:04 engineer or a software architect ask the
+6:07 agent to explain it in a
+6:08 way that you will understand.
+6:10 A lot of popular projects have GitHub
+6:12 repositories. For example, Hermes Agent
+6:15 which is an extremely
+6:16 popular AI assistant tool that's got over
+6:19 250 000 stars at the
+6:21 moment. A lot of people use it but
+6:23 very few people actually understand how
+6:25 it works behind the scenes.
+6:27 What tech stack is involved,
+6:29 what the actual agent loop looks like,
+6:31 how the memory system
+6:32 works. Guess what? You don't have
+6:34 to read through this code yourself. I
+6:36 encourage you to grab the GitHub
+6:38 repository of a project
+6:39 you actually like and ask your agent to
+6:42 clone it and then explain
+6:44 the entire system to you in a
+6:45 nutshell. One thing I like to do is to
+6:48 make a note of the underlying tech stack.
+6:50 What did they use to
+6:51 build the front end? Did they use any
+6:53 component libraries? What
+6:55 did they use for the back end?
+6:57 What auth system did they use? How did
+6:59 they include payment
+7:00 integration? Things like that. Ask your
+7:02 agent questions about an application and
+7:05 how it works. Now don't just
+7:07 leave all of this information
+7:08 sitting in the agent session. I promise
+7:10 you by tomorrow you would
+7:12 have forgotten what all those
+7:13 details were. Make notes of everything.
+7:17 So have a look at the tech stack. If
+7:18 something stands out for
+7:19 you, open a Notion page or notepad or
+7:22 whatever you want and just
+7:24 note down exactly what that
+7:26 application used for things like the
+7:28 front end, the database, whatever else.
+7:31 By doing this you're
+7:32 actually creating a little knowledge base
+7:34 with all the building blocks
+7:35 you might need to build your
+7:36 project. And this takes me to the next
+7:38 step and this is a
+7:39 question a lot of students ask me,
+7:41 especially when trying to get experience
+7:43 and to apply for a job and
+7:45 to show their experience with
+7:47 working with coding agents. What you need
+7:49 to do is to build a lot of
+7:52 projects and this ties in
+7:53 closely to step one. In step one we
+7:56 identified the underlying
+7:57 tech stack for an application that we
+8:00 really like. I've noted down all the
+8:02 little building blocks. The
+8:04 next logical thing I want you to do
+8:06 is try to recreate that application using
+8:09 a coding agent. Don't just
+8:10 copy that GitHub repository
+8:12 though. What I want you to do is prompt
+8:14 the agent to build maybe a
+8:16 clone of that application
+8:18 and it should use the following tech stack
+8:20 and then give it those
+8:21 building blocks that you discovered
+8:23 in step one. Another idea is take an app
+8:25 that you use every single
+8:26 day and see if you can get your
+8:28 coding agent to recreate that
+8:30 application. Or ask your friends and
+8:32 family or even local businesses
+8:35 if there are any apps that you could
+8:36 build for them to help them out with
+8:38 tasks that they do on
+8:40 a daily basis. This will give you the
+8:42 necessary experience and
+8:43 confidence that you need to work
+8:46 with coding agents. Don't just leave the
+8:48 project sitting on your own
+8:49 PC either. Push your projects
+8:51 to GitHub. GitHub is super valuable. This
+8:54 allows you to create a
+8:55 remote backup of your code on this
+8:58 GitHub website. The other benefit is that
+9:00 you can actually share this
+9:01 code with others. This can be
+9:03 extremely helpful if you are looking for
+9:05 a job in this space as well.
+9:07 As you can share your projects
+9:09 with your future employer and you can
+9:11 actually discuss one of these
+9:12 projects in your interviews.
+9:14 There are plenty of other benefits of
+9:16 using GitHub as well which
+9:17 we'll cover in the session.
+9:19 GitHub repositories can be set to
+9:20 private or public. Private means that
+9:23 only you can see the
+9:24 code or people that you invite to that
+9:26 project. Public means
+9:27 anyone can see it. Now this might
+9:30 sound scary but you can actually get a
+9:31 lot of valuable feedback
+9:32 from people, downloading your
+9:34 code, testing it themselves and then
+9:36 logging things like issues
+9:37 or they might actually try to
+9:39 contribute to your code base by creating
+9:41 pull requests. Let's step
+9:43 things up a bit by discussing
+9:44 reusable systems. The first topic I want
+9:47 to cover are Agent Skills. Now skills
+9:50 might sound scary but
+9:52 they're not. They're basically reusable
+9:54 prompts. Let me give you an
+9:56 example. Whenever I start a
+9:58 project I tend to give the agents very
+10:00 similar instructions. Now of
+10:02 course the details around the
+10:03 app that I'm trying to build will be
+10:05 different for each app but there's also a
+10:08 lot of things that get
+10:09 repeated. For example my underlying tech
+10:12 stack. It's usually the same
+10:13 database, the same front end,
+10:15 the same sort of front end components,
+10:17 the same ORM, the same auth system. I
+10:20 tend to use the same
+10:21 things because that is what I'm
+10:23 comfortable with and I'm sure that's true
+10:25 for a lot of you watching
+10:26 So whenever you find yourself repeating
+10:29 anything whenever you start a new project
+10:31 that is a great opportunity to create an
+10:34 agent skill. So what I did
+10:36 as an example is I created
+10:38 a skill called start an app and this
+10:40 skill gives the agent all of the
+10:41 instructions that I typically
+10:43 give the agents when building software.
+10:46 The skill file itself is
+10:47 nothing crazy. It simply says
+10:49 whenever the user wants to create a new
+10:51 app you need to follow
+10:52 these rules. Ask the user what
+10:54 requirements for the app are, kind of
+10:56 grill them to get those
+10:58 requirements out and then based on
+11:00 the app that the user is building and the
+11:02 requirements you need
+11:03 to install the following
+11:05 things in the tech stack and we can see
+11:07 all of that in the reference
+11:08 folder. If the app requires
+11:10 any AI functionality then references
+11:14 ai.md file which says that all
+11:16 right you have to install the
+11:18 AI SDK and maybe we're using OpenRouter
+11:21 for inference or if the app
+11:23 requires user authentication
+11:25 then use Better Auth. Now of course you
+11:28 can switch any of this out for Clerk or
+11:30 whatever you want to
+11:31 use but I think you get the idea. I do
+11:34 not have to repeat these instructions
+11:36 every time I want to
+11:37 start a new app and by the way all of the
+11:40 skills and everything I
+11:41 show you in this video is there
+11:43 for you to use as well. Feel free to
+11:45 install the skill yourself
+11:47 and give it a go. The same thing
+11:49 with reviewing an app and I might be
+11:50 getting ahead of myself as we will
+11:52 discuss this in a second
+11:54 but I've also created a skill for
+11:55 reviewing an app and review actually
+11:58 means a couple of things
+11:59 like checking for any security issues,
+12:02 checking for any drift so
+12:04 did we add any features to the
+12:06 application that's drifting from the
+12:07 original vision, is the web app SEO
+12:10 optimized? You can really
+12:12 take all of those things if you keep
+12:13 repeating in your
+12:14 applications and create a skill for it.
+12:17 Now this is something I'm really
+12:18 passionate about. In fact I actually have
+12:21 to go full screen for this.
+12:22 Pay attention and look at me. Stop
+12:25 copying other people's skills. Write your
+12:28 own. Whenever I go to
+12:30 websites like skills.sh I see the same
+12:32 one or two names show up and
+12:34 it's for the silliest of things.
+12:37 A major part of becoming an AI engineer
+12:40 is to understand how to
+12:42 prompt agents yourself.
+12:43 Prompting and prompt engineering is a
+12:46 skill and I'm not
+12:47 referring to an agent skill.
+12:48 It's a human skill that you need to
+12:51 practice and improve and if you're only
+12:54 copying other people's
+12:55 skills without ever reading it yourself
+12:57 you are doing yourself a massive
+13:00 disservice. Now I'm not
+13:01 saying you should not try out other
+13:03 people's skills but what I want you to do
+13:05 is if you find a skill
+13:07 that works for you open up that skill
+13:10 file read through it and
+13:12 make notes of why that skill
+13:14 actually works. How was the prompt
+13:16 phrased? Are there any sort of trigger
+13:18 words or something that
+13:19 sticks out to you within those prompts?
+13:22 Make notes of it and then try
+13:24 to write your own skills and
+13:25 your own prompts that get similar results
+13:29 and I promise you in no
+13:30 time you'll be able to write
+13:32 your very own skills and get really good
+13:35 results out of coding agents.
+13:36 Unfortunately I've seen it
+13:38 too many times that people copy other
+13:39 people's skills and then they're too
+13:41 afraid to change it.
+13:43 So at this point in the roadmap this is
+13:45 what I want you to do. I
+13:47 want you to create your very
+13:49 own skills repository on GitHub so this
+13:51 can be in your username
+13:53 slash skills. Then whenever you
+13:55 create a new skill for your workflow push
+13:58 it to this GitHub
+13:59 repository. It's super simple you
+14:01 have your skills folder it's similar to
+14:03 the skills folder that you already have
+14:05 in your .claude folder
+14:06 or your .agents folder. You're simply
+14:08 pushing these skills to this
+14:10 repo. That way you always
+14:12 have access to your skills if you want to
+14:13 set it up on a new machine. I do
+14:15 recommend creating a
+14:16 single skills folder for your project or
+14:19 your org and allowing your
+14:20 team access to that repo.
+14:22 If you are working in a team or at an
+14:25 enterprise level being able to create
+14:27 skills that your team
+14:29 can use to get consistent results out of
+14:30 agents is just invaluable.
+14:33 You also need to get comfortable
+14:35 with using memory files. This is actually
+14:37 easier than you might
+14:38 think. A memory file is usually
+14:40 this AGENTS.md file that you can store at
+14:43 the root of your project or
+14:45 at your sort of user level
+14:47 which will apply the rules globally. We
+14:49 can use these memory files
+14:51 to set certain guardrails,
+14:53 workflows and rules that the agent needs
+14:55 to follow across all of the
+14:56 sessions for this project.
+14:58 What I recommend is to keep this file as
+15:00 concise as possible. Try not to over
+15:03 complicate it. Whenever
+15:04 you find your agent is doing something in
+15:06 your project that you
+15:07 really don't like, you can simply
+15:08 put a rule in this file and the agent
+15:11 will follow that rule whenever you start
+15:13 a new session. So I'll
+15:14 just briefly go through my file. Briefly,
+15:16 I prefer if my agent
+15:17 actually keeps the responses concise
+15:20 as I find that sometimes with certain
+15:21 agents like Claude the responses go on
+15:24 forever and you're just
+15:25 paying for the tokens. I prefer shorter
+15:28 responses personally. And for the
+15:30 planning mode, I like it
+15:31 if the agent can ask me clarifying
+15:32 questions. I like to use sub-agents to do
+15:35 deep research. And I
+15:36 also like to use sub-agents to review our
+15:39 implementation plan. I
+15:40 also have specific rules
+15:42 for change and edit mode. Whenever we
+15:44 make database schema changes, I've got
+15:46 certain things that I
+15:47 prefer to do. I also like to add
+15:49 instructions to force the agent to test
+15:51 its code before handing
+15:52 over to the user. And very important, we
+15:55 can enforce our design
+15:56 system by tagging our design.md
+15:59 file. This design.md file simply contains
+16:02 our entire style system,
+16:04 which contains things like
+16:05 the theme, the tokens, the typography,
+16:08 spacing, border
+16:09 roundedness, etc. We can also give our
+16:12 agent instructions like to use worktrees
+16:14 instead of trying to commit
+16:16 everything to the main branch.
+16:17 Right, let's really step things up. I
+16:20 think we're done with
+16:20 the foundations and we've
+16:22 discussed the reusable systems. But now
+16:25 when we're working on larger projects,
+16:27 we really have to think about team
+16:29 workflows. So here's a
+16:30 discipline that I started doing in my
+16:32 projects. In fact, to be honest with you,
+16:35 when I started with agentic
+16:36 coding, I actually followed
+16:38 this exact same process and somewhere in
+16:41 between, I started to kind of
+16:43 move away from it. And now I
+16:45 find myself using this system again. What
+16:48 I encourage you to do is
+16:49 when you start a new project,
+16:51 or even for an existing project, always
+16:54 ensure you've got a GitHub
+16:55 repository set up. So when
+16:57 you are starting off with a new project,
+16:59 shortly after building the
+17:00 base code, ask your agent to
+17:02 create this GitHub repository for you.
+17:04 And it will look something
+17:05 like this. Now the next time you
+17:07 ask your agent to do a piece of work,
+17:09 what you can do is either
+17:11 log a GitHub issue yourself,
+17:13 or simply get your agent to create the
+17:15 issue for you. Now these
+17:17 issues should be a logical piece
+17:20 it could be a bug fix, a new feature,
+17:23 maybe a documentation
+17:25 change. The point is, this is where
+17:27 we document all the new work that needs
+17:29 to be done on this project.
+17:31 What I used to do, and I think
+17:32 this came because of sort of spec driven
+17:34 development, is I would ask
+17:36 the agent to create a folder on
+17:38 my, you know, within the project, and
+17:40 then create little individual feature
+17:42 files within that. And
+17:44 it should just kind of implement those
+17:45 features one by one, kind of
+17:47 like a to do list. But recently,
+17:49 I think it's better to just use GitHub
+17:51 for this. So instead of creating those
+17:53 little feature files
+17:54 in the project, ask your agent to create
+17:56 GitHub issues for all the
+17:58 work instead. All these issues
+18:00 can be labeled, you can set dependencies
+18:02 between them. And it's a
+18:03 great way to see the status of
+18:05 all of your work. In a single view, I can
+18:08 see all of the issues and
+18:10 new features that need to be
+18:11 addressed in this project. So that means
+18:14 that when we open up Claude
+18:15 Code, we can simply tell Claude
+18:17 go and read all the outstanding issues on
+18:19 my project, and just you
+18:21 know, start implementing
+18:22 them one by one. Also, as you're working
+18:25 on these changes, go and add
+18:27 comments to the code or to the
+18:29 issue. So when we scroll down with this
+18:32 issue, of course, we've got all the
+18:33 detail on the specific
+18:34 change that needs to be made. When we
+18:36 scroll down, we are able to
+18:38 add comments. Now we can write
+18:40 comments ourselves, which is kind of a
+18:42 great way to give feedback to
+18:44 the agents. Or as the agents
+18:46 are working on this issue, they could
+18:48 actually update this issue as
+18:50 well. And they can add a lot
+18:52 more than just text, by the way, they can
+18:53 attach test evidence,
+18:55 screenshots, you know, stuff that's
+18:57 really useful. And it's a great way to
+18:59 view the progress. Now we will discuss
+19:01 things like software
+19:02 factories in the session as well. But
+19:04 this is all building up to a
+19:05 world where you actually don't
+19:07 have to interact with Claude Code
+19:09 yourself, all you have to do or even your
+19:11 users is log a bug, log
+19:43 a bug, log you're testing a
+bug, log you're Scene
+19:44 So just to demonstrate how this works is
+19:46 whenever you need to make
+19:47 a change to your app, you
+19:49 can go to the GitHub website or just use
+19:51 your phone, create a GitHub issue.
+19:54 The agent will pick up the issue, it will
+19:56 make the change, it
+19:58 will test it using your
+19:59 normal unit tests, end-to-end tests, or
+20:02 the agent could just
+20:03 kind of use its own test
+20:04 suite as well, and it will update the
+20:06 issue as it's making
+20:07 changes by adding comments.
+20:09 And once the agent is done, it will
+20:10 create a pull request,
+20:12 which you can review and merge.
+20:14 Now, branches and worktrees are
+20:16 something that vibe coders
+20:17 are kind of afraid of, but
+20:19 you shouldn't be.
+20:20 It's really not that bad.
+20:21 At the end of the day, you are not the
+20:23 one managing these
+20:24 branches and worktrees, it's
+20:26 really the agent.
+20:27 It's important for you to understand what
+20:29 it is and why it could
+20:31 be useful to your project.
+20:32 When you work on your project for the
+20:34 very first time, all of
+20:35 the changes are made on
+20:38 the main branch.
+20:38 You only have one
+20:40 single copy of your code.
+20:42 That copy will eventually be deployed to
+20:44 something like GitHub, and
+20:45 from GitHub you will deploy
+20:47 it to some production server where your
+20:49 end users can access it.
+20:51 Now, when you want to make changes, like
+20:53 fix a bug, introduce a
+20:55 new feature, or make a
+20:56 documentation change, you ideally do not
+20:59 want to change the main branch.
+21:01 If you introduce a new bug, your end
+21:04 users are going to feel it immediately.
+21:06 A better convention is
+21:08 to create a worktree.
+21:09 If you have a look at this little
+21:10 diagram, all this does is
+21:13 when we ask our agent to
+21:14 make a new change, this will create a
+21:16 copy of your code into
+21:18 a separate worktree and
+21:20 feature branch.
+21:21 It will make the changes only in that
+21:23 copy, which means that
+21:24 the main code is unaffected.
+21:26 And let's say that while this agent is
+21:28 working on this change, we
+21:29 realize that, oh, we actually
+21:31 have to make another change.
+21:32 So maybe we've picked up another bug.
+21:35 We can fire off another Claude Code
+21:37 session, and that session
+21:39 will then create a new work
+21:40 tree, which is a new copy of the code,
+21:42 and work on that change in parallel.
+21:45 None of these two changes
+21:47 are affecting the main branch.
+21:49 It's only once the changes are complete,
+21:51 and we've actually
+21:52 reviewed the pull request,
+21:53 that we can squash that branch and merge
+21:55 it back into the main branch.
+21:57 So that way we don't affect our users
+21:59 until the changes have
+22:00 been fully tested and approved
+22:03 by ourselves.
+22:04 Now, this is something I'm quite
+22:05 passionate about, and I
+22:06 think it might feel a little
+22:08 bit technical, but it's really not.
+22:10 This is something I call
+22:11 respecting the CI/CD pipeline.
+22:14 CI/CD simply means continuous integration
+22:17 and continuous deployment.
+22:19 And this concept has been around for a
+22:21 very long time, and
+22:22 it's worked within larger
+22:24 teams as well.
+22:25 So let's assume that we are working on
+22:27 multiple changes at the same time.
+22:29 Of course, we are not
+22:30 making the code changes.
+22:31 Our coding agents are working away, so
+22:33 we've got two changes
+22:34 over here happening at the
+22:35 same time.
+22:36 Maybe we've got a human developer making
+22:38 changes to the project as well.
+22:40 Humans and coding agents could
+22:43 accidentally introduce a
+22:44 bug that could break something
+22:46 that used to work in your application.
+22:48 So they might have worked on a bug fix on
+22:50 one thing, but by
+22:51 fixing that thing, something
+22:52 that used to work now fails.
+22:54 Thankfully, there are plenty of solutions
+22:56 to do regression testing on the code.
+22:59 We do not have to wait for our agent to
+23:01 test the code itself.
+23:02 We can run automated scripts that will
+23:04 test existing functions
+23:06 in the code and ensure
+23:07 that everything still works.
+23:09 We can even run automated end-to-end
+23:12 tests that will test a
+23:13 user's journey in the application
+23:16 to make sure that
+23:16 everything still works as well.
+23:18 These scripts run within milliseconds or
+23:20 within seconds at the
+23:22 most, and they can really save
+23:24 your butt.
+23:24 So maybe let me show you an example of
+23:26 what that actually looks
+23:27 like in the real world.
+23:29 After we've made a change, or after our
+23:30 coding agents made a
+23:31 change, it will create a pull
+23:33 request on GitHub.
+23:35 Now, this change has not
+23:36 been merged into main yet.
+23:38 What we can do is have a look at what is
+23:40 contained within that change.
+23:41 So if we wanted to, we
+23:43 could even review the code.
+23:44 But if we scroll down to the bottom, we
+23:46 can see a section
+23:47 containing these checks.
+23:49 And this contains the test scripts that
+23:51 we set up for our application.
+23:53 This means that whenever a pull request
+23:55 is created, this set of
+23:57 tests would need to execute,
+23:59 and we could set up rules that say, well,
+24:01 if any of these tests
+24:02 fail, for example, our
+24:04 unit tests, our end-to-end tests, if we
+24:06 run into any issues, we
+24:08 will not be allowed to
+24:10 merge that pull request.
+24:12 So this could proactively catch any bugs
+24:14 that your coding agent
+24:15 could accidentally introduce
+24:17 with a change.
+24:18 But this really does
+24:19 deserve its very own session.
+24:21 So if you are interested to learn how you
+24:23 can add automated testing and regression
+24:25 testing, you can have a look at this
+24:27 course, Agentic Labs,
+24:29 where we did a deep dive
+24:30 session on testing,
+24:31 GitHub, and safe deploys.
+24:33 Trust me, this is a lifesaver.
+24:35 You won't believe how many times Claude
+24:38 Code, as good as it is,
+24:40 failed these checks because
+24:41 it introduced a bug.
+24:43 The nice thing then is you can ask your
+24:44 agent to review the
+24:45 issues on that pull request
+24:47 and resolve those issues as well.
+24:49 Another thing I like to do is to run
+24:51 security reviews and
+24:52 code reviews as well.
+24:54 So basically, after you've asked your
+24:55 coding agent to make a
+24:56 change, simply spin up a new
+24:58 session and ask that agent to do a code
+25:01 review, and then open up
+25:03 another session and ask that
+25:04 agent just to do a security audit.
+25:07 I've heard a lot of people in my
+25:08 community say that what
+25:09 they like to do is if they use
+25:11 Claude Code to work on the main change,
+25:14 they'll actually get
+25:15 another model from a different
+25:16 provider like GPT-6 from
+25:19 Codex to review the code.
+25:21 So that way, you don't have sort of
+25:23 Anthropic reviewing Anthropic code.
+25:25 So for the code review stuff, you could
+25:27 also use my skill, which
+25:29 is called Review an App.
+25:31 Within that skill, we actually review a
+25:33 couple of things like SEO,
+25:35 but we also have the security
+25:37 skill.
+25:37 This will review your code
+25:39 using the OWASP Top 10.
+25:41 Now, I always run those two steps
+25:43 because, as I said
+25:44 earlier, you are accountable.
+25:47 If you're dealing with real users, with
+25:49 real payments, and
+25:50 there's a data breach, you need
+25:52 to prove that you try to keep the system
+25:54 as secure as possible.
+25:56 So what I like to do is when I get my
+25:57 agent to run that
+25:58 security review step, I also ask
+26:01 it to update the GitHub issue or the
+26:03 pull request with the
+26:04 audit and the findings and
+26:06 how the issue was resolved.
+26:07 But a little bit of effort on your part
+26:09 can definitely cover you in the future.
+26:11 And as we covered earlier, automated
+26:13 tests can definitely save your butt.
+26:16 Simply ask your agent to add
+26:17 a test suite to your project.
+26:19 This could be simple unit tests that test
+26:21 all the functions in your application.
+26:23 It could include end-to-end tests as
+26:25 well, or a little mixture of the two.
+26:28 Then ask your agent to add those tests to
+26:30 your CI/CD pipeline.
+26:32 Now let's scale things up.
+26:34 Now that you're comfortable working with
+26:35 coding agents and
+26:36 you've got your workflow
+26:37 bedded down, it's time to push yourself
+26:40 to work with more than
+26:41 one coding agent at a
+26:42 time.
+26:43 The system that I showed you today allows
+26:45 you to create multiple
+26:46 issues, and that also
+26:48 means you can run multiple coding agents
+26:50 working across multiple
+26:52 issues at the same time.
+26:54 Your job as an AI engineer is not to sit
+26:57 there and babysit a
+26:58 single Claude Code session.
+27:00 You need to be as
+27:01 productive as possible too.
+27:03 So the benefit of working with multiple
+27:05 agents is we could assign
+27:07 different issues to different
+27:08 agents.
+27:09 Each of those agents will work away at
+27:11 the changes in their
+27:12 own worktrees, and by the
+27:13 end of it, you can review the pull
+27:15 requests, and then squash
+27:16 and merge those changes, or
+27:18 send the issues back to the
+27:19 agents to address any issues.
+27:22 Now this is actually a fun part.
+27:24 I love it.
+27:25 A lot of people ask me where
+27:26 these issues actually come from.
+27:28 On the one hand, it's probably you as a
+27:30 developer logging it, or if your business
+27:32 owner needs a change made to the
+27:34 application, those will
+27:35 eventually result in a GitHub issue.
+27:38 But issues could also be the result of
+27:40 proactive monitoring.
+27:42 What I like to do is to run security
+27:44 audits on a schedule the
+27:46 same with UI design and
+27:47 the same with code review.
+27:49 So I would have an agent run maybe once a
+27:51 day or like every six hours to review the
+27:55 application for any
+27:56 possible improvements.
+27:58 And if it identifies any gaps or issues
+28:01 within each of these different
+28:02 categories, that agent
+28:04 should automatically create a GitHub
+28:06 issue on our behalf.
+28:07 Ideally, you don't want your users to run
+28:09 into issues and then they have to kind of
+28:11 email you or contact
+28:12 support to resolve those issues.
+28:15 For the most part, people
+28:16 don't really report issues.
+28:18 They'll probably just think your app is
+28:19 crap and never come back to it.
+28:21 So just by proactively monitoring these
+28:23 three categories, you
+28:25 could identify security issues.
+28:27 For design review, what I like to do is
+28:29 to ask my agent to
+28:31 compare the application.
+28:32 So it should pull up any random component
+28:34 or page in the app
+28:35 and compare that to the
+28:37 actual design system.
+28:39 And if the page or component is
+28:41 misaligned, it needs to create an issue
+28:43 to resolve that request.
+28:45 These agents do not fix
+28:47 the issues themselves.
+28:48 They're simply there to scan the app for
+28:50 improvements and create the issues if the
+28:53 issues do not yet exist.
+28:55 And the same thing for code review.
+28:57 Sometimes code just
+28:58 needs to be refactored.
+28:59 Sometimes code becomes stale because the
+29:01 feature was deprecated a
+29:02 long time ago and other
+29:04 code is just kind of sitting there idle.
+29:07 Here's another thing I
+29:08 noticed with code review as well.
+29:10 I have applications that were built by
+29:12 like older GPT and
+29:13 Claude models from like two
+29:14 years ago.
+29:15 And of course, new frontier models are
+29:17 released all the time and
+29:19 they are way better at writing
+29:21 code.
+29:22 So if you have older projects, this
+29:24 code review agent could
+29:25 actually greatly improve
+29:26 the quality of the
+29:27 code in your code base.
+29:29 And now we're really stepping things up.
+29:31 So far, we are the ones
+29:33 assigning issues to agents.
+29:35 So we are opening up our Claude Code
+29:37 session and asking our
+29:39 agent to address issue one,
+29:41 two, three.
+29:41 What if we could do
+29:43 all of that on autopilot?
+29:44 So instead of us having to assign these
+29:46 issues, we simply create
+29:48 the issue and then our system
+29:51 or our software factory will classify or
+29:54 categorize the issue
+29:56 itself and assign that issue to
+29:58 one of the agents in our agent swarm.
+30:01 When I create a new issue, that issue
+30:03 will automatically be
+30:05 labeled by our software factory.
+30:07 Let me show you what
+30:08 that actually looks like.
+30:09 I can go to any one of my repos like this
+30:11 RTS demo and let's just give it a name.
+30:15 Let's say we want to add
+30:16 like a PS1 graphics filter.
+30:19 What I can do is
+30:20 simply create this issue.
+30:21 Under labels, I can
+30:23 simply set this as ready.
+30:24 So once I'm ready for the software
+30:26 factory to process it, I
+30:28 can do this while creating
+30:29 the issue as well, by the way.
+30:31 So all I have to do is
+30:32 set this issue to ready.
+30:34 And now we can see this label just
+30:36 changed to factory running.
+30:38 And if I go back to my software factory
+30:40 itself, we can see that my
+30:42 software factory is actually
+30:43 processing that issue at the moment.
+30:45 And my software factory
+30:47 consists out of 10 coding agents.
+30:49 So I've got a combination of IKU, Codex,
+30:51 Claude agents, and here
+30:53 we can see that the Codex2
+30:54 agent is actually working on this change.
+30:57 Now I could actually specify exactly
+30:59 which agents we
+30:59 will process this from this list.
+31:01 All I have to do is just
+31:02 kind of select a specific agent.
+31:04 And this does include
+31:05 human in the loop as well.
+31:07 And if that agent has a question for me,
+31:09 it will update the
+31:10 issue with its question.
+31:11 I can simply update the issue with the
+31:13 comment and the agent
+31:14 will continue working.
+31:16 Software Factories are really popular
+31:17 right now because you
+31:19 are not running agents on
+31:20 your own hardware anymore.
+31:22 These are running in virtual machines in
+31:24 the cloud, which means
+31:25 they are running in isolated
+31:26 environments as well.
+31:28 So if there was any kind of prompt
+31:29 injection or the agent
+31:31 messed up badly, it's all sort
+31:32 of isolated to its own virtual machine.
+31:35 And of course, you don't have 10 or 20 or
+31:37 100 agents competing
+31:38 for the same resources
+31:39 on your laptop.
+31:40 So just imagine a world where you've got
+31:42 your agents proactively
+31:44 monitoring your system
+31:45 for potential security issues and logging
+31:48 the issues themselves.
+31:49 When that issue is created, one of the
+31:52 agents in your swarm
+31:53 automatically pick it up, they
+31:54 work on the change, and they raise that
+31:57 pull request for you.
+31:58 All you have to do when you wake up in
+32:00 the morning is go
+32:01 through the pull requests and
+32:03 maybe decide on what changes
+32:04 you want to keep or throw away.
+32:06 And finally, I do want to discuss custom
+32:09 harnesses and Harness Engineering.
+32:12 Custom harnesses are
+32:13 extremely popular right now.
+32:15 You might have seen plenty of coding
+32:17 harnesses out there, like
+32:18 the PyAgent SDK, the DeepSeek
+32:21 harness.
+32:22 There are so many different options.
+32:24 You definitely do not have to use Codex
+32:26 or Claude Code if you don't want to.
+32:29 Custom harnesses can be fantastic.
+32:31 If you wanted to enforce certain policies
+32:34 within your
+32:34 organization or have very specific
+32:36 hooks and features available to your
+32:38 agents, just build
+32:39 your own coding harness.
+32:41 Let me show you an example
+32:42 of a harness that I built.
+32:44 Now, as I mentioned, there are plenty of
+32:45 coding harnesses out there.
+32:47 Claude Code, OpenCode, the
+32:48 PyAgent SDK, you name it.
+32:51 But none of those were effective, in my
+32:53 opinion, at working
+32:54 with open source models.
+32:56 So I decided to build
+32:58 my own coding harness.
+33:00 And this is called SMOL.
+33:01 This is a tiny coding harness that only
+33:04 injects a small system
+33:05 prompt, so it barely uses any
+33:07 of the context window, and it
+33:09 automatically picks up models
+33:11 running on your own hardware.
+33:13 So if I go to slash Models, this
+33:16 automatically scans your
+33:17 system for any models running in
+33:19 Ollama and LM Studio.
+33:21 And if you've ever tried to use local
+33:23 models in other
+33:23 harnesses, it usually involves a
+33:25 whole bunch of
+33:26 configuration, which is not fun.
+33:29 This harness only includes a tiny set of
+33:31 tools that's custom
+33:32 designed for these tiny models.
+33:35 These local models are really not good at
+33:37 doing things like
+33:38 using subagents, skills,
+33:40 MCP servers.
+33:41 So all I did was simply strip away
+33:43 everything that agent
+33:44 shouldn't have access to.
+33:45 And now it's got an optimized environment
+33:47 for these tiny models.
+33:49 And yes, this does
+33:50 include a web interface as well.
+33:53 The point being that depending on the
+33:54 environment that you're
+33:55 working in and what you have,
+33:57 you can definitely build
+33:58 your very own coding harnesses.
+34:00 Again, we've actually got courses on that
+34:02 in Agentic Labs as well.
+34:04 And finally, that takes
+34:05 us to Harness Engineering.
+34:07 You are not as limited to the coding
+34:09 harness and any specific
+34:11 agent from any provider either.
+34:13 You can set the
+34:14 environment up any way you want.
+34:17 You can decide what tools the agent
+34:19 should have access to.
+34:21 Should it support memory files?
+34:23 Should it automatically
+34:24 implement like company policies?
+34:27 I've seen plenty of harnesses that are
+34:28 optimized for larger organizations and
+34:30 for use at enterprise.
+34:32 These types of harnesses will identify
+34:34 things like personally
+34:35 identifying information
+34:37 before sending the prompts to agents.
+34:40 Or if your company actually wants to
+34:41 block access to certain tools,
+34:43 for example, Google Drive
+34:45 or Microsoft Teams or whatever,
+34:47 you could build a harness that will add
+34:49 all of those protections already.
+34:51 So you could build your own custom
+34:52 harness that enforces the CI checks.
+34:55 Or the custom harness could
+34:57 enforce monitoring agents.
+34:59 And finally, let me show you one of the
+35:01 craziest coding harnesses that I've
+35:03 actually built for myself.
+35:04 This project enforces
+35:05 everything you've learned today.
+35:07 This is a coding harness.
+35:09 It enforces rules through
+35:11 very specific memory files.
+35:13 It tackles things like
+35:14 security and everything else.
+35:16 But what you're seeing here is my
+35:18 software factory represented in 3D space.
+35:21 So who said that coding should be boring?
+35:24 As my agents are working and idle, they
+35:26 can actually interact
+35:27 with their environment,
+35:28 keeping things really interesting.
+35:30 Each of these coding
+35:31 agents are doing real work.
+35:33 So if we hover over any of these monitors,
+35:35 we can see that this
+35:36 agent is actually running.
+35:38 And this is running a Claude Code session
+35:41 running on Opus 5.5.
+35:43 We have our Kanban board over here.
+35:46 And guess what?
+35:47 Each and every one of these stickies
+35:50 actually relate to an issue on GitHub.
+35:52 So this is a normal GitHub issue.
+35:55 And the same thing with pull requests.
+35:56 As agents complete their changes, they
+35:59 will actually create and
+36:01 review their pull requests.
+36:02 And whenever I add a new task to the
+36:04 backlog, this will actually create a
+36:06 physical GitHub issue.
+36:08 So this is everything that you've learned
+36:10 today represented in a very
+36:11 fun and interactive manner.
+36:14 This could be the
+36:15 future of agentic coding.
+36:17 This project is open source, by the way.
+36:19 And yes, you can try it yourself.
+36:21 The project is called CubeFarm, and you
+36:23 simply install it with a
+36:24 single command, npx cubefarm.
+36:27 If everything I showed you today still
+36:29 feels like it went over your head,
+36:31 and you actually need something that's a
+36:32 bit simpler, I do have a free course
+36:34 called The Ramp Framework.
+36:36 This is where I teach you a
+36:37 simple, repeatable workflow
+36:40 that you can use for any coding agent
+36:42 that even works with free local models.
+36:45 You can simply scan this QR code, and
+36:47 this will take you to my free community,
+36:49 where you get access to that free course.
+36:51 If you would like to contact
+36:52 me, I've got a YouTube channel.
+36:54 My company is called Cognaitiv AI, where
+36:56 we help businesses get AI ready.
+36:59 And I have a paid
+36:59 community called Agentic Labs,
+37:01 and that is where we do deep dives, and
+37:03 I've got exclusive
+37:04 courses in there as well.
+37:06 Thank you for your time. This was a lot
+37:08 of fun, and I do have to
+37:10 hear from you guys soon.
+37:11 Thank you to the AI Practitioners Summit
+37:13 for having me, and I'll see you later.
+37:16 Bye-bye.
