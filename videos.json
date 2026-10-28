@@ -9,8 +9,117 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-10-28T06:05:01+02:00",
+  "updated_at": "2026-10-28T12:03:46+02:00",
   "videos": [
+    {
+      "id": "DDZ-a6bAn3Y",
+      "title": "Deepseek crushed everyone",
+      "channel": "Matthew Berman",
+      "upload_date": "20261028",
+      "thumbnail": "https://i.ytimg.com/vi/DDZ-a6bAn3Y/maxresdefault.jpg",
+      "description": "Apply for an ARENA pass here: https://coreweave.com/coreweave-arena Test how your AI app holds up under real traffic before your users ever see it. Thanks to CoreWeave for sponsoring this video. #CoreWeavePartner\n\nJoin My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.com\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/u7wTTGWhuJ\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V\n\nLinks:\nhttps://api-docs.deepseek.com/news/news261017/",
+      "duration_seconds": 1271,
+      "url": "https://www.youtube.com/watch?v=DDZ-a6bAn3Y",
+      "summary": "3D prototypes · 00:00 — Matthew Berman argues that DeepSeek V4.1 Flash is unusually competitive on capability, speed and cost, not that it wins every quality benchmark. His hands-on browser demos include an interactive mechanical watch with exploded layers, a Fall Guys-style game and a foldable iPhone Duo model. The watch lacks the rear winding weight he expected, the game has clipping and inactive obstacles and falls short of Opus 5.5, and the phone animation briefly moves off screen. These are promising prototypes rather than evidence of production reliability; the 05:00–06:02 CoreWeave segment is a disclosed sponsorship promoting load testing, not an independent benchmark.\n\nImage reasoning · 06:05 — A pastry-counting exercise shows both useful visual reasoning and the limits of treating estimates as facts. The model reports 137 visible pastries after 4 minutes 25 seconds, identifies categories and volunteers a roughly 130–145 uncertainty range; Berman himself counts 25 visible orange macarons where the model reports 24. A follow-up takes 23 seconds and estimates hidden items from stack geometry, including 21 additional macarons. Berman is impressed by the spatial explanation, but the hidden counts are inferences, not verified inventory totals.\n\nSpeed and research agents · 09:11 — With reasoning disabled and tools explicitly prohibited, Berman estimates his story-generation demo at 125–150 tokens per second; that is his visual estimate, not instrumented measurement. Separately, he cites Artificial Analysis provider figures of 1,286 tokens per second for Lithos AI and 845 for Baseten, so the larger speeds should not be confused with his own test. An interview-research task runs for 6 minutes 24 seconds and returns five proposed clips with timestamps, quotes and reasons; he says he verified the first timestamp and endorses several selections. Actually downloading and cutting the clips remains an untested next step.\n\nLocal software that fits the job · 12:48 — Running locally on an expensive DGX station, Berman reports a 50-minute build of GridLine, an offline-first spreadsheet prototype with working formulas, fill-down and charts, while explicitly acknowledging it is not a complete Excel replacement. A separate Rubik’s cube demo scrambles and solves with convincing rotations. For Folio, a PDF reader built with Electron, React, TypeScript and PDF.js, he uses a detailed specification generated with Opus 5.5 rather than the minimal prompts used in earlier tests. He demonstrates annotations, signature options, dark mode and export, making the case for narrowly tailored personal tools; neither consumer-GPU feasibility nor his estimated sub-few-dollar hosted build cost is demonstrated here.\n\nEconomics and final verdict · 18:09 — Berman presents a quality-versus-cost frontier and argues that cost per completed intelligence task matters more than token price alone because token usage also affects the bill. The benchmark material he shows reports DeepSeek at $0.26 per completed task, and he quotes Lithos AI pricing of $0.60 per million output tokens and $0.15 per million input tokens, with free cache hits. These are reported benchmark/provider figures, not costs established by his app demos, and should be rechecked before buying. His closing recommendation is to try DeepSeek for its overall value, while acknowledging that Kimi K3.1 scores higher overall in the benchmarks and inviting viewers to compare the models themselves.",
+      "why_valuable": "DeepSeek V4.1 Flash looks worth trialling as a lower-cost coding and local-tool alternative: Berman demonstrates usable spreadsheet and PDF-reader prototypes and cites $0.26 per benchmark task. This helps decide whether to test it alongside premium models for your own workload, while exposing the trade-offs: imperfect 3D interactions, estimated rather than verified visual counts, expensive local hardware and no production-readiness proof.",
+      "key_takeaways": [
+        "00:00–04:58: The attractive 3D demos still have concrete defects: a missing rear watch weight, game clipping/inactive obstacles and a fold animation that moves off screen. Berman rates the game below Opus 5.5, despite preferring DeepSeek’s cost and speed.",
+        "06:24–09:04: The pastry model reports 137 visible items and a roughly 130–145 range, then estimates hidden stock. Berman counts 25 orange macarons against the model’s 24; the hidden-item estimates are not ground-truth validation.",
+        "09:56–10:39: Berman visually estimates 125–150 tokens/second in his own demo. The much larger 1,286 and 845 tokens/second figures come from provider results he cites, not the same test.",
+        "10:41–12:47: Five interview-clip suggestions take 6 minutes 24 seconds; Berman verifies the first timestamp and approves several choices. Downloading and automatically cutting those clips is proposed, not demonstrated.",
+        "12:48–14:06: A locally generated spreadsheet takes 50 minutes and supports formulas, fill-down and charts, but is not full Excel. The demonstrated machine is an expensive DGX station, not a consumer-GPU deployment.",
+        "15:09–17:41: The PDF reader uses a detailed Opus-generated specification and implements annotations, signatures and dark mode. Its success supports building narrow personal tools, not assuming a minimal prompt reliably delivers a finished app.",
+        "19:24–21:10: Berman prioritizes cost per completed task, citing $0.26 for DeepSeek, and ultimately prefers its overall value even though he says Kimi K3.1 ranks higher on aggregate benchmarks. Treat the quoted costs as reported figures to recheck for your workload."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Interactive watch: impressive spatial detail, incomplete mechanism",
+          "description": "Berman tests a single-page mechanical-watch visualization with component labels, close-up views and an exploded assembly, praising the lighting and apparent fit of the parts. He also notices that the rear winding weight he expected is absent, so the appealing interaction does not establish mechanical completeness or accuracy.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 147,
+          "timestamp": "02:27",
+          "title": "A Fall Guys-style clone against premium-model output",
+          "description": "The Bean Blitz demo has convincing 3D obstacles, a dive action and hammers that knock the player off, but some objects clip and an apparently rotating obstacle does nothing. Berman judges it close to, but not as good as, Opus 5.5 and frames the result as a cost-and-speed trade-off rather than a clean quality win.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 229,
+          "timestamp": "03:49",
+          "title": "Foldable phone modeling with a visible animation fault",
+          "description": "A request to research and recreate the iPhone Duo produces a model whose materials, buttons and hinge Berman praises, and he shows a comparison with a Kimi result. Folding makes the object move partly off screen and briefly disrupts the screen image, a reminder that polished static appearance does not guarantee robust interaction.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 300,
+          "timestamp": "05:00",
+          "title": "Sponsored CoreWeave Arena load-testing walkthrough",
+          "description": "In a disclosed advertisement, Berman shows Forge increasing concurrent requests from one to five to ten while displaying response time, throughput and estimated cost. Its assistant recommends reducing unnecessary processing when latency rises; the segment promotes testing before deployment but does not independently validate DeepSeek’s production performance.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 365,
+          "timestamp": "06:05",
+          "title": "Counting pastries and reasoning about hidden stock",
+          "description": "The image task returns 137 visible pastries after 4 minutes 25 seconds, names pastry types and acknowledges a roughly 130–145 uncertainty range; Berman spots 25 orange macarons where the model reports 24. A 23-second follow-up estimates occluded items, including 21 additional macarons, from stack geometry. He praises the spatial reasoning, but neither the visible total nor the inferred hidden inventory is comprehensively verified.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 551,
+          "timestamp": "09:11",
+          "title": "Observed generation speed versus provider throughput claims",
+          "description": "To isolate text generation, Berman disables reasoning and explicitly forbids tools while requesting a 1,000-word story, then visually estimates 125–150 tokens per second. He separately cites Artificial Analysis figures of 1,286 tokens per second from Lithos AI and 845 from Baseten, using the combination of speed, cost and near-frontier quality to justify his preference. Those provider numbers are not measurements of his own run.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 641,
+          "timestamp": "10:41",
+          "title": "Finding interview clips with quotes and usable timestamps",
+          "description": "Given his Sam Altman interview, the agent spends 6 minutes 24 seconds proposing five clippable moments with exact timestamps and explanations of their appeal. Berman says he verified the first timestamp and endorses selections on coding and human control of AI, but he has not asked it to download or cut the video. The demonstrated workflow supports editorial research, not yet end-to-end clip production.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 768,
+          "timestamp": "12:48",
+          "title": "A locally built spreadsheet with deliberately limited scope",
+          "description": "Running the model on an expensive DGX station, Berman reports that a 50-minute coding run produced GridLine, an offline-first browser spreadsheet. He checks arithmetic formulas, fill-down behavior and draggable charts while acknowledging that it lacks full Excel functionality. His additional suggestion that a quantized model can run on high-end consumer hardware is not demonstrated on such a machine in this segment.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 849,
+          "timestamp": "14:09",
+          "title": "Minimal prompting for a Rubik’s cube simulation",
+          "description": "Berman intentionally gives only a short request for a 3D cube that can scramble and solve, testing whether the model supplies familiar behavior without an exhaustive specification. He observes consistent colors after scrambling, a visible move list and a successful solve with convincing rotations. The example illustrates a usable interactive prototype, without establishing the correctness of an independently tested general-purpose solving algorithm.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 909,
+          "timestamp": "15:09",
+          "title": "A detailed specification turns into a personal PDF app",
+          "description": "Dissatisfied with heavyweight PDF software, Berman asks Opus 5.5 to write a detailed specification and gives that to DeepSeek to build Folio with Electron, React, TypeScript and PDF.js. He demonstrates navigation, drawing, text notes, signature options, dark mode and export, arguing that narrowly customized software is now practical to create. His run is local; the suggestion that a hosted build would cost less than a couple of dollars is an estimate rather than an itemized result.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1089,
+          "timestamp": "18:09",
+          "title": "Reported benchmarks support a value argument, not universal supremacy",
+          "description": "Berman presents Deep Suite V1.1’s quality-versus-cost frontier and other benchmark charts as support for DeepSeek’s unusually strong value, while saying the most complex tasks can still justify higher-quality alternatives. He cites scores of 42 for Humanity’s Last Exam and Terminal Bench, then stresses that benchmark results tell only part of the story. These are reported chart results, distinct from the applications he personally demonstrated earlier.",
+          "source": "generated"
+        },
+        {
+          "start_seconds": 1164,
+          "timestamp": "19:24",
+          "title": "Cost per completed task and the closing model recommendation",
+          "description": "Berman explains that token usage changes the real cost of completing work and highlights a reported $0.26 per completed task for DeepSeek. He quotes Lithos AI at $0.60 per million output tokens and $0.15 per million input tokens with free cache hits, then discusses Baseten’s speed and pricing as another provider option. His final preference is DeepSeek’s overall value, despite acknowledging that Kimi K3.1 scores higher in aggregate benchmarks and recommending that viewers compare them themselves.",
+          "source": "generated"
+        }
+      ],
+      "first_detected_at": "2026-10-28T12:00:18+02:00",
+      "summarized_at": "2026-10-28T12:03:46+02:00"
+    },
     {
       "id": "2DebTsaMoLE",
       "title": "Hermes Agent Explained Simply. (Set Up in Minutes with Hostinger).",
