@@ -1,0 +1,166 @@
+[
+  {
+    "id": "TiYFme-3RCI",
+    "title": "Blender MCP vs Headless - I Tested Both With AI",
+    "channel": "AI Dev Challenge",
+    "upload_date": "20261025",
+    "thumbnail": "https://i.ytimg.com/vi/TiYFme-3RCI/maxresdefault.jpg",
+    "description": "\"Why don't you use MCPs?\" One of you asked me that, so I stopped guessing and ran a proper test.\n\nSame AI agent, same brief, same reference pictures. Three ways to drive Blender:\n🔹 Headless: the agent writes a Python script, Blender runs it in the background, no window at all\n🔹 Official Blender MCP (Blender Lab): Python sent straight into the open Blender, with a live viewport\n🔹 Computer use: no code, the agent looks at screenshots and clicks like a person\n\nFour rounds: a wooden crate, a cast-iron street lamp, a hand cart, and an edit of that cart (one broken wheel, three crates under the canvas). Every result was scored by a blind judge: a fresh agent that had no idea which method made what.\n\nA few things I didn't see coming:\n⏱️ MCP built the first crate in 3.3 minutes, headless needed 9.4. Not because headless is slow, but because it checked its work with full CPU renders, while MCP just grabbed viewport screenshots.\n🖱️ Computer use did get there. It took 19 minutes and $6.75, for a plain box.\n🤖 Bonus: five agents, five props, all at the same time. Then the same five agents inside ONE Blender over MCP. \n📺 The next day I ran it again live on my screen: separate files, and five Blenders on five ports. I felt like a security guard.\n\nSo which one do I use now, and why? It's not about speed.\n\n⏩ CHAPTERS\n0:00 Why don't I use MCP?\n0:39 What's coming\n1:18 Round 1: the crate (and how the three methods work)\n2:42 The race: 9 minutes vs 3\n3:18 Computer use: 19 minutes for a plain box\n3:42 The blind judge\n4:15 Round 2: the street lamp\n5:02 Round 3: the hand cart\n5:32 Round 4: editing the cart\n6:16 Bonus: five agents at once, headless\n6:51 Five agents in ONE Blender (MCP)\n7:37 How MCP handled it: one queue\n7:56 One file, one pile\n8:21 Live test 1: five separate files\n8:43 Live test 2: five Blenders, five cameras\n9:11 Does my thesis hold?\n9:26 The full board\n9:39 Why I still use headless\n10:15 My answer, and what's next\n\n🛠️ THE SETUP\n• Agent: Claude Opus 5.5 on high effort in Claude Code, a fresh session for every run\n• Blender 5.2\n• Official Blender MCP by Blender Lab (server 1.0.2, add-on 1.0.0)\n• Computer use in the Claude app\n• PC: 16 threads, 32 GB RAM, RTX 4060 8 GB\n• Costs are API-equivalent at list prices, not my bill\n• Reference pictures were generated with GPT for this test\n\nNext up: the same comparison, but for animation. If you want to see that, subscribe 🔔\n\n🎵 MUSIC (YouTube Audio Library)\n• \"Science Montage\" by Jeremy Blake\n• \"Marimba Chill\" by Jimena Contreras\n• \"Stealth\" by Aakash Gandhi\n• \"Dusty Road Magic\" by Chris Haugen\n• \"The Road To Mordor\" by Ezra Lipp\n• \"Moon Vision\" by Chris Haugen\nSound effects: our own library and Pixabay.\n\n#Blender #BlenderMCP #ClaudeCode #AIagents #3Dmodeling",
+    "duration_seconds": 657,
+    "url": "https://www.youtube.com/watch?v=TiYFme-3RCI",
+    "summary": "What is actually being compared — 00:00–02:41: AI Dev Challenge tests the same briefs and reference images with fresh Claude Opus 5.5 high-effort sessions, comparing background Python scripts, the official Blender Lab MCP, and screenshot-driven computer use. The important distinction is not code versus no code: both headless and MCP execute Python, but one runs a background process and the other changes an open scene. Headless needs Blender and a scripting agent; MCP adds a running application, add-on, online access and server configuration. These are the creator's own trials, with a fresh agent judging shuffled outputs, not an independently replicated benchmark.\n\nSingle-asset speed is mostly a feedback-loop result — 02:42–05:31: On the crate, headless takes just over nine minutes versus about three for MCP, with almost identical reported API-equivalent costs of $1.37 and $1.32 respectively. The creator attributes the gap to full-image renders for headless checks versus quick viewport screenshots for MCP, rather than Python execution speed. Computer use takes nineteen minutes and $6.75 for an unembellished box and is dropped after scoring 20 against headless's 31 and MCP's 30. The street lamps receive 30 and 31, treated as a tie, but MCP has eight bad edges against headless's 436; the cart scores 30–30, yet the judge prefers headless because its canvas looks like cloth rather than a smooth shell.\n\nLive scene access does not guarantee better edits — 05:32–06:15: Both methods modify the same winning headless cart, breaking one wheel and adding three crates under its canvas. MCP is faster again, but headless wins 32–28 because of the damage detail. This directly overturns the creator's initial expectation that seeing an existing scene would make MCP the stronger editing method; speed and visual quality need to be assessed separately, and these few props do not establish a universal ranking.\n\nParallelism works, but scene isolation changes the trade-off — 06:16–09:10: Five headless workers finish five props in 97 seconds versus about six minutes sequentially; ten simultaneous Blender processes make the creator's PC crawl. Surprisingly, five agents sharing one MCP-controlled Blender finish in 103 seconds without failed calls: the add-on queues work on Blender's main thread and each agent submits its whole job in one call. However, their props overlap in one scene, four workers validate numerically, and one renders a private preview, undermining the live-viewport benefit. A later live test saves separate props successfully but still shares the queue; five separate MCP windows and ports restore independent views, require manual setup, and increase calls from eleven to twenty-six, taking longer.\n\nThe verdict is about workflow, not a blanket speed winner — 09:11–10:36: The creator still chooses headless for autonomous asset pipelines because each agent can have an isolated background Blender, the desktop stays free, and saved scripts rebuild assets without another agent run. MCP is his choice for one model at a time when a live preview matters; computer use is not yet his choice for Blender. The close 97-versus-103-second shared-instance test tempers the claim that MCP cannot multitask, while the separate-window trial explains his operational preference. Animation is proposed as the next comparison, not tested here; the description also specifies that costs are list-price API equivalents rather than his actual bill.",
+    "why_valuable": "Choose headless Blender for isolated, reproducible multi-agent asset production, or MCP for fast live feedback on one model. In the creator's tests MCP cuts the crate run from just over nine minutes to about three, but headless wins the cart edit 32–28 and avoids shared scenes or manually managed windows; computer use costs $6.75 for a plain box.",
+    "quick_takeaways": [
+      "Use headless for unattended asset batches: each worker gets an isolated background Blender, and saved Python scripts can rebuild assets without another agent run.",
+      "Use MCP for one asset with live feedback. Its crate run took about three minutes versus just over nine for headless because viewport checks replaced full renders; costs were nearly equal.",
+      "Do not equate live scene access with better edits: headless won the damaged-cart task 32–28, despite MCP finishing faster.",
+      "Five agents sharing MCP nearly matched headless batch speed, 103 versus 97 seconds, but overlapping props undermined viewport checks. Separate MCP windows required manual setup and more calls.",
+      "Computer use was dropped after nineteen minutes and $6.75 produced a plain box. These are the creator's limited prop tests and API-equivalent costs, not a universal Blender benchmark."
+    ],
+    "key_takeaways": [
+      "01:49–02:30: Headless and the official Blender MCP both run agent-written Python. The real choice is a background process with minimal setup versus an open scene with an add-on and configured server, not code versus no code.",
+      "02:42–03:17: MCP finishes the crate in about three minutes versus just over nine for headless; the creator credits viewport screenshots rather than repeated full renders. Reported costs are nearly identical: $1.32 for MCP and $1.37 for headless.",
+      "03:18–04:08: Computer use needs nineteen minutes and $6.75 for a box without bevels or rivets, scores 20 versus 31/30, and is excluded from later rounds. Interface navigation, not merely modelling ability, is a practical bottleneck in this trial.",
+      "04:15–05:31: Similar scores hide different defects: MCP's street lamp has eight bad edges versus headless's 436, while the 30–30 cart tie goes to headless for cloth-like canvas. Judge topology and material appearance separately from aggregate scores.",
+      "05:32–06:13: Giving both agents the same cart does not validate the expected MCP editing advantage. Headless wins the broken-wheel-and-three-crates edit 32–28 on damage details even though MCP is faster.",
+      "06:16–08:20: Five headless workers complete props in 97 seconds; five agents sharing MCP finish in 103 seconds without failed calls. MCP queues whole-job calls on the main thread, but overlapping assets force four workers into numerical checks and one into a private rendered preview.",
+      "08:21–09:10: Saving separate files through one MCP instance works but retains its shared queue. Five separate Blender windows and ports remove that shared-instance constraint, yet calls rise from eleven to twenty-six and the run takes longer, so restoring independent live views does not automatically improve throughput.",
+      "09:11–10:36: The creator's final split is headless for autonomous pipelines, MCP when he wants to watch a single model, and not computer use for Blender yet. Script-based rebuilds and a free desktop matter more to his choice than winning every speed test; animation remains untested."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Why don't I use MCP?",
+        "description": "A viewer's question prompts the creator to compare his usual background-script workflow against the official Blender MCP and screenshot-driven clicking. He gives the same agent a crate, lamp, cart, cart edit and parallel props, setting up a practical workflow comparison rather than assuming that his existing preference is best.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 39,
+        "timestamp": "00:39",
+        "title": "What's coming",
+        "description": "The preview contrasts a Blender-only setup with one requiring an add-on and server, then flags the unexpectedly faster approach and computer use's plain-box result. It also foreshadows a near-identical modelling outcome and five agents sharing one Blender, so both quality and coordination will challenge the initial assumptions.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 78,
+        "timestamp": "01:18",
+        "title": "Round 1: the crate (and how the three methods work)",
+        "description": "A sixty-by-forty-centimetre crate with three planks per wall, steel corners and handles gives each fresh Claude Opus 5.5 high-effort session the same brief and references. Both background execution and the official MCP use Python; only computer use relies entirely on screenshots and clicks. The creator distinguishes the minimal Blender-plus-script setup from MCP's running application, add-on, online access and server configuration, making setup overhead part of the decision.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 162,
+        "timestamp": "02:42",
+        "title": "The race: 9 minutes vs 3",
+        "description": "The creator's expected speed advantage reverses: headless takes just over nine minutes while MCP takes about three. He attributes this to full-image rendering during headless checks versus quick viewport captures, with nearly identical costs of $1.37 and $1.32 respectively, showing that the verification loop can dominate elapsed time.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 198,
+        "timestamp": "03:18",
+        "title": "Computer use: 19 minutes for a plain box",
+        "description": "The clicking agent initially struggles to learn Blender's interface, then builds more quickly once it finds a workable rhythm. Even so, nineteen minutes and $6.75 buy only a single-colour box without bevels or rivets, making GUI navigation an expensive route for this particular asset.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 222,
+        "timestamp": "03:42",
+        "title": "The blind judge",
+        "description": "A fresh judging agent receives shuffled labels and awards the crate outputs 31 for headless, 30 for MCP and 20 for computer use. The creator treats the one-point lead as nearly a tie, but removes computer use from the remaining rounds because so much of its effort went into fighting the interface.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 255,
+        "timestamp": "04:15",
+        "title": "Round 2: the street lamp",
+        "description": "Headless finishes the cast-iron lamp in six minutes and MCP in five and a half; scores of 30 and 31 are treated as a tie, with matching silhouettes and dimensions down to the millimetre. Headless captures the stepped base and flutes, while MCP gets the paint colour and cleaner topology, with eight bad edges versus 436. The creator favours the cleaner mesh despite the similar appearance, illustrating why a render alone is not enough to choose an asset.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 302,
+        "timestamp": "05:02",
+        "title": "Round 3: the hand cart",
+        "description": "The brief requires large spoked wheels, long front shafts and canvas stretched over three hoops, with the cloth appearance providing the harder material test. MCP finishes faster and both outputs score 30, but the judge selects headless because its cover reads as cloth while MCP's resembles a smooth shell.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 332,
+        "timestamp": "05:32",
+        "title": "Round 4: editing the cart",
+        "description": "Both agents modify the same headless cart from the previous round, breaking one wheel and loading three crates under its cover. The creator expects live scene access to favour MCP and it does finish faster, but the judge awards headless 32 against 28 for MCP because of better damage detail. He accepts that result as a rejection of his original editing hypothesis, separating visibility from actual output quality.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 376,
+        "timestamp": "06:16",
+        "title": "Bonus: five agents at once, headless",
+        "description": "Each of five agents receives a simple prop and its own background Blender process, completing the batch in 97 seconds rather than about six minutes sequentially. The creator also tries ten instances, which slow his PC to a crawl, so the useful parallelism has a hardware-dependent ceiling rather than scaling without limit.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 411,
+        "timestamp": "06:51",
+        "title": "Five agents in ONE Blender (MCP)",
+        "description": "Expecting a shared application and window to hamper autonomous work, the creator instead sees all five MCP agents finish without a failed call. Their combined run takes 103 seconds against headless's 97, with either approach taking about six minutes sequentially, so this batch does not support a categorical claim that MCP cannot keep up.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 457,
+        "timestamp": "07:37",
+        "title": "How MCP handled it: one queue",
+        "description": "The add-on processes requests serially on Blender's main thread, rather than executing five scene mutations simultaneously. Each agent independently sends its entire task in a single call, which prevents another job from interrupting halfway through and explains why this particular shared-instance run remains orderly.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 476,
+        "timestamp": "07:56",
+        "title": "One file, one pile",
+        "description": "All five props end up overlapping in a single scene inside the cart, leaving the agents unable to view their own work clearly. Four validate through numerical checks and one creates a private rendered preview, so the shared scene erodes the viewport-feedback advantage that made MCP attractive for individual props.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 501,
+        "timestamp": "08:21",
+        "title": "Live test 1: five separate files",
+        "description": "The next-day live retest gives each worker a separate location and has it save only its own prop, successfully producing independent files. File separation therefore works through MCP, but the agents still use one Blender instance and one request queue, which is a different kind of isolation from separate processes.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 523,
+        "timestamp": "08:43",
+        "title": "Live test 2: five Blenders, five cameras",
+        "description": "Giving every agent its own Blender window and port removes the need to wait on another worker and lets each inspect its own prop. However, the five windows are configured by hand, and clearer views encourage more checking: twenty-six calls instead of eleven, with a longer overall run. Restoring independent live feedback therefore introduces both desktop overhead and extra verification work.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 551,
+        "timestamp": "09:11",
+        "title": "Does my thesis hold?",
+        "description": "The creator qualifies his renewed preference for an autonomous headless pipeline by explicitly acknowledging that MCP is very fast for one object at a time. His recommendation depends on the intended working style, not on denying the successful or fast MCP results already demonstrated.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 566,
+        "timestamp": "09:26",
+        "title": "The full board",
+        "description": "The overall results board looks close in output quality, and the creator acknowledges MCP's speed advantage on individual props. He distinguishes those runs from the multi-agent trials, where coordination and workflow constraints make the choice less straightforward than a single elapsed-time ranking.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 579,
+        "timestamp": "09:39",
+        "title": "Why I still use headless",
+        "description": "The creator keeps headless as his default because workers get separate background instances, his screen stays available, and the saved script can rebuild an asset without another agent run. He reserves MCP for a single model with live preview, contrasting that convenience with a shared multi-agent scene or a desktop full of Blender windows.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 615,
+        "timestamp": "10:15",
+        "title": "My answer, and what's next",
+        "description": "The final recommendation is headless for autonomous production, MCP when the creator wants to watch, and no computer use for Blender yet. Because modelling quality proved close, he proposes repeating the comparison for animation, which is a future experiment rather than evidence supplied by this video.",
+        "source": "creator"
+      }
+    ]
+  }
+]

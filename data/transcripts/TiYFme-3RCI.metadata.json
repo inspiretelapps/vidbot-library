@@ -1,0 +1,110 @@
+{
+  "id": "TiYFme-3RCI",
+  "title": "Blender MCP vs Headless - I Tested Both With AI",
+  "channel": "AI Dev Challenge",
+  "upload_date": "20261025",
+  "duration": 657,
+  "thumbnail": "https://i.ytimg.com/vi/TiYFme-3RCI/maxresdefault.jpg",
+  "webpage_url": "https://www.youtube.com/watch?v=TiYFme-3RCI",
+  "description": "\"Why don't you use MCPs?\" One of you asked me that, so I stopped guessing and ran a proper test.\n\nSame AI agent, same brief, same reference pictures. Three ways to drive Blender:\n🔹 Headless: the agent writes a Python script, Blender runs it in the background, no window at all\n🔹 Official Blender MCP (Blender Lab): Python sent straight into the open Blender, with a live viewport\n🔹 Computer use: no code, the agent looks at screenshots and clicks like a person\n\nFour rounds: a wooden crate, a cast-iron street lamp, a hand cart, and an edit of that cart (one broken wheel, three crates under the canvas). Every result was scored by a blind judge: a fresh agent that had no idea which method made what.\n\nA few things I didn't see coming:\n⏱️ MCP built the first crate in 3.3 minutes, headless needed 9.4. Not because headless is slow, but because it checked its work with full CPU renders, while MCP just grabbed viewport screenshots.\n🖱️ Computer use did get there. It took 19 minutes and $6.75, for a plain box.\n🤖 Bonus: five agents, five props, all at the same time. Then the same five agents inside ONE Blender over MCP. \n📺 The next day I ran it again live on my screen: separate files, and five Blenders on five ports. I felt like a security guard.\n\nSo which one do I use now, and why? It's not about speed.\n\n⏩ CHAPTERS\n0:00 Why don't I use MCP?\n0:39 What's coming\n1:18 Round 1: the crate (and how the three methods work)\n2:42 The race: 9 minutes vs 3\n3:18 Computer use: 19 minutes for a plain box\n3:42 The blind judge\n4:15 Round 2: the street lamp\n5:02 Round 3: the hand cart\n5:32 Round 4: editing the cart\n6:16 Bonus: five agents at once, headless\n6:51 Five agents in ONE Blender (MCP)\n7:37 How MCP handled it: one queue\n7:56 One file, one pile\n8:21 Live test 1: five separate files\n8:43 Live test 2: five Blenders, five cameras\n9:11 Does my thesis hold?\n9:26 The full board\n9:39 Why I still use headless\n10:15 My answer, and what's next\n\n🛠️ THE SETUP\n• Agent: Claude Opus 5.5 on high effort in Claude Code, a fresh session for every run\n• Blender 5.2\n• Official Blender MCP by Blender Lab (server 1.0.2, add-on 1.0.0)\n• Computer use in the Claude app\n• PC: 16 threads, 32 GB RAM, RTX 4060 8 GB\n• Costs are API-equivalent at list prices, not my bill\n• Reference pictures were generated with GPT for this test\n\nNext up: the same comparison, but for animation. If you want to see that, subscribe 🔔\n\n🎵 MUSIC (YouTube Audio Library)\n• \"Science Montage\" by Jeremy Blake\n• \"Marimba Chill\" by Jimena Contreras\n• \"Stealth\" by Aakash Gandhi\n• \"Dusty Road Magic\" by Chris Haugen\n• \"The Road To Mordor\" by Ezra Lipp\n• \"Moon Vision\" by Chris Haugen\nSound effects: our own library and Pixabay.\n\n#Blender #BlenderMCP #ClaudeCode #AIagents #3Dmodeling",
+  "chapters": [
+    {
+      "start_time": 0.0,
+      "title": "Why don't I use MCP?",
+      "end_time": 39.0
+    },
+    {
+      "start_time": 39.0,
+      "title": "What's coming",
+      "end_time": 78.0
+    },
+    {
+      "start_time": 78.0,
+      "title": "Round 1: the crate (and how the three methods work)",
+      "end_time": 162.0
+    },
+    {
+      "start_time": 162.0,
+      "title": "The race: 9 minutes vs 3",
+      "end_time": 198.0
+    },
+    {
+      "start_time": 198.0,
+      "title": "Computer use: 19 minutes for a plain box",
+      "end_time": 222.0
+    },
+    {
+      "start_time": 222.0,
+      "title": "The blind judge",
+      "end_time": 255.0
+    },
+    {
+      "start_time": 255.0,
+      "title": "Round 2: the street lamp",
+      "end_time": 302.0
+    },
+    {
+      "start_time": 302.0,
+      "title": "Round 3: the hand cart",
+      "end_time": 332.0
+    },
+    {
+      "start_time": 332.0,
+      "title": "Round 4: editing the cart",
+      "end_time": 376.0
+    },
+    {
+      "start_time": 376.0,
+      "title": "Bonus: five agents at once, headless",
+      "end_time": 411.0
+    },
+    {
+      "start_time": 411.0,
+      "title": "Five agents in ONE Blender (MCP)",
+      "end_time": 457.0
+    },
+    {
+      "start_time": 457.0,
+      "title": "How MCP handled it: one queue",
+      "end_time": 476.0
+    },
+    {
+      "start_time": 476.0,
+      "title": "One file, one pile",
+      "end_time": 501.0
+    },
+    {
+      "start_time": 501.0,
+      "title": "Live test 1: five separate files",
+      "end_time": 523.0
+    },
+    {
+      "start_time": 523.0,
+      "title": "Live test 2: five Blenders, five cameras",
+      "end_time": 551.0
+    },
+    {
+      "start_time": 551.0,
+      "title": "Does my thesis hold?",
+      "end_time": 566.0
+    },
+    {
+      "start_time": 566.0,
+      "title": "The full board",
+      "end_time": 579.0
+    },
+    {
+      "start_time": 579.0,
+      "title": "Why I still use headless",
+      "end_time": 615.0
+    },
+    {
+      "start_time": 615.0,
+      "title": "My answer, and what's next",
+      "end_time": 657
+    }
+  ],
+  "caption_language": "en",
+  "caption_source": "youtube-transcript-api",
+  "transcript_file": "TiYFme-3RCI.transcript.txt"
+}
