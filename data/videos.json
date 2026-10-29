@@ -1,5 +1,80 @@
 [
   {
+    "id": "AtjFk9f44HE",
+    "title": "His AI Made 20 Reels Before Breakfast",
+    "channel": "Matt Wolfe",
+    "upload_date": "20261028",
+    "duration_seconds": 2289,
+    "thumbnail": "https://i.ytimg.com/vi/AtjFk9f44HE/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=AtjFk9f44HE",
+    "description": "What if you could automate your video editing, get a panel of AI experts to debate your ideas, and run your social media almost entirely on autopilot?\n\nI sat down with Nate Herk to explore three of his favorite AI workflows that he actually uses every day. He walks me through how he's using Claude Code to automatically edit videos, an AI expert panel called The Roast Room to make better decisions, and an AI social media manager that researches, creates, and publishes Instagram content.\n\nWe dive into how he built these workflows, the tools and AI skills behind them, and how you can set them up yourself. Nate also shares how he's using AI to replicate his editing style, automate content creation, and build systems that keep improving over time.\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:\n00:00 Show Me Your Workflow with Nate Herk\n01:03 Teaching AI to Edit Videos in Your Style\n06:33 How the AI Editing Workflow Works\n13:50 The Roast Room: Build Your Own AI Expert Panel\n20:37 Testing the Roast Room on Matt’s Newsletter Strategy\n26:49 Automating Instagram Research, Content, and Posting\n36:24 How to Try Nate’s AI Workflows",
+    "summary": "Editing from proven examples • 01:03–06:33: Nate Herk says generic AI editing initially cost him time in rerenders and corrections; his improvement came from analyzing 27 successful, human-edited reels and saving their pacing, typography, scene layouts and audio patterns as reusable skills. He reports producing about 20 reels that morning with related ideation and scripting workflows, but this is his account, not a timed independent benchmark. The side-by-side example is partly a reconstruction of an existing reel, including reused B-roll, so it should not be mistaken for proof of equally good creative choices on unseen material. He still considers human music selection and sound design stronger.\n\nProduction mechanics and quality control • 06:33–13:50: Claude Code orchestrates Hyperframes, browser capture and generated assets, with Blender also being added for 3D scenes. Herk applies the same example-driven approach to long tutorials: combine facecam and screen recordings, switch away from an inactive screen, enlarge important text and flag explanations that may leave viewers confused. Screenshot inspection supplies visual feedback, while ElevenLabs word timestamps synchronize graphics; checking the waveform before cutting addresses clipped word endings that transcription timing alone missed. His practical conclusion is that durable feedback and a progressively better judging skill matter more than a single clever editing prompt.\n\nStructured disagreement rather than extra agents • 13:50–20:37: The Roast Room turns a decision into options, opening positions, debate and a vote, using researched personas with separate responsibilities and reference files. Herk says the Alex Hormozi persona drew on 123 sources and more than 1.5 million words, but those are reported research-volume figures, not evidence that a simulation reproduces the real person's judgment. All personas use the same default model; he moved from agent teams back to subagents because the extra cost brought little additional value. The animated interface is optional presentation, not the mechanism producing the advice.\n\nA concrete newsletter decision • 20:37–26:49: Wolfe supplies a real strategic concern: his sponsorship-funded AI newsletter has 260,000 subscribers, and agents may increasingly consume summaries instead of people reading the original. The six-person simulated council compares five options and ultimately recommends rebuilding around human readers and Wolfe's own judgment while running outcome-based sponsorship changes alongside it. The discussion distinguishes retaining a valuable audience relationship from selling open counts that automation can distort. Its approximately $78,000 annual-risk estimate explicitly rests on assumed numbers, so the useful output is a hypothesis and action plan to investigate, not a verified revenue forecast or endorsement by the real people portrayed.\n\nSocial publishing results, limits and final verdict • 26:49–38:09: Herk demonstrates an Instagram pipeline that researches X links and replies, checks articles, creates branded media, supports comment-to-DM resource delivery and logs posts to a Google Sheet to avoid repeating topics. He estimates 98–99% automation, almost 2,000 followers in 30 days and four to five hours of his own attention; these are his reported results, and he still deletes weak posts and adjusts prompts. A live carousel example finishes in roughly five to six minutes, then receives a fresh source check before posting, including checks for edited or deleted originals. Sponsorship handling is a future plan, and the proposed analytics-to-skill improvement loop is not fully scheduled or operational. Wolfe closes by recommending the public workflow repositories as starting points for a coding assistant; the demonstrated lesson is reusable, inspected workflows, not proof of a fully autonomous, profitable content business.",
+    "why_valuable": "Start with your best existing work and quality checks before trying to replace an editor or social-media manager. Herk's reported 27-reel reference set and five-to-six-minute carousel demo show what to prototype, while his remaining sound-design work, manual post corrections and unfinished analytics loop show where to retain review. The newsletter example also helps decide whether to protect human readership and sell measurable sponsor outcomes rather than rely on raw opens.",
+    "key_takeaways": [
+      "05:37 — Herk says he analyzed 27 successful human-edited reels to extract reusable pacing, layout and audio rules; evaluate an AI editor against your own proven examples, not a generic style prompt.",
+      "03:34; 05:19 — He still rates human sound design more highly, and the side-by-side reel reused an existing example's B-roll; visual similarity is not an independent test of new creative decisions.",
+      "12:07–13:03 — Word-level ElevenLabs timestamps synchronize graphics, but waveform-aware cuts are also needed to avoid clipping spoken endings; transcription timing alone was insufficient in his workflow.",
+      "16:19–17:20 — The personas run on the same default model, and Herk reverted from agent teams to subagents after finding higher cost with little gain; more elaborate orchestration is not automatically better advice.",
+      "20:45; 25:37–26:20 — For Wolfe's 260,000-subscriber newsletter, the simulated verdict combines human-focused editorial value with outcome-based sponsorships; its roughly $78,000 risk figure uses assumed inputs, not audited revenue.",
+      "29:11–30:18 — Herk reports a four-hour publishing cycle, almost 2,000 followers in 30 days and four to five hours of personal work, but still deletes poor posts and revises prompts; the account is not fully hands-off.",
+      "33:08–35:34 — Recheck sources immediately before publication and log posts to avoid duplication; the live carousel takes roughly five to six minutes, while deleted or edited source posts can invalidate earlier drafts.",
+      "35:36–36:20 — Analytics-driven self-improvement is proposed and partly prepared, not a completed recurring loop; do not equate automated publishing with proven learning or monetization."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Show Me Your Workflow with Nate Herk",
+        "description": "Wolfe introduces a practical interview with Nate Herk built around three tools Herk says he uses daily: an editing pipeline, a simulated advisory council and a social-media manager. The stated aim is to expose how the systems work so viewers can adapt them, setting up demonstrations rather than a comparison of commercial products or an independently measured benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 63,
+        "timestamp": "01:03",
+        "title": "Teaching AI to Edit Videos in Your Style",
+        "description": "Herk contrasts frustrating generic AI edits with a reference-driven process that analyzed 27 successful human-edited reels and saved their layouts, pacing, typography and audio patterns into skills. He reports creating about 20 reels that morning, while acknowledging that music and sound design still favor human editors. The comparison reuses an already successful reel and apparently its B-roll, making it an illustration of style replication rather than a controlled test of original editorial judgment.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 393,
+        "timestamp": "06:33",
+        "title": "How the AI Editing Workflow Works",
+        "description": "Claude Code coordinates Hyperframes, browser footage capture and generated assets, with Blender being added for 3D work; long-form tutorials combine facecam and screen recordings with context-sensitive scene switches and readability zooms. Herk describes screenshot-based visual checks, viewer-perspective feedback and an improving judging skill, rather than merely removing silence and mistakes. ElevenLabs provides word timings for graphics, but waveform inspection is also needed to prevent clipped endings, and he points viewers to public skills they can adapt to their own workflow.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 830,
+        "timestamp": "13:50",
+        "title": "The Roast Room: Build Your Own AI Expert Panel",
+        "description": "The council generates opening positions, debates alternatives and votes, with researched persona files defining each member's responsibility, worldview and reference material. Herk reports using 123 sources and more than 1.5 million words for the Hormozi persona, while confirming that the personas share one default model and that cheaper subagents replaced agent teams after little additional benefit. The graphics are a visual layer over the underlying text workflow, and the setup needs decision options rather than only an open-ended question; these are simulations, not participation by the named people.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1237,
+        "timestamp": "20:37",
+        "title": "Testing the Roast Room on Matt’s Newsletter Strategy",
+        "description": "Wolfe asks how to protect a sponsorship-funded newsletter with 260,000 subscribers if AI agents increasingly read it instead of humans, and the workflow generates five options for a six-member panel to debate. The final recommendation combines rebuilding for human readers with outcome-based sponsorship changes, emphasizing Wolfe's judgment rather than interchangeable summaries. A PDF records the reasoning, scores, cautions and next actions, but the roughly $78,000 annual exposure mentioned in the verdict is explicitly based on assumed numbers, not validated business accounts.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1609,
+        "timestamp": "26:49",
+        "title": "Automating Instagram Research, Content, and Posting",
+        "description": "Herk shows an account that researches source posts and reactions, builds branded carousels, distributes resources through comment-to-DM automation and publishes on a four-hour cycle, while he still supplies links and corrects weak output. He reports almost 2,000 followers after 30 days and four to five hours of his own attention, then demonstrates a carousel completed in roughly five to six minutes with a final source refresh before posting. A Google Sheet prevents repeated topics, but future sponsorship automation and a recurring analytics-driven improvement loop remain plans or incomplete setup rather than demonstrated closed-loop business operations.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2184,
+        "timestamp": "36:24",
+        "title": "How to Try Nate’s AI Workflows",
+        "description": "Wolfe's closing recommendation is to give a coding assistant the relevant public GitHub repository and ask it to set up an adapted version of the workflows. He thanks Herk for exposing the implementation details and frames the three demonstrations as practical uses viewers can try, then closes with his series and weekly-news invitations. No further test results, profitability evidence or proof of the proposed self-improvement loop are added in the outro.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-10-29T12:00:13+02:00",
+    "summarized_at": "2026-10-29T12:03:05+02:00"
+  },
+  {
     "id": "TiYFme-3RCI",
     "title": "Blender MCP vs Headless - I Tested Both With AI",
     "channel": "AI Dev Challenge",
