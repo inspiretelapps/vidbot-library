@@ -1,5 +1,599 @@
 [
   {
+    "id": "LP7bfT4vOlo",
+    "title": "The NEW Way to Build a Second Brain w/ Claude (2027)",
+    "channel": "Nick Saraev",
+    "upload_date": "20261018",
+    "thumbnail": "https://i.ytimg.com/vi/LP7bfT4vOlo/maxresdefault.jpg",
+    "description": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about\n💎 Get all course resources 100% free: https://skool.com/maker-zero/about\n➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.\n\nIn plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.\n\nIt hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.\n\nI don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.\n\nAs for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. \n\nThat failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.\n\nFrom there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.\n\nSince starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. \n\nCollectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.\n\nIt wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!\n\nSummary ⤵️\nQuick walkthrough of my own personal knowledge base/second brain system (Engram). Hope you enjoy.\n\nChapters\n0:00 From Vannevar Bush's Vision to AI Slop\n0:53 What a Personal Knowledge Base Does\n1:49 Why Recency and Retrieval Matter\n5:15 Building Reliable Data Pipelines\n7:09 Summaries, Atoms, and Institutional Memory\n9:09 Make Your Knowledge Base Searchable\n10:21 Keep the System Fresh and Working\n10:48 Origins, Resources, and Wrap-Up",
+    "duration_seconds": 722,
+    "url": "https://www.youtube.com/watch?v=LP7bfT4vOlo",
+    "summary": "Retrieval instead of context dumping: Nick Saraev defines a second brain as searchable personal material that an agent consults before answering, not a visual dashboard or a giant prompt. His central example is a proposal that retrieves an obsolete price: timestamps and recency weighting help resolve conflicting records, while retrieving a few relevant documents avoids the cost, latency and declining retrieval accuracy he associates with very large context windows. He says his Engram system holds roughly 35,000–50,000 records from Git history, company Claude sessions and video transcripts, with searches usually completing in under half a second; these are his operational claims, not an independently reproduced benchmark.\n\nIngestion is the real foundation: The first implementation task is to enumerate useful sources and build incremental connectors that ingest only records created since the previous run. His Gmail example uses read-only permissions, initially imports a year from three accounts, and then refreshes every 15 minutes. The practical lesson is that a reliable, permission-limited pipeline matters more than sophisticated retrieval over incomplete or stale information.\n\nSearchable institutional memory: Each source item remains available in full, but a cheaper model also writes a concise summary, likely search questions and precise reusable facts: exact errors, working commands, fixes and decision rationales. Agents search that enriched index and follow matches back to the original source. Saraev recommends starting with BM25 plain-text search rather than assuming a vector database is necessary, reporting roughly nine-tenths reductions in inference time and associated vector infrastructure costs in his own experience without presenting a controlled comparison.\n\nMaintenance and verdict: Connector health checks must catch rotated credentials, permission changes and broken routes; periodic cleanup removes information that no longer helps. Saraev credits Cohere's ingestion approach as an inspiration and directs viewers to a free community prompt rather than demonstrating an entire build in this recording. His verdict is that a modest, continuously refreshed, summary-enriched text index can deliver more useful memory than an elaborate RAG stack, but the claimed setup speed should not be confused with deploying and maintaining every connector.",
+    "why_valuable": "Start with incremental read-only connectors, timestamped records and a BM25 index before adding vector infrastructure. This helps decide how to improve Inspire's Second Brain: prioritize fresh sources, exact fixes and source-linked summaries rather than a larger prompt or a more elaborate database.",
+    "quick_takeaways": [
+      "Build fresh-data pipelines first: Saraev imports new records incrementally, timestamps them and uses read-only Gmail access.",
+      "Keep original records alongside summaries, likely search questions and exact errors, commands, fixes and decisions; search the summaries, then retrieve the source.",
+      "Start with BM25 text search and recency weighting before paying for embeddings or vector infrastructure. His speed and cost improvements are self-reported, not controlled benchmarks.",
+      "Monitor connector failures and prune stale material. A second brain that silently stops ingesting will confidently return old information."
+    ],
+    "key_takeaways": [
+      "02:32 — Recency weighting addresses conflicting business facts, such as old versus current product prices; simply increasing the context window does not resolve freshness.",
+      "03:54 — Saraev reports approximately 35,000–50,000 indexed records and usually sub-half-second searches in Engram; this is his experience, not an independent benchmark.",
+      "05:53 — Incremental connectors should ingest only new material, timestamp it and use least-privilege access; his Gmail connector is read-only and refreshes every 15 minutes.",
+      "07:41 — Index both likely search questions and exact operational atoms, including errors, working commands, fixes and the reasons decisions were made.",
+      "09:09 — BM25 is his recommended starting point; his claimed roughly 90% time and infrastructure-cost reductions are not accompanied by a controlled evaluation.",
+      "10:21 — Check for credential rotation, changed permissions and broken endpoints so missing ingestion cannot masquerade as reliable memory."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "From Vannevar Bush's Vision to AI Slop",
+        "description": "Saraev contrasts Vannevar Bush's 1945 vision of an external memory aid with today's flashy second-brain marketing. He argues that personal knowledge bases can still be useful for a real business, but the value should come from answering practical questions rather than impressive-looking brain diagrams.",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 53,
+        "title": "What a Personal Knowledge Base Does",
+        "description": "A useful system searches your own material before an AI answers, which Saraev identifies as retrieval-augmented generation. He contrasts this with loading many books into modern context windows: capacity has improved, but filling the window indiscriminately can still be expensive.",
+        "source": "creator",
+        "timestamp": "00:53"
+      },
+      {
+        "start_seconds": 109,
+        "title": "Why Recency and Retrieval Matter",
+        "description": "An obsolete product price illustrates why dated records need recency weighting rather than equal treatment inside one large prompt. Saraev then argues that context rot, cost and latency favor retrieving a handful of relevant sources, citing his Engram installation's roughly 35,000–50,000 records and usually sub-half-second searches as personal experience rather than a benchmark.",
+        "source": "creator",
+        "timestamp": "01:49"
+      },
+      {
+        "start_seconds": 315,
+        "title": "Building Reliable Data Pipelines",
+        "description": "The proposed connectors enumerate email, leads, Slack, call transcripts and agent sessions, then ingest only changes since their last run. His read-only Gmail example imports a year from three accounts before switching to 15-minute incremental refreshes; preserving older session history also prevents repeated explanations of earlier project decisions.",
+        "source": "creator",
+        "timestamp": "05:15"
+      },
+      {
+        "start_seconds": 429,
+        "title": "Summaries, Atoms, and Institutional Memory",
+        "description": "Each long source is retained with metadata, a short topical summary and questions someone might search for. A low-cost model also extracts exact errors, fixes, commands and decision rationales, turning implicit company experience into explicit institutional memory while allowing search hits to point back to complete originals.",
+        "source": "creator",
+        "timestamp": "07:09"
+      },
+      {
+        "start_seconds": 549,
+        "title": "Make Your Knowledge Base Searchable",
+        "description": "Saraev recommends BM25 over automatically reaching for embeddings, because enriched summaries can make ordinary text retrieval effective. He reports large reductions in time and vector-related costs in his own work, but supplies no controlled comparison; the useful decision is to test the simplest index before assuming more infrastructure is required.",
+        "source": "creator",
+        "timestamp": "09:09"
+      },
+      {
+        "start_seconds": 621,
+        "title": "Keep the System Fresh and Working",
+        "description": "A background process should verify that ingestion still works instead of assuming a configured connector remains healthy forever. Rotated API keys, changed permissions and broken routes can silently prevent new records from arriving, undermining the system's main promise of current information.",
+        "source": "creator",
+        "timestamp": "10:21"
+      },
+      {
+        "start_seconds": 648,
+        "title": "Origins, Resources, and Wrap-Up",
+        "description": "Saraev credits a Cohere ingestion pipeline with changing his approach and says his own comparisons favored it over earlier RAG attempts. He points to a free Maker Zero resource for a rebuild prompt, then closes by inviting feedback; viewers receive an architecture and resource pointer rather than a complete on-screen implementation.",
+        "source": "creator",
+        "timestamp": "10:48"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
+    "id": "uugH4I82PeI",
+    "title": "How Codex Became a Directionless Mess",
+    "channel": "Ben Davis",
+    "upload_date": "20261028",
+    "thumbnail": "https://i.ytimg.com/vi/uugH4I82PeI/maxresdefault.jpg",
+    "description": "The ChatGPT desktop app really needs help...\n\nThank you Firecrawl for sponsoring! Check them out at: https://davis7.link/firecrawl\n\nMy X, Discord, and more: https://davis7.sh/",
+    "duration_seconds": 1194,
+    "url": "https://www.youtube.com/watch?v=uugH4I82PeI",
+    "summary": "Strong models, fragmented products: Ben Davis's complaint is not that Codex cannot do useful work: he praises its computer use, plugins and Spaces, and says it completed his tax task. His criticism is that the merged desktop experience feels like several products forced together. The opening separates model capability from product quality; a Firecrawl sponsorship follows and should not be mistaken for independent product testing.\n\nAttention management and product judgment: Davis demonstrates slow thread loading and argues that Codex's priority sidebar behaves like recent history rather than a dismissible queue of work needing attention. He prefers T3 Code for much of his coding and Grok Bot's separate task-oriented bots over one enormous assistant thread. His broader explanation is that agents can optimize against tests, but deciding which interaction model users need still requires coherent human product judgment; his account of OpenAI's internal workflow is explicitly speculation.\n\nFeature breadth versus usable workflows: He says DevDay's volume of announcements obscured good releases, including a CLI he likes. Spaces is a concrete positive: shared video templates can launch Final Cut preparation, thumbnail extraction and upload checklists. But he shows focus-stealing updates and confusing page/thread relationships, while a story about helping his sister choose a cheaper model illustrates how technical controls burden ordinary users. His criticism is discoverability and cohesion, not a measured ranking of underlying models.\n\nA proposed repair, not a rejection of AI coding: Davis uses Grok Bot and T3 Code as examples of agent-built products that can still feel coherent when someone makes firm architectural decisions. He would cut features first, make one Codex thread the shared primitive across desktop, CLI, web, local and cloud, turn Dots into named threads with memory and routines, and let Spaces remain independently manipulable pages. He expects OpenAI can recover, but concludes that fixing the foundation matters more than shipping another loosely connected feature. The competitor comparisons and predictions are his opinions, not independently established product facts.",
+    "why_valuable": "Choose agent interfaces by how well they manage parallel work and reusable workflows, not by model prestige or feature count. Davis supplies a practical product-review checklist: actionable attention queues, consistent threads, understandable model controls and no focus stealing.",
+    "quick_takeaways": [
+      "An attention queue should show threads that need action and let completed work disappear; a recent-activity list is not the same thing.",
+      "Shared video templates are useful: Davis uses Spaces for Final Cut preparation, thumbnail extraction and upload checklists, despite criticizing its thread/page integration.",
+      "Passing tests does not prove a product is coherent. Davis argues that humans still need to choose the core interaction model and reject incompatible features.",
+      "His proposed fix is one reusable thread primitive across clients and local/cloud execution, named assistants layered on top, and separately editable Spaces pages."
+    ],
+    "key_takeaways": [
+      "03:46 — Davis distinguishes a dismissible attention queue from a chronological thread list; the difference becomes important when many agent jobs run in parallel.",
+      "04:50 — Verifiable coding objectives such as green tests are easier to optimize than open-ended interface decisions; this is his explanation for capable models producing frustrating products.",
+      "05:50 — Separate bots for projects, shopping, finance and content provide clearer organization than one long-lived catch-all assistant thread in his workflow.",
+      "10:38 — Shared Spaces templates can trigger Final Cut preparation and thumbnail workflows, but he demonstrates disruptive focus changes and confusing page/thread coupling.",
+      "12:50 — His sister's difficulty selecting a cheaper model illustrates why expert-facing model controls need an understandable default for nontechnical users.",
+      "17:40 — His repair plan starts by cutting features and unifying the thread primitive, then polishing Spaces; he still expects OpenAI to improve rather than declaring the product doomed."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "Useful capabilities inside an incoherent desktop app",
+        "description": "Davis praises plugins, Spaces and computer use while arguing that the combined Codex and ChatGPT desktop app has become slower and less coherent. He separates access to strong models from the ability to build a good product, framing the criticism as a usability problem rather than proof that agent coding itself fails.",
+        "source": "generated",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 117,
+        "title": "Sponsored web-data tools and curated sources",
+        "description": "The Firecrawl promotion presents web extraction interfaces and Alexandria's curated datasets, using startup research as an example. Davis describes the sponsor's breadth and links to its service, so these promotional claims should be kept separate from the desktop-app demonstrations that follow.",
+        "source": "generated",
+        "timestamp": "01:57"
+      },
+      {
+        "start_seconds": 181,
+        "title": "Why a priority queue must differ from recent history",
+        "description": "A tax workflow worked, but Davis uses it to demonstrate slow thread loading and a sidebar that does not behave like the attention queue he wants. He argues that parallel agents need dismissible work items rather than a project hierarchy or recent-history list, then connects this failure to product decisions that cannot be validated by a simple test suite.",
+        "source": "generated",
+        "timestamp": "03:01"
+      },
+      {
+        "start_seconds": 350,
+        "title": "Separate assistants and a consistent interaction model",
+        "description": "Davis contrasts Dots' catch-all thread with his Grok Bot organization into project, shopping, finance and content assistants. His point is that agent-built software can still be polished when the architecture is deliberate, and that the visible split among chat, work and Codex makes one underlying agent unnecessarily confusing.",
+        "source": "generated",
+        "timestamp": "05:50"
+      },
+      {
+        "start_seconds": 489,
+        "title": "Discoverability lost among DevDay announcements",
+        "description": "Davis says even attending DevDay did not make the full release lineup clear to him, and he criticizes the absence of a coherent story across the announcements. He singles out the CLI as a release he likes while questioning other offerings' practicality, making this a discoverability critique rather than a blanket rejection of everything shipped.",
+        "source": "generated",
+        "timestamp": "08:09"
+      },
+      {
+        "start_seconds": 638,
+        "title": "Reusable video templates meet awkward Spaces integration",
+        "description": "His shared workspace contains prompts for Final Cut preparation, thumbnail screenshots, upload checklists and description templates, showing a genuinely useful repeatable workflow. However, page edits steal focus and a thread can appear both embedded and separately opened, illustrating why capable features still need consistent relationships and predictable behavior.",
+        "source": "generated",
+        "timestamp": "10:38"
+      },
+      {
+        "start_seconds": 770,
+        "title": "Model controls confuse users outside the AI bubble",
+        "description": "Helping his sister avoid usage exhaustion requires explaining a model name and slider position she does not understand. Davis uses this to argue that spreadsheet-capable agents should not demand model expertise, then broadens the warning: easier feature shipping produces more incoherence unless a strong product owner can say no.",
+        "source": "generated",
+        "timestamp": "12:50"
+      },
+      {
+        "start_seconds": 881,
+        "title": "Fast agent development still needs human product direction",
+        "description": "Grok Bot's recurring bot abstraction and T3 Code's decisive product leadership serve as Davis's counterexamples to the idea that vibe-coded products must be bad. He prefers those experiences despite his reservations about some underlying models, and treats autonomous product judgment as an unresolved problem rather than something more tokens already solve.",
+        "source": "generated",
+        "timestamp": "14:41"
+      },
+      {
+        "start_seconds": 1045,
+        "title": "Cut features and rebuild around a single thread primitive",
+        "description": "Davis would first remove clutter, then make Codex threads the common building block across CLI, desktop, web and local or cloud execution. Named assistants would attach memory and routines to those threads, while Spaces would expose separately editable pages; he expects OpenAI can recover but says the foundations need repair before more expansion.",
+        "source": "generated",
+        "timestamp": "17:25"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
+    "id": "Uc6xXNBWjfc",
+    "title": "WHOOP CEO, Will Ahmed: 50B Hours of Health Data, a 4 Million Member Data Moat, & the FDA Fight",
+    "channel": "All-In Podcast",
+    "upload_date": "20261029",
+    "thumbnail": "https://i.ytimg.com/vi/Uc6xXNBWjfc/maxresdefault.jpg",
+    "description": "(0:00) Welcome Will Ahmed, CEO of WHOOP\n(0:59) WHOOP's $500 Hardware Problem & the Subscription Pivot\n(6:59) Inside 50 Billion Hours of 24/7 Health Data\n(19:31) WHOOP's AI Coach, Journal Insights & GLP-1 Tracking\n(34:57) WHOOP vs. the FDA & Competitor Wearables\n(44:33) Lightning Round & LeBron James becomes a WHOOP Ambassador\n\nThanks to our partners for making this possible!\n\nAs wealth grows, complexity compounds. Between investments, tax strategy and estate planning, coordinating it all can feel like a full-time job. Creative Planning can help with the heavy lifting. Learn more at https://CreativePlanning.com/AllIn \n\nStarting a business? Northwest Registered Agent gives you everything you need to build a complete Business Identity including free tools and built-in privacy. Get more at https://www.northwestregisteredagent.com/ALLINFREE \n\n\nFollow Will:\nhttps://x.com/willahmed\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news",
+    "duration_seconds": 3339,
+    "url": "https://www.youtube.com/watch?v=Uc6xXNBWjfc",
+    "summary": "Subscription incentives and growth: Will Ahmed says WHOOP took about 12 years to reach one million members, then roughly 18 months to two million and six months to three million; four million is his year-end expectation, not a confirmed current total. The initial $500 consumer purchase attracted committed users but too few buyers. Moving toward subscriptions lowered the entry barrier and redirected the company toward engagement, member retention and improving existing hardware rather than forcing an annual replacement cycle. He quotes plans at $15–$30 per month in the interview.\n\nContinuous measurement, not diagnosis: Ahmed explains sleep, recovery and strain alongside a personal baseline for signals such as HRV and respiratory rate. Jason Calacanis describes abnormal readings preceding illness and an emergency assessment, while Ahmed recounts other members seeking care after unusual changes; these are anecdotes, not clinical evidence that WHOOP diagnoses cancer or predicts a heart attack. Ahmed attributes the dataset's scale to screenless design, a 14-day battery and charging while worn, reporting average wear of 23.6 hours daily and more than 50 billion hours of physiological data.\n\nAI coaching and behavior experiments: The proposed moat combines sensor history with blood tests, medical records, journal entries and conversations. Ahmed says over half of members journal daily and 80% interact with the AI; Calacanis describes travel-sleep advice, ski training and a GLP-1 checklist. The most instructive caveat comes from a negative vitamin D association: the coach explicitly says correlation is not evidence of causation and notes missing recent logs. Bath, alcohol and meal-timing observations are useful hypotheses for personal experimentation, not universal treatment prescriptions; the discussion's GLP-1 body-composition claims are not independently validated here.\n\nRegulation, privacy and product boundaries: Ahmed describes a 70,000-person blood-pressure study, the FDA warning over Blood Pressure Insights, and his account of later guidance accommodating wellness applications. He distinguishes that position from the ECG feature's FDA clearance; the interview is not an independent verification of current regulatory status or accuracy. He also says WHOOP does not sell member data and explains why a partner cuff can calibrate a feature intended to reduce ongoing cuff use.\n\nFounder lessons and closing verdict: The lightning round favors strength training and practical consistency over elaborate routines, before Ahmed announces a LeBron James ambassadorship following what he describes as 11 years of organic use. His marketing lesson is to establish authentic product value before paying for endorsement; the closing investment discussion likewise stresses CFO-approved secondary transactions rather than opaque brokers. Calacanis ends with a strong product endorsement, while Ahmed positions WHOOP as a continuously improving health-coaching membership rather than a replacement for medical evaluation.",
+    "why_valuable": "Decide whether a WHOOP subscription would support consistent sleep, recovery and behavior tracking, while separating useful personal baselines from unsupported diagnostic expectations. Founders also get a concrete subscription-model lesson: lower the adoption barrier, then earn retention through ongoing improvements and trusted handling of sensitive data.",
+    "quick_takeaways": [
+      "Ahmed says the $500 hardware sale produced strong engagement but weak adoption; subscriptions changed WHOOP's incentives toward retention and improving the installed product.",
+      "He reports 23.6 hours of daily wear and over 50 billion hours of data. Four million members is a year-end expectation, not a confirmed current count.",
+      "Use personal trends to prompt appropriate medical attention, not to self-diagnose. The illness stories are anecdotes, not clinical validation.",
+      "Journal insights are correlations: the demonstrated coach warns that vitamin D's apparent negative association does not establish causation.",
+      "Ahmed distinguishes wellness blood-pressure insights from cleared ECG functionality and says WHOOP does not sell member data. Those statements are attributed to him, not independently verified here.",
+      "His founder lesson is to earn authentic usage before paying ambassadors; he says LeBron used WHOOP for 11 years before the formal partnership."
+    ],
+    "key_takeaways": [
+      "02:14 — Ahmed describes accelerated membership growth but only expects about four million by year-end; the title should not be read as a verified present membership count.",
+      "03:12 — The $500 consumer product retained wearers but struggled to acquire buyers; subscription pricing lowered the entry barrier and shifted incentives toward member outcomes.",
+      "19:15 — Average wear of 23.6 hours per day and more than 50 billion recorded hours are company figures Ahmed reports, not independent measurements in this interview.",
+      "23:42 — Ahmed says just over half of members journal daily, and at 24:50 he reports frequent app use and 80% AI interaction; multiple data types underpin the coaching strategy.",
+      "28:53 — The AI coach explicitly calls the vitamin D result a correlation, not evidence of causation, and identifies missing recent logs as a reason for caution.",
+      "37:24 — Ahmed says 70,000 members joined the blood-pressure study; his later account distinguishes wellness insights from the ECG product's FDA clearance rather than treating every feature as medically approved.",
+      "42:46 — Ahmed says WHOOP does not sell member data, making membership rather than data resale his stated business model.",
+      "47:42 — The LeBron partnership follows what Ahmed describes as 11 years of voluntary usage; his closing founder advice favors authentic demand before paid endorsements."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "Welcome Will Ahmed, CEO of WHOOP",
+        "description": "The opening montage previews Ahmed's claims about continuous wear, the scale of WHOOP's dataset and LeBron James's early adoption. A Creative Planning advertisement then begins; the membership and product explanations occur after this introductory interval rather than being fully established in the teaser.",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 59,
+        "title": "WHOOP's $500 Hardware Problem & the Subscription Pivot",
+        "description": "Ahmed traces the move from a $500 consumer device to subscriptions after observing that existing users stayed engaged but too few new buyers converted. He reports plans at $15–$30 a month and an expected four million members by year-end, explaining that recurring revenue rewards retention and improvements to installed hardware instead of unnecessary replacement cycles.",
+        "source": "creator",
+        "timestamp": "00:59"
+      },
+      {
+        "start_seconds": 419,
+        "title": "Inside 50 Billion Hours of 24/7 Health Data",
+        "description": "Sleep, recovery and strain are explained through personal baselines, followed by Calacanis's illness alerts and Ahmed's stories of members seeking medical care after unusual readings. These anecdotes illustrate why changes can merit attention without proving diagnostic accuracy, while screenless design, long battery life and on-body charging support Ahmed's reported 23.6 hours of daily wear and more than 50 billion recorded hours.",
+        "source": "creator",
+        "timestamp": "06:59"
+      },
+      {
+        "start_seconds": 1171,
+        "title": "WHOOP's AI Coach, Journal Insights & GLP-1 Tracking",
+        "description": "Ahmed describes combining physiology with labs, records, journals and AI conversations; Calacanis demonstrates travel advice, training goals and a GLP-1 routine. Their behavior examples include baths, alcohol and late meals, but the coach cautions that an apparent vitamin D effect is only correlation and lacks recent logging support, showing why personalized insights still require careful interpretation.",
+        "source": "creator",
+        "timestamp": "19:31"
+      },
+      {
+        "start_seconds": 2097,
+        "title": "WHOOP vs. the FDA & Competitor Wearables",
+        "description": "Ahmed recounts the blood-pressure warning-letter dispute, a study he says enrolled 70,000 people, and his view that later guidance supports wellness applications. He distinguishes those insights from WHOOP's cleared ECG functionality, explains cuff calibration and partner choices, and states that member data is not sold; the account remains the company's perspective rather than an independent regulatory assessment.",
+        "source": "creator",
+        "timestamp": "34:57"
+      },
+      {
+        "start_seconds": 2673,
+        "title": "Lightning Round & LeBron James becomes a WHOOP Ambassador",
+        "description": "Practical preferences about exercise, alarms and coffee lead into Ahmed's announcement of LeBron James as an ambassador after years of voluntary use. He argues that early founders should earn genuine product love before paying endorsers, and the closing discussion of sports rules and private-company secondaries emphasizes evolving permissions and CFO-approved transactions rather than assuming access or broker claims are reliable.",
+        "source": "creator",
+        "timestamp": "44:33"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
+    "id": "YT0u2eQ-Aj4",
+    "title": "Here Is My ENTIRE AI Setup (Nothing Held Back)",
+    "channel": "Riley Brown",
+    "upload_date": "20261028",
+    "thumbnail": "https://i.ytimg.com/vi/YT0u2eQ-Aj4/maxresdefault.jpg",
+    "description": "Sponsored by Superhuman. Sign up to try Superhuman using my link https://superhuman.com/riley\n#SuperhumanPartner\n\nI spent $10,000 testing AI agent tools. Here’s the stack I actually use to create content and run my business, and how I decide when to use Claude Code, Codex, and GrokBot. I walk through building apps, editing videos, using Dots with voice, and connecting everything through Composio so my agents can share skills and plugins.\n\nResources and workflows: https://agentnative.inc/resources\n\nChapters\n00:00 Intro\n01:01 Claude Projects\n05:53 Building Apps with Claude Code\n08:45 Design & Slides with Claude\n11:30 Video Editing with Claude\n15:45 Codex & Dots Voice Assistant\n18:57 Codex Computer Use\n20:11 Claude vs Codex: How I Split Usage\n21:21 Email & Slack Workflow\n22:27 Composio: Centralizing Skills & Plugins\n25:28 Composio Instant\n26:57 The Memory Problem\n28:02 GrokBot & Conclusion",
+    "duration_seconds": 1888,
+    "url": "https://www.youtube.com/watch?v=YT0u2eQ-Aj4",
+    "summary": "One coordinator, different execution environments: Riley Brown says he spent $10,000 experimenting with agent tools, but presents a workflow tour rather than a controlled comparison or itemized cost study. His core pattern is to speak to a persistent coordinator that delegates to local or cloud sessions. In Claude Projects he requests local video clips and a separate cloud research artifact, then shows phone access; local jobs still depend on his computer remaining on and connected.\n\nClaude for producing visual assets: Brown prefers Claude for front-end apps, slides and video editing, showing changes to his Native Note internal tool and a slide deck built from an S-1 document. An animated explainer illustrates iterative editing rather than a perfect first attempt, and he promotes a video-version-control project still under development. His model rankings are personal judgments, the social metrics are self-reported, and the Superhuman email-to-content-calendar segment is explicitly sponsored.\n\nCodex for voice coordination and administration: Dots acts as his spoken Codex dispatcher: he requests a local app update, parallel cloud research and a Notion status report. For publishing, he describes computer use that inspects a transcript, checks sponsor-link requirements and creates a YouTube draft for his review rather than blindly publishing. He also says he handles most email by hearing prioritized messages while walking, dictating replies, reviewing the read-back and authorizing sends.\n\nPortability through a shared tool layer: Composio centralizes connected applications, custom tools and reusable skills so he can switch agent front ends without rebuilding every integration. Brown shows approximately 30 connected apps and 20 skills, with his internal app available through a custom integration. He describes Instant as a way to access third-party APIs without separately configuring every provider key; this is a reported convenience and billing arrangement, not evidence that permissions, security or usage costs disappear.\n\nThe missing memory layer and final split: Brown explicitly has not solved cross-platform memory: his Supermemory experiment did not update often enough for seamless switching. He does, however, demonstrate a Claude-triggered webhook delegating X research to Grok Bot, allowing specialized access without living in another interface. His final recommendation is role separation—Claude for creation, Codex for administration and computer use, Grok Bot for X, Composio for portable tools—while acknowledging that persistent shared memory remains the unfinished part of the stack.",
+    "why_valuable": "Split an AI stack by proven tasks rather than forcing one assistant to do everything: use creation, administration and specialist research roles behind a shared integration layer. Brown also identifies the key unresolved decision for Inspire's agents: portable tools are not the same as a fresh, shared memory system.",
+    "quick_takeaways": [
+      "Use a coordinator to delegate local-file work and cloud research separately; remote control still requires the local computer to stay on.",
+      "Brown prefers Claude for apps, visual design, slides and editing; he uses Codex/Dots for voice coordination, computer use and business administration. These are personal workflow preferences.",
+      "Keep publishing and communications reviewable: his YouTube workflow saves a draft, and dictated email replies are read back before he authorizes sending.",
+      "Composio centralizes his connected apps and skills so changing agent front ends does not require rebuilding each integration.",
+      "Shared memory is not solved in this setup. His Supermemory experiment refreshed too slowly for seamless cross-agent handoffs.",
+      "A webhook lets Claude delegate X research to Grok Bot without requiring Brown to use another main interface."
+    ],
+    "key_takeaways": [
+      "02:26 — Brown demonstrates one coordinator routing video clipping to a local session while separate research runs in the cloud; his phone can manage both while the local computer remains on.",
+      "07:35 — Native Note changes are applied and refreshed on screen; his preference for Claude's front-end work is based on his own projects, not a benchmark suite.",
+      "12:46 — The animated explainer improves through a second iteration; the demonstrated process includes review and changed prompts rather than a guaranteed one-shot result.",
+      "19:11 — His described YouTube upload workflow creates a draft after preparing metadata and sponsor links, leaving final publication to him.",
+      "21:50 — Prioritized email is read aloud, replies are dictated and read back, and sending follows his authorization.",
+      "24:11 — Around 30 apps and, at 26:35, 20 skills are centralized in Composio; integration portability reduces repeated setup, not the need to manage access.",
+      "27:09 — Brown explicitly calls shared memory an open problem and says Supermemory did not update frequently enough for his desired handoffs.",
+      "28:46 — A local Claude session invokes a webhook that starts Grok Bot research on X, showing specialist delegation instead of another full-time interface."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "Intro",
+        "description": "Brown says extensive spending on agent experiments led him to a three-platform stack for creation and business administration. He promises to explain the task split and the central layer that shares plugins and skills, setting up a personal workflow tour rather than presenting a reproducible comparative benchmark.",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 61,
+        "title": "Claude Projects",
+        "description": "A coordinator routes clip creation to a local thread and best-practice research to a cloud thread, with a shareable artifact returned for the team. Brown shows the same work from his phone and describes voice-driven revisions, but local execution still depends on his computer remaining on; the benefit is delegation across environments rather than eliminating that dependency.",
+        "source": "creator",
+        "timestamp": "01:01"
+      },
+      {
+        "start_seconds": 353,
+        "title": "Building Apps with Claude Code",
+        "description": "Native Note combines several internal business tools, and Brown requests interface changes by speaking to its project coordinator. He follows the delegated work and refreshes the updated app, then explains his personal preference for Claude's front-end output over Codex rather than claiming a measured universal coding lead.",
+        "source": "creator",
+        "timestamp": "05:53"
+      },
+      {
+        "start_seconds": 525,
+        "title": "Design & Slides with Claude",
+        "description": "Brown turns an S-1 document into a structured slide deck with financial visualizations, an outline and a raw-number section, then describes iterating on it from his phone. He also shows design-board work for Native Note, illustrating how visual drafts can be refined before a local implementation session changes the app.",
+        "source": "creator",
+        "timestamp": "08:45"
+      },
+      {
+        "start_seconds": 690,
+        "title": "Video Editing with Claude",
+        "description": "An animated explainer is revised through additional prompts, which Brown says improved framing and produced a post with substantial engagement. He introduces a still-in-development video-version-control project, then moves into an explicitly sponsored Superhuman demonstration that turns email deadlines and feedback into a reviewable content calendar.",
+        "source": "creator",
+        "timestamp": "11:30"
+      },
+      {
+        "start_seconds": 945,
+        "title": "Codex & Dots Voice Assistant",
+        "description": "Brown uses spoken instructions to ask Dots for a local Native Note update, parallel cloud research and a report from Notion. The exchanges show a dispatcher coordinating multiple jobs rather than completing everything inside the voice call itself, and the assistant explicitly distinguishes a running session from a finished production push.",
+        "source": "creator",
+        "timestamp": "15:45"
+      },
+      {
+        "start_seconds": 1137,
+        "title": "Codex Computer Use",
+        "description": "Brown describes having Codex operate Chrome to upload a finished video, prepare metadata and inspect email for sponsor links. Importantly, his workflow saves the result as a draft for human review, making computer use an administrative assistant rather than an unconditional publishing authorization.",
+        "source": "creator",
+        "timestamp": "18:57"
+      },
+      {
+        "start_seconds": 1211,
+        "title": "Claude vs Codex: How I Split Usage",
+        "description": "Creation tasks go to Claude in Brown's setup, while email, calendars, Slack and general administration go to Codex through Dots. He prefers coordinators that can start both cloud and local sessions, explaining why the inability to delegate to his own computer makes another assistant unsuitable as his main interface.",
+        "source": "creator",
+        "timestamp": "20:11"
+      },
+      {
+        "start_seconds": 1281,
+        "title": "Email & Slack Workflow",
+        "description": "After automatic archiving removes messages he does not need, Brown listens to the remaining inbox in importance order while walking. He dictates a response, hears the draft read back and then authorizes sending, so the convenience comes from voice-mediated review rather than abandoning responsibility for external messages.",
+        "source": "creator",
+        "timestamp": "21:21"
+      },
+      {
+        "start_seconds": 1347,
+        "title": "Composio: Centralizing Skills & Plugins",
+        "description": "Composio holds Brown's connected applications and custom integrations, including access to his internal Native Note tool. He shows agents using that shared layer for Slack and Gmail, arguing that one maintained integration set makes it easier to test or replace agent front ends without reconnecting each service independently.",
+        "source": "creator",
+        "timestamp": "22:27"
+      },
+      {
+        "start_seconds": 1528,
+        "title": "Composio Instant",
+        "description": "Brown describes Instant as a consolidated way to call search, speech and creative APIs without configuring separate keys for each provider. He also shows centrally stored skills, extending the portability idea from account connections to reusable workflows while acknowledging that underlying API usage still has a cost.",
+        "source": "creator",
+        "timestamp": "25:28"
+      },
+      {
+        "start_seconds": 1617,
+        "title": "The Memory Problem",
+        "description": "Brown wants agent platforms to share continuously updated memory just as they already share tools and skills through his integration layer. His Supermemory experiment did not refresh frequently enough, and he explicitly leaves this as an open problem rather than presenting a completed cross-agent memory solution.",
+        "source": "creator",
+        "timestamp": "26:57"
+      },
+      {
+        "start_seconds": 1682,
+        "title": "GrokBot & Conclusion",
+        "description": "A local Claude session triggers a Grok Bot webhook to research X, allowing Brown to use specialist account access without switching his main interface. He closes by restating the division among creative work, administration, X research and shared integrations, while expecting the stack to change as platforms evolve.",
+        "source": "creator",
+        "timestamp": "28:02"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
+    "id": "aDq2Hq2vK2Y",
+    "title": "The Only Faceless Video You Will Ever Need (Turned it Into A Free Skill)",
+    "channel": "Jad M.H  | AI Automation",
+    "upload_date": "20261029",
+    "thumbnail": "https://i.ytimg.com/vi/aDq2Hq2vK2Y/maxresdefault.jpg",
+    "description": "Higgsfield 👉https://higgsfield.ai/s/higgsfield-kling-4-0-yt-jadm-h-PCivIs\n\nClaude made these 4 faceless videos for me: a 3D \"nuke in a volcano\" explainer, a 1994 true crime story, a stick figure zombie video and a clay documentary about the Louvre heist. No video model, no stock footage. Every movement is code, and the voice, music and sound were made locally on my Mac. Here are the 3 steps, what each one cost, and 3 ways to make money with it 👇\n\n🎁 All 4 styles in 1 skill, free in my Skool, in the post for this video (Google Drive folder + install prompt): \nhttps://www.skool.com/nextphase-5790/classroom/2a43afcd?md=7c8e8029405146669526a5481d088703\n\nStuck installing it? We do free weekly calls in the Skool.\n\n⚡ The Higgsfield promo I mentioned (their API, no subscription needed, you only need 1 image per style): [HIGGSFIELD PROMO LINK]\n\n🧪 The 3 steps\n1. Start from a format that already works. Take the format (pacing, layout, how the narrator talks), never the story or the shots.\n2. Make a style sheet: 1 image with all the rules of your world (fonts, hex colors, characters, the world, frame layout). It's how people recognize your channel without seeing your face.\n3. Give Claude Code (Opus 5.5) the style sheet, the link to the video you like and the length. It studies the reference, writes a new story, makes the voice, music, sound and shots, checks every shot and renders. I didn't write a single line of code.\n\n🎬 The 4 videos\n• Volcano: 4 sets, 15 shots, the music's big hit lands on the eruption.\n• True crime (the Red Ghost sheet from my last video): Claude picked the case, checked it against the Texas death row record and built it around the store camera. 1,900 tapes on the shelves, 24 shots, 65 s.\n• Stick figures (a brand new skill): 39 shots, 73 s, horizontal and vertical from the same build.\n• Louvre (my \"Clay Atlas\" sheet): 12 Higgsfield still images, no video generation. Claude made them move with real depth.\n\n⏱️ What it took and what it cost\n• Volcano: about 40 min, $0\n• True crime: a bit over an hour, $0\n• Stick figures: about 40 min, including building the skill. 2.75 Higgsfield credits\n• Louvre: about 40 min. 28.75 Higgsfield credits (style sheet, 12 images, map)\n• Claude: my Max plan, no API, nothing extra. It's heavy work, so a smaller plan hits its limit faster.\n• Voice, music, sound effects and rendering: free, local on my Mac.\n• Not perfect yet: up close you can still tell. The stick figure vertical version shows a lot of floor and ceiling in wide shots, and the true crime one is vertical only for now.\n\n🛠️ Install (once)\nSkool post → download the zip (don't unzip it) → open Claude Code → paste the install prompt → new session. About 1 GB (the music model is optional, about 15 GB). It tests itself in 5 to 8 min: wait for SELFTEST PASSED. Then give it your style sheet + a link to a faceless video you like. Use Opus 5.5 (/model to switch).\n\n💰 3 ways to make money (no promises, that part is on you)\n1. Your own YouTube channel. Partner Program today: 1,000 subs + 4,000 watch hours (12 months) or 10M Shorts views (90 days). From Feb 1, 2027, new channels need 8,000 hours or 20M Shorts views. Already in? You keep your spot: https://support.google.com/youtube/answer/12843009\n2. TikTok Creator Rewards: videos of 1 minute+, 10,000 followers, 100,000 views in the last 30 days: https://www.tiktok.com/legal/page/global/creator-rewards-program-us/en\n3. Sell it to a business. You need 1 client, not a million views: 1 style sheet in their colors, a new video every week. Louvre style: museums, history pages, universities. True crime: podcasts. Stick figures: insurance, first aid courses. To land the first one, make their first video and send it.\n\n\n\n🎬 Formats that inspired these: Zack D. Films, enthyme, Ifverse and Fern. My stories and shots are new.\n\n📺 Part 1 (3 more styles): https://youtu.be/E8Qz5fXZIaw\n\n⏱️ Chapters\n0:00 These 4 videos were made in code\n1:24 Step 1: You don't invent the format\n2:29 Step 2: The style sheet\n3:50 Step 3: Claude builds it\n4:28 The volcano vs Zack D. Films\n5:01 The true crime one\n5:34 The stick figures (a new skill)\n6:16 The Louvre heist\n6:45 How long it took (and the cost)\n7:28 Install the skill\n8:21 How to actually make money\n10:34 Get all 4 styles free\n\n💬 Which of these 4 would you post on your channel? Tell me in the comments.\n🔔 Subscribe for more free skills. See you in the next one.\n\n#Claude #ClaudeCode #FacelessYouTube #FacelessChannel #FacelessVideos #YouTubeAutomation #AIVideo #AIAnimation #MotionGraphics #TrueCrime #StickFigure #3DAnimation #Higgsfield #ClaudeOpus #Anthropic",
+    "duration_seconds": 662,
+    "url": "https://www.youtube.com/watch?v=aDq2Hq2vK2Y",
+    "summary": "A reusable production recipe, not passive income: Jad demonstrates four faceless-video styles: a coded 3D volcano explainer, a true-crime reconstruction, stick figures and a clay-style Louvre documentary. His method borrows pacing and layout from successful formats while insisting on new stories and shots. The opening channel-revenue figures belong to other creators and are explicitly not an earnings promise; these examples show a proposed production workflow, not proof of a profitable channel.\n\nBrand consistency and local generation: A single style sheet fixes fonts, hex colors, characters, composition and rules such as avoiding visible weapons or bodies. Jad feeds that sheet, a reference video and a target length to Claude Code, which he says studies references, writes an original script, produces audio and coded scenes, checks its output and renders. His examples use Opus 5.5 and local Mac audio/rendering; generated still images can still incur Higgsfield credits, so no video model does not mean no external services.\n\nExamples, review and real cost boundaries: The volcano uses four sets and 15 shots with a musical impact aligned to the eruption. The stick-figure piece has 39 shots across 73 seconds, and review exposed effects that masked speech; the Louvre piece animates 12 stills with depth and particles. Jad reports about 40 minutes for several examples and a little over an hour for true crime, with zero incremental charge for some outputs on top of his existing Max subscription. Those are his timings, not our render tests; hardware, subscription limits, still-image credits and human quality control remain part of the real cost.\n\nInstallation and commercial verdict: The free skill is distributed through his community, with roughly 1 GB of base files, an optional approximately 15 GB music model and a self-test he says takes 5–8 minutes. He outlines YouTube, TikTok and client work, but his claims about platform eligibility and a future threshold change are not independently verified here and should not drive a business forecast. His most practical recommendation is to build one branded sample for a specific business, reuse its style sheet for later stories and sell a recurring production service rather than depending on millions of views. The closing pitch is for the free community resource, not a demonstrated revenue result.",
+    "why_valuable": "Test a branded, code-rendered explainer service before paying for an expensive video-generation stack. The practical commercial choice is a reusable client style sheet and reviewed sample—not assuming that zero incremental render fees or other channels' revenue guarantees a profitable faceless channel.",
+    "quick_takeaways": [
+      "Define a reusable style sheet with fonts, colors, characters and framing; borrow format conventions but create original stories and shots.",
+      "The examples use coded motion and local audio, with optional generated stills. The Louvre video uses 12 still images rather than video generation.",
+      "Jad reports roughly 40-minute builds for several examples, but zero incremental cost excludes his existing Claude Max plan, hardware and some image credits.",
+      "Quality review matters: the stick-figure audio initially buried narration under effects, and the examples still have visual and format limitations.",
+      "He recommends a branded sample and recurring videos for a business as an alternative to chasing platform views. Earnings and future monetization-policy claims are not verified here."
+    ],
+    "key_takeaways": [
+      "02:06 — Borrow pacing, layout and narration conventions, not the source story or shots; Jad says an unsupported true-crime detail was removed during research.",
+      "02:29 — A single visual style sheet controls identity across videos, including hex colors, characters and rules about what may appear on screen.",
+      "04:34 — Jad reports four coded sets and 15 shots for the volcano example, with the music timed to the eruption; this is his demonstration, not an independently reproduced render.",
+      "05:55 — The stick-figure example contains 39 shots over 73 seconds; subsequent checking catches effects overpowering the narration.",
+      "06:21 — The Louvre treatment starts from 12 still images, using depth-aware motion and added particles rather than generated video clips.",
+      "06:45 — Reported runtimes are about 40 minutes for several examples and over an hour for true crime; zero extra render charges do not remove his Max subscription or image-service costs.",
+      "07:46 — Setup needs about 1 GB, with an optional approximately 15 GB music model, followed by a stated 5–8-minute self-test.",
+      "09:35 — The business-service pitch is one branded style sheet and recurring stories for one client, with a finished sample as outreach; no client revenue is demonstrated."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "These 4 videos were made in code",
+        "description": "Jad previews four different animation styles and says their motion and local audio were produced on his Mac rather than by a video-generation model. He distinguishes other channels' reported earnings from a promise to viewers and introduces a free skill, positioning the examples as a production recipe rather than evidence of guaranteed income.",
+        "source": "creator",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 84,
+        "title": "Step 1: You don't invent the format",
+        "description": "Successful channels provide pacing, layout and narration conventions, but Jad insists that the story and shots should be original. He says Claude refused to copy a volcano sequence directly and removed an unsupported detail from a crime story, making source checking and creative differentiation part of the workflow.",
+        "source": "creator",
+        "timestamp": "01:24"
+      },
+      {
+        "start_seconds": 149,
+        "title": "Step 2: The style sheet",
+        "description": "One reference image encodes fonts, colors, characters, framing and content rules so later outputs remain recognizable as the same brand. Jad contrasts the clay and stick-figure sheets and describes reusing a true-crime sheet that forbids guns and bodies, showing that consistency includes editorial constraints as well as appearance.",
+        "source": "creator",
+        "timestamp": "02:29"
+      },
+      {
+        "start_seconds": 230,
+        "title": "Step 3: Claude builds it",
+        "description": "The input consists of a style sheet, a reference link and a desired length, with Claude Code handling the coding. Jad says it analyzes frames and narration, writes a new story, produces audio and scenes, checks shots and renders; this is his reported workflow, not an independent validation of every automated check.",
+        "source": "creator",
+        "timestamp": "03:50"
+      },
+      {
+        "start_seconds": 268,
+        "title": "The volcano vs Zack D. Films",
+        "description": "The demonstration compares an original coded volcano explainer with its format reference while using different shots. Jad reports four sets, 15 shots and a music impact synchronized to the eruption, taking about 40 minutes with no additional charge beyond his existing subscription.",
+        "source": "creator",
+        "timestamp": "04:28"
+      },
+      {
+        "start_seconds": 301,
+        "title": "The true crime one",
+        "description": "Jad says Claude researched a real case against a Texas death-row record and built the story around a store-camera height discrepancy rather than simply retelling the reference. The example illustrates a research-led narrative choice and a densely populated set, though the underlying historical claims are not independently investigated in this library entry.",
+        "source": "creator",
+        "timestamp": "05:01"
+      },
+      {
+        "start_seconds": 334,
+        "title": "The stick figures (a new skill)",
+        "description": "The new animation skill specifies restrained camera motion, periodic blinking and planted feet, then produces 39 shots across 73 seconds in both orientations. Its self-review finds that screams and effects overwhelm speech, demonstrating why automatic output still needs intelligibility checks rather than being accepted on visuals alone.",
+        "source": "creator",
+        "timestamp": "05:34"
+      },
+      {
+        "start_seconds": 376,
+        "title": "The Louvre heist",
+        "description": "Twelve generated stills become a documentary through depth-aware camera movement, particles, sparks, dust and map graphics. The distinction matters commercially: Jad avoids video-model generation, but still relies on external image creation and code-based compositing to make those static assets watchable.",
+        "source": "creator",
+        "timestamp": "06:16"
+      },
+      {
+        "start_seconds": 405,
+        "title": "How long it took (and the cost)",
+        "description": "Jad reports about 40 minutes for the volcano, stick figures and Louvre examples, with true crime taking a little over an hour. His zero-extra-cost examples run inside a paid Max subscription, while image credits and plan limits remain relevant; local voice, music, effects and rendering do not make the entire production stack free.",
+        "source": "creator",
+        "timestamp": "06:45"
+      },
+      {
+        "start_seconds": 448,
+        "title": "Install the skill",
+        "description": "The community download includes a zip and an install prompt for Claude Code, followed by starting a new session. Jad describes roughly 1 GB of base assets, an optional 15 GB music model and a 5–8-minute self-test, recommending that users wait for its success message before submitting production inputs.",
+        "source": "creator",
+        "timestamp": "07:28"
+      },
+      {
+        "start_seconds": 501,
+        "title": "How to actually make money",
+        "description": "Jad outlines platform monetization and client services, while explicitly declining to promise an income figure. His stronger actionable pitch is a branded sample and recurring videos for a museum, podcast, insurer or educator; the platform eligibility and future-policy statements remain unverified claims, not a dependable forecast.",
+        "source": "creator",
+        "timestamp": "08:21"
+      },
+      {
+        "start_seconds": 634,
+        "title": "Get all 4 styles free",
+        "description": "The closing directs viewers back to the free community skill and offers weekly calls for installation problems. Jad asks which style people would use and invites questions, ending with support and resource promotion rather than showing a completed client sale or a proven monetization outcome.",
+        "source": "creator",
+        "timestamp": "10:34"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
+    "id": "La3fIiRMV_w",
+    "title": "7 Incredible Ways I'm Using Grok Bot",
+    "channel": "Ras Mic",
+    "upload_date": "20261029",
+    "thumbnail": "https://i.ytimg.com/vi/La3fIiRMV_w/maxresdefault.jpg",
+    "description": "I love Grok Bot, I really don't care for any personal agent anymore... I'll share why\n\nThank you Firecrawl for sponsoring the video, check them out: https://rasmic.link/firecrawl\n\nConnect with me:\nMy Site: https://rasmic.link/site\nFollow me on X: http://rasmic.link/x\nFollow me on Instagram: https://rasmic.link/instagram\nFollow me on Tiktok: https://rasmic.link/tiktok\nJoin my Discord: https://rasmic.link/discord\nSubscribe to my second channel: https://rasmic.link/more-micky",
+    "duration_seconds": 1088,
+    "url": "https://www.youtube.com/watch?v=La3fIiRMV_w",
+    "summary": "From agent traces to an experimental model pipeline: Ras Mic uses a dedicated data bot to gather successful agent sessions across machines, clean them and store training material on a NAS. He reports 637 coding examples from 32 repositories and roughly 28 GB of raw logs, then uses a separate ML bot to arrange rented GPUs, fine-tuning and model serving. This is small-model adaptation, not training a frontier model from scratch; the gains are self-reported, no reliable benchmark score is presented, and the captioned GPU-price wording is too ambiguous to quote as a dependable cost.\n\nApp building depends on engineering rules: His reverse-engineering workflow asks Grok Bot to delegate implementation to Claude Code on a suitable machine, using his skills repository rather than relying on a short prompt alone. Each feature uses a worktree, evidence-driven testing and an external review gate he describes as five out of five before merging. A Firecrawl monitoring advertisement interrupts the app examples and is separate from evidence about Grok Bot; download counts and claims about app completeness are the creator's own reports.\n\nFinance and content routines: The finance assistant connects account transactions and statements, maintains a ledger and budget, and performs a recurring Monday reconciliation that asks him about unresolved items. A content bot gathers a few relevant X stories and attaches matching resources to Notion video cards. Video editing remains experimental: he likes an example's visuals but not all its audio, and explicitly says the recording being watched was edited by a human.\n\nPersonal planning and fleet administration: Family questions and an emergency-supplies spreadsheet illustrate personal assistance, not medical expertise. For his home lab, he describes five machines connected by Tailscale, a Synology NAS and external GPU resources, plus a dashboard for sessions, remote access, backups and deployment. The reported $14,000 of token-equivalent usage over 30 days is not a cash invoice because he says subscriptions subsidize it; he also admits his benchmark work has not yet succeeded.\n\nWhy he prefers specialized bots: Separate engineering, design, finance, IT, shopping and content assistants organize both model context and his own attention. His conclusion is a strong personal preference for Grok Bot over the other personal agents he has not been actively testing, not a controlled head-to-head result. The transferable lesson is persistent roles plus shared engineering standards, scheduled checks and visible evidence—not that broad access or autonomous merging should be copied without an explicit permission and review policy.",
+    "why_valuable": "Adopt the reusable parts of a multi-bot operating system: separate IT, finance and content roles, give them shared skills, and require test evidence before merges. The video also helps decide where not to over-automate yet: model benchmarking, full video editing and sensitive financial or health judgments are not demonstrated as fully reliable.",
+    "quick_takeaways": [
+      "Separate data collection from training: Ras Mic reports 637 coding examples from 32 repositories and about 28 GB of raw logs, then delegates fine-tuning to a dedicated ML bot.",
+      "His app workflow relies on shared skills, worktrees, evidence-driven tests and a five-out-of-five review gate—not just a short natural-language prompt.",
+      "The finance bot reconciles on Mondays and asks about uncertainties; the content bot attaches relevant X sources to existing Notion ideas.",
+      "Full video editing and model benchmarks remain unfinished experiments. He explicitly credits a human with editing this video.",
+      "His home-lab pattern combines Tailscale-connected machines, central NAS backups and a dashboard for jobs and remote access.",
+      "The reported $14,000 token value is subsidized usage, not stated cash spending. Choose roles and permission boundaries before copying autonomous actions."
+    ],
+    "key_takeaways": [
+      "01:24 — The data bot reports 637 coding examples from 32 repositories; at 02:13 Ras Mic describes about 28 GB of raw session logs backed up nightly.",
+      "03:17 — He distinguishes insufficient resources for training a model from enough data for a small fine-tune; improvement is reported without a dependable benchmark score.",
+      "07:29 — His shared skills repository prescribes worktrees, evidence-driven tests and a five-out-of-five review gate before automated merges in personal projects.",
+      "10:11 — Finance reconciliation runs on Mondays and escalates questions to him rather than silently resolving every uncertain transaction.",
+      "11:20 — Scheduled X research is matched to Notion video ideas, turning news discovery into source material for a concrete content pipeline.",
+      "11:40 — AI editing remains experimental, especially audio; this video is credited to human editor Dan rather than presented as fully AI-edited.",
+      "15:16 — The dashboard's over-$14,000 token-equivalent total is explicitly subsidized by subscriptions, not a verified out-of-pocket bill.",
+      "16:54 — Separate bots help organize the creator's own attention as well as agent context; his final preference is personal, not an exhaustive comparison with Dots or Duet."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "title": "Seven roles behind a personal agent operating system",
+        "description": "Ras Mic introduces examples spanning fine-tuning, application development, finance and home-network administration. He frames Grok Bot as the coordinator for specialized assistants and promises a tour of the roles, making this an account of his own setup rather than a neutral comparison of every personal-agent platform.",
+        "source": "generated",
+        "timestamp": "00:00"
+      },
+      {
+        "start_seconds": 29,
+        "title": "Collecting successful traces and fine-tuning small models",
+        "description": "A data bot collects agent conversations across machines, filters failed runs and stores reusable training records on a NAS; Ras Mic reports 637 coding examples from 32 repositories and about 28 GB of raw logs. A separate ML bot arranges GPU resources and small-model fine-tuning, but the reported gains lack a reliable benchmark score and should not be confused with training a frontier model from scratch.",
+        "source": "generated",
+        "timestamp": "00:29"
+      },
+      {
+        "start_seconds": 263,
+        "title": "Personal app examples and a sponsored monitoring detour",
+        "description": "Ras Mic lists a Bible app, recording tool, trading app and a Screen Studio alternative as projects built with agent assistance. A Firecrawl sponsorship then demonstrates change monitoring and stock alerts; those promotional examples are distinct from proof that his app-building process achieved full feature parity or independently verified download totals.",
+        "source": "generated",
+        "timestamp": "04:23"
+      },
+      {
+        "start_seconds": 397,
+        "title": "Delegated implementation with worktrees and review gates",
+        "description": "The Glide prompt routes Mac development to a machine where the agent can actually run tests, then delegates implementation to Claude Code. Ras Mic says his shared skills prescribe a worktree per feature, evidence-driven testing and a five-out-of-five review before merging, explaining why the short prompt alone is not the real engineering system.",
+        "source": "generated",
+        "timestamp": "06:37"
+      },
+      {
+        "start_seconds": 524,
+        "title": "Transaction reconciliation and a recurring finance review",
+        "description": "The finance assistant combines connected transactions, statements and spreadsheets into a ledger, budget and spending review. Ras Mic keeps the sensitive figures off screen and describes a Monday reconciliation that asks him about uncertainties, so the evidence supports a reported administrative workflow rather than independently audited accounting accuracy.",
+        "source": "generated",
+        "timestamp": "08:44"
+      },
+      {
+        "start_seconds": 624,
+        "title": "News research feeds video ideas, while editing remains experimental",
+        "description": "A content bot regularly gathers relevant X stories and attaches matching resources to existing Notion video cards. Ras Mic shows an AI-edited example with appealing visuals but imperfect audio, explicitly credits a human for editing this recording and treats automated editing as a developing aid rather than a completed replacement.",
+        "source": "generated",
+        "timestamp": "10:24"
+      },
+      {
+        "start_seconds": 748,
+        "title": "Family questions and emergency-supplies planning",
+        "description": "Parenting questions and a two-day water outage motivate personal assistants for quick information and emergency preparation. The prepper bot produces supply and budget spreadsheets for different durations, illustrating structured planning while not establishing that an AI can safely replace professional advice about an infant's health.",
+        "source": "generated",
+        "timestamp": "12:28"
+      },
+      {
+        "start_seconds": 823,
+        "title": "A Tailscale fleet, central storage and visible operations",
+        "description": "Five machines, a Synology NAS and external GPU resources are managed through a dashboard showing devices, agents, jobs and remote access. Ras Mic describes weekly audits, security hardening and backups, but calls the displayed token value subsidized usage and admits benchmark work has not succeeded, useful limits on claims of a fully validated autonomous lab.",
+        "source": "generated",
+        "timestamp": "13:43"
+      },
+      {
+        "start_seconds": 995,
+        "title": "Role separation improves both agent context and human focus",
+        "description": "Engineering, design, finance, IT, shopping and content bots divide work into recognizable contexts rather than one endless thread. Ras Mic says that separation helps his own thinking and explains his strong preference for Grok Bot, while acknowledging he has not been actively testing competing personal assistants enough to establish a comprehensive comparison.",
+        "source": "generated",
+        "timestamp": "16:35"
+      }
+    ],
+    "first_detected_at": "2026-10-30T06:00:09+02:00",
+    "summarized_at": "2026-10-30T06:09:30+02:00"
+  },
+  {
     "id": "AtjFk9f44HE",
     "title": "His AI Made 20 Reels Before Breakfast",
     "channel": "Matt Wolfe",
