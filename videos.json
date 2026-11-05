@@ -9,8 +9,193 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-03T06:01:35+02:00",
+  "updated_at": "2026-11-05T12:02:05+02:00",
   "videos": [
+    {
+      "id": "7kbDosV5qaU",
+      "title": "Anthropic Just Shipped Claude Office (Master it in 24 Minutes)",
+      "channel": "Jack Roberts",
+      "upload_date": "20261104",
+      "duration_seconds": 1493,
+      "thumbnail": "https://i.ytimg.com/vi/7kbDosV5qaU/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7kbDosV5qaU",
+      "description": "🎬 Claude Image & Video: https://bit.ly/4z3p9gK\n🔥 Firecrawl: https://bit.ly/4feyw72\n🩵 Free Prompts: https://bit.ly/4sGUV1D\n\n👋 Howdy\nHey, I'm Jack, I built and sold my last tech startup with a Gazillion customers, now I'm building AI startups and I share stuff that works. I quit my corporate job to do my start-up and have never looked back since.\n\n💬 Overview\nYou and I walk through Claude Office, the new set of tools inside Claude that can replace apps like Canva, PowerPoint, Notion and Power BI. We start with Dashboards: how to pick your lead and lag numbers, then get your data in through connectors, computer control, browser use and Firecrawl scraping. Next we build a Design System from your own website, using Firecrawl for your brand and Higgsfield for the graphics your site doesn't have.\n\nThen we move into motion design and websites, turn one sales call into a full pitch deck with Slides, and finish with Docs, where Claude works beside you as a coworker. If you want one system that knows your business and saves you a pile of subscriptions, this is the whole workflow. Grab that beautiful coffee, and let's dive straight in.\n\nLinks\n🎬 Higgsfield (Image & Video for Claude): https://bit.ly/4z3p9gK\n🔥 Firecrawl: https://bit.ly/4feyw72\n🎨 Power Design (Free Skill): https://github.com/ItsssssJack/power-design\n🩵 Free Prompts & Resources: https://bit.ly/4zvuluW\n☁️ Claude: https://claude.ai/\n📝 Granola: https://www.granola.ai/\n🖼️ Refero Styles: https://styles.refero.design/\n📌 Pinterest: https://www.pinterest.com/\n🏀 Dribbble: https://dribbble.com/\n🗣️ Type with Your Voice (Glaido): https://get.glaido.com/jack\n📈 Claude Office Starter Pack + Agentic OS: https://bit.ly/4kol0y5\n\n▶️ Watch Next\nClaude Code 2.0 Just Became Unstoppable (Fully Explained): https://youtu.be/xjSzEzVC3vc\n\n⌚️ Stamps:\n0:00 - Claude Office\n0:36 - Level 1: Claude Dashboards\n1:40 - Lead and Lag Numbers\n2:30 - Get Your Data: Connectors\n3:33 - Computer Control\n4:24 - Browser Use\n4:53 - Scraping with Firecrawl\n6:08 - Level 2: Design System\n7:45 - Build Yours from Your Website\n9:22 - Make Your Graphics with Higgsfield\n10:54 - Find Design Inspiration\n12:13 - Level 3: Motion Design\n14:07 - Motion Websites\n15:17 - Build a Website from a Style\n16:26 - Share with Your Team\n16:43 - Level 4: Slides\n17:40 - The Power Design Skill\n18:28 - Turn a Sales Call into a Pitch Deck\n21:07 - Present and Export\n21:48 - Level 5: Docs\n22:43 - Claude as Your Coworker\n23:45 - Why Context Matters Most\n24:32 - Claude on Your Phone\n\nLearn how to use Claude Office: Claude dashboards, design systems, motion design, slides and docs, plus how to connect Higgsfield and Firecrawl and replace apps like Canva, PowerPoint, Notion and Power BI.\n\n#Claude #ClaudeOffice #Anthropic #Higgsfield #AITools #ClaudeDesign",
+      "summary": "Dashboards and data: Jack Roberts recommends starting with an outcome metric, such as subscribers, and the activities that influence it, such as posting and views. He demonstrates a Claude dashboard and describes four ways to supply data: connectors, computer control, an internal browser and Firecrawl scraping. His proposed morning community check is an example routine, not evidence of a measured production deployment.\n\nReusable brand assets: He builds a design system from an existing site, extracting fonts, colours and logos with Firecrawl, then uses the Higgsfield connector to generate missing graphics from a podcast banner. Refero, Pinterest and Dribbble supply inspiration. He promotes his own starter pack and community alongside these examples, so his subscription-replacement claims are not an independent cost comparison.\n\nMotion and websites: Roberts shows a one-prompt Glidr motion example and animated websites combining Claude-generated CSS with Higgsfield video. He suggests adapting a reference style rather than starting from a blank page, but acknowledges that results often need back-and-forth refinement; team sharing should use invited access rather than an unintended public link.\n\nClient pitches: He combines a sales-call transcript, prospect research, his own business context, customer branding and his free Power Design skill to create a tailored deck. The example displays a proposed $18,000 annual price, not a verified sale; he then edits slide count and formatting and shows presentation notes and export options.\n\nDocs and verdict: In a document he asks Claude to draft and improve a checklist directly, then argues that connected business context is more valuable than isolated tools because it carries goals and offerings into future work. He says mobile chat extends the workflow and believes subscriptions can be consolidated, but does not demonstrate a comprehensive replacement test, security review or savings calculation.",
+      "why_valuable": "Helps decide which Claude workflows to pilot for business reporting, branded marketing and client proposals, and which existing subscriptions should remain until integrations, outputs and costs are independently tested.",
+      "key_takeaways": [
+        "01:40 — Choose one lagging outcome and its leading drivers before building a dashboard; subscriber count alone does not show which posting activity is moving it.",
+        "03:33–04:53 — Roberts proposes computer or browser control when an API connector is missing, and Firecrawl for web extraction; validate access, reliability and permissions before relying on these routes.",
+        "07:45–10:54 — Extract existing brand fonts, colours and logos first, then generate missing assets; a shared design system reduces repeated branding instructions.",
+        "14:07 — His website example combines generated CSS animation with Higgsfield video, and he acknowledges that output often requires iteration rather than succeeding first time.",
+        "18:28–21:07 — Turn a sales-call transcript into a prospect-specific deck by adding research, your offering and the customer's logo; verify generated commercial claims and pricing before sending.",
+        "22:43–24:32 — Edit selected text with Claude inside a document and reuse connected context; Roberts argues this continuity, rather than a standalone feature, is the main productivity advantage."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Claude Office",
+          "description": "Roberts positions Claude's dashboards, designs, slides and documents as a single system for creating business material. His claim that it can replace existing subscriptions is a promotional thesis, not a demonstrated cost or feature comparison.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 36,
+          "timestamp": "0:36",
+          "title": "Level 1: Claude Dashboards",
+          "description": "He shows a dashboard he built to bring business data into a configurable interface, citing examples such as Mercury and PayPal. He also describes a separate file repository for finding Claude-created documents and designs as the collection grows.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 100,
+          "timestamp": "1:40",
+          "title": "Lead and Lag Numbers",
+          "description": "Roberts separates the result a business wants from the actions that influence it: a subscriber goal is the lagging measure, while videos published and views are leading measures. He recommends choosing both before asking for a dashboard so the report can guide action.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 150,
+          "timestamp": "2:30",
+          "title": "Get Your Data: Connectors",
+          "description": "He opens the dashboard option in Artifacts and notes that a dashboard can also be requested in chat. His advice is to list the required sources first, then connect relevant services such as YouTube or Mercury so the report has data to work with.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 213,
+          "timestamp": "3:33",
+          "title": "Computer Control",
+          "description": "For a community platform without a direct connector, he proposes a morning computer-control routine to read new memberships and recurring revenue and add them to a dashboard. This is presented as a possible workaround rather than a measured reliability test.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 264,
+          "timestamp": "4:24",
+          "title": "Browser Use",
+          "description": "He opens a site in Claude's internal browser and describes logging in and controlling it where no API is available. He likens this approach to robotic process automation, making it an alternative route to information rather than a conventional API integration.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 293,
+          "timestamp": "4:53",
+          "title": "Scraping with Firecrawl",
+          "description": "Roberts uses Firecrawl to turn website content into clean text and extract branding, suggesting recurring competitor research as another use. He then walks through finding the connector, connecting it and authorising access before using his supplied prompt.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 368,
+          "timestamp": "6:08",
+          "title": "Level 2: Design System",
+          "description": "A reusable set of brand colours, type, logos and visual assets prevents each new output from starting from zero. Roberts shows examples for his speech-to-text business and podcast, then describes using the saved system to create a consistent launch image.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 465,
+          "timestamp": "7:45",
+          "title": "Build Yours from Your Website",
+          "description": "He supplies a website URL and prompt to create a design system, using Firecrawl to retrieve the site's fonts, colours and logos. He identifies the limitation that a website may not contain every graphic needed, illustrated by custom podcast-short backgrounds.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 562,
+          "timestamp": "9:22",
+          "title": "Make Your Graphics with Higgsfield",
+          "description": "He connects Higgsfield and asks it to generate podcast assets from a screenshot of the channel banner, carrying its visual style into new graphics. He also suggests making alternate logo colourways when existing assets do not cover a required background.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 654,
+          "timestamp": "10:54",
+          "title": "Find Design Inspiration",
+          "description": "Roberts points to Refero, Pinterest and Dribbble for visual references and promotes his own starter pack. He shows the resulting collection of logo variants, photos and texture assets, arguing that saving them supports consistent future work.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 733,
+          "timestamp": "12:13",
+          "title": "Level 3: Motion Design",
+          "description": "He shows an example he says was generated from one prompt for Glidr, including scenes and an animated logo. He argues that giving motion generation an existing brand system makes it easier to create coherent videos and reuse a library of motion styles.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 847,
+          "timestamp": "14:07",
+          "title": "Motion Websites",
+          "description": "A website demonstration combines Claude-generated CSS interactions with video produced through Higgsfield; an X-ray view distinguishes code from video. Roberts says first attempts are improving but acknowledges that refining the result through several exchanges is often necessary.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 917,
+          "timestamp": "15:17",
+          "title": "Build a Website from a Style",
+          "description": "He selects a visual reference from Refero, supplies its URL and asks Claude to use the style as inspiration for a different website with Higgsfield assets. He also generates three reusable podcast textures from a banner, showing how the same assets can support shorts and presentations.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 986,
+          "timestamp": "16:26",
+          "title": "Share with Your Team",
+          "description": "He demonstrates inviting teammates by email and setting view or edit permissions for a motion design. He cautions against unintentionally making the work public when choosing link access, which matters for internal or client material.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1003,
+          "timestamp": "16:43",
+          "title": "Level 4: Slides",
+          "description": "Roberts shows a Glidr presentation made using his earlier design system and edits its content directly. He says decks can be exported to PowerPoint, offering a route for colleagues who still need an existing presentation format.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1060,
+          "timestamp": "17:40",
+          "title": "The Power Design Skill",
+          "description": "His free Power Design GitHub skill packages what he calls 20 universal design principles, including attention to spacing and detail. He selects Slides in Artifacts and a design system, then supplies a prompt so the deck follows those design instructions.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1108,
+          "timestamp": "18:28",
+          "title": "Turn a Sales Call into a Pitch Deck",
+          "description": "For an illustrative enterprise pitch, he combines a Granola meeting transcript with prospect research, his own business context and the customer's logo. The generated example shows an $18,000 annual proposal; he then corrects formatting and asks Claude to revise the slide count, illustrating why human review remains necessary.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1267,
+          "timestamp": "21:07",
+          "title": "Present and Export",
+          "description": "He presents the deck with speaker notes and an elapsed-time display, then shows sharing and export choices including PDF, PowerPoint and Google Slides. These options let a personalised proposal be delivered or edited in the recipient's preferred workflow.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1308,
+          "timestamp": "21:48",
+          "title": "Level 5: Docs",
+          "description": "Roberts compares Docs to a combination of Notion and Word and shows a searchable repository to locate material such as a policy. He points to document features including checklists before introducing direct Claude assistance within the document.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1363,
+          "timestamp": "22:43",
+          "title": "Claude as Your Coworker",
+          "description": "He asks Claude to create a five-item weekend checklist, then highlights text and requests a more detailed revision in place. He argues this avoids copying text between a document and chat, and notes that documents can also be shared.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1425,
+          "timestamp": "23:45",
+          "title": "Why Context Matters Most",
+          "description": "Roberts argues that AI output improves when the system has context about the user, business, goals and offerings. His case for consolidating work is that this context can inform decks, websites and documents across tasks, although he does not quantify the time saved.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1472,
+          "timestamp": "24:32",
+          "title": "Claude on Your Phone",
+          "description": "He says the same work can be accessed through mobile chat and closes by recommending a look at the broader Claude update. His final suggestion that users can cancel many subscriptions is an opinion rather than a tested migration plan.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-11-05T12:00:23+02:00",
+      "summarized_at": "2026-11-05T12:02:04+02:00"
+    },
     {
       "id": "m8Vism_m3UM",
       "title": "New Viral Pixar Animation Videos (Turned Into A Free Skill)",
