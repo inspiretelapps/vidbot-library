@@ -1,5 +1,157 @@
 [
   {
+    "id": "9_FzA-J9S2E",
+    "title": "you need to use Herdr RIGHT NOW!!",
+    "channel": "NetworkChuck",
+    "upload_date": "20261106",
+    "duration_seconds": 1231,
+    "thumbnail": "https://i.ytimg.com/vi/9_FzA-J9S2E/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=9_FzA-J9S2E",
+    "description": "Could AI be your next networking assistant? Check out how HPE Networking uses AI to identify issues and optimize performance: https://ntck.co/aiops\n\n\nHerdr is tmux, but built for AI. I use it every single day, and it pulled me back to the terminal right when I was about to go full GUI. In this video you'll learn how to install Herdr on Mac, Linux and Windows, how panes, tabs and workspaces fit together, how to get notified when an agent finishes, gets blocked or has a question, how to connect remote Herdr sessions over SSH, and how to let your AI agents control Herdr and talk to each other. My Claude Code launched Codex, Gemini and Grok, and they all talked back.\n\n\nJoin the NetworkChuck Academy!: https://ntck.co/NCAcademy\n\n\nRESOURCES / LINKS:\n🌐 Herdr: https://herdr.dev\n💻 Herdr on GitHub: https://github.com/herdrdev/herdr\n📺 you need to learn tmux RIGHT NOW!!: https://www.youtube.com/watch?v=nTqu6w2wc68\n🛠️ Claude Code: https://claude.com/claude-code\n🎙️ Wispr Flow (how I talk to my agents): https://wisprflow.ai\n🌐 Omarchy: https://omarchy.org\n📺 Set up your own AI agent (Hermes): https://www.youtube.com/watch?v=QQEgIo4Juxg\n\n\nTIMESTAMPS:\n0:00 - Herdr: tmux built for AI agents\n0:52 - How AI helps network engineers with HPE Networking (Sponsor)\n2:28 - How to install Herdr on Mac, Linux and Windows\n3:38 - Detach and come back: your sessions keep running\n4:14 - Herdr panes: split, rename, move and resize\n5:18 - Herdr tabs: keeping your panes organized\n5:52 - Herdr workspaces: organizing tabs and panes\n6:53 - The agents panel: every AI agent in one place\n7:20 - Sound and toast notifications when an agent finishes\n8:57 - Filter your agents by done, blocked, working or idle\n10:20 - Remote Herdr: add another machine over SSH\n11:53 - Your AI agents can control Herdr themselves\n12:39 - AI agents talking to each other: Claude Code, Codex, Gemini and Grok\n14:37 - Git worktrees with multiple AI agents\n15:07 - One agent on one machine talks to an agent on another\n16:09 - Stop the server and every session resumes\n16:42 - Why Herdr brought me back to the terminal\n17:23 - A prayer for you\n\n\n**Sponsored by HPE Networking\n\n\nSUPPORT NETWORKCHUCK:\n☕☕ COFFEE and MERCH: https://ntck.co/coffee\n\nREADY TO LEARN??\n🔥🔥Join the NetworkChuck Academy!: https://ntck.co/NCAcademy\n📚 CCNA Course: https://ntck.co/ccna\n\n\nFOLLOW ME EVERYWHERE:\nInstagram: https://www.instagram.com/networkchuck/\nX/Twitter: https://x.com/networkchuck\nFacebook: https://www.facebook.com/NetworkChuck/\nJoin the Discord server: https://ntck.co/discord\n\n\nSome links in this description are affiliate links. If you buy through them, I may earn a small commission at no extra cost to you. #sponsored\n\n\n#herdr #tmux #aiagents",
+    "summary": "Setup and organization, 00:00–06:53: NetworkChuck presents Herdr as a mouse-friendly, AI-oriented terminal multiplexer. He installs it on Windows and macOS/Linux, enables Claude and Hermes integrations, and shows how panes sit inside tabs and workspaces. Detaching leaves his ping running on the background server so he can reattach later.\n\nManaging multiple agents, 06:53–11:53: A central panel groups agents by workspace; sound and in-app toast notifications highlight completed work and requests for attention. The go-to screen filters done, blocked, working and idle sessions. He also adds a remote Mac over SSH, after installing Herdr there, and accesses its sessions and notifications from his local machine.\n\nAgent coordination and persistence, 11:53–16:42: An agent uses a Herdr skill to create and close panes, then a lead Claude session launches other agents, exchanges messages and delegates ASCII-art tasks. A separate demo shows Git worktrees for parallel coding and Hermes requesting a status update from an agent on another machine. After stopping and restarting the server, his agent conversations resume; this should not be interpreted as a guarantee that every running process survives a restart.\n\nVerdict and context, 00:52–02:28; 16:42–end: Chuck says Herdr brought him back from a largely graphical workflow and that he has used it daily for about three months; this is a personal endorsement, not a benchmark against tmux. The networking segment is sponsored by HPE and its product benefits are promotional claims. He ends by acknowledging anxiety about AI's impact on IT jobs and offering a Christian prayer.",
+    "why_valuable": "Decide whether Herdr is worth trying for a multi-agent terminal workflow, particularly if you need Hermes and other agents visible across workspaces or SSH-connected machines, and understand the setup and restart caveats before relying on it.",
+    "key_takeaways": [
+      "02:28: Onboarding detects Hermes and Claude integrations; Chuck demonstrates a Windows PowerShell install and separate macOS/Linux instructions.",
+      "03:38: Detaching with Ctrl-B then Q preserves his running ping because Herdr's server remains active; that differs from stopping the server.",
+      "07:20–10:20: Sound, in-app toasts and done/blocked/working/idle filters help prioritize agents that have completed work or need attention.",
+      "10:20: Remote sessions require Herdr on the other machine and SSH access; the demonstration brings its existing sessions and alerts into the local view.",
+      "11:53–15:07: An agent uses a skill to manage panes, delegate to other agents and work with Git worktrees; these are demonstrations, not a benchmark of coding quality.",
+      "15:07: Hermes requests and receives a project status from an agent on a separate SSH-connected machine.",
+      "16:09: Restarting the server resumes the demonstrated agent conversations, but the video does not establish that every arbitrary process survives a restart.",
+      "16:42: Chuck reports three months of daily use and favors Herdr over returning to tmux; the HPE segment is sponsored."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Herdr: tmux built for AI agents",
+        "description": "NetworkChuck demonstrates detaching from a machine running several AI agents and reconnecting from a laptop without losing the terminal layout. He presents agent status notifications and inter-agent control as the features distinguishing this mouse-friendly terminal from a conventional multiplexer.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 52,
+        "timestamp": "00:52",
+        "title": "How AI helps network engineers with HPE Networking (Sponsor)",
+        "description": "In a disclosed HPE Networking sponsorship, Chuck argues AI can help engineers investigate outages, analyze logs and automate documentation while people retain decision-making. His claims about HPE's root-cause and network-performance tools are promotional, not an independent product test.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 148,
+        "timestamp": "02:28",
+        "title": "How to install Herdr on Mac, Linux and Windows",
+        "description": "He demonstrates a PowerShell installation on Windows and the separate installation command for macOS and Linux, then launches the application. Onboarding detects Claude and Hermes integrations and offers configurable sound, toast notifications and themes; mouse navigation is available alongside keyboard shortcuts.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 218,
+        "timestamp": "03:38",
+        "title": "Detach and come back: your sessions keep running",
+        "description": "A running ping continues after he detaches with Ctrl-B then Q and reattaches by relaunching Herdr. He explains that a background server holds the panes and agents, making it possible to disconnect without ending a live session.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 254,
+        "timestamp": "04:14",
+        "title": "Herdr panes: split, rename, move and resize",
+        "description": "He starts Hermes, splits panes vertically and horizontally, renames one and navigates or resizes with keyboard shortcuts; the mouse works too. Closing excess panes illustrates how several terminal jobs can share one view without needing separate windows.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 318,
+        "timestamp": "05:18",
+        "title": "Herdr tabs: keeping your panes organized",
+        "description": "A tab groups multiple panes, and Chuck opens a second tab, renames it and moves between tabs using previous, next and numbered shortcuts. He also starts additional agents, which begin appearing in the interface as he navigates.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 352,
+        "timestamp": "05:52",
+        "title": "Herdr workspaces: organizing tabs and panes",
+        "description": "Workspaces sit above tabs and panes, allowing separate collections to be renamed, created, switched or closed. He uses the go-to view to navigate the hierarchy, a useful way to keep unrelated projects or agent sessions apart.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 413,
+        "timestamp": "06:53",
+        "title": "The agents panel: every AI agent in one place",
+        "description": "Agents launched in different panes appear in a central panel grouped by workspace, and selecting one takes him to its pane. He starts Claude in a second workspace to show that the list spans more than the currently visible location.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 440,
+        "timestamp": "07:20",
+        "title": "Sound and toast notifications when an agent finishes",
+        "description": "He enables sound and in-app toast notifications in settings, then asks Claude for a story and Hermes a question while navigating away. Later examples show completion and attention alerts with changing status colors, so a user can notice when an agent needs input without watching every pane.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 537,
+        "timestamp": "08:57",
+        "title": "Filter your agents by done, blocked, working or idle",
+        "description": "The go-to view filters agents by done, blocked, working, idle or all; he opens completed stories and follows up on an agent waiting for feedback. He calls this triage his favorite everyday feature because it makes many simultaneous sessions manageable.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 620,
+        "timestamp": "10:20",
+        "title": "Remote Herdr: add another machine over SSH",
+        "description": "The remote machine must already run Herdr and be reachable over SSH; Chuck adds his Mac Studio by label and login address from another machine. Its existing sessions and notifications appear alongside local ones, and he also shows shortcut help and session search, although he is uncertain exactly which content search indexes.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 713,
+        "timestamp": "11:53",
+        "title": "Your AI agents can control Herdr themselves",
+        "description": "Chuck asks his agent to open five panes and then close them, demonstrating direct control of the terminal layout. He says an installable skill gives agents access to Herdr's interface and mentions an API, while expressing uncertainty about whether it also has a CLI.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 759,
+        "timestamp": "12:39",
+        "title": "AI agents talking to each other: Claude Code, Codex, Gemini and Grok",
+        "description": "A lead Claude session creates multiple panes and delegates Harry Potter-themed ASCII scenes to other agents, handling prompts and receiving responses through hooks. He also demonstrates a simpler exchange with Codex; he observes Grok taking longer in this example, not as a controlled speed benchmark.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 877,
+        "timestamp": "14:37",
+        "title": "Git worktrees with multiple AI agents",
+        "description": "He asks a lead agent to create a sample coding project with Gemini, Claude and Codex using Git worktrees. The interface shows the worktrees and agent activity, and he observes a branch being committed, illustrating visibility into parallel work rather than proving merge quality.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 907,
+        "timestamp": "15:07",
+        "title": "One agent on one machine talks to an agent on another",
+        "description": "On his local machine, he installs the Herdr skill for Hermes and asks it to obtain a project status update from an agent in a remote Mac workspace. The remote agent replies and the local one receives the answer, demonstrating cross-machine communication through the configured connection.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 969,
+        "timestamp": "16:09",
+        "title": "Stop the server and every session resumes",
+        "description": "After detaching, Chuck stops the Herdr server and relaunches the program; the demonstration shows his agent conversations resuming. This is a restart-and-resume example, not evidence that every arbitrary running process will survive a server stop or reboot unchanged.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1002,
+        "timestamp": "16:42",
+        "title": "Why Herdr brought me back to the terminal",
+        "description": "Chuck says he had almost switched entirely to graphical interfaces but Herdr brought him back to the terminal. He reports using it daily for about three months and values starting or resuming his AI work across devices; this is his personal verdict, not a formal comparison with tmux.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1043,
+        "timestamp": "17:23",
+        "title": "A prayer for you",
+        "description": "He acknowledges anxiety among IT workers about AI changing their jobs and describes having experienced similar worries himself. He closes with a Christian prayer for peace, optimism and identity beyond work, while acknowledging that viewers may disagree with his beliefs.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-11-07T12:00:28+02:00",
+    "summarized_at": "2026-11-07T12:02:17+02:00"
+  },
+  {
     "id": "yC8vMywtUEA",
     "title": "How I Do All My Dev Work With Grok Bot",
     "channel": "Ben Davis",
