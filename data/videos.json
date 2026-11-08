@@ -1,5 +1,106 @@
 [
   {
+    "id": "cDb-wPq0Iyk",
+    "title": "Claude Opus 5.5: How To Make Motion Graphics",
+    "channel": "Rourke",
+    "upload_date": "20261106",
+    "duration_seconds": 1078,
+    "thumbnail": "https://i.ytimg.com/vi/cDb-wPq0Iyk/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=cDb-wPq0Iyk",
+    "description": "💡 AI Education at GenHQ: https://join.genhq.io/\n🔗 Download the Claude SaaS Animation Skill: https://go.genhq.io/claude-saas-yt-genhq\n🧊 Download Blender, the free 3D program: https://www.blender.org/download/\n💼 GenHQ job marketplace, find paid AI work: https://www.genhq.io\n\nClaude can now make high-end ads and motion graphics for any app or product. In this video I break down the whole process in three levels: prompting Claude on its own for clean app ads, connecting AI tools for your own voiceover and music, then connecting Claude to Blender for 3D product ads with cinematic lighting. I've never opened Blender in my life, and you won't need to either.\n\nIf you've got an app, a product or a business, this is a workflow you can use for your own brand or for clients. You'll see the same four steps every time: give Claude the ingredients, approve a storyboard, let Claude build it, then add sound, music and a voiceover. I'll also share my top tips along the way, like why every shot should transform into the next one, why you storyboard first, and why you should check everything against the real product.\n\nTools used in this video:\n• Claude + Claude Code: https://claude.ai\n• Blender: https://www.blender.org\n• ElevenLabs: https://elevenlabs.io\n• Suno: https://suno.com\n• Ocular Sounds, not affiliated: https://ocularsounds.com\n• Artlist, a cheaper option for sound effects: https://artlist.io\n\nGot questions? Drop them in the comments, I read them. Thanks for watching.\n\n📲 Follow me:\nInstagram → https://www.instagram.com/rourke\n\n⏱️ Chapters\n0:00 Claude Can Now Make Videos Like This\n1:37 The 4 Simple Steps\n2:02 Level 1: The Spotify Ad and Your Folder\n3:54 Step 2: The Storyboard\n5:58 Step 3: Claude Builds It\n6:52 Step 4: Sound Design\n8:43 The Candy Crush Ad\n9:56 Level 2: AI Voiceover and Music\n12:27 GenHQ\n13:47 Level 3: Blender\n15:26 Ending on Real Footage\n\nIf you're searching for how to make SaaS animations, motion graphics with Claude, Claude Code video, AI product ads, Blender with Claude or app promo videos, this video covers all of it.\n\n#Claude #ClaudeCode #MotionGraphics #SaaSAnimation #Blender",
+    "summary": "Workflow and costs: Rourke demonstrates three levels: Claude-generated app animation, added AI voice and music, and Claude Code driving Blender for 3D. He reports one video took 30 minutes and $2, while a Spotify animation took 8–12 minutes to build; these are his examples, not guaranteed production costs or timings. Supply a high-resolution logo and genuine interface screenshots so the model does not invent a fake-looking product.\n\nCreative direction: Approve a numbered storyboard before rendering and specify that shapes transform between shots rather than cross-dissolve. Keep the main action centred, add subtle movement, then add sound only after locking visuals. His team spent around £500 on sound effects, although he suggests Artlist as a cheaper alternative; the Candy Crush example also benefited from better logo assets, camera movement and shallow depth of field.\n\nVoice, music and promotion: His GenHQ example animates existing AI illustrations; Claude's ElevenLabs connector can write and generate narration to fit a 15- or 30-second spot, while a Claude-written Suno prompt produces a backing track for Claude to mix. He also promotes his own GenHQ training and jobs marketplace; its revenue and job claims are self-reported, not independent results.\n\n3D and quality control: Rourke compares a flat, shape-based AirPods animation with a Blender version, crediting more controlled lighting. He says Blender can run in the background through Claude Code and uses an AI reference image to match the animation's final frame to live footage. His first model had the wrong case and stems intersecting it, so he recommends checking against the physical product and iterating; his verdict is that specific artistic direction, storyboard design and real-world verification matter more than a generic prompt.",
+    "why_valuable": "Helps decide whether to make an app promotion in Claude alone or add ElevenLabs, Suno and Blender, and what assets and quality checks to budget for before producing a client ad.",
+    "key_takeaways": [
+      "02:35–03:41: Provide high-resolution logos and real app screenshots; otherwise Claude may recreate inaccurate branding and interfaces.",
+      "03:54–05:55: Approve a numbered storyboard before animation, and explicitly ask for object-to-object transitions rather than cross-dissolves.",
+      "05:58–06:50: Rourke reports the Spotify animation took 8–12 minutes; he recommends central framing and subtle continuous motion.",
+      "07:42–08:42: His team spent around £500 on sound effects, but he suggests cheaper libraries and adding audio after visuals are locked.",
+      "11:05–12:24: Use the ElevenLabs connector to fit narration to a 15- or 30-second spot, and return a Suno-generated music track to Claude for mixing.",
+      "13:47–16:48: Blender improved the presenter's 3D lighting example, but the first AirPods model had geometry and product-fidelity mistakes that required checking and revision."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "00:00",
+        "title": "Claude Can Now Make Videos Like This",
+        "description": "Rourke presents three approaches, from Claude-only animation to AI voiceovers and 3D work with Blender. He says one example took 30 minutes and $2, a claim about his own production rather than a guaranteed price or runtime.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 97,
+        "timestamp": "01:37",
+        "title": "The 4 Simple Steps",
+        "description": "He organizes production into supplying assets, approving a storyboard, letting Claude build the sequence, and adding sound, music and narration. The same structure carries through increasingly sophisticated examples, so decisions are made before expensive animation work.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 122,
+        "timestamp": "02:02",
+        "title": "Level 1: The Spotify Ad and Your Folder",
+        "description": "A Spotify logo becomes a player, then a playlist and phone, illustrating a continuous visual sequence. Rourke puts his downloadable skill, high-resolution logo and interface screenshots in a project folder, warning that missing assets can lead Claude to invent inaccurate branding.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 234,
+        "timestamp": "03:54",
+        "title": "Step 2: The Storyboard",
+        "description": "Ask for a numbered sequence and revise it before committing animation credits. Rourke advises explicitly transforming each object or shape into the next and forbidding cross-dissolves, which he considers less engaging than continuous motion.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 358,
+        "timestamp": "05:58",
+        "title": "Step 3: Claude Builds It",
+        "description": "The presenter says the Spotify sequence took 8–12 minutes to build, with lines joining into a circle and then a player. He recommends keeping the visual focal point in the centre and retaining subtle camera or object movement so the result does not feel static.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 412,
+        "timestamp": "06:52",
+        "title": "Step 4: Sound Design",
+        "description": "Claude can place sound effects and music supplied in the project folder at appropriate moments. Rourke reports spending around £500 on Ocular Sounds effects and suggests Artlist as a cheaper option; he recommends finishing visuals before sound because later timing changes can disrupt the mix.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 523,
+        "timestamp": "08:43",
+        "title": "The Candy Crush Ad",
+        "description": "A second Claude-only spec ad initially used a badly cropped logo, so the team replaced it with better reference images and requested more interesting camera movement. Rourke also suggests shallow depth of field for a camera-like background blur and ends the app animation with a call to action.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 596,
+        "timestamp": "09:56",
+        "title": "Level 2: AI Voiceover and Music",
+        "description": "The GenHQ example animates existing AI illustrations using cut-out characters, rather than creating every visual from scratch. Rourke uses the ElevenLabs connector to fit speech to a 15- or 30-second animation and has Claude help prompt Suno, then add and balance the resulting music.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 747,
+        "timestamp": "12:27",
+        "title": "GenHQ",
+        "description": "Rourke promotes his own AI training and hiring platform, claiming students have generated over $1 million and that more than $500,000 in jobs is available. These are promotional claims from the presenter, not independently verified outcomes; he then recaps the use of existing AI images in the preceding animation.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 827,
+        "timestamp": "13:47",
+        "title": "Level 3: Blender",
+        "description": "He contrasts a flat, shape-built AirPods render with a Blender version and attributes much of the difference to controlled lighting. Blender is free to install, and he says Claude Code can operate it in the background; he still approves a storyboard before building the 3D commercial.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 926,
+        "timestamp": "15:26",
+        "title": "Ending on Real Footage",
+        "description": "Rourke supplies an AI reference image of himself wearing an AirPod so the animation ends at a frame that can transition into footage. The first model had an inaccurate case and intersecting stems, so he checks against the real product and concludes that detailed direction, iteration and strong transitions are essential to avoid generic output.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-11-08T06:00:28+02:00",
+    "summarized_at": "2026-11-08T06:02:05+02:00"
+  },
+  {
     "id": "9_FzA-J9S2E",
     "title": "you need to use Herdr RIGHT NOW!!",
     "channel": "NetworkChuck",
