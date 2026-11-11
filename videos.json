@@ -9,8 +9,81 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-09T06:02:35+02:00",
+  "updated_at": "2026-11-11T12:01:45+02:00",
   "videos": [
+    {
+      "id": "O9SMvsiFzmA",
+      "title": "I Made Fable 5.2 and Opus 5.5 Build the Same App (RAW RESULTS)",
+      "channel": "Bart Slodyczka",
+      "upload_date": "20261111",
+      "duration_seconds": 2227,
+      "thumbnail": "https://i.ytimg.com/vi/O9SMvsiFzmA/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O9SMvsiFzmA",
+      "description": "Anthropic just released Claude Fable 5.2, so I gave it and Opus 5.5 the exact same prompts across four builds and graded them blind. A game, motion graphics, an un-slop round and a Blender truck, plus a refusals test at the end.\n\nTIMESTAMPS\n0:00 Intro and how the blind test works\n1:46 Round 1: Open-world city game\n7:57 Round 2: Five motion graphics videos\n17:09 Round 3: Un-slop (website, pitch deck, blog post)\n24:13 Round 4: Blender truck\n28:10 Refusals segment\n32:54 Final score and cost",
+      "summary": "Test design and game: Bart Slodyczka compared the models in Claude Code on medium effort, using identical prompts and fresh folders; the builds got a self-review pass except the one-shot editing round. In his blind game test he preferred Opus for better car and motorbike steering, despite initially guessing it was Fable. He reports 50 versus 67 minutes and approximately $20 versus $40 at equivalent API prices.\n\nCreative work: Fable won four of five subjective motion-graphics comparisons and all three editing comparisons, though some motion picks were close. Bart preferred its spatial composition in a maths explainer, its more visual pet-care deck, and a food website that surfaced the offer and menu. The simpler one-shot editing job reportedly cost $4.30 for Fable versus $1 for Opus; he cautions that looser prompting did not automatically produce a dramatic improvement everywhere.\n\n3D and refusals: Fable won the Blender truck comparison for its more detailed undercarriage and moving suspension; both models made mechanical errors. Both reportedly took 62 minutes, costing about $34 and $29 respectively. In an unscored, small repeated prompt test, framing changed refusal behaviour; Fable refused five of six most explicitly unauthorized lock requests, Opus 5.5 refused three and asked questions on three, and Opus 4.8 refused all six. These observations are not a comprehensive safety benchmark.\n\nVerdict and limits: Bart scores Fable three round wins to one, with Opus winning the game, and says Fable's total work was roughly 60% more expensive and 40 minutes slower across the video, including refusals. Costs are converted from subscription usage to equivalent API pricing, not actual invoices. His single set of identical, non-model-optimized prompts and subjective blind judging constrain generalization; he suggests model-specific prompting could change results and notes a claimed advantage on long tasks held for the truck but not the game.",
+      "why_valuable": "Helps choose whether Fable's extra cost is worthwhile for visual production and editing, or whether Opus is a better first choice for interactive game prototypes under a comparable prompt and effort level.",
+      "key_takeaways": [
+        "07:05–07:50: Bart preferred the Opus game for steering; he reports 50 minutes and about $20 versus Fable's 67 minutes and $40.",
+        "15:57–16:22: Fable won four of five judged motion-graphics examples, but several aesthetic choices were close and subjective.",
+        "19:03–23:53: Fable won all three one-shot edits; the presenter reports $4.30 and 10 minutes against Opus's $1 and four minutes.",
+        "25:35–27:17: Fable's Blender truck had a more detailed animated undercarriage, although both builds contained mechanical inaccuracies; both reportedly took 62 minutes.",
+        "28:21–30:18: The unscored refusal test varied the wording of 15 prompts; on the most explicitly unauthorized scenarios Fable refused five of six, Opus 5.5 three of six and Opus 4.8 all six.",
+        "33:20–36:09: The presenter reports Fable was about 60% costlier overall at equivalent API rates, and the shared prompts were not optimized for either model."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro and how the blind test works",
+          "description": "Bart compares two Claude models using identical prompts in fresh Claude Code folders at medium effort, judging anonymous A/B outputs before revealing their origin. Most builds get one self-review pass, while the editing test is one-shot and the separate refusal test is unscored.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 106,
+          "timestamp": "01:46",
+          "title": "Round 1: Open-world city game",
+          "description": "Both prototypes generate an expanding city and allow vehicle and building entry, but Bart prefers the first game's more responsive steering and a shopkeeper who follows the player. He is surprised to learn it is Opus, which he reports took 50 minutes and about $20 versus Fable's 67 minutes and $40.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 477,
+          "timestamp": "07:57",
+          "title": "Round 2: Five motion graphics videos",
+          "description": "Five matched briefs span coffee collage, chalkboard maths, a comic volcano, Greek history and kinetic typography; Bart weighs visual detail, pacing and composition, with several choices close. He reveals a 4–1 preference for Fable, and reports 125 minutes and $35 for Opus versus roughly 140 minutes and $55 for Fable.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1029,
+          "timestamp": "17:09",
+          "title": "Round 3: Un-slop (website, pitch deck, blog post)",
+          "description": "The preferred food-site revision makes the offer and menu easier to see, and the winning pet-care deck uses stronger visuals and segmented information; Bart also marginally prefers its less abrupt remote-work copy. All three picks are Fable, but the single editing pass cost a reported $4.30 and 10 minutes versus $1 and four minutes for Opus, and he finds the results less dramatic than expected.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1453,
+          "timestamp": "24:13",
+          "title": "Round 4: Blender truck",
+          "description": "The camera moves beneath a truck to show its components and suspension; Bart favours the Fable output for more detailed parts and visible motion. Both versions have questionable mechanical geometry, and he reports the same 62-minute runtime with costs of about $34 for Fable and $29 for Opus.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1690,
+          "timestamp": "28:10",
+          "title": "Refusals segment",
+          "description": "In an unscored test, the presenter varies the framing of lock and paywall prompts, repeating each for the newer models and comparing an earlier Opus run. For the most explicitly unauthorized cases he reports five of six refusals for Fable, three for Opus 5.5 and six for Opus 4.8; different paywall phrasing produced different responses, so these limited trials should not be treated as a general safety ranking.",
+          "source": "creator"
+        },
+        {
+          "start_seconds": 1974,
+          "timestamp": "32:54",
+          "title": "Final score and cost",
+          "description": "Bart awards Fable three of the four build rounds but says it was roughly 60% more expensive overall at equivalent API prices, with Opus winning the game. He contrasts code and tool-turn counts across jobs and notes that a reported Fable advantage on long tasks fit the truck but not the game; identical prompts were not tailored to either model, so different prompting could alter results.",
+          "source": "creator"
+        }
+      ],
+      "first_detected_at": "2026-11-11T12:00:21+02:00",
+      "summarized_at": "2026-11-11T12:01:45+02:00"
+    },
     {
       "id": "Ys3o-iqGcoE",
       "summary": "Active risk and a defensive reserve: Alex and Leila Hormozi and adviser Sharan argue that building a business and investing its profits require different skills. Alex says he chased 100% returns and lost money; Leila discovered a supposedly passive investor employed 45 people. Their proposed barbell keeps entrepreneurial risk in the operating company and delegates investments while building a reserve that can support future business bets. Their mentioned 15–20% targets are personal goals, not guaranteed or risk-free returns.\n\nDeal flow and investment screening: The speakers advocate examining many opportunities and assessing managers rather than assuming an asset class is inherently good. They claim private deals outperform public markets, but do not establish that this holds after fees, risk, selection bias and illiquidity. Sharan's four-part investment X-ray asks about capital preservation, tax efficiency, cash yield and growth; size each position for your own circumstances rather than copying theirs.\n\nTax planning and cash flow: They describe US-specific incentives, deferral and accounting choices, and claim that better advice improved their own results. Alex reports surprise additional tax bills of $12 million and $17 million; the group argues for separating tax strategy from return preparation and planning before year-end. Their examples are not universal rules: revenue recognition and tax treatment are constrained by law, and deferral is not forgiveness. Obtain independent advice in your own jurisdiction before acting.\n\nVerdict and commercial offer: Their conclusion is to adopt a few suitable, documented frameworks rather than pursue exotic tax schemes that introduce excessive risk. They promote a wealth workshop aimed at established entrepreneurs and accredited investors; the pitch and their own reported outcomes should not be taken as independent evidence of likely returns.",
