@@ -9,8 +9,81 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-11T12:01:45+02:00",
+  "updated_at": "2026-11-12T12:02:09+02:00",
   "videos": [
+    {
+      "id": "4d6OK7IGdBU",
+      "title": "Copy These 5 Claude Mods, Never Hit a Token Limit Again",
+      "channel": "Ben AI",
+      "upload_date": "20261110",
+      "duration_seconds": 832,
+      "thumbnail": "https://i.ytimg.com/vi/4d6OK7IGdBU/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4d6OK7IGdBU",
+      "description": "🎁 Get the free Token Saving Mods Pack → https://c.benai.co/ct5mn-free\n🚀 [Join my AI Accelerator] Get all my courses, resources & 1-on-1 help → https://c.benai.co/ct5mn-accelerator\n🧠 Free Second Brain app → https://c.benai.co/ct5mn-baalda\n\nMORE FREE RESOURCES\n📘 Step-by-step playbooks to land your first AI client → https://c.benai.co/ct5mn-playbooks\n\nWORK WITH ME\n🤝 Book a free call with my [AI agency] → https://c.benai.co/ct5mn-agency\n💼 We're hiring. Join the team → https://c.benai.co/ct5mn-join-ben-ai\n\nCONNECT WITH ME\n👨‍💼 LinkedIn → https://linkedin.com/in/benvansprundel/\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n🔗 LINKS MENTIONED IN THIS VIDEO\n• 9 more Claude mods I use (video): https://www.youtube.com/watch?v=bTqizdva04g\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nMost of the tokens Claude burns are preventable. These mods hand the heavy work to cheaper models or plain code: Haiku reads big files and connector results, Sonnet picks the right effort level, every subagent runs on the right model, a countdown keeps your chat's cache warm, a handoff moves long chats to a fresh one, and browser screenshots get shrunk before Claude reads them. In my tests they cut costs by 42 to 75% with the same output.\n\n🎬 CHAPTERS\n00:00 – Intro\n01:46 – Mod #1\n04:53 – Mod #2\n06:51 – Mod #3\n08:54 – Mod #4\n10:14 – Mod #5\n11:58 – Mod #6\n\n👋🏼 ABOUT ME\nI'm Ben. I built two $1M ARR AI businesses, and now I help professionals and business owners use AI better than 99% of people in their industry. And I (try to) show you exactly how.\n\nI believe anyone with domain expertise can use AI to transform the way they work and grow their business. You don't need to be technical.\n\nI make videos that cover:\n\n1. How to stop feeling overwhelmed by AI and actually start implementing\n2. AI automation tutorials you can follow along with, even if you're not technical\n3. The strategies and systems that actually move the needle with AI",
+      "summary": "Route bulky input: Ben's Input Router sends files or connector results over roughly 2,000 tokens to Haiku for task-specific notes, leaving the full file accessible. In his five-transcript test the main chat received 5,900 instead of 74,000 tokens, and the total task cost fell from $3.81 to $0.94. He warns Haiku can miss details; disable the mod or use Sonnet for accuracy-critical work.\n\nMatch effort and model to the task: Sonnet reviews a prompt and proposes an effort change subject to approval; Ben cites an Anthropic redesign example of one minute at low versus 28 at max, not his own benchmark. His subagent selector routes simple work to Haiku, ordinary work to Sonnet and difficult or risky work to Opus. In his research test, two Sonnet agents and one Haiku agent cost $3.82 versus $6.58 with Opus agents, with almost identical output.\n\nManage long conversations: Cache Clock displays a countdown and can send a small keep-warm message before the cache expires; Ben says this costs a few cents each time and quotes different cache lifetimes for subscriptions and API access. Handoff offers to move at 250,000 tokens, creating a detailed prompt from the conversation and relevant files, skills and links; he recommends a fresh chat over relying indefinitely on compaction, which can omit details. Cache rates, lifetimes and thresholds are his claims and may vary by service and configuration.\n\nReduce browser image overhead: The screenshot mod uses ordinary code to halve screenshot dimensions. Ben reports his 48-screenshot site review fell from 58,000 to 14,000 image tokens and from $0.68 to $0.17 for screenshots; /savings shows per-mod savings. His practical verdict is to reserve the stronger model for work that needs it, while checking accuracy and actual savings in your own workflow; the title's promise of never hitting a limit is not established by these examples.",
+      "why_valuable": "Helps decide which Claude Code token-saving changes to try first—input routing, model and effort selection, cache management, handoffs or smaller screenshots—and when the risk of lost detail outweighs the savings.",
+      "key_takeaways": [
+        "01:46–04:30: In Ben's five-transcript test, the input router cut task cost from $3.81 to $0.94, but Haiku can omit important details; use Sonnet or disable routing for accuracy-critical work.",
+        "04:53–06:18: Let Sonnet suggest effort changes rather than leaving every task on max; Ben's cited 1-minute versus 28-minute redesign comparison comes from Anthropic, not his own test.",
+        "06:51–08:53: His model-routing test cost $3.82 instead of $6.58, with almost identical output, by assigning two subagents to Sonnet and one to Haiku instead of Opus.",
+        "08:54–10:13: A cache countdown can prompt a keep-warm message before expiry, but those messages themselves cost money and the quoted cache rules depend on the service used.",
+        "10:14–11:57: Handoff suggests a new chat at 250,000 tokens and carries over files, skills and links; review the handoff for omissions rather than assuming it preserves everything.",
+        "11:58–13:24: In his 48-screenshot example, downsizing reduced image tokens from 58,000 to 14,000; /savings displays the reported contribution of each mod."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "00:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "Ben describes mods as event-listening plugins for Claude Code in the desktop app or terminal, able to change an action or pass work to a cheaper model. He offers a downloadable pack for Mac and Windows and promotes substantial savings, though the later figures are task-specific tests rather than proof that limits disappear."
+        },
+        {
+          "start_seconds": 106,
+          "timestamp": "01:46",
+          "title": "Mod #1",
+          "source": "creator",
+          "description": "Input Router sends large file or connector reads to Haiku after roughly 2,000 tokens and returns relevant notes plus a path for checking the original. Ben reports a five-transcript test costing $0.94 instead of $3.81, and a connector result reduced from 65,000 to 981 tokens; he cautions that Haiku may miss details and suggests Sonnet or disabling the mod for sensitive work."
+        },
+        {
+          "start_seconds": 293,
+          "timestamp": "04:53",
+          "title": "Mod #2",
+          "source": "creator",
+          "description": "Sonnet inspects the prompt and previous reply and recommends an effort-level change for the user to approve, including raising effort on complex work. Ben cites an Anthropic redesign example of one minute at low versus 28 at max with a similar result, and warns that the model picker may not reflect the actual change; the interval also contains a course promotion."
+        },
+        {
+          "start_seconds": 411,
+          "timestamp": "06:51",
+          "title": "Mod #3",
+          "source": "creator",
+          "description": "A selector assesses each helper agent's job and routes easy tasks to Haiku, ordinary tasks to Sonnet and difficult or risky ones to Opus, instead of always inheriting the main model. Ben's research comparison used two Sonnet agents and one Haiku agent for $3.82 versus $6.58 with Opus agents, with almost identical output; he says it also works alongside input routing."
+        },
+        {
+          "start_seconds": 534,
+          "timestamp": "08:54",
+          "title": "Mod #4",
+          "source": "creator",
+          "description": "A countdown indicates when cached conversation context will go cold, and an optional hidden message can renew it shortly before expiry. Ben says a warm read is cheaper but each renewal costs a few cents; the subscription and API expiry periods he quotes are service-specific claims, so users should check their own configuration and pricing."
+        },
+        {
+          "start_seconds": 614,
+          "timestamp": "10:14",
+          "title": "Mod #5",
+          "source": "creator",
+          "description": "Ben argues that long conversations remain costly even with a warm cache and that automatic compaction can happen late or omit details. At 250,000 tokens his handoff offers a fresh chat seeded with a detailed prompt based on the conversation, files, skills and links; the same action can also be requested manually."
+        },
+        {
+          "start_seconds": 718,
+          "timestamp": "11:58",
+          "title": "Mod #6",
+          "source": "creator",
+          "description": "A non-AI script halves browser screenshot dimensions before Claude reads them; Ben reports that 48 screenshots in a site review dropped from 58,000 to 14,000 tokens and $0.68 to $0.17. He closes by showing /savings for per-mod totals, claiming about 1.2 million tokens saved in one day, and directs viewers to the free pack and his paid course."
+        }
+      ],
+      "first_detected_at": "2026-11-12T12:00:21+02:00",
+      "summarized_at": "2026-11-12T12:02:09+02:00"
+    },
     {
       "id": "O9SMvsiFzmA",
       "title": "I Made Fable 5.2 and Opus 5.5 Build the Same App (RAW RESULTS)",
