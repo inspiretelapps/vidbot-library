@@ -9,8 +9,483 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-12T12:02:09+02:00",
+  "updated_at": "2026-11-13T06:10:39+02:00",
   "videos": [
+    {
+      "id": "umGZrkyTRtw",
+      "title": "11 AI Breakthroughs You Didn’t Know Existed",
+      "channel": "Matt Wolfe",
+      "upload_date": "20261021",
+      "duration_seconds": 1516,
+      "thumbnail": "https://i.ytimg.com/vi/umGZrkyTRtw/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
+      "description": "Try @OpenAI Dots here: https://chatgpt.com/features/dots/\n\nSome of the coolest AI advancements are flying under the radar. From AI-generated worlds and games to new voice models and 3D tools, here's a look at some of the lesser-known AI research and technology that you probably missed.\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nResources From Today's Video:\nFish Audio Drama 3: https://fish.audio/drama-3/\nBytePlus OmniHuman: https://www.byteplus.com/en/product/OmniHuman\nWorldCrafter: https://drexubery.github.io/WorldCrafter/?validation-demo=cat-vac-new\nTheoMediaAI Post: https://x.com/TheoMediaAI/status/2109643192920404199\nMatrix Game 4.0: https://matrix-game-v4-0.github.io/page/\nNVIDIA StreamRender-H3: https://nvlabs.github.io/Sana/Sol-Engine/StreamRender-H3/\nOdyssey Update: https://x.com/odysseyml/status/2111589148146749616\nT3lescope: https://pfnet-research.github.io/t3lescope/\nGaussianimate: https://cookmaker.cn/gaussianimate/\nWorldGacha: https://tools.oyasumi-gamedev.com/worldgacha/\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:\n00:00 Under-the-Radar AI Discoveries\n00:46 Fish Audio Drama 3: AI Voice Acting\n04:23 OmniHuman 2.0: Talking Photos\n06:48 WorldCrafter: AI Worlds That Remember\n08:56 ByteDance’s New World Model\n09:56 OpenAI Dots (Sponsor)\n11:01 Matrix Game 4.0: Game Engines Meet AI\n14:17 NVIDIA StreamRender-H3\n16:43 Odyssey: A Fruit Fly Brain in an AI World\n18:25 3D Reconstruction, Animation & World Building",
+      "summary": "Format note: Matt explains his weekly AI news videos usually focus on the biggest labs (OpenAI, Anthropic, Google, Nvidia), so this episode instead surfaces smaller research and tools that get less coverage, and he says he'll make more under-the-radar roundups like this about once a month if viewers want them.\n\nVoice and talking-photo generation: Fish Audio's Drama 3 text-to-speech model lets creators direct performance with plain-English bracketed cues (e.g. \"forcing a smile,\" \"whisper\") instead of emotion presets, and supports multiple speakers and inline sound effects. Matt reports it tops Artificial Analysis's pronunciation score, beating ElevenLabs and Sesame, despite ranking lower in blind arena preference tests; it is a 36B-parameter open-weight model needing roughly 46GB VRAM (or 32GB at 4-bit), free for commercial use under $500k revenue, with API pricing jumping from a $10 launch price to $50 per million characters after November 12th. ByteDance's OmniHuman 2.0 extends talking-photo generation from a single image and audio track up to five continuous minutes (up from 60 seconds) at 7 cents per second (about $21 for five minutes); Matt still finds the lip-sync unconvincing and flags clear deepfake risk since only one photo plus audio is required.\n\nWorld models that remember: Tencent's WorldCrafter fixes AI world models' core weakness — forgetting what is off-screen — by indexing memory by camera position, proven by rebuilding a clean 3D point cloud from its own generated video and a demo where a horse leaving and re-entering frame stays intact; code and a Hugging Face demo are public now. Bootlegged event footage shared by Theoretically Media shows an unreleased ByteDance world model regenerating new camera angles through old film scenes and building prompted worlds, but Matt stresses it has no public name, release date, or official footage yet.\n\nSponsor segment: OpenAI's \"Dots\" are always-on agents with their own cloud computer that keep working on assigned responsibilities after a ChatGPT session ends; Matt uses his to track YouTube analytics automatically and generate weekly team reports, and says each Dot is powered by GPT-6 Astra and learns preferences to proactively suggest actions.\n\nGame engines meet AI: Skyworks' Matrix Game 4.0 and Nvidia's StreamRender-H3 both offload world memory to a conventional game engine, which renders a cheap frame (blocky 3D for Matrix Game, a flat color-coded map for Nvidia) that a video model repaints into a finished look. Nvidia's version can fully restyle identical driving footage into different locations and times of day by swapping one reference image, and Matt notes Nvidia had Claude Code build its faster video decoder in about three hours — but each rendering step takes 218ms on eight data-center GB200 GPUs and the model is trained only on racing so far, while Matrix Game targets a single consumer RTX 5090 at a lower 480x864 resolution under an Apache 2.0 license.\n\nA fruit fly brain in a world model: Odyssey connected a separately built simulation of a real fruit fly's brain (about 140,000 neurons, 50 million connections, from Eon Systems) to a camera moving through its Odyssey 3 world model, letting the fly \"fly\" through imagined scenes on its own; Matt flags there is no paper or code explaining the connection and that commenters noticed the fly never tries to land, but anyone can separately try the interactive Odyssey 3 world model at experience.odyssey.systems.\n\n3D reconstruction and world building: Preferred Networks' Telescope converts photo sets (56 to 256 images in Matt's examples) into 3D meshes with far more surface detail than standard Gaussian splatting, including shiny and glass surfaces, by building low detail first and refining zoomed-in areas; code is not yet released. Gaussianimate rigs soft-and-rigid characters like clothed humans or animals by layering floating physics nodes for jiggle on top of a skeleton, and WorldGacha, a free non-AI browser tool, procedurally generates explorable fictional cities and landscapes exportable as PNG, SVG, or 3D files.",
+      "why_valuable": "Helps decide which under-the-radar AI tools are worth testing now (Fish Audio Drama 3 for directed voice performance before its price jump, or WorldCrafter/Telescope for more consistent AI world and 3D generation) versus which remain unreleased research to just watch (ByteDance's new world model, Nvidia's data-center-only StreamRender-H3).",
+      "key_takeaways": [
+        "0:46–4:22: Fish Audio Drama 3 tops Artificial Analysis's pronunciation score (ahead of ElevenLabs and Sesame) but ranks lower in blind listening-preference tests; its API price jumps from $10 to $50 per million characters after November 12, and it needs roughly 46GB VRAM (or 32GB at 4-bit).",
+        "4:23–6:47: ByteDance's OmniHuman 2.0 now generates up to 5 continuous minutes of talking/singing video from one photo and an audio track (up from 60 seconds) at 7 cents per second (about $21 for 5 minutes); Matt still finds the lip-sync unconvincing.",
+        "6:48–8:55: Tencent's WorldCrafter fixes AI world models' memory loss by indexing scenes by camera position, proven by rebuilding a clean 3D point cloud from its own generated video; code and a Hugging Face demo are public now.",
+        "11:01–14:16: Matrix Game 4.0 offloads memory to a real game engine and lets AI only repaint a blocky render, targeting a single consumer RTX 5090 at low resolution (480x864) under an Apache 2.0 license.",
+        "14:17–16:42: Nvidia's StreamRender-H3 restyles identical driving footage into different locations by swapping one reference image, but needs eight data-center GB200 GPUs per frame (218ms/step) and is trained only on racing so far; Nvidia reports Claude Code built its faster decoder in about 3 hours.",
+        "9:56–11:00 (sponsor): OpenAI's Dots are always-on agents with their own cloud computer that keep working on assigned tasks (e.g. YouTube analytics) after a ChatGPT session ends, powered by GPT-6 Astra.",
+        "16:43–18:24: Odyssey linked a simulated real fruit fly brain (140,000 neurons) to a camera in its Odyssey 3 world model with no published paper or code explaining the connection; the interactive Odyssey 3 world model itself can be tried separately at experience.odyssey.systems.",
+        "18:25–end: Preferred Networks' Telescope produces notably more detailed 3D meshes than Gaussian splatting from 56-256 photos, including shiny/glass surfaces, with code not yet released."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Under-the-Radar AI Discoveries",
+          "source": "creator",
+          "description": "Matt explains that his weekly AI news videos usually focus on the biggest labs that get most of the coverage, so this episode instead surfaces smaller research and tools that haven't made his bigger weekly roundups. He asks viewers for feedback on this format and says he plans to make at least one video like this a month going forward because he finds digging up this underground research genuinely fun."
+        },
+        {
+          "start_seconds": 46,
+          "timestamp": "0:46",
+          "title": "Fish Audio Drama 3: AI Voice Acting",
+          "source": "creator",
+          "description": "Fish Audio's Drama 3 text-to-speech model lets users direct vocal performance in plain-English bracketed instructions rather than picking from emotion presets, and supports multiple speakers plus inline sound effects like laughs or breaths. Matt reports it scores highest for pronunciation on Artificial Analysis, beating ElevenLabs and Sesame, though it ranks lower on blind arena preference; it's a 36B-parameter open-weight model needing substantial VRAM, free for commercial use under $500k revenue, with API pricing rising from $10 to $50 per million characters after November 12th."
+        },
+        {
+          "start_seconds": 263,
+          "timestamp": "4:23",
+          "title": "OmniHuman 2.0: Talking Photos",
+          "source": "creator",
+          "description": "ByteDance's OmniHuman 2.0 turns a single photo plus an audio track into a talking or singing video, extending the prior 60-second cap to five continuous minutes and adding text-prompt control over camera moves. Matt says lip-sync quality is improved but still not fully convincing to him, pricing dropped from 12 to 7 cents per second (about $21 for a 5-minute clip), and the 720p demos raise real deepfake concerns since they require only one photo and an audio track."
+        },
+        {
+          "start_seconds": 408,
+          "timestamp": "6:48",
+          "title": "WorldCrafter: AI Worlds That Remember",
+          "source": "creator",
+          "description": "Tencent's WorldCrafter addresses world models' memory problem, where looking away and back can lose or change the scene, by indexing past views by camera position so it recalls what it saw there before. Matt highlights their proof via rebuilding a 3D point cloud from generated video and a demo where a horse leaving and re-entering frame stays consistent; it claims to beat rivals on Tencent's own 145-scene benchmark, with code and a Hugging Face demo available now."
+        },
+        {
+          "start_seconds": 536,
+          "timestamp": "8:56",
+          "title": "ByteDance's New World Model",
+          "source": "creator",
+          "description": "Bootlegged event footage shared by Theoretically Media shows an unnamed, unreleased ByteDance world model regenerating a new camera path through a scene from Stephen Chow's King of Comedy, and building a prompted world where a giant spoon leads through a portal into space. Matt stresses there's no public name, release date, or official footage yet, so this is one to watch rather than one anyone can use."
+        },
+        {
+          "start_seconds": 596,
+          "timestamp": "9:56",
+          "title": "OpenAI Dots (Sponsor)",
+          "source": "creator",
+          "description": "In this sponsored segment, Matt describes OpenAI's Dots as always-on AI agents with their own cloud computer that keep working on assigned responsibilities after a ChatGPT session ends; he uses his to automatically track YouTube analytics and generate weekly team reports with video ideas. He says each Dot is powered by GPT-6 Astra and learns his preferences to proactively suggest actions without being asked."
+        },
+        {
+          "start_seconds": 661,
+          "timestamp": "11:01",
+          "title": "Matrix Game 4.0: Game Engines Meet AI",
+          "source": "creator",
+          "description": "Skyworks' Matrix Game 4.0 splits world-simulation duties: an ordinary game engine tracks state and renders a cheap low-poly frame, while a roughly 5B-parameter video model repaints it to look finished, so off-screen objects aren't forgotten the way pure video-model world models tend to forget them. Matt notes each of the three demoed games has its own dedicated model, runs up to about 90 seconds at a low 480x864 resolution on a single RTX 5090 with no guaranteed frame rate, and ships under Apache 2.0 with weights and inference code but not training code."
+        },
+        {
+          "start_seconds": 857,
+          "timestamp": "14:17",
+          "title": "NVIDIA StreamRender-H3",
+          "source": "creator",
+          "description": "Nvidia's StreamRender-H3 uses a similar engine-plus-AI split but hands the model only a flat, textureless color-coded map rather than a 3D render, so swapping one reference image can completely restyle the same driving footage into different locations and times of day. Matt notes Nvidia had Claude Code build a faster video decoder in about three hours, but each rendering step takes 218 milliseconds on eight data-center GB200 GPUs and the model is trained only on racing so far, so it's nothing a home PC will run soon."
+        },
+        {
+          "start_seconds": 1003,
+          "timestamp": "16:43",
+          "title": "Odyssey: A Fruit Fly Brain in an AI World",
+          "source": "creator",
+          "description": "Odyssey connected a separately built simulation of a real fruit fly's brain, about 140,000 neurons and 50 million connections from a company called Eon Systems, to a camera moving through its Odyssey 3 world model, letting the fly fly through imagined scenes on its own. Matt flags that there's no paper or code explaining how the two are linked and that commenters noticed the fly never tries to land, but says anyone can separately try the interactive Odyssey 3 world model at experience.odyssey.systems."
+        },
+        {
+          "start_seconds": 1105,
+          "timestamp": "18:25",
+          "title": "3D Reconstruction, Animation & World Building",
+          "source": "creator",
+          "description": "Preferred Networks' Telescope converts sets of 56 to 256 photos into 3D meshes with noticeably more surface detail than standard Gaussian splatting, including tricky shiny and glass surfaces, by building the scene at low detail first and refining zoomed-in areas; code isn't released yet. Matt also covers Gaussianimate, which rigs soft clothing and animal bodies by adding floating physics nodes over a skeleton, and WorldGacha, a free non-AI browser tool that procedurally generates explorable cities and landscapes exportable as images or 3D files."
+        }
+      ],
+      "first_detected_at": "2026-11-13T06:00:20+02:00",
+      "summarized_at": "2026-11-13T06:10:36+02:00"
+    },
+    {
+      "id": "__gp2RfTMnk",
+      "title": "DIY LightSaber with light and sound effects",
+      "channel": "MadGyver",
+      "upload_date": "20171215",
+      "duration_seconds": 470,
+      "thumbnail": "https://i.ytimg.com/vi/__gp2RfTMnk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=__gp2RfTMnk",
+      "description": "I've made Arduino-based lightsaber with a bunch of effects! Turn on/off sounds, movie-like light effects, pulsations, HUM, SWING and HIT sounds. Also it has 6 colors and can make some flashes when you smash it! And a little bit more. Watch this video and read information in GyverSaber project page on GitHub.\n\n► GitHub (scheme and sketch)\nhttps://github.com/AlexGyver/EnglishProjects/tree/master/GyverSaber\n\n► Instructables Page\nhttps://www.instructables.com/id/Arduino-Based-Lightsaber-With-Light-and-Sound-Effe\n\n► CAPABILITIES:\n- Smooth turning on/off with lightsaber-like sound effect\n- Randomly pulsing color (you can turn it off)\n- Sounds:\n  - MODE 1: generated hum. Frequency depends on angle velocity of blade\n  - MODE 2: hum sound from SD card\n    - Slow swing - long hum sound (randomly from 4 sounds)\n    - Fast swing - short hum sound (randomly from 5 sounds)\n- Bright white flash when hitting\n- Play one of 16 hit sounds, when hit\n  - Weak hit - short sound\n  - Hard hit - long \"bzzzghghhdh\" sound\n- After power on blade shows current battery level from 0 to 100 percent\n- Battery safe mode:\n    - Battery is drain BEFORE TURNING ON: GyverSaber will not turn on, button LED will PULSE a couple of times\n    - Battery is drain AFTER TURNING ON: GyverSaber will be turned off automatically\n► CONTROL BUTTON:\n- HOLD - turn on / turn off GyverSaber\n- TRIPLE CLICK - change color (red - green - blue - yellow - pink - ice blue)\n- QUINARY CLICK - change sound mode (hum generation - hum playing)\n- Selected color and sound mode stored in EEPROM (non-volatile memory)\n\n► Components\n* Arduino NANO https://ali.ski/jmFH9_ https://ali.ski/5OBVTQ\n* Addressable LED strip. WS2811, 12V. Take **white PCB, IP30, 60 LEDs per meter**\nhttps://ali.ski/NMjk8 https://ali.ski/zW95D\n* Button with LED. **Take 5V version** https://ali.ski/Mwcxt\n* MPU6050 https://ali.ski/v5KZLL https://ali.ski/uXu5vi\n* Cheap MicroSD https://ali.ski/GxgI4D\n* MicroSD module mini https://ali.ski/JHIePz https://ali.ski/KsPKO\n* Or this https://ali.ski/WKZdDk\n* Batteries 18650 with protection https://ali.ski/XBqThJ https://ali.ski/lx5do https://ali.ski/3DZON9\n* DCDC Step Down https://ali.ski/Gu17D https://ali.ski/LGc7S https://ali.ski/AZ7FEd\n* Amplifier https://ali.ski/w3a6s https://ali.ski/UJQHAm https://ali.ski/9chyq\n* Speaker https://ali.ski/fkf3b5 https://ali.ski/f3bznw https://ali.ski/NGb4L\n* Resistors KIT https://ali.ski/DsRXU https://ali.ski/0QeVi\n* Power button https://ali.ski/ADn0zC\n* Charging port https://ali.ski/-02oW https://ali.ski/-gRAOg\n* CC CV charger for 3 cells https://ali.ski/uPeDvv https://ali.ski/QY79Lj https://ali.ski/xxHSRf\n* Prototype board https://ali.ski/XTO9n\n\n═════════════════════════════\n★ My website\nhttp://alexgyver.ru/\n★ Me on GutHub\nhttps://github.com/AlexGyver/EnglishProjects\n★ Me on Instructables\nhttp://www.instructables.com/member/Mad%20Gyver/",
+      "summary": "Concept and controls: MadGyver demonstrates GyverSaber, a fully custom Arduino lightsaber with light and sound effects, clarifying upfront that none of it is done in post (no After Effects) — it's real hardware and firmware driving the effects live, with a full build tutorial promised within about two weeks of this demo/test video.\n\nFeature set: Holding the control button for about half a second ignites the blade with a fading glow and hum; triple-clicking cycles through six RGB colors, and pressing the control button five times toggles between two sound modes — SD-card hum clips triggered by slow/fast swing detection, or a generated hum whose frequency responds live to the blade's swing speed via an onboard motion sensor. Hit detection distinguishes soft and hard impacts and plays a randomized SD-card hit sound for each.\n\nBuild details: The blade is light-diffusing polycarbonate tube wrapped with a doubled WS2811 addressable LED strip under tension on a metal wire with three epoxied nail supports; the hilt houses an Arduino Nano, an SD card module, an MPU6050 motion sensor, an audio amplifier, a DC-DC step-down converter, and three 18650 cells. He says the schematics, Arduino sketch, and full parts list with supplier links are posted on the GyverSaber GitHub and Instructables pages, and the firmware is fully open-source and customizable for different blade lengths.\n\nDemonstration: The remaining runtime is swing, hit, and color-change footage showing the finished build in action, before he signs off asking viewers to like, comment on what they think of the project, and subscribe for the full build tutorial.",
+      "why_valuable": "Helps a maker decide whether this specific open-source Arduino/LED/MPU6050 lightsaber design (parts list and firmware on GitHub) is worth replicating, and what hardware and skills — Arduino Nano, WS2811 strip, MPU6050, SD audio module, 18650 cells — it requires before starting the build.",
+      "key_takeaways": [
+        "0:51–2:56: Triple-clicking the control button cycles six RGB blade colors; pressing it five times toggles between SD-card hum playback (triggered by slow/fast swing detection) and a generated hum whose pitch tracks real-time swing speed via an onboard MPU6050.",
+        "2:44–3:06: Hit detection distinguishes soft and hard impacts, each triggering a randomized hit sound pulled from the SD card, plus a bright flash on hard hits.",
+        "3:09–4:00: The blade is a light-diffusing polycarbonate tube wrapped with a doubled WS2811 addressable LED strip under wire tension; the hilt runs an Arduino Nano with an SD card module, MPU6050 motion sensor, audio amplifier, and three 18650 cells.",
+        "4:00–4:33: Full schematics, the Arduino sketch, and a parts list with supplier links are published on the GyverSaber GitHub and Instructables pages, and the firmware is fully open-source and customizable for different blade lengths.",
+        "0:00: This is a test/demo video; the creator (MadGyver/AlexGyver) promises a complete step-by-step build tutorial within about two weeks on his channel."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "The creator introduces his handmade Arduino-based lightsaber that turns on and off with sound, swings, and registers hits, clarifying that none of the effects are added in After Effects and that a full build tutorial will follow this test/demo video within about two weeks. He also points out the hilt's physical layout: a bottom speaker for sound, a power button and charging port at the front, and a control button plus a white battery-level LED on the blade itself."
+        },
+        {
+          "start_seconds": 51,
+          "timestamp": "0:51",
+          "title": "Features",
+          "source": "creator",
+          "description": "Holding the control button for about half a second turns the blade on with a glowing fade-in and hum, while triple-clicking cycles through six RGB-based blade colors; pressing the control button five times switches between two hum modes, pre-recorded SD-card audio with slow and fast swing detection, or a generated hum whose pitch tracks the blade's angular velocity in real time. The saber also detects hits of two durations, soft and hard, and plays one of several randomized impact sounds from the SD card for each."
+        },
+        {
+          "start_seconds": 190,
+          "timestamp": "3:10",
+          "title": "Hardware",
+          "source": "creator",
+          "description": "The blade is light-diffusing polycarbonate tubing wrapped in a WS2811 addressable LED strip folded double around a tensioned metal wire with three nail-and-epoxy supports, while the hilt houses an Arduino Nano, an SD card module, an MPU6050 motion sensor, an audio amplifier, a DC-DC step-down converter, and three 18650 lithium cells. He notes the schematics, full parts list, and sketch are linked in the video description and on the GyverSaber GitHub project page."
+        },
+        {
+          "start_seconds": 243,
+          "timestamp": "4:03",
+          "title": "Software",
+          "source": "creator",
+          "description": "He states the saber runs fully open-source, customizable Arduino code so viewers can build their own version with different blade lengths and parameters rather than relying on any visual effects trickery. The remaining runtime is demonstration footage of swings, hits, and color changes to show the finished build in action before he signs off asking viewers to like, comment, and subscribe for the detailed build tutorial."
+        }
+      ],
+      "first_detected_at": "2026-11-13T06:00:20+02:00",
+      "summarized_at": "2026-11-13T06:10:36+02:00"
+    },
+    {
+      "id": "ep4psgAFOqc",
+      "title": "How I Get Claude To Edit My Videos (Step-By-Step)",
+      "channel": "Matt Wolfe",
+      "upload_date": "20261104",
+      "duration_seconds": 1965,
+      "thumbnail": "https://i.ytimg.com/vi/ep4psgAFOqc/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ep4psgAFOqc",
+      "description": "Try vidIQ for only $1 https://vidiq.com/mattwolfe/\n\nLearn how to edit videos with Claude AI, work with Premiere Pro, and turn your footage into short-form content.\n\nIn this guide, I walk through how to use Claude to help with video editing, from working with your existing footage to creating clips for Shorts and Reels. We’ll explore how Claude fits into an Adobe Premiere Pro workflow and where AI can help with the editing process.\n\nThe focus is on making useful content from your own videos, with creative control over the results. Less repetitive work, without filling your feed with AI slop.\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:\n\nLearn how I use claude video editing to automate my production workflow. This process generates scripts and handles B-roll selection.\n\nI demonstrate the full setup using Claude Opus 5.5, VidIQ, and 11 Labs to build a specialized system. By connecting these tools, I created a pipeline for claude ai video editing that turns raw A-roll into finished content. We explore how to configure these capabilities to refine audio and pacing without manual intervention.\n\nThis workflow is perfect for anyone looking to master claude code video editing by building an iterative feedback loop. I also cover troubleshooting API errors and how to use data-driven insights to improve future output. Whether you want to streamline your production or understand the potential for youtube automation, this guide breaks down the entire technical process.\n\nSubscribe for weekly AI workflow breakdowns and comment below if you want to see the specific Python scripts used in this setup.\n\n00:00 Editing Videos With Claude\n02:29 Researching Video Ideas With vidIQ\n04:11 From Script to AI Video Edit\n07:15 Setting Up Claude for Video Editing\n09:21 Connecting vidIQ to Claude\n10:55 Building Claude Skills for Your Channel\n17:38 MotionBricks Demo\n21:02 Refining the Edit and What’s Next",
+      "summary": "Why it's working now: Matt states AI can now fully edit his talking-head short-form videos — give it raw A-roll and a prompt, \"go edit this for me,\" and it returns a video he's happy with — citing concrete results across Instagram and YouTube Shorts: a near-million-view Instagram clip, a 137K-view Tesla short, and YouTube Shorts at 1.8 million, 174K and 159K views, all AI-edited.\n\nResearch-to-script pipeline: The sponsored vidIQ MCP server lets Claude search YouTube for existing coverage of a topic, pull competitor transcripts and performance data, and draft a scored script (8/10 in his Genie 4 example); Matt treats the script only as a loose talking-point guide because AI phrasing still reads as AI-generated, and he records unscripted, pause- and mistake-filled A-roll rather than reading it verbatim.\n\nThe editing pipeline: Claude's actual edit runs as a multi-step pipeline, 67 steps in his example, that loads a saved skill, cuts the A-roll using both transcript and waveform analysis to avoid cutting mid-word, pulls B-roll screenshots timestamped from referenced source videos or the open web via yt-dlp, generates music and sound effects through ElevenLabs, adds subtitles automatically, and can extend into Blender-built 3D objects and Hyperframes animated graphics — all rendered headlessly through FFmpeg with no Premiere or DaVinci involved.\n\nSetup from zero: Starting from a brand-new $20/month Claude Pro account with no saved memory, Matt creates a project with instructions naming the available tools (vidIQ, Blender, Hyperframes, FFmpeg, yt-dlp), then connects the vidIQ and Hyperframes MCPs to the account via browser OAuth, setting up the research and lightweight-animation tools the rest of the workflow depends on.\n\nBuilding reusable skills: Prompting Claude to use vidIQ to analyze a channel's best-performing shorts for script and visual patterns auto-generates two reusable skills, scripting and editing, and after about 15 minutes Claude returns concrete findings such as \"surprising tech\" hooks, a 50/50 B-roll split, magenta captions, and B-roll cuts every 1.8 to 3.6 seconds. Matt documents real setup snags along the way: ElevenLabs refusing to transcribe a video required updating the skill to use an alternate tool, and blocked site access required enabling \"allow all sites\" and whitelisting specific URLs in Claude's capabilities settings.\n\nProof run and iteration: Running the finished pipeline end-to-end on an Nvidia MotionBricks article, Claude researches via vidIQ, drafts and scores a script (4/5, about 50 seconds, estimated 15-30K views based on past shorts), and after Matt records and submits raw A-roll, produces a first edit that is usable but flawed — missing background music, odd vocal compression, one uncut mistake. One round of itemized feedback produces a clearly improved second version, which Matt presents as the normal iterate-and-update-the-skill loop rather than a one-shot result.\n\nVerdict and implications: Matt describes extending further with Blender-generated 3D objects layered with Hyperframes text, and a monthly outlier-review prompt where Claude uses vidIQ to analyze a channel's last 10 shorts and update the skills so future videos keep improving. His verdict: AI editing is genuinely good enough now for short talking-head content, though he still prefers manual editing for long-form, it will squeeze short-form editing jobs, and it lowers the barrier to entry enough that content flooding is a real concern; he notes the same workflow also runs on OpenAI Codex, not Claude exclusively.",
+      "why_valuable": "Helps decide whether to replace or supplement a short-form video editor with a Claude (or Codex) plus vidIQ/ElevenLabs/Hyperframes/FFmpeg pipeline, and gives the concrete project setup, prompts, and troubleshooting steps — ElevenLabs transcription failures, blocked site permissions — needed to build it.",
+      "key_takeaways": [
+        "0:00–2:28: Matt reports concrete results from AI-edited shorts: a near-million-view Instagram clip, a 137K-view Tesla short, and YouTube Shorts at 1.8M, 174K, and 159K views, all edited using this Claude pipeline.",
+        "2:29–4:10: The vidIQ MCP lets Claude pull competitor transcripts and performance data to draft a scored script (8/10 in his example); Matt uses AI scripts only as loose talking-point guides since the phrasing still reads as AI-generated.",
+        "4:11–7:14: Claude's edit pipeline (67 steps in his demo) cuts A-roll using both transcript and waveform analysis, pulls B-roll from referenced sources or the open web, generates music/SFX via ElevenLabs, and auto-adds subtitles — FFmpeg renders headlessly, with no Premiere or DaVinci needed.",
+        "9:21–10:54: Setting up requires connecting the vidIQ MCP (sponsored $1 first month) and the Hyperframes MCP to a Claude project via browser OAuth.",
+        "10:55–17:37: Having Claude analyze a channel's top shorts via vidIQ auto-generates reusable scripting and editing skills in about 15 minutes, surfacing patterns like a 50/50 B-roll split, magenta captions, and B-roll cuts every 1.8-3.6 seconds; real snags included ElevenLabs transcription failures and blocked site access, both fixed by updating the skill or Claude's capabilities settings.",
+        "17:38–21:01: On a live MotionBricks demo, Claude's first edit had real flaws — missing music, odd vocal compression, an uncut mistake; one round of specific feedback produced a clearly improved second version.",
+        "21:02–end: Matt recommends a monthly outlier-review prompt where Claude uses vidIQ to analyze a channel's last 10 shorts and update the skills, but cautions that AI editing will squeeze short-form editing jobs and lowers the barrier enough to flood feeds with content; the same approach also works with OpenAI Codex."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Editing Videos With Claude",
+          "source": "creator",
+          "description": "Matt opens by showing that AI editing of his talking-head short-form videos now works well enough that he posts at least one AI-edited short daily to Instagram and YouTube Shorts, citing specific results like a near-million-view Instagram short, a 137K-view Tesla short, and a YouTube Short that hit 1.8 million views. He frames the rest of the video as a full breakdown of what Claude can actually do for editing plus a step-by-step workflow setup, noting he fed Claude raw A-roll plus a prompt and got back a usable edited video."
+        },
+        {
+          "start_seconds": 149,
+          "timestamp": "2:29",
+          "title": "Researching Video Ideas With vidIQ",
+          "source": "creator",
+          "description": "Walking through an already-built example, Matt shows Claude firing up the vidIQ MCP server to search YouTube for existing coverage of Google's Genie 4, pulling transcripts from top-performing videos like Theoretically Media's, then using that research to draft a script scored against what historically performs well, an 8-out-of-10 projected score in this case. He notes he treats AI-written scripts only as talking-point guidelines rather than reading them verbatim, since AI phrasing still tends to sound AI-generated."
+        },
+        {
+          "start_seconds": 251,
+          "timestamp": "4:11",
+          "title": "From Script to AI Video Edit",
+          "source": "creator",
+          "description": "After recording unscripted, mistake-filled A-roll loosely based on the drafted script, Matt hands the raw footage plus a B-roll source link to Claude, which runs a 67-step pipeline: loading a saved editing skill, cutting the A-roll, pulling matching B-roll screenshots timestamped from the source video, generating background music and sound effects through ElevenLabs, and assembling a finished edit with auto-added subtitles. He calls this a quick teaser, noting his actual workflow has since advanced to include Blender-generated 3D objects and animated charts."
+        },
+        {
+          "start_seconds": 435,
+          "timestamp": "7:15",
+          "title": "Setting Up Claude for Video Editing",
+          "source": "creator",
+          "description": "To demonstrate the setup from zero, Matt purchases a brand-new $20/month Claude Pro account with no saved memory or skills, creates a project named short form video editor, and writes project instructions casting Claude as a world-class short-form editor empowered to use vidIQ, Blender, Hyperframes, FFmpeg, and yt-dlp. He explains that FFmpeg does the actual headless editing, so no Premiere or DaVinci is needed, while yt-dlp lets Claude pull reference video and audio from the web for B-roll."
+        },
+        {
+          "start_seconds": 561,
+          "timestamp": "9:21",
+          "title": "Connecting vidIQ to Claude",
+          "source": "creator",
+          "description": "Matt connects the vidIQ MCP, using its sponsored $1-first-month offer, and the Hyperframes MCP to the fresh Claude account via the Customize tab. Each connection requires a quick browser OAuth confirmation, and together they set up the two tools that will drive research and lightweight animation for the rest of the build."
+        },
+        {
+          "start_seconds": 655,
+          "timestamp": "10:55",
+          "title": "Building Claude Skills for Your Channel",
+          "source": "creator",
+          "description": "Matt prompts Claude to use vidIQ to analyze a reference channel's best-performing shorts for script and visual patterns, then generate two reusable skills, a scripting skill and an editing skill, and after about 15 minutes Claude returns concrete findings, such as physical-machine surprising-tech hooks, a 50/50 B-roll split, magenta captions, and B-roll changes every 1.8 to 3.6 seconds, plus the two drafted skills. He walks through fixing real setup snags along the way: ElevenLabs transcription failures requiring a skill update, and blocked site access requiring changes in Claude's capabilities and allowed-websites settings."
+        },
+        {
+          "start_seconds": 1058,
+          "timestamp": "17:38",
+          "title": "MotionBricks Demo",
+          "source": "creator",
+          "description": "Running the finished pipeline end-to-end on an Nvidia MotionBricks article, Claude researches via vidIQ, drafts and scores a script (4/5, about 50 seconds, estimated 15-30K views based on similar past shorts), and after Matt records and submits raw A-roll, produces a first edit that is usable but has issues: missing background music, odd vocal compression, and an uncut mistake. After one round of specific feedback, the revised edit fixes the audio, music, and animation and tightens the cuts, demonstrating the iterate-until-good workflow Matt recommends."
+        },
+        {
+          "start_seconds": 1262,
+          "timestamp": "21:02",
+          "title": "Refining the Edit and What's Next",
+          "source": "creator",
+          "description": "Matt describes extending the workflow further with Blender-generated 3D objects, like an animated GPU, layered with Hyperframes text, and a monthly outlier-review prompt where Claude uses vidIQ to analyze a channel's last 10 shorts, including views, comments, and retention curves, and update the editing and scripting skills so future videos keep improving. He closes with mixed feelings: AI editing is genuinely good enough now for short talking-head content, it will squeeze short-form editing jobs, and it lowers the barrier to entry enough that content flooding is a real concern, though the same workflow also works with OpenAI Codex, not just Claude."
+        }
+      ],
+      "first_detected_at": "2026-11-13T06:00:20+02:00",
+      "summarized_at": "2026-11-13T06:10:36+02:00"
+    },
+    {
+      "id": "C45VVcCV9OY",
+      "title": "Anthropic Just Revealed How to Prompt Fable 5.2",
+      "channel": "Ben AI",
+      "upload_date": "20261111",
+      "duration_seconds": 814,
+      "thumbnail": "https://i.ytimg.com/vi/C45VVcCV9OY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=C45VVcCV9OY",
+      "description": "🎁 Get the free Claude Fable 5.2 Toolkit (every prompt + the Effort Optimizer mod) → https://c.benai.co/ajrhp-free\n🚀 [Join my AI Accelerator] Get all my courses, resources & 1-on-1 help → https://c.benai.co/ajrhp-accelerator\n🧠 Free Second Brain app from this video → https://c.benai.co/ajrhp-baalda\n\nMORE FREE RESOURCES\n📘 Step-by-step playbooks to land your first AI client → https://c.benai.co/ajrhp-playbooks\n\nWORK WITH ME\n🤝 Book a free call with my [AI agency] → https://c.benai.co/ajrhp-agency\n💼 We're hiring. Join the team → https://c.benai.co/ajrhp-join-ben-ai\n\nCONNECT WITH ME\n👨‍💼 LinkedIn → https://linkedin.com/in/benvansprundel/\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n🔗 LINKS MENTIONED IN THIS VIDEO\n• Anthropic's Fable 5.2 prompting guide: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2\n• 15 simple tips to get the most out of Claude (video): https://www.youtube.com/watch?v=Q0ArTNWXeAU\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nFable 5.2 is Anthropic's most powerful model, but it costs twice as much as Opus 5.5 and it has to be prompted differently. I ran both models on three real jobs to show when Fable is worth the extra spend, then go through the eight rules from Anthropic's own prompting guide and my tests that get the most out of it.\n\n🎬 CHAPTERS\n00:00 – Intro\n00:50 – Fable vs Opus 5.5\n04:43 – Tip #1\n05:52 – Tip #2\n07:11 – Tip #3\n08:40 – Tip #4\n09:19 – Tip #5\n10:02 – Tip #6\n11:19 – Tip #7\n12:20 – Tip #8\n\n👋🏼 ABOUT ME\nI'm Ben. I built two $1M ARR AI businesses, and now I help professionals and business owners use AI better than 99% of people in their industry. And I (try to) show you exactly how.\n\nI believe anyone with domain expertise can use AI to transform the way they work and grow their business. You don't need to be technical.\n\nI make videos that cover:\n\n1. How to stop feeling overwhelmed by AI and actually start implementing\n2. AI automation tutorials you can follow along with, even if you're not technical\n3. The strategies and systems that actually move the needle with AI",
+      "summary": "Cost and performance tradeoff: Ben reports Fable 5.2 costs $8/$40 per million input/output tokens versus Opus 5.5's $4/$20, uses weekly plan limits roughly twice as fast (capped at half the weekly quota even on Max), yet scored almost twice as high as Opus 5.5 on one of Anthropic's real-work benchmarks and is up to 30% faster than the prior Fable 5.1. In his own matched tests across a marketing slide deck, a landing-page redesign, and a video-editing/motion-graphics task, Fable spent about $87 total versus $51 for Opus, roughly 70% more, and took longer, but produced visibly more finished, higher-effort output, closer to launch-ready landing pages and cleaner motion graphics, while Opus made more factual errors in the marketing numbers. Anthropic's own advice, per Ben, is that most users should default to Opus 5.5 as the daily driver and reserve Fable for the biggest, most open-ended, accuracy-critical jobs — research, financial modeling, security audits — citing Uber running a 10-12 hour audit and Oracle pulling business numbers from databases where other models erred too often.\n\nModel-switching and effort rules: Switching between Fable 5.2 and any other model mid-chat loses both Fable's accumulated reasoning and the roughly hour-long prompt cache, forcing a full-price reread; Ben's fix is to commit to a model before the first message and hand off via a fresh chat summary or sub-agent if needed. Effort level should default to high for Fable 5.2, since Anthropic says most of the model's gain shows up there, reserving low/medium for quick or everyday work and extra-high/max for rare, cost-irrelevant research; effort can be changed mid-chat without losing the cache, unlike a full model switch.\n\nPrompting structure for long-running tasks: Because Fable 5.2 is built for long, unattended end-to-end work rather than step-by-step guidance, Ben recommends a four-part prompt: the full task, the why and who it's for (Anthropic's research reportedly links this to better small-decision-making on long tasks), explicit rules and their exceptions, and a clear definition of done, since the model tends to over-deliver rather than under-deliver. Because it doesn't proactively report progress, adding a one-line update-me-every-few-tool-calls instruction roughly halved the longest silent stretch in Anthropic's tests, and because it can run verbose, appending Anthropic's write-for-an-intelligent-but-low-context-reader line or using a custom short-output style reduces density.\n\nReliability and verification: Fable 5.2 sometimes stops early and lists remaining work instead of finishing, especially at lower effort; Anthropic's published persistence instruction, keep working through ordinary errors rather than stopping, cut unfinished-session rates roughly in half at the cost of about 30% more tokens. Because the model follows instructions unusually literally, old defensive rules accumulated in memory or CLAUDE.md files can now backfire, which Ben addresses by running /doctor with an audit prompt against Anthropic's Fable 5.2 guide. Finally, since Fable 5.2 can't reveal its internal reasoning and sometimes states guesses as fact, Ben's verdict is to always ask for traceable evidence, exact sources and rows for each number, rather than an explanation, so errors surface immediately instead of hiding behind confident-sounding reasoning.",
+      "why_valuable": "Helps decide when the extra cost of Claude Fable 5.2 over Opus 5.5 is worth it for long open-ended, accuracy-critical jobs versus everyday work, and gives the specific prompting changes — effort defaults, four-part task framing, progress-update lines, persistence instructions, and evidence-based verification — needed to use it well instead of treating it like Opus.",
+      "key_takeaways": [
+        "0:50–4:42: Ben's matched tests (marketing deck, landing page, video editing) cost $87 total on Fable 5.2 vs $51 on Opus 5.5, about 70% more, and took longer, but Fable produced more finished output while Opus made more factual errors in the marketing numbers.",
+        "0:50–4:42: Anthropic recommends most users default to Opus 5.5 and reserve Fable 5.2 for the biggest open-ended, accuracy-critical jobs, citing Uber running a 10-12 hour audit and Oracle pulling business numbers from databases where other models erred too often.",
+        "4:43–5:51: Switching models mid-chat loses Fable's reasoning and its roughly 1-hour prompt cache, forcing a full-price reread; commit to a model before the first message.",
+        "5:52–7:10: Default Fable 5.2 to high effort, since Anthropic says most of its quality gain already appears there, and change effort mid-chat rather than switching models to avoid losing the cache.",
+        "8:40–9:18: Adding one line asking for a brief update every few tool calls roughly halved the longest stretch without progress updates in Anthropic's own tests.",
+        "10:02–11:18: Anthropic's persistence instruction, keep working through ordinary errors instead of stopping, cut sessions left unfinished by about half, at roughly 30% more token cost.",
+        "11:19–12:19: Because Fable 5.2 follows instructions very literally, old defensive rules in memory or CLAUDE.md can now slow it down; running /doctor with an audit against Anthropic's prompting guide surfaces outdated rules.",
+        "12:20–end: Ask Fable 5.2 for traceable evidence, the exact source and rows per number, rather than its reasoning, since it can't reveal internal thinking and Anthropic found it sometimes states guesses as fact."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "Ben introduces Claude Fable 5.2 as Anthropic's most powerful model yet, up to 30% faster than Fable 5.1 and scoring almost twice as high as Opus 5.5 on one of Anthropic's real-work tests, while costing double Opus 5.5 and requiring different prompting. He frames the video around eight prompting rules drawn from Anthropic's own guide plus his own testing, and offers all the prompts and a custom effort-optimizer mod for free via a linked resource."
+        },
+        {
+          "start_seconds": 50,
+          "timestamp": "0:50",
+          "title": "Fable vs Opus 5.5",
+          "source": "creator",
+          "description": "Ben breaks down pricing, $8/$40 per million input/output tokens for Fable 5.2 versus $4/$20 for Opus 5.5, and usage limits, where Fable can use only half the weekly cap even on Max and burns through limits faster, then reports his own side-by-side tests on three identical tasks: a marketing slide deck, a landing-page redesign, and video editing and motion graphics. Fable took longer and cost roughly 70% more across the three tasks, $87 versus $51 total, but produced more polished, effort-heavy output, closer to a finished landing page and cleaner motion graphics, while Opus made more factual mistakes in the marketing numbers."
+        },
+        {
+          "start_seconds": 283,
+          "timestamp": "4:43",
+          "title": "Tip #1",
+          "source": "creator",
+          "description": "Anthropic's guidance, per Ben, is to pick one model for an entire chat rather than switching between Fable 5.2 and Opus 5.5 mid-conversation, because switching loses Fable's accumulated reasoning, since the new model only sees messages and not the thinking behind them, and also loses the roughly hour-long prompt cache, forcing the new model to reread the whole chat at full price. His recommendation is to decide the model before the first message, and if you must switch, start a fresh chat with a short summary or hand off to a sub-agent instead."
+        },
+        {
+          "start_seconds": 352,
+          "timestamp": "5:52",
+          "title": "Tip #2",
+          "source": "creator",
+          "description": "Effort level controls how much Fable 5.2 thinks and how many tokens it burns; Ben cites Anthropic's guide that most of Fable's quality gain already shows up at high effort, with low for quick back-and-forth, medium for everyday chat, high for complex research and long unattended runs, and extra-high or max reserved for rare cases like scientific research where cost is irrelevant. He recommends defaulting to high for Fable 5.2 specifically, notes effort can be changed mid-chat without losing the cache unlike switching models, and mentions his own effort-optimizer Claude Code mod that auto-picks effort per prompt."
+        },
+        {
+          "start_seconds": 431,
+          "timestamp": "7:11",
+          "title": "Tip #3",
+          "source": "creator",
+          "description": "Because step-by-step prompting wastes Fable 5.2's design for long-running end-to-end tasks, Ben recommends a four-part prompting framework: describe the entire job, not just one step; explain the why and who it's for; and define explicit rules or guardrails including exceptions. Anthropic's research reportedly found that explaining the why measurably improves output on long tasks with many small decisions, and the fourth part, describing exactly what done looks like, matters because these models tend to do too much rather than too little."
+        },
+        {
+          "start_seconds": 520,
+          "timestamp": "8:40",
+          "title": "Tip #4",
+          "source": "creator",
+          "description": "Anthropic found Fable 5.2 doesn't proactively report progress during long-running tasks, so Ben recommends adding one line to a prompt or CLAUDE.md file asking for a brief update every few tool calls, which in Anthropic's own tests roughly halved the longest stretch without an update. He also notes the Claude desktop app lets you open a side chat to ask what the main session is doing without interrupting it."
+        },
+        {
+          "start_seconds": 559,
+          "timestamp": "9:19",
+          "title": "Tip #5",
+          "source": "creator",
+          "description": "Fable 5.2's outputs can run verbose and overly technical, so Ben suggests appending Anthropic's own write-for-an-intelligent-but-low-context-reader line to prompts, which reportedly made outputs noticeably less dense in Anthropic's own tests. Alternatively, he recommends setting a custom Claude output style, citing his team's own ELI5 style that forces short sentences and small words."
+        },
+        {
+          "start_seconds": 602,
+          "timestamp": "10:02",
+          "title": "Tip #6",
+          "source": "creator",
+          "description": "Anthropic's new guide warns that Fable 5.2 sometimes stops early and lists remaining work instead of finishing, especially at lower effort levels. To fix this, Anthropic published a persistence instruction for CLAUDE.md or system prompts telling the model to work through ordinary errors and timeouts rather than stopping, which in Anthropic's own tests cut sessions ending with unfinished work by about half at the cost of roughly 30% more tokens."
+        },
+        {
+          "start_seconds": 679,
+          "timestamp": "11:19",
+          "title": "Tip #7",
+          "source": "creator",
+          "description": "Because Fable 5.2 follows instructions far more literally than older models, Ben warns that legacy caution rules accumulated in CLAUDE.md or project memory over time, like never retry or keep answers under 20 words, can now make it unnecessarily slow or limited. His fix is to run /doctor and ask Claude to audit the setup against Anthropic's Fable 5.2 prompting guide link, which he says reliably surfaces outdated instructions, a check he suggests is worth running for Opus 5.5 setups too."
+        },
+        {
+          "start_seconds": 740,
+          "timestamp": "12:20",
+          "title": "Tip #8",
+          "source": "creator",
+          "description": "Rather than asking Fable 5.2 to explain your reasoning, which can get blocked since Anthropic hides its internal thinking and which Anthropic found sometimes produces confidently stated guesses, Ben recommends asking for concrete proof instead. For example, having it show the exact source and originating rows for every number in a report means any claim can be verified in seconds and guesses are caught immediately."
+        }
+      ],
+      "first_detected_at": "2026-11-13T06:00:20+02:00",
+      "summarized_at": "2026-11-13T06:10:36+02:00"
+    },
+    {
+      "id": "G3i2k6DdI0o",
+      "title": "Claude Fable 5.2: How I’d Make Money With It",
+      "channel": "Greg Isenberg",
+      "upload_date": "20261110",
+      "duration_seconds": 1175,
+      "thumbnail": "https://i.ytimg.com/vi/G3i2k6DdI0o/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=G3i2k6DdI0o",
+      "description": "In this solo episode, I share 12 prompts for Fable 5.2 across four areas: making money, productivity, video and content, and hardware. I run several of them live, including an audit of my design agency, a freelance job Fable 5.2 found on Upwork, a 100-niche research sweep with subagents, and a minimalist phone it designed from one prompt. I cover why Fable 5.2 can work 10 to 12 hours on its own, why it now admits when it lacks an answer, and how to sell results as a fixed-price service. If you want to make money, get more done, or build hardware with Fable 5.2, this episode gives you prompts you can copy today.\n\nTimestamps\n\n00:00 – Intro\n01:00 – Prompt 1: Audit Your Entire Business\n02:05 – Prompt 2: A Freelance Job End to End\n03:46 – Prompt 3: A Hundred Niches at Once\n04:33 – Prompt 4: Rebuild the Ancient Software\n05:25 – Prompt 5: Deal Checker for a Boring Business\n06:54 – Results from Prompts\n08:53 – Prompt 6: Grill Me\n09:33 – Prompt 7: Operate Legacy Apps\n10:07 – Prompt 8: Red Team My Plan\n11:11 – Video and Marketing Engineering\n12:39 – Prompt 9: Short-Form Editor\n13:05 – Prompt 10: Niche Explainer Videos\n13:24 – Prompt 11: One Episode, Every Format\n13:56 – Prompt 12: One person Hardware Company\n16:42 – A Minimalist Phone Idea\n17:41 – Design and Mockups\n18:31 – Closing Thoughts\n\nKey Points\n\n• Fable 5.2 works 10 to 12 hours on its own, so I hand it jobs that take a high-end consultant a week.\n• Freelance jobs and software rebuilds can now sell per output, where people used to bill by the hour.\n• Stronger subagents let me research 100 niches in one prompt and get back one ranked table.\n• Fable 5.2 now admits uncertainty, which opens up finance and legal work like checking a seller's P&L.\n• Videos at $1 to $5 each let me build faceless channels and own distribution.\n• One prompt gets me a parts list, circuit design, firmware, and a printable enclosure for a device.\n\nNumbered Section Summaries\n\n1. Long Jobs and Freelance Work \n\nMy audit prompt asks Fable 5.2 to review my website, pricing, onboarding, emails, and top five competitors, keep a running log, and rank the 10 changes most likely to make money, with evidence for each. For LCA, my design agency, it ranked every call with evidence and stayed to the point, as it has on every business we incubate. I asked it to find a freelance job it could do, and it picked an Upwork equity analyst report on TDMX at a $450 fixed price\n\n2. Subagents and Old Software \n\nFable 5.2 runs many subagents well, so one prompt spins up a subagent for each of 100 niches to find the top three complaints, what people pay today, and how hard each niche is to reach, then returns one ranked table and the five to build for. Another prompt hands it a spreadsheet a client has run their business on for 12 years and asks it to figure out what the sheet does, rebuild it as a simple web app\n\n3. A Model That Admits Uncertainty \n\nHallucination has held legal and finance teams back from AI, and Fable 5.2 now admits when it lacks an answer, the way a person would. My deal checker prompt hands it a seller's P&L and listing, asks it to flag everything that fails to add up, label each number verified, unverified, or suspicious, and write the 15 questions I should ask before making an offer.\n\n4. Productivity Prompts \n\nThe Grill Me prompt interviews me with 20 questions, one at a time, about how I make decisions in my business, then turns my answers into a skill file Fable 5.2 follows from then on. It operates a computer well, so it can open an old invoicing app, export last month's invoices, match them against the bank statement, list outstanding ones, and check with me before sending anything.\n\n5. Video, Content, and Distribution \n\nMy three prompts cut a raw four-minute talking-head video to its strongest 45 seconds with three hooks, build a 60-second animated niche explainer with five opening lines, and turn one transcript into a PDF playbook, five tweets in my voice, a newsletter, a two-minute free tool, and flags on any claim that needs a check.\n\n6. Vibe Manufacturing From One Prompt \n\nI recall Anthropic saying in a blog post that Fable 5.2 designed three working devices from a single prompt, so my hardware prompt asks for a one-job device for one niche with a priced parts list, circuit design, firmware, a printable enclosure, and the cost to make 100.\n\nThe #1 tool to find startup ideas/trends - https://www.ideabrowser.com\n\nLCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/\n\nFIND ME ON SOCIAL\nX/Twitter: https://twitter.com/gregisenberg\nInstagram: https://instagram.com/gregisenberg/\nLinkedIn: https://www.linkedin.com/in/gisenberg/",
+      "summary": "Long-running autonomy for money: Greg's audit prompt has Fable 5.2 review a business's website, pricing, onboarding, emails, and competitors, work unattended for up to 10-12 hours, and return a ranked list of the 10 highest-impact changes with evidence; live-tested on his own agency LCA, it returned a thorough, evidence-backed ranked list. He pairs this with a freelance-job prompt, citing Anthropic's reported rise in a real-freelance benchmark from 21% to 41%, that has the model find and complete an entire job itself (it picked a $450 fixed-price Upwork equity-analyst report) and report which parts need human review, arguing this supports selling AI output as a fixed-price service rather than billing hourly.\n\nScaling research and legacy systems: A sub-agent prompt spins up one agent per niche, framed as 100 niches, to surface each one's complaints, current pricing, and reachability into one ranked table, leveraging Fable 5.2's improved multi-agent coordination. Another prompt targets legacy business tooling, such as a 12-year-old spreadsheet, by having the model reverse-engineer its function, rebuild it as a simple web app, migrate the data, and write a staff guide, again framed as billable per finished output rather than hourly. Greg also highlights that Fable 5.2 now says I don't know rather than guessing, demonstrated with a deal-checker prompt that takes a seller's P&L and listing, flags inconsistencies, labels each number verified, unverified, or suspicious, and generates 15 due-diligence questions.\n\nProductivity and legacy-app control: A Grill Me prompt has the model interview Greg with 20 questions about his decision-making and convert the answers into a persistent skill file; separately, Fable 5.2 directly operates an old invoicing app with no API, exporting invoices, reconciling against a bank statement, and flagging unpaid ones, which Greg calls a huge win over prior models. A red-team-my-plan prompt that argues against his own vision deck like a skeptical investor produced criticism he says was sharper in places than feedback from a well-known human advisor.\n\nVideo, content and distribution economics: Greg argues that $1-5-per-video generation costs make faceless niche video channels a capital-light alternative to real estate for building audience and ad revenue, backed by prompts for a short-form editor that cuts raw footage to the strongest 45 seconds with captions, motion graphics, and three hook options, a 60-second animated niche explainer with five opening-line variants, and a one-episode-every-format prompt that turns a single transcript into a PDF playbook, tweets, a newsletter, and a free tool.\n\nVibe manufacturing from one prompt: Citing an Anthropic claim that Fable 5.2 designed three working devices from a single prompt, Greg live-demos a prompt asking for a complete device design, parts list with prices, circuit design, firmware, a 3D-printable enclosure, and a cost-to-manufacture-100 estimate. The model names and specs a minimalist Plain One 4G phone, a 45-key thumb keyboard, a 2.7-inch black-and-white memory LCD, six basic functions, and no app store, complete with power rails, pin maps, and modem, display, and keyboard wiring, which Greg says would previously have required thousands of dollars in professional design work; he closes calling Fable 5.2 the most thoughtful model available for controlling creative tools like Blender and DaVinci.",
+      "why_valuable": "Gives concrete, reusable prompts for deciding whether to monetize Fable 5.2 as fixed-price freelance or audit services, multi-niche research, legacy-system rebuilds, or faceless video content, and shows what a one-prompt hardware design, parts, circuit, firmware, enclosure, actually looks like before committing money to a real build.",
+      "key_takeaways": [
+        "1:00–2:04: The business-audit prompt (review website, pricing, onboarding, competitors; work until finished; rank the 10 highest-impact changes with evidence) ran unattended for up to 10-12 hours and, on Greg's agency LCA, returned a thorough evidence-backed ranked list.",
+        "2:05–3:45: Citing Anthropic's reported rise in a real-freelance benchmark from 21% to 41%, Greg had Fable 5.2 find and complete an actual $450 fixed-price Upwork job, an equity analyst report, itself, then flag which parts need human review.",
+        "5:25–6:53: Fable 5.2 now answers I don't know instead of guessing; Greg's deal-checker prompt uses this to flag inconsistencies in a seller's P&L, labeling each number verified, unverified, or suspicious and generating 15 due-diligence questions.",
+        "9:33–10:06: Fable 5.2 can directly operate legacy desktop apps with no API, exporting invoices from an old invoicing app, reconciling against a bank statement, and flagging unpaid ones before asking permission to send anything.",
+        "10:07–11:10: A red-team-my-plan prompt that argued against Greg's own vision deck like a skeptical investor produced criticism he says was in some ways sharper than feedback from a well-known human advisor.",
+        "11:11–12:38: Greg argues $1-5-per-video generation costs make faceless niche video channels a capital-light alternative to real estate for building audience and ad revenue.",
+        "13:56–17:40: Citing an Anthropic claim that Fable 5.2 designed three working devices from one prompt, Greg's live hardware prompt produced a specced minimalist 4G phone, Plain One, with a 45-key thumb keyboard, a 2.7-inch black-and-white memory LCD, no app store, a parts list, circuit design, firmware, and a printable enclosure."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "Greg frames the whole episode around Claude Fable 5.2 prompts across four areas, making money, productivity, video and content, and hardware, promising 12 prompts he says nobody else has covered yet. He offers to post all the prompts plus bonus ones in a pinned comment if the video hits 5,000 likes, then moves straight into live-testing them."
+        },
+        {
+          "start_seconds": 60,
+          "timestamp": "1:00",
+          "title": "Prompt 1: Audit Your Entire Business",
+          "source": "creator",
+          "description": "Greg's first prompt asks Fable 5.2 to audit a business's website, pricing, onboarding, emails, and top five competitors, work until genuinely finished while keeping a running log, then return a ranked list of the 10 most money-likely changes with evidence for each. He notes the model can run 10-12 hours unattended, enough to replace a week of a high-end consultant's time, and runs it live on his own design agency LCA."
+        },
+        {
+          "start_seconds": 125,
+          "timestamp": "2:05",
+          "title": "Prompt 2: A Freelance Job End to End",
+          "source": "creator",
+          "description": "Citing Anthropic's own blog claim that a real-freelance benchmark score rose from 21% to 41%, Greg argues this opens an opportunity to sell AI output as a fixed-price productized service rather than billing hourly. His prompt has Fable 5.2 find and complete an entire freelance job itself, then report which parts it's confident in, which a human should check, and what to charge as a fixed price, live-testing it by letting the model pick a real Upwork job."
+        },
+        {
+          "start_seconds": 226,
+          "timestamp": "3:46",
+          "title": "Prompt 3: A Hundred Niches at Once",
+          "source": "creator",
+          "description": "Because Fable 5.2 is much better at coordinating many sub-agents, Greg's prompt spins up a separate sub-agent per niche to find each one's top complaints, what people currently pay for solutions, and how hard the niche is to reach. It then consolidates everything into one ranked table with a shortlist of the five niches worth building for."
+        },
+        {
+          "start_seconds": 273,
+          "timestamp": "4:33",
+          "title": "Prompt 4: Rebuild the Ancient Software",
+          "source": "creator",
+          "description": "Greg targets the large amount of legacy business tooling, such as a client's 12-year-old spreadsheet, by having Fable 5.2 reverse-engineer what the tool actually does, rebuild it as a simple web app, migrate the data over, and write a one-page staff guide. He frames this, like the freelance prompt, as billable per finished output rather than by the hour."
+        },
+        {
+          "start_seconds": 325,
+          "timestamp": "5:25",
+          "title": "Prompt 5: Deal Checker for a Boring Business",
+          "source": "creator",
+          "description": "Greg highlights that Fable 5.2 now says I don't know instead of guessing, which he argues opens finance and legal use cases that were previously too hallucination-prone for AI. His prompt feeds the model a seller's P&L and listing and asks it to flag everything that doesn't add up, label each number verified, unverified, or suspicious, and generate 15 questions to ask before making an offer on a small business acquisition."
+        },
+        {
+          "start_seconds": 414,
+          "timestamp": "6:54",
+          "title": "Results from Prompts",
+          "source": "creator",
+          "description": "Checking back on the live runs, Greg shows the business-audit prompt returning a thorough, evidence-backed ranked list of changes for his design agency LCA. The freelance-job prompt, meanwhile, picked a $450 fixed-price Upwork job, an equity analyst report on TDMX, and had already begun producing partial work that he says would be easy to sell for hundreds of dollars."
+        },
+        {
+          "start_seconds": 533,
+          "timestamp": "8:53",
+          "title": "Prompt 6: Grill Me",
+          "source": "creator",
+          "description": "Greg's productivity prompt has Fable 5.2 interview him with 20 questions, one at a time, about how he makes business decisions, then convert the answers into a persistent skill file the model follows from then on. He calls this a prompt everyone should run to get noticeably better, more personalized output from the model."
+        },
+        {
+          "start_seconds": 573,
+          "timestamp": "9:33",
+          "title": "Prompt 7: Operate Legacy Apps",
+          "source": "creator",
+          "description": "Because Fable 5.2 is notably stronger at directly operating a computer, Greg's prompt has it open an old invoicing app with no API, export last month's invoices, reconcile them against a bank statement, list anything unpaid, and ask permission before sending anything. He calls this operating-a-computer capability a huge win compared to earlier models."
+        },
+        {
+          "start_seconds": 607,
+          "timestamp": "10:07",
+          "title": "Prompt 8: Red Team My Plan",
+          "source": "creator",
+          "description": "Greg's prompt feeds the model a quarterly plan or vision deck and asks it to argue against it like an investor looking to pass, then name the one thing that would change its mind. He reports that after feeding it his own LCA vision deck, Fable 5.2's critique was in some ways sharper than feedback he'd gotten from a well-known human advisor."
+        },
+        {
+          "start_seconds": 671,
+          "timestamp": "11:11",
+          "title": "Video and Marketing Engineering",
+          "source": "creator",
+          "description": "Greg pivots to marketing engineering, citing peers who produced a near-documentary-style 30-40 second video and a visually polished explainer from a single prompt. He argues the low per-video cost of $1-5 makes faceless niche YouTube and Instagram channels a capital-light alternative to real estate for building an audience and ad revenue."
+        },
+        {
+          "start_seconds": 759,
+          "timestamp": "12:39",
+          "title": "Prompt 9: Short-Form Editor",
+          "source": "creator",
+          "description": "Greg's editing prompt takes a raw multi-minute talking-head video, cuts silences and retakes, extracts the strongest roughly 45 seconds, adds captions and simple motion graphics, and exports vertical. It also returns three different hook options, which Greg pitches as a drop-in replacement for manual short-form editing."
+        },
+        {
+          "start_seconds": 785,
+          "timestamp": "13:05",
+          "title": "Prompt 10: Niche Explainer Videos",
+          "source": "creator",
+          "description": "His next prompt asks Fable 5.2 to write the script, build the animation, and encode and render a 60-second animated explainer for a given topic and niche. It then produces five variations with different opening lines so Greg can test which hook performs best."
+        },
+        {
+          "start_seconds": 804,
+          "timestamp": "13:24",
+          "title": "Prompt 11: One Episode, Every Format",
+          "source": "creator",
+          "description": "Greg's repurposing prompt takes one episode transcript and turns it into a PDF playbook, five tweets in his voice, a newsletter draft, and a free two-minute tool, while flagging any claim it couldn't verify. His framing is turning one piece of long-form content into many distributable formats at once."
+        },
+        {
+          "start_seconds": 836,
+          "timestamp": "13:56",
+          "title": "Prompt 12: One person Hardware Company",
+          "source": "creator",
+          "description": "Citing an Anthropic blog claim that Fable 5.2 designed three working devices from a single prompt, Greg's hardware prompt asks for a complete device design for one job in one niche: a parts list with prices, circuit design, firmware, and a 3D-printable enclosure. He also asks for the cost to manufacture 100 units, calling the whole approach vibe manufacturing."
+        },
+        {
+          "start_seconds": 1002,
+          "timestamp": "16:42",
+          "title": "A Minimalist Phone Idea",
+          "source": "creator",
+          "description": "Greg live-tests the hardware prompt by asking for a minimalist 4G phone with a physical thumb keyboard and no app store, aimed at people avoiding doomscrolling. Fable 5.2 names the device Plain One, specifying six functions (calls, texts, contacts, notes, clock, alarm), a 45-key thumb keyboard, and a 2.7-inch black-and-white sunlight-readable memory LCD screen."
+        },
+        {
+          "start_seconds": 1061,
+          "timestamp": "17:41",
+          "title": "Design and Mockups",
+          "source": "creator",
+          "description": "The generated Plain One document includes a full parts list, circuit design covering power rails, pin map, modem connections, display connectors, and keyboard matrix, and a sketch of what an Android-based operating system for the device could look like. Greg calls it absolutely bonkers for something he says would previously have cost thousands of dollars in professional design work."
+        },
+        {
+          "start_seconds": 1111,
+          "timestamp": "18:31",
+          "title": "Closing Thoughts",
+          "source": "creator",
+          "description": "Greg wraps up calling Fable 5.2 the most thoughtful model that exists today, meaning better tool control over software like Blender and DaVinci and better overall output quality, and invites viewers to share their own use cases in the comments. He frames this moment as a uniquely good time to be building with AI and signs off encouraging people to build whatever they want."
+        }
+      ],
+      "first_detected_at": "2026-11-13T06:00:20+02:00",
+      "summarized_at": "2026-11-13T06:10:36+02:00"
+    },
     {
       "id": "4d6OK7IGdBU",
       "title": "Copy These 5 Claude Mods, Never Hit a Token Limit Again",
