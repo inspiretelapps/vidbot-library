@@ -1,5 +1,171 @@
 [
   {
+    "id": "c1OvCXXqU9Q",
+    "title": "How I Build Websites in 2027 (70+ Sites, No WordPress)",
+    "channel": "Convology",
+    "upload_date": "20261112",
+    "duration_seconds": 1478,
+    "thumbnail": "https://i.ytimg.com/vi/c1OvCXXqU9Q/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=c1OvCXXqU9Q",
+    "description": "Check out the Convology+ Community: https://www.convology.com/convology-plus/\n\nThis is an update to a video I previously made while I was still early in my process of moving my business off of WordPress. In this updated video, I walk you through how in the second half of 2026 I've built 70+ websites (over 100+ if you count non-website based apps and projects) using Claude Code. None of this is theory. This is real business operations from a solopreneur building a scalable business model from what was once completely unscalable. \n\n🍿 WATCH NEXT\nHow I Build Websites (Playlist) - https://www.youtube.com/playlist?list=PLBaXOJSUGNBE\nBuild and Own Your Own Tech Stack Using AI (Playlist) - https://www.youtube.com/playlist?list=PLW5W2N3lk180\nHow I Use AI in My Business (Playlist) - https://www.youtube.com/playlist?list=PLQsW64WNZUWQ\n\nTimestamps:\n0:00 70+ websites this year\n0:43 What this video covers\n1:10 Why Claude Code\n1:49 Migrating WordPress sites to Astro\n4:32 Building a new website from scratch\n4:40 Why Astro\n5:38 Where to work: client project folders\n6:53 Incoming & Outgoing folders\n7:54 Building pages from references\n9:27 Claude's preview browser\n10:22 Context & session handoffs\n11:34 Sessions in the sidebar\n12:56 Picking up in a new session\n13:43 Optimizing before launch\n14:22 Pushing to GitHub\n15:29 Connecting your GitHub account\n16:32 Cloudflare hosting & domains\n17:36 Deploying with Cloudflare Workers\n18:47 Custom domain & www redirect\n19:22 Managing client websites\n\n---------------------------------------------------------------------------------------------------------\nLinks in this video and description are affiliate 🔗 links. I am compensated if you make a purchase through them—at no extra cost to you. If you found my video helpful, consider supporting the channel when you choose to purchase these tools. 🙏🏻 Learn about my Affiliate Bonuses Here: https://www.convology.com/affiliate-bonuses/\n---------------------------------------------------------------------------------------------------------",
+    "summary": "Scale claim and tool choice: Convology's host opens by stating he built more than 70 client websites in 2026 (over 100 counting non-website apps and projects), crediting the shift entirely to replacing a decade of WordPress-and-plugin management with Claude, specifically Claude Code, which he picked over ChatGPT Codex or Gemini-based tools because it gave him the best results and fit his existing workflow. He frames this as documented business operations rather than theory, though the productivity figures (\"100x\", the site count) are his own self-reported claims, not independently audited.\n\nMigration workflow and framework choice: For existing WordPress clients who like their current design, he has Claude pull all content directly from the live site without logging in, strip out plugin-specific markup, and rebuild it page-by-page in Astro, starting with the homepage to establish a shared design language; he reports this typically takes about two to three hours per average site. He justifies Astro over AI-builder defaults like Lovable by arguing those tools output single-page React/Vite apps that need workarounds for multiple clean HTML pages, whereas his Astro sites consistently score in the 90s on both desktop and mobile PageSpeed, which he credits to Claude's automatic pre-launch optimization.\n\nFolder discipline over prompt engineering: he works locally rather than in a cloud agent, organizing one root \"Client Projects\" folder with a subfolder per client, each containing \"incoming\" (anything a client sends, which Claude processes and optimizes automatically) and \"outgoing\" (deliverables for the client) folders, plus a references subfolder of named screenshots for design elements he wants copied. He explicitly argues against elaborate \"AI OS\" folder or prompt frameworks some creators promote, saying they force Claude to work less efficiently and burn through usage credits faster than just letting it manage its own internal file structure.\n\nManaging Claude Code's context window: he watches the usage/context meter and ends a session around 50% usage or after finishing a major milestone like the homepage, having Claude write handoff notes covering anything left in its scratch pad so a new session can resume cleanly; he says Claude itself first introduced him to the term \"session.\" The left sidebar's session list under each project folder lets him revisit earlier sessions he forgot to close properly, or borrow a design element Claude built for one client and reuse it directly for another.\n\nPublishing pipeline: once satisfied, he has Claude run the site through Lighthouse and handle schema cleanup, then push to a GitHub repo it can create and connect with a simple terminal authorization on Mac (GitHub Desktop on Windows). Hosting runs through Cloudflare, which he values as a free CDN-plus-host with built-in firewall and bot/DDoS protection and roughly $10/year flat-priced domains; he flags that Cloudflare's recent shift from Pages to Workers can initially confuse Claude since the change is recent, but telling Claude explicitly to look into Workers resolves it, after which attaching the live domain and a www-to-apex redirect under Settings > Domains completes the launch.\n\nOngoing client management and verdict: he contrasts his old routine of three-plus hours most mornings manually editing pages across WordPress builders like Elementor and Astra with now pointing Claude at an inbox or incoming folder of client edit requests and running several client sessions in parallel via the sidebar's \"+\" button. He walks through the commit-versus-push-to-GitHub-versus-merge-to-main distinction Claude explains when a change hasn't gone live, and his verdict is that this collapses his daily update workload to about 30 minutes of checking previews, pushing live, and sending Claude-drafted client emails — a claim that, like the rest of the video, is his personal account rather than a third-party benchmark, and is delivered alongside a pitch for his own paid Convology+ community and Claude \"skill.\"",
+    "why_valuable": "Helps a freelancer or small agency owner evaluating whether to replace WordPress-plus-page-builder workflows with an AI coding assistant decide on a concrete folder structure (incoming/outgoing per client), a stack (Astro, GitHub, Cloudflare Workers), and session-management habits (context limits, handoff notes) based on one solopreneur's self-reported numbers, while flagging that the productivity and PageSpeed figures are unverified self-reports tied to a paid community pitch.",
+    "key_takeaways": [
+      "0:00 — The host says he built more than 70 client websites in 2026 (over 100 counting non-website apps/projects), attributing the jump entirely to switching from WordPress to Claude Code.",
+      "1:11 — He states he chose Claude, specifically Claude Code, over ChatGPT Codex or Gemini-based tools because it gives him the best results and fits his existing workflow, not because he tested and ruled out the alternatives on camera.",
+      "1:51–4:08 — He reports that migrating an existing WordPress site to Astro while keeping its design typically takes about two to three hours per average site, per his own account.",
+      "5:04 — He claims his Astro-built sites consistently score in the 90s on both desktop and mobile PageSpeed, crediting Claude's automatic pre-launch optimization rather than manual tuning.",
+      "6:26 — He argues against elaborate \"AI OS\" folder/prompt frameworks some creators promote, saying they make Claude work less efficiently and burn through usage credits faster than minimal folder structuring.",
+      "10:35 — His stated rule of thumb is to end a Claude Code session around 50% context usage or after a milestone like finishing a homepage, then have Claude write handoff notes before starting a fresh session.",
+      "16:45 — He says he registers all his domains on Cloudflare for roughly $10/year with flat pricing, contrasting it with registrars that discount year one then raise prices later.",
+      "19:27–20:49 — He contrasts his old WordPress routine of three-plus hours most mornings with his current process of pointing Claude at an incoming-folder or inbox of client requests across parallel sessions, saying this now takes about 30 minutes."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "70+ websites this year",
+        "source": "creator",
+        "description": "He states he built over 70 websites this year and, as he moves into 2027, now has an entire business system letting him deliver client sites in days rather than the laborious process he used for roughly a decade on WordPress and its plugins. He credits this shift entirely to adopting Claude, generally AI, for building, managing, and customizing sites for himself, his companies, and his clients, framing what follows as documented operations rather than theory and setting up the scale and productivity claims the rest of the video builds on."
+      },
+      {
+        "start_seconds": 43,
+        "timestamp": "0:43",
+        "title": "What this video covers",
+        "source": "creator",
+        "description": "He previews that the video will walk through his end-to-end process: how he approaches website projects, manages and maintains both client and personal sites, and runs all of it as a tiny team or solo operator without feeling overwhelmed. He frames the video as an update to an earlier WordPress-migration video he made while still early in moving off that platform, noting the underlying fundamentals haven't changed even though his scale has grown substantially since then."
+      },
+      {
+        "start_seconds": 70,
+        "timestamp": "1:10",
+        "title": "Why Claude Code",
+        "source": "creator",
+        "description": "He names Claude, specifically Claude Code, as his AI tool of choice for all website work, acknowledging ChatGPT Codex and some Gemini-based models exist as alternatives he hasn't adopted for this purpose. His stated reason is that Claude Code gets him the best results and fits naturally into his existing workflow, which he treats as the baseline tool decision underpinning every subsequent step the video covers, from migration to deployment."
+      },
+      {
+        "start_seconds": 109,
+        "timestamp": "1:49",
+        "title": "Migrating WordPress sites to Astro",
+        "source": "creator",
+        "description": "For clients who like their existing WordPress design but want it easier to manage, he tells Claude to migrate the site while keeping the design and optionally elevating areas limited by old plugins or page builders; Claude extracts all content directly from the live site without logging in, strips platform-specific markup, and rebuilds pages one at a time, starting with the homepage to set a shared design language carried onto other pages. He reports this full rebuild and relaunch typically takes about two to three hours for an average website, and points viewers to a dedicated migration video and his Convology Plus community skill for the detailed walkthrough."
+      },
+      {
+        "start_seconds": 272,
+        "timestamp": "4:32",
+        "title": "Building a new website from scratch",
+        "source": "creator",
+        "description": "He pivots from the WordPress migration workflow to the alternative path of starting a project from scratch or fully redoing an existing site rather than preserving an old design. This short transition sets up the framework decision covered immediately afterward, since building from zero relies on the same Claude-driven process just without inherited WordPress content to extract and migrate first."
+      },
+      {
+        "start_seconds": 280,
+        "timestamp": "4:40",
+        "title": "Why Astro",
+        "source": "creator",
+        "description": "He explains he builds everything in Astro, which is free, requires no setup knowledge beyond telling an AI tool to use it, and which most AI tools default to recommending anyway. He contrasts it with popular AI builders such as Lovable that output single-page React/Vite apps requiring workarounds to render multiple clean HTML pages, and reports his own Astro sites consistently score in the 90s on both desktop and mobile PageSpeed, crediting Claude with handling that optimization automatically before launch."
+      },
+      {
+        "start_seconds": 338,
+        "timestamp": "5:38",
+        "title": "Where to work: client project folders",
+        "source": "creator",
+        "description": "He works locally with Claude Code rather than a cloud-hosted agent, treating his own machine as an informal backup since files eventually sync to GitHub and then Cloudflare. His folder structure is one root \"Client Projects\" directory with a dedicated subfolder per client, and he deliberately avoids micromanaging Claude's internal file structure or imposing elaborate \"AI OS\" prompting frameworks, arguing those approaches slow Claude down and burn through usage credits faster than necessary."
+      },
+      {
+        "start_seconds": 413,
+        "timestamp": "6:53",
+        "title": "Incoming & Outgoing folders",
+        "source": "creator",
+        "description": "Inside each client folder he adds two folders: \"incoming,\" where he dumps anything a client sends such as photos, copy, or change requests for Claude to act on, and \"outgoing,\" where Claude places deliverables meant for the client. He gives the concrete example of dropping new client photos into incoming and telling Claude to add them to a specific page, after which Claude optimizes the images for web and places them automatically, leaving him to simply confirm the incoming folder is empty."
+      },
+      {
+        "start_seconds": 474,
+        "timestamp": "7:54",
+        "title": "Building pages from references",
+        "source": "creator",
+        "description": "While building new pages he further organizes the incoming folder by page type, such as homepage, about, contact, and service pages, acknowledging this extra structure is mainly for his own benefit rather than something Claude strictly requires. He also shows how he reuses design inspiration from other websites by taking screenshots, naming the files descriptively, and dropping them into an \"examples I like\" subfolder so Claude knows exactly which element, such as a specific hero section or form, he wants replicated."
+      },
+      {
+        "start_seconds": 567,
+        "timestamp": "9:27",
+        "title": "Claude's preview browser",
+        "source": "creator",
+        "description": "He highlights Claude Code's built-in preview panel, accessed via a small globe icon in the upper right, which opens a localhost rendering of the site directly inside the tool so he can watch pages build live without any staging link. He describes alternating between letting Claude work uninterrupted on a whole section and interjecting mid-build with layout, sizing, or color feedback, treating the live preview as effectively free local staging on his own computer."
+      },
+      {
+        "start_seconds": 622,
+        "timestamp": "10:22",
+        "title": "Context & session handoffs",
+        "source": "creator",
+        "description": "He explains monitoring Claude Code's usage/context meter and ending a session around 50% usage, or after completing a major milestone like the homepage, rather than pushing a single conversation until Claude's performance degrades. Before closing a session he has Claude write handoff notes documenting anything left in its scratch pad so a fresh session can resume exactly where the last one stopped, a habit he says Claude itself first suggested to him."
+      },
+      {
+        "start_seconds": 694,
+        "timestamp": "11:34",
+        "title": "Sessions in the sidebar",
+        "source": "creator",
+        "description": "He describes Claude Code's left sidebar as organized by project folder, such as Client Projects, with every individual session listed underneath it, giving him a visible trail of past work even after a given session's context fills up. He uses this list to resume an old session if he forgot to request a handoff, or to pull a design element built for one client's session and reuse it directly inside a different client's project."
+      },
+      {
+        "start_seconds": 776,
+        "timestamp": "12:56",
+        "title": "Picking up in a new session",
+        "source": "creator",
+        "description": "When starting a fresh session after finishing a homepage, he either asks Claude directly what to tackle next based on its own notes and the migration process, or tells it which page he feels like working on, such as the contact page. He estimates this splits roughly 50/50 between letting Claude suggest the next step and directing it himself, treating this prompt-and-resume loop as the standard mechanism for completing each subsequent page."
+      },
+      {
+        "start_seconds": 823,
+        "timestamp": "13:43",
+        "title": "Optimizing before launch",
+        "source": "creator",
+        "description": "Once he is happy with how a site looks, he has Claude run it through tools like Lighthouse and handle schema markup and general cleanup before launch, treating this as a final technical pass rather than manual work he performs himself. He positions this step as the bridge between finishing design work and starting the GitHub-and-Cloudflare publishing process the video covers next."
+      },
+      {
+        "start_seconds": 862,
+        "timestamp": "14:22",
+        "title": "Pushing to GitHub",
+        "source": "creator",
+        "description": "He notes that partway through a build Claude will often flag that the project isn't yet connected to a GitHub repo and offer to create one, which he typically sets to private; from then on, at the end of any session he simply tells Claude to push changes to GitHub and log notes about that session. He frames GitHub as the intermediary storage layer between his local computer and Cloudflare, where the finished site is ultimately hosted."
+      },
+      {
+        "start_seconds": 929,
+        "timestamp": "15:29",
+        "title": "Connecting your GitHub account",
+        "source": "creator",
+        "description": "He walks through the non-technical setup: create a free GitHub account, then tell Claude you want to connect it, at which point Claude runs the necessary terminal authorization commands on Mac or walks Windows users through installing and logging into GitHub Desktop. He stresses Claude handles the actual connection and authorization automatically once the account exists, presenting the process as accessible to people with no prior GitHub or command-line experience."
+      },
+      {
+        "start_seconds": 992,
+        "timestamp": "16:32",
+        "title": "Cloudflare hosting & domains",
+        "source": "creator",
+        "description": "He explains that Cloudflare replaces traditional web hosting entirely, functioning as both a CDN and host with built-in firewall and bot/DDoS protection, and that he also registers all of his domains there because its pricing, around $10 a year, stays flat instead of jumping after an introductory discount like some competing registrars. Connecting a site is as simple as telling Claude the project should deploy to Cloudflare, a decision he says can be made as early as project kickoff alongside the Astro-and-GitHub stack choice."
+      },
+      {
+        "start_seconds": 1056,
+        "timestamp": "17:36",
+        "title": "Deploying with Cloudflare Workers",
+        "source": "creator",
+        "description": "He flags that Cloudflare recently shifted its primary deployment model from Pages toward Workers, a change recent enough that it can initially confuse Claude, but says explicitly telling Claude to look into Workers resolves the confusion. He then walks through the manual fallback path in Cloudflare's account dashboard: open the Compute section, create a new Worker, authorize and select the GitHub repo Claude created, and deploy using the defaults Claude's setup already provides."
+      },
+      {
+        "start_seconds": 1127,
+        "timestamp": "18:47",
+        "title": "Custom domain & www redirect",
+        "source": "creator",
+        "description": "After deployment lands on a Cloudflare dev URL, he attaches the live domain and its www subdomain under Settings > Domains, then adds a Cloudflare rules-template redirect that sends all www traffic to the root, or apex, domain. He treats this as the final step before a site goes fully live, after which any further edits deploy automatically without repeating the domain setup."
+      },
+      {
+        "start_seconds": 1162,
+        "timestamp": "19:22",
+        "title": "Managing client websites",
+        "source": "creator",
+        "description": "He contrasts his old routine of three-plus hours most mornings manually editing WordPress pages across builders like Elementor, Astra, and Spectra with his current approach of pointing Claude at his email inbox or an incoming folder full of client edit requests and running several client sessions in parallel using the sidebar's \"+\" button. He details the commit-versus-push-to-GitHub-versus-merge-to-main distinction Claude explains when a change hasn't gone live, and estimates this collapses his morning update routine to about 30 minutes of checking previews, pushing live, and sending Claude-drafted client emails."
+      }
+    ],
+    "first_detected_at": "2026-11-16T12:00:20+02:00",
+    "summarized_at": "2026-11-16T12:04:01+02:00"
+  },
+  {
     "id": "PptRrzYY61w",
     "title": "The NVIDIA Scandal Goes Deeper than You Think",
     "channel": "ColdFusion",
