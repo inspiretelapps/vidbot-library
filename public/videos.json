@@ -9,8 +9,170 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-15T12:09:11+02:00",
+  "updated_at": "2026-11-16T06:09:18+02:00",
   "videos": [
+    {
+      "id": "PptRrzYY61w",
+      "title": "The NVIDIA Scandal Goes Deeper than You Think",
+      "channel": "ColdFusion",
+      "upload_date": "20261115",
+      "duration_seconds": 1583,
+      "thumbnail": "https://i.ytimg.com/vi/PptRrzYY61w/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PptRrzYY61w",
+      "description": "Jensen Huang took Nvidia from a GPU company to one of the largest companies on the planet, only to have everything crash and burn overnight. What's been reported in the news may not be the full story. In this episode we explore the Nvidia saga from top to bottom.\n\nColdFusion Music: \n\nhttps://www.youtube.com/@ColdFusionmusic\nhttp://burnwater.bandcamp.com   \n\nColdFusion Socials: \n\nhttps://discord.gg/coldfusion\nhttps://facebook.com/ColdFusionTV \nhttps://twitter.com/ColdFusion_TV \nhttps://instagram.com/coldfusiontv\n\nCreated by: Dagogo Altraide\nProducers: Tawsif Akkas, Dagogo Altraide",
+      "summary": "Market shock and leadership exit: ColdFusion host Dagogo Altraide opens with Nvidia losing nearly half a trillion dollars in market value across four trading sessions as Jensen Huang resigned amid overlapping personal and corporate scandals. He frames the stakes by noting Nvidia designs roughly 90% of advanced AI chips, carries a valuation above $4 trillion, and props up a large share of recent US GDP growth and S&P 500 performance, so a change at the top ripples well beyond the company. A New York Times investigation on October 29 exposed Huang's relationship with a Chinese businesswoman the captions render inconsistently as Alice Hang/Alice Wong, and the Financial Times followed on November 6 with a leaked (and, per later reporting, rewritten) memo from Secretary of State Marco Rubio alleging she had been recruited by Chinese intelligence. Huang admitted infidelity in an internal staff email on November 8 and stepped down days later; the host stresses Beijing denies the espionage claim and Huang has not been charged with any crime.\n\nThe Mega Speed thread: the host traces Mega Speed International, the Singapore firm Alice once ran, from its 2015 incorporation as a Chinese video-game developer's offshoot through a 2023 rebrand that followed US chip export bans, after which it became an official Nvidia cloud partner and its Malaysian affiliate reportedly bought $4.8–8 billion in Nvidia chips between June 2024 and February 2026, financed in part by a subsidiary of its biggest customer, Alibaba. He explains the legal grey zone this exploited: chips housed in Malaysian or Indonesian data centers and rented out online technically never cross into China, a gap regulators have not closed in two years, and cites a pre-scandal Yahoo Finance estimate that about 20% ($40 billion) of Nvidia's compute revenue came from Southeast Asia. Singapore's Straits Times found Mega Speed's office largely empty, and Singapore police are investigating, but as of the video neither Singapore nor Nvidia has confirmed any chip-smuggling evidence.\n\nA second, separate scandal: the video layers in a November 12 Wall Street Journal report alleging Nvidia inflated GPU demand through circular financing, funding AI startups that then bought back Nvidia's own chips, with CFO Colette Kress reportedly warned Huang to slow down before he pushed back. It cites JPMorgan data showing Nvidia's share of future computing contracts with Frontier AI labs fell from 80% in 2025 to 39% in 2026, and an IMF estimate that roughly $1.4 trillion in circular AI financing could pose a systemic risk, while still noting Nvidia's own numbers (75% gross margin, $89 billion-plus in data-center revenue) look solid in isolation.\n\nPolitics, fallout and governance: Altraide reports Washington officials knew about the Hwang intelligence concerns well before the story broke, that Trump was briefed in late 2025 but took no action, and that Commerce Secretary Howard Lutnik allegedly stalled tougher export controls Trump had approved three times, while CNBC reported Lutnik's son's firms had financial ties to Nvidia. Once public, the scandal triggered FBI and DOJ investigations, bipartisan congressional hearings, uninsured shareholder lawsuits, and revelations of a second and third affair involving Nvidia subordinates, which the host argues is the real governance trigger (mirroring prior CEO removals at McDonald's, Intel and BP) rather than the affairs themselves. Nvidia's board held an emergency meeting on November 11 before Huang stepped down, with Kress becoming interim CEO without a prepared successor.\n\nWhy now, and the verdict: the host lays out three theories for the scandal's timing — that Alice was never a spy and simply exploited a profit opportunity, that the State Department deliberately leaked the memo to finally end Nvidia's China sales, or that Anthropic was behind the leak via lobbying ties and a reporter's past sourcing from co-founder Jack Clark — explicitly calling the Anthropic theory's evidence 'tenuous at best.' He closes by arguing Huang's flat, hub-and-spoke management style (dozens of direct reports, blocked succession planning) made Nvidia fast but fragile without him, predicting the company will likely slow down and become more committee-driven, comparable to Apple after Steve Jobs, without necessarily collapsing.",
+      "why_valuable": "Helps someone assessing Nvidia-linked exposure (as an investor, vendor, or AI-sector watcher) weigh the governance and leadership-concentration risk the video describes, plus the IMF's circular-financing warning, against the company's reported fundamentals — using the host's own caveats about which claims are proven versus speculative.",
+      "key_takeaways": [
+        "0:02 — ColdFusion reports Nvidia lost close to $450 billion in market value across four trading sessions after Jensen Huang's resignation, attributing the figure to market reaction rather than an independently audited loss.",
+        "4:40 — Huang admitted in an internal staff email that he 'was unfaithful' to his wife; the host notes Beijing denies the related espionage allegations and that Huang has not been charged with a crime.",
+        "7:12 — The video reports Mega Speed's Malaysian affiliate bought $4.8–8 billion in Nvidia chips between June 2024 and February 2026 while allegedly holding far less cash on hand, a gap ColdFusion calls suspicious but not proven illegal.",
+        "9:39 — ColdFusion cites a pre-scandal Yahoo Finance estimate that roughly 20% (about $40 billion) of Nvidia's compute revenue came from Southeast Asian GPU sales.",
+        "12:45 — JPMorgan data cited in the video shows Nvidia's share of future computing contracts with Frontier AI labs fell from 80% in 2025 to 39% in 2026, a decline the host says predates the scandal.",
+        "17:48 — An IMF estimate quoted in the video warns that about $1.4 trillion in circular AI financing deals, including Nvidia funding startups that buy its own chips, could pose a systemic risk.",
+        "21:54 — As the weakest of three theories, the host presents Anthropic's $40 million donation to lobbying group Public First Action and board ties to think tank CNAS as a possible connection to pressure for Huang's removal, calling the supporting evidence 'tenuous at best.'",
+        "23:43 — The host reports Huang blocked succession planning at Nvidia out of concern a named heir would divide the team, leaving CFO Colette Kress as interim CEO without a prepared successor."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Nvidia loses nearly half a trillion in market value as Jensen Huang exits",
+          "source": "generated",
+          "description": "ColdFusion opens with the scale of the shock: Nvidia shed close to half a trillion dollars in market value across four trading sessions as Jensen Huang resigned amid overlapping personal and corporate scandals. The host explains why a CEO's private life matters this time, since Nvidia designs roughly 90% of advanced AI chips, carries a valuation above $4 trillion, and underpins much of the S&P 500 and recent US GDP growth. He previews the three threads the episode covers: the Mega Speed chip-buying mystery, the governance failure behind Huang's exit, and competing theories for why the scandal surfaced when it did."
+        },
+        {
+          "start_seconds": 163,
+          "timestamp": "2:43",
+          "title": "A New York Times investigation exposes Jensen Huang's relationship with Alice Hwang",
+          "source": "generated",
+          "description": "The narrative moves to October 29, 2026, when a New York Times investigation revealed Huang's close relationship with a Chinese businesswoman the video's captions render inconsistently as Alice Hang and Alice Wong, with unverified chatter naming Anthropic co-founder Jack Clark as a possible source. ColdFusion recounts a 2024 Taipei party where she reportedly bragged she could summon Huang within minutes, which first drew industry suspicion about the nature of their meetings. On November 6, the Financial Times escalated matters by publishing a memo attributed to Secretary of State Marco Rubio warning that she had allegedly been recruited by China's Ministry of State Security to influence Huang and Nvidia's China chip sales."
+        },
+        {
+          "start_seconds": 280,
+          "timestamp": "4:40",
+          "title": "Huang admits the affair and resigns; the espionage claim gets walked back",
+          "source": "generated",
+          "description": "On November 8, Huang emailed Nvidia staff admitting he was unfaithful to his wife and apologizing, then stepped down days later. ColdFusion is careful to separate allegation from proven fact: Beijing called the espionage claims baseless, Huang has not been charged with any crime, and later reporting showed the Rubio memo leaked to the Financial Times was actually a rewritten CIA memo that CIA officials said was 'not entirely accurate and overtalked.' Other government figures also publicly declined to confirm she was a confirmed spy, even though the spy narrative had already taken hold in Washington and the media."
+        },
+        {
+          "start_seconds": 375,
+          "timestamp": "6:15",
+          "title": "Mega Speed's rapid rise into an official Nvidia cloud partner",
+          "source": "generated",
+          "description": "The episode traces Mega Speed International, the Singapore company Alice once ran, from its 2015 incorporation as a Chinese video-game developer's offshoot through a March 2023 rebrand that followed tightened 2022 US chip export bans. ColdFusion notes Alice led Mega Speed briefly before handing control to director Tan Tong Pang, severing its apparent ties to China on paper, and that the firm almost immediately became an official Nvidia cloud partner afterward. It sets up the next segment's financial figures by noting how quickly a barely year-old firm moved into the 'neocloud' business of buying Nvidia chips and renting out the compute."
+        },
+        {
+          "start_seconds": 496,
+          "timestamp": "8:16",
+          "title": "Export loopholes, Alibaba financing and Mega Speed's opacity",
+          "source": "generated",
+          "description": "ColdFusion cites Financial Times and Reuters reporting that a subsidiary of Alibaba, also Mega Speed's biggest customer, lent money to its Malaysian arm, while a Gamers Nexus investigation into Nvidia GPU black markets illustrates how middlemen move chips toward China despite export bans. It explains the legal grey zone Mega Speed exploited: chips sitting in Malaysian or Indonesian data centers and rented out over the internet technically never cross into China, a gap regulators have not closed in two years. The segment adds that US inspectors found sealed, unopened Nvidia boxes in a Malaysian warehouse in late 2024, prompting roughly a year of US intelligence wiretapping of Alice over the deals."
+        },
+        {
+          "start_seconds": 660,
+          "timestamp": "11:00",
+          "title": "Singapore's investigation, Alice Hwang's background, and a second financial scandal",
+          "source": "generated",
+          "description": "Singaporean police are investigating Mega Speed, but ColdFusion notes both Singapore authorities and Nvidia say no probe has yet found evidence of chip smuggling, and that Singapore confiscated Alice's passport from June 2025 to February 2026 over alleged false declarations before she reportedly relocated to Beijing. The video then pivots to a separate November 12 Wall Street Journal report alleging Nvidia inflated GPU demand through circular financing, funding AI startups that in turn bought Nvidia's own chips, with CFO Colette Kress reportedly warning Huang to slow down before being rebuffed. It adds JPMorgan data showing Nvidia's share of Frontier AI labs' future computing contracts fell from 80% in 2025 to 39% in 2026, undercutting the idea that Nvidia's dominance was secure regardless of the personal scandal."
+        },
+        {
+          "start_seconds": 776,
+          "timestamp": "12:56",
+          "title": "Washington knew early: political fallout and conflicting motives",
+          "source": "generated",
+          "description": "ColdFusion reports that senior Washington officials knew about the intelligence concerns well before the story broke publicly, that Trump was briefed in late 2025 but took no action, and that Rubio briefed Trump on the matter en route to China even as Trump brought Huang along on a trip that led to approved China chip sales. It cites Axios reporting that Trump approved tougher export controls on firms like Mega Speed on three separate occasions, only for Commerce Secretary Howard Lutnik to stall enforcement each time, while CNBC reported Lutnik's son's firms held financial ties to Nvidia. The segment also includes Anthropic's Dario Amodei comparing Nvidia's China chip sales to 'Boeing bragging' about enabling weapons technology, underscoring industry rivalry simmering beneath the political story."
+        },
+        {
+          "start_seconds": 898,
+          "timestamp": "14:58",
+          "title": "Stock crash, federal investigations and a second and third affair",
+          "source": "generated",
+          "description": "Once the story broke publicly, ColdFusion describes Nvidia's stock tanking, the FBI and Justice Department opening investigations, bipartisan congressional committees demanding answers, and shareholder lawsuits being filed against a company the host says carries no litigation insurance. It then reports the New York Times found two further affairs involving Nvidia staff subordinates, including footage allegedly showing Huang being affectionate with an employee at a San Jose hotel during a company conference, and that Huang hung up on a reporter who called him directly. The host stresses the governance violation of relationships with direct reports, not the affairs themselves, mirrors why McDonald's, Intel and BP previously removed their CEOs, closing with Nvidia's board holding an emergency night meeting on November 11 before Huang stepped down and Colette Kress became interim CEO."
+        },
+        {
+          "start_seconds": 1039,
+          "timestamp": "17:19",
+          "title": "Nvidia's fundamentals versus systemic circular-financing risk",
+          "source": "generated",
+          "description": "ColdFusion argues Nvidia's core business is not going anywhere, pointing to a 75% gross margin and more than $89 billion in data-center revenue, which it contrasts with shakier business models elsewhere in the AI industry. It nonetheless flags the IMF's warning that roughly $1.4 trillion in circular financing arrangements, including the Nvidia-funded startup purchases described earlier, could pose a systemic risk if investor confidence in AI returns weakens. This sets up the video's pivot into unresolved questions about why the scandal became public now, rather than treating Nvidia's core business as directly threatened by the personal affair itself."
+        },
+        {
+          "start_seconds": 1090,
+          "timestamp": "18:10",
+          "title": "Three competing theories for why the scandal broke now",
+          "source": "generated",
+          "description": "ColdFusion lays out three explanations for the scandal's timing, starting from the puzzle that China has publicly told Alibaba and ByteDance to avoid Nvidia chips even after Trump brought Huang to Beijing, which undercuts the idea Alice's motive was advancing Chinese chip access. The first theory is that she was never an intelligence asset and was simply exploiting the US-China regulatory grey zone for profit; the second is that the State Department deliberately leaked the memo to finally kill Nvidia's China sales after earlier lobbying efforts failed. The third, which the host labels weakly evidenced speculation from online sleuths, ties the leak to Anthropic via a reporter's past sourcing from co-founder Jack Clark, Anthropic's $40 million donation to lobbying group Public First Action, and board-level ties to think tank CNAS, while stressing Beijing denies any espionage occurred."
+        },
+        {
+          "start_seconds": 1385,
+          "timestamp": "23:05",
+          "title": "Why Nvidia's hub-and-spoke structure made Huang hard to replace",
+          "source": "generated",
+          "description": "ColdFusion closes by analyzing Nvidia's unusually flat management structure, in which dozens of executives reported directly to Huang rather than through traditional layers, letting problems reach him instantly but also meaning he reportedly blocked succession planning for fear that naming an heir would divide his team. It cites Bloomberg sourcing describing Huang as checked out in his final days, answering questions with 'whatever' and 'I don't care,' and a SemiAnalysis commentator describing how often the industry relied on emailing Huang personally just to get basic problems fixed. The host's verdict is that Nvidia will likely become slower and more committee-driven without him, drawing a comparison to Apple surviving Steve Jobs' departure, while leaving open whether losing its central hub exposes a weakness that was always a ticking time bomb."
+        }
+      ],
+      "first_detected_at": "2026-11-16T06:00:20+02:00",
+      "summarized_at": "2026-11-16T06:09:15+02:00"
+    },
+    {
+      "id": "ynEEbqKQSaY",
+      "title": "n8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot, Dots, & Muse",
+      "channel": "Chase AI",
+      "upload_date": "20261114",
+      "duration_seconds": 754,
+      "thumbnail": "https://i.ytimg.com/vi/ynEEbqKQSaY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ynEEbqKQSaY",
+      "description": "⚡Master Claude Code: https://chaseai.io/plus\n🔥FREE community: https://chaseai.io/community\n💻Get 1:1 help: https://chaseai.io\n\nn8n is back on the scene with their response to Claude Duet, ChatGPT Dots, and Grok's Grokbot in the form of Nod. But is Nod just a late to the game copycat, or is it a unique product that stands out in a sea of always on personal ai agents that all pretty much do the same thing?\n\nn8n's Nod is open source, free, and can be run 24/7 if hosted on a VPS or Mac Mini.\n\n⏱️ Timestamps\n0:00 n8n's Nod: another personal agent?\n1:01 Nod vs Dots: where the computer lives\n5:33 Install Nod\n6:42 Inside the Nod app\n11:06 Best use cases\n\nRESOURCES FROM THIS VIDEO:\n➡️ Master Claude Code: https://chaseai.io/plus\n➡️ My Website: https://www.chaseai.io\n➡️ n8n nod: https://go.n8n.io/8R7YE8\n\n#n8n",
+      "summary": "What Nod is and why it isn't just a copycat: Chase frames n8n's new Nod agent against the recent wave of 'always-on' personal AI agents, Claude Duet, ChatGPT Dots, and Grok's Grokbot, arguing Nod looks late to the market but actually differs on two fronts: it is fully open source, so he can fork and modify it from GitHub, and it is model-agnostic, running against a local LLM via Ollama for close to free, through OpenRouter, or against an existing ChatGPT subscription. He reports the n8n/Nod GitHub repo jumped from roughly 30 stars to over 1,000 within a day of release, built on top of about 1,200 prior commits, which he reads as evidence of real prior development rather than a rushed clone.\n\nArchitecture and the always-on tradeoff: the central technical difference Chase walks through is where the computer lives. Dots, Muse, Duet and Grokbot run their own always-on virtual machine in the cloud, so a user's own device can be off and the agent still works; Nod instead spins up its own Linux virtual machine and browser locally, so requests never leave the user's computer, which Chase frames as a genuine privacy advantage but also means Nod goes offline whenever the host machine is shut down unless it's run on a VPS or a Mac Mini left on permanently. He also details Nod's vault system for storing passwords and payment details: credentials are entered directly by the local Linux VM into websites and are never passed to the connected LLM, which he presents as a meaningful security distinction from cloud-only competitors.\n\nInstalling and using it: Chase demonstrates getting Nod running from nod.n8n.io, either by cloning the GitHub repo or downloading a Windows installer, then walks through onboarding questions (work, personal, or both) and model selection (OpenRouter, a self-hosted server, or an existing ChatGPT account). Inside the app, the main chat acts as an orchestrator that can turn plain-language requests into recurring scheduled automations (e.g., reviewing new email every morning), a one-click Apps tab connects services like Gmail, Supabase, QuickBooks and LinkedIn, a Usage tab gives a token-by-token cost breakdown, and the Vault holds saved credentials. He flags remote access as Nod's weakest point relative to competitors: there's no dedicated phone app, so reaching Nod away from the host computer means manually wiring up a Telegram bot via BotFather or a WhatsApp bot.\n\nVerdict: Chase's closing assessment is that Nod's actual day-to-day capabilities, email triage, drafted replies, and monitoring tasks like watching a flight price and alerting on changes, are functionally the same as Grokbot, Duet and Muse, so Nod's differentiator is not new functionality. He recommends it specifically to technically comfortable users who want full control over the codebase and freedom to pick any underlying model without being locked into one frontier lab's cloud infrastructure, while noting non-technical users who won't set up GitHub or a Telegram bot are better served by the more turnkey cloud competitors.",
+      "why_valuable": "Helps someone choosing a personal AI agent decide whether n8n's free, open-source, model-agnostic Nod is worth self-hosting instead of a cloud-based Dots, Duet, Muse or Grokbot, given it requires a computer (or VPS/Mac Mini) that stays on and manual Telegram/WhatsApp setup for remote access.",
+      "key_takeaways": [
+        "0:34 — Chase says Nod's core differentiator is being fully open source and model-agnostic, not new functionality beyond what Dots, Duet, Muse and Grokbot already do.",
+        "3:26 — He reports the n8n/Nod GitHub repo jumped from about 30 stars to over 1,000 within a day of release, on top of roughly 1,200 prior commits.",
+        "4:03 — Running Nod locally means it goes offline when the host computer is shut down, unlike Dots, Duet and Muse which stay on in the cloud; Chase calls this Nod's main practical disadvantage.",
+        "4:44 — Nod's vault stores passwords and payment details locally so its own Linux VM enters them into sites directly, without passing credentials to the connected LLM, per Chase's walkthrough.",
+        "9:08 — Remote access to Nod requires manually setting up a Telegram bot via BotFather or a WhatsApp bot; there is no dedicated mobile app, unlike competitors with native phone apps.",
+        "11:06 — Chase's verdict is that Nod's practical use cases (email triage, scheduled monitoring like flight-price alerts, website tasks needing saved credentials) match Grokbot and Duet; the value is open-source flexibility and free model choice, not new capability."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "n8n's Nod: another personal agent?",
+          "source": "creator",
+          "description": "Chase argues n8n's new Nod agent could be dismissed as a late copycat of Claude Duet, ChatGPT Dots, and Grok's Grokbot, but says its openness sets it apart. He highlights that Nod is fully open source and lets users plug in any model, from a private local LLM to Frontier models, which none of the closed competitors allow. That flexibility-and-privacy argument is the central claim he returns to throughout the video, rather than a promise that Nod does something functionally new on the surface."
+        },
+        {
+          "start_seconds": 61,
+          "timestamp": "1:01",
+          "title": "Nod vs Dots: where the computer lives",
+          "source": "creator",
+          "description": "Chase contrasts Nod's architecture with Dots, Muse, Grokbot and Duet: those agents run an always-on virtual machine in the cloud, while Nod spins up its own Linux VM and browser locally on the user's computer, so requests never leave the machine. He notes the GitHub repo jumped from about 30 stars to over 1,000 overnight on top of roughly 1,200 prior commits, and that users can run it free on Ollama, through OpenRouter, or against an existing ChatGPT subscription. He also explains Nod's vault enters stored passwords and card details directly via the local Linux VM, keeping credentials out of the LLM entirely, though the tradeoff is that Nod goes offline whenever the host computer is shut down."
+        },
+        {
+          "start_seconds": 333,
+          "timestamp": "5:33",
+          "title": "Install Nod",
+          "source": "creator",
+          "description": "Chase walks through installing Nod from nod.n8n.io, where users can grab the GitHub repo or download a Windows installer and run through its setup wizard. The onboarding asks whether Nod should help with work, personal life, or both, then lets the user pick a model by connecting an OpenAI/ChatGPT account, wiring in OpenRouter, or pointing it at a self-hosted server. Email access is granted through Composio rather than a native integration, and the setup finishes by dropping the user into Nod's main orchestrator chat, which already suggests starter tasks like summarizing email."
+        },
+        {
+          "start_seconds": 402,
+          "timestamp": "6:42",
+          "title": "Inside the Nod app",
+          "source": "creator",
+          "description": "Chase tours Nod's interface tab by tab: the main orchestrator chat where users request tasks and can turn a request like 'review new email every morning' into a recurring scheduled automation shown under the Schedules tab. The Apps tab offers one-click connectors to services such as Gmail, Supabase, QuickBooks and LinkedIn, while the Channels tab requires manually wiring up a Telegram bot via BotFather or a WhatsApp bot rather than offering a native phone app like Dots or Muse. He also shows the Usage tab's token-by-token cost breakdown and the Vault, where saved passwords and card details are entered by the local Linux VM instead of being passed to the LLM."
+        },
+        {
+          "start_seconds": 666,
+          "timestamp": "11:06",
+          "title": "Best use cases",
+          "source": "creator",
+          "description": "Chase concludes that Nod's day-to-day use cases, email triage, drafting replies, and monitoring tasks like tracking a flight price and alerting on changes, are essentially the same as Grokbot, Duet and Muse, since functional parity isn't Nod's differentiator. His verdict is that the real selling point remains openness: free choice of underlying model and full control over the open-source codebase. He recommends Nod specifically to technical users who want a personal AI agent without being locked into one frontier lab's cloud infrastructure, while flagging it as less turnkey for non-technical users who won't set up GitHub repos or Telegram bots themselves."
+        }
+      ],
+      "first_detected_at": "2026-11-16T06:00:20+02:00",
+      "summarized_at": "2026-11-16T06:09:15+02:00"
+    },
     {
       "id": "iKyhGcZZIQo",
       "title": "Windows 11 vs. macOS 27 (it's not even close)",
