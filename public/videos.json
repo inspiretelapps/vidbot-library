@@ -9,8 +9,125 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-16T12:04:04+02:00",
+  "updated_at": "2026-11-17T12:04:37+02:00",
   "videos": [
+    {
+      "id": "a6qv4LIMRGY",
+      "title": "REA vs CraftAnything: I Made Two AIs Clone the Same Software",
+      "channel": "Flyke",
+      "upload_date": "20261115",
+      "duration_seconds": 833,
+      "thumbnail": "https://i.ytimg.com/vi/a6qv4LIMRGY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a6qv4LIMRGY",
+      "description": "I gave REA (Reverse Engineer Anything) and Craft Anything the same job: copy the native macOS app Preview with AI. Which copy comes out better?\n\nREA plugs into Claude to take apps apart, and Craft Anything is an app made for copying software. I install REA, set up Craft Anything, send both the same prompt and test each copy on the seven features I asked for, from PDF viewing and text search to annotations and page rearranging. Spoiler: both crashed a lot. A day later, I had Anthropic's Fable 5.2 compare the two codebases to pick a winner. \n\nWhich one would you pick? Tell me in the comments.\n\n00:00 Intro\n00:54 Installation\n03:01 The Prompt\n03:57 First look at the results\n5:02 PDF and image viewing\n5:50 Thumbnails and navigation\n6:33 Zoom and rotation\n7:13 Text search\n7:56 Annotation tools\n8:44 Rearranging and deleting pages\n9:27 Opening, editing and saving files\n10:34 Fable 5.2 reviews both codebases\n\nThe prompt I used:\n\n\"Reverse engineer Apple's native macOS Preview application and recreate it as a fully functional macOS desktop app.\n\nInspect the original application to understand its UI, layout, toolbar, sidebar, menus, icons, typography, interactions and overall design.\n\nRecreate the interface as accurately as possible, including:\n\n- PDF and image viewing.\n- PDF page thumbnails and navigation.\n- Zoom and rotation controls.\n- Text search within PDFs.\n- Annotation tools (drawing, highlighting, text and shapes).\n- PDF page rearrangement and deletion.\n- Opening, editing and saving local files.\n\nUse native macOS technologies where appropriate. All visible controls must work. Do not build a generic PDF viewer or a web application.\n\nPrioritize visual fidelity and functional accuracy. Launch the finished application, test its features and fix any obvious issues.\n\nThe goal is to make the recreation as close to the original Apple Preview as possible.\"",
+      "summary": "Setup: The host (channel Flyke) pits two AI-driven \"clone this app\" tools against each other: REA (Reverse Engineer Anything), a free GitHub tool plugging into Claude via MCP that he says has drawn hundreds of thousands of stars, and Craft Anything, a dedicated cloning app from the Arc Craft team (the makers of a free, open-source Adobe Creative Suite clone). Both get the identical prompt to rebuild Apple's native macOS Preview app end-to-end, covering PDF/image viewing, thumbnails, zoom/rotation, search, annotation, and page rearrangement, with instructions to prioritize visual fidelity and native macOS technology. Build times were close: Craft Anything finished in 51 minutes, REA in 59, which the host treats as a tie given both built a complete desktop app from scratch.\n\nFeature walkthrough and reliability: Testing all seven requested features, he finds both clones visually resemble the real Preview app, though REA's toolbar and layout match the native UI more closely while Craft Anything's differs; both pass on PDF viewing, image opening (REA opens images in a separate window like the original app, Craft Anything uses a tab), thumbnail/table-of-contents navigation, text search (both correctly return 64 pages for a test search of \"revenue,\" matching the real app), and page drag-and-drop reordering and deletion. Annotation tools are the one area Craft Anything clearly wins, since REA initially won't let him select PDF text to annotate on some pages and its page-number indicator doesn't update while scrolling, whereas Craft Anything's underline, strikethrough, and comment tools work more consistently. Throughout, he repeatedly observes the same bug pattern in both apps: a feature crashes the first time it is used, then works normally once the file is reopened and retried.\n\nAI-judged code review: A day later, once Anthropic's newest model, which he refers to as \"Fable 5.2,\" becomes available, he has it inspect both codebases rather than just the running apps. Fable scores both at 5 out of 7 on the requested features, flags that Craft Anything is missing the native \"Liquid Glass\" toolbar look (a change Fable calls a one-line fix), and estimates both clones cover roughly three-quarters of Preview's full functionality while skipping extras the prompt never requested, such as drag-and-drop file import or photo info. On code-quality metrics Fable scores 0-10, REA wrote roughly 6,000 lines versus Craft Anything's approximately 5,200, but REA shipped almost no automated tests and carries compiler warnings, while Craft Anything scores better on test coverage (4) and gets a 6-out-of-10 crash-risk rating the host personally doubts given how often he watched both apps crash during testing. Fable also surfaced concrete functional bugs in both: a photo loses its crop after being flipped, and a drawn shape becomes unselectable once you click away from it.\n\nVerdict: Asked directly which codebase is worth continuing to iterate on, Fable recommends REA, and the host tallies the seven-feature comparison as three rounds won by REA, one by Craft Anything, and one tie. His own conclusion is softer: he considers the two tools roughly equivalent in output quality and reliability, but says he personally prefers REA's terminal-based, Claude-driven workflow over Craft Anything's heavier, standalone application experience. He frames the whole test as a single trial on one app and one prompt rather than a definitive ranking, and asks viewers to share their own experience with either tool.",
+      "why_valuable": "Helps a developer deciding between AI-driven app-cloning tools (REA via Claude/MCP vs. Craft Anything's standalone app) weigh real build-time, feature-completion, and crash-reliability differences from one documented head-to-head rebuild of Apple's Preview app, plus a second AI model's codebase-quality verdict (lines of code, test coverage, concrete bugs) — while flagging that this is a single-prompt, single-app trial, not a general ranking.",
+      "key_takeaways": [
+        "REA (Reverse Engineer Anything) is a free, MCP-based tool that plugs into Claude and has reportedly drawn hundreds of thousands of GitHub stars, which the host jokes must partly be bots; Craft Anything is a separate standalone app from the Arc Craft team, the makers behind a free open-source Adobe Creative Suite clone.",
+        "Given the identical prompt to rebuild Apple's Preview app, Craft Anything finished in 51 minutes and REA in 59 minutes — the host calls this functionally a tie for building a full desktop app.",
+        "Both clones correctly returned 64 pages for a test PDF search of the word \"revenue,\" matching the real native Preview app's result, though REA's result ordering matched the original more closely.",
+        "Annotation tools are the one area Craft Anything clearly wins: REA initially blocked text selection for annotating certain pages and its page counter didn't update while scrolling, while Craft Anything's underline/strikethrough/comment tools worked more consistently.",
+        "Across feature testing, both clones shared the same bug pattern: a feature such as rotation, page reordering, or annotation crashes the first time it's used, then works normally once the file is reopened and retried.",
+        "A day later, Anthropic's newest model (which the host calls \"Fable 5.2\") reviewed both codebases and scored each 5 out of 7 on the requested features, estimating both covered roughly three-quarters of Preview's full functionality.",
+        "Per Fable's code review, REA wrote about 6,000 lines of code versus Craft Anything's roughly 5,200, but REA shipped almost no automated tests and carried compiler warnings, while Craft Anything scored better on test coverage.",
+        "Fable's final verdict favored REA overall, three rounds to one with one tie across the seven requested features, though the host says he personally prefers REA's terminal-based workflow and treats the result as a single-trial comparison, not a general ranking."
+      ],
+      "quick_takeaways": [
+        "REA (Reverse Engineer Anything) is a free MCP tool for Claude; Craft Anything is a separate standalone cloning app from the Arc Craft team.",
+        "Build time for cloning Apple's Preview app: Craft Anything 51 minutes, REA 59 minutes, roughly equal.",
+        "Both clones crash on a feature's first use (rotation, reorder, annotation) but work fine after reopening and retrying.",
+        "Craft Anything's annotation tools were more consistently usable; REA initially blocked text selection on some pages.",
+        "Anthropic's newest model, which the host calls \"Fable 5.2,\" scored both codebases 5/7: REA wrote ~6,000 lines with few tests, Craft Anything ~5,200 lines with better test coverage; Fable's overall verdict favored REA 3-1-1."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Intro",
+          "source": "creator",
+          "description": "The host introduces REA (Reverse Engineer Anything), a GitHub tool with hundreds of thousands of stars that plugs into Claude to take apps apart and rebuild them, and contrasts it with Craft Anything, a dedicated software-cloning app from the Arc Craft team that previously open-sourced a free Adobe Creative Suite clone. He explains this follows an earlier video pitting Craft Anything against Claude on cloning a website, and this time both tools get the identical prompt to rebuild Apple's native Preview app, with Anthropic's newest model, which he calls Fable 5.2, later judging the two resulting codebases."
+        },
+        {
+          "start_seconds": 54,
+          "timestamp": "0:54",
+          "title": "Installation",
+          "source": "creator",
+          "description": "He installs REA by pasting the official repo's setup command directly into a Claude terminal session rather than downloading anything manually; three minutes later Claude reports REA connected as an MCP server, having also updated Homebrew and written its own skill file for the tool, though no analysis engine is configured yet. For Craft Anything he starts a new project, selects the Preview app, and picks its \"deep mode,\" which uses the Ghidra reverse-engineering tool, telling the app to find or install Ghidra itself; he notes he already walked through Craft Anything's setup in a prior video before restarting both sessions to run side by side."
+        },
+        {
+          "start_seconds": 181,
+          "timestamp": "3:01",
+          "title": "The Prompt",
+          "source": "creator",
+          "description": "He reads out the identical prompt given to both tools: reverse engineer Apple's native macOS Preview app and rebuild it with the same PDF/image viewing, thumbnails, zoom, search, annotation, and page-management features, prioritizing visual fidelity and functional accuracy. He pastes this directly into Craft Anything, while for Claude he simply instructs it to \"use REA to achieve this task,\" then launches both simultaneously, noting Craft Anything politely asks permission to capture a program window while Claude/REA immediately takes full control of the screen and starts building."
+        },
+        {
+          "start_seconds": 237,
+          "timestamp": "3:57",
+          "title": "First look at the results",
+          "source": "creator",
+          "description": "Both builds finish close together — Craft Anything in 51 minutes, REA in 59 — which he calls essentially equal given each tool built an entire desktop app from scratch. Visually inspecting the results, Craft Anything named its clone \"Peak\" and REA named its \"Preview REA\"; he notes Craft Anything's top toolbar uses a different design from both the native Preview app and REA's version, while REA's layout and UI more closely match the real app's appearance."
+        },
+        {
+          "start_seconds": 302,
+          "timestamp": "5:02",
+          "title": "PDF and image viewing",
+          "source": "creator",
+          "description": "PDF viewing and scrolling work smoothly in both clones, but opening a photo reveals a difference: Craft Anything opens images in a second tab inside the same window, while REA opens them in a separate window, matching how the real Preview app behaves. He notes some of native Preview's small image-editing tools seem to be missing or hidden in both clones, but counts the basic image-viewing requirement as passing for both, giving REA the edge for matching the original's window behavior more closely."
+        },
+        {
+          "start_seconds": 350,
+          "timestamp": "5:50",
+          "title": "Thumbnails and navigation",
+          "source": "creator",
+          "description": "Thumbnail navigation works in both apps once past an initial hiccup: clicking a thumbnail in one clone crashes it immediately, but reopening the file and retrying fixes it, while REA's thumbnail navigation works without a first-try crash. Both apps' table-of-contents panels cover the same underlying pages — verified by checking that item 10 points to the identical page in each — even though one shows every entry expanded by default and the other requires toggling each item individually."
+        },
+        {
+          "start_seconds": 393,
+          "timestamp": "6:33",
+          "title": "Zoom and rotation",
+          "source": "creator",
+          "description": "Testing page rotation, the REA clone crashes on the first attempt but works fine once the file is reopened, establishing a pattern he observes throughout the video: both clones tend to crash the first time a feature is used and then work on the second try. Testing multi-page rotation, Craft Anything's version crashes again and succeeds on retry, and he notes REA keeps rotated pages highlighted after selection so he doesn't have to manually reselect them, an extra convenience the Craft Anything version lacks."
+        },
+        {
+          "start_seconds": 433,
+          "timestamp": "7:13",
+          "title": "Text search",
+          "source": "creator",
+          "description": "He searches the word \"revenue\" inside a PDF on both clones and both correctly return 64 matching pages — he double-checks this against the real native Preview app, which also returns 64 pages for the same search — confirming the search feature itself works accurately. He notes one clone sorts results by search rank by default while letting him switch to page order, and concludes REA's search behavior more closely matches the native app's exact page ordering than Craft Anything's does."
+        },
+        {
+          "start_seconds": 476,
+          "timestamp": "7:56",
+          "title": "Annotation tools",
+          "source": "creator",
+          "description": "He finds that one clone's page-number indicator updates live while scrolling but REA's does not, and he initially cannot select text in REA to annotate it, though he later finds a page where text selection does work there. Underlining, commenting, and strikethrough all function in the Craft Anything version, aside from one comment text box he can't type directly into, and he concludes this round is clearly won by Craft Anything because its annotation tools are more consistently usable."
+        },
+        {
+          "start_seconds": 524,
+          "timestamp": "8:44",
+          "title": "Rearranging and deleting pages",
+          "source": "creator",
+          "description": "Drag-and-drop page reordering works on the first clone, which he calls \"pretty neat\" even though the page numbers don't immediately reflect the new order; testing the same action on REA, it crashes once then works smoothly on retry and does update page numbering correctly after a reorder. Deleting a page by pressing the delete key works cleanly on REA, while the Craft Anything version crashes on the first delete attempt and succeeds only after reopening and retrying, reinforcing the crash-then-work pattern he's observed with both tools."
+        },
+        {
+          "start_seconds": 567,
+          "timestamp": "9:27",
+          "title": "Opening, editing and saving files",
+          "source": "creator",
+          "description": "After accumulating many edits, one clone crashes again while he's testing whether changes save, and he discovers additional annotation icons — oval shapes, speech bubbles — on the other tool, with the speech-bubble tool crashing the app before working on a restart. Once restarted he can select text, add comments, and move them, though comments vanish if dragged onto a different page on both clones, and he mixes up a custom font-size control for a font-color option, underscoring that both clones' editing features work but remain inconsistent and occasionally confusingly labeled."
+        },
+        {
+          "start_seconds": 634,
+          "timestamp": "10:34",
+          "title": "Fable 5.2 reviews both codebases",
+          "source": "creator",
+          "description": "A day after Anthropic's newest model, which the host calls Fable 5.2, becomes available, he points it at both codebases and asks it to judge which better rebuilt Preview; Fable scores both tools 5 out of 7 on the originally requested features, noting Craft Anything is missing the native app's \"Liquid Glass\" toolbar styling (which Fable calls a one-line fix) and that both copied roughly three-quarters of Preview while skipping unrequested extras like drag-and-drop file import or photo info. On Fable's 0–10 scoring of code quality, REA wrote about 6,000 lines versus Craft Anything's roughly 5,200, but REA shipped almost no tests and carries compiler warnings versus Craft Anything's stronger test coverage (rated 4) and 6-out-of-10 crash-risk score, which the host personally disputes given how often he saw both apps crash; Fable also surfaced concrete bugs in both, including a crop that's lost after flipping a photo and an unselectable shape after clicking away from it. Asked directly which codebase to keep iterating on, Fable recommends REA, awarding it the overall win three rounds to one with one tie across the seven requested features, though the host's personal takeaway is that the two tools performed similarly overall and he prefers REA's terminal-driven workflow to Craft Anything's heavier standalone app."
+        }
+      ],
+      "first_detected_at": "2026-11-17T12:00:20+02:00",
+      "summarized_at": "2026-11-17T12:04:37+02:00"
+    },
     {
       "id": "c1OvCXXqU9Q",
       "title": "How I Build Websites in 2027 (70+ Sites, No WordPress)",
