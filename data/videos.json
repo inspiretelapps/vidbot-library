@@ -1,5 +1,260 @@
 [
   {
+    "id": "c5TSRxrDEK8",
+    "title": "you need to learn Git RIGHT NOW!!",
+    "channel": "NetworkChuck",
+    "upload_date": "20261118",
+    "duration_seconds": 2212,
+    "thumbnail": "https://i.ytimg.com/vi/c5TSRxrDEK8/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=c5TSRxrDEK8",
+    "description": "AI writes most of your pull requests now, but you're the one clicking merge. CodeRabbit reads every file first and shows you what it breaks. Start a free 14-day CodeRabbit trial with my link. No credit card required: https://ntck.co/coderabbit\n\n\nGit is the game save for your code. Before I walk into the scary room in Resident Evil, I save on the typewriter, and before your AI agent touches your code, you should too. So we build a tiny repo (a website and a zombie story), then save it, break it, restore it, and jump back in time with the DeLorean. Then we branch off the sacred timeline, put it on GitHub, hand issues to an AI agent, and commit a timeline crime on purpose so you know how to fix it. In this video you'll learn what Git actually is (and why it is not GitHub), how staging, commits, git log and git diff work, how to time travel with git checkout and git restore, how branches and merges work, and how issues, pull requests and merge conflicts let you work alongside an AI agent without wrecking main. Whether you have never typed git init or your agent has been doing it for you this whole time, by the end you'll know Git better than your AI.\n\n\nJoin the NetworkChuck Academy!: https://ntck.co/NCAcademy\n\n\nRESOURCES / LINKS:\n📖 Follow-along guide (every command, step by step): https://github.com/theNetworkChuck/git-guide\n🛠️ Download Git: https://git-scm.com/downloads\n🛠️ GitHub CLI: https://cli.github.com\n🌐 GitHub (free account): https://github.com\n\n\nGIT COMMANDS (the copy and paste list I promised):\nCheck if you have Git: git --version\nTell Git who you are: git config --global user.name \"Your Name\"\ngit config --global user.email \"you@example.com\"\nMake main the default branch: git config --global init.defaultBranch main\nTurn a folder into a repo: git init\nWhat's going on?: git status\nStage your changes: git add .\nSave the game: git commit -m \"my first commit\"\nSee your save points: git log --oneline\nSee what changed: git diff (and git diff --staged)\nUndo changes to a file: git restore zombiestory.md\nTime travel to an old commit: git checkout COMMIT_HASH\nBack to the present: git switch main\nMake a branch and jump in: git branch zombieattack, then git switch zombieattack\nMerge it into main: git switch main, then git merge zombieattack\nDelete a branch: git branch -d zombieattack\nLog in to GitHub: gh auth login\nMake a private repo on GitHub: gh repo create YOUR_REPO --private\nConnect your repo to GitHub: git remote add origin YOUR_REPO_URL.git\nPush it up: git push -u origin main\nDownload a repo: git clone YOUR_REPO_URL\nGrab the latest: git pull\nGrab a branch without merging: git fetch, then git branch -a\nCreate an issue: gh issue create --title \"Add a line\" --body \"Add one more line to zombiestory.md\"\nReview and merge a pull request: gh pr checkout 3, then gh pr merge 3 --merge\nKeep secrets off GitHub: put .env in a .gitignore file\n\n\nTIMESTAMPS:\n0:00 - Why you need Git right now (and why Git is not GitHub)\n1:15 - How CodeRabbit reviews your AI's pull requests (Sponsor)\n3:01 - Installing Git and building a tiny repo to track\n5:01 - git status, staging with git add, and your first commit\n7:28 - Seeing exactly what changed with git diff\n9:03 - Breaking your code and fixing it with git restore\n9:53 - Time travel to an old commit with git checkout\n11:07 - Git branches: an alternate timeline off the sacred timeline\n14:05 - Merging a branch back into main\n15:13 - Putting your repo on GitHub with the GitHub CLI\n17:19 - Keeping secrets off GitHub with .gitignore\n18:17 - git remote and git push: sending your code up\n19:34 - git clone and git pull: a second copy of your repo\n22:06 - Handing GitHub issues to an AI agent\n27:05 - Pull requests: merging your agent's branch the GitHub way\n31:01 - Committing a timeline crime (a merge conflict on purpose)\n32:37 - Fixing a merge conflict and merging the pull request\n34:36 - Undoing a merged pull request with revert\n35:34 - A prayer for you\n\n\n**Sponsored by CodeRabbit\n\n\nSUPPORT NETWORKCHUCK:\n☕☕ COFFEE and MERCH: https://ntck.co/coffee\n\nREADY TO LEARN??\n🔥🔥Join the NetworkChuck Academy!: https://ntck.co/NCAcademy\n📚 CCNA Course: https://ntck.co/ccna\n\n\nFOLLOW ME EVERYWHERE:\nInstagram: https://www.instagram.com/networkchuck/\nX/Twitter: https://x.com/networkchuck\nFacebook: https://www.facebook.com/NetworkChuck/\nJoin the Discord server: https://ntck.co/discord\n\n\nSome links in this description are affiliate links. If you buy through them, I may earn a small commission at no extra cost to you. #sponsored\n\n#git #github #networkchuck",
+    "summary": "NetworkChuck opens by distinguishing Git (the open-source version-control tool Linus Torvalds built, essentially a \"save game\" system) from GitHub (a separate hosting layer on top of it), arguing the real urgency is that AI agents are now writing most code, so developers need Git's save points as a safety net before letting an agent touch a project. In a sponsored segment he points CodeRabbit at a real pull request from his own app, GutenType — 43 files, about 4,000 lines of AI-written code — and shows it flags a denial-of-service vulnerability in a sign-in rate-limiting function and estimates the review would take a human about two hours, framing automated PR review as necessary when AI, not a human, is the one proposing changes.\n\nHe builds a small two-file repo (a website and a \"zombie story\") to demonstrate the core local loop end to end: git init, git status, git add, and git commit to create save points; git diff to inspect exact line-level changes before and after staging; git restore to instantly undo an uncommitted change; and git checkout <hash> to move HEAD back to any earlier commit like \"time travel,\" followed by git switch main to return. He then introduces branching — creating a zombieattack branch off \"the sacred timeline\" (main), committing divergent changes there, and merging it back with a fast-forward git merge — explicitly noting this is the same mechanism an AI agent uses whenever it commits new work into a shared project.\n\nMoving to GitHub, he installs the GitHub CLI, authenticates with gh auth login, and creates a private remote repo with gh repo create --private; he deliberately creates a .env file with a fake password first to show why a .gitignore file (listing .env) is essential before ever pushing, so secrets never leave the local machine. He then covers git remote add origin, git push -u origin main, and git clone/git pull by cloning his own repo into a second folder to simulate a second machine or collaborator, confirming the clone's history and later pulled commits match the original exactly.\n\nThe video's centerpiece is handing work to an AI agent: he creates GitHub issues with gh issue create (one to add a story line, one to translate the file into Japanese), then launches an AI coding agent inside the cloned folder and simply tells it to \"work issue number one... in a branch.\" The agent reads the issue via the shared GitHub CLI, creates its own branch, implements the fix, and — after creating a pull request — he shows two ways to review the agent's branch locally (git fetch/git switch, or the shortcut gh pr checkout) before merging PR #3 from the GitHub web UI and PR #4 straight from the terminal with gh pr merge --merge, establishing issue → branch → PR → merge as the standard way to safely incorporate an agent's changes.\n\nHe then deliberately engineers a merge conflict by having the agent edit index.html on a branch while he commits a separate, conflicting change to the same file directly on main, producing Git's \"not mergeable\" error when the agent's PR is merged — his term for this is a \"timeline crime.\" He resolves it inside GitHub's web conflict editor by choosing to accept both the agent's redesign and his own added line rather than discarding either, then demonstrates that even a bad merge already on main can be undone cleanly with GitHub's one-click \"Revert\" button, which opens a new pull request containing the exact inverse change.\n\nNetworkChuck's verdict is that understanding this full loop — stage, commit, diff, branch, push, issue, PR, conflict resolution, revert — makes Git \"fun\" once it clicks, and is now non-negotiable precisely because AI agents, not just humans, are generating the commits and PRs developers have to trust; he closes by teasing a \"Part 2\" where he moves off GitHub to a self-hosted Git service called Gitea, which he says is what he actually runs for his own organization.",
+    "why_valuable": "Helps someone who lets AI agents write code decide how to safely review, merge, and recover from AI-generated changes — giving a concrete, hands-on Git+GitHub workflow (staging, commits, branches, issues assigned to an agent, PR review, conflict resolution, revert) they can replicate immediately rather than a general coding demo.",
+    "key_takeaways": [
+      "At 1:47 he shows a real pull request with 43 files and about 4,000 lines of AI-written code; CodeRabbit (the sponsor) estimates the review would normally take a human about two hours and flags a denial-of-service vulnerability in a sign-in rate-limiting function.",
+      "At 11:07 he introduces branches and explicitly compares the fast-forward merge Git performs to what an AI coding agent is doing whenever it commits work back into a shared project.",
+      "At 22:06 he hands a GitHub issue directly to an AI coding agent, which reads it via the shared GitHub CLI, creates its own branch, implements the fix, and opens a pull request (#3) from the single instruction \"work issue number one... in a branch.\"",
+      "At 31:01 he deliberately creates a real merge conflict by having the agent edit the same file on a branch that he simultaneously edits directly on main, producing Git's \"not mergeable\" error when the agent's PR is merged.",
+      "He resolves that conflict inside GitHub's web editor around 33:54–34:10 by choosing to accept both the agent's and his own conflicting changes rather than discarding either side.",
+      "At 34:36 he shows GitHub's one-click \"Revert\" feature generating a brand-new pull request that cleanly undoes an already-merged change, as an alternative to manually editing history.",
+      "He states he personally uses Git to track more than code, including his own health and habits, positioning it as a general version-control habit rather than only a programming tool.",
+      "He teases a \"Part 2\" where he moves off GitHub entirely to a self-hosted Git service called Gitea, which he says is what he actually runs for his own organization."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Why you need Git right now (and why Git is not GitHub)",
+        "source": "creator",
+        "description": "NetworkChuck opens by clarifying that Git and GitHub are different things: Git is the open-source version-control technology, created by Linux's Linus Torvalds as essentially a \"game save\" system for code, while GitHub is a separate hosting service built on top of it. He frames the stakes using a Resident Evil analogy — saving on the typewriter before entering a scary room — arguing that developers need the same save points before letting an AI agent touch their code, since mistakes are otherwise unrecoverable. He promises that by the video's end viewers will understand Git well enough to catch an AI agent trying to pull something over on them, and notes he personally uses Git to track more than code, including his own health and habits."
+      },
+      {
+        "start_seconds": 75,
+        "timestamp": "1:15",
+        "title": "How CodeRabbit reviews your AI's pull requests (Sponsor)",
+        "source": "creator",
+        "description": "In this sponsored segment, NetworkChuck demonstrates CodeRabbit by pointing it at a real 43-file, roughly 4,000-line pull request that AI wrote for his in-progress app GutenType; CodeRabbit flags that the review would normally take a human about two hours and surfaces concrete problems, including a denial-of-service vulnerability in a sign-in rate-limiting function. He shows CodeRabbit's \"change stack\" reordering files logically instead of GitHub's alphabetical order, its \"security blast radius\" view mapping what a change could impact, and its agentic chat for discussing fixes, then points viewers to a 14-day free trial with no credit card required."
+      },
+      {
+        "start_seconds": 181,
+        "timestamp": "3:01",
+        "title": "Installing Git and building a tiny repo to track",
+        "source": "creator",
+        "description": "NetworkChuck checks that Git is installed with git --version, then creates a project folder called \"git-gud\" containing two tracked files — a basic index.html website and a zombiestory.md short story — to use as his running example for the rest of the video. Before tracking anything, he sets three global Git settings (username, email, and default branch name \"main\") so Git knows who is making changes, comparing it to signing your name, then runs git init to turn the folder into a Git repository, revealing the hidden .git folder where all of Git's internal history will live."
+      },
+      {
+        "start_seconds": 301,
+        "timestamp": "5:01",
+        "title": "git status, staging with git add, and your first commit",
+        "source": "creator",
+        "description": "He runs git status to show the two new files are \"untracked\" — only living in the local folder, not yet part of Git's history — then uses git add . to move them into the staging area, comparing it to putting a letter in an envelope and stamping it before mailing. Running git commit -m \"my first commit\" makes that first save point official, after which git log and git log --oneline reveal the commit's author, date, and message, giving him a simple view of the repository's save history so far."
+      },
+      {
+        "start_seconds": 448,
+        "timestamp": "7:28",
+        "title": "Seeing exactly what changed with git diff",
+        "source": "creator",
+        "description": "After editing both tracked files — removing a comma and adding new story and website text — NetworkChuck runs git diff to show exactly which lines changed, which text was removed, and which was added, before those edits are staged or committed. He stresses that at this point the changes only exist in the local files and aren't part of the official record yet, so he stages them with git add . (after which git diff --staged is needed to see the pending changes) and commits them with a new message, bringing the repo to two total commits."
+      },
+      {
+        "start_seconds": 543,
+        "timestamp": "9:03",
+        "title": "Breaking your code and fixing it with git restore",
+        "source": "creator",
+        "description": "To demonstrate recovery, NetworkChuck deliberately deletes a line from his zombie story file, intentionally \"breaking\" it, then shows that because the file was already committed, there's a save point to fall back on. Running git restore zombiestory.md instantly reverts the file to its last committed state, restoring the deleted line and proving Git's core promise: local, uncommitted damage to a tracked file can be undone in one command."
+      },
+      {
+        "start_seconds": 593,
+        "timestamp": "9:53",
+        "title": "Time travel to an old commit with git checkout",
+        "source": "creator",
+        "description": "After making and committing one more change (so the repo now has three save points), NetworkChuck pretends to regret it and uses git checkout with the first commit's hash to jump the repository's HEAD pointer backward in time, likening it to checking a specific book out of a library or stepping into a DeLorean. He confirms the files themselves revert to that earlier state and that later commits even become invisible from this point, then runs git switch main to return HEAD to the present commit on the main branch."
+      },
+      {
+        "start_seconds": 667,
+        "timestamp": "11:07",
+        "title": "Git branches: an alternate timeline off the sacred timeline",
+        "source": "creator",
+        "description": "NetworkChuck introduces branching by calling main the \"sacred timeline\" and creates a new branch called zombieattack with git branch zombieattack, then moves into it with git switch zombieattack, showing it starts as an exact copy of main's commit history. He adds a new story beat only on this branch, stages and commits it, and uses git log --oneline to show the branches diverging — zombieattack is ahead with a commit main doesn't have — then switches back and forth to prove each branch's file contents are fully isolated from the other."
+      },
+      {
+        "start_seconds": 845,
+        "timestamp": "14:05",
+        "title": "Merging a branch back into main",
+        "source": "creator",
+        "description": "With the branch's new story beat approved, NetworkChuck switches back to main and runs git merge zombieattack, which completes as a \"fast forward\" merge because main was behind the branch rather than having diverging changes of its own — he notes this is essentially what an AI coding agent is doing whenever it commits work back into a project. Once git log --oneline confirms both branches point to the same commit, he deletes the now-redundant branch with git branch -d zombieattack, leaving only main in the branch list."
+      },
+      {
+        "start_seconds": 913,
+        "timestamp": "15:13",
+        "title": "Putting your repo on GitHub with the GitHub CLI",
+        "source": "creator",
+        "description": "NetworkChuck explains that everything done so far has stayed purely local, and that GitHub (or alternatives like GitLab, Bitbucket, or self-hosted options such as Gitea, which he says he personally prefers) is needed to back up, share, or collaborate on code remotely. He installs the GitHub CLI, authenticates with gh auth login using HTTPS and a one-time browser code, then creates a new private remote repository with gh repo create GitGood --private, which instantly produces a live, empty repo page on GitHub ready to receive his local commits."
+      },
+      {
+        "start_seconds": 1039,
+        "timestamp": "17:19",
+        "title": "Keeping secrets off GitHub with .gitignore",
+        "source": "creator",
+        "description": "Before pushing anything to GitHub, NetworkChuck creates a .env file containing a fake password to illustrate the risk of accidentally publishing secrets, then creates a .gitignore file and adds .env to it. He explains that .gitignore tells Git which files to never track or upload, so sensitive files like credential stores stay purely local even after the rest of the repository is pushed to a public or shared remote."
+      },
+      {
+        "start_seconds": 1097,
+        "timestamp": "18:17",
+        "title": "git remote and git push: sending your code up",
+        "source": "creator",
+        "description": "He links the local repo to its new GitHub home with git remote add origin <url>, comparing the remote to a \"vacation home\" address for the code, then checks it with git remote -v. Running git push -u origin main uploads the commit history for the first time; when GitHub unexpectedly prompts for a username despite being logged in, he fixes it with gh auth setup-git and retries successfully, after which refreshing the GitHub web page shows the files and all four commits live online."
+      },
+      {
+        "start_seconds": 1174,
+        "timestamp": "19:34",
+        "title": "git clone and git pull: a second copy of your repo",
+        "source": "creator",
+        "description": "NetworkChuck clones the GitHub repository into a brand-new folder to simulate a second machine or collaborator, showing git clone pulls down the entire commit history intact. Back in the original local folder, he adds another story line, commits, and pushes it with a bare git push (now simplified since -u was set earlier), then switches to the cloned copy and runs git pull to fast-forward it with the new remote commit, pointing out how git log --oneline now shows both the local main branch and the origin/main remote-tracking reference lined up on the same commit."
+      },
+      {
+        "start_seconds": 1326,
+        "timestamp": "22:06",
+        "title": "Handing GitHub issues to an AI agent",
+        "source": "creator",
+        "description": "NetworkChuck clarifies that issues are a GitHub feature, not a Git one, then creates two to-do items with gh issue create --title ... --body ... — one to add a line to the zombie story, one to translate it into Japanese — hitting a minor error when he tries to apply a nonexistent label. Simulating a second computer by moving into the cloned \"testgitgood\" folder, he launches an AI coding agent and tells it to \"work issue number one\" on a new branch; the agent reads the issue via the shared GitHub CLI, creates its own branch, edits the zombie story file to resolve it, and, after a reminder, pushes that branch to GitHub."
+      },
+      {
+        "start_seconds": 1625,
+        "timestamp": "27:05",
+        "title": "Pull requests: merging your agent's branch the GitHub way",
+        "source": "creator",
+        "description": "Back on his main computer, NetworkChuck uses git fetch and git branch -a to see the agent's new remote branch without merging it, switches into it to confirm the edit looks good, then has the agent run gh pr create, producing pull request #3 that references and will close issue #1. He shows two ways to bring a PR's code locally — git fetch plus git switch, or the shortcut gh pr checkout 3 — merges that PR from the GitHub web interface, then repeats the cycle for the second issue (Japanese translation), merging PR #4 straight from the terminal with gh pr merge --merge."
+      },
+      {
+        "start_seconds": 1861,
+        "timestamp": "31:01",
+        "title": "Committing a timeline crime (a merge conflict on purpose)",
+        "source": "creator",
+        "description": "To show what goes wrong when two people edit the same file at once, NetworkChuck has his AI agent open a new branch and PR #6 that edits index.html to resolve issue #5, while simultaneously committing a separate, conflicting edit to the exact same file directly on main. When he tries gh pr merge 6 --merge, Git refuses with a \"not mergeable\" error — his half-joking term for it is a \"timeline crime\" — because main has moved on with changes the agent's branch never saw, creating a genuine conflict that can't be resolved automatically."
+      },
+      {
+        "start_seconds": 1957,
+        "timestamp": "32:37",
+        "title": "Fixing a merge conflict and merging the pull request",
+        "source": "creator",
+        "description": "NetworkChuck resolves the live Git conflict directly on GitHub's pull request page, using its built-in editor to choose between keeping his own \"current\" main-branch change, the agent's \"incoming\" branch change, or both; he first tries accepting only the current change, then redoes it accepting both so the merged file keeps the agent's website redesign and his own added line. After marking the conflict resolved and committing the merge, the pull request completes successfully, and pulling the change down locally shows the sacred timeline now contains both sets of edits with no outstanding conflicts."
+      },
+      {
+        "start_seconds": 2076,
+        "timestamp": "34:36",
+        "title": "Undoing a merged pull request with revert",
+        "source": "creator",
+        "description": "Posing the question of what to do if a merged change turns out to be bad, NetworkChuck shows GitHub's one-click \"Revert\" button on an already-merged pull request, which automatically generates a brand-new pull request containing the exact inverse of that merge's changes. Merging this revert PR removes the previous commit's content cleanly — he pulls the change locally and confirms the website file has returned to its earlier, simpler state — demonstrating that even mistakes merged into the main branch can be undone without manually editing history."
+      },
+      {
+        "start_seconds": 2134,
+        "timestamp": "35:34",
+        "title": "A prayer for you",
+        "source": "creator",
+        "description": "NetworkChuck closes with his signature outro prayer for the viewer, thanking them for watching and asking for blessing over their life and family. He frames learning Git as a foundational IT skill that matters even in the age of AI shortcuts, expressing hope that mastering it leads to better code, better projects, and new job or business opportunities, while also offering encouragement to anyone dealing with hurt or discouragement."
+      }
+    ],
+    "first_detected_at": "2026-11-19T12:00:52+02:00",
+    "summarized_at": "2026-11-19T12:09:45+02:00"
+  },
+  {
+    "id": "1fBhLGhQQ2M",
+    "title": "Claude Fable 5.2 Just Solved Video Editing... (WILD RESULTS)",
+    "channel": "Brock Mesarich | AI for Non Techies",
+    "upload_date": "20261113",
+    "duration_seconds": 957,
+    "thumbnail": "https://i.ytimg.com/vi/1fBhLGhQQ2M/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1fBhLGhQQ2M",
+    "description": "🎥 Generate Videos with Claude Code: https://higgsfield.ai/s/HrNMrs\n\nClaude Fable 5.2 is incredible at video editing. I have been editing all of my YouTube videos with Claude Opus 5.5 for the last month. In this video I show you the setup behind it so you can steal it from me. By the end you'll know exactly how to start having Claude Fable 5.2 to edit your own videos.\n\n0:00 - Claude edits all of my videos now\n0:43 - The proof\n1:36 - How Claude edits a video\n3:59 - How a short gets edited\n5:50 - Changing my background with Higgsfield\n9:50 - How a long video gets edited\n12:05 - B-roll from one sentence\n13:37 - One editor, different styles\n14:30 - Opus 5.5 vs Fable 5.2\n15:13 - How to get started",
+    "summary": "Brock Mesarich states he has used Claude Opus 5.5 to edit every video on his channel — shorts and long-form alike — for the past month and a half, and that the newer Claude Fable 5.2 model takes this further: he films himself, hands over the raw file, and gets back a finished video with cuts, animations, B-roll, and cleaned audio already done, all without opening a timeline-based editing app. He opens with direct before/after proof rather than process, showing a raw short full of flubbed takes next to Claude's finished edit (bad takes removed, custom animations built, real pages/logos pulled in, captions and audio cleanup applied) and the same comparison for a long-form video, while admitting upfront the system wasn't \"one-shotted\" — it took a month and a half of iterative feedback to reach this quality.\n\nThe whole workflow runs inside Claude Code from one project folder, where Claude literally writes the edit as code and renders that code into video — there's no editing-app timeline at all. Two custom slash commands drive it, /short for vertical videos and /edit for long-form, each backed by a written instruction file, alongside a separate \"playbook\" file that started almost empty and has grown for a month and a half as every piece of corrective feedback Brock gives becomes a permanently saved rule, so Claude never repeats a corrected mistake.\n\nFor shorts, Claude listens to the full raw recording to find every flub, delivers a rough cut with no visuals first for approval, then fact-checks claims against the live web page being discussed, pulls real screenshots and logos, builds a hook animation and per-line animations, adds captions/music/cover art, and schedules the finished post to Instagram, TikTok, and X automatically. Separately, Brock shows that several of his \"studio\" shots were never filmed — they're AI-generated variants of one real recording, produced via a roughly one-minute Higgsfield MCP integration; he has Claude generate 11 different background and outfit swaps of a single clip through Higgsfield's Kling model, each costing 12 credits and taking 4–8 minutes, while being clear this only works on clips a few seconds long, not a full video.\n\nLong-form editing adds two checkpoints — reviewing the raw cut alongside a condensed one-minute reel of just the spliced-together takes to confirm they sound natural, and, for any brand-new visual style, sampling three or four short clips before committing to a full 15-minute build after Claude visits the subject's website to source matching colors. The finished long-form output shows numbers appearing on screen exactly as spoken, benchmark tables highlighting the specific cell under discussion, and a 4K review page with clickable timeline blocks for pinning timestamped comments or using quick-note buttons (\"cut this word,\" \"wrong visual,\" \"hold this longer\") that Claude reads and fixes in the next pass; for shots that don't exist as real footage, Brock pastes a single script sentence into Claude and gets back a generated 5-second clip, with Claude inventing the visual concept itself (in one case a sticky-note metaphor) without being told how to represent the line.\n\nClaude doesn't apply one fixed editing look — it automatically selects a cream-background/pixel-character/Anthropic-orange style for Claude-related videos versus an established Grokbot style for Grokbot videos, and when Fable 5.2 itself launched, Claude unprompted visited Anthropic's release page and built an entirely new black-background, planet-on-the-horizon style matching the launch visuals. Brock's stated reason for moving from Opus 5.5 to Fable 5.2, despite Opus already producing good edits, is reliability: Opus made real mistakes like chopping off words or leaving bad takes in, and while Fable costs roughly double Opus on paper, his own testing on comparable editing tasks put the real-world premium at only about 14% — a trade-off he judges worthwhile. His closing benchmark is that a 15-minute long-form video takes Claude roughly 45 minutes to edit end-to-end inside this system.",
+    "why_valuable": "Gives a content creator or small team a concrete, reproducible blueprint — specific slash commands, a growing feedback \"playbook,\" Higgsfield MCP integration, and actual cost/time benchmarks (45 minutes to edit a 15-minute video, Fable 5.2 about 14% pricier than Opus 5.5 in practice) — for deciding whether to move video editing into Claude Code instead of a traditional editor, and what trade-offs (clip-length limits on AI-generated shots, per-generation costs, need for iterative feedback) to expect.",
+    "key_takeaways": [
+      "Each Higgsfield background or outfit swap costs 12 credits and takes 4–8 minutes, and only works on clips a few seconds long, not full videos (5:50–9:50).",
+      "A 15-minute long-form video takes roughly 45 minutes for Claude to edit end-to-end inside Claude Code (15:13).",
+      "Fable 5.2 is priced at roughly double Opus 5.5's rate on paper, but in Brock's own testing on comparable editing tasks it worked out to only about 14% more expensive (14:30).",
+      "Claude generated 11 different background/outfit variants of a single clip using Higgsfield's Kling video model (5:50–9:50).",
+      "The entire editing system runs inside Claude Code via two custom slash commands, /short and /edit, each backed by a written skill file plus an accumulating \"playbook\" of permanent feedback rules (1:36–3:59).",
+      "For long-form videos, Claude samples 3–4 short clips in any brand-new visual style before committing to a full build, and separately sends a condensed one-minute reel of just the spliced-together takes so Brock can verify cuts sound natural (9:50–12:05).",
+      "When Fable 5.2 itself launched, Claude autonomously visited Anthropic's release page and built a new black-background, planet-on-the-horizon editing style matching the launch visuals, without being asked (13:37–14:30).",
+      "Claude can generate 5-second B-roll shots from a single sentence of script with no further direction — in one case inventing a sticky-note visual metaphor on its own — as a fallback when real footage isn't available (12:05–13:37)."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Claude edits all of my videos now",
+        "source": "creator",
+        "description": "Brock opens by explaining that for the past month and a half he has used Claude Opus 5.5 to edit every video on his channel, both short-form and long-form, and that the newer Claude Fable 5.2 model has pushed this workflow even further. He describes the end result in concrete terms: he films himself talking, hands over the raw video file, and gets back a finished video with cuts, animations, B-roll, and cleaned-up audio already done, without ever opening a traditional editing app."
+      },
+      {
+        "start_seconds": 43,
+        "timestamp": "0:43",
+        "title": "The proof",
+        "source": "creator",
+        "description": "Before explaining any process, Brock shows side-by-side proof: a raw short-form recording full of flubbed takes next to Claude's finished edit, where the bad takes are cut, custom animations are built, real web pages and logos are pulled in, captions are added, and the audio is cleaned up. He repeats the comparison for a long-form video and admits the system wasn't \"one-shotted\" — it took a month and a half of back-and-forth feedback to dial in the editing style to this level."
+      },
+      {
+        "start_seconds": 96,
+        "timestamp": "1:36",
+        "title": "How Claude edits a video",
+        "source": "creator",
+        "description": "Brock explains the mechanics: everything runs inside Claude Code from one project folder on his computer, where Claude writes the video edit as code and then renders that code into the final video file — there's no timeline-based editing app involved at all. He built two custom slash commands, /short and /edit, each backed by a written instruction file, plus a separate \"playbook\" file that started nearly empty and has grown over a month and a half as every piece of feedback he gives becomes a permanently saved rule, so Claude never needs the same correction twice."
+      },
+      {
+        "start_seconds": 239,
+        "timestamp": "3:59",
+        "title": "How a short gets edited",
+        "source": "creator",
+        "description": "Brock runs a real short through the system live: Claude first writes its own checklist, listens to the full raw recording to find every flub, and delivers a rough cut with no visuals so the sequencing can be approved before any time-consuming animation work begins. Once the cut is approved, Claude visits the live web page the short discusses to fact-check his claims and pull real screenshots and logos, builds a hook animation plus per-line animations with the real page's exact words highlighted as he speaks them, adds captions, music, and a cover image, exports the finished file, and even schedules the post to Instagram, TikTok, and X without Brock lifting a finger."
+      },
+      {
+        "start_seconds": 350,
+        "timestamp": "5:50",
+        "title": "Changing my background with Higgsfield",
+        "source": "creator",
+        "description": "Brock reveals that several of his on-camera studio shots were never filmed — they were all generated from one real recording of him in his apartment, using a tool called Higgsfield connected to Claude via its MCP integration, a roughly one-minute one-time setup. He has Claude generate 11 different background and outfit variations of the same clip through Higgsfield's Kling video model, noting each swap costs 12 credits and takes 4 to 8 minutes, while being upfront that the technique only works on short clips a few seconds long and can't regenerate an entire 15-minute video."
+      },
+      {
+        "start_seconds": 590,
+        "timestamp": "9:50",
+        "title": "How a long video gets edited",
+        "source": "creator",
+        "description": "For long-form videos Brock adds two extra checkpoints to the same system: first, he reviews the raw cut plus a condensed one-minute reel of just the spots where two takes were spliced, to verify the joins sound natural; second, for a brand-new visual style, Claude samples three or four short clips before committing to a full 15-minute build, after first visiting the subject's website to source matching colors. The finished output includes numbers appearing on screen exactly as he says them, benchmark tables that highlight the specific cell being discussed, auto-generated diagrams for hard-to-explain concepts, and a 4K review page with the video laid out in clickable timeline blocks where he can pin timestamped comments or use quick-note buttons that Claude then reads and fixes in the next pass."
+      },
+      {
+        "start_seconds": 725,
+        "timestamp": "12:05",
+        "title": "B-roll from one sentence",
+        "source": "creator",
+        "description": "When no real footage exists for a specific line, Brock pastes just that sentence into Claude and asks for a 5-second generated shot; Claude writes the entire visual concept itself — in one example inventing a sticky-note visual metaphor for \"hiring an editor who never forgets a note\" without being told to — and sends it to Higgsfield, returning a usable clip within a couple of minutes. He shows two more examples made the same way and stresses this is a fallback for unobtainable shots only, since he still prefers real footage when he can get it and every generation burns paid Higgsfield credits."
+      },
+      {
+        "start_seconds": 817,
+        "timestamp": "13:37",
+        "title": "One editor, different styles",
+        "source": "creator",
+        "description": "Brock points out Claude doesn't apply one fixed editing look: for videos about Claude it uses a style with a cream background, small pixel characters, and Anthropic's orange brand color, while videos about Grokbot get an entirely different established style. When Fable 5.2 itself launched, Claude visited Anthropic's release page unprompted and built a brand-new black-background, planet-on-the-horizon style matching the launch's own visuals, with every style saved in the same project folder so Claude selects the right one automatically based on the video's topic."
+      },
+      {
+        "start_seconds": 870,
+        "timestamp": "14:30",
+        "title": "Opus 5.5 vs Fable 5.2",
+        "source": "creator",
+        "description": "Brock explains why he moved from Opus 5.5 to Fable 5.2 despite Opus already producing good edits: Opus would make real mistakes, such as chopping off a word mid-sentence or leaving a bad take in the final cut, requiring extra rounds of correction. He notes Fable 5.2 is priced at roughly double Opus's rate on paper, but in his own testing of comparable editing tasks it worked out to only about 14% more expensive, which he felt justified the switch given the drop in cutting errors."
+      },
+      {
+        "start_seconds": 913,
+        "timestamp": "15:13",
+        "title": "How to get started",
+        "source": "creator",
+        "description": "Brock circles back to show the finished short-form video he started editing earlier in real time, now complete with every cut and animation applied without ever opening a traditional editor. He closes with a practical timing benchmark — a 15-minute long-form video takes roughly 45 minutes for Claude to edit end-to-end inside Claude Code — before his standard subscribe/like call to action."
+      }
+    ],
+    "first_detected_at": "2026-11-19T12:00:52+02:00",
+    "summarized_at": "2026-11-19T12:09:45+02:00"
+  },
+  {
     "id": "a6qv4LIMRGY",
     "title": "REA vs CraftAnything: I Made Two AIs Clone the Same Software",
     "channel": "Flyke",
