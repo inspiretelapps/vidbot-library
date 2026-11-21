@@ -9,8 +9,305 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-19T12:09:48+02:00",
+  "updated_at": "2026-11-21T06:11:18+02:00",
   "videos": [
+    {
+      "id": "dyElyM_FYOk",
+      "title": "AI SEO Tutorial - 2027 FREE COURSE for Beginners",
+      "channel": "Sabri Suby",
+      "upload_date": "20261120",
+      "duration_seconds": 1818,
+      "thumbnail": "https://i.ytimg.com/vi/dyElyM_FYOk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dyElyM_FYOk",
+      "description": "I reveal how to use AI SEO in this new era of marketing to scale your business to the moon.\n \n📸 Instagram: https://www.instagram.com/sabrisuby?utm_source=youtube&utm_medium=organic&utm_campaign=youtube-description&utm_content=youtube-organic&utm_term=instagram\n\n𝕏 X: https://x.com/sabrisuby?utm_source=youtube&utm_medium=organic&utm_campaign=youtube-description&utm_content=youtube-organic&utm_term=x\n\n🎁 If you want a FREE $1,000 digital marketing blueprint, click here: https://go.kingkong.co/meta-ads-playbook-yt?utm_source=youtube&utm_medium=organic&utm_campaign=youtube-description&utm_content=youtube-organic&utm_term=blueprint\n\n⚡️ Make ads in minutes with AI: https://getkong.ai/?utm_source=youtube&utm_medium=organic&utm_campaign=youtube-description&utm_content=youtube-organic&utm_term=kong",
+      "summary": "Sabri Suby opens with the claim that buyers increasingly ask ChatGPT, Claude, and Gemini who to hire instead of going straight to Google, and backs the urgency with a stat that the overlap between top-10 Google rankings and AI Overview recommendations fell from 76% in 2025 to just 38% in 2026 — meaning AI now draws on far more signals than Google position alone. He frames the whole video as a 13-tactic playbook built from his own agency's results (over $10.2 billion in client sales across 1,184 niches, the track record that also landed him a Shark Tank seat).\n\nOn technical and on-page tactics, he walks through checking robots.txt for accidental no-index blocks (citing a recurring case where a $40,000 website was invisible to search and AI because Cloudflare blocks AI crawlers by default), and flags that JavaScript-rendered content is often invisible to AI crawlers too. His core conversion tactic is building standalone \"money pages\" rather than ranking blog content: pulling the roughly 4% of keywords that he says drive 64% of conversions in a typical ads account, leading with direct-response sales copy in the first third of the page and dense FAQ content (sourced from real sales-call transcripts fed into Claude) in the rest — while warning that fully AI-written pages risk being detected and deindexed by Google.\n\nOn off-site trust signals, he argues AI now weighs mentions and consensus above backlinks, citing that Reddit's share of AI citations grew 73% over three months and now makes up 44% of AI Overview citations, so he recommends answering threads ChatGPT already cites using a real name and only mentioning the business as a closing tagline. He also pushes review automation over award bragging (timed SMS/email requests to third-party platforms like Trustpilot and Google My Business) and \"entity\" consistency — making sure business name, address, pricing and service details read identically everywhere online, since mismatched details read to AI as confusion signals that push it toward a less ambiguous competitor.\n\nFor measurement, he instructs testing \"share of voice\" by asking the same buying question on incognito ChatGPT, Claude and Gemini sessions repeatedly, noting ChatGPT's citations overlap with Google's rankings only about 35% of the time, and separately fixing attribution blind spots: because users who get an AI recommendation often just Google the business afterward, GA4 credits Google instead of the AI assistant, so he recommends adding a \"how did you hear about us\" form field naming each AI platform, using a hypothetical roofing-company example where GA4 shows just one AI-referred lead a month while the form reveals 15 of 100 leads actually started with AI.\n\nThe verdict, delivered as the close of a promotional video for his own agency King Kong, is that businesses ignoring these 13 tactics risk becoming invisible to AI-driven buyers within 12 months, and he offers to run the whole process for viewers with a 90-day ranking guarantee. All of the supporting statistics (76%→38% overlap, 58% traffic loss, 73% Reddit growth, 44% citation share, 35% ChatGPT/Google overlap) are presented as his own agency's findings rather than sourced to any independent study, so they should be read as one practitioner's reported numbers, not verified industry benchmarks.",
+      "why_valuable": "Gives a business owner or marketer a concrete, numbered checklist — robots.txt/crawlability audit, money-page structure, Reddit outreach method, review-automation timing, cross-platform NAP consistency, and a \"how did you hear about us\" fix for AI-referral attribution — for deciding where to spend limited SEO effort to get recommended by ChatGPT, Claude and Gemini rather than just ranking on Google, while flagging that the supporting statistics all come from the presenter's own agency rather than independent research.",
+      "key_takeaways": [
+        "At 0:24 Suby cites generating over $10.2 billion in sales for clients across 1,184 niches as the credibility basis for the playbook, also noting it's what landed him a Shark Tank seat.",
+        "At 2:43 he cites that brands recommended in Google's AI Overview held top-10 Google rankings 76% of the time in 2025, but that overlap fell to 38% by 2026, arguing AI now weighs far more sources than Google position alone.",
+        "At 5:08 he cites a stat that a #1 Google ranking with an AI Overview present loses about 58% of its click traffic — but says this applies mainly to informational \"how to\"/\"what is\" queries, not transactional buying searches.",
+        "At 6:59 he cites that ChatGPT's citations overlap with Google's own rankings only about 35% of the time, which he uses to argue for tracking AI \"share of voice\" instead of a fixed rank position.",
+        "At 10:59 he cites Reddit's share of AI citations growing 73% over the prior three months and reaching 44% of AI Overview citations.",
+        "At 15:00 he cites that roughly 4% of keywords in a typical Google Ads account drive 64% of conversions, which he uses as the basis for prioritizing dedicated \"money pages\" over general blog content.",
+        "At 21:02 he cites that over 18% of AI Overview citations sourced from outside Google's top 100 web rankings came from YouTube, making video content a channel he says is underused for AI visibility.",
+        "Around 28:48 he gives a hypothetical roofing-company example where Google Analytics shows only about 1 AI-referred lead a month, but adding a \"how did you hear about us\" form question reveals 15 of 100 leads actually originated from an AI recommendation."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Why AI chatbots are replacing Google as the buyer's first stop",
+          "source": "generated",
+          "description": "Sabri Suby opens by arguing that buyers increasingly ask ChatGPT, Claude, and Gemini who to hire instead of searching Google directly, so businesses absent from those AI-generated lists effectively don't exist anymore. He credits his agency's track record — generating clients over $10.2 billion in sales across more than 1,000 niches — as the basis for the 13-tactic AI SEO playbook he is about to walk through, starting with how to win Google's AI Overview box."
+        },
+        {
+          "start_seconds": 38,
+          "timestamp": "0:38",
+          "title": "Tactic 1 — Win Google's AI Overview box",
+          "source": "generated",
+          "description": "Suby explains that even though commentators keep declaring SEO dead, LLMs run multiple Google-like searches in the background before answering a buying question, so strong traditional rankings still create a halo effect that makes AI more likely to cite a business. He gives the concrete action: search site:yourdomain.com on Google to check indexing, then set up both Google Search Console and Bing Webmaster Tools, noting Bing's data also feeds directly into ChatGPT's answers. He backs the claim with his own history, saying he started SEO from a rented bedroom with $50 and built it into the $10.2 billion track record that later landed him a seat on Shark Tank."
+        },
+        {
+          "start_seconds": 118,
+          "timestamp": "1:58",
+          "title": "Tactic 2 — AI runs dozens of hidden searches before recommending you",
+          "source": "generated",
+          "description": "Suby corrects the assumption that AI chatbots answer like a single Google search, explaining that an LLM silently runs numerous background searches — checking reviews, Reddit, organic rankings and blogs — before compiling its recommendation. He cites a stat that in 2025, 76% of brands recommended in Google's AI Overview also held top-10 Google rankings, but by 2026 that overlap fell to just 38%, showing AI now leans on far more signals than Google position alone. He lists the three things AI weighs most — consensus, mentions (now outweighing backlinks), and authority (press, reviews, YouTube and backlinks combined) — and tells viewers to ask ChatGPT their top buying question, identify the roughly 15 related searches behind it, and ensure their site addresses all of them."
+        },
+        {
+          "start_seconds": 291,
+          "timestamp": "4:51",
+          "title": "Tactic 3 — Split your keywords and chase money terms only",
+          "source": "generated",
+          "description": "Suby addresses the panic around AI Overviews eating organic traffic, citing a stat that a #1 Google ranking with an AI Overview present loses about 58% of its click traffic — but clarifies this mainly hits informational \"how to\"/\"what is\" queries, not transactional buying searches. His practical instruction is to export the top 50 keywords from Google Ads or Search Console and build dedicated, content-rich \"money pages\" only for the transactional terms, contrasting a research query like car-loan interest calculations against a bottom-of-funnel example such as best car loans Miami. He tells viewers to run this split today rather than treat it as a someday project."
+        },
+        {
+          "start_seconds": 379,
+          "timestamp": "6:19",
+          "title": "Tactic 4 — Test your AI share of voice across ChatGPT, Claude, Gemini",
+          "source": "generated",
+          "description": "Suby points out that AI recommendations aren't a fixed ranking — asking ChatGPT the same question three times can produce three different answers — so businesses should think in terms of \"share of voice\" rather than position, noting ChatGPT's citations overlap with Google's rankings only about 35% of the time. He demonstrates live, opening an incognito ChatGPT window and asking who is the best digital marketing agency in Australia, showing his own agency appears at #2, then instructs viewers to repeat the test on Claude and Gemini across their top 10 buying questions to calculate what fraction of attempts mention their brand, logging every competitor who also appears as a target list for later outreach."
+        },
+        {
+          "start_seconds": 496,
+          "timestamp": "8:16",
+          "title": "Tactic 5 — Get mentioned on every site AI reads, not just linked",
+          "source": "generated",
+          "description": "Suby argues that AI ranking now depends on who is talking about a brand rather than who links to it, so appearing on third-party review sites like Google My Business, Trustpilot and Yelp, plus Reddit/Quora chatter, YouTube content, and — most powerfully — press mentions on industry and news sites, all compound into visibility. He stresses that single-channel efforts aren't sufficient on their own and tells viewers to build a shortlist of relevant review platforms, 10 target industry sites, and a \"dream list\" of 10 publications to pursue with a PR consultant, since anchor-text backlinks matter far less now than the simple fact of being mentioned."
+        },
+        {
+          "start_seconds": 636,
+          "timestamp": "10:36",
+          "title": "Tactic 6 — Answer the Reddit threads that AI already cites",
+          "source": "generated",
+          "description": "Suby identifies Reddit as the source AI models weight most heavily because it's a channel brands don't control, citing a stat that Reddit's share of AI citations grew 73% over the prior three months and now accounts for 44% of AI Overview citations. His instructed method is to find a Reddit thread ChatGPT already cites for a target buying term, locate a genuinely helpful existing comment, and reply using one's real name and employer while answering the actual question first and only mentioning the business as a closing tagline — warning that leading with a pitch gets a poster \"destroyed\" — and recommending this across 10–15 money keywords rather than just one."
+        },
+        {
+          "start_seconds": 748,
+          "timestamp": "12:28",
+          "title": "Tactic 7 — Check whether robots.txt is blocking AI from your site",
+          "source": "generated",
+          "description": "Suby describes a recurring failure he sees in client audits: businesses spending $40,000 on a new website only to discover their robots.txt file is blocking search engines and AI crawlers outright, sometimes because Cloudflare blocks AI bots by default without the owner realizing it. He also flags that content locked behind JavaScript rendering is frequently invisible to AI crawlers, and instructs viewers to check yourdomain.com/robots.txt for any \"no index\" directive and consult a developer or CMS-specific tutorials if they're unsure how to fix it."
+        },
+        {
+          "start_seconds": 840,
+          "timestamp": "14:00",
+          "title": "Tactic 8 — Build standalone money pages that actually convert",
+          "source": "generated",
+          "description": "Suby argues most businesses rank long-form blog content that generates traffic but no revenue, and instead walks through building standalone \"money pages\" targeting the keywords Search Console or Google Ads show actually convert — citing a pattern where roughly 4% of keywords in an ad account drive 64% of conversions, which he calls \"Colosseum keywords.\" His page structure puts direct-response sales copy in the first third of the page and dense, FAQ-style rich content (pulled from real customer questions, e.g. via feeding a support inbox into Claude) in the rest, explicitly warning not to have AI write the page copy verbatim since Google can detect and deindex purely AI-generated pages."
+        },
+        {
+          "start_seconds": 1081,
+          "timestamp": "18:01",
+          "title": "Tactic 9 — Turn sales-call transcripts into pages AI quotes",
+          "source": "generated",
+          "description": "Suby's differentiation tactic is to mine proprietary data competitors can't access — transcribing sales calls or customer support tickets and feeding them to Claude to categorize the top 15–20 real customer questions by topic such as pricing, guarantees and other services — rather than generating generic AI-written pages like competitors do. He cites doing this across 5,000 sales calls of 15+ minutes each for one client, then publishing the answers either as a dedicated Q&A page or folded into existing money pages, arguing this real-customer-sourced content is harder to replicate and more likely to be quoted by AI than content pulled from generic \"people also ask\" boxes."
+        },
+        {
+          "start_seconds": 1238,
+          "timestamp": "20:38",
+          "title": "Tactic 10 — Film the buying questions people actually ask",
+          "source": "generated",
+          "description": "Suby cites a stat that YouTube supplies over 18% of AI Overview citations sourced from outside Google's top 100 web rankings, making video content a major and underused AI-visibility channel. His instruction is to title videos with the exact money term being targeted, state the business name and location on camera, answer the core buying question within the first 30 seconds, and cover the same roughly 15 related questions identified earlier — scaling from a phone-shot video with no budget up to a professionally produced piece for businesses with resources, since he frames this as a compounding long-term asset rather than a one-off."
+        },
+        {
+          "start_seconds": 1358,
+          "timestamp": "22:38",
+          "title": "Tactic 11 — Swap award bragging for a review-collection system",
+          "source": "generated",
+          "description": "Suby argues AI ignores industry awards entirely but weighs third-party review content on sites like Trustpilot, Google My Business and Yelp heavily, specifically looking at what reviews actually say in text rather than just star ratings — so a one-word \"excellent\" review carries little weight. He prescribes automated email-and-SMS review requests timed to the moment of highest customer satisfaction, such as within two hours of service delivery for lead-gen businesses or 10 days after purchase for e-commerce, sent across multiple review platforms at once, plus consistently replying to reviews and embedding review schema on money pages to reinforce the same signal back to the LLMs."
+        },
+        {
+          "start_seconds": 1517,
+          "timestamp": "25:17",
+          "title": "Tactic 12 — Make every online profile say the same thing",
+          "source": "generated",
+          "description": "Suby explains that mismatched details across a business's own channels — such as a website claiming \"family law\" while LinkedIn says \"divorce lawyer,\" or an old address still listed on a review site — read as confusion signals to AI, which responds by simply recommending a less-ambiguous competitor instead. He tells viewers to test this by asking ChatGPT about their own business's price and services to spot errors, then build a single \"entity pack\" documenting the founder's name, years in business, services, pricing range and service area, and use it to correct every directory listing and web page until the information is fully congruent everywhere."
+        },
+        {
+          "start_seconds": 1641,
+          "timestamp": "27:21",
+          "title": "Tactic 13 — Track how many leads AI platforms are really sending you",
+          "source": "generated",
+          "description": "Suby argues most businesses underestimate AI-driven leads because Google Analytics misattributes them: a user gets an AI recommendation, then Googles the business directly, so GA4 credits Google as the referral source instead of the AI assistant that actually drove the decision. His fix is adding a simple \"how did you hear about us\" question to contact forms listing each AI platform by name, then triangulating three signals — assisted conversions, growth in branded search volume, and the form-answer data — citing a hypothetical roofing-company example where GA4 shows one AI-referred lead a month but the form question reveals 15 of 100 leads actually originated from an AI recommendation."
+        },
+        {
+          "start_seconds": 1787,
+          "timestamp": "29:47",
+          "title": "Closing — recap and King Kong's 90-day ranking guarantee",
+          "source": "generated",
+          "description": "Suby recaps all 13 tactics and warns that businesses not implementing them risk being effectively invisible to AI-driven buyers within the next 12 months. He closes with a direct offer for his own agency, King Kong, to run the entire 13-tactic process for a client and states a guarantee to achieve ranking results within 90 days or continue working for free until it's delivered, directing viewers to click through for a free AI SEO audit."
+        }
+      ],
+      "first_detected_at": "2026-11-21T06:00:52+02:00",
+      "summarized_at": "2026-11-21T06:11:18+02:00"
+    },
+    {
+      "id": "wqNIzUmNt9M",
+      "title": "AI News: This Is The Make or Break Week!!",
+      "channel": "Matt Wolfe",
+      "upload_date": "20261120",
+      "duration_seconds": 1980,
+      "thumbnail": "https://i.ytimg.com/vi/wqNIzUmNt9M/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wqNIzUmNt9M",
+      "description": "Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT\n\nAnthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less.\n\nThis week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news.\n\nWatch my full GPT-6.2 breakdown: https://youtu.be/JVHkb8PTMvc\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nResources From Today's Video:\nAnthropic IPO: https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq\nGPT-6.2 Astra & Sol: https://openai.com/index/introducing-gpt-6-2-astra-sol/\nGemini 4 Neon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\nMicrosoft MAI Code 2 & Code 2 Flash: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\nMicrosoft MAI Image 2.7: https://microsoft.ai/news/introducing-mai-image-2-7/\nMicrosoft MAI Realtime 1: https://microsoft.ai/news/introducing-mai-realtime-1/\nGemini Notebook Interactive Sites: https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/\nHeyGen Avatar 6: https://www.heygen.com/research/avatar-6-model\nSuno Visuals: https://suno.com/blog/introducing-visuals\nGemini Computer Use on Mac: https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/\nClaude Duet Access Expansion: https://x.com/ahuja_karan/status/2121332990836163033\nClaude Code Custom Themes: https://x.com/ClaudeDevs/status/2121392666244186327\nGoogle Stitch Loop: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/\nChatGPT Wallet: https://openai.com/index/introducing-chatgpt-wallet/\nChatGPT Live Dictation: https://x.com/ChatGPT/status/2123114715257946334\nChatGPT for Sales: https://openai.com/index/introducing-chatgpt-for-sales/\nGoogle DeepMind Genie 4: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com\n\n#AINews #Anthropic #gemini \n\nTime Stamps:\n00:00 Anthropic Goes Public\n05:33 OpenAI Launches GPT-6.2 Astra and Sol\n10:36 HyperAgent Adds iMessage Support (Sponsor)\n11:34 Google Launches Gemini 4 Neon\n16:35 Astra vs. Sol vs. Neon: Website Test\n21:55 Microsoft Introduces MAI Code 2\n23:40 Microsoft Releases MAI Image 2.7\n24:00 Microsoft Launches MAI Real-Time One\n24:21 Gemini Notebook Can Build Websites\n26:15 HeyGen Launches Avatar 6\n27:10 Suno Launches Visuals\n27:38 Gemini for Mac Gets Computer Use\n28:20 Claude Duet Expands Access\n28:42 Claude Code Adds Custom Desktop Themes\n29:06 Google Labs Introduces Stitch Loop\n29:47 OpenAI Launches ChatGPT Wallet\n30:30 ChatGPT Adds Live Dictation\n30:44 OpenAI Launches ChatGPT for Sales\n31:10 Google DeepMind Releases Genie 4\n31:44 Google Extends Genie 3 Sessions",
+      "summary": "Matt Wolfe leads with Anthropic's IPO: priced at $83/share across 980 million shares, it raised $81.3 billion, surpassing SpaceX's prior record to become the largest IPO in history, opening at $111.50 and closing day one at $97.12 (+17%) for a roughly $1.27 trillion valuation — the 12th-largest company on the planet. He frames the real story as the staged insider-unlock schedule (10% of employee shares freed immediately, more in mid-December, more between January 5 and February 2), arguing whether insiders hold or sell as those windows open is the first genuine test of whether AI is a bubble; he also notes Anthropic's first public filing disclosed $16.3 billion in first-half revenue (up from $1.2 billion a year earlier) against $8.9 billion in compute spend, and that OpenAI's CFO has said OpenAI may go public as early as 2027.\n\nOn the week's three new models, Wolfe reports OpenAI's GPT-6.2 Astra and Sol cut API pricing roughly 20% (Astra $8/$40 per million input/output tokens, Sol $2/$10) with the pitch being efficiency rather than a big intelligence jump; on Artificial Analysis, Astra ranks second-smartest behind Claude Fable 5.2 but costs only $4 per task versus Fable's $26.54, while on his own Beauty Bench test Astra scored 7.4 (6th place) and the new Sol scored 6.9 — actually behind the older 6.1 Sol it replaced. Google's Gemini 4 Neon, priced at $3/$15 per million tokens versus Opus's $4/$20, scored within a point of Astra on Artificial Analysis and took the #1 spot on its coding-agent index; in his own blind design test (an open prompt to \"build a website that impresses me\"), Astra and Sol both produced near-identical deep-sea/jellyfish sites — which he connects to a reported Theo Browne critique that Astra \"regresses to the mean\" — while Neon alone produced an original mechanical-watch-themed site, leading Wolfe to call Neon the best value and most original of the three.\n\nFrom Microsoft's Ignite conference, MAI Code 2 is claimed (by Microsoft) to deliver 98% of GPT-6.1 Sol's performance at 40% of its cost and 96% of Claude Opus 5.5's performance at 5% of its cost, with developers reportedly preferring its front-end output 64% of the time in blind tests; Wolfe stresses these figures are entirely Microsoft-sourced and unverified by him. Microsoft also shipped MAI Image 2.7 (ranked #1 for image editing but only 4th for text-to-image on Artificial Analysis) and MAI Realtime 1, a voice model priced at just 1 cent per audio minute — continuing what he calls Microsoft's consistent theme of near-best quality at a fraction of the cost.\n\nIn rapid-fire coverage of other releases, Wolfe highlights Gemini Notebook's new website-builder feature (he loaded a week's worth of AI news and had it generate a full newspaper-style site with charts and a filterable source list in about two minutes), HeyGen's Avatar 6 (claims an 84% score on a Turing-style test, with viewers picking the AI clip 42% of the time), Suno's new Visuals feature (15-second music clips), Gemini on Mac gaining computer-use ability (US-only, Apple Silicon required), wider access to Claude Duet (which now eats into normal Claude usage limits), Claude Code's new custom desktop themes, Google Labs' Stitch Loop (auto-detects and proposes fixes for security/performance bugs in vibe-coded apps, waitlist only), OpenAI's ChatGPT Wallet (pays via stand-in card numbers after Face ID approval, US Pro-plan credit cards only), ChatGPT's new live dictation, ChatGPT for Sales (Business/Enterprise only), and Google DeepMind's Genie 4 world model plus an extension of Genie 3's session length from one to three minutes.\n\nWolfe's verdict is that every model released this week shares one theme — comparable intelligence for meaningfully less money rather than a genuine capability leap — and that the real signal to watch for an AI bubble is how much Anthropic insiders sell as each unlock window opens, starting with mid-December. He flags that several figures in the episode (Microsoft's MAI Code 2 benchmarks, HeyGen's Turing-test score) are vendor-reported rather than independently verified, and notes he personally hasn't yet tested Avatar 6, Gemini's computer-use feature, Stitch Loop, or ChatGPT Wallet. He is taking Thanksgiving week off, so there will be no news video the following week.",
+      "why_valuable": "Helps someone decide which AI model is worth switching to or paying for right now by comparing GPT-6.2 Astra/Sol, Gemini 4 Neon, and Microsoft's MAI Code 2 on Wolfe's own cost-per-task and design-quality tests rather than vendor marketing alone, plus flags which of this week's other releases (Hyperagent iMessage agents, ChatGPT Wallet, Gemini computer-use on Mac, Stitch Loop) are worth tracking before committing time to a workflow change, and explains why Anthropic's IPO insider-unlock schedule is the practical signal to watch for an AI-market correction.",
+      "key_takeaways": [
+        "At 0:02–1:10, Anthropic's IPO raised $81.3 billion at $83/share, becoming the largest IPO in history (surpassing SpaceX) and closing day one at $97.12 (+17%) for a roughly $1.27 trillion valuation.",
+        "At 3:58–4:16, Anthropic's first public filing showed $16.3 billion in first-half revenue (up from $1.2 billion a year earlier) against $8.9 billion in compute spend.",
+        "At 7:30–7:40, on Artificial Analysis's cost-per-task benchmark, GPT-6.2 Astra costs $4/task at max effort versus Claude Fable 5.2's $26.54 for only a 3-point benchmark score difference.",
+        "At 13:00–13:40, Gemini 4 Neon is priced at $3/$15 per million tokens (versus Opus's $4/$20) and ranks #1 on Artificial Analysis's coding-agent index, ahead of both Fable 5.2 and GPT-6.2 Astra.",
+        "At roughly 19:30–20:08, GPT-6.2 Astra and Sol both independently generated nearly identical deep-sea/jellyfish-themed websites from the same open prompt, which Wolfe links to a reported Theo Browne critique that Astra \"regresses to the mean.\"",
+        "At 22:20–22:52, Microsoft claims MAI Code 2 delivers 98% of GPT-6.1 Sol's performance at 40% of its cost and 96% of Claude Opus 5.5's performance at 5% of its cost — figures Wolfe notes are entirely Microsoft-sourced and unverified.",
+        "At 26:33–26:45, HeyGen claims its Avatar 6 one-photo talking-video model scored 84% on a Turing-style test, with viewers picking the AI-generated clip over the real one 42% of the time.",
+        "At 29:51–30:17, OpenAI's new ChatGPT Wallet (with Amex, Chase, Mastercard and Visa) lets a ChatGPT agent pay using a stand-in card number after Face ID or fingerprint approval, limited to US Pro-plan users with credit cards only."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Anthropic Goes Public",
+          "source": "creator",
+          "description": "Wolfe reports Anthropic priced its IPO at $83 per share across 980 million shares, raising $81.3 billion and surpassing SpaceX's June offering to become the largest IPO in history; shares opened at $111.50 and closed day one at $97.12 (+17%), valuing the company around $1.27 trillion and making it the 12th largest company on the planet. He frames the real story as the staged share-unlock schedule — 10% of employee shares freed immediately, more unlocking in mid-December and between January 5 and February 2 — arguing whether insiders hold or dump as those windows open is the first real test of whether AI is a bubble. He also notes Anthropic's first public filing showed $16.3 billion in first-half revenue (up from $1.2 billion the prior year) against $8.9 billion in compute spend, and that OpenAI's CFO has said they plan to go public as early as 2027."
+        },
+        {
+          "start_seconds": 333,
+          "timestamp": "5:33",
+          "title": "OpenAI Launches GPT-6.2 Astra and Sol",
+          "source": "creator",
+          "description": "Wolfe summarizes his own hands-on testing of OpenAI's new Astra (flagship) and Sol (cheaper everyday) models, noting the pitch is efficiency rather than raw intelligence gains — API pricing dropped roughly 20%, to $8/$40 per million input/output tokens for Astra and $2/$10 for Sol. On Artificial Analysis benchmarks Astra ranks second-smartest behind Claude Fable 5.2 but costs only $4 per task at max effort versus Fable's $26.54; on his own Beauty Bench SVG-drawing test Astra scored 7.4 (6th place) while the new Sol scored 6.9, actually ranking behind the older 6.1 Sol model it replaced. On his Mega Bonk game-cloning test, Astra produced what he calls the best opening screen he's seen from any model, though he flags reports that Astra stops tasks too soon and that OpenAI's own report admits it under-reports problems encountered."
+        },
+        {
+          "start_seconds": 636,
+          "timestamp": "10:36",
+          "title": "HyperAgent Adds iMessage Support (Sponsor)",
+          "source": "creator",
+          "description": "In this sponsored segment, Wolfe explains HyperAgent as a platform for running a coordinated team of AI agents, newly reachable by texting them directly over iMessage when away from a computer. He describes his own workflow for his 'Show Me Your Workflow' video series — one agent researches the interview subject, a second generates questions from that research, and a third compiles everything into an outline, all visible together in a shared virtual workspace alongside his human team — and notes HyperAgent now offers a free plan plus the option to sign in with an existing ChatGPT subscription to use supported OpenAI models without separate model-usage charges."
+        },
+        {
+          "start_seconds": 694,
+          "timestamp": "11:34",
+          "title": "Google Launches Gemini 4 Neon",
+          "source": "creator",
+          "description": "Wolfe places Neon as the mid-tier model in Google's Gemini 4 lineup, between flagship Carbon and smaller Hydrogen, pricing it at $3/$15 per million input/output tokens versus Opus's $4/$20 — making it cheaper than Opus and in the same tier as GPT-6.2 Sol. He cites Artificial Analysis scores showing Neon just one point behind GPT-6.2 Astra and four behind Fable 5.2 while being, per Google, 32% cheaper per task than Carbon yet scoring higher; on Artificial Analysis's coding-agent index Neon plus Google's 'anti-gravity' tool ranks #1, beating both Fable 5.2 in Claude Code and Astra in Codex. On his own Beauty Bench test Neon scored 7.1 (12th place) for 70 cents, about half Astra's cost for a slightly lower score, and he reports anti-gravity itself has substantially improved, now feeling close to Codex-level and even offering access to some Claude models."
+        },
+        {
+          "start_seconds": 995,
+          "timestamp": "16:35",
+          "title": "Astra vs. Sol vs. Neon: Website Test",
+          "source": "creator",
+          "description": "Wolfe runs an identical open-ended prompt — build a website that will truly impress you, subject matter up to the model — on all three new models to test design taste without any steering. Astra and Sol both independently produced nearly the same deep-sea/jellyfish-themed site with matching phrases like 'begin descent,' which he connects to a complaint from podcaster Theo Browne that GPT-6.2 Astra 'regresses to the mean,' citing an example where two different users both got a water-and-bell-themed game level named 'Bellweather' from unrelated prompts. By contrast Neon produced an unrelated mechanical-watch-themed site with an interactive exploded-gear view and a magnifying-glass hover effect that impressed him, leading him to conclude Neon shows the most design originality of the three and may be the best value model for coding right now, especially via the API."
+        },
+        {
+          "start_seconds": 1315,
+          "timestamp": "21:55",
+          "title": "Microsoft Introduces MAI Code 2",
+          "source": "creator",
+          "description": "Wolfe covers Microsoft's Ignite announcement of MAI Code 2, its own coding model, which Microsoft claims delivers 98% of GPT-6.1 Sol's performance at 40% of its cost and 96% of Claude Opus 5.5's performance at just 5% of its cost. Microsoft also claims developers preferred its front-end app output over GPT-6 Sol's in blind evaluations 64% of the time, though Wolfe stresses all of these figures come from Microsoft itself and haven't been independently verified; the model is positioned for simpler tasks rather than long complex projects, is already in GitHub Copilot, and is coming soon to OpenRouter and Vercel, with Wolfe planning to run it through his own benchmark tests once available."
+        },
+        {
+          "start_seconds": 1420,
+          "timestamp": "23:40",
+          "title": "Microsoft Releases MAI Image 2.7",
+          "source": "creator",
+          "description": "Wolfe briefly notes Microsoft's new image model, MAI Image 2.7, sits at #1 on Artificial Analysis for image-editing tasks specifically, while ranking only fourth for text-to-image generation from scratch, behind all of the ChatGPT image models. He frames this alongside Microsoft's other Ignite releases as a consistent pattern — not quite best-in-class but priced well below the top models."
+        },
+        {
+          "start_seconds": 1440,
+          "timestamp": "24:00",
+          "title": "Microsoft Launches MAI Real-Time One",
+          "source": "creator",
+          "description": "Wolfe covers Microsoft's new real-time voice model, MAI Realtime 1, highlighting its price point of just 1 cent per audio minute as the headline feature. He reiterates this fits the same Ignite theme as Microsoft's other releases that day: close to top-tier quality at a fraction of the cost of competing models."
+        },
+        {
+          "start_seconds": 1461,
+          "timestamp": "24:21",
+          "title": "Gemini Notebook Can Build Websites",
+          "source": "creator",
+          "description": "Wolfe demonstrates Google's new Gemini Notebook (formerly NotebookLM) feature letting users type a request like 'make me a site' and get an interactive website generated directly from their uploaded sources, with Google's suggested uses including sales dashboards, deadline trackers, and exam-study sites. He tests it himself by loading that week's AI news articles into a notebook and prompting it to build a news-breakdown site, and about two minutes later it produces a newspaper-styled page complete with a generated headline, embedded charts and tables summarizing the stories, and a filterable source list, which he says impressed him more than expected."
+        },
+        {
+          "start_seconds": 1575,
+          "timestamp": "26:15",
+          "title": "HeyGen Launches Avatar 6",
+          "source": "creator",
+          "description": "Wolfe reports HeyGen's new Avatar 6 model generates a talking video from a single photo with no fixed length limit, citing example outputs running 25+ minutes in a single continuous take at 2K resolution. HeyGen claims an 84% score on a Turing-style test where viewers shown a real clip and an AI clip of the same person saying the same thing picked the AI version 42% of the time — Wolfe notes that's short of a true 50/50 'can't tell the difference' result but still close, and says he hasn't tested the tool himself yet."
+        },
+        {
+          "start_seconds": 1630,
+          "timestamp": "27:10",
+          "title": "Suno Launches Visuals",
+          "source": "creator",
+          "description": "Wolfe covers Suno's new Visuals feature, which generates lyric videos, album art, and short video clips synced to a song's structure (including lip-sync) by dragging a track from the user's library into a new tab, available on web, iPhone and Android. He notes the generated clips cap at 15 seconds each and that visual generation credits are billed separately from a user's existing song-generation credits."
+        },
+        {
+          "start_seconds": 1658,
+          "timestamp": "27:38",
+          "title": "Gemini for Mac Gets Computer Use",
+          "source": "creator",
+          "description": "Wolfe describes Google's Gemini app on Mac gaining computer-use capability: users describe a task and the agent clicks, types and fills in forms across apps and files in its own background window, letting the user keep using their own screen and mouse, with permission required for apps it can touch and confirmation prompts before major actions. He highlights Google's own demo where the model is shown a drawing of a butterfly and, given computer access, recreates and animates it inside Blender, while noting the feature is US-only, requires Apple Silicon, is restricted to paid Google AI tiers, and that he hasn't tested it personally."
+        },
+        {
+          "start_seconds": 1700,
+          "timestamp": "28:20",
+          "title": "Claude Duet Expands Access",
+          "source": "creator",
+          "description": "Wolfe gives a quick update that Anthropic's always-on Claude Duet assistant, covered previously as waitlisted, is now available to every US Pro, Max, or Ultra subscriber who had signed up for the waitlist. He flags the key caveat that Duet runs continuously in the background and consumes a user's normal Claude usage limits, so it will cause people to hit their rate limits noticeably faster than before."
+        },
+        {
+          "start_seconds": 1722,
+          "timestamp": "28:42",
+          "title": "Claude Code Adds Custom Desktop Themes",
+          "source": "creator",
+          "description": "Wolfe notes Claude Code's desktop app now lets users describe how they want the interface to look — colors, animated backgrounds, and similar visual preferences — and the app rebuilds its own UI to match the request. He's upfront that this doesn't add any real productivity benefit and currently only works in local desktop sessions, but calls it a fun addition regardless."
+        },
+        {
+          "start_seconds": 1746,
+          "timestamp": "29:06",
+          "title": "Google Labs Introduces Stitch Loop",
+          "source": "creator",
+          "description": "Wolfe explains Google Labs' new Stitch Loop tool connects to a vibe-coded app's codebase and live data to continuously scan for security, performance and accessibility issues that most non-technical 'vibe coders' never think to check themselves. When it finds a problem it drafts a fix and sends it for the user's approval rather than applying anything automatically, and Wolfe notes it's currently waitlist-only with pricing still unannounced, though he expects it to be genuinely useful for people who vibe-code apps without a security background."
+        },
+        {
+          "start_seconds": 1787,
+          "timestamp": "29:47",
+          "title": "OpenAI Launches ChatGPT Wallet",
+          "source": "creator",
+          "description": "Wolfe covers ChatGPT Wallet, built in partnership with American Express, Chase, Mastercard and Visa, which lets a user's always-on ChatGPT agent make purchases on their behalf: the card is added once, every purchase is approved via Face ID or fingerprint, and the agent transacts with a stand-in card number so it never sees the real card details. He notes the feature is US-only, credit-card only (no debit), and restricted to the $100/month Pro plan, and admits he personally isn't yet comfortable giving an AI agent his credit card."
+        },
+        {
+          "start_seconds": 1830,
+          "timestamp": "30:30",
+          "title": "ChatGPT Adds Live Dictation",
+          "source": "creator",
+          "description": "Wolfe briefly covers ChatGPT's new live dictation feature, which displays spoken words as text in real time while the user is still talking instead of making them wait for a full transcription pass afterward. He suggests this is a useful incremental upgrade specifically for people who prefer dictating prompts out loud rather than typing them."
+        },
+        {
+          "start_seconds": 1844,
+          "timestamp": "30:44",
+          "title": "OpenAI Launches ChatGPT for Sales",
+          "source": "creator",
+          "description": "Wolfe describes ChatGPT for Sales as a set of pre-built workflows aimed at sales teams — building prospect lists, prepping for calls, drafting follow-ups, and flagging at-risk deals — that integrates with more than 30 tools including HubSpot, Salesforce, Gong, Granola and DocuSign. He flags the main limitation as availability: it's currently restricted to ChatGPT Business and Enterprise workspaces, so smaller teams on lower-tier plans can't access it yet."
+        },
+        {
+          "start_seconds": 1870,
+          "timestamp": "31:10",
+          "title": "Google DeepMind Releases Genie 4",
+          "source": "creator",
+          "description": "Wolfe revisits Google DeepMind's Genie 4 world model, which generates an explorable, movable 3D world from a text prompt and — in this version — lets users type new prompts while already inside the generated world to change weather, add characters, or alter events, with generated ambient sound and character dialogue as it happens. He notes Genie 4 is currently limited to Google AI Ultra subscribers, with Pro subscribers only able to join a waitlist."
+        },
+        {
+          "start_seconds": 1904,
+          "timestamp": "31:44",
+          "title": "Google Extends Genie 3 Sessions",
+          "source": "creator",
+          "description": "Wolfe closes with a smaller update that Google has extended session length on the older Genie 3 world model from one minute up to three minutes per generated world. He wraps the episode noting every new model this week shared the same theme — comparable intelligence for meaningfully less money — and announces he's taking the Thanksgiving week off, with no news video next week, promising to catch up on anything significant when he returns."
+        }
+      ],
+      "first_detected_at": "2026-11-21T06:00:52+02:00",
+      "summarized_at": "2026-11-21T06:11:18+02:00"
+    },
     {
       "id": "c5TSRxrDEK8",
       "title": "you need to learn Git RIGHT NOW!!",
