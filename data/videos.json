@@ -1,5 +1,253 @@
 [
   {
+    "id": "TtOoLanFzGw",
+    "title": "Why AI Has DHH Working 16-Hour Days",
+    "channel": "a16z",
+    "upload_date": "20261120",
+    "duration_seconds": 3135,
+    "thumbnail": "https://i.ytimg.com/vi/TtOoLanFzGw/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=TtOoLanFzGw",
+    "description": "David Heinemeier Hansson thinks the agent era is reopening a window in computing that has been closed for decades: the chance to build a new operating system people actually want to use.\n\nDHH joins a16z General Partners Martin Casado and Anish Acharya to explain why he’s building Omarchy, an agent-first Linux distribution designed around a computer that users can modify simply by asking.\n\nThey discuss why the command lines, config files, and detailed error messages that once made Linux intimidating now make it unusually well suited to agents, and why DHH believes software development has become cheap enough to challenge decades-old platform lock-in.\n\nBut if code is becoming abundant, what still matters? DHH argues that taste, craft, and the willingness to obsess over the final 2% become more important, not less. The conversation moves from tiny teams wielding the productive capacity of thousands of people to open models, competition at the frontier, and the return of hacker, demo, and pseudonymous internet culture.\n\nTimestamps:\n00:00 Intro\n00:48 From Rails and Basecamp to Linux\n03:58 Why AI agents make Linux the better OS\n08:17 Can a third mobile platform happen?\n16:02 Does taste still matter when AI writes code?\n22:57 What counts as superintelligence?\n25:58 Big AI labs vs. open source\n31:50 DHH’s plan to be bigger than macOS\n38:24 Who to follow, and the AI culture war\n44:35 The return of the anonymous hacker\n47:33 90s demo culture and computers with character\n\nResources:\nFollow David Heinemeier Hansson on X: @dhh\nDavid Heinemeier Hansson: https://dhh.dk/\nOmarchy: https://omarchy.org/\n37signals: https://37signals.com/\nFollow Martin Casado on X: @martin_casado\nFollow Anish Acharya on X: @illscience\n\nRead the full transcript here: https://www.a16z.news/s/podcast\n\nStay Updated:\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Show on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Show on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see http://a16z.com/disclosures.",
+    "summary": "David Heinemeier Hansson (DHH), creator of Ruby on Rails and co-founder of 37signals (Basecamp, HEY), is building Omarchy, a Linux distribution he calls the first native OS for the age of agents. He argues Mac OS and Windows are fundamentally unfit for agents, while Linux's historically off-putting traits (heavy terminal use, config files, verbose error messages) are exactly what AI agents want to operate on. He says the entire Omarchy codebase has been written by agents for five to six months without him writing a single line by hand, and that hundreds of thousands of people have already switched from Mac and Windows. He singles out a new macOS popup warning users against giving Claude file access as a sign Apple risks becoming \"the AOL of the agent era\" by walling off exactly the system access agents need.\n\nHe extends the argument to mobile, noting the Apple-Google duopoly survived even Microsoft's multi-billion-dollar attempt at a third platform because it lacked apps. He argues that barrier is collapsing: a community member rewrote all of Adobe Lightroom, including his personal camera presets, in two weeks and made it better than Adobe's own decade-and-a-half-old product; his Omicron Foundation nonprofit raised $23 million in tokens and donations with every contract drafted, and sometimes even signed, by an agent, with no word processor involved. He cites a Fireworks AI demo running at 1,500 tokens per second that built and live-mutated a Tetris-style game from a prompt within seconds, and speculates about what happens once models reach 100,000 to a million tokens per second.\n\nPushed on whether craftsmanship still matters when code becomes abundant, DHH argues taste and perfectionism matter more, not less, because the gap between noticing an imperfection and fixing it has collapsed, which is why he's now working 16-hour days despite having literally authored a book called \"It Doesn't Have to Be Crazy at Work.\" He says most vibe-coding projects stall after the gratifying first 80%, while he gets his payoff from obsessing over the final 2%, and that he'd rather direct an uncoordinated fleet of agents than scale 37signals' roughly 60-person team into a company of thousands with HR and meetings.\n\nOn superintelligence, DHH says software development has effectively already reached it, since AI now beats any individual programmer he's known in combined breadth and speed, even though narrow specialists can still out-code it on specific tasks; he contrasts this with humanoid robotics teams such as Unitree, who he says are far more conservative (estimating four to ten years out) than Silicon Valley's imminent-takeoff talk. He insists open weights and multiple competing labs are essential to keep the industry honest, comparing the moment to the 1990s fight over banning public-key encryption, and estimates open models like GLM-5.3 and DeepSeek Flash are only six or seven months behind frontier labs on many tasks (while distrusting some of their benchmark claims), pointing to a DGX Spark running Qwen3-8B Flash Next as proof that capable local AI now costs just a few thousand dollars.\n\nOmarchy's current version was built in about two and a half months part-time by DHH and one partner, Ryan Hughes, competing against thousands of programmers at Microsoft; his stated goal is overtaking macOS's roughly 180 million users within three years, possibly within twelve months. He closes by praising a resurgence of pseudonymous 1990s-style hacker culture inside his own team and the broader local-AI scene, crediting X as the connective tissue for it, and says Omarchy's screensaver intentionally runs 40 ASCII demo-scene effects during model boot time to recapture that aesthetic rather than imitate Mac or Windows polish, arguing Apple's Jony Ive-era minimalism stripped the character out of computers.",
+    "why_valuable": "Helps a developer, founder, or technologist decide whether to bet on agent-driven development and an agent-first Linux desktop as a real alternative to macOS/Windows, by giving DHH's concrete practical signals (an entire OS built by agents in five to six months, a Lightroom clone rebuilt in two weeks, a 2.5-month build timeline for Omarchy's current version, a single $200/month Claude subscription being enough, open-weight models closing the gap to frontier labs) rather than abstract AI hype, while flagging which claims are DHH's own speculation (overtaking macOS within 12-36 months, superintelligence arriving next year) versus things he has directly built or observed.",
+    "key_takeaways": [
+      "DHH says the entire Omarchy OS has been built by AI agents for roughly five to six months without him writing a single line of code by hand, producing hundreds of thousands of lines of agent-written code.",
+      "He cites a Fireworks AI conference demo running at 1,500 tokens per second that built a working Tetris game from a prompt in about four seconds, then live-mutated it with added features (lasers, bombs, bigger monsters) on request.",
+      "He says an Omarchy community member rewrote all of Adobe Lightroom, including his personal camera presets, in about two weeks, calling the result better than Adobe's own product built over a decade and a half.",
+      "His Omicron Foundation nonprofit raised $23 million in tokens and donations with every contract drafted (and often digitally signed) by an agent, with no word processor used at any point.",
+      "DHH estimates open-weight models such as GLM-5.3 and DeepSeek Flash are only about six or seven months behind frontier labs on many real-world tasks, while being skeptical of some of their self-reported benchmark claims.",
+      "Omarchy's current ('Quattro') release was built in roughly two and a half months part-time by DHH and one partner, Ryan Hughes, while targeting macOS's installed base of about 180 million users within three years, possibly twelve months.",
+      "His personal superintelligence test is giving a model a $20,000 budget to order parts and embody itself as a walking robot — something no current model has been able to pull off.",
+      "He says he runs on one $200/month 'Claude Max 20x' subscription (plus two others) and has only come close to maxing it out twice in the last three months, arguing frontier AI access isn't reserved for the wealthy."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Intro",
+        "source": "creator",
+        "description": "A cold-open montage of DHH's sharpest lines opens the episode: Mac OS and Windows are \"unfit for the age of agents,\" while Linux's old weaknesses — heavy terminal use, confusing config files, and inscrutable error messages — are exactly the three things agents love. He previews claims that true superintelligence could arrive within a year and that software will soon \"mutate live\" at 1,500 tokens per second, before Martin Casado welcomes him and frames the conversation around company-building with AI."
+      },
+      {
+        "start_seconds": 48,
+        "timestamp": "0:48",
+        "title": "From Rails and Basecamp to Linux",
+        "source": "creator",
+        "description": "DHH recaps roughly 30 years building internet software: Basecamp launched as \"SaaS before it was called SaaS\" around the time Facebook went live, Ruby on Rails was extracted from it and later used to build Twitter, GitHub, Shopify, Airbnb, and Coinbase, and he wrote books including Rework, Remote, and It Doesn't Have to Be Crazy at Work. He says his current project is Omarchy, a Linux distribution aimed at getting hundreds of thousands of people to switch from Windows and Mac, having only started using Linux on the desktop about two and a half years ago (Ubuntu) after leaving the Mac ecosystem over Apple's app-store economics and treatment of developers."
+      },
+      {
+        "start_seconds": 238,
+        "timestamp": "3:58",
+        "title": "Why AI agents make Linux the better OS",
+        "source": "creator",
+        "description": "DHH says Omarchy's entire codebase has been written by AI agents for five to six months without him writing a single line by hand, producing hundreds of thousands of lines of code. He argues Linux's historic deficits — terminal-heavy workflows, editable config files, and verbose error messages — are precisely what agents need, illustrating with a macOS example: remapping a hotkey requires manually clicking through settings fields one at a time, something an agent cannot do non-interactively, while Linux lets an agent just edit the config. He warns Apple risks becoming \"the AOL of the agent era\" by throwing up scarier popups discouraging users from giving Claude file access."
+      },
+      {
+        "start_seconds": 497,
+        "timestamp": "8:17",
+        "title": "Can a third mobile platform happen?",
+        "source": "creator",
+        "description": "The discussion turns to mobile, where DHH notes the Apple-Google duopoly survived even Microsoft spending several billion dollars trying to build a third platform, because it lacked apps like Instagram. He argues that app-ecosystem lock-in is now breaking down, citing a community member who rewrote all of Adobe Lightroom (with his own camera presets) in two weeks, better than Adobe's own decade-and-a-half-old product, and his Omicron Foundation raising $23 million in tokens and donations using agent-drafted and agent-signed contracts with no word processor involved. He cites a Fireworks demo running at 1,500 tokens per second that built and live-mutated a game from a prompt in seconds, speculating about 100,000 to a million tokens per second in the next one to two years."
+      },
+      {
+        "start_seconds": 962,
+        "timestamp": "16:02",
+        "title": "Does taste still matter when AI writes code?",
+        "source": "creator",
+        "description": "Martin Casado challenges DHH on whether craftsmanship still matters when code is cheap, citing 20-year-old Starcraft balance patches as evidence that design taste outlives the underlying code. DHH agrees taste and perfectionism matter more now, not less, because the barrier between spotting an imperfection and fixing it has collapsed — which is why he's working 16-hour days despite having written a book called It Doesn't Have to Be Crazy at Work. He says most vibe-coding projects stall after the gratifying first 80%, while he gets his payoff from the final 2%, and would rather direct an uncoordinated fleet of agents than scale his roughly 60-person company to thousands of employees with HR and meetings."
+      },
+      {
+        "start_seconds": 1377,
+        "timestamp": "22:57",
+        "title": "What counts as superintelligence?",
+        "source": "creator",
+        "description": "DHH says for software development \"we already have super intelligence,\" since AI now beats any individual programmer he's known when breadth and speed are combined, even though narrow specialists can still out-perform agents on specific tasks. He describes his personal superintelligence test — giving a new model a $20,000 budget to order parts and build itself a walkable robot, which no model has managed yet — and contrasts Silicon Valley's imminent-takeoff talk with the more cautious four-to-ten-year timelines he heard from Unitree's robotics team in China, while joking that his own home-automation AI keeps ordering gadgets unprompted."
+      },
+      {
+        "start_seconds": 1558,
+        "timestamp": "25:58",
+        "title": "Big AI labs vs. open source",
+        "source": "creator",
+        "description": "DHH argues open weights and multiple competing labs are essential to \"keep the whole game honest,\" recalling how the open internet of 2000-2009 gave way to a mobile-platform duopoly, and comparing today's moment to the 1990s fight over banning public-key encryption. He doesn't want a government-enforced duopoly between the leading closed labs, pointing approvingly to Grok and a resurgent Google, and estimates open models like GLM-5.3 and DeepSeek Flash are only six or seven months behind frontier labs on many tasks, citing a DGX Spark running Qwen3-8B Flash Next as proof capable local AI now costs a few thousand dollars, while warning unchecked labs would otherwise capture nearly all the value the way Google and Meta did in online advertising."
+      },
+      {
+        "start_seconds": 1910,
+        "timestamp": "31:50",
+        "title": "DHH's plan to be bigger than macOS",
+        "source": "creator",
+        "description": "DHH traces Omarchy's escalating ambition from a personal hobby project — hand-written bash scripts meant to make \"a nicer computer for myself and five friends\" — to a public distribution with hundreds of thousands of users once agent-driven development kicked in. The current version was built in about two and a half months part-time by DHH and one partner, Ryan Hughes, competing against thousands of programmers at Microsoft, and his stated goal is overtaking macOS's roughly 180 million users within three years, possibly within twelve months, citing the pace of recent jumps between Claude model versions during Omarchy's development."
+      },
+      {
+        "start_seconds": 2304,
+        "timestamp": "38:24",
+        "title": "Who to follow, and the AI culture war",
+        "source": "creator",
+        "description": "DHH says every programmer he deeply respects — citing figures like Carmack, Tim Sweeney, and Mitchell Hashimoto — is now fully \"pilled\" into AI tools because they've already proven they can build the hard way, while rank-and-file programmers feel more anxious about career security, a tension he compares to historical disruption anxiety among Detroit autoworkers and English Luddite weavers. He frames much of today's online hostility to AI as a tribal \"battle of the vibes\" replaying old culture-war lines, but insists there's no going back to pre-industrial or assembly-line work regardless of the discomfort."
+      },
+      {
+        "start_seconds": 2675,
+        "timestamp": "44:35",
+        "title": "The return of the anonymous hacker",
+        "source": "creator",
+        "description": "DHH highlights a resurgence of 1990s-style pseudonymous hacker culture inside his own Omarchy and Omicron Foundation team, citing two pseudonymous contributors — one the creator of the Quickshell malleable shell used in Omarchy's desktop, another a pseudonymous artist — plus sponsored local-AI tinkerers like 0x0 and Mia's Lab. He credits X as the connective tissue enabling this individual-driven, \"anti-LinkedIn\" resurgence, contrasting it with how domains like browser engines got locked up by only the largest companies once the internet was commercialized."
+      },
+      {
+        "start_seconds": 2853,
+        "timestamp": "47:33",
+        "title": "90s demo culture and computers with character",
+        "source": "creator",
+        "description": "DHH closes by describing Omarchy's deliberate 1990s demo-party and BBS aesthetic — a screensaver running 40 ASCII demo-scene effects during model boot time purely for vibes, no functionality — drawing on memories of cracked-game intro screens and running his own illegal three-line bulletin board system at age 14. He argues Apple's Jony Ive-era aluminum minimalism stripped the character out of computers and that the industry is \"getting the hackers back,\" before confirming on camera that his widely shared Malibu office view is real."
+      }
+    ],
+    "first_detected_at": "2026-11-22T06:00:53+02:00",
+    "summarized_at": "2026-11-22T06:09:21+02:00"
+  },
+  {
+    "id": "OdMpNiByntM",
+    "title": "Inkling 2 Mini Is INSANE – Is THIS the BEST Local AI Model?",
+    "channel": "Bijan Bowen",
+    "upload_date": "20261121",
+    "duration_seconds": 2305,
+    "thumbnail": "https://i.ytimg.com/vi/OdMpNiByntM/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=OdMpNiByntM",
+    "description": "Timestamps:\n\n00:00 - Local Preamble\n01:26 - First Look\n02:04 - Technical Look\n03:18 - Looped Transformer\n06:37 - Open Weights\n07:44 - Testing Setup\n08:07 - Browser OS Test\n12:07 - C++ Skate Game Test\n15:03 - Subway FPS Test\n17:30 - Blender & Godot Wrestling Test\n18:57 - Watch Website Test\n20:31 - Creative Writing Test\n27:37 - Image to 3D Model Test\n28:59 - C++ Bowling Horror Game Test\n32:36 - Chad Game Test\n34:56 - Results Overview\n36:58 - Closing Thoughts\n\nJoin the Discord: https://discord.gg/hfaR2exy7S\n\nMy Open source 3d robot: https://github.com/OminousIndustries/peri\n\nIn this video, we take a hands-on look at Inkling 2 Mini, testing whether it deserves to be considered one of the best local AI models available.\n\nWe begin with a technical overview of its looped transformer architecture and open weights, then put the model through a wide range of practical coding and creative tasks, including browser-based workflows, C++ game development, FPS generation, Blender and Godot testing, frontend design, creative writing, image-to-3D modeling, and game creation.",
+    "summary": "Bijan Bowen tests Thinking Machines' newly released Inkling 2 Mini, calling it potentially the best current local AI model once hardware accessibility is factored in — it can run on a budget build using two used 12GB RTX 3060 GPUs for roughly $1,000 to $1,250. He frames the official benchmarks as beating Qwen3-A27B, the usual reference point for strong local models, despite Inkling 2 Mini being a mixture-of-experts model with only about 5.4 billion active parameters versus Qwen3's fully-active 27B dense design.\n\nHe explains the model's \"looped transformer\" design — where middle layers run multiple internal passes (more internal computation, not more output tokens) before producing an answer, which Thinking Machines says specifically improved coding and agentic performance — using a repeated-blending smoothie metaphor since he finds the official documentation's prelude/middle-block explanation hard to parse. Similar looping designs have appeared in other local models (Nan Beige 433B, a 9B Sense Nova model, iQuest Coder 40B) and are suspected in closed frontier models like Astra. He notes Inkling 2 Mini was distilled from an unreleased, larger internal Thinking Machines model that reportedly already beats the original roughly 1-trillion-parameter Inkling released mid-2026.\n\nOn release terms, it's Apache 2.0 licensed with official Apple Silicon and Nvidia DGX Spark support; community Unsloth quantizations let a 4-bit version fit on a single 24GB GPU or two 12GB cards, with a 1-million-token context window and image input support. Across a battery of coding and creative tests — some run via Thinking Machines' hosted API, others fully local with default, unquantized weights — he reports a working subway FPS with destructible scenery and weapon switching (though a bug traps the player in a train car), a playable C++ skateboarding game with a working replay feature that beats Qwen3-A27B's broken, non-moving skater, a functional wrestling game built with Blender and Godot, and a front-end \"watch website\" test he calls suspiciously well-executed.\n\nThe model also wrote an edgy blog arguing only the \"unmatured\" get excited about new video games, generating several unprompted full articles whose prose he calls ambitious and sometimes genuinely creative but partly word salad, and attempted an image-to-3D-STL conversion of a meme photo that produced recognizable but non-printable geometry. Its most surprising result was a photo-to-fighting-game test using a \"Gigachad\" meme image that faithfully recreated specific room details — an Ubuntu desktop, green chairs, a purple lamp — and produced a working knockout sequence, which he says exceeded his expectations given the heavy multimodal demands.\n\nHis overall verdict is that Inkling 2 Mini essentially delivers the compact model the local-AI community had hoped for, beating Qwen3-A27B on playability even where Qwen3 looked visually nicer, and clearly beating the original trillion-parameter Inkling on tasks like the subway shooter, while conceding Gemini 4 Neon still handled a horror-bowling C++ test better and that Qwen3-A27B may have subjectively edged out the subway FPS test. He calls it one of the most impressive open-weight releases he's tested, especially from a company he didn't expect to ship a competitive small model.",
+    "why_valuable": "Helps someone deciding whether to run a local or offline AI model judge if Inkling 2 Mini is worth the download, by giving first-hand, visually verified test results across coding (C++ games, FPS, wrestling game), front-end design, creative writing, and image-to-3D tasks run on both hosted API and fully local hardware, with concrete hardware and licensing requirements (two 12GB GPUs for roughly $1,000-$1,250, Apache 2.0 license, 1M-token context) and direct head-to-head comparisons against Qwen3-A27B, the original trillion-parameter Inkling, and Gemini 4 Neon — while flagging which results came via the vendor's API versus local hardware, and which benchmark claims are Thinking Machines' own numbers versus the presenter's hands-on tests.",
+    "key_takeaways": [
+      "Inkling 2 Mini can run on a budget local build using two used 12GB RTX 3060 GPUs for roughly $1,000 to $1,250, making a model of this capability accessible on sub-$1,500 hardware.",
+      "Thinking Machines' benchmarks claim it beats Qwen3-A27B despite being a mixture-of-experts model with only about 5.4 billion active parameters, versus Qwen3's fully-active 27-billion-parameter dense design.",
+      "It's released under an Apache 2.0 license with a 4-bit quantization fitting on a single 24GB GPU or two 12GB cards, a 1-million-token context window, image input support, and official Apple Silicon and Nvidia DGX Spark compatibility.",
+      "It was distilled from an unreleased, larger internal Thinking Machines model that the presenter says reportedly already beats the original roughly 1-trillion-parameter Inkling released in mid-2026.",
+      "On a C++ skateboarding game test, Inkling 2 Mini beat Qwen3-A27B on playability (a working replay feature and skater movement) even though Qwen3's visuals and map looked better, since Qwen3's skater failed to move at all.",
+      "On a subway FPS test, it produced a playable shooter with weapon switching and destructible scenery, succeeding where the much larger original ~1-trillion-parameter Inkling model previously failed to make the scene playable at all.",
+      "Its standout result was a photo-to-fighting-game test (the 'Gigachad' meme) that recreated specific details from the source photo — an Ubuntu desktop, green chairs, a purple lamp — and produced a working knockout sequence.",
+      "The presenter's overall verdict is that it delivers the compact 'Qwen 4 35B-A3B'-class model the local-AI community had hoped for, though he notes Gemini 4 Neon still beat it on a horror-bowling C++ test and Qwen3-A27B may have subjectively edged it on the subway FPS test."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Local Preamble",
+        "source": "creator",
+        "description": "Bijan opens by framing Inkling 2 Mini, from Thinking Machines, as potentially the best current local AI model when weighing broad hardware compatibility, noting it can run on a budget rig like two used 12GB RTX 3060 GPUs for roughly $1,000 to $1,250. He positions it against Qwen3-A27B as the usual benchmark for strong local models and notes Thinking Machines has been on a release streak, having quietly dropped a smaller model weeks earlier that he still hasn't reviewed."
+      },
+      {
+        "start_seconds": 86,
+        "timestamp": "1:26",
+        "title": "First Look",
+        "source": "creator",
+        "description": "He shows a 15x sped-up demo of the model running on a MacBook Pro with an M5 Pro chip and 48GB unified memory building a flight-simulator-style app, comparing its output quality to a head-to-head test he ran about ten months earlier where Claude Opus 4.5 with extended thinking generated a racing game. He argues Inkling 2 Mini's result is on par with, and possibly exceeds, output that would have been considered state-of-the-art for frontier models not long ago."
+      },
+      {
+        "start_seconds": 124,
+        "timestamp": "2:04",
+        "title": "Technical Look",
+        "source": "creator",
+        "description": "Benchmarks shown claim Inkling 2 Mini beats Qwen3-A27B, the standard reference point for strong local models, despite being architecturally different: Qwen3 is a dense 27-billion-parameter model active in full on every pass, while Inkling 2 Mini is a mixture-of-experts model with only about 5.4 billion parameters active during inference. Because of its looped-transformer design it will also run somewhat slower per token than a comparable non-looping model of its size."
+      },
+      {
+        "start_seconds": 198,
+        "timestamp": "3:18",
+        "title": "Looped Transformer",
+        "source": "creator",
+        "description": "He explains the looped-transformer architecture, where middle-layer computation runs through multiple internal passes before producing output (more internal computation, not more output tokens), which Thinking Machines says specifically boosted coding and agentic-tool performance. He uses a smoothie-blending metaphor — mixing the same ingredients three times instead of once — since he finds the official prelude/middle-block message-passing description hard to parse, and notes similar looping designs have shown up in other local models (Nan Beige 433B, a 9B Sense Nova model, iQuest Coder 40B) and are suspected in closed frontier models like Astra. He also reveals Inkling 2 Mini was distilled from an unreleased, larger internal Thinking Machines model that reportedly already beats the original roughly 1-trillion-parameter Inkling released mid-2026."
+      },
+      {
+        "start_seconds": 397,
+        "timestamp": "6:37",
+        "title": "Open Weights",
+        "source": "creator",
+        "description": "He covers the practical release details: Apache 2.0 licensing, which he calls the best license for open-weight models, official support for Apple Silicon and Nvidia's DGX Spark, and community Unsloth quantizations where the 4-bit version fits on a single 24GB GPU or two 12GB cards. He also notes a 1-million-token context window and image input support, which he says will be useful for tasks that require the model to see visual input."
+      },
+      {
+        "start_seconds": 464,
+        "timestamp": "7:44",
+        "title": "Testing Setup",
+        "source": "creator",
+        "description": "He explains that the tests shown were run partly through Thinking Machines' hosted API, while he was also running the model locally on his own system off-camera. He credits an X user known as Loctar for earlier demos using DeepSeek Harness at native NVFP4 quantization that first showed off the model's capability online."
+      },
+      {
+        "start_seconds": 487,
+        "timestamp": "8:07",
+        "title": "Browser OS Test",
+        "source": "creator",
+        "description": "Running his recurring Browser OS v2.7 benchmark, he finds the generated desktop interface functional but visually too emissive and blinding, with a working calculator that correctly computes 74 times 6, a file browser, and an in-browser driving mini-game. He flags that the wallpaper-changing 'seed' feature failed to apply and that a news-reader app produced disjointed, slightly unhinged text, concluding Qwen3-A27B still edged it out on this specific test but calling the result strong for a model this size."
+      },
+      {
+        "start_seconds": 727,
+        "timestamp": "12:07",
+        "title": "C++ Skate Game Test",
+        "source": "creator",
+        "description": "He reruns a self-contained C++ skateboarding game test that Qwen3-A27B previously failed outright, producing no skater movement at all. Inkling 2 Mini generates a working skater with grinding mechanics and a functioning replay feature, which he says beats Qwen3's broken attempt on raw playability even though Qwen3's visuals and map design looked somewhat better, and calls the gap versus a frontier model's (Opus 4.6) similar test from February 2026 remarkably close."
+      },
+      {
+        "start_seconds": 903,
+        "timestamp": "15:03",
+        "title": "Subway FPS Test",
+        "source": "creator",
+        "description": "In a subway-shooter test that the original roughly 1-trillion-parameter Inkling model had previously failed to make playable at all, Inkling 2 Mini produces a working, if cartoonish, FPS with weapon-switching and destructible scenery, including shell casings and a damaged vending machine and bench. He notes no bullet holes appear in the environment and a bug traps the player inside a train car, but overall calls the result well done."
+      },
+      {
+        "start_seconds": 1050,
+        "timestamp": "17:30",
+        "title": "Blender & Godot Wrestling Test",
+        "source": "creator",
+        "description": "Testing a wrestling game built by generating 3D models in Blender and game logic in Godot, he reports the model produces a working ring with fans, out-of-ring movement, and physical props like bar stools, though character feet and bodies aren't perfectly joined and no real attack or damage mechanics function. He calls the result impressive given this is normally a test he reserves for frontier-scale models."
+      },
+      {
+        "start_seconds": 1137,
+        "timestamp": "18:57",
+        "title": "Watch Website Test",
+        "source": "creator",
+        "description": "Running the model fully locally — no API, default unquantized weights — on a front-end watch-website generation test, he gets a well-executed result with brand display elements, an exploded parts view, rotating 3D product shots, and a black, white, and gold color scheme. He rates it solid and 'suspiciously' good, suspecting the test may simply be less novel or difficult for current models than when he first introduced it to the channel."
+      },
+      {
+        "start_seconds": 1231,
+        "timestamp": "20:31",
+        "title": "Creative Writing Test",
+        "source": "creator",
+        "description": "Reusing a prompt from his Gemini 4 Neon video, he has the model write an edgy, opinionated blog arguing that only people who never matured get excited about new video games, and it outputs multiple full articles — including a manifesto and in-character letters-to-the-editor rebuttals — plus matching front-end styling. He finds the prose stylistically ambitious and at times genuinely creative, but partly word salad, and is surprised it generated several unprompted additional articles rather than the single one he requested."
+      },
+      {
+        "start_seconds": 1657,
+        "timestamp": "27:37",
+        "title": "Image to 3D Model Test",
+        "source": "creator",
+        "description": "He feeds the model a meme photo of himself holding a hard drive and asks it to generate a 3D-printable STL file. It produces a recognizable stylized figure with the hard drive and chain details intact, but the resulting geometry isn't manifold or printable without supports, which he attributes partly to the difficulty of the dark, loosely bounded source photo and calls a reasonable limitation for a model this size on this task."
+      },
+      {
+        "start_seconds": 1739,
+        "timestamp": "28:59",
+        "title": "C++ Bowling Horror Game Test",
+        "source": "creator",
+        "description": "Repurposing a horror-bowling prompt (life-sized pins styled as tiny humans) from his Gemini 4 Neon testing, the model builds a playable game with mouse aiming, a working scoring system, and a creepy backrooms-style aesthetic, with some on-screen text rendered inverted but still readable. He says Gemini 4 Neon handled this specific prompt better but still calls Inkling 2 Mini's result solid given the size difference, noting it confirms the model's C++ and ray-handling capability generalizes to an unseen task."
+      },
+      {
+        "start_seconds": 1956,
+        "timestamp": "32:36",
+        "title": "Chad Game Test",
+        "source": "creator",
+        "description": "Giving the model a photo-based prompt to turn a 'Gigachad' meme image into a playable Blender and Godot fighting game, he's genuinely surprised by the result: it recreates specific environmental details from the source photo, including green chairs, an Ubuntu desktop on a monitor, and a purple lamp, and produces a working knockout sequence. He calls this unusually impressive given the heavy multimodal demands of the task, even though it doesn't fully complete."
+      },
+      {
+        "start_seconds": 2096,
+        "timestamp": "34:56",
+        "title": "Results Overview",
+        "source": "creator",
+        "description": "Recapping the session, he reiterates that the subway shooter, watch website, and skate-game tests held up well, that Qwen3-A27B's skate game looked visually better but didn't function, and frames the overall comparison as a small mixture-of-experts model with roughly 5.2 to 5.4 billion active parameters holding its own against, and in playability terms beating, a 27-billion-parameter dense model. He calls Inkling 2 Mini essentially the 'Qwen 4 35B-A3B' the community had hoped for."
+      },
+      {
+        "start_seconds": 2218,
+        "timestamp": "36:58",
+        "title": "Closing Thoughts",
+        "source": "creator",
+        "description": "He confirms the model's C++ ray-handling capability generalized correctly across the bowling test, and reiterates this is one of the most impressive small open-weight releases he's tested, especially coming from a company he didn't expect to ship a competitive compact model. He notes a planned robot-arm test couldn't run because that room is being renovated, and signs off saying he had assumed major model releases were paused for a few days before Inkling 2 Mini's drop proved him wrong."
+      }
+    ],
+    "first_detected_at": "2026-11-22T06:00:53+02:00",
+    "summarized_at": "2026-11-22T06:09:21+02:00"
+  },
+  {
     "id": "dyElyM_FYOk",
     "title": "AI SEO Tutorial - 2027 FREE COURSE for Beginners",
     "channel": "Sabri Suby",
