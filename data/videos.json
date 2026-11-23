@@ -1,5 +1,329 @@
 [
   {
+    "id": "f5ApxQDWTYg",
+    "title": "I Turned My Drone Into an AI Supercomputer!",
+    "channel": "Dylan Gorman",
+    "upload_date": "20261117",
+    "duration_seconds": 1247,
+    "thumbnail": "https://i.ytimg.com/vi/f5ApxQDWTYg/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=f5ApxQDWTYg",
+    "description": "Turn your drone into an autonomous 3D mapping system with a compact AI supercomputer. In this video, I show you how to set it up so your drone flies itself and processes spatial data for professional 3D models.\n\nYou'll see how the AI computer and drone work together for smart 3D capture, faster data collection, and more accurate photogrammetry. This is a practical look at where automated drone surveying is heading, whether you're upgrading your gear or getting ready for what comes next.\n\nGet DJI Manifold 3: https://www.drone-works.com/products/dji-manifold-3\nGet DJI Matrice 4E: https://www.drone-works.com/products/dji-matrice-4e-drone-combo\n\nView The Model Here: https://pilotbyte.nira.app/a/KU15X-gHQhusjFiTKSw8cw/1\n\nUGREEN NAS on Official Store: https://ai.us.ugreen.com/xyDeB6\nUGREEN NAS DXP4800 GT: https://bit.ly/4k7qFe5\nUGREEN NAS Series: https://bit.ly/4zkuwsa\n#UGREENNAS #ugreennas \n\nLearn Drone Mapping Here: https://www.pilotbyte.com/drone-mapping-mastery\n\n🚩Become A Member Here For EXCLUSIVE BTS Content: https://www.youtube.com/c/dylangorman/join\n► Subscribe to my channel here: https://www.youtube.com/c/dylangorman\n—\n► Join us on Pilot Byte! Our platform provides current and aspiring drone operators with information and resources to promote growth and development in the drone industry: https://www.pilotbyte.com\n__\nFollow me online!\n\nLinkedIn: https://www.linkedin.com/in/dylan-g-099961101/\nInstagram: https://www.instagram.com/dylang_1\n—\nChapters\n\n0:00 Unlocking Drone Superpowers\n0:55 What is the Manifold 3?\n4:20 Setting Up the Field Mission\n7:11 Watching the AI Build in Real-Time\n11:45 Managing Massive Data Loads\n13:53 Processing the Final 3D Model",
+    "summary": "Dylan Gorman tests DJI's Manifold 3, a 120-gram onboard AI computer that bolts onto DJI's Matrice 4E drone and runs 100 TOPS of edge AI compute with 16GB RAM and a 256GB SSD, arguing it represents a real step up from earlier developer-only Manifold units because it ships with a ready-made autonomous mapping app called Smart 3D Explorer rather than just raw developer tools. He traces the product line back to the original 2015 Manifold ($500, Nvidia Tegra K1) and 2019 Manifold 2 (Jetson TX2 or Intel i7 versions, ~$1,500), both aimed narrowly at research labs, before DJI revived the line in mid-2025 alongside the Matrice 400 and opened it to the rest of the Matrice 4 series.\n\nIn the field, he demonstrates the full automated workflow on a tower: mounting the unit, connecting to a global RTK network (Pilot Pi, 19,000+ base stations) for positioning accuracy, drawing a bounding box with the controller, and letting the drone autonomously fly, scan, and build a live 3D mesh before generating an optimized photo-capture mission (982 waypoints, roughly 28 minutes, about 2,900 photos at the chosen 0.1cm ground sampling distance). He stresses that the only manual work left is swapping batteries and reviewing coverage gaps on-screen.\n\nHe also addresses a scaling problem rarely discussed: raw data volume. A single flight produces about 1GB of imagery per minute, and a fully processed model with point cloud, mesh and textures can exceed 400GB of storage. In a sponsored segment, he shows a UGreen NAS (4 drive bays plus dual NVMe, up to 144TB) replacing a stack of portable SSDs, letting him skip per-flight cloud uploads and subscriptions.\n\nFinally, he processes about 2,400 photos from two flights in DJI Terra (set to \"circle\" route type with high-quality 3D mesh output) and shows the resulting model resolving fine details like individual paint texture and interior graffiti on the tower. His verdict is that the Manifold 3 itself isn't doing the heavy photogrammetry processing — that still happens later in software like DJI Terra — but it automates data capture well enough that he expects future drones to integrate this kind of onboard AI natively rather than as an add-on, while noting a human is still needed to deploy, operate, and validate the output.",
+    "why_valuable": "Helps a drone service provider or survey company decide whether the DJI Manifold 3 add-on computer is worth buying for automated 3D mapping, by showing concrete specs (100 TOPS, 16GB RAM, 256GB SSD, 120g), a full field workflow with RTK setup and autonomous mission generation, real data volumes per flight (~1GB/min raw, 400GB+ processed), and the NAS storage workaround needed to handle that volume — while flagging that the unit doesn't do photogrammetry processing itself (DJI Terra still does) and that the demonstrated specifics (RTK network, waypoint counts) are tied to this specific tower-mapping use case.",
+    "key_takeaways": [
+      "The DJI Manifold 3 packs 100 TOPS of onboard AI compute, 16GB RAM, and a 256GB SSD into a 120g unit that mounts with two screws and a single USB-C/E-port cable on the Matrice 4E.",
+      "It's the third generation of a decade-old product line — the 2015 Manifold ($500, Tegra K1) and 2019 Manifold 2 ($1,500, Jetson TX2/Intel i7) were developer-only tools; DJI revived it in June 2025 with a ready-made automated mapping app, Smart 3D Explorer.",
+      "In Dylan's field test, the drone autonomously scanned a tower, built a live mesh, and generated an optimized capture mission of 982 waypoints taking about 28 minutes and roughly 2,900 photos at a 0.1cm/pixel ground sampling distance.",
+      "A single flight battery captures roughly 40GB of raw 20-megapixel imagery (about 1GB per minute), and a fully processed mesh/point-cloud/texture model can exceed 400GB, which is why he uses a UGreen NAS (up to 144TB across 4 bays plus dual NVMe) instead of a stack of portable SSDs.",
+      "Final processing still happens in third-party software (DJI Terra in his case), not on the Manifold 3 itself; he set the route type to \"circle\" and enabled high-quality 3D mesh output to get the finished model.",
+      "He removes the Manifold 3 before doing manual, non-Smart-3D-Explorer flights because it draws extra power and costs about 15 minutes of flight time per battery."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Unlocking Drone Superpowers",
+        "source": "creator",
+        "description": "Dylan opens with a cold intro showing the small grey Manifold 3 box and claims pairing it with a drone lets it fly, map, and build detailed 3D models fully autonomously. He previews that by the video's end viewers will understand how it works and be able to replicate the setup themselves, framing it as the next generation of drone photogrammetry."
+      },
+      {
+        "start_seconds": 55,
+        "timestamp": "0:55",
+        "title": "What is the Manifold 3?",
+        "source": "creator",
+        "description": "He traces DJI's Manifold lineage back a decade — the 2015 Manifold ($500, Nvidia Tegra K1) built for researchers on the Matrice 100, the 2019 Manifold 2 split into Jetson TX2 and Intel i7 versions at $1,500, then a six-year gap until the Manifold 3 launched alongside the Matrice 400 in June 2025 and opened to the whole Matrice 4 series two months later. He contrasts earlier Manifolds, which only gave developers raw tools, with the Manifold 3, which ships with a ready-made app called Smart 3D Explorer, specs it at 100 TOPS of onboard AI compute, 16GB RAM, 256GB SSD, 120g weight, and a single-cable E-port mount on the M4E that supplies power and data."
+      },
+      {
+        "start_seconds": 260,
+        "timestamp": "4:20",
+        "title": "Setting Up the Field Mission",
+        "source": "creator",
+        "description": "In the field, Dylan demonstrates the actual setup against a tower he'd previously mapped with Gaussian Splatting: mounting the Manifold 3 with two screws and a USB-C cable, applying firmware updates, then connecting to the Pilot Pi RTK network (over 19,000 global base stations) before launching the drone. He accesses the new Manifold 3 menu, selects horizontal mapping mode, draws a bounding box around the tower using waypoint buttons on the controller, sets a flight ceiling above the tower, and confirms the area to begin an automated Smart 3D Explore scan."
+      },
+      {
+        "start_seconds": 431,
+        "timestamp": "7:11",
+        "title": "Watching the AI Build in Real-Time",
+        "source": "creator",
+        "description": "The drone autonomously circles the tower using all its cameras plus obstacle-avoidance sensors to build a live mesh and point-cloud model in a virtual-space view, letting Dylan watch its real-time position and fill in missed areas manually if needed. After confirming he's satisfied with the scan, he clicks \"generate route,\" sets the ground sampling distance (0.1cm/pixel) and standoff distance, producing a plan of 982 waypoints taking about 28 minutes and roughly 2,900 photos, with the camera triggering automatically every half-second for up to 3,000 shots per battery."
+      },
+      {
+        "start_seconds": 705,
+        "timestamp": "11:45",
+        "title": "Managing Massive Data Loads",
+        "source": "creator",
+        "description": "Dylan notes each flight pulls about 1GB per minute of 20-megapixel photos, so a single battery generates roughly 40GB of raw imagery, and a fully processed model with mesh, point cloud, and textures can exceed 400GB without any extra tweaking. In a sponsored segment, he shows how a UGreen NAS with four drive bays plus dual NVMe slots (up to 144TB, roughly 2,500 flights' worth) and an SD card slot replaced his stack of portable SSDs, letting him skip cloud subscriptions and access footage directly from any device."
+      },
+      {
+        "start_seconds": 833,
+        "timestamp": "13:53",
+        "title": "Processing the Final 3D Model",
+        "source": "creator",
+        "description": "Back at his computer, he loads about 2,400 photos from two flights into DJI Terra, sets the route type to \"circle\" to match the orbit pattern, enables high-quality 3D mesh output, and processes the images into a finished model. Zooming into the result, he highlights fine detail like individual paint imperfections and interior graffiti, arguing the roughly 30-minute capture produced far more usable detail than manual flying would, while closing with his view that future drones will integrate this kind of onboard AI by default rather than as a bolt-on accessory."
+      }
+    ],
+    "first_detected_at": "2026-11-23T06:00:52+02:00",
+    "summarized_at": "2026-11-23T06:11:28+02:00"
+  },
+  {
+    "id": "xrjZdNszMao",
+    "title": "People are using Claude for WILD things",
+    "channel": "NextWork",
+    "upload_date": "20261122",
+    "duration_seconds": 656,
+    "thumbnail": "https://i.ytimg.com/vi/xrjZdNszMao/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=xrjZdNszMao",
+    "description": "Free projects for all 15 things people built with AI 👉 https://nextwork.ai/portfolio/maximussoares/learnlists/aaac5a74-7615-4dc5-a875-767a0846a279?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nThese are 15 things people built with AI this year, counted down from 15 to 1.\nEvery one comes from a real person, with a real video.\nA YouTuber found where a video was filmed from the sound of planes overhead, and a day later someone rebuilt it with Claude Code.\nA guy who collapsed in London turned his old Whoop into his own heart monitor.\nA 5-tonne loader taught itself to balance on two wheels.\nA dog got a custom cancer vaccine, planned with ChatGPT.\nA doctor got Claude to build him a 3D tool for reading heart scans.\nAnd a guy built his own ManyChat so he could stop paying for it.\n\nThis is part 3 of People Are Using Claude for Wild Things Now.\nPart 1: https://youtu.be/GMcLy4Gn7GU\nPart 2: https://youtu.be/JhxVbqYwoq4\n\nEvery one of these AI projects has a free NextWork project, so you can build your own version step by step.\nYou don't need any coding experience.\nAs you go, each one builds a portfolio page of your work that you can share.\n\nThe free projects from this video:\n\nNo. 15 Locate Your Video With Plane Sounds: https://nextwork.ai/projects/1bf2f403-bbb7-40d6-be6b-b2f7ec884e62?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 14 Build a Bluetooth Heart Rate Chart: https://nextwork.ai/projects/c4ff00b6-1ea9-4f78-883c-d7ef19d46983?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 13 Balance a Machine in Simulation: https://nextwork.ai/projects/048b545e-e8fe-4e69-8612-f19059d0964c?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 12 Explore a Cancer Protein with AlphaFold: https://nextwork.ai/projects/61411fde-d4db-483e-b009-49f1498c0dac?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 11 Build a 3D Heart X-ray Viewer: https://nextwork.ai/projects/11e85cb6-0bdc-48e0-966e-cdadba7f3740?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 10 Build Live Car Gauges with OBD2: https://nextwork.ai/projects/30fb5f47-20c1-4e7b-a682-d762d6153fa3?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 9 Build a Smart Mirror Dashboard: https://nextwork.ai/projects/3e1d86f2-bc35-4e57-9a60-a1f78be64a01?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 8 Build a Car Dashboard on an iPad: https://nextwork.ai/projects/70652ee7-e1f3-4d2d-ab83-e61be9b20272?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 7 Auto-DM Instagram Comments: https://nextwork.ai/projects/d781fa63-de60-45be-897e-d72d66cca90f?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 6 Build an AI Co-Scientist in Claude Code: https://nextwork.ai/projects/9c571413-827a-4a5a-af33-64c8e6a59d3d?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 5 Revive an Old Printer with Claude Code: https://nextwork.ai/projects/3cea0b28-e4a4-4530-ad50-d92d595d4b73?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 4 Build a 3D Smart Home with Claude Code: https://nextwork.ai/projects/a7756053-0925-4139-8a83-0c0ac07c74b7?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 3 Build Your Own Running Heatmap: https://nextwork.ai/projects/e6bc4982-f871-40ad-93cd-f37d92b03053?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 2 Run an AI Weather Forecast Yourself: https://nextwork.ai/projects/76ed1ed2-ac51-443e-9969-777170049999?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nNo. 1 Map Power-Plant Emitters with Claude: https://nextwork.ai/projects/eeab9331-cdd6-4b97-9a55-07a738b528c3?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nJoin the NextWork community:\nhttps://community.nextwork.ai/?utm_source=youtube&utm_medium=nextwork&utm_campaign=desc&utm_content=ai-real-problems\n\nChapters:\n0:00 Found by plane sounds\n1:02 A Whoop heart monitor\n1:57 Loader on two wheels\n2:41 Rosie's cancer vaccine\n3:58 3D heart scan trainer\n4:33 A BMW gauge app\n5:14 Lululemon's $500M mirror\n6:00 Tesla screen on iPad\n6:36 Open source ManyChat\n7:10 Google's AI co-scientist\n7:56 A new printer driver\n8:28 Apartment in 3D\n8:54 A free Strava heatmap\n9:32 AI weather forecasts\n10:12 Tracking every power plant\n\n#AI #ClaudeCode #AIProjects",
+    "summary": "NextWork's presenter counts down 15 real, independently verified projects people built using Claude (and occasionally other AI tools) in 2026, framed as part 3 of an ongoing \"People Are Using Claude for Wild Things\" series. Several entries show AI turning otherwise-wasted hardware or data into working products: a man rebuilt a lapsed Whoop fitness band into a free heart monitor app (Open Vitals) after Claude helped him reverse-engineer its Bluetooth signal, another repurposed a spare iPad into a Tesla-style dashboard (Glass Dash) for an old car with a dead screen, and someone revived a Brother LaserJet printer abandoned since 2019 by having Claude Code write a replacement macOS driver from scratch (3,000+ lines).\n\nA cluster of stories involve personal or professional problem-solving: a cardiology trainee built a free 3D heart/x-ray viewer (Angio View) because no existing tool solved his own training problem; a BMW owner with zero coding experience got Claude to build a live OBD2 gauge app in about ten minutes; and a dog owner used ChatGPT, AlphaFold, and Grok to help design a personalized cancer vaccine for his terminally ill dog Rosie, which shrank her tumor 75% before the cancer ultimately returned — a result the presenter is careful to call unproven on its own since Rosie was on a concurrent treatment.\n\nThe video also covers larger-scale and institutional AI applications: Swiss researchers trained an AI in simulation to let a five-ton loader balance on two wheels (23/23 successful real-world attempts), Google's CoScientist agent system independently reproduced a decade of unpublished superbug research in two days and suggested a leukemia treatment that worked in lab tests, Europe's weather agency now runs an AI model the presenter says is about 1,000x more energy-efficient and 10x faster than its traditional forecasting system while beating it on temperature accuracy by roughly 20%, and the nonprofit Climate Trace uses satellites and AI to track emissions from over 11,000 power plants worldwide to stop operators under-reporting pollution.\n\nA recurring theme is that community members are already re-cloning these projects with Claude Code within a day or two of the original builds (the plane-sound geolocation trick and the Strava heatmap clone are both cited as rebuilt in hours), and every project featured has a corresponding free, step-by-step NextWork tutorial linked in the description for viewers to replicate it themselves.",
+    "why_valuable": "Gives someone evaluating what non-developers can realistically build with Claude and similar AI tools today a concrete, varied reference list — from a $0 heart-rate monitor and a free printer driver to a government-grade pollution tracker and a scientifically validated cancer-research shortcut — each attributed to a specific person's real build rather than a hypothetical, plus free step-by-step project links to replicate any of them, while flagging which results (the dog's tumor shrinkage, the AI weather model's accuracy) involve caveats the presenter explicitly calls out rather than treating every claim as fully proven.",
+    "key_takeaways": [
+      "A man reverse-engineered his lapsed Whoop fitness band's Bluetooth heart-rate signal with Claude's help (after a charging-cable approach failed) and built a free app, Open Vitals, to view the data without paying the subscription.",
+      "Google's CoScientist AI agent system independently reproduced a London team's unpublished decade of superbug-resistance research in two days and proposed existing drugs that worked against leukemia in lab tests when researchers followed up.",
+      "Swiss university researchers trained an AI in repeated simulation to control a 5-ton John Deere loader, which then balanced onto two wheels in the real world 23 out of 23 attempts — a trick only a handful of people have ever performed.",
+      "A dog owner used ChatGPT, AlphaFold, and Grok to help design a personalized cancer vaccine for his dog Rosie, shrinking her main tumor by 75%, though the presenter notes she was on a concurrent treatment too and the cancer eventually returned.",
+      "Europe's weather agency is running an AI forecasting model the presenter says uses about 1,000x less energy, runs 10x faster, and beats the traditional model's temperature accuracy by roughly 20%, while still not fully replacing it.",
+      "Someone had Claude Code write a full replacement macOS printer driver (3,000+ lines) for a Brother LaserJet that Brother stopped updating for Mac in 2019, restoring normal printer functionality including ink-level reporting.",
+      "The nonprofit Climate Trace, co-founded with Al Gore's support, uses satellites and AI to independently track pollution from over 11,000 power plants worldwide (data lagging about three months) so operators can't under-report emissions.",
+      "Several projects shown (the plane-sound geolocation trick, the Strava heatmap clone) were independently rebuilt by other people using Claude Code within a day or two of the original creator's build, illustrating fast reproducibility."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Found by plane sounds",
+        "source": "creator",
+        "description": "The narrator describes YouTuber Colso's method of identifying where a video was filmed by matching the Doppler-shifted hum of passing aircraft in its audio to public flight-path data, which let him trace random security footage to an exact camera in Oyster Bay, New York. A day later another person rebuilt the whole geolocation pipeline using Claude Code and got it working, and the presenter notes the original creator warned there are \"a hundred easier ways\" to find someone, calling the implication more unsettling than the technique itself."
+      },
+      {
+        "start_seconds": 62,
+        "timestamp": "1:02",
+        "title": "A Whoop heart monitor",
+        "source": "creator",
+        "description": "After collapsing in the street in London with unexplained chest pain, a man wanted to monitor his heart but didn't want to pay for a lapsed Whoop band subscription that was still silently tracking his data. He used Claude to reverse-engineer the band's Bluetooth heart-rate signal after a charging-cable approach failed, built a Mac app to capture it, and has since expanded it into a full app called Open Vitals for viewing the data."
+      },
+      {
+        "start_seconds": 117,
+        "timestamp": "1:57",
+        "title": "Loader on two wheels",
+        "source": "creator",
+        "description": "Swiss university researchers wanted autonomous five-ton John Deere loaders on building sites, but the machines' hydraulics are too unpredictable and dangerous to test trial-and-error in the real world. They trained an AI in repeated simulation until it learned the control policy, then transferred it to the real loader, which balanced up onto two wheels 23 out of 23 attempts on a stunt only a handful of people have ever pulled off."
+      },
+      {
+        "start_seconds": 161,
+        "timestamp": "2:41",
+        "title": "Rosie's cancer vaccine",
+        "source": "creator",
+        "description": "When his dog Rosie's tumor didn't respond to standard treatment, Paul — who works in AI but isn't a biologist — had ChatGPT outline a plan that led him to sequence Rosie's DNA, then used AlphaFold and Grok to analyze the results and design a personalized cancer vaccine with a partner lab, shrinking her main tumor by 75% (though she was on a concurrent treatment too). The cancer eventually returned and Rosie died in June, but Paul has since built a company helping other owners pursue similar personalized vaccines for their pets."
+      },
+      {
+        "start_seconds": 238,
+        "timestamp": "3:58",
+        "title": "3D heart scan trainer",
+        "source": "creator",
+        "description": "A cardiology trainee named Honest struggled to mentally convert flat 2D x-ray scans into a 3D picture of the heart and couldn't find an existing tool to help, so he had Claude build him one, called Angio View, that shows a rotatable 3D heart model alongside the matching x-ray that moves in sync. It's free to use, and the presenter highlights it as a case of the person who actually needed the tool being the one who built it."
+      },
+      {
+        "start_seconds": 273,
+        "timestamp": "4:33",
+        "title": "A BMW gauge app",
+        "source": "creator",
+        "description": "Rob, who owns a 2001 BMW and has no coding background, had Claude build him a live-gauge dashboard app in about ten minutes while sitting on his couch, which then told him to buy and plug in a $50 OBD adapter under the dash. The resulting app reads live engine data, pulls diagnostic error codes, and estimates horsepower in real time as he drives."
+      },
+      {
+        "start_seconds": 314,
+        "timestamp": "5:14",
+        "title": "Lululemon's $500M mirror",
+        "source": "creator",
+        "description": "Lululemon bought the smart-mirror fitness startup Mirror for $500 million, but after pandemic-era demand faded the company wrote the hardware off and units that once cost $1,500 now resell for a couple hundred dollars on Facebook Marketplace. One buyer used Claude Code to get inside the now-abandoned mirror's software and begin customizing it himself, a project the presenter says is still in progress."
+      },
+      {
+        "start_seconds": 360,
+        "timestamp": "6:00",
+        "title": "Tesla screen on iPad",
+        "source": "creator",
+        "description": "A man whose car's built-in screen had stopped working repurposed a spare iPad into a Tesla-style dashboard, vibe-coding an interface with maps, a 3D model of his car, music control, and live engine data pulled in through a small Bluetooth adapter. He calls the open project Glass Dash; the presenter notes a comparable professional screen install normally costs about $1,000."
+      },
+      {
+        "start_seconds": 396,
+        "timestamp": "6:36",
+        "title": "Open source ManyChat",
+        "source": "creator",
+        "description": "Frustrated that \"comment this word\" auto-reply campaigns rely on the paid ManyChat tool, a creator reverse-engineered the functionality into a free, open-source alternative called Open Reply. It runs directly on Meta's own API, avoiding third-party account-ban risk, and the project has since passed 3,000 stars on GitHub."
+      },
+      {
+        "start_seconds": 430,
+        "timestamp": "7:10",
+        "title": "Google's AI co-scientist",
+        "source": "creator",
+        "description": "Google's CoScientist system runs a team of AI agents that research a problem, argue out competing hypotheses, and hand a human researcher their best findings to test. A London team spent roughly a decade working out how superbugs transfer antibiotic resistance between each other without ever publishing their answer; CoScientist independently reached the same conclusion in two days and also proposed existing drugs that, when lab-tested, worked against leukemia — a result the presenter says left one researcher stunned enough to fall off his chair."
+      },
+      {
+        "start_seconds": 476,
+        "timestamp": "7:56",
+        "title": "A new printer driver",
+        "source": "creator",
+        "description": "Brother hadn't shipped a new Mac driver for a LaserJet printer since 2019, leaving it unusable on modern macOS. Its owner had Claude Code write a replacement driver from scratch, over 3,000 lines of code, that reports ink levels and was tested to match the official Brother driver's behavior, letting the printer show up and work normally again."
+      },
+      {
+        "start_seconds": 508,
+        "timestamp": "8:28",
+        "title": "Apartment in 3D",
+        "source": "creator",
+        "description": "A user reverse-engineered every smart device in his home — lights, AC, TV — and vibe-coded a live 3D model of his apartment that now lives in his Mac's menu bar; clicking an object in the model toggles the real device. He says the project started simply because he kept losing the AC remote."
+      },
+      {
+        "start_seconds": 534,
+        "timestamp": "8:54",
+        "title": "A free Strava heatmap",
+        "source": "creator",
+        "description": "To avoid paying roughly £9 a month for Strava's heatmap feature, a runner named Sam spent a few weeks hand-building his own Python system that shows pace, elevation direction, and heart-rate overlays on a running map. He published the code free on GitHub, and commenters say they've since rebuilt the same functionality from scratch using Claude Code in about two hours."
+      },
+      {
+        "start_seconds": 572,
+        "timestamp": "9:32",
+        "title": "AI weather forecasts",
+        "source": "creator",
+        "description": "Europe's weather agency now runs an AI forecasting model alongside its traditional one. The presenter reports it uses roughly 1,000 times less energy, runs about 10 times faster, and currently beats the conventional model's temperature accuracy by around 20%, though it still can't yet replace the full traditional system for every forecast type."
+      },
+      {
+        "start_seconds": 612,
+        "timestamp": "10:12",
+        "title": "Tracking every power plant",
+        "source": "creator",
+        "description": "A small nonprofit founded in 2019 combined satellite imagery and AI to independently track pollution output from power plants so operators couldn't under-report emissions. The resulting tool, Climate Trace, co-founded with support from Al Gore, now monitors over 11,000 power plants and other pollution sources worldwide, with data that lags real time by about three months."
+      }
+    ],
+    "first_detected_at": "2026-11-23T06:00:52+02:00",
+    "summarized_at": "2026-11-23T06:11:28+02:00"
+  },
+  {
+    "id": "gCHSEGBp8ME",
+    "title": "Higgsfield is a Scam. Use this FREE Tool Instead.",
+    "channel": "Nafay 3D",
+    "upload_date": "20261020",
+    "duration_seconds": 317,
+    "thumbnail": "https://i.ytimg.com/vi/gCHSEGBp8ME/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=gCHSEGBp8ME",
+    "description": "This video is not sponsored by anyone. All recommendations are my own.\n\nJoin my Free Email Newsletter: https://nafay-s-ai-brief.kit.com/ea1f1b6f14\n\nDisclaimer: This video reflects my personal opinion and experience as a creator. Words like \"scam\" describe how I feel about Higgsfield's pricing and marketing, not an accusation of fraud or illegal activity. Pricing, plan details, and other information shown are based on Higgsfield's public pricing page and publicly available reporting as of October 2026, and may have changed since. I encourage you to check the current terms yourself before buying any AI tool.\n\nIf you're using Higgsfield, you're probably frustrated with its expensive subscription plans. Fortunately, there are several AI video generators available online that offer similar features at a much lower cost—or even completely free.\n\nIn this video, we'll explore some of the most effective alternatives in the world of AI video generation and editing. These free AI tools can make your video creation workflow much easier.\n\nSubscribe to discover new AI tools every week, and let me know in the comments what topic you'd like me to cover next!",
+    "summary": "Nafay (Nafay 3D) speaks in Hindi throughout this video — this summary is drawn from YouTube's Hindi auto-captions rather than an English track, and a few tool/model names are uncertain because they were phonetically transliterated in the captions (what sounds like \"CDS 2.0\" most likely refers to ByteDance's Seedance 2.0 video model, and the presenter's spoken references transcribed here as \"Google Vids\" and \"ltx.io\" are not independently confirmed spellings). He opens by disclosing that nearly every creator is currently promoting Higgsfield, including paid offers made to him, which he turned down because he doesn't think the product's value matches its marketing spend.\n\nHis core argument is a price breakdown: Higgsfield's Starter plan costs $20/month for only 15 videos using the Seedance 2.0 model (which he says is owned by ByteDance, TikTok's parent company), while going directly to Seedance 2.0's official access point (which he calls Dreamina) gets 20 videos for $1.5 in a first-month promotion, rising to $15/month afterward — worse for Higgsfield even against Dreamina's regular, un-discounted price, which he also calls overpriced on its own. He makes a similar case against Higgsfield's Plus plan, noting its advertised $47 price is actually an annual rate equivalent to about $60/month for roughly 80 videos.\n\nAs direct paid alternatives, he recommends Kling AI's own website (about $10/month after a discounted first month for roughly 15-20 videos depending on settings, with a Pro tier adding a newer model and 3,000 credits) and a Google AI video tool, free for up to 10 videos/month with any Google account or $5/month for 50 videos — the one he says he personally uses for UGC-style ad creation.\n\nFor a completely free option, he points to open-source models that run locally on a decent gaming GPU: one he refers to as LTX, whose output he says is currently a step behind the paid tools but improving quickly, and Wan 2.0, which additionally generates matching audio alongside video. He recommends asking Claude or ChatGPT for a step-by-step local setup guide for either, and closes by urging viewers to verify pricing themselves rather than trust sponsored recommendations at face value.",
+    "why_valuable": "Helps someone shopping for an AI video generator decide whether Higgsfield is worth its subscription price, by giving the presenter's own per-video cost comparison against Seedance 2.0's official access point, Kling AI's direct pricing, a free/low-cost Google AI video tool, and two free local open-source models (LTX, Wan 2.0) — while flagging that these are the presenter's opinions and October 2026 pricing snapshots (he says so explicitly in his own on-screen disclaimer) rather than independently verified figures, and that some tool names in this summary carry transliteration uncertainty because the source is Hindi auto-generated captions.",
+    "key_takeaways": [
+      "The presenter says Higgsfield's Starter plan costs $20/month for 15 Seedance 2.0 videos, while going directly to Seedance 2.0's official platform costs $1.5 for 20 videos in a first-month promotion before rising to $15/month — worse value for Higgsfield even against the full, un-discounted price.",
+      "He says Higgsfield's Plus plan is advertised at $47 but is actually billed annually, working out to roughly $60/month for about 80 videos.",
+      "As a cheaper paid alternative he recommends Kling AI's own website directly: about $10/month after a discounted first month for roughly 15-20 videos depending on quality/length settings, with a Pro tier adding 3,000 credits and a newer model.",
+      "He also recommends a Google AI video tool, free for up to 10 videos/month with any Google account, or $5/month for 50 videos, which he says he personally uses for UGC-style ad generation.",
+      "For a zero-cost option, he points to open-source local models — one he calls LTX (currently a step behind paid tools in quality, but improving) and Wan 2.0 (which also generates matching audio) — both runnable on a personal computer with a decent graphics card.",
+      "His stated disclaimer: pricing and plan details are based on Higgsfield's public pricing page as of October 2026 and may have changed, and his use of the word \"scam\" reflects personal opinion about pricing/marketing rather than an allegation of fraud."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Why He Skipped the Higgsfield Sponsorship",
+        "source": "generated",
+        "description": "Nafay opens by saying nearly every creator on YouTube and Instagram is currently promoting Higgsfield, including offers made to him, but he turned the sponsorship down because he doesn't think the platform gives good value for its price. He argues its popularity comes mainly from heavy marketing spend rather than product value, and previews cheaper or free alternatives that he says deliver similar results."
+      },
+      {
+        "start_seconds": 51,
+        "timestamp": "0:51",
+        "title": "Breaking Down Higgsfield's Pricing",
+        "source": "generated",
+        "description": "He walks through Higgsfield's Starter plan, which gives 270 credits per month (enough for 135 Nano Banana image creations, which he notes is free anyway with a Gemini membership) but costs $20/month for only 15 Seedance 2.0 videos — a model he says is owned by ByteDance, TikTok's parent company. Comparing that to Seedance 2.0's official access point, he shows $1.5 gets 20 videos in the first month (rising to $15/month after), concluding Higgsfield is worse value even against that discounted price, and that he wouldn't personally recommend the official site at its regular $15 price either."
+      },
+      {
+        "start_seconds": 112,
+        "timestamp": "1:52",
+        "title": "Higgsfield's Plus Plan Math",
+        "source": "generated",
+        "description": "He breaks down Higgsfield's Plus tier, pointing out the advertised $47 price is actually billed annually and works out to about $60 per month. For that, subscribers get roughly 80 videos, a ratio he again argues isn't competitive with the alternatives he's about to show."
+      },
+      {
+        "start_seconds": 128,
+        "timestamp": "2:08",
+        "title": "Cheaper Paid Alternatives: Kling and a Google Video Tool",
+        "source": "generated",
+        "description": "As a first alternative he points to Kling AI's own website, where video generation costs about $10/month after an initial discounted month and yields roughly 15-20 videos depending on chosen quality and length, calling it noticeably better value than Higgsfield's Seedance pricing, with Kling's Pro tier adding a newer model and 3,000 generation credits. He also recommends a Google AI video tool, accessible free with any Google account for up to 10 AI-generated videos per month or a $5/month plan for 50 videos, which he personally uses for UGC-style ad creation and plans to cover in a dedicated tutorial soon."
+      },
+      {
+        "start_seconds": 206,
+        "timestamp": "3:26",
+        "title": "Free Local Open-Source Models",
+        "source": "generated",
+        "description": "His final recommendation is running open-source video models directly on a personal computer with a decent graphics card, at zero ongoing cost: he points to a model he refers to as LTX, acknowledging its output quality is a step below the paid options today but arguing it will keep improving, and to Wan 2.0, a comparable local model that also generates matching audio alongside video so creators don't need a separate audio-generation step. He suggests asking Claude or ChatGPT for a full step-by-step setup guide for either model, and closes by urging viewers to research pricing themselves rather than trust every sponsored recommendation, plus promoting his free weekly AI newsletter."
+      }
+    ],
+    "first_detected_at": "2026-11-23T06:00:52+02:00",
+    "summarized_at": "2026-11-23T06:11:28+02:00"
+  },
+  {
+    "id": "YD8uRumP8cM",
+    "title": "How to Build a 1-Person Business with AI Agents",
+    "channel": "Dan Martell",
+    "upload_date": "20261118",
+    "duration_seconds": 1860,
+    "thumbnail": "https://i.ytimg.com/vi/YD8uRumP8cM/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=YD8uRumP8cM",
+    "description": "✅ Get Your FREE AI Company Operating System here: https://go.danmartell.com/ai-operating-system-lf-755\n\n🔥 Join the waitlist for Apex: https://go.danmartell.com/apex-waitlist-lf-755\n\nA lot of business owners still treat hiring a massive team as the only way to grow. That used to be true. It isn't the only path now.\n\nIn this video, I show you how to build a one-person business with AI agents: what to build, and which agents to create, so you can grow without becoming the bottleneck.\n\nYou don't need a bigger team to get your time back. You need agents that actually do the job, not ones you have to babysit.\n\nApex is a Martell Ventures company.\n\nPrompts from the video:\n\nInbox rules:\n\"Scan my inbox and look at every reply I've sent. Come up with the rules I follow, then set up a filtered inbox using those rules.\"\n\nInbox drafts:\n\"Look at my email and process my inbox. Draft responses as me, in my voice (pulling from emails I've already written). Don't send it, and leave placeholders for me to fill in any details you don't have.\"\n\nDelivery interview:\n\"Interview me one question at a time about how I deliver my work, from the moment a client pays to their first win. Then list every step, mark which ones need me, and build a plan to automate the rest.\"\n\nSupport FAQ:\n\"Read the last 90 days of my support inbox. Find the questions I'm answering over and over, group them, and write an FAQ answering the top 10 (use real information from those threads). Then, for each one, tell me the process or onboarding that would have stopped the question from ever being asked.\"\n\nContent topics:\n\"Act as a viral content topic finder. My niche is [niche]. Give me 10 topics built on real, observable, nuanced problems for people in my niche. Make them feel novel, not cliche, and easy to explain in 7th grade English. Then build scripts for these as short videos.\"\n\nSales role-play:\n\"Call me and run a sales call as my ideal client. Then review the transcript: what percentage did I talk versus listen, which of my sales steps did I skip, and how should I handle the objections I fumbled?\"\n\nObjection scripts:\n\"I need to close more deals from sales calls. Analyze these call transcripts and pull out all the objections that the prospect raises. Group common ones together, and then propose the best way to handle each objection. Build the script for me.\"\n\n▸▸ Subscribe to The Martell Method Newsletter: https://bit.ly/3XEBXez\n\n▸▸ Get My New Book (Buy Back Your Time): https://bit.ly/3pCTG78\n\nIG: @danmartell",
+    "summary": "Dan Martell argues the next wave of large companies won't be built by big teams but by single founders directing AI agents, citing one of his own Martell Ventures companies that hit $1.2M in recurring revenue with one founder, two part-time contractors, and agents doing 99% of the work. He insists the first step isn't building agents at all but finding a real \"painkiller\" problem — he has founders prompt AI to generate 50 specific, observable pain points for a target customer, narrow to the top three, then message prospects asking for advice (not a sale), arguing a sales conversation emerges naturally once the right problem is confirmed.\n\nHe structures the rest of the video around his \"Replacement Ladder\" (from his book Buy Back Your Time, adapted for AI agents), where every agent needs four elements: \"data equity\" (the business's unique historical information), a blueprint of rules, a schedule, and a sensor that reports back on what it did. The first rung is an inbox/calendar agent trained on a person's own past email replies to draft responses in their voice, with human review before sending; he illustrates this with a support staffer who cleared a backlogged inbox overnight once an agent took over triage.\n\nThe second rung is a delivery/onboarding agent, illustrated by a software company where unnoticed manual onboarding work (about 10 hours per customer) caused a backlog serious enough that customers started cancelling before automation fixed it; the prompt he gives has the AI interview the founder step-by-step about their fulfillment process and mark which steps can be automated. The third rung, marketing, deliberately comes after inbox and delivery so a business isn't overwhelmed by leads it can't yet serve, and uses existing customer data to find similar prospects on social platforms while tracking the funnel from lead to sale.\n\nThe fourth rung, sales, keeps the final \"close\" human but hands qualification, follow-up, and CRM logging to an AI voice agent — in one case recovering about 20 hours a week for a CEO previously spending 50 hours on calls by having the agent pre-screen leads and cancel meetings with people unlikely to buy. Martell's final argument is that these agents only compound in value once they share one connected memory layer across email, calendar, calls, and CRM (he points to his own product, Apex, as one implementation, but says the approach works with any AI tool), so that insights from one agent — like recurring sales objections — automatically flow to others, like the marketing agent planning next week's content, and switching AI vendors doesn't mean losing that accumulated context.",
+    "why_valuable": "Gives a solo founder or small-team operator a concrete sequencing plan — inbox, then delivery, then marketing, then sales, each hung on the same data/blueprint/schedule/sensor template — for deciding which parts of running a business to hand to AI agents first and in what order, backed by Martell's own specific prompts and real examples (a support rep's overnight inbox clearout, a CEO recovering 20 hours/week on sales calls, a software company's onboarding backlog) rather than abstract advice, while making clear that these are his own clients'/companies' results and that the final \"close\" in sales is explicitly meant to stay human, not automated away.",
+    "key_takeaways": [
+      "Martell says one of his Martell Ventures companies hit $1.2M in annual recurring revenue with just one founder, two part-time contractors, and AI agents doing 99% of the work — contrasted with his own earlier company that did $1.6M in revenue with 20 staff and heavy stress.",
+      "His \"Replacement Ladder for AI\" sequences agent-building as inbox → delivery → marketing → sales, deliberately building marketing and sales capacity only after inbox and delivery are automated, so new leads don't overwhelm an unprepared business.",
+      "Every agent needs four components in his framework: \"data equity\" (the business's unique historical data), a blueprint of rules to follow, a defined schedule, and a \"sensor\" that reports what it did back to the owner.",
+      "He gives a specific inbox-agent prompt — \"Scan my inbox and look at every reply I've sent, come up with the rules I follow, then set up a filtered inbox using those rules\" — plus a draft-response prompt that leaves placeholders for missing details rather than auto-sending.",
+      "In one case study, an AI voice agent pre-qualified every new sales lead by phone and cancelled meetings with unlikely buyers, recovering about 20 hours a week for a CEO who had been spending 50 hours weekly on sales calls, while the final close stayed human.",
+      "He argues agents underperform when siloed — recurring sales objections should automatically feed the marketing agent's next content topics — and recommends centralizing email, calendar, calls, CRM, and documents into one shared \"brain\" so switching AI tools (Claude, ChatGPT, Grok) doesn't lose accumulated business context.",
+      "For marketing, his suggested daily routine is having the agent surface roughly 10 new qualified leads per morning directly to the inbox, refining lead quality over time based on explicit feedback about what makes a lead \"not good.\"",
+      "He frames AI as only able to replace tasks, not a founder's vision — the stated goal of the whole framework is buying back time toward that vision, not eliminating the founder's role."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Pain Killer vs Vitamin: Finding the Real Problem First",
+        "source": "generated",
+        "description": "Dan Martell opens by contrasting his own early stressed-out company (20 staff, $1.6M revenue) with one of his current Martell Ventures companies that hit $1.2M in recurring revenue with one founder, two part-time contractors, and AI agents doing 99% of the work. He argues the first mistake most people make is building a product before identifying who has real, painful problems (\"painkillers,\" not \"vitamins\"), and walks through a method: have AI generate 50 specific, observable pain points for a target customer, narrow to the top three, message 10 of those people asking for advice rather than a sale, and let the resulting conversations reveal the actual offer to build."
+      },
+      {
+        "start_seconds": 196,
+        "timestamp": "3:16",
+        "title": "The Replacement Ladder and Building the Inbox Agent",
+        "source": "generated",
+        "description": "He introduces his \"Replacement Ladder\" framework (from his book Buy Back Your Time) adapted for AI, starting with the inbox/calendar agent, and gives the example of a customer-support employee who was overwhelmed by email until an agent trained on her past replies cleared her backlog by 10am the next day. He defines the four components every agent needs — \"data equity,\" a blueprint of rules, a schedule, and a \"sensor\" that reports back on its activity — and gives exact prompts for having an agent learn reply patterns, draft responses in the user's voice with placeholders, and improve itself by comparing drafts to what was actually sent."
+      },
+      {
+        "start_seconds": 679,
+        "timestamp": "11:19",
+        "title": "Building the Delivery Agent",
+        "source": "generated",
+        "description": "Martell describes a software-company owner who didn't realize onboarding was quietly taking 10 hours of staff time per customer until the backlog caused customers to wait 10-20 days and start cancelling; once automated, AI began calling customers, running intake forms, scheduling, and following up. He gives the delivery agent's data-equity/blueprint/schedule/sensor breakdown, including a specific prompt that has the AI interview the business owner step-by-step about their fulfillment process and automatically flag which steps still need a human versus which can be handed to the agent."
+      },
+      {
+        "start_seconds": 1066,
+        "timestamp": "17:46",
+        "title": "Building the Marketing Agent",
+        "source": "generated",
+        "description": "He explains why marketing agents come third on the ladder (so a business isn't overwhelmed by leads it can't yet handle) and describes having the agent use existing customer intake data to find similar prospects on platforms like Instagram, Facebook groups, and X, surfacing contact details and context so outreach can start. For the schedule and sensor, he recommends a daily quota of new leads delivered to the inbox and a dashboard tracking the funnel from lead to qualified call to purchase, plus a separate prompt for generating viral short-video content ideas grounded in specific, non-generic customer pain points."
+      },
+      {
+        "start_seconds": 1301,
+        "timestamp": "21:41",
+        "title": "Building the Sales Agent",
+        "source": "generated",
+        "description": "Using a case where one of his CEOs was spending 50 hours a week on sales calls, Martell describes building an AI voice agent that pre-qualifies every new lead by phone before it reaches the human closer, canceling meetings with people who were never going to buy and recovering roughly 20 hours a week while still closing deals with actual buyers. He frames the human \"close\" as the one step that should stay human, while the sales agent's blueprint should include both coaching (running mock sales calls and critiquing the user's performance) and execution (follow-ups, no-show rebooking, and logging buyer information directly into the CRM)."
+      },
+      {
+        "start_seconds": 1628,
+        "timestamp": "27:08",
+        "title": "One Shared Brain Connecting Every Agent",
+        "source": "generated",
+        "description": "Martell argues each agent is only as good as the business-specific data it has access to, and that without a shared memory layer, insights gathered by one agent (like recurring sales objections) never reach the agents that could use them (like the marketing agent planning next week's content). He describes centralizing email, calendar, calls, CRM, and documents into one connected \"brain\" — he uses his own product, Apex, but says any AI tool can be wired to it — so that switching between Claude, ChatGPT, or Grok doesn't mean losing accumulated context, and closes by arguing that AI can replace tasks but not a founder's vision, positioning the whole Replacement Ladder as a way to reach that vision faster with far fewer people."
+      }
+    ],
+    "first_detected_at": "2026-11-23T06:00:52+02:00",
+    "summarized_at": "2026-11-23T06:11:28+02:00"
+  },
+  {
     "id": "TtOoLanFzGw",
     "title": "Why AI Has DHH Working 16-Hour Days",
     "channel": "a16z",
