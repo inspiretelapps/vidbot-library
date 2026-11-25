@@ -9,8 +9,104 @@
     "20:30"
   ],
   "timezone": "Africa/Johannesburg",
-  "updated_at": "2026-11-23T12:06:58+02:00",
+  "updated_at": "2026-11-25T06:04:03+02:00",
   "videos": [
+    {
+      "id": "zUZ35iW8ec4",
+      "title": "The 7 Biggest AI Shifts Heading Into 2027 (And What to Do Now)",
+      "channel": "Tristen O'Brien",
+      "upload_date": "20261124",
+      "duration_seconds": 778,
+      "thumbnail": "https://i.ytimg.com/vi/zUZ35iW8ec4/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zUZ35iW8ec4",
+      "description": "The AI skills you learned in 2026 won't be enough for 2027.\n\nThis year, AI agents started doing the work for us. That means in 2027, the people who pull ahead won't just be using AI tools. They'll be running AI like a team. In this video, I walk you through the 7 AI skills you need to stay relevant in 2027, how to use AI agents in real life, and how you can start on each skill this week. And by the end, you're going to realize you just got promoted. Literally.\n\nBy the end of this video, you'll know:\n\n✅ How to hand off work to an AI agent and come back to it finished\n✅ How to build your own tools when the app you need doesn't exist\n✅ How AI can now use your computer for you (and what it can see when it does)\n✅ Where your data actually goes, and the 3 settings to check this week\n✅ How to promote your AI from intern to manager to director\n✅ Why jumping from tool to tool is holding you back\n✅ How I run 150+ AI agents as a Chief Human Officer, and how you can start with one\n\nWhether you use Claude, ChatGPT, Gemini, or Grok, every one of these skills works for you. No code required.\n\nIf you want to learn AI, stay ahead at work, or future-proof your career in 2027, start here.\n\n⏱️ CHAPTERS\n0:00 Why your 2026 AI skills won't be enough\n0:29 Skill 1: Wake up to finished work\n2:23 Skill 2: If you need a tool, build it\n4:33 Skill 3: Let AI use your computer\n6:30 Skill 4: Know what AI does with your data\n7:48 Skill 5: Promote your AI\n9:13 Skill 6: Master one AI platform\n10:23 Skill 7: Become the chief human officer\n11:05 My team of 150+ AI agents\n12:21 Recap\n\n📺 WATCH NEXT\nThe 6 NEW Claude Features to Get You Ahead of 99% in 2027\nhttps://www.youtube.com/watch?v=HD02f3-3c7E&t=4s\n\n🔗 TOOLS I USE\nHiggsfield: what I use for AI images, video, and voice\nhttps://www.higgsfield.ai/?fpr=tristen15\n(Some links are affiliate links. If you use them, I may earn a small commission at no extra cost to you.)\n\n🔔 SUBSCRIBE for a new AI video every week, built for people who don't write code.\n\nMy free prompt library: https://tristenobrien.ai\n\nSome of the tools in this video are still in preview or have waitlists, and features can depend on your plan and region. Always check your own AI's privacy settings, and follow your company's AI policy at work.\n\n#AISkills #AIAgents #FutureOfWork #Claude #ChatGPT #Gemini #Grok #LearnAI #AI2027",
+      "summary": "Tristen O'Brien argues the chatbot skills people picked up through 2026 are already outdated because 2026 was the year autonomous agents started finishing tasks without supervision, and frames 2027 as a shift from using AI like a tool to running it like a team. He names the specific personal-agent products that shipped in late 2026 — OpenAI's Dot, xAI's Grokbot, Anthropic's Claude agent (which he calls \"Claude Duet\"), and Meta's Muse — all cloud-hosted rather than running on your own machine, and demos giving the same five tasks to three of them to show each one independently acknowledging and completing work. His recommended habit is handing an agent tomorrow's to-do list before bed so finished work is waiting at wake-up, noting that Claude's and ChatGPT's existing cloud/background modes work for this even without a dedicated personal-agent product.\n\nHe then pitches \"software for one\": using Claude Code or ChatGPT Codex to build single-purpose tools from a plain-language description instead of settling for a bloated, ad-filled, or subscription-gated app. His own demoed Chrome extension bundles six such tools, the standout being \"Shrink,\" which compressed a 24MB thumbnail image down to under 3MB — an 89% reduction — to get past Gmail's attachment size limit. He pairs that with \"computer use\": Claude, ChatGPT and Gemini moving the mouse and operating real desktop apps rather than only giving instructions to follow, demonstrated by handing Claude a photo of a receipt and asking it to register a product warranty, where the agent read the receipt, navigated the site, and paused mid-task to ask how he wanted to sign in before finishing. His stated verdict is that the real skill isn't knowing the feature exists but exercising judgment about what access to grant — he says he'd never give this kind of screen control to banking or sensitive files, but considers it fine for warranties, scheduling, or app settings.\n\nOn privacy, he recommends a roughly five-minute check of three settings on whichever AI tool you use most: whether conversations are used for training, what the system remembers about you, and which apps it's connected to, flagging that disabling training changes things going forward only and doesn't undo data already used. He then proposes a three-tier trust model for agents — intern (every output must be checked before use), manager (acts but returns for approval first, as in the warranty demo), and director (more autonomy, though a human stays in charge regardless) — alongside a related recommendation against platform-hopping: pick one AI as a home base so it accumulates context about you, while still sampling competitors' free tiers to stay a generalist rather than paying for everything.\n\nHe closes by reframing the earlier \"promote your AI\" idea into the viewer getting promoted: moving from chatting with a single assistant to becoming a \"chief human officer\" leading a team of AI agents, management experience or not. As a self-reported, unverified example of scale, he says he personally runs more than 150 AI agents organized into 13 \"director\"-level agents spread across four virtual \"villages,\" coordinated through a chief-of-staff agent he calls Matt who routes requests to the right director. His closing advice scales that down sharply for viewers — draw an org chart of life areas like your inbox, side hustle, or learning, assign one small task to a single AI helper for a week, and only add a chief-of-staff layer once a team actually grows — and he explicitly tells viewers not to attempt all seven skills before January, recommending they start with just one.",
+      "why_valuable": "Helps you decide which near-term AI-agent features (always-on cloud agents, AI-built single-purpose tools, computer-use automation) are worth adopting first in 2027 and with how much trust, by giving a concrete intern/manager/director framework for deciding how much autonomy to hand any one agent, a five-minute privacy-settings checklist to run on your current AI tool, and a scaled-down starting action (one life area, one helper, for one week) instead of an all-or-nothing adoption plan.",
+      "key_takeaways": [
+        "At 0:54–1:00, O'Brien names the 2026 personal-agent launches he's tracking: OpenAI's Dot, xAI's Grokbot, Anthropic's Claude agent (he calls it \"Claude Duet\"), and Meta's Muse — all cloud-based rather than running on the user's own computer.",
+        "At 3:49–4:06, his demoed \"Shrink\" Chrome-extension tool compressed a 24MB thumbnail image to under 3MB, an 89% size reduction, specifically to get past Gmail's attachment size limit.",
+        "At 5:12–6:28, he shows computer-use AI (Claude) taking over his screen from a photo of a receipt to actually register a product warranty, pausing mid-task to ask how he wanted to sign in before completing the form.",
+        "At roughly 6:35–7:30, his data-hygiene action step is a five-minute check of three settings on your main AI tool: whether it trains on your data, what it remembers about you, and which apps it's connected to — noting that turning off training only changes things going forward, not retroactively.",
+        "Around 8:00–9:10, he proposes a three-tier agent trust model — intern (fully check everything), manager (acts but returns for approval first), director (more autonomy) — and stresses a human stays in charge at every tier, including director.",
+        "At 9:13–10:20, his advice against platform-hopping is to pick one AI as a home base for accumulated personalization while still sampling competitors' free tiers, and to literally ask your main AI \"based on everything you know about me, what should I be using you for that I'm not?\"",
+        "At 11:05–11:30, he claims (self-reported, unverified) to run 150+ AI agents organized into 13 director-level agents across four virtual \"villages,\" coordinated through a chief-of-staff agent he calls Matt.",
+        "At 12:40–12:55, his closing recommendation is not to attempt all seven skills before January — start with just one to build momentum."
+      ],
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "timestamp": "0:00",
+          "title": "Why your 2026 AI skills won't be enough",
+          "source": "creator",
+          "description": "O'Brien opens by claiming the skills workers picked up with AI chatbots in 2026 are already outdated because 2026 was the year autonomous agents started finishing tasks without someone watching them work. He frames the needed shift bluntly: instead of treating AI as a tool you operate step by step, 2027 requires treating it like a team you manage, and he previews the seven specific skills he will walk through, promising viewers will feel \"promoted\" by the time the video ends."
+        },
+        {
+          "start_seconds": 29,
+          "timestamp": "0:29",
+          "title": "Skill 1: Wake up to finished work",
+          "source": "creator",
+          "description": "He names the new \"personal agent\" products each major AI lab shipped in late 2026 — OpenAI's Dot, xAI's Grokbot, Anthropic's Claude agent he calls \"Claude Duet,\" and Meta's Muse — and demonstrates giving the same five tasks to three of them side by side, showing each acknowledging the job and working in the cloud rather than a chat window. His practical recommendation is handing your agent tomorrow's to-do list at the end of the day so finished work is waiting when you wake up, and he notes you don't strictly need a dedicated agent product since Claude and ChatGPT already offer cloud/background task modes that keep working after you close the laptop."
+        },
+        {
+          "start_seconds": 143,
+          "timestamp": "2:23",
+          "title": "Skill 2: If you need a tool, build it",
+          "source": "creator",
+          "description": "O'Brien introduces \"software for one\" — single-purpose apps built just for yourself instead of settling for bloated, ad-filled, or subscription-gated apps — and says tools like Claude Code and ChatGPT Codex can now build these from a plain description. He demos his own Chrome extension, \"Tristan's Tools,\" bundling six custom utilities including a screenshot-to-text reader, a link-to-QR-code generator, a tab organizer that sorted his open tabs into eight groups, and an image compressor called Shrink that shrank a 24MB thumbnail to under 3MB, an 89% reduction, to get past Gmail's attachment limit. His advice is to describe one small annoyance to your AI and tell it to ask clarifying questions first before building."
+        },
+        {
+          "start_seconds": 273,
+          "timestamp": "4:33",
+          "title": "Skill 3: Let AI use your computer",
+          "source": "creator",
+          "description": "He distinguishes \"computer use\" from the cloud personal agents covered in skill one: Claude, ChatGPT and Gemini can now literally move the mouse and click through real desktop apps, not just browser tabs. He demonstrates this by handing Claude a photo of a receipt for a screen protector and asking it to register the warranty — Claude reads the receipt, navigates to the warranty site, pauses to ask how he wants to sign in, then finishes the form. The lesson he draws is about judgment rather than the technology itself: he says he'd never grant this kind of screen access to banking or sensitive files, but is comfortable using it for low-stakes tasks like warranty registration, scheduling, or app settings."
+        },
+        {
+          "start_seconds": 390,
+          "timestamp": "6:30",
+          "title": "Skill 4: Know what AI does with your data",
+          "source": "creator",
+          "description": "With AI now plugged into email, files and even full computer control, O'Brien argues understanding data handling becomes a necessary 2027 skill rather than optional caution. He recommends spending about five minutes checking three settings on whichever AI tool you use most: whether conversations are used for training, what the system remembers about you, and which apps it's connected to — and if you can't find a setting, just ask the AI directly. He flags one important caveat: turning off training-data sharing changes things going forward but doesn't undo data already used."
+        },
+        {
+          "start_seconds": 468,
+          "timestamp": "7:48",
+          "title": "Skill 5: Promote your AI",
+          "source": "creator",
+          "description": "O'Brien proposes a three-tier trust framework for AI agents: every new agent starts as an \"intern\" whose work must be fully checked before you use it, can be promoted to \"manager\" once it proves itself (where it acts but must return for approval before finishing, like Claude pausing mid-warranty-registration to ask how to sign in), and in rare cases reaches \"director\" level with more autonomy to act on its own. He stresses that even a director-level agent is never fully unsupervised — a human stays in the loop regardless of tier — and his action item is to pick one agent you already use and honestly rate which tier it has actually earned, defaulting to intern if unsure."
+        },
+        {
+          "start_seconds": 553,
+          "timestamp": "9:13",
+          "title": "Skill 6: Master one AI platform",
+          "source": "creator",
+          "description": "He warns against the common 2026 habit of switching between Claude, ChatGPT, Gemini and Grok every time one ships a new model, arguing each platform switch resets the personalization and context the tool had built up about you. His recommendation is to pick one AI as your home base and go deep with it while still occasionally trying competitors' free tiers so you stay a generalist and know what else is available when needed. His concrete action step is to ask your main AI tool, \"based on everything you know about me, what should I be using you for that I'm not?\" and expect a surprising answer."
+        },
+        {
+          "start_seconds": 623,
+          "timestamp": "10:23",
+          "title": "Skill 7: Become the chief human officer",
+          "source": "creator",
+          "description": "Having covered promoting your AI agents in skill five, O'Brien flips the frame: in 2027 you get the promotion too, moving from being a single chatbot user to becoming the \"chief human officer\" of a team of AI employees, regardless of whether you've ever managed people before. He contrasts 2026, where most people had one AI assistant they chatted with directly, against 2027, where the people getting ahead run multiple AI agents across different parts of their life and lead rather than execute — giving direction, checking work, and making the final call instead of doing every task themselves."
+        },
+        {
+          "start_seconds": 665,
+          "timestamp": "11:05",
+          "title": "My team of 150+ AI agents",
+          "source": "creator",
+          "description": "O'Brien gives concrete, self-reported numbers from his own setup: he has built more than 150 AI agents, organized into 13 \"director\"-level agents spread across four virtual \"villages,\" with a chief-of-staff agent named Matt who receives his requests and routes them to the right director, who in turn manages worker agents reporting back up the chain. His practical starting point for viewers is far smaller than his own system — draw an org chart of life areas like your inbox, side hustle or learning, assign one small task to a single AI helper for a week, and only add a chief-of-staff layer once the team of agents actually grows."
+        },
+        {
+          "start_seconds": 741,
+          "timestamp": "12:21",
+          "title": "Recap",
+          "source": "creator",
+          "description": "O'Brien closes by compressing the year-over-year shift into one line — this year you learned about AI, next year you need to manage it — and re-lists the headline moves: hand off finished work overnight, build your own single-purpose tools, let AI operate your computer directly, and become the chief human officer of an AI team, while repeating that checking each tool's data and privacy settings matters just as much as the productivity gains. He tells viewers not to attempt all seven skills by January, recommends starting with just one to build momentum, and points to a companion video on new Claude features that enable several of these skills."
+        }
+      ],
+      "first_detected_at": "2026-11-25T06:00:52+02:00",
+      "summarized_at": "2026-11-25T06:04:00+02:00"
+    },
     {
       "id": "bQCBfcZZj0Y",
       "title": "Claude Can Now Prove Your Code Works",
