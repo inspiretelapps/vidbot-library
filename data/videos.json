@@ -1,5 +1,130 @@
 [
   {
+    "id": "LE7vjHxGYCQ",
+    "title": "I Tested All 7 Levels of Claude Skills (Agents Are Dead)",
+    "channel": "Jon Mac AI",
+    "upload_date": "20261126",
+    "duration_seconds": 849,
+    "thumbnail": "https://i.ytimg.com/vi/LE7vjHxGYCQ/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=LE7vjHxGYCQ",
+    "description": "Master AI video with Claude + all my skills, prompts and files. Only $9.\n👉 https://jonmac.ai/levels\n\nMost people try to get more out of AI by building more and more agents. But Anthropic's own engineers say they stopped building a new agent for every single task, because one good agent like Claude Code can already do real work across a ton of different fields. What's usually missing isn't another agent. It's your know-how, and that's exactly what a skill hands it.\n\nIn this video, I walk through the 7 levels of using Claude skills, including what a skill actually is, why one skill-maxed agent beats a pile of agents you have to babysit, and how to let Claude's skill creator write skills for you. I also show you how to turn a job you've done once into a reusable skill, record your screen so Claude learns a task, use skills other people have already built, and know when to use no skills at all.\n\nGet all my Claude skills for making AI videos:\n👉 https://jonmac.ai/levels\n\nTimestamps:\n0:00 - Anthropic's Engineers Stopped Building Agents\n1:03 - Why Fewer Agents Win\n1:55 - What a Skill Actually Is\n3:31 - One Agent, Skill-Maxed\n4:16 - How Skills Have Changed\n5:08 - Level 0: Writing a Skill by Hand\n5:21 - Level 1: Letting Claude Build Your Skills\n6:08 - Level 2: Do It Once, Then Skillify It\n7:29 - Level 3: Record Your Screen and Claude Learns It\n8:36 - Level 4: Skills That Aren't Just Steps\n10:32 - Level 5: Using Skills Others Have Built\n11:37 - Level 6: Sometimes Use No Skills at All\n13:52 - Recap",
+    "summary": "**One well-skilled agent beats a fleet:** Jon Mac argues, citing Anthropic engineer Barry Jiang, that a year after Claude Skills launched, Anthropic's own team stopped building a new agent for every task because one general agent like Claude Code already handles a wide range of work — what's usually missing is the user's own know-how, which a skill supplies instead. He frames the alternative, running dozens or \"100 agents\" the way some people online brag about, as a management nightmare, arguing a small set of well-skilled agents beats a large undertrained fleet, and ties this to Anthropic's own architecture picture, which places skills as an outer layer wrapped around a single agent harness (system prompts plus your CLAUDE.md and memory) sitting on top of the same base model everyone already has access to.\n\n**Skills are folders, and the format has gone open standard:** Mechanically, a skill is just a folder whose SKILL.md markdown file has a name and description that act as a label Claude scans first to decide whether the skill fits the request; everything else inside — written steps, templates, or small scripts — only gets read once that label matches. Skills launched in October of the prior year and, in the roughly twelve months since, have become an open standard also adopted by Cursor, Codex, and GitHub Copilot, so a skill built for Claude keeps working even if the user switches tools, while typical usage has shifted from rigid standard-operating-procedure checklists toward much richer and more varied formats.\n\n**Levels zero through three, from hand-writing to screen recording:** Jon says writing a skill entirely by hand (\"Level 0\") is the method he never recommends because it is slow; \"Level 1\" is letting Claude's built-in Skill Creator tool generate the skill from a description, which he suggests making the default for every new skill so it follows Anthropic's own best practices. \"Level 2,\" his preferred method for most people, is doing a task once alongside Claude while correcting it like training a new hire, then asking it to package that session into a skill with Skill Creator so each future run, and every new edge case, keeps sharpening it further. \"Level 3\" records your screen with narration of what you click and why for tasks Claude can't otherwise learn, such as logging into a supplier's website with no built-in connector, so Claude can learn to drive the browser and click the same buttons itself.\n\n**Levels four through six, and the warning against \"hobbling\":** \"Level 4\" reframes skills beyond step lists into database skills (links to customer records such as purchase and messaging history), artifact skills (a locked design system of brand colors and fonts), tiny definition skills that pin down a single word's meaning, and one-line prompt skills like a \"grill me\" interview skill. \"Level 5\" is using pre-built skills from Anthropic's in-app directory, which includes partner skills from Notion, Figma, and Atlassian, or third-party catalogs like Vercel's skills.sh, vetted for safety and then customized before use. \"Level 6,\" credited to Claude Code lead Boris Cherny, is deliberately testing with no skills at all every so often — clearing CLAUDE.md, skills, and hooks to see what a newer model does unprompted — because detailed instructions written for older, less capable models can \"hobble\" a smarter one; Jon notes the Claude Code team itself cut a large share of its own system prompt for exactly this reason, and recommends running the same task with and without a skill to compare the results directly.",
+    "why_valuable": "Helps Claude Code / AI-agent builders decide whether to keep multiplying separate agents or consolidate into one \"skill-maxed\" agent, with a concrete decision framework for which method fits a given skill (hand-writing vs. Skill Creator vs. screen recording), which skill type fits which job (database, artifact, definition, or one-liner), where to find free pre-built skills, and when to strip skills out entirely to test whether a newer model performs better unassisted — all attributed to the creator's stated workflow and named Anthropic sources rather than guessed from documentation alone.",
+    "key_takeaways": [
+      "Jon cites Anthropic engineer Barry Jiang's claim that a year after Skills launched, Anthropic's own team stopped building a new agent per task because one general agent like Claude Code already covers most work, and what's missing is the user's know-how, not another agent.",
+      "He explains a skill is mechanically just a folder with a SKILL.md file; Claude reads only the name/description first as a filter, then opens the rest (steps, templates, scripts) only if that description matches the request.",
+      "Skills, launched in October of the prior year, have become an open standard adopted by Cursor, Codex, and GitHub Copilot, so a skill built for Claude also works in those other tools.",
+      "His recommended default method (\"Level 2\") is doing a task once with Claude while correcting it, then asking Skill Creator to package that session into a skill, sharpening it with each new edge case afterward.",
+      "\"Level 3\" records your screen with narration for visual/clicking tasks Claude can't otherwise learn, e.g. logging into a supplier site with no connector, so Claude learns to drive the browser itself.",
+      "\"Level 4\" skills don't have to be step lists: Jon describes database skills (links to customer records), artifact skills (locked design systems), tiny definition skills, and one-liner prompt skills like a \"grill me\" interview skill.",
+      "Pre-built skills are available free from Anthropic's in-app directory (including Notion, Figma, and Atlassian partner skills) and third-party catalogs like Vercel's skills.sh, which ranks skills by install count.",
+      "Citing Claude Code lead Boris Cherny, Jon recommends periodically clearing CLAUDE.md/skills/hooks to test a bare model, warning that detailed instructions written for older models can \"hobble\" a newer, smarter one — the same reason he says the Claude Code team cut a large chunk of its own system prompt."
+    ],
+    "quick_takeaways": [
+      "Anthropic itself stopped building a new agent per task; one general agent like Claude Code plus the right skill covers most jobs, per engineer Barry Jiang.",
+      "A skill is just a folder with a SKILL.md file; only its name/description is scanned first, so write that part as a clear label matching the real use case.",
+      "Fastest way to build a skill: do the task once with Claude, correct it like training a new hire, then tell it to package the session into a skill via Skill Creator.",
+      "For click-heavy tasks with no Claude connector, record your screen narrating each click; Claude can learn to drive the browser itself from that recording.",
+      "Free pre-built skills exist in Anthropic's in-app directory (including Notion, Figma, Atlassian) and third-party catalogs like Vercel's skills.sh, ranked by installs.",
+      "Claude Code lead Boris Cherny recommends periodically running with zero skills, since old detailed instructions can \"hobble\" newer, smarter models."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Anthropic's Engineers Stopped Building Agents",
+        "description": "Jon opens with Anthropic engineer Barry Jiang's claim that a year after Skills launched, Anthropic's own team stopped building a separate agent for every task because one general agent like Claude Code can already handle work across many fields; what was missing wasn't another agent but the user's know-how, which a skill supplies instead. He frames this with a laptop analogy (the chip is the model, the operating system is the agent, and installed apps are skills) to explain why loading one agent with skills beats building new agents from scratch, setting up the video's promise to walk through six levels of using skills to get ahead of people still bragging about running 100-agent fleets.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 63,
+        "timestamp": "1:03",
+        "title": "Why Fewer Agents Win",
+        "description": "Jon argues that fewer, better-trained agents beat a large fleet, using a management analogy: he'd rather run five superstar employees than 100 people who don't know what they're doing, because 100 undertrained \"digital employees\" become a nightmare to keep on track once none of them have the right skills. The point counters the online trend of bragging about running 100-agent swarms, reframing skill-maxing a single agent as the more effective strategy than multiplying agents.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 115,
+        "timestamp": "1:55",
+        "title": "What a Skill Actually Is",
+        "description": "Jon breaks down Anthropic's own definition: a skill is just a folder, and the key file inside is SKILL.md, a markdown file whose name and description Claude reads first (like a label on a toolbox) to decide whether to open the folder and use what's inside, which can include templates, examples, or small scripts. He walks through Anthropic's diagram of model (center), agent harness (system prompts plus your CLAUDE.md and memory), and skills (outer ring) to draw two conclusions: stop spinning up a new agent via separate workspace folders for every task, and instead load one agent with increasingly sharper skills.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 211,
+        "timestamp": "3:31",
+        "title": "One Agent, Skill-Maxed",
+        "description": "This short segment hammers the practical payoff of the one-agent approach: once you have a single main agent, you \"skill-max\" it by continually sharpening the skills it already uses most, rather than spinning up a brand-new agent you'd have to train from zero. Jon's framing is that every hour invested in a skill compounds, making that one agent better across everything it touches instead of starting over each time a new task appears.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 256,
+        "timestamp": "4:16",
+        "title": "How Skills Have Changed",
+        "description": "Jon notes skills launched in October of the prior year and have evolved since, highlighting two shifts: they are now an open standard that Cursor, Codex, and Copilot have all adopted in the same format, so a skill built for Claude keeps paying off even if you switch AI providers, and the way people use them has moved beyond simple standard-operating-procedure checklists into far more capable forms. This sets up the rest of the video's walkthrough of the specific levels for building and using skills well.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 308,
+        "timestamp": "5:08",
+        "title": "Level 0: Writing a Skill by Hand",
+        "description": "Jon labels manually hand-writing a skill \"Level 0\" and says he never actually recommends this approach because it is slow and the hard way to do it, given that you're already talking to an AI agent capable of writing the skill file itself. He treats this level only as a baseline to be skipped immediately in favor of letting Claude generate skills for you.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 321,
+        "timestamp": "5:21",
+        "title": "Level 1: Letting Claude Build Your Skills",
+        "description": "Jon recommends using Anthropic's own built-in \"Skill Creator\" skill, which ships by default in the Claude app, and telling Claude to always use it whenever you ask for a new skill so every skill you build follows Anthropic's own best practices automatically. His example is a consulting business asking for a skill that turns call notes into a one-page proposal, feeding it a few of the best past proposals so it copies the layout and tone before writing a single line.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 368,
+        "timestamp": "6:08",
+        "title": "Level 2: Do It Once, Then Skillify It",
+        "description": "Jon calls this his go-to method for most people: do the task together with Claude one time while explicitly asking it to watch how you work and every correction you make, then at the end of the session tell it to package everything into a skill using Skill Creator. He says this is exactly how he and most power users build and refine their own skills, since every new edge case you flag afterward sharpens the skill a little further, so the task is partly automated the very next time it comes up.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 449,
+        "timestamp": "7:29",
+        "title": "Level 3: Record Your Screen and Claude Learns It",
+        "description": "For tasks that are mostly about clicking around a screen, Jon suggests recording yourself performing the task once from start to finish while narrating exactly which button you click and why, the way you'd train someone on their first day; Claude then watches that recording back and converts it directly into a skill. His concrete example is a supplier website with no Claude connector at all — recording one weekly login session lets Claude learn to drive the browser and click the same buttons itself, automating that weekly chore going forward.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 516,
+        "timestamp": "8:36",
+        "title": "Level 4: Skills That Aren't Just Steps",
+        "description": "Jon lists four skill types that aren't simple step-by-step instructions. Database skills just link to your own data, like a customer database pointing to each client's purchase history, messaging history, and lifetime value so Claude can write personalized outreach; artifact skills hold a design system of brand colors, fonts, and layouts so every output comes out on-brand automatically; short definition skills pin down what a specific word means to you, like a \"wildcard\" skill; and tiny one-liner skills include things like a \"grill me\" skill that interviews you about your plan one question at a time, or a personal tone/voice skill so scripts sound like you.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 632,
+        "timestamp": "10:32",
+        "title": "Level 5: Using Skills Others Have Built",
+        "description": "Jon points to places to find pre-built skills rather than writing your own from scratch: Anthropic's own in-app directory, which includes partner skills from Notion, Figma, and Atlassian, plus third-party directories like skills.sh from the Vercel team, which ranks community skills by install count; because skills are now an open standard, ones built for Codex or Cursor usually work in Claude too. He recommends letting Claude itself browse a directory and recommend fits rather than scrolling manually, but warns to only pull skills from trusted sources, have your agent check a skill's safety before installing it, and tweak any borrowed skill so it actually matches how you work.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 697,
+        "timestamp": "11:37",
+        "title": "Level 6: Sometimes Use No Skills at All",
+        "description": "Citing Claude Code's creator and lead, Boris Cherny, Jon relays his suggestion to clear out your CLAUDE.md, skills, and hooks every six months just to watch what the bare model does, because detailed instructions written for older models can end up \"hobbling\" a newer, smarter one that could otherwise do more than it's being allowed to. He suggests a concrete test — run a task once with a skill and once without and compare — and notes the Claude Code team itself cut a large chunk of its own system prompt for this exact reason, with Jon's wildcard skill from Level 4 as the deliberate escape hatch for when you want the model's surprise ideas over a locked-in process.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 832,
+        "timestamp": "13:52",
+        "title": "Recap",
+        "description": "Jon closes by restating the video's core thesis: a year after skills launched, one agent loaded with great, continually sharpened skills beats running 100 separate agents you have to babysit every day. He then points viewers again to his paid Skool community for his own Claude video-making skills, prompts, and files, which he's mentioned twice earlier in the video as the first link in the description.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-11-27T12:00:53+02:00",
+    "summarized_at": "2026-11-27T12:04:22+02:00"
+  },
+  {
     "id": "qO_dA52Z5e0",
     "title": "AI Expert: You’re Using AI Wrong (Here’s Where the REAL Money Is) | Guillermo Rauch",
     "channel": "BigDeal by Codie Sanchez",
