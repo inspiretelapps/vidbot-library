@@ -1,5 +1,137 @@
 [
   {
+    "id": "qO_dA52Z5e0",
+    "title": "AI Expert: You’re Using AI Wrong (Here’s Where the REAL Money Is) | Guillermo Rauch",
+    "channel": "BigDeal by Codie Sanchez",
+    "upload_date": "20261124",
+    "duration_seconds": 5846,
+    "thumbnail": "https://i.ytimg.com/vi/qO_dA52Z5e0/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=qO_dA52Z5e0",
+    "description": "AI is changing the way we work, build businesses, and make money. But are you actually using it to get ahead? Guillermo Rauch, founder and CEO of the $10 billion AI startup Vercel, reveals why AI agents are the next big opportunity and how you can take advantage of them before everyone else does. From replacing entire workflows with AI to building a billion-dollar business while raising six kids, Guillermo shares what you need to know to stay ahead in an AI-driven world.\n\nIn this episode, you'll learn:\n\n• Why AI agents are more powerful than assistants and how they’ll change the way we work.\n• Why 99% of businesses aren’t ready for an internet built for AI agents.\n• Why constant improvement matters more than speed when building with AI.\n• How your interactions with AI agents could become your most valuable data.\n• Why endurance, not genius, is the real secret to long-term success.\n\nBizee handles the busywork and paperwork, so you can get your small business set up right. Check it out: https://bizee.com/codie?utm_source=codie-sanchez&utm_medium=creator&utm_campaign=pod-guillermo-rauch-2026-11\n\n___________\n\n00:00:00 Introduction: The Agentic Revolution and Building a $10 Billion Company with Six Kids\n00:03:12 The 777 Work Philosophy: Always On, Always Present\n00:06:14 The One-Person Unicorn: Why Vercel Will Birth Billion-Dollar Solo Founders\n00:07:59 From 3% to 60%: The Explosive Growth of Agent-Generated Deployments\n00:16:11 Marketing to Robots: The New Interface is a Chat Box\n00:20:32 The Software Factory: From Support Tickets to Self-Improving Code\n00:29:22 Hyper-Cognition vs. AI Dependence: The Choice We All Face\n00:40:47 The Traces Economy: Why This Four-Person Acquisition Matters\n00:44:48 Iteration Velocity Over Speed: The Formula for Winning\n00:51:32 Imitate, Iterate, Innovate: Why You Should Ship Things That Already Exist\n01:03:37 Ask and You Shall Receive: The Superpower of the Chat Interface\n01:10:07 Digital Nuclear Weapons: The Cybersecurity Stakes of Coding Agents\n01:20:01 Endurance Over Genius: Building Systems That Last Generations\n01:24:12 The Argentine Warning: Why Greatness Can Be Lost and How to Preserve It\n\nBizee handles the busywork and paperwork, so you can get your small business set up right. Check it out: https://bizee.com/codie?utm_source=codie-sanchez&utm_medium=creator&utm_campaign=pod-guillermo-rauch-2026-11\n\n___________\n\n*MORE FROM BIGDEAL*\n\n🎥 YouTube: https://www.youtube.com/@podcastbigdeal\n\n📸 Instagram: https://www.instagram.com/bigdeal.podcast\n\n📽️ TikTok: https://www.tiktok.com/@big.deal.pod\n\n*MORE FROM CODIE SANCHEZ*\n\n🎥 YouTube: https://www.youtube.com/@CodieSanchezCT\n\n📸 Instagram: https://www.instagram.com/codiesanchez\n\n📽️ TikTok: https://www.tiktok.com/@realcodiesanchez\n\n*OTHER THINGS WE DO*\n\n🌐 Our community: https://contrarianthinking.typeform.com/to/WBztXXID\n\n📰 Free newsletter: https://contrarianthinking.biz/3XWLlZp\n\n📚 Biz buying course: https://contrarianthinking.biz/3NhjGgN\n\n🏠 Resibrands: https://resibrands.com/\n\n💰 CT Capital: https://contrarianthinking.biz/4eRyGOk\n\n🏦 Main St Hold Co: https://contrarianthinking.biz/3YfGa8u",
+    "summary": "**Agentic deployments overtaking human coding:** Guillermo Rauch, founder/CEO of the $10B infrastructure company Vercel, says agent-generated deployments on the platform jumped from 3% at the start of 2026 to over 60% less than ten months later, and he expects roughly 90% by early 2027. He frames this as a shift from \"building an internet for humans\" (the Amazon-style human-centric model Jeff Bezos pioneered) to building one for agents, where businesses must expose machine-readable protocols so an agent can discover, transact with, and even operate a company's services directly — his example is an agent uploading a brand logo to a mug manufacturer without a human mediating. Commercially, he ties this acceleration to Vercel 6x-ing revenue in roughly two to two-and-a-half years to a ~$700 million run rate, with total deployment volume rising from about 1 billion (accumulated over a decade, mostly human-made) to roughly 1.2 billion every four months now that agents dominate.\n\n**The internal \"software factory\":** Rauch describes Vercel automating its own operations this same way: 91% of the company's customer support tickets are resolved by an AI support agent, and many tickets that do escalate are themselves drafted by customers' AI agents flagging documentation inconsistencies. Signals from support tickets, social-media sentiment, and internal \"agent therapy sessions\" (asking agents how the product failed them) feed straight into automated code changes. He is explicit about the downside: this pipeline is vulnerable to prompt injection — malicious instructions hidden inside bug reports that could manipulate the self-repairing system — and he warns organizations risk losing the ability to understand their own infrastructure if engineers stop tracing how the automation actually works.\n\n**Security stakes and the Traces.com acquisition:** Rauch relays that a government official at a national-security meeting called today's coding-capable AI models \"digital nuclear weapons,\" and backs that framing with a concrete figure: an internal Vercel security-auditing agent found 1,000 critical vulnerabilities in the company's own code within 24 hours of being pointed at it. He connects this to an acquisition announced the same day as the interview — a four-person company, Traces.com, built around capturing and owning \"traces\" (the full record of a human or agent's prompts and tool calls) — which he predicts will become as valuable an asset class as Git or Google Docs. He says the deal gives Vercel leverage he'd previously needed a 40-person team to achieve, enabled by existing distribution: 600,000 paying customers, tens of millions of developers, and \"hundreds of trillions\" of tokens processed monthly through its AI Gateway.\n\n**Operating philosophy — iteration velocity and demanded criticism:** His stated management playbook centers on \"iteration velocity\" over raw speed — velocity as a vector with direction, which he calls Vercel's real value proposition to customers rather than any single feature — enforced by nightly automated review of traces (including sales-call traces) asking what could have gone better, and by deliberately refusing praise: he tells employees and enterprise customers alike to skip the \"thumbs up\" and instead list everything wrong, recounting a specific moment where he pushed back on an all-green quarterly business review (\"it can't all be green... show me some blood\"). He also argues people shouldn't be deterred by \"that already exists,\" since AI now allows far more repetitions for imitation than before, and warns against internal \"product prevention groups\" (a term he credits to Nat Friedman) — citing Google's internal caution, despite reportedly having ChatGPT-like technology before ChatGPT existed, as a cautionary contrast to scrappier competitors like OpenAI.\n\n**Personal history and a political closing argument:** He closes on a personal register, describing how he taught himself English in Argentina specifically to read programming manuals, watched a high-achieving, exam-selective high school get captured by student-government politics, and then watched a policy change under President Cristina Fernández (making it illegal to move dollars out of the country) destroy his family's business overnight — citing an acquaintance's BMW dealership being forcibly converted into a coffee-export business as an example. He uses this to warn against complacency in both government and Silicon Valley, framing the AI race against China as something the U.S. should win through open trade and continued dominance from Nvidia, OpenAI, Anthropic, and Vercel, while calling Chinese engineers \"extremely intelligent and hardworking\" rather than dismissing the competition. Caveat: nearly every figure in this conversation (deployment percentages, revenue run-rate, the 1,000-vulnerability count, the 91% support-automation rate) is self-reported by Rauch about his own company, and the host does not challenge or independently verify any of them.",
+    "why_valuable": "Helps operators and builders decide how urgently to prioritize agent-native interfaces, AI-driven security auditing, and capturing \"trace\" data over ordinary feature work, using Vercel's own reported benchmarks — 3%→60%+ agent-generated deployments in under 10 months, 91% support-ticket automation, 1,000 vulnerabilities found by an audit agent in 24 hours — as concrete reference points for what to expect, and plan defenses for, over the next 12 months, while flagging that the figures are Rauch's own unverified claims about his company.",
+    "key_takeaways": [
+      "At 8:03–11:14, Rauch says agent-generated deployments on Vercel rose from 3% at the start of 2026 to over 60% in under ten months, and he predicts roughly 90% by early 2027.",
+      "At 10:19–10:44, he gives deployment-volume context: Vercel took a decade to reach about 1 billion mostly human-made deployments, but is now adding roughly 1.2 billion deployments every four months because of agents.",
+      "At 13:01–13:08, he states Vercel's revenue sits at a roughly $700 million run rate, up from the $600 million-plus figure the host cites moments earlier, after what he describes as 6x revenue growth in 24–30 months.",
+      "At 24:08–24:16, he says 91% of Vercel's own customer support tickets are now resolved by its AI support agent, with many escalated tickets written by customers' AI agents rather than humans.",
+      "At 38:46–41:04, Vercel acquired a four-person company, Traces.com, the same day as the interview, betting that owning \"traces\" — records of human/agent prompts and actions — will match Git or Google Docs in long-term value; Rauch says the deal gives leverage he'd previously needed a 40-person team to get.",
+      "At 1:11:47–1:12:04, Rauch says an internal security-auditing agent found 1,000 critical vulnerabilities in Vercel's own code within 24 hours of being pointed at it — his case for using AI to defend against AI-enabled attacks.",
+      "At 1:10:14–1:10:18, Rauch relays that a government official at a national-security meeting he attended called today's coding-capable AI models \"digital nuclear weapons.\"",
+      "At 52:53–54:02, his stated method for avoiding blind spots is demanding \"critical feedback\" instead of compliments from employees and enterprise customers, plus \"reverse prompting\" — a technique he credits to Coinbase's Brian Armstrong — asking an agent \"what am I not asking?\""
+    ],
+    "quick_takeaways": [
+      "Vercel's agent-generated deployments jumped from 3% to over 60% in under 10 months; Rauch expects ~90% by early 2027.",
+      "91% of Vercel's own support tickets are now resolved by an AI agent, and many escalated tickets are themselves written by customers' AI agents.",
+      "An internal security-auditing agent found 1,000 critical vulnerabilities in Vercel's code within 24 hours — Rauch's case for AI defending against AI-driven attacks.",
+      "Vercel acquired a four-person company, Traces.com, betting that \"traces\" (records of human/agent prompts and actions) will become as valuable as Git or Google Docs.",
+      "Rauch's management rule: demand \"critical feedback\" instead of compliments, plus \"reverse prompting\" agents to surface blind spots.",
+      "Vercel's revenue reportedly reached a ~$700 million run rate after 6x growth in about 2 years, as deployment volume rose from ~1 billion total (over a decade) to ~1.2 billion every four months."
+    ],
+    "chapters": [
+      {
+        "start_seconds": 0,
+        "timestamp": "0:00",
+        "title": "Introduction: The Agentic Revolution and Building a $10 Billion Company with Six Kids",
+        "description": "Rauch opens by describing Vercel as the $10 billion infrastructure company behind deployments for Meta, SpaceX and OpenAI, then pivots to his personal life: he and his wife had their first child the same year he started Vercel, and they now have six kids, with the youngest six weeks old at the time of this recording. He frames parenthood as a motivational anchor rather than an obstacle, saying picturing Vercel as a generational company his children could one day work at gave him sustained drive, and that disciplined family routines, like early bedtimes to prepare for school, forced better time management across the business rather than hurting it.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 192,
+        "timestamp": "3:12",
+        "title": "The 777 Work Philosophy: Always On, Always Present",
+        "description": "He jokes that the Silicon Valley \"996\" schedule (9am–9pm, six days) is \"amateur hour\" and describes his own rhythm as closer to always being on while always having the opportunity to be present, crediting AI agents with returning him time rather than consuming it. He says he's now more connected to his family on weekends than ever before because he can offload research and open-ended tasks to long-horizon agents that keep working while he steps away, comparing checking their results later to a \"Christmas morning\" surprise rather than a status update he has to babysit.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 374,
+        "timestamp": "6:14",
+        "title": "The One-Person Unicorn: Why Vercel Will Birth Billion-Dollar Solo Founders",
+        "description": "Rauch predicts Vercel is positioned to produce the first billion-dollar company built by a single founder, because the platform automates infrastructure scaling from zero to a billion requests per second so a solo builder can focus purely on product and unique value. He notes that AI coding tools increasingly deploy the applications they generate directly onto Vercel, meaning an individual can now reach a global audience almost overnight off the back of one tweet or viral moment, a scale of reach he says previously required a full engineering team to support.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 479,
+        "timestamp": "7:59",
+        "title": "From 3% to 60%: The Explosive Growth of Agent-Generated Deployments",
+        "description": "Rauch says that at the start of 2026 only 3% of Vercel's deployments were agent-generated; within less than ten months that figure passed 60%, and he predicts around 90% by early 2027, driven by engineers being the fastest adopters of efficient new technology. He contrasts this with the human-centric internet Jeff Bezos pioneered with Amazon's one-click buy button, arguing today's internet must instead be built for agents as the primary \"buyer,\" and cites Vercel's own trajectory as proof of the stakes: roughly 6x revenue growth in 24–30 months to a $700 million run rate, with deployment volume rising from about 1 billion total over a decade (mostly human-made) to roughly 1.2 billion every four months now.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 971,
+        "timestamp": "16:11",
+        "title": "Marketing to Robots: The New Interface is a Chat Box",
+        "description": "Rauch argues the next marketing frontier is being discoverable and transactable by AI agents rather than humans, since the \"human-centric internet\" of pretty websites and SEO is giving way to an environment where agents need APIs and protocols to complete tasks — his example is an agent needing to find a mug supplier and then actually upload a brand logo through that supplier's API, something he estimates 99% of the web isn't yet built to support. He predicts the resulting \"agentic economy\" will dwarf the human economy, with purely human-mediated commerce (his example: paying a food truck with Square) shrinking to roughly 0.1% of transactions.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1232,
+        "timestamp": "20:32",
+        "title": "The Software Factory: From Support Tickets to Self-Improving Code",
+        "description": "He describes Vercel's internal \"software factory\": 91% of the company's own customer-support tickets are now resolved by its support agent, and tickets that do escalate are increasingly written by customers' AI agents in dense, code-like language flagging documentation contradictions. Signals from tickets, social sentiment, and internal \"agent therapy sessions\" (asking agents how Vercel could have served them better) feed directly into shipped code changes, but he flags real risk alongside the efficiency gain: prompt injection attacks hidden inside bug reports could manipulate this self-repairing pipeline, and increasing autonomy raises the danger that engineers stop understanding the systems they're responsible for.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 1762,
+        "timestamp": "29:22",
+        "title": "Hyper-Cognition vs. AI Dependence: The Choice We All Face",
+        "description": "Rauch argues humans must build \"hypercognition\" to keep pace with AI rather than become passive consumers of it, illustrating his own habitual paranoia about software reliability (he distrusts the under-specified languages running airplane software) as the same instinct behind Vercel's obsession with planning for low-probability \"black swan\" failures across its 20 global data centers — citing a real incident where Dubai, Vercel's 20th region, went offline after a drone strike, with global redundancy keeping the platform up regardless. He also directly addresses employee fears of replacement, pointing to his own framework Next.js (downloaded roughly 50 million times a week) as proof one person's expertise can scale globally, and urging companies to \"download\" their best marketer's, salesperson's, or analyst's know-how into agents instead of cutting headcount, since scaling a company by simply adding more people was never the Silicon Valley ideal in the first place.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2447,
+        "timestamp": "40:47",
+        "title": "The Traces Economy: Why This Four-Person Acquisition Matters",
+        "description": "Rauch reveals Vercel acquired a four-person company, Traces.com, announced the same day as this interview, built around the concept of a \"trace\" — the recorded exchange of a prompt, an agent's decision, and its resulting call to the world. He argues traces are becoming one of the most important units of intelligence going forward and predicts they'll matter to companies the way Git, GitHub, or Google Docs do today, saying the tiny team gives Vercel leverage that would previously have required a 40-person unit, made possible by Vercel's existing distribution of 600,000 paying customers, tens of millions of developers, and token volume in the hundreds of trillions per month through its AI Gateway.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 2688,
+        "timestamp": "44:48",
+        "title": "Iteration Velocity Over Speed: The Formula for Winning",
+        "description": "Rauch explains that velocity, unlike speed, has direction, and this is why he tells Vercel customers the platform's real value isn't any single feature but improved \"iteration velocity\" toward a goal they already know they want to reach. He describes modeling this personally by reflecting nightly on what could have gone better (which he calls \"baby recursive self-improvement\") and says Vercel now runs automated nightly jobs reviewing traces, including sales-call traces, to flag what a rep could have done differently; he illustrates his aversion to complacency with a concrete anecdote of pushing back on an all-green quarterly business review by telling the team, \"it can't all be green... show me some blood.\"",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3092,
+        "timestamp": "51:32",
+        "title": "Imitate, Iterate, Innovate: Why You Should Ship Things That Already Exist",
+        "description": "Rauch says people shouldn't be discouraged from building something just because \"that already exists,\" crediting advice from an unnamed former colleague he considers one of the greatest engineers he's worked with, who urged newcomers to imitate first because the creative process itself reveals what makes a product unique — and argues AI now makes many more repetitions of that imitation possible than before. He also describes deliberately soliciting harsh feedback: a technique called \"reverse prompting\" he credits to Coinbase's Brian Armstrong (asking an agent \"what am I not asking?\"), and his own practice of telling enterprise clients to skip compliments and instead list every way Vercel is falling short, warning that unspoken weaknesses become blind spots competitors exploit; he also warns against internal \"product prevention groups\" (a term from his friend Nat Friedman), citing Google's heavy internal caution — despite reportedly having ChatGPT-like technology before ChatGPT existed — as a contrast to scrappier risk-tolerant startups like OpenAI.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 3817,
+        "timestamp": "1:03:37",
+        "title": "Ask and You Shall Receive: The Superpower of the Chat Interface",
+        "description": "Rauch's core thesis here is that the chat-box interface rewards people simply willing to ask for things, and he tells enterprises the real shift isn't a feature update but a wholesale change in UI paradigm from forms, menus, and clicks to conversational agents, forcing a near-total rebuild of what he calls agentic infrastructure. He also argues ChatGPT's assistant framing was actually a less important milestone than Claude Code's agent framing, since agents reason and take action rather than just answer on demand, and says people who grow up treating AI as an autonomous doer rather than an on-demand encyclopedia — like his six-week-old and three-year-old — will have a structural advantage over those who adapted to AI later.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 4207,
+        "timestamp": "1:10:07",
+        "title": "Digital Nuclear Weapons: The Cybersecurity Stakes of Coding Agents",
+        "description": "Rauch relays that a government official at a national-security meeting he attended called today's coding-capable AI models \"digital nuclear weapons,\" reflecting how seriously officials now rate offensive AI-coding capability, and backs the framing with a concrete figure: an internal Vercel audit agent pointed at the company's own code found 1,000 critical vulnerabilities within 24 hours. He broadens the point to information warfare, saying he's personally seen large organized efforts to distort reality around contentious topics (he singles out coverage of the Middle East as an example he deliberately won't opine on) and argues individuals need to build personal \"cyber shields\" of discernment using AI themselves rather than become passive consumers of manipulated content, the way some people treated television.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 4801,
+        "timestamp": "1:20:01",
+        "title": "Endurance Over Genius: Building Systems That Last Generations",
+        "description": "Rauch frames his own resilience around staying \"principled\" and grounded in personal and company values, including wanting a world with \"more creators than consumers,\" and credits his path — teaching himself English in Argentina specifically to read programming manuals, then building a $10 billion company — as proof the journey matters more than any single win. He describes a personal mental exercise of recalling his worst day to put current struggles in perspective, and argues the real discipline is maintaining pace indefinitely rather than resting on having \"arrived,\" even while leading a company he says is growing faster, at larger scale, than almost any prior infrastructure company.",
+        "source": "creator"
+      },
+      {
+        "start_seconds": 5052,
+        "timestamp": "1:24:12",
+        "title": "The Argentine Warning: Why Greatness Can Be Lost and How to Preserve It",
+        "description": "Rauch closes by using his Argentine upbringing as a cautionary tale: a high-achieving, exam-selective high school was nonetheless captured internally by student-government politics he calls a \"pathogen of communism,\" and a policy change under President Cristina Fernández making it illegal to move dollars out of the country destroyed his family's business overnight, forcing an acquaintance's BMW dealership to be converted by government mandate into a coffee-export business. He draws a parallel to current U.S. and Silicon Valley dynamics, warning against overcautious \"product prevention\" bureaucracy and politicians who perform competence on social media without substance, and closes by urging the U.S. to keep winning the AI race against China through open trade and continued dominance from Nvidia, OpenAI, Anthropic, and Vercel — while calling Chinese engineers \"extremely intelligent and hardworking\" rather than dismissing the competition — before pointing listeners to follow him on X and try vercel.com/new to deploy their first agent.",
+        "source": "creator"
+      }
+    ],
+    "first_detected_at": "2026-11-27T06:00:52+02:00",
+    "summarized_at": "2026-11-27T06:05:57+02:00"
+  },
+  {
     "id": "zUZ35iW8ec4",
     "title": "The 7 Biggest AI Shifts Heading Into 2027 (And What to Do Now)",
     "channel": "Tristen O'Brien",
